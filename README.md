@@ -1,3 +1,6 @@
+This is an extension of the orginial BoostSRL from StarlingLab. Inference was extendex by scaling weight of MLNs.
+
+
 # BoostSRL - v1.1
 
 *BoostSRL (Boosting for Statistical Relational Models) is a gradient-boosting based approach to learning different types of SRL models.*
