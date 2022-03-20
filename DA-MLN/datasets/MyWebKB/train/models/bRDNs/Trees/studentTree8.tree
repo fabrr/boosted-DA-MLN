@@ -1,0 +1,7 @@
+setParam: stringsAreCaseSensitive = true.
+
+usePrologVariables: true.
+
+
+(student(A, -0.001199843406731743) :- linkto(A, B), linkto(A, C), linkto(_, B), has(C, length)).
+(student(A, -2.3790289286937874E-5) :- linkto(A, B), linkto(A, _), linkto(_, B), has(A, _)).

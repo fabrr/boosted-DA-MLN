@@ -1,0 +1,4 @@
+0,1309 female(a) v !actor(a) /*  */
+0,0147 female(a) v !actor(a) v !movie(b, a) v !movie(b, _) v !movie(b, _) /*  */
+-1,2624 female(a) v !director(a) /*  */
+0,2265 female(a) v !actor(a) v !movie(b, a) v !movie(b, _) /*  */

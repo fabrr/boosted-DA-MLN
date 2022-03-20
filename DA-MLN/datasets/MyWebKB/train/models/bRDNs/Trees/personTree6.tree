@@ -1,0 +1,7 @@
+setParam: stringsAreCaseSensitive = true.
+
+usePrologVariables: true.
+
+
+(person(A, 0.43652459531005866) :- has(A, browser)).
+(person(A, 0.1665481748705476) :- has(A, univers)).

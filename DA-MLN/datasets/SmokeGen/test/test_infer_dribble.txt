@@ -1,0 +1,135 @@
+% Running on host: DESKTOP-0S2LA4F
+
+% Switching to VarIndicator = uppercase.
+
+% Unset'ing VarIndicator.
+
+% Calling ILPouterLoop from createRegressionOuterLooper.
+
+% getInputArgWithDefaultValue: args=[datasets\SmokeGen\test/test_pos.txt, datasets\SmokeGen\test/test_neg.txt, datasets\SmokeGen\test/test_bk.txt, datasets\SmokeGen\test/test_facts.txt]
+%  for N=0: args[N]=datasets\SmokeGen\test/test_pos.txt
+
+% getInputArgWithDefaultValue: args=[datasets\SmokeGen\test/test_pos.txt, datasets\SmokeGen\test/test_neg.txt, datasets\SmokeGen\test/test_bk.txt, datasets\SmokeGen\test/test_facts.txt]
+%  for N=1: args[N]=datasets\SmokeGen\test/test_neg.txt
+
+% getInputArgWithDefaultValue: args=[datasets\SmokeGen\test/test_pos.txt, datasets\SmokeGen\test/test_neg.txt, datasets\SmokeGen\test/test_bk.txt, datasets\SmokeGen\test/test_facts.txt]
+%  for N=2: args[N]=datasets\SmokeGen\test/test_bk.txt
+
+% getInputArgWithDefaultValue: args=[datasets\SmokeGen\test/test_pos.txt, datasets\SmokeGen\test/test_neg.txt, datasets\SmokeGen\test/test_bk.txt, datasets\SmokeGen\test/test_facts.txt]
+%  for N=3: args[N]=datasets\SmokeGen\test/test_facts.txt
+
+% Welcome to the WILL ILP/SRL systems.
+
+
+% Switching to VarIndicator = uppercase.
+
+% Unset'ing VarIndicator.
+% Reading background theory from dir: null
+% Load '../smoke_bk.txt'.
+
+% Switching to VarIndicator = uppercase.
+
+***** Warning: At least one argument in a mode should be an input argument.  You provided signature = [const], types = [`Person] for 'r_smokes'. *****
+
+
+***** Warning: At least one argument in a mode should be an input argument.  You provided signature = [const], types = [`Person] for 'r_not_smokes'. *****
+
+
+***** Warning: % Since this is the first setting of the notation for variables, will keep:
+%   variableIndicator = uppercase *****
+
+
+***** Warning: % Since this is the first setting of the notation for variables, will keep:
+%   variableIndicator = uppercase *****
+
+% [ LazyGroundClauseIndex ]  Building full index for mode/1 with 1 assertions.
+% LoadAllModes() called.  Currently loaded modes: []
+% [ LazyGroundClauseIndex ]  Building full index for sameAs/2 with 2 assertions.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 1:  Building full index for exp/3.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 0:  Building full index for log/3.
+% LoadAllLibraries() called.  Currently loaded libraries: [listsInLogic, differentInLogic, modes_arithmeticInLogic, inlines_comparisonInLogic, modes_listsInLogic, inlines_differentInLogic, modes_differentInLogic, arithmeticInLogic, inlines_listsInLogic, modes_comparisonInLogic, comparisonInLogic, inlines_arithmeticInLogic]
+
+%  Read the facts.
+%  Have read 1.331 facts.
+% Have read 0 examples from 'datasets\SmokeGen\test' [datasets\SmokeGen\test/test*].
+% Have read 0 examples from 'datasets\SmokeGen\test' [datasets\SmokeGen\test/test*].
+
+%  LearnOneClause initialized.
+
+% The outer looper has been created.
+
+% Initializing the ILP inner looper.
+
+% Started collecting constants
+
+% Collecting the types of constants.
+
+% Looking at the training examples to see if any types of new constants can be inferred.
+
+***** Warning: targetPredicates=null *****
+
+
+***** Warning: targetArgSpecs=null *****
+
+% Time to collect constants: 65 milliseconds
+% Time to collect examples: 0 seconds
+
+% Read 0 pos examples and 0 neg examples.
+% Time to init learnOneClause: 81 milliseconds
+% Old dirdatasets\SmokeGen\train\models\
+
+% Have 0 'raw' positive examples and kept 0.
+% Have 0 'raw' negative examples and kept 0.
+% No pos ex for smokes
+% No neg ex for smokes
+
+% NEW target:                 smokes(D)
+%  targetPred:                smokes/1
+%  targetArgTypes:            signature = [const], types = [+Person]
+%  targets:                   [smokes(D)]
+%  targetPredicates:          [smokes/1]
+%  targetArgSpecs:            [[D[+Person]]]
+%  variablesInTargets:        [[D]]
+Creating neg ex for: smokes
+
+% Target variant already exists.  Skipping target:                 smokes(E).
+%  targetArgTypes:            signature = [const], types = [+Person]
+%  targetArgSpecs:            [[D[+Person]]]
+
+% processing backup's for smokes
+%  POS EX = 25
+%  NEG EX = 75
+
+% Memory usage by WILLSetup (just counts # targets?):
+%  |backupPosExamples| = 1
+%  |backupNegExamples| = 1
+%  |predicatesAsFacts| = 1
+%  |addedToFactBase|   = 0
+% Did not learn a model for 'smokes' this run.
+%   loadModel (#0): datasets\SmokeGen\train\models\bRDNs/Trees/smokesTree0.tree
+%   loadModel (#1): datasets\SmokeGen\train\models\bRDNs/Trees/smokesTree1.tree
+%   loadModel (#2): datasets\SmokeGen\train\models\bRDNs/Trees/smokesTree2.tree
+%   loadModel (#3): datasets\SmokeGen\train\models\bRDNs/Trees/smokesTree3.tree
+%   loadModel (#4): datasets\SmokeGen\train\models\bRDNs/Trees/smokesTree4.tree
+%   loadModel (#5): datasets\SmokeGen\train\models\bRDNs/Trees/smokesTree5.tree
+%   loadModel (#6): datasets\SmokeGen\train\models\bRDNs/Trees/smokesTree6.tree
+%   loadModel (#7): datasets\SmokeGen\train\models\bRDNs/Trees/smokesTree7.tree
+%   loadModel (#8): datasets\SmokeGen\train\models\bRDNs/Trees/smokesTree8.tree
+%   loadModel (#9): datasets\SmokeGen\train\models\bRDNs/Trees/smokesTree9.tree
+%   loadModel (#10): datasets\SmokeGen\train\models\bRDNs/Trees/smokesTree10.tree
+%   loadModel (#11): datasets\SmokeGen\train\models\bRDNs/Trees/smokesTree11.tree
+%   loadModel (#12): datasets\SmokeGen\train\models\bRDNs/Trees/smokesTree12.tree
+%   loadModel (#13): datasets\SmokeGen\train\models\bRDNs/Trees/smokesTree13.tree
+%   loadModel (#14): datasets\SmokeGen\train\models\bRDNs/Trees/smokesTree14.tree
+%   loadModel (#15): datasets\SmokeGen\train\models\bRDNs/Trees/smokesTree15.tree
+%   loadModel (#16): datasets\SmokeGen\train\models\bRDNs/Trees/smokesTree16.tree
+%   loadModel (#17): datasets\SmokeGen\train\models\bRDNs/Trees/smokesTree17.tree
+%   loadModel (#18): datasets\SmokeGen\train\models\bRDNs/Trees/smokesTree18.tree
+%   loadModel (#19): datasets\SmokeGen\train\models\bRDNs/Trees/smokesTree19.tree
+%  Done loading 20 models.
+File: datasets\SmokeGen\test/advice.txt doesnt exist.Hence no advice loaded
+
+Loading domain sizes... 
+
+
+// Closed by a createDribble call with file = datasets\SmokeGen\test/test.txt

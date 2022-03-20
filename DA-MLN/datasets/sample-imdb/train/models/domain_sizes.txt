@@ -1,0 +1,3 @@
+movie: 19
+person: 67
+genre: 6

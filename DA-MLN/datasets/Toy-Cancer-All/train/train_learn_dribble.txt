@@ -1,0 +1,1133 @@
+% Running on host: DESKTOP-0S2LA4F
+
+% Switching to VarIndicator = uppercase.
+
+% Unset'ing VarIndicator.
+
+% Calling ILPouterLoop from createRegressionOuterLooper.
+
+% getInputArgWithDefaultValue: args=[datasets\Toy-Cancer-All\train/train_pos.txt, datasets\Toy-Cancer-All\train/train_neg.txt, datasets\Toy-Cancer-All\train/train_bk.txt, datasets\Toy-Cancer-All\train/train_facts.txt]
+%  for N=0: args[N]=datasets\Toy-Cancer-All\train/train_pos.txt
+
+% getInputArgWithDefaultValue: args=[datasets\Toy-Cancer-All\train/train_pos.txt, datasets\Toy-Cancer-All\train/train_neg.txt, datasets\Toy-Cancer-All\train/train_bk.txt, datasets\Toy-Cancer-All\train/train_facts.txt]
+%  for N=1: args[N]=datasets\Toy-Cancer-All\train/train_neg.txt
+
+% getInputArgWithDefaultValue: args=[datasets\Toy-Cancer-All\train/train_pos.txt, datasets\Toy-Cancer-All\train/train_neg.txt, datasets\Toy-Cancer-All\train/train_bk.txt, datasets\Toy-Cancer-All\train/train_facts.txt]
+%  for N=2: args[N]=datasets\Toy-Cancer-All\train/train_bk.txt
+
+% getInputArgWithDefaultValue: args=[datasets\Toy-Cancer-All\train/train_pos.txt, datasets\Toy-Cancer-All\train/train_neg.txt, datasets\Toy-Cancer-All\train/train_bk.txt, datasets\Toy-Cancer-All\train/train_facts.txt]
+%  for N=3: args[N]=datasets\Toy-Cancer-All\train/train_facts.txt
+
+% Welcome to the WILL ILP/SRL systems.
+
+
+% Switching to VarIndicator = uppercase.
+
+% Unset'ing VarIndicator.
+% Reading background theory from dir: null
+% Load '../toy_cancer_bk.txt'.
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to standard-logic notation for variables; previous setting = uppercase
+
+% Switching to VarIndicator = lowercase.
+
+***** Warning: % Since this is the first setting of the notation for variables, will keep:
+%   variableIndicator = lowercase *****
+
+
+***** Warning: % Since this is the first setting of the notation for variables, will keep:
+%   variableIndicator = lowercase *****
+
+% [ LazyGroundClauseIndex ]  Building full index for mode/1 with 1 assertions.
+% LoadAllModes() called.  Currently loaded modes: []
+
+% Switching to Prolog notation for variables; previous setting = lowercase
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = lowercase.
+
+% Switching to Prolog notation for variables; previous setting = lowercase
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = lowercase.
+
+% Switching to Prolog notation for variables; previous setting = lowercase
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = lowercase.
+
+% Switching to Prolog notation for variables; previous setting = lowercase
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = lowercase.
+% [ LazyGroundClauseIndex ]  Building full index for sameAs/2 with 2 assertions.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 1:  Building full index for exp/3.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 0:  Building full index for log/3.
+% LoadAllLibraries() called.  Currently loaded libraries: [listsInLogic, differentInLogic, modes_arithmeticInLogic, inlines_comparisonInLogic, modes_listsInLogic, inlines_differentInLogic, modes_differentInLogic, arithmeticInLogic, inlines_listsInLogic, modes_comparisonInLogic, comparisonInLogic, inlines_arithmeticInLogic]
+
+%  Read the facts.
+%  Have read 0 facts.
+% Have read 95 examples from 'datasets\Toy-Cancer-All\train' [datasets\Toy-Cancer-All\train/train*].
+% Have read 325 examples from 'datasets\Toy-Cancer-All\train' [datasets\Toy-Cancer-All\train/train*].
+
+%  LearnOneClause initialized.
+
+% The outer looper has been created.
+
+% Initializing the ILP inner looper.
+
+% NEW target:                 friends(a, b)
+%  targetPred:                friends/2
+%  targetArgTypes:            signature = [Const, Const], types = [+Person, -Person]
+%  targets:                   [friends(a, b)]
+%  targetPredicates:          [friends/2, smokes/1, cancer/1]
+%  targetArgSpecs:            [[a[+Person], b[-Person]]]
+%  variablesInTargets:        [[a, b]]
+
+% NEW target:                 smokes(c)
+%  targetPred:                smokes/1
+%  targetArgTypes:            signature = [Const], types = [+Person]
+%  targets:                   [friends(a, b), smokes(c)]
+%  targetPredicates:          [friends/2, smokes/1, cancer/1]
+%  targetArgSpecs:            [[a[+Person], b[-Person]], [c[+Person]]]
+%  variablesInTargets:        [[a, b], [c]]
+
+% NEW target:                 cancer(d)
+%  targetPred:                cancer/1
+%  targetArgTypes:            signature = [Const], types = [+Person]
+%  targets:                   [friends(a, b), smokes(c), cancer(d)]
+%  targetPredicates:          [friends/2, smokes/1, cancer/1]
+%  targetArgSpecs:            [[a[+Person], b[-Person]], [c[+Person]], [d[+Person]]]
+%  variablesInTargets:        [[a, b], [c], [d]]
+
+% Started collecting constants
+
+% Collecting the types of constants.
+
+% Looking at the training examples to see if any types of new constants can be inferred.
+% Time to collect constants: 16 milliseconds
+% Time to collect examples: 0 seconds
+
+% Read 95 pos examples and 325 neg examples.
+% Time to init learnOneClause: 32 milliseconds
+% Old dirnull
+Setting model dir
+
+% Have 95 'raw' positive examples and kept 95.
+% Have 325 'raw' negative examples and kept 325.
+
+% processing backup's for smokes
+%  POS EX = 7
+%  NEG EX = 13
+
+% processing backup's for cancer
+%  POS EX = 6
+%  NEG EX = 14
+
+% processing backup's for friends
+%  POS EX = 82
+%  NEG EX = 298
+
+% Memory usage by WILLSetup (just counts # targets?):
+%  |backupPosExamples| = 3
+%  |backupNegExamples| = 3
+%  |predicatesAsFacts| = 0
+%  |addedToFactBase|   = 0
+datasets\Toy-Cancer-All\train/models/
+File: datasets\Toy-Cancer-All\train/advice.txt doesnt exist.Hence no advice loaded
+% Learning 1 trees in this iteration for smokes
+
+% Learn model for: smokes
+% Kept 7 of the 7 positive examples.
+% Kept 13 of the 13 negative examples.
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1,797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1,797693135e+308) into the LAST position (#1) in the search queue.
+Variance:0.22749999999999998
+Set score:0.0025
+% Dataset size: 20
+Computing probabilities
+prob time:0 seconds
+No hidden examples for : smokes
+Time to build dataset: 0 seconds
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1,797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1,797693135e+308) into the LAST position (#1) in the search queue.
+Variance:0.22750000000000006
+Set score:0.0025
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% Have these 10 positive seeds: 0 2 3 4 5 7 9 10 11 15
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% LearnOneClause Parameters:
+%   Targets (4):
+%    friends(+Person, -Person),
+%    friends(-Person, +Person),
+%    smokes(+Person),
+%    cancer(+Person)
+%  Modes (39):
+%    addList(+willList, #willNumber),
+%    multiplyList(+willList, #willNumber),
+%    abs(+willNumber, &willNumber),
+%    minus(+willNumber, &willNumber),
+%    minus(+willNumber, +willNumber, &willNumber),
+%    plus(+willNumber, +willNumber, &willNumber),
+%    mult(+willNumber, +willNumber, &willNumber),
+%    div(+willNumber, +willNumber, &willNumber),
+%    allNumbers(+willList),
+%    positiveNumber(+willNumber),
+%    negativeNumber(+willNumber),
+%    in0toDot001(+willNumber),
+%    in0toDot01(+willNumber),
+%    in0toDot1(+willNumber),
+%    in0to1(+willNumber),
+%    in0to10(+willNumber),
+%    in0to100(+willNumber),
+%    in0to1000(+willNumber),
+%    equalWithTolerance(+willNumber, +willNumber, &willNumber),
+%    greaterOrEqualDifference(+willNumber, +willNumber, &willNumber),
+%    smallerOrEqualDifference(+willNumber, +willNumber, &willNumber),
+%    isaEqualTolerance(+willNumber),
+%    lessThan(+willNumber, +willNumber),
+%    greaterThan(+willNumber, +willNumber),
+%    lessThanOrEqual(+willNumber, +willNumber),
+%    greaterThanOrEqual(+willNumber, +willNumber),
+%    inBetweenOO(+willNumber, +willNumber, +willNumber),
+%    inBetweenCO(+willNumber, +willNumber, +willNumber),
+%    inBetweenOC(+willNumber, +willNumber, +willNumber),
+%    inBetweenCC(+willNumber, +willNumber, +willNumber),
+%    memberOfList(+willAnything, +willList),
+%    firstInList(+willList, &willAnything),
+%    restOfList(+willList, &willList),
+%    positionInList(+willAnything, +willList, &willNumber),
+%    nthInList(+willNumber, +willList, &willAnything),
+%    lengthOfList(+willList, &willNumber),
+%    friends(+Person, -Person),
+%    friends(-Person, +Person),
+%    cancer(+Person)
+
+% target           = smokes(c)
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.1E-7) for clause:  smokes(_).  [covers 20,0/20,0 pos, 0,0/0,0 neg]
+% Most-general root: smokes(_).  [covers 20,0/20,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #1, bodyLen=0] 'smokes(_).  [covers 20,0/20,0 pos, 0,0/0,0 neg]' score=-Infinity
+% [ LazyGroundClauseIndex ]  Building full index for friends/2 with 82 assertions.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 0:  Building full index for friends/2.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 1:  Building full index for friends/2.
+% [ LazyGroundClauseIndex ]  Building full index for cancer/1 with 6 assertions.
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 1 variant children.  Sending 3 items to OPEN for evaluation and possible insertion.
+% Have created 3 valid-on-seeds descendants and have picked up 1 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.12E-6) for clause:  friends(a, _) => smokes(a).  [covers 20,0/20,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.12E-6) for clause:  friends(_, a) => smokes(a).  [covers 20,0/20,0 pos, 0,0/0,0 neg]
+%     Score = -2,547620 (regressionFit = 2,547619, penalties=1.0100000000000003E-6) for clause:  cancer(a) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -2,547620): cancer(a) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#2 of outerLoop #1, bodyLen=1] 'cancer(a) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]' score=-2.5476200576190466
+%  At # nodes expanded = 2, |OPEN| = 2.  Pruned 1 variant children.  Sending 2 items to OPEN for evaluation and possible insertion.
+% Have created 2 valid-on-seeds descendants and have picked up 1 bad extensions.
+%     Score = -2,495713 (regressionFit = 2,495711, penalties=2.1200000000000005E-6) for clause:  cancer(a) ^ friends(a, _) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -2,495713): cancer(a) ^ friends(a, _) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+%     Score = -2,495713 (regressionFit = 2,495711, penalties=2.1200000000000005E-6) for clause:  cancer(a) ^ friends(_, a) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#3 of outerLoop #1, bodyLen=1:2] 'cancer(a) ^ friends(a, _) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]' score=-2.495712816379854
+%  At # nodes expanded = 3, |OPEN| = 3.  Pruned 3 variant children.  Sending 6 items to OPEN for evaluation and possible insertion.
+% Have created 6 valid-on-seeds descendants and have picked up 2 bad extensions.
+%     Score = -2,761148 (regressionFit = 2,761145, penalties=3.130000000000001E-6) for clause:  cancer(a) ^ friends(a, _) ^ friends(a, _) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+%     Score = -2,495714 (regressionFit = 2,495711, penalties=2.920000000000001E-6) for clause:  cancer(a) ^ friends(a, b) ^ friends(b, a) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+%     Score = -2,419668 (regressionFit = 2,419665, penalties=3.0300000000000002E-6) for clause:  cancer(a) ^ friends(a, b) ^ friends(b, _) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -2,419668): cancer(a) ^ friends(a, b) ^ friends(b, _) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+%     Score = -2,761148 (regressionFit = 2,761145, penalties=3.130000000000001E-6) for clause:  cancer(a) ^ friends(a, _) ^ friends(_, a) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+%     Score = -2,419668 (regressionFit = 2,419665, penalties=3.0300000000000002E-6) for clause:  cancer(a) ^ friends(a, b) ^ friends(_, b) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+%     Score = -2,091553 (regressionFit = 2,091550, penalties=2.920000000000001E-6) for clause:  cancer(a) ^ friends(a, b) ^ cancer(b) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -2,091553): cancer(a) ^ friends(a, b) ^ cancer(b) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#4 of outerLoop #1, bodyLen=2:3] 'cancer(a) ^ friends(a, b) ^ friends(b, _) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]' score=-2.419667772168862
+
+% Consider expanding [#5 of outerLoop #1, bodyLen=2:3] 'cancer(a) ^ friends(a, b) ^ friends(_, b) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]' score=-2.419667772168862
+
+% Consider expanding [#6 of outerLoop #1, bodyLen=1:2] 'cancer(a) ^ friends(_, a) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]' score=-2.495712816379854
+%  At # nodes expanded = 6, |OPEN| = 5.  Pruned 3 variant children.  Sending 6 items to OPEN for evaluation and possible insertion.
+% Have created 6 valid-on-seeds descendants and have picked up 2 bad extensions.
+%     Score = -2,419668 (regressionFit = 2,419665, penalties=3.0300000000000002E-6) for clause:  cancer(a) ^ friends(b, a) ^ friends(b, _) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+%     Score = -2,761148 (regressionFit = 2,761145, penalties=3.130000000000001E-6) for clause:  cancer(a) ^ friends(_, a) ^ friends(_, a) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+%     Score = -2,419668 (regressionFit = 2,419665, penalties=3.0300000000000002E-6) for clause:  cancer(a) ^ friends(b, a) ^ friends(_, b) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+%     Score = -2,091553 (regressionFit = 2,091550, penalties=2.920000000000001E-6) for clause:  cancer(a) ^ friends(b, a) ^ cancer(b) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#7 of outerLoop #1, bodyLen=2:3] 'cancer(a) ^ friends(b, a) ^ friends(b, _) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]' score=-2.419667772168862
+
+% Consider expanding [#8 of outerLoop #1, bodyLen=2:3] 'cancer(a) ^ friends(b, a) ^ friends(_, b) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]' score=-2.419667772168862
+
+% Consider expanding [#9 of outerLoop #1, bodyLen=2:3] 'cancer(a) ^ friends(a, b) ^ friends(b, a) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]' score=-2.495713616379854
+
+***** Warning: #1 TOO MANY NODES CONSIDERED (i.e., 'expanded') for 'LearnOneClause': nodesConsidered = 10 and maxNodesToConsider = 10. *****
+
+
+% The best node found: cancer(a) ^ friends(a, b) ^ cancer(b) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+
+% The best node found: cancer(a) ^ friends(a, b) ^ cancer(b) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+
+% Expanding node at Level 0 with score = 1,797693e+308.
+% Will extend: cancer(a) ^ friends(a, b) ^ cancer(b) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+Comparing variance: 0.06287733945488953 to score=0.0025 #egs=6.0
+Comparing variance: 0.12244897959183675 to score=0.0025 #egs=14.0
+%   Creating a TRUE-branch leaf because wgtedCountTrueBranchPos = 6,0 < 2.1 * minPosCov = 6,3
+%   Creating a FALSE-branch interior node with wgtedCountFalseBranchPos = 14,0
+%      addToQueueOfTreeStructuredLearningTasks (level=1; score=-0,122449)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 1 and with score = -0,122449) into the LAST position (#1) in the search queue.
+
+% Time for loop #1: 342 milliseconds.
+% Internal node max length = 2
+% Max tree depth in lits   = 12
+% Max tree depth in nodes  = 5
+% Max number of clauses    = 8
+
+% On cycle #1, the best clause found is:
+%      cancer(a) ^ friends(a, b) ^ cancer(b) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+% This clause covers 6 positive examples, of which 6 are newly covered.
+% It also covers 0 negative examples, of which 0 are newly covered.
+
+% Have these 10 positive seeds: 0 1 2 3 4 5 6 7 8 9
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = smokes(c)
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.1E-7) for clause:  smokes(_).  [covers 14,0/14,0 pos, 0,0/0,0 neg]
+% Most-general root: smokes(_).  [covers 14,0/14,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #2, bodyLen=0] 'smokes(_).  [covers 14,0/14,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 1 variant children.  Sending 2 items to OPEN for evaluation and possible insertion.
+% Have created 2 valid-on-seeds descendants and have picked up 2 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.12E-6) for clause:  friends(a, _) => smokes(a).  [covers 14,0/14,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.12E-6) for clause:  friends(_, a) => smokes(a).  [covers 14,0/14,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#2 of outerLoop #2, bodyLen=0:1] 'friends(a, _) => smokes(a).  [covers 14,0/14,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 2, |OPEN| = 1.  Pruned 3 variant children.  Sending 6 items to OPEN for evaluation and possible insertion.
+% Have created 6 valid-on-seeds descendants and have picked up 3 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.1300000000000004E-6) for clause:  friends(a, _) ^ friends(a, _) => smokes(a).  [covers 14,0/14,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.9200000000000003E-6) for clause:  friends(a, b) ^ friends(b, a) => smokes(a).  [covers 14,0/14,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.0300000000000005E-6) for clause:  friends(a, b) ^ friends(b, _) => smokes(a).  [covers 14,0/14,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.1300000000000004E-6) for clause:  friends(a, _) ^ friends(_, a) => smokes(a).  [covers 14,0/14,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.0300000000000005E-6) for clause:  friends(a, b) ^ friends(_, b) => smokes(a).  [covers 14,0/14,0 pos, 0,0/0,0 neg]
+%     Score = -1,710011 (regressionFit = 1,710009, penalties=2.0200000000000006E-6) for clause:  friends(a, b) ^ cancer(b) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -1,710011): friends(a, b) ^ cancer(b) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#3 of outerLoop #2, bodyLen=1:2] 'friends(a, b) ^ cancer(b) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]' score=-1.7100106963970443
+%  At # nodes expanded = 3, |OPEN| = 6.  Pruned 3 variant children.  Sending 5 items to OPEN for evaluation and possible insertion.
+% Have created 5 valid-on-seeds descendants and have picked up 3 bad extensions.
+%     Score = -1,713957 (regressionFit = 1,713954, penalties=3.0300000000000002E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]
+%     Score = -1,710012 (regressionFit = 1,710009, penalties=2.920000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(b, a) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]
+%     Score = -1,711007 (regressionFit = 1,711004, penalties=3.0300000000000002E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(b, _) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]
+%     Score = -1,713957 (regressionFit = 1,713954, penalties=3.0300000000000002E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(_, a) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]
+%     Score = -1,711007 (regressionFit = 1,711004, penalties=3.0300000000000002E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(_, b) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#4 of outerLoop #2, bodyLen=2:3] 'friends(a, b) ^ cancer(b) ^ friends(b, a) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]' score=-1.7100115963970444
+
+% Consider expanding [#5 of outerLoop #2, bodyLen=2:3] 'friends(a, b) ^ cancer(b) ^ friends(b, _) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]' score=-1.7110072618341081
+
+% Consider expanding [#6 of outerLoop #2, bodyLen=2:3] 'friends(a, b) ^ cancer(b) ^ friends(_, b) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]' score=-1.7110072618341081
+
+% Consider expanding [#7 of outerLoop #2, bodyLen=2:3] 'friends(a, b) ^ cancer(b) ^ friends(a, _) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]' score=-1.7139571869444665
+
+% Consider expanding [#8 of outerLoop #2, bodyLen=2:3] 'friends(a, b) ^ cancer(b) ^ friends(_, a) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]' score=-1.7139571869444665
+
+% Consider expanding [#9 of outerLoop #2, bodyLen=0:1] 'friends(_, a) => smokes(a).  [covers 14,0/14,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 9, |OPEN| = 5.  Pruned 3 variant children.  Sending 6 items to OPEN for evaluation and possible insertion.
+% Have created 6 valid-on-seeds descendants and have picked up 3 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.0300000000000005E-6) for clause:  friends(b, a) ^ friends(b, _) => smokes(a).  [covers 14,0/14,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.1300000000000004E-6) for clause:  friends(_, a) ^ friends(_, a) => smokes(a).  [covers 14,0/14,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.0300000000000005E-6) for clause:  friends(b, a) ^ friends(_, b) => smokes(a).  [covers 14,0/14,0 pos, 0,0/0,0 neg]
+%     Score = -1,710011 (regressionFit = 1,710009, penalties=2.0200000000000006E-6) for clause:  friends(b, a) ^ cancer(b) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]
+
+***** Warning: #2 TOO MANY NODES CONSIDERED (i.e., 'expanded') for 'LearnOneClause': nodesConsidered = 10 and maxNodesToConsider = 10. *****
+
+
+% The best node found: friends(a, b) ^ cancer(b) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]
+
+% The best node found: friends(a, b) ^ cancer(b) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]
+
+% Expanding node at Level 1 with score = -0,122.
+% Will extend: friends(a, b) ^ cancer(b) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]
+Comparing variance: 0.12187416562166221 to score=0.0025 #egs=7.0
+Comparing variance: 0.12241278814934413 to score=0.0025 #egs=7.0
+%   Creating a TRUE-branch interior node with wgtedCountTrueBranchPos = 7,0
+%      addToQueueOfTreeStructuredLearningTasks (level=2; score=-0,121874)
+%         ILP node to extend: friends(a, b) ^ cancer(b) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]
+%      Insert tree-structured search node (@ level = 2 and with score = -0,121874) into the LAST position (#1) in the search queue.
+%   Creating a FALSE-branch interior node with wgtedCountFalseBranchPos = 7,0
+%      addToQueueOfTreeStructuredLearningTasks (level=2; score=-0,122413)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 2 and with score = -0,122413) into position #1 in the search queue (new size=2).
+
+% Time for loop #2: 218 milliseconds.
+% Internal node max length = 2
+% Max tree depth in lits   = 12
+% Max tree depth in nodes  = 5
+% Max number of clauses    = 8
+
+% On cycle #2, the best clause found is:
+%      friends(a, b) ^ cancer(b) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]
+% This clause covers 7 positive examples, of which 7 are newly covered.
+% It also covers 0 negative examples, of which 0 are newly covered.
+
+***** Warning: % Have only 7 positive examples, so cannot choose 10 of them. *****
+
+
+% Have these 7 positive seeds: 0 1 2 3 4 5 6
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = smokes(c)
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.1E-7) for clause:  smokes(_).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+% Most-general root: smokes(_).  [covers 7,0/7,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #3, bodyLen=0] 'smokes(_).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 1 variant children.  Sending 2 items to OPEN for evaluation and possible insertion.
+% Have created 2 valid-on-seeds descendants and have picked up 2 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.12E-6) for clause:  friends(a, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.12E-6) for clause:  friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#2 of outerLoop #3, bodyLen=0:1] 'friends(a, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 2, |OPEN| = 1.  Pruned 3 variant children.  Sending 5 items to OPEN for evaluation and possible insertion.
+% Have created 5 valid-on-seeds descendants and have picked up 4 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.1300000000000004E-6) for clause:  friends(a, _) ^ friends(a, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.9200000000000003E-6) for clause:  friends(a, b) ^ friends(b, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.0300000000000005E-6) for clause:  friends(a, b) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.1300000000000004E-6) for clause:  friends(a, _) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.0300000000000005E-6) for clause:  friends(a, b) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#3 of outerLoop #3, bodyLen=0:1] 'friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 3, |OPEN| = 5.  Pruned 3 variant children.  Sending 5 items to OPEN for evaluation and possible insertion.
+% Have created 5 valid-on-seeds descendants and have picked up 4 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.0300000000000005E-6) for clause:  friends(b, a) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.1300000000000004E-6) for clause:  friends(_, a) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.0300000000000005E-6) for clause:  friends(b, a) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#4 of outerLoop #3, bodyLen=1:2] 'friends(a, _) ^ friends(a, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 4, |OPEN| = 7.  Pruned 7 variant children.  Sending 10 items to OPEN for evaluation and possible insertion.
+% Have created 10 valid-on-seeds descendants and have picked up 6 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.1400000000000004E-6) for clause:  friends(a, _) ^ friends(a, _) ^ friends(a, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.9300000000000003E-6) for clause:  friends(a, b) ^ friends(a, _) ^ friends(b, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.8300000000000004E-6) for clause:  friends(a, b) ^ friends(a, c) ^ friends(b, c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0400000000000005E-6) for clause:  friends(a, b) ^ friends(a, _) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.9300000000000003E-6) for clause:  friends(a, _) ^ friends(a, b) ^ friends(b, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.8300000000000004E-6) for clause:  friends(a, b) ^ friends(a, c) ^ friends(c, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0400000000000005E-6) for clause:  friends(a, _) ^ friends(a, b) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.1400000000000004E-6) for clause:  friends(a, _) ^ friends(a, _) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0400000000000005E-6) for clause:  friends(a, b) ^ friends(a, _) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0400000000000005E-6) for clause:  friends(a, _) ^ friends(a, b) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#5 of outerLoop #3, bodyLen=1:2] 'friends(a, b) ^ friends(b, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 5, |OPEN| = 16.  Pruned 2 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants and have picked up 4 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.9300000000000003E-6) for clause:  friends(a, b) ^ friends(b, a) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.9300000000000003E-6) for clause:  friends(a, b) ^ friends(b, a) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.9300000000000003E-6) for clause:  friends(a, b) ^ friends(b, a) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#6 of outerLoop #3, bodyLen=1:2] 'friends(a, b) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 6, |OPEN| = 18.  Pruned 7 variant children.  Sending 11 items to OPEN for evaluation and possible insertion.
+% Have created 11 valid-on-seeds descendants and have picked up 5 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0400000000000005E-6) for clause:  friends(a, b) ^ friends(b, _) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.8300000000000004E-6) for clause:  friends(a, b) ^ friends(b, c) ^ friends(c, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.8300000000000004E-6) for clause:  friends(a, b) ^ friends(b, c) ^ friends(c, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.9400000000000002E-6) for clause:  friends(a, b) ^ friends(b, c) ^ friends(c, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0400000000000005E-6) for clause:  friends(a, b) ^ friends(b, _) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0400000000000005E-6) for clause:  friends(a, b) ^ friends(b, _) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.9400000000000002E-6) for clause:  friends(a, b) ^ friends(b, c) ^ friends(_, c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.9300000000000007E-6) for clause:  friends(a, b) ^ friends(b, c) ^ cancer(c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#7 of outerLoop #3, bodyLen=1:2] 'friends(a, _) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 7, |OPEN| = 24.  Pruned 7 variant children.  Sending 10 items to OPEN for evaluation and possible insertion.
+% Have created 10 valid-on-seeds descendants and have picked up 6 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.8300000000000004E-6) for clause:  friends(a, b) ^ friends(c, a) ^ friends(c, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0400000000000005E-6) for clause:  friends(a, _) ^ friends(b, a) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.1400000000000004E-6) for clause:  friends(a, _) ^ friends(_, a) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0400000000000005E-6) for clause:  friends(a, b) ^ friends(_, a) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0400000000000005E-6) for clause:  friends(a, _) ^ friends(b, a) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#8 of outerLoop #3, bodyLen=1:2] 'friends(a, b) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 8, |OPEN| = 28.  Pruned 7 variant children.  Sending 11 items to OPEN for evaluation and possible insertion.
+% Have created 11 valid-on-seeds descendants and have picked up 5 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.9400000000000002E-6) for clause:  friends(a, b) ^ friends(c, b) ^ friends(c, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0400000000000005E-6) for clause:  friends(a, b) ^ friends(_, b) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0400000000000005E-6) for clause:  friends(a, b) ^ friends(_, b) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.9400000000000002E-6) for clause:  friends(a, b) ^ friends(c, b) ^ friends(_, c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.9300000000000007E-6) for clause:  friends(a, b) ^ friends(c, b) ^ cancer(c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#9 of outerLoop #3, bodyLen=1:2] 'friends(b, a) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 9, |OPEN| = 31.  Pruned 7 variant children.  Sending 11 items to OPEN for evaluation and possible insertion.
+% Have created 11 valid-on-seeds descendants and have picked up 5 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0400000000000005E-6) for clause:  friends(b, a) ^ friends(b, _) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.8300000000000004E-6) for clause:  friends(b, a) ^ friends(b, c) ^ friends(c, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.8300000000000004E-6) for clause:  friends(b, a) ^ friends(b, c) ^ friends(c, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.9400000000000002E-6) for clause:  friends(b, a) ^ friends(b, c) ^ friends(c, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0400000000000005E-6) for clause:  friends(b, a) ^ friends(b, _) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0400000000000005E-6) for clause:  friends(b, a) ^ friends(b, _) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.9400000000000002E-6) for clause:  friends(b, a) ^ friends(b, c) ^ friends(_, c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.9300000000000007E-6) for clause:  friends(b, a) ^ friends(b, c) ^ cancer(c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+***** Warning: #3 TOO MANY NODES CONSIDERED (i.e., 'expanded') for 'LearnOneClause': nodesConsidered = 10 and maxNodesToConsider = 10. *****
+
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+Created a leaf under (friends(c, anon1341) ^ cancer(anon1341) => smokes(c))
+
+% Working on expanding this node: 'friends(a, b) ^ cancer(b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]'
+%     Score = -1,710011 (regressionFit = 1,710009, penalties=2.0200000000000006E-6) for clause:  friends(a, b) ^ cancer(b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Have these 7 positive seeds: 0 1 2 3 4 5 6
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% Consider expanding [#1 of outerLoop #4, bodyLen=2] 'friends(a, b) ^ cancer(b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-1.7100106963970443
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 3 variant children.  Sending 5 items to OPEN for evaluation and possible insertion.
+% Have created 5 valid-on-seeds descendants and have picked up 6 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0300000000000002E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.920000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(b, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0300000000000002E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0300000000000002E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0300000000000002E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#2 of outerLoop #4, bodyLen=2:3] 'friends(a, b) ^ cancer(b) ^ friends(a, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 2, |OPEN| = 4.  Pruned 7 variant children.  Sending 11 items to OPEN for evaluation and possible insertion.
+% Have created 11 valid-on-seeds descendants and have picked up 4 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.040000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(a, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.9300000000000005E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(b, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.830000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(b, c) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.040000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.830000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(c, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.830000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(c, b) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.94E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(c, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.040000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.040000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.94E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(_, c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.830000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ cancer(c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#3 of outerLoop #4, bodyLen=2:3] 'friends(a, b) ^ cancer(b) ^ friends(b, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 3, |OPEN| = 14.  Pruned 2 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants and have picked up 3 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.9300000000000005E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(b, a) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.9300000000000005E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(b, a) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.9300000000000005E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(b, a) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#4 of outerLoop #4, bodyLen=2:3] 'friends(a, b) ^ cancer(b) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 4, |OPEN| = 16.  Pruned 7 variant children.  Sending 11 items to OPEN for evaluation and possible insertion.
+% Have created 11 valid-on-seeds descendants and have picked up 4 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.040000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(b, _) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.830000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(b, c) ^ friends(c, a) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.830000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(b, c) ^ friends(c, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.94E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(b, c) ^ friends(c, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.040000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(b, _) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.040000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(b, _) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.94E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(b, c) ^ friends(_, c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.830000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(b, c) ^ cancer(c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#5 of outerLoop #4, bodyLen=2:3] 'friends(a, b) ^ cancer(b) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 5, |OPEN| = 23.  Pruned 7 variant children.  Sending 11 items to OPEN for evaluation and possible insertion.
+% Have created 11 valid-on-seeds descendants and have picked up 4 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.830000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(c, a) ^ friends(c, b) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.94E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(c, a) ^ friends(c, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.040000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(_, a) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.040000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(_, a) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.94E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(c, a) ^ friends(_, c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.830000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(c, a) ^ cancer(c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#6 of outerLoop #4, bodyLen=2:3] 'friends(a, b) ^ cancer(b) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 6, |OPEN| = 28.  Pruned 7 variant children.  Sending 11 items to OPEN for evaluation and possible insertion.
+% Have created 11 valid-on-seeds descendants and have picked up 4 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.94E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(c, b) ^ friends(c, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.040000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(_, b) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.040000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(_, b) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.94E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(c, b) ^ friends(_, c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.830000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(c, b) ^ cancer(c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#7 of outerLoop #4, bodyLen=3:4] 'friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(a, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 7, |OPEN| = 32.  Pruned 13 variant children.  Sending 19 items to OPEN for evaluation and possible insertion.
+% Have created 19 valid-on-seeds descendants and have picked up 5 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=5.050000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(a, _) ^ friends(a, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.940000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(a, _) ^ friends(b, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.840000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(a, _) ^ friends(b, c) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.840000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(a, c) ^ friends(b, c) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=5.050000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(a, _) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.840000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(a, _) ^ friends(c, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.840000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(a, _) ^ friends(c, b) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.740000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(a, d) ^ friends(c, d) => smokes(a).  [covers 6,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.950000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(a, _) ^ friends(c, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.840000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(a, c) ^ friends(c, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.840000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(a, c) ^ friends(c, b) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.740000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(a, d) ^ friends(d, c) => smokes(a).  [covers 6,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.950000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(a, c) ^ friends(c, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=5.050000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(a, _) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=5.050000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(a, _) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.950000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(a, _) ^ friends(_, c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.950000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(a, c) ^ friends(_, c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.840000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(a, _) ^ cancer(c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.840000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(a, c) ^ cancer(c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#8 of outerLoop #4, bodyLen=3:4] 'friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(b, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 8, |OPEN| = 48.  Pruned 6 variant children.  Sending 10 items to OPEN for evaluation and possible insertion.
+% Have created 10 valid-on-seeds descendants and have picked up 4 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.7300000000000005E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(b, a) ^ friends(b, c) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.940000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(b, a) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.7300000000000005E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(b, a) ^ friends(c, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.7300000000000005E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(b, a) ^ friends(c, b) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.840000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(b, a) ^ friends(c, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.940000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(b, a) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.940000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(b, a) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.840000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(b, a) ^ friends(_, c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.7300000000000005E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(b, a) ^ cancer(c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#9 of outerLoop #4, bodyLen=3:4] 'friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(b, c) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 9, |OPEN| = 55.  Pruned 6 variant children.  Sending 10 items to OPEN for evaluation and possible insertion.
+% Have created 10 valid-on-seeds descendants and have picked up 4 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.840000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(b, c) ^ friends(b, _) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.7300000000000005E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(b, c) ^ friends(c, a) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.7300000000000005E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(b, c) ^ friends(c, b) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.840000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(b, c) ^ friends(c, _) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.840000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(b, c) ^ friends(_, a) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.840000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(b, c) ^ friends(_, b) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.840000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(b, c) ^ friends(_, c) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.7300000000000005E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(b, c) ^ cancer(c) => smokes(a).  [covers 1,0/7,0 pos, 0,0/0,0 neg]
+
+***** Warning: #4 TOO MANY NODES CONSIDERED (i.e., 'expanded') for 'LearnOneClause': nodesConsidered = 10 and maxNodesToConsider = 10. *****
+
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -1,7100):
+%  friends(a, b) ^ cancer(b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+Created a leaf under (friends(c, anon1341) ^ cancer(anon1341) => smokes(c))
+
+% ******************************************
+
+%  Have stopped ILP's outer loop because the tree-structured queue is empty.
+
+% ******************************************
+
+%%%%%  WILL-Produced Tree #1 @ 15:08:16 7/14/21.  [Using 6.597.720 memory cells.]  %%%%%
+
+
+% FOR smokes(a):
+%   if ( cancer(a), friends(a, b), cancer(b) )
+%   then return 0.3576072008151595;  // std dev = 0,614, 6,000 (wgt'ed) examples reached here.  /* #neg=1 #pos=5 */
+%   else if ( friends(a, c), cancer(c) )
+%   | then return 0.013535782781552118;  // std dev = 0,350, 7,000 (wgt'ed) examples reached here.  /* #neg=6 #pos=1 */
+%   | else return 0.0015317229521336058;  // std dev = 0,350, 7,000 (wgt'ed) examples reached here.  /* #neg=6 #pos=1 */
+
+
+% Clauses:
+
+smokes(a, 0.3576072008151595) :- 
+     cancer(a), 
+     friends(a, b), 
+     cancer(b), 
+     !. // Clause #1.
+
+smokes(a, 0.013535782781552118) :- 
+     friends(a, b), 
+     cancer(b), 
+     !. // Clause #2.
+
+smokes(a, 0.0015317229521336058) :- !. // Clause #3.
+
+
+% The flattened versions of these clauses:
+
+flattened_cancer(A) ^
+   friends(A, UniqueVar1) ^
+   cancer(UniqueVar1) ^
+   ! => 
+   smokes(A, 0.3576072008151595). // Flattened version of clause #1.
+
+flattened_friends(A, UniqueVar2) ^
+   cancer(UniqueVar2) ^
+   ! => 
+   smokes(A, 0.013535782781552118). // Flattened version of clause #2.
+
+flattened_! => 
+   smokes(Underscore, 0.0015317229521336058). // Flattened version of clause #3.
+
+
+% The unique flattened literals:
+%   cancer(A)
+%   friends(A, UniqueVar1)
+%   cancer(UniqueVar1)
+%   friends(A, UniqueVar2)
+%   cancer(UniqueVar2)
+
+% Saving model in: datasets\Toy-Cancer-All\train/models/bRDNs/smokes.model.ckpt
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1,797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1,797693135e+308) into the LAST position (#1) in the search queue.
+Variance:0.22750000000000006
+Set score:0.0025
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% Have these 7 positive seeds: 2 3 5 6 7 10 14
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = smokes(c)
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.1E-7) for clause:  smokes(_).  [covers 20,0/20,0 pos, 0,0/0,0 neg]
+% Most-general root: smokes(_).  [covers 20,0/20,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #1, bodyLen=0] 'smokes(_).  [covers 20,0/20,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 1 variant children.  Sending 3 items to OPEN for evaluation and possible insertion.
+% Have created 3 valid-on-seeds descendants and have picked up 1 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.12E-6) for clause:  friends(a, _) => smokes(a).  [covers 20,0/20,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.12E-6) for clause:  friends(_, a) => smokes(a).  [covers 20,0/20,0 pos, 0,0/0,0 neg]
+%     Score = -2,547620 (regressionFit = 2,547619, penalties=1.0100000000000003E-6) for clause:  cancer(a) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -2,547620): cancer(a) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#2 of outerLoop #1, bodyLen=1] 'cancer(a) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]' score=-2.5476200576190466
+%  At # nodes expanded = 2, |OPEN| = 2.  Pruned 1 variant children.  Sending 2 items to OPEN for evaluation and possible insertion.
+% Have created 2 valid-on-seeds descendants and have picked up 1 bad extensions.
+%     Score = -2,495713 (regressionFit = 2,495711, penalties=2.1200000000000005E-6) for clause:  cancer(a) ^ friends(a, _) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -2,495713): cancer(a) ^ friends(a, _) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+%     Score = -2,495713 (regressionFit = 2,495711, penalties=2.1200000000000005E-6) for clause:  cancer(a) ^ friends(_, a) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#3 of outerLoop #1, bodyLen=1:2] 'cancer(a) ^ friends(a, _) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]' score=-2.495712816379854
+%  At # nodes expanded = 3, |OPEN| = 3.  Pruned 3 variant children.  Sending 6 items to OPEN for evaluation and possible insertion.
+% Have created 6 valid-on-seeds descendants and have picked up 2 bad extensions.
+%     Score = -2,761148 (regressionFit = 2,761145, penalties=3.130000000000001E-6) for clause:  cancer(a) ^ friends(a, _) ^ friends(a, _) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+%     Score = -2,495714 (regressionFit = 2,495711, penalties=2.920000000000001E-6) for clause:  cancer(a) ^ friends(a, b) ^ friends(b, a) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+%     Score = -2,419668 (regressionFit = 2,419665, penalties=3.0300000000000002E-6) for clause:  cancer(a) ^ friends(a, b) ^ friends(b, _) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -2,419668): cancer(a) ^ friends(a, b) ^ friends(b, _) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+%     Score = -2,761148 (regressionFit = 2,761145, penalties=3.130000000000001E-6) for clause:  cancer(a) ^ friends(a, _) ^ friends(_, a) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+%     Score = -2,419668 (regressionFit = 2,419665, penalties=3.0300000000000002E-6) for clause:  cancer(a) ^ friends(a, b) ^ friends(_, b) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+%     Score = -2,091553 (regressionFit = 2,091550, penalties=2.920000000000001E-6) for clause:  cancer(a) ^ friends(a, b) ^ cancer(b) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -2,091553): cancer(a) ^ friends(a, b) ^ cancer(b) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#4 of outerLoop #1, bodyLen=2:3] 'cancer(a) ^ friends(a, b) ^ friends(b, _) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]' score=-2.419667772168862
+
+% Consider expanding [#5 of outerLoop #1, bodyLen=2:3] 'cancer(a) ^ friends(a, b) ^ friends(_, b) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]' score=-2.419667772168862
+
+% Consider expanding [#6 of outerLoop #1, bodyLen=1:2] 'cancer(a) ^ friends(_, a) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]' score=-2.495712816379854
+%  At # nodes expanded = 6, |OPEN| = 5.  Pruned 3 variant children.  Sending 6 items to OPEN for evaluation and possible insertion.
+% Have created 6 valid-on-seeds descendants and have picked up 2 bad extensions.
+%     Score = -2,419668 (regressionFit = 2,419665, penalties=3.0300000000000002E-6) for clause:  cancer(a) ^ friends(b, a) ^ friends(b, _) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+%     Score = -2,761148 (regressionFit = 2,761145, penalties=3.130000000000001E-6) for clause:  cancer(a) ^ friends(_, a) ^ friends(_, a) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+%     Score = -2,419668 (regressionFit = 2,419665, penalties=3.0300000000000002E-6) for clause:  cancer(a) ^ friends(b, a) ^ friends(_, b) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+%     Score = -2,091553 (regressionFit = 2,091550, penalties=2.920000000000001E-6) for clause:  cancer(a) ^ friends(b, a) ^ cancer(b) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#7 of outerLoop #1, bodyLen=2:3] 'cancer(a) ^ friends(b, a) ^ friends(b, _) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]' score=-2.419667772168862
+
+% Consider expanding [#8 of outerLoop #1, bodyLen=2:3] 'cancer(a) ^ friends(b, a) ^ friends(_, b) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]' score=-2.419667772168862
+
+% Consider expanding [#9 of outerLoop #1, bodyLen=2:3] 'cancer(a) ^ friends(a, b) ^ friends(b, a) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]' score=-2.495713616379854
+
+***** Warning: #5 TOO MANY NODES CONSIDERED (i.e., 'expanded') for 'LearnOneClause': nodesConsidered = 10 and maxNodesToConsider = 10. *****
+
+
+% The best node found: cancer(a) ^ friends(a, b) ^ cancer(b) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+
+% The best node found: cancer(a) ^ friends(a, b) ^ cancer(b) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+
+% Expanding node at Level 0 with score = 1,797693e+308.
+% Will extend: cancer(a) ^ friends(a, b) ^ cancer(b) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+Comparing variance: 0.06287733945488953 to score=0.0025 #egs=6.0
+Comparing variance: 0.12244897959183675 to score=0.0025 #egs=14.0
+%   Creating a TRUE-branch leaf because wgtedCountTrueBranchPos = 6,0 < 2.1 * minPosCov = 6,3
+%   Creating a FALSE-branch interior node with wgtedCountFalseBranchPos = 14,0
+%      addToQueueOfTreeStructuredLearningTasks (level=1; score=-0,122449)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 1 and with score = -0,122449) into the LAST position (#1) in the search queue.
+
+% Time for loop #1: 31 milliseconds.
+% Internal node max length = 2
+% Max tree depth in lits   = 12
+% Max tree depth in nodes  = 5
+% Max number of clauses    = 8
+
+% On cycle #1, the best clause found is:
+%      cancer(a) ^ friends(a, b) ^ cancer(b) => smokes(a).  [covers 6,0/20,0 pos, 0,0/0,0 neg]
+% This clause covers 6 positive examples, of which 6 are newly covered.
+% It also covers 0 negative examples, of which 0 are newly covered.
+
+% Have these 7 positive seeds: 0 1 2 4 5 6 7
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = smokes(c)
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.1E-7) for clause:  smokes(_).  [covers 14,0/14,0 pos, 0,0/0,0 neg]
+% Most-general root: smokes(_).  [covers 14,0/14,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #2, bodyLen=0] 'smokes(_).  [covers 14,0/14,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 1 variant children.  Sending 2 items to OPEN for evaluation and possible insertion.
+% Have created 2 valid-on-seeds descendants and have picked up 2 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.12E-6) for clause:  friends(a, _) => smokes(a).  [covers 14,0/14,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.12E-6) for clause:  friends(_, a) => smokes(a).  [covers 14,0/14,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#2 of outerLoop #2, bodyLen=0:1] 'friends(a, _) => smokes(a).  [covers 14,0/14,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 2, |OPEN| = 1.  Pruned 3 variant children.  Sending 6 items to OPEN for evaluation and possible insertion.
+% Have created 6 valid-on-seeds descendants and have picked up 3 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.1300000000000004E-6) for clause:  friends(a, _) ^ friends(a, _) => smokes(a).  [covers 14,0/14,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.9200000000000003E-6) for clause:  friends(a, b) ^ friends(b, a) => smokes(a).  [covers 14,0/14,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.0300000000000005E-6) for clause:  friends(a, b) ^ friends(b, _) => smokes(a).  [covers 14,0/14,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.1300000000000004E-6) for clause:  friends(a, _) ^ friends(_, a) => smokes(a).  [covers 14,0/14,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.0300000000000005E-6) for clause:  friends(a, b) ^ friends(_, b) => smokes(a).  [covers 14,0/14,0 pos, 0,0/0,0 neg]
+%     Score = -1,710011 (regressionFit = 1,710009, penalties=2.0200000000000006E-6) for clause:  friends(a, b) ^ cancer(b) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -1,710011): friends(a, b) ^ cancer(b) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#3 of outerLoop #2, bodyLen=1:2] 'friends(a, b) ^ cancer(b) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]' score=-1.7100106963970443
+%  At # nodes expanded = 3, |OPEN| = 6.  Pruned 3 variant children.  Sending 5 items to OPEN for evaluation and possible insertion.
+% Have created 5 valid-on-seeds descendants and have picked up 3 bad extensions.
+%     Score = -1,713957 (regressionFit = 1,713954, penalties=3.0300000000000002E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]
+%     Score = -1,710012 (regressionFit = 1,710009, penalties=2.920000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(b, a) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]
+%     Score = -1,711007 (regressionFit = 1,711004, penalties=3.0300000000000002E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(b, _) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]
+%     Score = -1,713957 (regressionFit = 1,713954, penalties=3.0300000000000002E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(_, a) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]
+%     Score = -1,711007 (regressionFit = 1,711004, penalties=3.0300000000000002E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(_, b) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#4 of outerLoop #2, bodyLen=2:3] 'friends(a, b) ^ cancer(b) ^ friends(b, a) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]' score=-1.7100115963970444
+
+% Consider expanding [#5 of outerLoop #2, bodyLen=2:3] 'friends(a, b) ^ cancer(b) ^ friends(b, _) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]' score=-1.7110072618341081
+
+% Consider expanding [#6 of outerLoop #2, bodyLen=2:3] 'friends(a, b) ^ cancer(b) ^ friends(_, b) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]' score=-1.7110072618341081
+
+% Consider expanding [#7 of outerLoop #2, bodyLen=2:3] 'friends(a, b) ^ cancer(b) ^ friends(a, _) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]' score=-1.7139571869444665
+
+% Consider expanding [#8 of outerLoop #2, bodyLen=2:3] 'friends(a, b) ^ cancer(b) ^ friends(_, a) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]' score=-1.7139571869444665
+
+% Consider expanding [#9 of outerLoop #2, bodyLen=0:1] 'friends(_, a) => smokes(a).  [covers 14,0/14,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 9, |OPEN| = 5.  Pruned 3 variant children.  Sending 6 items to OPEN for evaluation and possible insertion.
+% Have created 6 valid-on-seeds descendants and have picked up 3 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.0300000000000005E-6) for clause:  friends(b, a) ^ friends(b, _) => smokes(a).  [covers 14,0/14,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.1300000000000004E-6) for clause:  friends(_, a) ^ friends(_, a) => smokes(a).  [covers 14,0/14,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.0300000000000005E-6) for clause:  friends(b, a) ^ friends(_, b) => smokes(a).  [covers 14,0/14,0 pos, 0,0/0,0 neg]
+%     Score = -1,710011 (regressionFit = 1,710009, penalties=2.0200000000000006E-6) for clause:  friends(b, a) ^ cancer(b) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]
+
+***** Warning: #6 TOO MANY NODES CONSIDERED (i.e., 'expanded') for 'LearnOneClause': nodesConsidered = 10 and maxNodesToConsider = 10. *****
+
+
+% The best node found: friends(a, b) ^ cancer(b) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]
+
+% The best node found: friends(a, b) ^ cancer(b) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]
+
+% Expanding node at Level 1 with score = -0,122.
+% Will extend: friends(a, b) ^ cancer(b) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]
+Comparing variance: 0.12187416562166221 to score=0.0025 #egs=7.0
+Comparing variance: 0.12241278814934413 to score=0.0025 #egs=7.0
+%   Creating a TRUE-branch interior node with wgtedCountTrueBranchPos = 7,0
+%      addToQueueOfTreeStructuredLearningTasks (level=2; score=-0,121874)
+%         ILP node to extend: friends(a, b) ^ cancer(b) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]
+%      Insert tree-structured search node (@ level = 2 and with score = -0,121874) into the LAST position (#1) in the search queue.
+%   Creating a FALSE-branch interior node with wgtedCountFalseBranchPos = 7,0
+%      addToQueueOfTreeStructuredLearningTasks (level=2; score=-0,122413)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 2 and with score = -0,122413) into position #1 in the search queue (new size=2).
+
+% Time for loop #2: 94 milliseconds.
+% Internal node max length = 2
+% Max tree depth in lits   = 12
+% Max tree depth in nodes  = 5
+% Max number of clauses    = 8
+
+% On cycle #2, the best clause found is:
+%      friends(a, b) ^ cancer(b) => smokes(a).  [covers 7,0/14,0 pos, 0,0/0,0 neg]
+% This clause covers 7 positive examples, of which 7 are newly covered.
+% It also covers 0 negative examples, of which 0 are newly covered.
+
+% Have these 7 positive seeds: 0 1 2 3 4 5 6
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = smokes(c)
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.1E-7) for clause:  smokes(_).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+% Most-general root: smokes(_).  [covers 7,0/7,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #3, bodyLen=0] 'smokes(_).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 1 variant children.  Sending 2 items to OPEN for evaluation and possible insertion.
+% Have created 2 valid-on-seeds descendants and have picked up 2 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.12E-6) for clause:  friends(a, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.12E-6) for clause:  friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#2 of outerLoop #3, bodyLen=0:1] 'friends(a, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 2, |OPEN| = 1.  Pruned 3 variant children.  Sending 5 items to OPEN for evaluation and possible insertion.
+% Have created 5 valid-on-seeds descendants and have picked up 4 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.1300000000000004E-6) for clause:  friends(a, _) ^ friends(a, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.9200000000000003E-6) for clause:  friends(a, b) ^ friends(b, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.0300000000000005E-6) for clause:  friends(a, b) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.1300000000000004E-6) for clause:  friends(a, _) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.0300000000000005E-6) for clause:  friends(a, b) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#3 of outerLoop #3, bodyLen=0:1] 'friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 3, |OPEN| = 5.  Pruned 3 variant children.  Sending 5 items to OPEN for evaluation and possible insertion.
+% Have created 5 valid-on-seeds descendants and have picked up 4 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.0300000000000005E-6) for clause:  friends(b, a) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.1300000000000004E-6) for clause:  friends(_, a) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.0300000000000005E-6) for clause:  friends(b, a) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#4 of outerLoop #3, bodyLen=1:2] 'friends(a, _) ^ friends(a, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 4, |OPEN| = 7.  Pruned 7 variant children.  Sending 10 items to OPEN for evaluation and possible insertion.
+% Have created 10 valid-on-seeds descendants and have picked up 6 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.1400000000000004E-6) for clause:  friends(a, _) ^ friends(a, _) ^ friends(a, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.9300000000000003E-6) for clause:  friends(a, b) ^ friends(a, _) ^ friends(b, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.8300000000000004E-6) for clause:  friends(a, b) ^ friends(a, c) ^ friends(b, c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0400000000000005E-6) for clause:  friends(a, b) ^ friends(a, _) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.9300000000000003E-6) for clause:  friends(a, _) ^ friends(a, b) ^ friends(b, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.8300000000000004E-6) for clause:  friends(a, b) ^ friends(a, c) ^ friends(c, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0400000000000005E-6) for clause:  friends(a, _) ^ friends(a, b) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.1400000000000004E-6) for clause:  friends(a, _) ^ friends(a, _) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0400000000000005E-6) for clause:  friends(a, b) ^ friends(a, _) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0400000000000005E-6) for clause:  friends(a, _) ^ friends(a, b) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#5 of outerLoop #3, bodyLen=1:2] 'friends(a, b) ^ friends(b, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 5, |OPEN| = 16.  Pruned 2 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants and have picked up 4 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.9300000000000003E-6) for clause:  friends(a, b) ^ friends(b, a) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.9300000000000003E-6) for clause:  friends(a, b) ^ friends(b, a) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.9300000000000003E-6) for clause:  friends(a, b) ^ friends(b, a) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#6 of outerLoop #3, bodyLen=1:2] 'friends(a, b) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 6, |OPEN| = 18.  Pruned 7 variant children.  Sending 11 items to OPEN for evaluation and possible insertion.
+% Have created 11 valid-on-seeds descendants and have picked up 5 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0400000000000005E-6) for clause:  friends(a, b) ^ friends(b, _) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.8300000000000004E-6) for clause:  friends(a, b) ^ friends(b, c) ^ friends(c, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.8300000000000004E-6) for clause:  friends(a, b) ^ friends(b, c) ^ friends(c, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.9400000000000002E-6) for clause:  friends(a, b) ^ friends(b, c) ^ friends(c, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0400000000000005E-6) for clause:  friends(a, b) ^ friends(b, _) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0400000000000005E-6) for clause:  friends(a, b) ^ friends(b, _) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.9400000000000002E-6) for clause:  friends(a, b) ^ friends(b, c) ^ friends(_, c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.9300000000000007E-6) for clause:  friends(a, b) ^ friends(b, c) ^ cancer(c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#7 of outerLoop #3, bodyLen=1:2] 'friends(a, _) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 7, |OPEN| = 24.  Pruned 7 variant children.  Sending 10 items to OPEN for evaluation and possible insertion.
+% Have created 10 valid-on-seeds descendants and have picked up 6 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.8300000000000004E-6) for clause:  friends(a, b) ^ friends(c, a) ^ friends(c, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0400000000000005E-6) for clause:  friends(a, _) ^ friends(b, a) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.1400000000000004E-6) for clause:  friends(a, _) ^ friends(_, a) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0400000000000005E-6) for clause:  friends(a, b) ^ friends(_, a) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0400000000000005E-6) for clause:  friends(a, _) ^ friends(b, a) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#8 of outerLoop #3, bodyLen=1:2] 'friends(a, b) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 8, |OPEN| = 28.  Pruned 7 variant children.  Sending 11 items to OPEN for evaluation and possible insertion.
+% Have created 11 valid-on-seeds descendants and have picked up 5 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.9400000000000002E-6) for clause:  friends(a, b) ^ friends(c, b) ^ friends(c, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0400000000000005E-6) for clause:  friends(a, b) ^ friends(_, b) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0400000000000005E-6) for clause:  friends(a, b) ^ friends(_, b) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.9400000000000002E-6) for clause:  friends(a, b) ^ friends(c, b) ^ friends(_, c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.9300000000000007E-6) for clause:  friends(a, b) ^ friends(c, b) ^ cancer(c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#9 of outerLoop #3, bodyLen=1:2] 'friends(b, a) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 9, |OPEN| = 31.  Pruned 7 variant children.  Sending 11 items to OPEN for evaluation and possible insertion.
+% Have created 11 valid-on-seeds descendants and have picked up 5 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0400000000000005E-6) for clause:  friends(b, a) ^ friends(b, _) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.8300000000000004E-6) for clause:  friends(b, a) ^ friends(b, c) ^ friends(c, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.8300000000000004E-6) for clause:  friends(b, a) ^ friends(b, c) ^ friends(c, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.9400000000000002E-6) for clause:  friends(b, a) ^ friends(b, c) ^ friends(c, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0400000000000005E-6) for clause:  friends(b, a) ^ friends(b, _) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0400000000000005E-6) for clause:  friends(b, a) ^ friends(b, _) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.9400000000000002E-6) for clause:  friends(b, a) ^ friends(b, c) ^ friends(_, c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.9300000000000007E-6) for clause:  friends(b, a) ^ friends(b, c) ^ cancer(c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+***** Warning: #7 TOO MANY NODES CONSIDERED (i.e., 'expanded') for 'LearnOneClause': nodesConsidered = 10 and maxNodesToConsider = 10. *****
+
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+Created a leaf under (friends(c, anon4125) ^ cancer(anon4125) => smokes(c))
+
+% Working on expanding this node: 'friends(a, b) ^ cancer(b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]'
+%     Score = -1,710011 (regressionFit = 1,710009, penalties=2.0200000000000006E-6) for clause:  friends(a, b) ^ cancer(b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Have these 7 positive seeds: 0 1 2 3 4 5 6
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% Consider expanding [#1 of outerLoop #4, bodyLen=2] 'friends(a, b) ^ cancer(b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-1.7100106963970443
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 3 variant children.  Sending 5 items to OPEN for evaluation and possible insertion.
+% Have created 5 valid-on-seeds descendants and have picked up 6 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0300000000000002E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.920000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(b, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0300000000000002E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0300000000000002E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.0300000000000002E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#2 of outerLoop #4, bodyLen=2:3] 'friends(a, b) ^ cancer(b) ^ friends(a, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 2, |OPEN| = 4.  Pruned 7 variant children.  Sending 11 items to OPEN for evaluation and possible insertion.
+% Have created 11 valid-on-seeds descendants and have picked up 4 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.040000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(a, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.9300000000000005E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(b, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.830000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(b, c) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.040000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.830000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(c, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.830000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(c, b) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.94E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(c, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.040000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.040000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.94E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(_, c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.830000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ cancer(c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#3 of outerLoop #4, bodyLen=2:3] 'friends(a, b) ^ cancer(b) ^ friends(b, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 3, |OPEN| = 14.  Pruned 2 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants and have picked up 3 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.9300000000000005E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(b, a) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.9300000000000005E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(b, a) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.9300000000000005E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(b, a) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#4 of outerLoop #4, bodyLen=2:3] 'friends(a, b) ^ cancer(b) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 4, |OPEN| = 16.  Pruned 7 variant children.  Sending 11 items to OPEN for evaluation and possible insertion.
+% Have created 11 valid-on-seeds descendants and have picked up 4 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.040000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(b, _) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.830000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(b, c) ^ friends(c, a) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.830000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(b, c) ^ friends(c, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.94E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(b, c) ^ friends(c, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.040000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(b, _) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.040000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(b, _) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.94E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(b, c) ^ friends(_, c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.830000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(b, c) ^ cancer(c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#5 of outerLoop #4, bodyLen=2:3] 'friends(a, b) ^ cancer(b) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 5, |OPEN| = 23.  Pruned 7 variant children.  Sending 11 items to OPEN for evaluation and possible insertion.
+% Have created 11 valid-on-seeds descendants and have picked up 4 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.830000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(c, a) ^ friends(c, b) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.94E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(c, a) ^ friends(c, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.040000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(_, a) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.040000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(_, a) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.94E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(c, a) ^ friends(_, c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.830000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(c, a) ^ cancer(c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#6 of outerLoop #4, bodyLen=2:3] 'friends(a, b) ^ cancer(b) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 6, |OPEN| = 28.  Pruned 7 variant children.  Sending 11 items to OPEN for evaluation and possible insertion.
+% Have created 11 valid-on-seeds descendants and have picked up 4 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.94E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(c, b) ^ friends(c, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.040000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(_, b) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.040000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(_, b) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.94E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(c, b) ^ friends(_, c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=3.830000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(c, b) ^ cancer(c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#7 of outerLoop #4, bodyLen=3:4] 'friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(a, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 7, |OPEN| = 32.  Pruned 13 variant children.  Sending 19 items to OPEN for evaluation and possible insertion.
+% Have created 19 valid-on-seeds descendants and have picked up 5 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=5.050000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(a, _) ^ friends(a, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.940000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(a, _) ^ friends(b, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.840000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(a, _) ^ friends(b, c) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.840000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(a, c) ^ friends(b, c) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=5.050000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(a, _) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.840000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(a, _) ^ friends(c, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.840000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(a, _) ^ friends(c, b) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.740000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(a, d) ^ friends(c, d) => smokes(a).  [covers 6,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.950000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(a, _) ^ friends(c, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.840000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(a, c) ^ friends(c, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.840000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(a, c) ^ friends(c, b) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.740000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(a, d) ^ friends(d, c) => smokes(a).  [covers 6,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.950000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(a, c) ^ friends(c, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=5.050000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(a, _) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=5.050000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(a, _) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.950000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(a, _) ^ friends(_, c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.950000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(a, c) ^ friends(_, c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.840000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(a, _) ^ cancer(c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.840000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(a, c) ^ cancer(c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#8 of outerLoop #4, bodyLen=3:4] 'friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(b, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 8, |OPEN| = 48.  Pruned 6 variant children.  Sending 10 items to OPEN for evaluation and possible insertion.
+% Have created 10 valid-on-seeds descendants and have picked up 4 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.7300000000000005E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(b, a) ^ friends(b, c) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.940000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(b, a) ^ friends(b, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.7300000000000005E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(b, a) ^ friends(c, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.7300000000000005E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(b, a) ^ friends(c, b) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.840000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(b, a) ^ friends(c, _) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.940000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(b, a) ^ friends(_, a) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.940000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, _) ^ friends(b, a) ^ friends(_, b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.840000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(b, a) ^ friends(_, c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.7300000000000005E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(b, a) ^ cancer(c) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#9 of outerLoop #4, bodyLen=3:4] 'friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(b, c) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 9, |OPEN| = 55.  Pruned 6 variant children.  Sending 10 items to OPEN for evaluation and possible insertion.
+% Have created 10 valid-on-seeds descendants and have picked up 4 bad extensions.
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.840000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(b, c) ^ friends(b, _) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.7300000000000005E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(b, c) ^ friends(c, a) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.7300000000000005E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(b, c) ^ friends(c, b) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.840000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(b, c) ^ friends(c, _) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.840000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(b, c) ^ friends(_, a) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.840000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(b, c) ^ friends(_, b) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.840000000000001E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(b, c) ^ friends(_, c) => smokes(a).  [covers 5,0/7,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=4.7300000000000005E-6) for clause:  friends(a, b) ^ cancer(b) ^ friends(a, c) ^ friends(b, c) ^ cancer(c) => smokes(a).  [covers 1,0/7,0 pos, 0,0/0,0 neg]
+
+***** Warning: #8 TOO MANY NODES CONSIDERED (i.e., 'expanded') for 'LearnOneClause': nodesConsidered = 10 and maxNodesToConsider = 10. *****
+
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -1,7100):
+%  friends(a, b) ^ cancer(b) => smokes(a).  [covers 7,0/7,0 pos, 0,0/0,0 neg]
+Created a leaf under (friends(c, anon4125) ^ cancer(anon4125) => smokes(c))
+
+% ******************************************
+
+%  Have stopped ILP's outer loop because the tree-structured queue is empty.
+
+% ******************************************
+
+%%%%%  WILL-Produced Tree Combined @ 15:08:17 7/14/21.  [Using 9.425.408 memory cells.]  %%%%%
+
+
+% FOR smokes(a):
+%   if ( cancer(a), friends(a, b), cancer(b) )
+%   then return 0.3576072008151595;  // std dev = 0,614, 6,000 (wgt'ed) examples reached here.  /* #neg=1 #pos=5 */
+%   else if ( friends(a, c), cancer(c) )
+%   | then return 0.013535782781552118;  // std dev = 0,350, 7,000 (wgt'ed) examples reached here.  /* #neg=6 #pos=1 */
+%   | else return 0.0015317229521336058;  // std dev = 0,350, 7,000 (wgt'ed) examples reached here.  /* #neg=6 #pos=1 */
+
+
+% Clauses:
+
+smokes(a, 0.3576072008151595) :- 
+     cancer(a), 
+     friends(a, b), 
+     cancer(b), 
+     !. // Clause #1.
+
+smokes(a, 0.013535782781552118) :- 
+     friends(a, b), 
+     cancer(b), 
+     !. // Clause #2.
+
+smokes(a, 0.0015317229521336058) :- !. // Clause #3.
+
+
+% The flattened versions of these clauses:
+
+flattened_cancer(A) ^
+   friends(A, UniqueVar3) ^
+   cancer(UniqueVar3) ^
+   ! => 
+   smokes(A, 0.3576072008151595). // Flattened version of clause #1.
+
+flattened_friends(A, UniqueVar4) ^
+   cancer(UniqueVar4) ^
+   ! => 
+   smokes(A, 0.013535782781552118). // Flattened version of clause #2.
+
+flattened_! => 
+   smokes(Underscore, 0.0015317229521336058). // Flattened version of clause #3.
+
+
+% The unique flattened literals:
+%   friends(A, UniqueVar3)
+%   cancer(A)
+%   cancer(UniqueVar4)
+%   cancer(UniqueVar3)
+%   friends(A, UniqueVar4)
+
+% Learning 1 trees in this iteration for cancer
+
+% Learn model for: cancer
+% Kept 6 of the 6 positive examples.
+% Kept 12 of the 14 negative examples.
+%      addToQueueOfTreeStructuredLearningTasks (level=0; score=1,797693135e+308)
+%         ILP node to extend: null
+%      Insert tree-structured search node (@ level = 0 and with score = 1,797693135e+308) into the LAST position (#1) in the search queue.
+Variance:0.2222222222222222
+Set score:0.0025
+% Dataset size: 18
+Computing probabilities

@@ -1,0 +1,13 @@
+setParam: stringsAreCaseSensitive = true.
+
+usePrologVariables: true.
+
+
+(person(A, 0.597279369882121) :- has(A, tx)).
+(person(A, 0.7088290926289819) :- linkto(B, A), has(B, robert)).
+(person(A, 0.6581489350995122) :- has(A, download)).
+(person(A, -0.5002186868297605) :- has(A, symposium)).
+(person(A, 0.11967078303803057) :- has(A, scienc)).
+(person(A, 0.0062149838574334084) :- has(A, mondai)).
+(person(A, 0.44089175716920287) :- linkto(B, A), has(B, job)).
+(person(A, -0.21821477391977864) :- has(A, www)).

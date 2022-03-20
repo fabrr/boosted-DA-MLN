@@ -1,0 +1,316 @@
+
+Loading domain sizes... 
+Domain sizes loaded!
+
+Train domain sizes: 
+Person: 35
+
+Test domain sizes: 
+Person: 100
+
+Domain size scales: 
+Person: 2.857142857142857
+
+Scaling weights...
+
+Target: smokes
+
+Tree #0
+
+Clause: (smokes(A, 0.041534953642508754) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 0.041534953642508754, Scaled weight: 0.014537233774878063
+
+Clause: (smokes(A, 0.011867129612145342) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 0.011867129612145342, Scaled weight: 0.004153495364250869
+
+Clause: (smokes(A, 0.003390608460612943) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 0.003390608460612943, Scaled weight: 0.00118671296121453
+
+Clause: (smokes(A, 9.687452744608786E-4) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 9.687452744608786E-4, Scaled weight: 3.390608460613075E-4
+
+Clause: (smokes(A, 2.767843641316387E-4) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 2.767843641316387E-4, Scaled weight: 9.687452744607355E-5
+
+Clause: (smokes(A, 7.908124689475235E-5) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 7.908124689475235E-5, Scaled weight: 2.767843641316332E-5
+
+Clause: (smokes(A, 2.259464196997102E-5) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 2.259464196997102E-5, Scaled weight: 7.908124689489856E-6
+
+Clause: (smokes(A, 6.4556119914212825E-6) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 6.4556119914212825E-6, Scaled weight: 2.259464196997449E-6
+
+Clause: (smokes(A, 1.8444605689479126E-6) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 1.8444605689479126E-6, Scaled weight: 6.455611991317694E-7
+
+Clause: (smokes(A, 5.269887340189627E-7) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 5.269887340189627E-7, Scaled weight: 1.8444605690663696E-7
+
+Clause: (smokes(A, 1.5056820972565127E-7) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 1.5056820972565127E-7, Scaled weight: 5.269887340397794E-8
+
+Clause: (smokes(A, 4.301948850522168E-8) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 4.301948850522168E-8, Scaled weight: 1.5056820976827587E-8
+
+Clause: (smokes(A, 1.2291282413494958E-8) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 1.2291282413494958E-8, Scaled weight: 4.301948844723235E-9
+
+Clause: (smokes(A, 3.511794954042762E-9) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 3.511794954042762E-9, Scaled weight: 1.2291282339149667E-9
+
+Clause: (smokes(A, 1.0033699902680026E-9) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 1.0033699902680026E-9, Scaled weight: 3.511794965938009E-10
+
+Clause: (smokes(A, 2.866771562201212E-10) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 2.866771562201212E-10, Scaled weight: 1.0033700467704242E-10
+
+Clause: (smokes(A, 8.19077375369126E-11) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 8.19077375369126E-11, Scaled weight: 2.866770813791941E-11
+
+Clause: (smokes(A, 2.3402204777208826E-11) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 2.3402204777208826E-11, Scaled weight: 8.190771672023088E-12
+
+Clause: (smokes(A, 6.686358807897871E-12) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 6.686358807897871E-12, Scaled weight: 2.3402255827642548E-12
+
+Tree #1
+
+Clause: (smokes(A, 0.03422205165597677) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 0.03422205165597677, Scaled weight: 0.01197771807959187
+
+Clause: (smokes(A, 0.009777729044564736) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 0.009777729044564736, Scaled weight: 0.0034222051655976578
+
+Clause: (smokes(A, 0.0027936368698756567) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 0.0027936368698756567, Scaled weight: 9.777729044564798E-4
+
+Clause: (smokes(A, 7.981819628215864E-4) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 7.981819628215864E-4, Scaled weight: 2.793636869875552E-4
+
+Clause: (smokes(A, 2.280519893776482E-4) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 2.280519893776482E-4, Scaled weight: 7.981819628217687E-5
+
+Clause: (smokes(A, 6.515771125075493E-5) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 6.515771125075493E-5, Scaled weight: 2.2805198937764227E-5
+
+Clause: (smokes(A, 1.861648892872793E-5) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 1.861648892872793E-5, Scaled weight: 6.515771125054776E-6
+
+Clause: (smokes(A, 5.3189968368206176E-6) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 5.3189968368206176E-6, Scaled weight: 1.8616488928872162E-6
+
+Clause: (smokes(A, 1.5197133819491726E-6) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 1.5197133819491726E-6, Scaled weight: 5.318996836822103E-7
+
+Clause: (smokes(A, 4.342038234001715E-7) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 4.342038234001715E-7, Scaled weight: 1.5197133819006002E-7
+
+Tree #2
+
+Clause: (smokes(A, 0.02783720249101433) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 0.02783720249101433, Scaled weight: 0.009743020871855015
+
+Clause: (smokes(A, 0.007953486426004078) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 0.007953486426004078, Scaled weight: 0.0027837202491014274
+
+Clause: (smokes(A, 0.0022724246931440195) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 0.0022724246931440195, Scaled weight: 7.953486426004068E-4
+
+Clause: (smokes(A, 6.492641980411228E-4) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 6.492641980411228E-4, Scaled weight: 2.2724246931439296E-4
+
+Clause: (smokes(A, 1.8550405658321036E-4) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 1.8550405658321036E-4, Scaled weight: 6.492641980412363E-5
+
+Clause: (smokes(A, 5.3001159023763345E-5) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 5.3001159023763345E-5, Scaled weight: 1.855040565831717E-5
+
+Tree #3
+
+Clause: (smokes(A, 0.022401277170326757) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 0.022401277170326757, Scaled weight: 0.007840447009614365
+
+Clause: (smokes(A, 0.0064003649058076584) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 0.0064003649058076584, Scaled weight: 0.0022401277170326804
+
+Clause: (smokes(A, 0.0018286756873736212) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 0.0018286756873736212, Scaled weight: 6.400364905807674E-4
+
+Clause: (smokes(A, 5.22478767821014E-4) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 5.22478767821014E-4, Scaled weight: 1.8286756873735487E-4
+
+Clause: (smokes(A, 1.4927964794883762E-4) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 1.4927964794883762E-4, Scaled weight: 5.224787678209317E-5
+
+Tree #4
+
+Clause: (smokes(A, -0.006166652296114547) :- friends(A, B), r_smokes(B), friends(A, _))
+Connection variables: B (Person), _1 (Person), 
+Scaling factor: 8.16326530612245, Weight: -0.006166652296114547, Scaled weight: -7.55414906274032E-4
+
+Clause: (smokes(A, -0.005438740109713498) :- friends(A, B), r_smokes(B), friends(A, _))
+Connection variables: B (Person), _1 (Person), 
+Scaling factor: 8.16326530612245, Weight: -0.005438740109713498, Scaled weight: -6.662456634399035E-4
+
+Clause: (smokes(A, -0.004796750742642643) :- friends(A, B), r_smokes(B), friends(A, _))
+Connection variables: B (Person), _1 (Person), 
+Scaling factor: 8.16326530612245, Weight: -0.004796750742642643, Scaled weight: -5.876019659737238E-4
+
+Clause: (smokes(A, 0.029586858693713018) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 0.029586858693713018, Scaled weight: 0.010355400542799556
+
+Tree #5
+
+Clause: (smokes(A, 0.02593550866921826) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 0.02593550866921826, Scaled weight: 0.009077428034226391
+
+Clause: (smokes(A, -0.007606601715884079) :- friends(A, B), r_smokes(B), friends(A, _))
+Connection variables: B (Person), _1 (Person), 
+Scaling factor: 8.16326530612245, Weight: -0.007606601715884079, Scaled weight: -9.318087101957996E-4
+
+Clause: (smokes(A, -0.006708717771692858) :- friends(A, B), r_smokes(B), friends(A, _))
+Connection variables: B (Person), _1 (Person), 
+Scaling factor: 8.16326530612245, Weight: -0.006708717771692858, Scaled weight: -8.218179270323751E-4
+
+Tree #6
+
+Clause: (smokes(A, 0.03243716684212818) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 0.03243716684212818, Scaled weight: 0.011353008394744863
+
+Clause: (smokes(A, -0.007083419787773061) :- friends(A, B), r_smokes(B), friends(A, _))
+Connection variables: B (Person), _1 (Person), 
+Scaling factor: 8.16326530612245, Weight: -0.007083419787773061, Scaled weight: -8.677189240021999E-4
+
+Tree #7
+
+Clause: (smokes(A, 0.03293992451753879) :- friends(A, B), r_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 2.857142857142857, Weight: 0.03293992451753879, Scaled weight: 0.011528973581138576
+
+Clause: (smokes(A, -0.006948636933662879) :- friends(A, B), r_smokes(B), friends(A, _))
+Connection variables: B (Person), _1 (Person), 
+Scaling factor: 8.16326530612245, Weight: -0.006948636933662879, Scaled weight: -8.512080243737027E-4
+
+Tree #8
+
+Clause: (smokes(A, -0.053186395607206303) :- friends(A, B), r_smokes(B), friends(A, C), friends(B, C))
+Connection variables: B (Person), C (Person), 
+Scaling factor: 8.16326530612245, Weight: -0.053186395607206303, Scaled weight: -0.006515333461882772
+
+Clause: (smokes(A, 0.17691103078521556) :- friends(A, B), r_smokes(B), friends(B, C), r_smokes(C))
+Connection variables: B (Person), C (Person), 
+Scaling factor: 8.16326530612245, Weight: 0.17691103078521556, Scaled weight: 0.021671601271188907
+
+Tree #9
+
+Clause: (smokes(A, -0.048183834555203274) :- friends(A, B), r_smokes(B), friends(A, C), friends(B, C))
+Connection variables: B (Person), C (Person), 
+Scaling factor: 8.16326530612245, Weight: -0.048183834555203274, Scaled weight: -0.005902519733012401
+
+Clause: (smokes(A, 0.15169515968349667) :- friends(A, B), r_smokes(B), friends(B, C), r_smokes(C))
+Connection variables: B (Person), C (Person), 
+Scaling factor: 8.16326530612245, Weight: 0.15169515968349667, Scaled weight: 0.01858265706122834
+
+Tree #10
+
+Clause: (smokes(A, -0.04404114301163418) :- friends(A, B), r_smokes(B), friends(A, C), friends(B, C))
+Connection variables: B (Person), C (Person), 
+Scaling factor: 8.16326530612245, Weight: -0.04404114301163418, Scaled weight: -0.005395040018925186
+
+Tree #11
+
+Clause: (smokes(A, -0.03965005559449613) :- friends(A, B), r_smokes(B), friends(A, C), friends(B, C))
+Connection variables: B (Person), C (Person), 
+Scaling factor: 8.16326530612245, Weight: -0.03965005559449613, Scaled weight: -0.004857131810325776
+
+Tree #12
+
+Clause: (smokes(A, -0.03604225719476067) :- friends(A, B), r_smokes(B), friends(A, C), friends(B, C))
+Connection variables: B (Person), C (Person), 
+Scaling factor: 8.16326530612245, Weight: -0.03604225719476067, Scaled weight: -0.004415176506358182
+
+Tree #13
+
+Clause: (smokes(A, -0.033028746152684876) :- friends(A, B), r_smokes(B), friends(A, C), friends(B, C))
+Connection variables: B (Person), C (Person), 
+Scaling factor: 8.16326530612245, Weight: -0.033028746152684876, Scaled weight: -0.004046021403703897
+
+Tree #14
+
+Clause: (smokes(A, -0.030475906538685482) :- friends(A, B), r_smokes(B), friends(A, C), friends(B, C))
+Connection variables: B (Person), C (Person), 
+Scaling factor: 8.16326530612245, Weight: -0.030475906538685482, Scaled weight: -0.0037332985509889714
+
+Tree #15
+
+Clause: (smokes(A, -0.005861072406184694) :- friends(A, B), r_smokes(B), friends(A, C), friends(A, D), friends(C, D))
+Connection variables: B (Person), C (Person), D (Person), 
+Scaling factor: 23.323615160349856, Weight: -0.005861072406184694, Scaled weight: -2.5129347941516873E-4
+
+Tree #16
+
+Clause: (smokes(A, 0.129248328542404) :- friends(A, B), r_smokes(B), friends(B, C), r_smokes(C))
+Connection variables: B (Person), C (Person), 
+Scaling factor: 8.16326530612245, Weight: 0.129248328542404, Scaled weight: 0.01583292024644449
+
+Tree #17
+
+Clause: (smokes(A, -0.007055134252130027) :- friends(A, B), r_smokes(B), friends(A, C), friends(A, D), friends(C, D), r_not_smokes(C))
+Connection variables: B (Person), C (Person), D (Person), 
+Scaling factor: 23.323615160349856, Weight: -0.007055134252130027, Scaled weight: -3.024888810600749E-4
+
+Tree #18
+
+Clause: (smokes(A, -0.006465268916539932) :- friends(A, B), r_smokes(B), friends(A, C), friends(A, D), friends(C, D), r_not_smokes(C))
+Connection variables: B (Person), C (Person), D (Person), 
+Scaling factor: 23.323615160349856, Weight: -0.006465268916539932, Scaled weight: -2.771984047966496E-4
+
+Tree #19
+
+Clause: (smokes(A, -0.005976429175915682) :- friends(A, B), r_smokes(B), friends(A, C), friends(A, D), friends(C, D), r_not_smokes(C))
+Connection variables: B (Person), C (Person), D (Person), 
+Scaling factor: 23.323615160349856, Weight: -0.005976429175915682, Scaled weight: -2.5623940091738486E-4

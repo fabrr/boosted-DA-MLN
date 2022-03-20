@@ -1,0 +1,143 @@
+% Running on host: DESKTOP-0S2LA4F
+
+% Switching to VarIndicator = uppercase.
+
+% Unset'ing VarIndicator.
+
+% Calling ILPouterLoop from createRegressionOuterLooper.
+
+% getInputArgWithDefaultValue: args=[datasets\MyWebKB\test/test_pos.txt, datasets\MyWebKB\test/test_neg.txt, datasets\MyWebKB\test/test_bk.txt, datasets\MyWebKB\test/test_facts.txt]
+%  for N=0: args[N]=datasets\MyWebKB\test/test_pos.txt
+
+% getInputArgWithDefaultValue: args=[datasets\MyWebKB\test/test_pos.txt, datasets\MyWebKB\test/test_neg.txt, datasets\MyWebKB\test/test_bk.txt, datasets\MyWebKB\test/test_facts.txt]
+%  for N=1: args[N]=datasets\MyWebKB\test/test_neg.txt
+
+% getInputArgWithDefaultValue: args=[datasets\MyWebKB\test/test_pos.txt, datasets\MyWebKB\test/test_neg.txt, datasets\MyWebKB\test/test_bk.txt, datasets\MyWebKB\test/test_facts.txt]
+%  for N=2: args[N]=datasets\MyWebKB\test/test_bk.txt
+
+% getInputArgWithDefaultValue: args=[datasets\MyWebKB\test/test_pos.txt, datasets\MyWebKB\test/test_neg.txt, datasets\MyWebKB\test/test_bk.txt, datasets\MyWebKB\test/test_facts.txt]
+%  for N=3: args[N]=datasets\MyWebKB\test/test_facts.txt
+
+% Welcome to the WILL ILP/SRL systems.
+
+
+% Switching to VarIndicator = uppercase.
+
+% Unset'ing VarIndicator.
+% Reading background theory from dir: null
+% Load '../mywebkb_bk.txt'.
+
+% Switching to VarIndicator = uppercase.
+
+***** Warning: At least one argument in a mode should be an input argument.  You provided signature = [const], types = [`Page] for 'r_person'. *****
+
+
+***** Warning: At least one argument in a mode should be an input argument.  You provided signature = [const], types = [`Page] for 'course'. *****
+
+
+***** Warning: At least one argument in a mode should be an input argument.  You provided signature = [const], types = [`Page] for 'department'. *****
+
+
+***** Warning: At least one argument in a mode should be an input argument.  You provided signature = [const], types = [`Page] for 'faculty'. *****
+
+
+***** Warning: At least one argument in a mode should be an input argument.  You provided signature = [const], types = [`Page] for 'person'. *****
+
+
+***** Warning: At least one argument in a mode should be an input argument.  You provided signature = [const], types = [`Page] for 'researchproject'. *****
+
+
+***** Warning: At least one argument in a mode should be an input argument.  You provided signature = [const], types = [`Page] for 'staff'. *****
+
+
+***** Warning: At least one argument in a mode should be an input argument.  You provided signature = [const], types = [`Page] for 'student'. *****
+
+
+***** Warning: % Since this is the first setting of the notation for variables, will keep:
+%   variableIndicator = uppercase *****
+
+
+***** Warning: % Since this is the first setting of the notation for variables, will keep:
+%   variableIndicator = uppercase *****
+
+% [ LazyGroundClauseIndex ]  Building full index for mode/1 with 1 assertions.
+% LoadAllModes() called.  Currently loaded modes: []
+% [ LazyGroundClauseIndex ]  Building full index for sameAs/2 with 2 assertions.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 1:  Building full index for exp/3.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 0:  Building full index for log/3.
+% LoadAllLibraries() called.  Currently loaded libraries: [listsInLogic, differentInLogic, modes_arithmeticInLogic, inlines_comparisonInLogic, modes_listsInLogic, inlines_differentInLogic, modes_differentInLogic, arithmeticInLogic, inlines_listsInLogic, modes_comparisonInLogic, comparisonInLogic, inlines_arithmeticInLogic]
+
+%  Read the facts.
+%  Have read 53.074 facts.
+% Have read 0 examples from 'datasets\MyWebKB\test' [datasets\MyWebKB\test/test*].
+% Have read 0 examples from 'datasets\MyWebKB\test' [datasets\MyWebKB\test/test*].
+
+%  LearnOneClause initialized.
+
+% The outer looper has been created.
+
+% Initializing the ILP inner looper.
+
+% Started collecting constants
+
+% Collecting the types of constants.
+
+% Looking at the training examples to see if any types of new constants can be inferred.
+
+***** Warning: targetPredicates=null *****
+
+
+***** Warning: targetArgSpecs=null *****
+
+% Time to collect constants: 436 milliseconds
+% Time to collect examples: 0 seconds
+
+% Read 0 pos examples and 0 neg examples.
+% Time to init learnOneClause: 519 milliseconds
+% Old dirdatasets\MyWebKB\train\models\
+
+% Have 0 'raw' positive examples and kept 0.
+% Have 0 'raw' negative examples and kept 0.
+% No pos ex for person
+% No neg ex for person
+
+% NEW target:                 person(D)
+%  targetPred:                person/1
+%  targetArgTypes:            signature = [const], types = [`Page]
+%  targets:                   [person(D)]
+%  targetPredicates:          [person/1]
+%  targetArgSpecs:            [[D[`Page]]]
+%  variablesInTargets:        [[D]]
+Creating neg ex for: person
+
+% Target variant already exists.  Skipping target:                 person(E).
+%  targetArgTypes:            signature = [const], types = [`Page]
+%  targetArgSpecs:            [[D[`Page]]]
+
+% processing backup's for person
+%  POS EX = 197
+%  NEG EX = 606
+
+% Memory usage by WILLSetup (just counts # targets?):
+%  |backupPosExamples| = 1
+%  |backupNegExamples| = 1
+%  |predicatesAsFacts| = 1
+%  |addedToFactBase|   = 0
+% Did not learn a model for 'person' this run.
+%   loadModel (#0): datasets\MyWebKB\train\models\bRDNs/Trees/personTree0.tree
+%   loadModel (#1): datasets\MyWebKB\train\models\bRDNs/Trees/personTree1.tree
+%   loadModel (#2): datasets\MyWebKB\train\models\bRDNs/Trees/personTree2.tree
+%   loadModel (#3): datasets\MyWebKB\train\models\bRDNs/Trees/personTree3.tree
+%   loadModel (#4): datasets\MyWebKB\train\models\bRDNs/Trees/personTree4.tree
+%   loadModel (#5): datasets\MyWebKB\train\models\bRDNs/Trees/personTree5.tree
+%   loadModel (#6): datasets\MyWebKB\train\models\bRDNs/Trees/personTree6.tree
+%   loadModel (#7): datasets\MyWebKB\train\models\bRDNs/Trees/personTree7.tree
+%   loadModel (#8): datasets\MyWebKB\train\models\bRDNs/Trees/personTree8.tree
+%   loadModel (#9): datasets\MyWebKB\train\models\bRDNs/Trees/personTree9.tree
+%  Done loading 10 models.
+File: datasets\MyWebKB\test/advice.txt doesnt exist.Hence no advice loaded
+
+Loading domain sizes... 
+
+
+// Closed by a createDribble call with file = datasets\MyWebKB\test/test.txt

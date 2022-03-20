@@ -1,0 +1,493 @@
+% Running on host: DESKTOP-0S2LA4F
+
+% Switching to VarIndicator = uppercase.
+
+% Unset'ing VarIndicator.
+
+% Calling ILPouterLoop from createRegressionOuterLooper.
+
+% getInputArgWithDefaultValue: args=[datasets\CiteSeer\train/train_pos.txt, datasets\CiteSeer\train/train_neg.txt, datasets\CiteSeer\train/train_bk.txt, datasets\CiteSeer\train/train_facts.txt]
+%  for N=0: args[N]=datasets\CiteSeer\train/train_pos.txt
+
+% getInputArgWithDefaultValue: args=[datasets\CiteSeer\train/train_pos.txt, datasets\CiteSeer\train/train_neg.txt, datasets\CiteSeer\train/train_bk.txt, datasets\CiteSeer\train/train_facts.txt]
+%  for N=1: args[N]=datasets\CiteSeer\train/train_neg.txt
+
+% getInputArgWithDefaultValue: args=[datasets\CiteSeer\train/train_pos.txt, datasets\CiteSeer\train/train_neg.txt, datasets\CiteSeer\train/train_bk.txt, datasets\CiteSeer\train/train_facts.txt]
+%  for N=2: args[N]=datasets\CiteSeer\train/train_bk.txt
+
+% getInputArgWithDefaultValue: args=[datasets\CiteSeer\train/train_pos.txt, datasets\CiteSeer\train/train_neg.txt, datasets\CiteSeer\train/train_bk.txt, datasets\CiteSeer\train/train_facts.txt]
+%  for N=3: args[N]=datasets\CiteSeer\train/train_facts.txt
+
+% Welcome to the WILL ILP/SRL systems.
+
+
+% Switching to VarIndicator = uppercase.
+
+% Unset'ing VarIndicator.
+% Reading background theory from dir: null
+% Load '../citeseer_bk.txt'.
+
+% Switching to VarIndicator = uppercase.
+
+***** Warning: % Since this is the first setting of the notation for variables, will keep:
+%   variableIndicator = uppercase *****
+
+
+***** Warning: % Since this is the first setting of the notation for variables, will keep:
+%   variableIndicator = uppercase *****
+
+% [ LazyGroundClauseIndex ]  Building full index for mode/1 with 1 assertions.
+% LoadAllModes() called.  Currently loaded modes: []
+% [ LazyGroundClauseIndex ]  Building full index for sameAs/2 with 2 assertions.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 1:  Building full index for exp/3.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 0:  Building full index for log/3.
+% LoadAllLibraries() called.  Currently loaded libraries: [listsInLogic, differentInLogic, modes_arithmeticInLogic, inlines_comparisonInLogic, modes_listsInLogic, inlines_differentInLogic, modes_differentInLogic, arithmeticInLogic, inlines_listsInLogic, modes_comparisonInLogic, comparisonInLogic, inlines_arithmeticInLogic]
+
+%  Read the facts.
+%  Have read 120.327 facts.
+% Have read 37.412 examples from 'datasets\CiteSeer\train' [datasets\CiteSeer\train/train*].
+% Have read 79.267 examples from 'datasets\CiteSeer\train' [datasets\CiteSeer\train/train*].
+
+%  LearnOneClause initialized.
+
+% The outer looper has been created.
+
+% Initializing the ILP inner looper.
+
+% NEW target:                 infield_fauthor(D)
+%  targetPred:                infield_fauthor/1
+%  targetArgTypes:            signature = [const], types = [+bibpos]
+%  targets:                   [infield_fauthor(D)]
+%  targetPredicates:          [infield_fauthor/1, infield_ftitle/1, infield_fvenue/1]
+%  targetArgSpecs:            [[D[+bibpos]]]
+%  variablesInTargets:        [[D]]
+
+% NEW target:                 infield_ftitle(E)
+%  targetPred:                infield_ftitle/1
+%  targetArgTypes:            signature = [const], types = [+bibpos]
+%  targets:                   [infield_fauthor(D), infield_ftitle(E)]
+%  targetPredicates:          [infield_fauthor/1, infield_ftitle/1, infield_fvenue/1]
+%  targetArgSpecs:            [[D[+bibpos]], [E[+bibpos]]]
+%  variablesInTargets:        [[D], [E]]
+
+% NEW target:                 infield_fvenue(F)
+%  targetPred:                infield_fvenue/1
+%  targetArgTypes:            signature = [const], types = [+bibpos]
+%  targets:                   [infield_fauthor(D), infield_ftitle(E), infield_fvenue(F)]
+%  targetPredicates:          [infield_fauthor/1, infield_ftitle/1, infield_fvenue/1]
+%  targetArgSpecs:            [[D[+bibpos]], [E[+bibpos]], [F[+bibpos]]]
+%  variablesInTargets:        [[D], [E], [F]]
+
+% Started collecting constants
+
+% Collecting the types of constants.
+
+% Looking at the training examples to see if any types of new constants can be inferred.
+% Time to collect constants: 1 seconds
+% Time to collect examples: 0 seconds
+
+% Read 37.412 pos examples and 79.267 neg examples.
+% Time to init learnOneClause: 1 seconds
+% Old dirnull
+Setting model dir
+
+% Have 37.412 'raw' positive examples and kept 37.412.
+% Have 79.267 'raw' negative examples and kept 79.267.
+
+% processing backup's for infield_fauthor
+%  POS EX = 7.504
+%  NEG EX = 31.389
+
+% processing backup's for infield_ftitle
+%  POS EX = 11.940
+%  NEG EX = 26.953
+
+% processing backup's for infield_fvenue
+%  POS EX = 17.968
+%  NEG EX = 20.925
+
+% Memory usage by WILLSetup (just counts # targets?):
+%  |backupPosExamples| = 3
+%  |backupNegExamples| = 3
+%  |predicatesAsFacts| = 0
+%  |addedToFactBase|   = 0
+datasets\CiteSeer\train/models/
+File: datasets\CiteSeer\train/advice.txt doesnt exist.Hence no advice loaded
+% Learning 1 trees in this iteration for infield_fauthor
+
+% Learn model for: infield_fauthor
+% Kept 7.504 of the 7.504 positive examples.
+% Kept 15.124 of the 31.389 negative examples.
+% Dataset size: 22.628
+Computing probabilities
+prob time:31 milliseconds
+No hidden examples for : infield_fauthor
+Time to build dataset: 78 milliseconds
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% Have these 7 positive seeds: 5461 7415 7773 8029 12230 13321 15570
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% LearnOneClause Parameters:
+%   Targets (3):
+%    infield_ftitle(+bibpos),
+%    infield_fauthor(+bibpos),
+%    infield_fvenue(+bibpos)
+%  Modes (67):
+%    center(+bib, +pos),
+%    center(+bib, -pos),
+%    firstin(+bib, +pos),
+%    firstin(+bib, -pos),
+%    firstnonauthortitletkn(+bib, +pos),
+%    firstnonauthortitletkn(+bib, -pos),
+%    followby(+bib, +pos, #token),
+%    hascomma(+bib, +pos),
+%    hascomma(+bib, -pos),
+%    haspunc(+bib, +pos),
+%    haspunc(+bib, -pos),
+%    isalphachar(+token),
+%    isdate(+token),
+%    isdigit(+token),
+%    lastinitial(+bib, +pos),
+%    lastinitial(+bib, -pos),
+%    lessthan(+pos, -pos),
+%    lessthan(-pos, +pos),
+%    next(+pos, -pos),
+%    next(-pos, +pos),
+%    nextbibpos(+bibpos, -bibpos),
+%    nextbibpos(-bibpos, +bibpos),
+%    isbibpos(+bibpos, -bib, -pos),
+%    isbibpos(+bibpos, +bib, -pos),
+%    isbibpos(+bibpos, -bib, +pos),
+%    isbibpos(-bibpos, +bib, +pos),
+%    token(+token, +pos, +bib),
+%    token(+token, -pos, +bib),
+%    token(-token, +pos, +bib),
+%    addList(+willList, #willNumber),
+%    multiplyList(+willList, #willNumber),
+%    abs(+willNumber, &willNumber),
+%    minus(+willNumber, &willNumber),
+%    minus(+willNumber, +willNumber, &willNumber),
+%    plus(+willNumber, +willNumber, &willNumber),
+%    mult(+willNumber, +willNumber, &willNumber),
+%    div(+willNumber, +willNumber, &willNumber),
+%    allNumbers(+willList),
+%    positiveNumber(+willNumber),
+%    negativeNumber(+willNumber),
+%    in0toDot001(+willNumber),
+%    in0toDot01(+willNumber),
+%    in0toDot1(+willNumber),
+%    in0to1(+willNumber),
+%    in0to10(+willNumber),
+%    in0to100(+willNumber),
+%    in0to1000(+willNumber),
+%    equalWithTolerance(+willNumber, +willNumber, &willNumber),
+%    greaterOrEqualDifference(+willNumber, +willNumber, &willNumber),
+%    smallerOrEqualDifference(+willNumber, +willNumber, &willNumber),
+%    isaEqualTolerance(+willNumber),
+%    lessThan(+willNumber, +willNumber),
+%    greaterThan(+willNumber, +willNumber),
+%    lessThanOrEqual(+willNumber, +willNumber),
+%    greaterThanOrEqual(+willNumber, +willNumber),
+%    inBetweenOO(+willNumber, +willNumber, +willNumber),
+%    inBetweenCO(+willNumber, +willNumber, +willNumber),
+%    inBetweenOC(+willNumber, +willNumber, +willNumber),
+%    inBetweenCC(+willNumber, +willNumber, +willNumber),
+%    memberOfList(+willAnything, +willList),
+%    firstInList(+willList, &willAnything),
+%    restOfList(+willList, &willList),
+%    positionInList(+willAnything, +willList, &willNumber),
+%    nthInList(+willNumber, +willList, &willAnything),
+%    lengthOfList(+willList, &willNumber),
+%    infield_ftitle(+bibpos),
+%    infield_fvenue(+bibpos)
+
+% target           = infield_fauthor(D)
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.1E-7) for clause:  infield_fauthor(_).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+% Most-general root: infield_fauthor(_).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #1, bodyLen=0] 'infield_fauthor(_).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]' score=-Infinity
+% [ LazyGroundClauseIndex ]  Building full index for nextbibpos/2 with 1 assertions.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 0:  Building full index for isbibpos/3.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 1:  Building full index for isbibpos/3.
+% [ LazyGroundClauseIndex ]  Building full index for next/2 with 50 assertions.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 0:  Building full index for nextbibpos/2.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 1:  Building full index for nextbibpos/2.
+% [ LazyGroundClauseIndex ]  Building full index for infield_ftitle/1 with 11.940 assertions.
+% [ LazyGroundClauseIndex ]  Building full index for infield_fvenue/1 with 17.968 assertions.
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 1 variant children.  Sending 5 items to OPEN for evaluation and possible insertion.
+% Have created 5 valid-on-seeds descendants and have picked up 1 bad extensions.
+%     Score = -4.403,898079 (regressionFit = 4.403,898078, penalties=1.12E-6) for clause:  infield_fauthor(A) :- nextbibpos(A, _).  [covers 21.136,0/22.628,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -4.403,898079): infield_fauthor(A) :- nextbibpos(A, _).  [covers 21.136,0/22.628,0 pos, 0,0/0,0 neg]
+Giving INF score for (infield_fauthor(D) :-  Coverage only partially computed- took too long to compute. nextbibpos(Anon227597, D)) as it timed out. The examples on true and false branch are incorrect.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.12E-6) for clause:  infield_fauthor(A) :- nextbibpos(_, A).  [covers 0,0/22.628,0 pos, 0,0/0,0 neg]Coverage only partially computed- took too long to compute.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  infield_fauthor(A) :- isbibpos(A, _, _).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -4.157,392608 (regressionFit = 4.157,392607, penalties=1.0100000000000003E-6) for clause:  infield_fauthor(A) :- infield_ftitle(A).  [covers 5.802,0/22.628,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -4.157,392608): infield_fauthor(A) :- infield_ftitle(A).  [covers 5.802,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -3.483,291968 (regressionFit = 3.483,291967, penalties=1.0100000000000003E-6) for clause:  infield_fauthor(A) :- infield_fvenue(A).  [covers 8.623,0/22.628,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -3.483,291968): infield_fauthor(A) :- infield_fvenue(A).  [covers 8.623,0/22.628,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#2 of outerLoop #1, bodyLen=0:1] 'infield_fauthor(A) :- isbibpos(A, _, _).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]' score=-Infinity
+% [ LazyGroundClauseIndex ]  Building full index for center/2 with 1.159 assertions.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 0:  Building full index for center/2.
+% [ LazyGroundClauseIndex ]  Building full index for firstin/2 with 1.563 assertions.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 0:  Building full index for firstin/2.
+% [ LazyGroundClauseIndex ]  Building full index for firstnonauthortitletkn/2 with 1.563 assertions.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 0:  Building full index for firstnonauthortitletkn/2.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 0:  Building full index for followby/3.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 1:  Building full index for followby/3.
+% [ LazyGroundClauseIndex ]  Building full index for followby/3 with 15.819 assertions.
+% [ LazyGroundClauseIndex ]  Building full index for hascomma/2 with 5.357 assertions.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 0:  Building full index for hascomma/2.
+% [ LazyGroundClauseIndex ]  Building full index for haspunc/2 with 13.550 assertions.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 0:  Building full index for haspunc/2.
+% [ LazyGroundClauseIndex ]  Building full index for lastinitial/2 with 1.563 assertions.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 0:  Building full index for lastinitial/2.
+% [ LazyGroundClauseIndex ]  Building full index for lessthan/2 with 1.225 assertions.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 0:  Building full index for lessthan/2.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 1:  Building full index for lessthan/2.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 0:  Building full index for next/2.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 1:  Building full index for next/2.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 1:  Building full index for token/3.
+%  At # nodes expanded = 2, |OPEN| = 0.  Pruned 11 variant children.  Sending 21 items to OPEN for evaluation and possible insertion.
+% Have created 21 valid-on-seeds descendants and have picked up 5 bad extensions.
+%     Score = -4.966,302889 (regressionFit = 4.966,302887, penalties=2.0300000000000005E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, C), center(B, C).  [covers 561,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -4.999,939384 (regressionFit = 4.999,939382, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, _), center(B, _).  [covers 17.826,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, _), firstin(B, _).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -4.962,704939 (regressionFit = 4.962,704937, penalties=2.0300000000000005E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, C), firstnonauthortitletkn(B, C).  [covers 470,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, _), firstnonauthortitletkn(B, _).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -4.868,286717 (regressionFit = 4.868,286715, penalties=2.0500000000000003E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, C), followby(B, C, tcomma).  [covers 3.876,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -4.390,605004 (regressionFit = 4.390,605001, penalties=2.0500000000000003E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, C), followby(B, C, tperiod).  [covers 6.226,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -4.824,835546 (regressionFit = 4.824,835544, penalties=2.0300000000000005E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, C), hascomma(B, C).  [covers 3.546,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -5.141,653230 (regressionFit = 5.141,653228, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, _), hascomma(B, _).  [covers 22.243,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -5.000,573818 (regressionFit = 5.000,573816, penalties=2.0300000000000005E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, C), haspunc(B, C).  [covers 7.989,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, _), haspunc(B, _).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, _), lastinitial(B, _).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, _, B), lessthan(B, _).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -4.823,271606 (regressionFit = 4.823,271603, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, _, B), lessthan(_, B).  [covers 21.136,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -4.403,898080 (regressionFit = 4.403,898078, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, _, B), next(B, _).  [covers 21.136,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, _, B), next(_, B).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -4.403,898081 (regressionFit = 4.403,898078, penalties=2.3400000000000005E-6) for clause:  infield_fauthor(A) :- isbibpos(A, _, _), nextbibpos(A, _).  [covers 21.136,0/22.628,0 pos, 0,0/0,0 neg]
+Giving INF score for (infield_fauthor(D) :-  Coverage only partially computed- took too long to compute. isbibpos(D, Anon230319, Anon230321), nextbibpos(Anon668363, D)) as it timed out. The examples on true and false branch are incorrect.
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.3400000000000005E-6) for clause:  infield_fauthor(A) :- isbibpos(A, _, _), nextbibpos(_, A).  [covers 0,0/22.628,0 pos, 0,0/0,0 neg]Coverage only partially computed- took too long to compute.
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.1400000000000003E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, C), token(_, C, B).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -4.157,392609 (regressionFit = 4.157,392607, penalties=2.2300000000000002E-6) for clause:  infield_fauthor(A) :- isbibpos(A, _, _), infield_ftitle(A).  [covers 5.802,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -3.483,291969 (regressionFit = 3.483,291967, penalties=2.2300000000000002E-6) for clause:  infield_fauthor(A) :- isbibpos(A, _, _), infield_fvenue(A).  [covers 8.623,0/22.628,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#3 of outerLoop #1, bodyLen=1:2] 'infield_fauthor(A) :- isbibpos(A, _, B), next(B, _).  [covers 21.136,0/22.628,0 pos, 0,0/0,0 neg]' score=-4403.898080402327
+
+% Consider expanding [#4 of outerLoop #1, bodyLen=1:2] 'infield_fauthor(A) :- isbibpos(A, _, B), next(_, B).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]' score=-Infinity
+
+% The best node found: infield_fauthor(A) :- infield_fvenue(A).  [covers 8.623,0/22.628,0 pos, 0,0/0,0 neg]
+
+% The best node found: infield_fauthor(A) :- infield_fvenue(A).  [covers 8.623,0/22.628,0 pos, 0,0/0,0 neg]
+Setting -0.14185106490049262 for 
+ // Learned this clause on outer loop cycle #1.  It scores=-3.483,29 and has recall=0,38, precision=1,00, and F1=0,55 (using m-estimates).
+ // It covers 38,1% of the positive examples, 8623 of 22628,
+(infield_fauthor(D) :- infield_fvenue(D))
+
+% On cycle #1, the best clause found is:
+%      infield_fauthor(A) :- infield_fvenue(A).  [covers 8.623,0/22.628,0 pos, 0,0/0,0 neg]
+% This clause covers 8623 positive examples, of which 8623 are newly covered.
+% It also covers 0 negative examples, of which 0 are newly covered.
+% The current set of 1 best clauses covers 38,1% of the positive examples and NaN% of the negatives.}
+
+% Have these 10 positive seeds: 283 1205 1860 3139 3272 4119 5057 8245 12844 14595
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = infield_fauthor(D)
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.1E-7) for clause:  infield_fauthor(_).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+% Most-general root: infield_fauthor(_).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #2, bodyLen=0] 'infield_fauthor(_).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 1 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants and have picked up 2 bad extensions.
+%     Score = -3.798,077449 (regressionFit = 3.798,077448, penalties=1.12E-6) for clause:  infield_fauthor(A) :- nextbibpos(A, _).  [covers 21.136,0/22.628,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -3.798,077449): infield_fauthor(A) :- nextbibpos(A, _).  [covers 21.136,0/22.628,0 pos, 0,0/0,0 neg]
+Giving INF score for (infield_fauthor(D) :-  Coverage only partially computed- took too long to compute. nextbibpos(Anon1109483, D)) as it timed out. The examples on true and false branch are incorrect.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.12E-6) for clause:  infield_fauthor(A) :- nextbibpos(_, A).  [covers 0,0/22.628,0 pos, 0,0/0,0 neg]Coverage only partially computed- took too long to compute.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  infield_fauthor(A) :- isbibpos(A, _, _).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -3.150,961374 (regressionFit = 3.150,961373, penalties=1.0100000000000003E-6) for clause:  infield_fauthor(A) :- infield_ftitle(A).  [covers 5.802,0/22.628,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -3.150,961374): infield_fauthor(A) :- infield_ftitle(A).  [covers 5.802,0/22.628,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#2 of outerLoop #2, bodyLen=0:1] 'infield_fauthor(A) :- isbibpos(A, _, _).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 2, |OPEN| = 0.  Pruned 11 variant children.  Sending 18 items to OPEN for evaluation and possible insertion.
+% Have created 18 valid-on-seeds descendants and have picked up 8 bad extensions.
+%     Score = -4.303,611060 (regressionFit = 4.303,611058, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, _), center(B, _).  [covers 17.826,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, _), firstin(B, _).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, _), firstnonauthortitletkn(B, _).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -4.148,638573 (regressionFit = 4.148,638571, penalties=2.0500000000000003E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, C), followby(B, C, tcomma).  [covers 3.876,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -3.766,900847 (regressionFit = 3.766,900845, penalties=2.0500000000000003E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, C), followby(B, C, tperiod).  [covers 6.226,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -4.111,325888 (regressionFit = 4.111,325886, penalties=2.0300000000000005E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, C), hascomma(B, C).  [covers 3.546,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -4.550,477180 (regressionFit = 4.550,477178, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, _), hascomma(B, _).  [covers 22.243,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -4.289,330283 (regressionFit = 4.289,330281, penalties=2.0300000000000005E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, C), haspunc(B, C).  [covers 7.989,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, _), haspunc(B, _).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, _), lastinitial(B, _).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, _, B), lessthan(B, _).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -4.646,926662 (regressionFit = 4.646,926659, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, _, B), lessthan(_, B).  [covers 21.136,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -3.798,077450 (regressionFit = 3.798,077448, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, _, B), next(B, _).  [covers 21.136,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, _, B), next(_, B).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -3.798,077450 (regressionFit = 3.798,077448, penalties=2.3400000000000005E-6) for clause:  infield_fauthor(A) :- isbibpos(A, _, _), nextbibpos(A, _).  [covers 21.136,0/22.628,0 pos, 0,0/0,0 neg]
+Giving INF score for (infield_fauthor(D) :-  Coverage only partially computed- took too long to compute. isbibpos(D, Anon1112265, Anon1112267), nextbibpos(Anon1550383, D)) as it timed out. The examples on true and false branch are incorrect.
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.3400000000000005E-6) for clause:  infield_fauthor(A) :- isbibpos(A, _, _), nextbibpos(_, A).  [covers 0,0/22.628,0 pos, 0,0/0,0 neg]Coverage only partially computed- took too long to compute.
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.1400000000000003E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, C), token(_, C, B).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -3.150,961375 (regressionFit = 3.150,961373, penalties=2.2300000000000002E-6) for clause:  infield_fauthor(A) :- isbibpos(A, _, _), infield_ftitle(A).  [covers 5.802,0/22.628,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#3 of outerLoop #2, bodyLen=1:2] 'infield_fauthor(A) :- isbibpos(A, _, B), next(B, _).  [covers 21.136,0/22.628,0 pos, 0,0/0,0 neg]' score=-3798.0774503224884
+
+% Consider expanding [#4 of outerLoop #2, bodyLen=1:2] 'infield_fauthor(A) :- isbibpos(A, _, B), next(_, B).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]' score=-Infinity
+
+% The best node found: infield_fauthor(A) :- infield_ftitle(A).  [covers 5.802,0/22.628,0 pos, 0,0/0,0 neg]
+
+% The best node found: infield_fauthor(A) :- infield_ftitle(A).  [covers 5.802,0/22.628,0 pos, 0,0/0,0 neg]
+Setting -0.14185106490049249 for 
+ // Learned this clause on outer loop cycle #2.  It scores=-3.150,96 and has recall=0,26, precision=1,00, and F1=0,41 (using m-estimates).
+ // It covers 25,6% of the positive examples, 5802 of 22628,
+ // So far 14425 (63,7%) of the positive examples have been covered.
+(infield_fauthor(D) :- infield_ftitle(D))
+
+% On cycle #2, the best clause found is:
+%      infield_fauthor(A) :- infield_ftitle(A).  [covers 5.802,0/22.628,0 pos, 0,0/0,0 neg]
+% This clause covers 5802 positive examples, of which 5802 are newly covered.
+% It also covers 0 negative examples, of which 0 are newly covered.
+% The current set of 2 best clauses covers 63,7% of the positive examples and NaN% of the negatives.}
+
+% Have these 9 positive seeds: 1311 1845 2448 2555 3839 6070 6187 6709 6822
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = infield_fauthor(D)
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.1E-7) for clause:  infield_fauthor(_).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+% Most-general root: infield_fauthor(_).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #3, bodyLen=0] 'infield_fauthor(_).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 1 variant children.  Sending 3 items to OPEN for evaluation and possible insertion.
+% Have created 3 valid-on-seeds descendants and have picked up 3 bad extensions.
+%     Score = -3.312,684137 (regressionFit = 3.312,684135, penalties=1.12E-6) for clause:  infield_fauthor(A) :- nextbibpos(A, _).  [covers 21.136,0/22.628,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -3.312,684137): infield_fauthor(A) :- nextbibpos(A, _).  [covers 21.136,0/22.628,0 pos, 0,0/0,0 neg]
+Giving INF score for (infield_fauthor(D) :-  Coverage only partially computed- took too long to compute. nextbibpos(Anon1991477, D)) as it timed out. The examples on true and false branch are incorrect.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.12E-6) for clause:  infield_fauthor(A) :- nextbibpos(_, A).  [covers 0,0/22.628,0 pos, 0,0/0,0 neg]Coverage only partially computed- took too long to compute.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  infield_fauthor(A) :- isbibpos(A, _, _).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#2 of outerLoop #3, bodyLen=0:1] 'infield_fauthor(A) :- isbibpos(A, _, _).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 2, |OPEN| = 0.  Pruned 11 variant children.  Sending 18 items to OPEN for evaluation and possible insertion.
+% Have created 18 valid-on-seeds descendants and have picked up 8 bad extensions.
+%     Score = -3.752,744909 (regressionFit = 3.752,744906, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, _), center(B, _).  [covers 17.826,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, _), firstin(B, _).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, _), firstnonauthortitletkn(B, _).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -3.309,503529 (regressionFit = 3.309,503527, penalties=2.0500000000000003E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, C), followby(B, C, tperiod).  [covers 6.226,0/22.628,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -3.309,503529): infield_fauthor(A) :- isbibpos(A, B, C), followby(B, C, tperiod).  [covers 6.226,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -3.649,479821 (regressionFit = 3.649,479819, penalties=2.0500000000000003E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, C), followby(B, C, tcomma).  [covers 3.876,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -3.616,480452 (regressionFit = 3.616,480450, penalties=2.0300000000000005E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, C), hascomma(B, C).  [covers 3.546,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -4.134,733931 (regressionFit = 4.134,733929, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, _), hascomma(B, _).  [covers 22.243,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -3.757,335655 (regressionFit = 3.757,335653, penalties=2.0300000000000005E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, C), haspunc(B, C).  [covers 7.989,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, _), haspunc(B, _).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -3.267,260623 (regressionFit = 3.267,260621, penalties=2.0300000000000005E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, C), lastinitial(B, C).  [covers 1.520,0/22.628,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -3.267,260623): infield_fauthor(A) :- isbibpos(A, B, C), lastinitial(B, C).  [covers 1.520,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, _), lastinitial(B, _).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, _, B), lessthan(B, _).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -4.473,459411 (regressionFit = 4.473,459408, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, _, B), lessthan(_, B).  [covers 21.136,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -3.312,684138 (regressionFit = 3.312,684135, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, _, B), next(B, _).  [covers 21.136,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, _, B), next(_, B).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -3.312,684138 (regressionFit = 3.312,684135, penalties=2.3400000000000005E-6) for clause:  infield_fauthor(A) :- isbibpos(A, _, _), nextbibpos(A, _).  [covers 21.136,0/22.628,0 pos, 0,0/0,0 neg]
+Giving INF score for (infield_fauthor(D) :-  Coverage only partially computed- took too long to compute. isbibpos(D, Anon1994239, Anon1994241), nextbibpos(Anon2432301, D)) as it timed out. The examples on true and false branch are incorrect.
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.3400000000000005E-6) for clause:  infield_fauthor(A) :- isbibpos(A, _, _), nextbibpos(_, A).  [covers 0,0/22.628,0 pos, 0,0/0,0 neg]Coverage only partially computed- took too long to compute.
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.1400000000000003E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, C), token(_, C, B).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#3 of outerLoop #3, bodyLen=1:2] 'infield_fauthor(A) :- isbibpos(A, _, B), next(B, _).  [covers 21.136,0/22.628,0 pos, 0,0/0,0 neg]' score=-3312.684137623156
+
+% Consider expanding [#4 of outerLoop #3, bodyLen=1:2] 'infield_fauthor(A) :- isbibpos(A, _, B), next(_, B).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]' score=-Infinity
+
+% The best node found: infield_fauthor(A) :- isbibpos(A, B, C), lastinitial(B, C).  [covers 1.520,0/22.628,0 pos, 0,0/0,0 neg]
+
+% The best node found: infield_fauthor(A) :- isbibpos(A, B, C), lastinitial(B, C).  [covers 1.520,0/22.628,0 pos, 0,0/0,0 neg]
+Setting 0.8320945818178727 for 
+ // Learned this clause on outer loop cycle #3.  It scores=-3.267,26 and has recall=0,07, precision=1,00, and F1=0,13 (using m-estimates).
+ // It covers 6,7% of the positive examples, 1520 of 22628 (of which 1489 are newly covered),
+ // So far 15914 (70,3%) of the positive examples have been covered.
+(infield_fauthor(D) :- isbibpos(D, Anon1994239, Anon1994241), lastinitial(Anon1994239, Anon1994241))
+
+% On cycle #3, the best clause found is:
+%      infield_fauthor(A) :- isbibpos(A, B, C), lastinitial(B, C).  [covers 1.520,0/22.628,0 pos, 0,0/0,0 neg]
+% This clause covers 1520 positive examples, of which 1489 are newly covered.
+% It also covers 0 negative examples, of which 0 are newly covered.
+% The current set of 3 best clauses covers 70,3% of the positive examples and NaN% of the negatives.}
+
+% Have these 10 positive seeds: 209 1050 1356 1926 2092 2994 3954 5613 7322 8724
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = infield_fauthor(D)
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.1E-7) for clause:  infield_fauthor(_).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+% Most-general root: infield_fauthor(_).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #4, bodyLen=0] 'infield_fauthor(_).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 1 variant children.  Sending 3 items to OPEN for evaluation and possible insertion.
+% Have created 3 valid-on-seeds descendants and have picked up 3 bad extensions.
+%     Score = -3.154,008569 (regressionFit = 3.154,008567, penalties=1.12E-6) for clause:  infield_fauthor(A) :- nextbibpos(A, _).  [covers 21.136,0/22.628,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -3.154,008569): infield_fauthor(A) :- nextbibpos(A, _).  [covers 21.136,0/22.628,0 pos, 0,0/0,0 neg]
+Giving INF score for (infield_fauthor(D) :-  Coverage only partially computed- took too long to compute. nextbibpos(Anon2873461, D)) as it timed out. The examples on true and false branch are incorrect.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.12E-6) for clause:  infield_fauthor(A) :- nextbibpos(_, A).  [covers 0,0/22.628,0 pos, 0,0/0,0 neg]Coverage only partially computed- took too long to compute.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  infield_fauthor(A) :- isbibpos(A, _, _).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#2 of outerLoop #4, bodyLen=0:1] 'infield_fauthor(A) :- isbibpos(A, _, _).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 2, |OPEN| = 0.  Pruned 11 variant children.  Sending 17 items to OPEN for evaluation and possible insertion.
+% Have created 17 valid-on-seeds descendants and have picked up 9 bad extensions.
+%     Score = -3.343,717678 (regressionFit = 3.343,717676, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, _), center(B, _).  [covers 17.826,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, _), firstin(B, _).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, _), firstnonauthortitletkn(B, _).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -3.236,150172 (regressionFit = 3.236,150170, penalties=2.0500000000000003E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, C), followby(B, C, tperiod).  [covers 6.226,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -3.203,283073 (regressionFit = 3.203,283071, penalties=2.0500000000000003E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, C), followby(B, C, tcomma).  [covers 3.876,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -3.173,090359 (regressionFit = 3.173,090357, penalties=2.0300000000000005E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, C), hascomma(B, C).  [covers 3.546,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -3.529,001241 (regressionFit = 3.529,001239, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, _), hascomma(B, _).  [covers 22.243,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -3.333,631970 (regressionFit = 3.333,631968, penalties=2.0300000000000005E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, C), haspunc(B, C).  [covers 7.989,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, _), haspunc(B, _).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, _), lastinitial(B, _).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, _, B), lessthan(B, _).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -3.938,564285 (regressionFit = 3.938,564283, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, _, B), lessthan(_, B).  [covers 21.136,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -3.154,008570 (regressionFit = 3.154,008567, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, _, B), next(B, _).  [covers 21.136,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.24E-6) for clause:  infield_fauthor(A) :- isbibpos(A, _, B), next(_, B).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+%     Score = -3.154,008570 (regressionFit = 3.154,008567, penalties=2.3400000000000005E-6) for clause:  infield_fauthor(A) :- isbibpos(A, _, _), nextbibpos(A, _).  [covers 21.136,0/22.628,0 pos, 0,0/0,0 neg]
+Giving INF score for (infield_fauthor(D) :-  Coverage only partially computed- took too long to compute. isbibpos(D, Anon2876243, Anon2876245), nextbibpos(Anon3314355, D)) as it timed out. The examples on true and false branch are incorrect.
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.3400000000000005E-6) for clause:  infield_fauthor(A) :- isbibpos(A, _, _), nextbibpos(_, A).  [covers 0,0/22.628,0 pos, 0,0/0,0 neg]Coverage only partially computed- took too long to compute.
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.1400000000000003E-6) for clause:  infield_fauthor(A) :- isbibpos(A, B, C), token(_, C, B).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#3 of outerLoop #4, bodyLen=1:2] 'infield_fauthor(A) :- isbibpos(A, _, B), next(B, _).  [covers 21.136,0/22.628,0 pos, 0,0/0,0 neg]' score=-3154.008569649135
+
+% Consider expanding [#4 of outerLoop #4, bodyLen=1:2] 'infield_fauthor(A) :- isbibpos(A, _, B), next(_, B).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]' score=-Infinity
+
+% The best node found: infield_fauthor(A) :- nextbibpos(A, _).  [covers 21.136,0/22.628,0 pos, 0,0/0,0 neg]
+
+% The best node found: infield_fauthor(A) :- nextbibpos(A, _).  [covers 21.136,0/22.628,0 pos, 0,0/0,0 neg]
+Setting 0.19962758553806723 for 
+ // Learned this clause on outer loop cycle #4.  It scores=-3.154,01 and has recall=0,93, precision=1,00, and F1=0,97 (using m-estimates).
+ // It covers 93,4% of the positive examples, 21136 of 22628 (of which 5660 are newly covered),
+ // So far 21574 (95,3%) of the positive examples have been covered.
+(infield_fauthor(D) :- nextbibpos(D, Anon2646889))
+
+% On cycle #4, the best clause found is:
+%      infield_fauthor(A) :- nextbibpos(A, _).  [covers 21.136,0/22.628,0 pos, 0,0/0,0 neg]
+% This clause covers 21136 positive examples, of which 5660 are newly covered.
+% It also covers 0 negative examples, of which 0 are newly covered.
+% The current set of 4 best clauses covers 95,3% of the positive examples and NaN% of the negatives.}
+
+% ******************************************
+
+
+% ******************************************
+adding regression values
+Added -0.14185106490049262 to wgt = -0,1419 (infield_fauthor(A) :- infield_fvenue(A))
+Added -0.14185106490049249 to wgt = -0,1419 (infield_fauthor(A) :- infield_ftitle(A))
+Added 0.8320945818178727 to wgt = 0,8321 (infield_fauthor(A) :- isbibpos(A, B, C), lastinitial(B, C))
+Added 0.19962758553806723 to wgt = 0,1996 (infield_fauthor(A) :- nextbibpos(A, _))
+% Saving model in: datasets\CiteSeer\train/models/bRDNs/infield_fauthor.model.ckpt
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% Have these 6 positive seeds: 3184 4217 4709 10907 12342 14143
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = infield_fauthor(D)
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.1E-7) for clause:  infield_fauthor(_).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]
+% Most-general root: infield_fauthor(_).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #1, bodyLen=0] 'infield_fauthor(_).  [covers 22.628,0/22.628,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 1 variant children.  Sending 5 items to OPEN for evaluation and possible insertion.
+% Have created 5 valid-on-seeds descendants and have picked up 1 bad extensions.

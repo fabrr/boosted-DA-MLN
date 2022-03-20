@@ -1,0 +1,237 @@
+////// Learned from a dataset containing 880 positive (880,0 weighted sum) and 0 negative (0,0 wgt'ed) examples.
+////// The minimal (wgt'ed) coverage = 3,000, the maximal (wgt'ed) NEG coverage = 0,499, and the minimal (wgt'ed) precision = 0,001 (using m = 0,1)
+
+usePrologVariables: true.
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: allPossibleMarkers
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #0, (-Infinity, 0.05], from 'outerLoop #1, null' and covering 20,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,023, precision = 0,995, and F1 = 0,044 - learned after 5 total and 3 acceptable nodes.  Node score = -4011.841236033245
+
+ FOR faculty(D) IF (courseta(Anon14397, D), courseprof(Anon14397, Anon14439)) THEN output = -1,763320 ELSE output = 4,715836;
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #1, null' and covering 4,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,091, precision = 0,976, and F1 = 0,166 - learned after 3 total and 1 acceptable nodes.  Node score = -9.31106740182068
+
+ FOR faculty(D) IF (courseta(Anon1799, D)) THEN output = -0,080459 ELSE output = 0,346357;
+
+// Best in (weighted) recall bin #2, (0.1, 0.15], from 'outerLoop #1, null' and covering 6,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,136, precision = 0,984, and F1 = 0,239 - learned after 4 total and 2 acceptable nodes.  Node score = -11.224954630089947
+
+ FOR faculty(D) IF (project(Anon13315, D), courseprof(Anon13345, D)) THEN output = 0,039148 ELSE output = 0,114532;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #1, null' and covering 9,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,204, precision = 0,989, and F1 = 0,338 - learned after 23 total and 21 acceptable nodes.  Node score = -10.522927573252408
+
+ FOR faculty(D) IF (project(Anon13315, D), project(Anon13315, Anon13351), courseprof(Anon13757, Anon13351)) THEN output = 0,016052 ELSE output = 0,191620;
+
+// Best in (weighted) recall bin #5, (0.25, 0.3], from 'outerLoop #1, null' and covering 12,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,272, precision = 0,992, and F1 = 0,427 - learned after 2 total and 0 acceptable nodes.  Node score = -10.62712161403997
+
+ FOR faculty(D) IF (courseprof(Anon1089, D)) THEN output = 0,283800 ELSE output = 0,233149;
+
+// Best in (weighted) recall bin #10, (0.5, 0.55], from 'outerLoop #1, null' and covering 23,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,522, precision = 0,996, and F1 = 0,685 - learned after 5 total and 3 acceptable nodes.  Node score = -6.7660722572075755
+
+ FOR faculty(D) IF (project(Anon13315, D), project(Anon13349, D)) THEN output = 0,005230 ELSE output = 0,513063;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #1, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #0, (-Infinity, 0.05], from 'outerLoop #1, null' and covering 20,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,023, precision = 0,995, and F1 = 0,044 - learned after 5 total and 3 acceptable nodes.  Node score = -4011.841236033245
+
+ FOR faculty(D) IF (courseta(Anon14397, D), courseprof(Anon14397, Anon14439)) THEN output = -1,763320 ELSE output = 4,715836;
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #1, null' and covering 4,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,091, precision = 0,976, and F1 = 0,166 - learned after 3 total and 1 acceptable nodes.  Node score = -9.31106740182068
+
+ FOR faculty(D) IF (courseta(Anon1799, D)) THEN output = -0,080459 ELSE output = 0,346357;
+
+// Best in (weighted) recall bin #2, (0.1, 0.15], from 'outerLoop #1, null' and covering 6,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,136, precision = 0,984, and F1 = 0,239 - learned after 4 total and 2 acceptable nodes.  Node score = -11.224954630089947
+
+ FOR faculty(D) IF (project(Anon13315, D), courseprof(Anon13345, D)) THEN output = 0,039148 ELSE output = 0,114532;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #1, null' and covering 9,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,204, precision = 0,989, and F1 = 0,338 - learned after 23 total and 21 acceptable nodes.  Node score = -10.522927573252408
+
+ FOR faculty(D) IF (project(Anon13315, D), project(Anon13315, Anon13351), courseprof(Anon13757, Anon13351)) THEN output = 0,016052 ELSE output = 0,191620;
+
+// Best in (weighted) recall bin #5, (0.25, 0.3], from 'outerLoop #1, null' and covering 12,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,272, precision = 0,992, and F1 = 0,427 - learned after 2 total and 0 acceptable nodes.  Node score = -10.62712161403997
+
+ FOR faculty(D) IF (courseprof(Anon1089, D)) THEN output = 0,283800 ELSE output = 0,233149;
+
+// Best in (weighted) recall bin #10, (0.5, 0.55], from 'outerLoop #1, null' and covering 23,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,522, precision = 0,996, and F1 = 0,685 - learned after 5 total and 3 acceptable nodes.  Node score = -6.7660722572075755
+
+ FOR faculty(D) IF (project(Anon13315, D), project(Anon13349, D)) THEN output = 0,005230 ELSE output = 0,513063;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #2, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #2, null' and covering 4,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,091, precision = 0,976, and F1 = 0,166 - learned after 3 total and 1 acceptable nodes.  Node score = -9.693820089731103
+
+ FOR faculty(D) IF (courseta(Anon2741, D)) THEN output = -0,061661 ELSE output = 0,272169;
+
+// Best in (weighted) recall bin #5, (0.25, 0.3], from 'outerLoop #2, null' and covering 12,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,272, precision = 0,992, and F1 = 0,427 - learned after 2 total and 0 acceptable nodes.  Node score = -10.921086342034725
+
+ FOR faculty(D) IF (courseprof(Anon4457, D)) THEN output = 0,056595 ELSE output = 0,201035;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #3, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #3, null' and covering 4,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,091, precision = 0,976, and F1 = 0,166 - learned after 2 total and 0 acceptable nodes.  Node score = -9.46927655773035
+
+ FOR faculty(D) IF (courseta(Anon2435, D)) THEN output = -0,066833 ELSE output = 0,255529;
+
+// Best in (weighted) recall bin #5, (0.25, 0.3], from 'outerLoop #3, null' and covering 12,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,272, precision = 0,992, and F1 = 0,427 - learned after 2 total and 0 acceptable nodes.  Node score = -10.91009058267495
+
+ FOR faculty(D) IF (courseprof(Anon2853, D)) THEN output = 0,079129 ELSE output = 0,205814;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #4, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #5, (0.25, 0.3], from 'outerLoop #4, null' and covering 12,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,272, precision = 0,992, and F1 = 0,427 - learned after 2 total and 0 acceptable nodes.  Node score = -11.134304677618793
+
+ FOR faculty(D) IF (courseprof(Anon2151, D)) THEN output = 0,122822 ELSE output = 0,195168;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #5, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #6, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #7, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #8, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #9, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #10, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #11, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #12, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #13, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #14, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #15, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #16, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #17, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #18, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #19, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #20, null
+////
+////////////////////////////////////////////////////////////////////////////////
+

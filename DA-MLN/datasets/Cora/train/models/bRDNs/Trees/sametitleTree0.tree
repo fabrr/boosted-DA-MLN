@@ -1,0 +1,6 @@
+setParam: stringsAreCaseSensitive = true.
+
+usePrologVariables: true.
+
+
+(sametitle(A, A, 0.12065567671625006) :- haswordtitle(A, _)).

@@ -1,0 +1,8 @@
+setParam: stringsAreCaseSensitive = true.
+
+usePrologVariables: true.
+
+
+(female(A, -0.08518475138839687) :- director(A)).
+(female(A, 0) :- director(A)).
+(female(A, 0) :- director(A)).

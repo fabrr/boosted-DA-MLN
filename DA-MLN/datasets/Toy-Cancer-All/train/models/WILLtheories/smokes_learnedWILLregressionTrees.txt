@@ -1,0 +1,116 @@
+useStdLogicNotation: true.
+
+% maxTreeDepthInNodes                 = 5
+% maxTreeDepthInLiterals              = 12
+% maxNumberOfLiteralsAtAnInteriorNode = 2
+% maxFreeBridgersInBody               = 1
+% maxNumberOfClauses                  = 8
+% maxNodesToConsider                  = 10
+% maxNodesToCreate                    = 10.000
+% maxAcceptableNodeScoreToStop        = 0,003
+% negPosRatio                         = 2,000
+% testNegPosRatio                     = -1,000
+% # of pos examples                   = 20
+% # of neg examples                   = 0
+
+
+
+%%%%%  WILL-Produced Tree #1 @ 15:08:16 7/14/21.  [Using 6.597.720 memory cells.]  %%%%%
+
+% FOR smokes(a):
+%   if ( cancer(a), friends(a, b), cancer(b) )
+%   then return 0.3576072008151595;  // std dev = 0,614, 6,000 (wgt'ed) examples reached here.  /* #neg=1 #pos=5 */
+%   else if ( friends(a, c), cancer(c) )
+%   | then return 0.013535782781552118;  // std dev = 0,350, 7,000 (wgt'ed) examples reached here.  /* #neg=6 #pos=1 */
+%   | else return 0.0015317229521336058;  // std dev = 0,350, 7,000 (wgt'ed) examples reached here.  /* #neg=6 #pos=1 */
+
+
+% Clauses:
+
+smokes(a, 0.3576072008151595) :- 
+     cancer(a), 
+     friends(a, b), 
+     cancer(b), 
+     !. // Clause #1.
+
+smokes(a, 0.013535782781552118) :- 
+     friends(a, b), 
+     cancer(b), 
+     !. // Clause #2.
+
+smokes(a, 0.0015317229521336058) :- !. // Clause #3.
+
+
+% The flattened versions of these clauses:
+
+flattened_cancer(A) ^
+   friends(A, UniqueVar1) ^
+   cancer(UniqueVar1) ^
+   ! => 
+   smokes(A, 0.3576072008151595). // Flattened version of clause #1.
+
+flattened_friends(A, UniqueVar2) ^
+   cancer(UniqueVar2) ^
+   ! => 
+   smokes(A, 0.013535782781552118). // Flattened version of clause #2.
+
+flattened_! => 
+   smokes(Underscore, 0.0015317229521336058). // Flattened version of clause #3.
+
+
+% The unique flattened literals:
+%   cancer(A)
+%   friends(A, UniqueVar1)
+%   cancer(UniqueVar1)
+%   friends(A, UniqueVar2)
+%   cancer(UniqueVar2)
+
+%%%%%  WILL-Produced Tree Combined @ 15:08:17 7/14/21.  [Using 9.425.408 memory cells.]  %%%%%
+
+% FOR smokes(a):
+%   if ( cancer(a), friends(a, b), cancer(b) )
+%   then return 0.3576072008151595;  // std dev = 0,614, 6,000 (wgt'ed) examples reached here.  /* #neg=1 #pos=5 */
+%   else if ( friends(a, c), cancer(c) )
+%   | then return 0.013535782781552118;  // std dev = 0,350, 7,000 (wgt'ed) examples reached here.  /* #neg=6 #pos=1 */
+%   | else return 0.0015317229521336058;  // std dev = 0,350, 7,000 (wgt'ed) examples reached here.  /* #neg=6 #pos=1 */
+
+
+% Clauses:
+
+smokes(a, 0.3576072008151595) :- 
+     cancer(a), 
+     friends(a, b), 
+     cancer(b), 
+     !. // Clause #1.
+
+smokes(a, 0.013535782781552118) :- 
+     friends(a, b), 
+     cancer(b), 
+     !. // Clause #2.
+
+smokes(a, 0.0015317229521336058) :- !. // Clause #3.
+
+
+% The flattened versions of these clauses:
+
+flattened_cancer(A) ^
+   friends(A, UniqueVar3) ^
+   cancer(UniqueVar3) ^
+   ! => 
+   smokes(A, 0.3576072008151595). // Flattened version of clause #1.
+
+flattened_friends(A, UniqueVar4) ^
+   cancer(UniqueVar4) ^
+   ! => 
+   smokes(A, 0.013535782781552118). // Flattened version of clause #2.
+
+flattened_! => 
+   smokes(Underscore, 0.0015317229521336058). // Flattened version of clause #3.
+
+
+% The unique flattened literals:
+%   friends(A, UniqueVar3)
+%   cancer(A)
+%   cancer(UniqueVar4)
+%   cancer(UniqueVar3)
+%   friends(A, UniqueVar4)

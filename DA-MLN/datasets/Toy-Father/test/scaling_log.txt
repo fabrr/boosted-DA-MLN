@@ -1,0 +1,144 @@
+
+Loading domain sizes... 
+Domain sizes loaded!
+
+Train domain sizes: 
+name: 21
+
+Test domain sizes: 
+name: 8
+
+Domain size scales: 
+name: 0.38095238095238093
+
+Scaling weights...
+
+Target: father
+
+Tree #0
+
+Clause: (father(A, B, 0.6914822684328455) :- childof(B, A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.6914822684328455, Scaled weight: 0.6914822684328455
+
+Clause: (father(_, A, 0.012407800883089432) :- male(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.012407800883089432, Scaled weight: 0.012407800883089432
+
+Clause: (father(A, _, -0.028370212980097547) :- male(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.028370212980097547, Scaled weight: -0.028370212980097547
+
+Tree #1
+
+Clause: (father(A, B, 0.37870235223516735) :- childof(B, A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.37870235223516735, Scaled weight: 0.37870235223516735
+
+Clause: (father(_, A, 0.09384822285356469) :- male(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.09384822285356469, Scaled weight: 0.09384822285356469
+
+Clause: (father(A, _, -0.0781852639676875) :- male(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.0781852639676875, Scaled weight: -0.0781852639676875
+
+Tree #2
+
+Clause: (father(A, B, 0.5080083077395625) :- childof(B, A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.5080083077395625, Scaled weight: 0.5080083077395625
+
+Clause: (father(_, A, 0.02700550168416017) :- male(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.02700550168416017, Scaled weight: 0.02700550168416017
+
+Clause: (father(A, _, -0.009558558550448296) :- siblingof(A, _))
+Connection variables: _1 (name), 
+Scaling factor: 0.38095238095238093, Weight: -0.009558558550448296, Scaled weight: -0.02509121619492678
+
+Tree #3
+
+Clause: (father(A, B, 0.3821938913149756) :- childof(B, A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.3821938913149756, Scaled weight: 0.3821938913149756
+
+Clause: (father(_, A, 0.04982652975666821) :- male(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.04982652975666821, Scaled weight: 0.04982652975666821
+
+Clause: (father(A, _, -0.009134133763471093) :- siblingof(A, _))
+Connection variables: _1 (name), 
+Scaling factor: 0.38095238095238093, Weight: -0.009134133763471093, Scaled weight: -0.02397710112911162
+
+Tree #4
+
+Clause: (father(A, B, 0.4441115128423757) :- childof(B, A), male(B))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.4441115128423757, Scaled weight: 0.4441115128423757
+
+Clause: (father(_, A, -0.07501340625169735) :- male(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.07501340625169735, Scaled weight: -0.07501340625169735
+
+Clause: (father(A, _, -0.06117483095830437) :- male(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.06117483095830437, Scaled weight: -0.06117483095830437
+
+Clause: (father(A, _, -0.022647381365394945) :- siblingof(A, B), male(B))
+Connection variables: B (name), 
+Scaling factor: 0.38095238095238093, Weight: -0.022647381365394945, Scaled weight: -0.05944937608416173
+
+Tree #5
+
+Clause: (father(A, B, 0.3745839023733179) :- childof(B, A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.3745839023733179, Scaled weight: 0.3745839023733179
+
+Clause: (father(A, B, -0.12335578351994375) :- siblingof(A, B))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.12335578351994375, Scaled weight: -0.12335578351994375
+
+Clause: (father(A, _, -0.006418212131709423) :- siblingof(A, B), male(B))
+Connection variables: B (name), 
+Scaling factor: 0.38095238095238093, Weight: -0.006418212131709423, Scaled weight: -0.016847806845737237
+
+Tree #6
+
+Clause: (father(A, B, 0.2936175079990261) :- male(B), childof(B, A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.2936175079990261, Scaled weight: 0.2936175079990261
+
+Clause: (father(_, A, -0.07985239885836445) :- male(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.07985239885836445, Scaled weight: -0.07985239885836445
+
+Tree #7
+
+Clause: (father(A, B, 0.2513383062417555) :- childof(B, A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.2513383062417555, Scaled weight: 0.2513383062417555
+
+Clause: (father(A, B, -0.012541675920894052) :- male(B), siblingof(A, _))
+Connection variables: _1 (name), 
+Scaling factor: 0.38095238095238093, Weight: -0.012541675920894052, Scaled weight: -0.03292189929234689
+
+Tree #8
+
+Clause: (father(A, B, 0.2108769928493947) :- male(B), childof(B, A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.2108769928493947, Scaled weight: 0.2108769928493947
+
+Clause: (father(_, A, -0.0632368273237864) :- male(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.0632368273237864, Scaled weight: -0.0632368273237864
+
+Tree #9
+
+Clause: (father(A, B, 0.1873743278756333) :- male(B), childof(B, A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.1873743278756333, Scaled weight: 0.1873743278756333
+
+Clause: (father(_, A, -0.04693233466980938) :- male(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.04693233466980938, Scaled weight: -0.04693233466980938

@@ -1,0 +1,10 @@
+setParam: stringsAreCaseSensitive = true.
+
+usePrologVariables: true.
+
+
+(movie(_, A, -0.05744949233608133) :- female(A)).
+(movie(_, A, -5.632456223913212E-16) :- female(A)).
+(movie(_, A, 6.605893397418284E-16) :- female(A)).
+(movie(_, A, -7.183581215255536E-16) :- female(A)).
+(movie(_, A, 6.639757855705295E-16) :- female(A)).

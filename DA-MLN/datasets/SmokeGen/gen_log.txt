@@ -1,0 +1,16 @@
+Log stream opened: C:\Users\MSI\Documents\code\BoostSRL/datasets/SmokeGen//gen_log.txt
+
+SmokeGen main
+Current directory: C:\Users\MSI\Documents\code\BoostSRL
+Dataset path: /datasets/SmokeGen/
+
+Write db.txt
+
+Create gen Graph
+Creating 11 groups and 121 Person nodes
+4/11 groups are labeled smoking.
+Creating 1100 Friends edges
+Writing 'gen_graph.dot' file... done!
+
+Exiting main...
+Log stream closing...

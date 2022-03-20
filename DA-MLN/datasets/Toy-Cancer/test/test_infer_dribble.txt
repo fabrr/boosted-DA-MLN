@@ -1,0 +1,144 @@
+% Running on host: DESKTOP-0S2LA4F
+
+% Switching to VarIndicator = uppercase.
+
+% Unset'ing VarIndicator.
+
+% Calling ILPouterLoop from createRegressionOuterLooper.
+
+% getInputArgWithDefaultValue: args=[datasets\Toy-Cancer\test/test_pos.txt, datasets\Toy-Cancer\test/test_neg.txt, datasets\Toy-Cancer\test/test_bk.txt, datasets\Toy-Cancer\test/test_facts.txt]
+%  for N=0: args[N]=datasets\Toy-Cancer\test/test_pos.txt
+
+% getInputArgWithDefaultValue: args=[datasets\Toy-Cancer\test/test_pos.txt, datasets\Toy-Cancer\test/test_neg.txt, datasets\Toy-Cancer\test/test_bk.txt, datasets\Toy-Cancer\test/test_facts.txt]
+%  for N=1: args[N]=datasets\Toy-Cancer\test/test_neg.txt
+
+% getInputArgWithDefaultValue: args=[datasets\Toy-Cancer\test/test_pos.txt, datasets\Toy-Cancer\test/test_neg.txt, datasets\Toy-Cancer\test/test_bk.txt, datasets\Toy-Cancer\test/test_facts.txt]
+%  for N=2: args[N]=datasets\Toy-Cancer\test/test_bk.txt
+
+% getInputArgWithDefaultValue: args=[datasets\Toy-Cancer\test/test_pos.txt, datasets\Toy-Cancer\test/test_neg.txt, datasets\Toy-Cancer\test/test_bk.txt, datasets\Toy-Cancer\test/test_facts.txt]
+%  for N=3: args[N]=datasets\Toy-Cancer\test/test_facts.txt
+
+% Welcome to the WILL ILP/SRL systems.
+
+
+% Switching to VarIndicator = uppercase.
+
+% Unset'ing VarIndicator.
+% Reading background theory from dir: null
+% Load '../toy_cancer_bk.txt'.
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to standard-logic notation for variables; previous setting = uppercase
+
+% Switching to VarIndicator = lowercase.
+
+***** Warning: % Since this is the first setting of the notation for variables, will keep:
+%   variableIndicator = lowercase *****
+
+  loadThisFile: i=1 newName=precomputed1.txt sents=[(num_of_smoking_friends(x, n) :- friends(x, y), countUniqueBindings(friends(x, z), smokes(z), n))]
+
+***** Warning: % Since this is the first setting of the notation for variables, will keep:
+%   variableIndicator = lowercase *****
+
+% [ LazyGroundClauseIndex ]  Building full index for mode/1 with 1 assertions.
+% LoadAllModes() called.  Currently loaded modes: []
+
+% Switching to Prolog notation for variables; previous setting = lowercase
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = lowercase.
+
+% Switching to Prolog notation for variables; previous setting = lowercase
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = lowercase.
+
+% Switching to Prolog notation for variables; previous setting = lowercase
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = lowercase.
+
+% Switching to Prolog notation for variables; previous setting = lowercase
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = lowercase.
+% [ LazyGroundClauseIndex ]  Building full index for sameAs/2 with 2 assertions.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 1:  Building full index for exp/3.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 0:  Building full index for log/3.
+% LoadAllLibraries() called.  Currently loaded libraries: [listsInLogic, differentInLogic, modes_arithmeticInLogic, inlines_comparisonInLogic, modes_listsInLogic, inlines_differentInLogic, modes_differentInLogic, arithmeticInLogic, inlines_listsInLogic, modes_comparisonInLogic, comparisonInLogic, inlines_arithmeticInLogic]
+
+%  Read the facts.
+%  Have read 13 facts.
+% Have read 3 examples from 'datasets\Toy-Cancer\test' [datasets\Toy-Cancer\test/test*].
+% Have read 2 examples from 'datasets\Toy-Cancer\test' [datasets\Toy-Cancer\test/test*].
+
+%  LearnOneClause initialized.
+
+% The outer looper has been created.
+
+% Initializing the ILP inner looper.
+
+% NEW target:                 cancer(a)
+%  targetPred:                cancer/1
+%  targetArgTypes:            signature = [Const], types = [+Person]
+%  targets:                   [cancer(a)]
+%  targetPredicates:          [cancer/1]
+%  targetArgSpecs:            [[a[+Person]]]
+%  variablesInTargets:        [[a]]
+
+% Precompute #1's requests: 'precomputed1.txt'
+%   num_of_smoking_friends(x, n) :- friends(x, y), countUniqueBindings(friends(x, z), smokes(z), n)
+% Processing precompute file: precomputed1.txt
+Writing to file: C:\Users\MSI\Documents\code\BoostSRL\precomputed1.txt
+
+% Precomputing 'precomputed1.txt'.
+
+%%% Precomputing 1 predicates.
+
+% Saving all provable instances of 'num_of_smoking_friends'
+% using clause:   friends(x, y) ^ countUniqueBindings(friends(x, z), smokes(z), n) => num_of_smoking_friends(x, n)
+
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 0:  Building full index for friends/2.
+% [ LazyGroundClauseIndex ]  Building full index for smokes/1 with 3 assertions.
+%  Found 10 proofs of 'num_of_smoking_friends(x, n)'.
+
+// Precomputed a total of 5 facts (and found 5 duplications) from: 'friends(x, y) ^ countUniqueBindings(friends(x, z), smokes(z), n) => num_of_smoking_friends(x, n).'
+
+
+
+%%% Precomputed a total of 5 facts (and found 5 duplications).  Done at 13:07:44 9/28/21
+
+%    No need to compress since small: precomputed1.txt
+% Loading: precomputed1.txt
+% Read an additional 5 facts from edu.wisc.cs.will.Utils.condor.CondorFileReader@7cf10a6f.
+
+% Started collecting constants
+
+% Collecting the types of constants.
+
+% Looking at the training examples to see if any types of new constants can be inferred.
+% Time to collect constants: 2 milliseconds
+% Time to collect examples: 0 seconds
+
+% Read 3 pos examples and 2 neg examples.
+% Time to init learnOneClause: 86 milliseconds
+% Old dirdatasets\Toy-Cancer\train\models\
+
+% Have 3 'raw' positive examples and kept 3.
+% Have 2 'raw' negative examples and kept 2.
+
+% processing backup's for cancer
+%  POS EX = 3
+%  NEG EX = 2
+
+% Memory usage by WILLSetup (just counts # targets?):
+%  |backupPosExamples| = 1
+%  |backupNegExamples| = 1
+%  |predicatesAsFacts| = 0
+%  |addedToFactBase|   = 0
+% Did not learn a model for 'cancer' this run.

@@ -1,0 +1,25 @@
+setParam: stringsAreCaseSensitive = true.
+
+usePrologVariables: true.
+
+
+(movie(_, A, -0.08204245246029683) :- female(A)).
+(movie(_, A, 7.137100586234147E-16) :- female(A)).
+(movie(_, A, -5.596599738668141E-16) :- female(A)).
+(movie(_, A, 6.640089860198305E-16) :- female(A)).
+(movie(_, A, -5.641420345224479E-16) :- female(A)).
+(movie(_, A, 6.595269253641966E-16) :- female(A)).
+(movie(_, A, -7.194205359031854E-16) :- female(A)).
+(movie(_, A, 6.629133711928978E-16) :- female(A)).
+(movie(_, A, -7.161004909730862E-16) :- female(A)).
+(movie(_, A, 6.991018609309785E-16) :- female(A)).
+(movie(_, A, -7.153368806391634E-16) :- female(A)).
+(movie(_, A, 6.993674645253864E-16) :- female(A)).
+(movie(_, A, -7.151044774940564E-16) :- female(A)).
+(movie(_, A, 6.999650726128043E-16) :- female(A)).
+(movie(_, A, -5.726413495435018E-16) :- female(A)).
+(movie(_, A, 6.002973238112277E-16) :- female(A)).
+(movie(_, A, -7.153368806391634E-16) :- female(A)).
+(movie(_, A, 6.993674645253864E-16) :- female(A)).
+(movie(_, A, -7.151044774940564E-16) :- female(A)).
+(movie(_, A, 6.999650726128043E-16) :- female(A)).

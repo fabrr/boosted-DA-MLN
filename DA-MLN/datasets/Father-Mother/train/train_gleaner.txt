@@ -1,0 +1,413 @@
+////// Learned from a dataset containing 97 positive (97,0 weighted sum) and 0 negative (0,0 wgt'ed) examples.
+////// The minimal (wgt'ed) coverage = 3,000, the maximal (wgt'ed) NEG coverage = 0,499, and the minimal (wgt'ed) precision = 0,001 (using m = 0,1)
+
+usePrologVariables: true.
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: allPossibleMarkers
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #1, null' and covering 5,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,051, precision = 0,980, and F1 = 0,098 - learned after 14 total and 12 acceptable nodes.  Node score = -58.07300969542702
+
+ FOR mother(F, G) IF (male(G), childof(G, F)) THEN output = -0,493505 ELSE output = 1,131944;
+
+// Best in (weighted) recall bin #2, (0.1, 0.15], from 'outerLoop #2, null' and covering 3,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,103, precision = 0,968, and F1 = 0,186 - learned after 4 total and 2 acceptable nodes.  Node score = -0.064979167777083
+
+ FOR mother(F, G) IF (childof(G, F)) THEN output = -0,333274 ELSE output = -0,392090;
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #3, null' and covering 4,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,199, precision = 0,976, and F1 = 0,331 - learned after 5 total and 2 acceptable nodes.  Node score = -0.029296010060643845
+
+ FOR mother(F, G) IF (childof(G, F)) THEN output = -0,417101 ELSE output = -0,375573;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #4, null' and covering 3,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,248, precision = 0,968, and F1 = 0,395 - learned after 5 total and 2 acceptable nodes.  Node score = -0.021545197280462596
+
+ FOR mother(F, G) IF (childof(G, F)) THEN output = -0,333274 ELSE output = -0,363234;
+
+// Best in (weighted) recall bin #5, (0.25, 0.3], from 'outerLoop #1, null' and covering 5,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,292, precision = 0,980, and F1 = 0,450 - learned after 9 total and 6 acceptable nodes.  Node score = -2.0200000000000006E-6
+
+ FOR father(D, E) IF (childof(E, D), male(E)) THEN output = 0,719473 ELSE output = -0,125445;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #1, null' and covering 5,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,331, precision = 0,980, and F1 = 0,495 - learned after 9 total and 6 acceptable nodes.  Node score = -2.0200000000000006E-6
+
+ FOR father(D, E) IF (childof(E, D), male(E)) THEN output = 0,858149 ELSE output = -0,141851;
+
+// Best in (weighted) recall bin #7, (0.35, 0.4], from 'outerLoop #1, null' and covering 5,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,355, precision = 0,980, and F1 = 0,521 - learned after 5 total and 2 acceptable nodes.  Node score = -1.12E-6
+
+ FOR mother(F, G) IF (female(G)) THEN output = 0,858149 ELSE output = -0,141851;
+
+// Best in (weighted) recall bin #8, (0.4, 0.45], from 'outerLoop #2, null' and covering 9,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,427, precision = 0,989, and F1 = 0,596 - learned after 5 total and 2 acceptable nodes.  Node score = -0.02814577789955373
+
+ FOR mother(F, G) IF (siblingof(F, G)) THEN output = -0,378214 ELSE output = -0,260033;
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #1, null' and covering 5,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,450, precision = 0,980, and F1 = 0,617 - learned after 11 total and 6 acceptable nodes.  Node score = -2.0200000000138784E-6
+
+ FOR father(D, E) IF (childof(E, D), male(E)) THEN output = 0,555366 ELSE output = -0,112316;
+
+// Best in (weighted) recall bin #10, (0.5, 0.55], from 'outerLoop #2, null' and covering 5,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,549, precision = 0,980, and F1 = 0,704 - learned after 3 total and 1 acceptable nodes.  Node score = -0.009906637213642926
+
+ FOR mother(F, G) IF (male(G)) THEN output = -0,090980 ELSE output = -0,169624;
+
+// Best in (weighted) recall bin #11, (0.55, 0.6], from 'outerLoop #2, null' and covering 9,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,596, precision = 0,989, and F1 = 0,744 - learned after 2 total and 0 acceptable nodes.  Node score = -0.029725350522646805
+
+ FOR mother(F, G) IF (male(F)) THEN output = -0,253357 ELSE output = -0,204573;
+
+// Best in (weighted) recall bin #12, (0.6, 0.65], from 'outerLoop #1, null' and covering 9,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,638, precision = 0,989, and F1 = 0,776 - learned after 3 total and 1 acceptable nodes.  Node score = -3.2024482083500117E-4
+
+ FOR mother(F, G) IF (male(G)) THEN output = -0,063609 ELSE output = 0,134007;
+
+// Best in (weighted) recall bin #13, (0.65, 0.7], from 'outerLoop #2, null' and covering 6,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,659, precision = 0,984, and F1 = 0,789 - learned after 2 total and 0 acceptable nodes.  Node score = -0.023647646039829606
+
+ FOR mother(F, G) IF (male(F)) THEN output = -0,125514 ELSE output = -0,126772;
+
+// Best in (weighted) recall bin #14, (0.7, 0.75], from 'outerLoop #2, null' and covering 8,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,721, precision = 0,988, and F1 = 0,833 - learned after 3 total and 1 acceptable nodes.  Node score = -0.01350517750310682
+
+ FOR mother(F, G) IF (male(G)) THEN output = -0,110918 ELSE output = -0,205801;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #1, null' and covering 11,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,780, precision = 0,991, and F1 = 0,873 - learned after 2 total and 0 acceptable nodes.  Node score = -0.12563853091287824
+
+ FOR mother(F, G) IF (male(F)) THEN output = 0,008975 ELSE output = -0,000390;
+
+// Best in (weighted) recall bin #16, (0.8, 0.85], from 'outerLoop #1, null' and covering 14,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,819, precision = 0,993, and F1 = 0,897 - learned after 3 total and 1 acceptable nodes.  Node score = -0.8661710921469234
+
+ FOR father(D, E) IF (male(E)) THEN output = 0,083800 ELSE output = -0,101596;
+      /* FALSE NEG: father(hermione, mrsgranger) Actual Bool=false Prob=0.10159632948783628 Output=-0.10159632948783628 */
+      /* FALSE NEG: father(ronweasley, hermione) Actual Bool=false Prob=0.10159632948783628 Output=-0.10159632948783628 */
+      /* FALSE NEG: father(ginnyweasley, mollyweasley) Actual Bool=false Prob=0.10159632948783628 Output=-0.10159632948783628 */
+
+// Best in (weighted) recall bin #17, (0.85, 0.9], from 'outerLoop #2, null' and covering 13,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,861, precision = 0,992, and F1 = 0,922 - learned after 3 total and 1 acceptable nodes.  Node score = -Infinity
+
+ FOR mother(F, G) IF (male(G)) THEN output = -0,238347 ELSE output = -0,267296;
+      /* FALSE NEG: mother(hedwig, lunalovegood) Actual Bool=false Prob=0.14185106490048777 Output=-0.37821411935948485 */
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #2, null' and covering 31,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,909, precision = 0,997, and F1 = 0,951 - learned after 3 total and 1 acceptable nodes.  Node score = -Infinity
+
+ FOR mother(F, G) IF (male(G)) THEN output = -0,462145 ELSE output = -0,378214;
+      /* FALSE NEG: mother(hedwig, lunalovegood) Actual Bool=false Prob=0.14185106490048777 Output=-0.37821411935948485 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #1, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #1, null' and covering 5,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,051, precision = 0,980, and F1 = 0,098 - learned after 14 total and 12 acceptable nodes.  Node score = -58.07300969542702
+
+ FOR mother(F, G) IF (male(G), childof(G, F)) THEN output = -0,493505 ELSE output = 1,131944;
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #1, null' and covering 3,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,186, precision = 0,968, and F1 = 0,313 - learned after 24 total and 20 acceptable nodes.  Node score = -0.1402088742066367
+
+ FOR mother(F, G) IF (siblingof(F, Anon17915), childof(G, Anon17915)) THEN output = 0,069919 ELSE output = -0,023113;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #1, null' and covering 3,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,213, precision = 0,968, and F1 = 0,349 - learned after 18 total and 16 acceptable nodes.  Node score = -0.0571472834006853
+
+ FOR mother(F, G) IF (siblingof(F, Anon29627), female(G)) THEN output = 0,044669 ELSE output = -0,018989;
+
+// Best in (weighted) recall bin #5, (0.25, 0.3], from 'outerLoop #1, null' and covering 5,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,292, precision = 0,980, and F1 = 0,450 - learned after 9 total and 6 acceptable nodes.  Node score = -2.0200000000000006E-6
+
+ FOR father(D, E) IF (childof(E, D), male(E)) THEN output = 0,719473 ELSE output = -0,125445;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #1, null' and covering 5,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,331, precision = 0,980, and F1 = 0,495 - learned after 9 total and 6 acceptable nodes.  Node score = -2.0200000000000006E-6
+
+ FOR father(D, E) IF (childof(E, D), male(E)) THEN output = 0,858149 ELSE output = -0,141851;
+
+// Best in (weighted) recall bin #7, (0.35, 0.4], from 'outerLoop #1, null' and covering 5,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,355, precision = 0,980, and F1 = 0,521 - learned after 5 total and 2 acceptable nodes.  Node score = -1.12E-6
+
+ FOR mother(F, G) IF (female(G)) THEN output = 0,858149 ELSE output = -0,141851;
+
+// Best in (weighted) recall bin #8, (0.4, 0.45], from 'outerLoop #1, null' and covering 6,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,426, precision = 0,984, and F1 = 0,594 - learned after 5 total and 3 acceptable nodes.  Node score = -0.03273668008747292
+
+ FOR father(D, E) IF (childof(E, D)) THEN output = 0,100974 ELSE output = -0,064192;
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #1, null' and covering 5,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,450, precision = 0,980, and F1 = 0,617 - learned after 11 total and 6 acceptable nodes.  Node score = -2.0200000000138784E-6
+
+ FOR father(D, E) IF (childof(E, D), male(E)) THEN output = 0,555366 ELSE output = -0,112316;
+
+// Best in (weighted) recall bin #10, (0.5, 0.55], from 'outerLoop #1, null' and covering 6,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,541, precision = 0,984, and F1 = 0,698 - learned after 4 total and 2 acceptable nodes.  Node score = -0.06820476555415177
+
+ FOR mother(F, G) IF (female(G)) THEN output = 0,105072 ELSE output = -0,063743;
+
+// Best in (weighted) recall bin #11, (0.55, 0.6], from 'outerLoop #1, null' and covering 8,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,567, precision = 0,988, and F1 = 0,721 - learned after 16 total and 11 acceptable nodes.  Node score = -0.11130316429740798
+
+ FOR father(D, E) IF (male(E), male(D)) THEN output = 0,034908 ELSE output = -0,031159;
+
+// Best in (weighted) recall bin #12, (0.6, 0.65], from 'outerLoop #1, null' and covering 9,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,638, precision = 0,989, and F1 = 0,776 - learned after 3 total and 1 acceptable nodes.  Node score = -3.2024482083500117E-4
+
+ FOR mother(F, G) IF (male(G)) THEN output = -0,063609 ELSE output = 0,134007;
+
+// Best in (weighted) recall bin #13, (0.65, 0.7], from 'outerLoop #1, null' and covering 9,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,687, precision = 0,989, and F1 = 0,811 - learned after 3 total and 1 acceptable nodes.  Node score = -0.25742974963566356
+
+ FOR father(D, E) IF (male(E)) THEN output = 0,103902 ELSE output = -0,085185;
+
+// Best in (weighted) recall bin #14, (0.7, 0.75], from 'outerLoop #1, null' and covering 12,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,745, precision = 0,992, and F1 = 0,851 - learned after 3 total and 1 acceptable nodes.  Node score = -0.18279293437332253
+
+ FOR father(D, E) IF (male(E)) THEN output = 0,031063 ELSE output = -0,073246;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #1, null' and covering 11,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,780, precision = 0,991, and F1 = 0,873 - learned after 2 total and 0 acceptable nodes.  Node score = -0.12563853091287824
+
+ FOR mother(F, G) IF (male(F)) THEN output = 0,008975 ELSE output = -0,000390;
+
+// Best in (weighted) recall bin #16, (0.8, 0.85], from 'outerLoop #1, null' and covering 14,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,819, precision = 0,993, and F1 = 0,897 - learned after 3 total and 1 acceptable nodes.  Node score = -0.8661710921469234
+
+ FOR father(D, E) IF (male(E)) THEN output = 0,083800 ELSE output = -0,101596;
+      /* FALSE NEG: father(hermione, mrsgranger) Actual Bool=false Prob=0.10159632948783628 Output=-0.10159632948783628 */
+      /* FALSE NEG: father(ronweasley, hermione) Actual Bool=false Prob=0.10159632948783628 Output=-0.10159632948783628 */
+      /* FALSE NEG: father(ginnyweasley, mollyweasley) Actual Bool=false Prob=0.10159632948783628 Output=-0.10159632948783628 */
+
+// Best in (weighted) recall bin #17, (0.85, 0.9], from 'outerLoop #1, null' and covering 12,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,851, precision = 0,992, and F1 = 0,916 - learned after 2 total and 0 acceptable nodes.  Node score = -Infinity
+
+ FOR father(D, E) IF (male(D)) THEN output = 0,001874 ELSE output = 0,034908;
+      /* FALSE NEG: father(ginnyweasley, arthurweasley) Actual Bool=true Prob=0.8659929699919888 Output=0.13400703000801117 */
+      /* FALSE NEG: father(hedwig, narcissamalfoy) Actual Bool=false Prob=0.0641918400820262 Output=-0.0641918400820262 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #2, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #2, (0.1, 0.15], from 'outerLoop #2, null' and covering 3,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,103, precision = 0,968, and F1 = 0,186 - learned after 4 total and 2 acceptable nodes.  Node score = -0.064979167777083
+
+ FOR mother(F, G) IF (childof(G, F)) THEN output = -0,333274 ELSE output = -0,392090;
+
+// Best in (weighted) recall bin #5, (0.25, 0.3], from 'outerLoop #2, null' and covering 3,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,270, precision = 0,968, and F1 = 0,423 - learned after 7 total and 2 acceptable nodes.  Node score = -0.03038514938199031
+
+ FOR mother(F, G) IF (siblingof(F, G)) THEN output = -0,110918 ELSE output = -0,146499;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #2, null' and covering 3,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,330, precision = 0,968, and F1 = 0,492 - learned after 4 total and 2 acceptable nodes.  Node score = -4.86025657001618E-5
+
+ FOR mother(F, G) IF (female(G)) THEN output = -0,198355 ELSE output = -0,089722;
+
+// Best in (weighted) recall bin #7, (0.35, 0.4], from 'outerLoop #2, null' and covering 6,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,397, precision = 0,984, and F1 = 0,566 - learned after 5 total and 2 acceptable nodes.  Node score = -0.02360555600327811
+
+ FOR mother(F, G) IF (siblingof(F, G)) THEN output = -0,267296 ELSE output = -0,204573;
+
+// Best in (weighted) recall bin #8, (0.4, 0.45], from 'outerLoop #2, null' and covering 9,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,427, precision = 0,989, and F1 = 0,596 - learned after 5 total and 2 acceptable nodes.  Node score = -0.02814577789955373
+
+ FOR mother(F, G) IF (siblingof(F, G)) THEN output = -0,378214 ELSE output = -0,260033;
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #2, null' and covering 5,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,450, precision = 0,980, and F1 = 0,617 - learned after 8 total and 3 acceptable nodes.  Node score = -0.02700934500621362
+
+ FOR mother(F, G) IF (siblingof(F, Anon5611)) THEN output = -0,036973 ELSE output = -0,158360;
+
+// Best in (weighted) recall bin #10, (0.5, 0.55], from 'outerLoop #2, null' and covering 5,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,549, precision = 0,980, and F1 = 0,704 - learned after 3 total and 1 acceptable nodes.  Node score = -0.009906637213642926
+
+ FOR mother(F, G) IF (male(G)) THEN output = -0,090980 ELSE output = -0,169624;
+
+// Best in (weighted) recall bin #11, (0.55, 0.6], from 'outerLoop #2, null' and covering 9,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,596, precision = 0,989, and F1 = 0,744 - learned after 2 total and 0 acceptable nodes.  Node score = -0.029725350522646805
+
+ FOR mother(F, G) IF (male(F)) THEN output = -0,253357 ELSE output = -0,204573;
+
+// Best in (weighted) recall bin #12, (0.6, 0.65], from 'outerLoop #2, null' and covering 13,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,616, precision = 0,992, and F1 = 0,760 - learned after 2 total and 0 acceptable nodes.  Node score = -0.06692887898016367
+
+ FOR mother(F, G) IF (male(F)) THEN output = -0,341851 ELSE output = -0,260033;
+
+// Best in (weighted) recall bin #13, (0.65, 0.7], from 'outerLoop #2, null' and covering 6,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,659, precision = 0,984, and F1 = 0,789 - learned after 2 total and 0 acceptable nodes.  Node score = -0.023647646039829606
+
+ FOR mother(F, G) IF (male(F)) THEN output = -0,125514 ELSE output = -0,126772;
+
+// Best in (weighted) recall bin #14, (0.7, 0.75], from 'outerLoop #2, null' and covering 8,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,721, precision = 0,988, and F1 = 0,833 - learned after 3 total and 1 acceptable nodes.  Node score = -0.01350517750310682
+
+ FOR mother(F, G) IF (male(G)) THEN output = -0,110918 ELSE output = -0,205801;
+
+// Best in (weighted) recall bin #17, (0.85, 0.9], from 'outerLoop #2, null' and covering 13,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,861, precision = 0,992, and F1 = 0,922 - learned after 3 total and 1 acceptable nodes.  Node score = -Infinity
+
+ FOR mother(F, G) IF (male(G)) THEN output = -0,238347 ELSE output = -0,267296;
+      /* FALSE NEG: mother(hedwig, lunalovegood) Actual Bool=false Prob=0.14185106490048777 Output=-0.37821411935948485 */
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #2, null' and covering 31,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,909, precision = 0,997, and F1 = 0,951 - learned after 3 total and 1 acceptable nodes.  Node score = -Infinity
+
+ FOR mother(F, G) IF (male(G)) THEN output = -0,462145 ELSE output = -0,378214;
+      /* FALSE NEG: mother(hedwig, lunalovegood) Actual Bool=false Prob=0.14185106490048777 Output=-0.37821411935948485 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #3, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #3, null' and covering 4,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,199, precision = 0,976, and F1 = 0,331 - learned after 5 total and 2 acceptable nodes.  Node score = -0.029296010060643845
+
+ FOR mother(F, G) IF (childof(G, F)) THEN output = -0,417101 ELSE output = -0,375573;
+
+// Best in (weighted) recall bin #5, (0.25, 0.3], from 'outerLoop #3, null' and covering 5,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,292, precision = 0,980, and F1 = 0,450 - learned after 10 total and 6 acceptable nodes.  Node score = -0.02230886352063006
+
+ FOR mother(F, G) IF (siblingof(F, Anon13905), male(Anon13905)) THEN output = -0,123449 ELSE output = -0,355744;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #3, null' and covering 5,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,331, precision = 0,980, and F1 = 0,495 - learned after 11 total and 5 acceptable nodes.  Node score = -0.015937581402523004
+
+ FOR mother(F, G) IF (siblingof(F, Anon10685), male(Anon10685)) THEN output = -0,123449 ELSE output = -0,310254;
+
+// Best in (weighted) recall bin #7, (0.35, 0.4], from 'outerLoop #3, null' and covering 6,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,351, precision = 0,984, and F1 = 0,517 - learned after 2 total and 0 acceptable nodes.  Node score = -0.06624276552831929
+
+ FOR mother(F, G) IF (male(F)) THEN output = -0,390069 ELSE output = -0,332999;
+
+// Best in (weighted) recall bin #8, (0.4, 0.45], from 'outerLoop #3, null' and covering 15,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,440, precision = 0,993, and F1 = 0,610 - learned after 5 total and 2 acceptable nodes.  Node score = -0.12401515794849137
+
+ FOR mother(F, G) IF (siblingof(F, G)) THEN output = -0,568168 ELSE output = -0,421415;
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #3, null' and covering 16,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,456, precision = 0,994, and F1 = 0,625 - learned after 4 total and 2 acceptable nodes.  Node score = -0.21414131830557068
+
+ FOR mother(F, G) IF (siblingof(F, G)) THEN output = -0,603559 ELSE output = -0,421415;
+
+// Best in (weighted) recall bin #11, (0.55, 0.6], from 'outerLoop #3, null' and covering 19,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,557, precision = 0,995, and F1 = 0,714 - learned after 32 total and 29 acceptable nodes.  Node score = -0.19996096176353473
+
+ FOR mother(F, G) IF (male(F), siblingof(F, Anon20081)) THEN output = -0,178500 ELSE output = -0,423519;
+
+// Best in (weighted) recall bin #14, (0.7, 0.75], from 'outerLoop #3, null' and covering 24,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,704, precision = 0,996, and F1 = 0,825 - learned after 2 total and 0 acceptable nodes.  Node score = -0.18335327978153368
+
+ FOR mother(F, G) IF (male(F)) THEN output = -0,535422 ELSE output = -0,386318;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #3, null' and covering 7,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,769, precision = 0,986, and F1 = 0,864 - learned after 3 total and 1 acceptable nodes.  Node score = -Infinity
+
+ FOR mother(F, G) IF (male(G)) THEN output = -0,213534 ELSE output = -0,267296;
+
+// Best in (weighted) recall bin #16, (0.8, 0.85], from 'outerLoop #3, null' and covering 14,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,819, precision = 0,993, and F1 = 0,897 - learned after 3 total and 1 acceptable nodes.  Node score = -Infinity
+
+ FOR mother(F, G) IF (male(G)) THEN output = -0,353499 ELSE output = -0,378214;
+      /* FALSE NEG: mother(hedwig, lunalovegood) Actual Bool=false Prob=0.14185106490048777 Output=-0.37821411935948485 */
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #3, null' and covering 31,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,909, precision = 0,997, and F1 = 0,951 - learned after 3 total and 1 acceptable nodes.  Node score = -Infinity
+
+ FOR mother(F, G) IF (male(G)) THEN output = -0,515985 ELSE output = -0,378214;
+      /* FALSE NEG: mother(hedwig, lunalovegood) Actual Bool=false Prob=0.14185106490048777 Output=-0.37821411935948485 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #4, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #4, null' and covering 4,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,199, precision = 0,976, and F1 = 0,331 - learned after 12 total and 10 acceptable nodes.  Node score = -0.0722038173972145
+
+ FOR mother(F, G) IF (male(F), siblingof(F, Anon28349)) THEN output = -0,137667 ELSE output = -0,439731;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #4, null' and covering 3,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,248, precision = 0,968, and F1 = 0,395 - learned after 5 total and 2 acceptable nodes.  Node score = -0.021545197280462596
+
+ FOR mother(F, G) IF (childof(G, F)) THEN output = -0,333274 ELSE output = -0,363234;
+
+// Best in (weighted) recall bin #5, (0.25, 0.3], from 'outerLoop #4, null' and covering 3,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,297, precision = 0,968, and F1 = 0,455 - learned after 2 total and 0 acceptable nodes.  Node score = -0.011441241690402483
+
+ FOR mother(F, G) IF (male(F)) THEN output = -0,367739 ELSE output = -0,291093;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #4, null' and covering 4,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,331, precision = 0,976, and F1 = 0,494 - learned after 2 total and 0 acceptable nodes.  Node score = -0.00808010893953457
+
+ FOR mother(F, G) IF (male(F)) THEN output = -0,458719 ELSE output = -0,321419;
+
+// Best in (weighted) recall bin #8, (0.4, 0.45], from 'outerLoop #4, null' and covering 9,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,448, precision = 0,989, and F1 = 0,616 - learned after 7 total and 5 acceptable nodes.  Node score = -0.0728097415702021
+
+ FOR mother(F, G) IF (siblingof(F, Anon28211), male(Anon28211)) THEN output = -0,183993 ELSE output = -0,410318;
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #4, null' and covering 9,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,471, precision = 0,989, and F1 = 0,638 - learned after 8 total and 5 acceptable nodes.  Node score = -0.051016152162796216
+
+ FOR mother(F, G) IF (siblingof(F, Anon20385), male(Anon20385)) THEN output = -0,183993 ELSE output = -0,388702;
+
+// Best in (weighted) recall bin #12, (0.6, 0.65], from 'outerLoop #4, null' and covering 5,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,617, precision = 0,980, and F1 = 0,758 - learned after 2 total and 0 acceptable nodes.  Node score = -Infinity
+
+ FOR mother(F, G) IF (male(G)) THEN output = -0,236396 ELSE output = -0,378214;
+
+// Best in (weighted) recall bin #13, (0.65, 0.7], from 'outerLoop #4, null' and covering 7,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,693, precision = 0,986, and F1 = 0,814 - learned after 3 total and 1 acceptable nodes.  Node score = -Infinity
+
+ FOR mother(F, G) IF (male(G)) THEN output = -0,299049 ELSE output = -0,378214;
+
+// Best in (weighted) recall bin #14, (0.7, 0.75], from 'outerLoop #4, null' and covering 9,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,744, precision = 0,989, and F1 = 0,849 - learned after 3 total and 1 acceptable nodes.  Node score = -Infinity
+
+ FOR mother(F, G) IF (male(G)) THEN output = -0,371137 ELSE output = -0,378214;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #4, null' and covering 10,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,763, precision = 0,990, and F1 = 0,862 - learned after 3 total and 1 acceptable nodes.  Node score = -Infinity
+
+ FOR mother(F, G) IF (male(G)) THEN output = -0,400882 ELSE output = -0,378214;
+
+// Best in (weighted) recall bin #16, (0.8, 0.85], from 'outerLoop #4, null' and covering 16,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,838, precision = 0,994, and F1 = 0,909 - learned after 3 total and 1 acceptable nodes.  Node score = -Infinity
+
+ FOR mother(F, G) IF (male(G)) THEN output = -0,467062 ELSE output = -0,378214;
+      /* FALSE NEG: mother(hedwig, lunalovegood) Actual Bool=false Prob=0.14185106490048777 Output=-0.37821411935948485 */
+
+// Best in (weighted) recall bin #17, (0.85, 0.9], from 'outerLoop #4, null' and covering 19,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,860, precision = 0,995, and F1 = 0,922 - learned after 3 total and 1 acceptable nodes.  Node score = -Infinity
+
+ FOR mother(F, G) IF (male(G)) THEN output = -0,542668 ELSE output = -0,378214;
+      /* FALSE NEG: mother(hedwig, lunalovegood) Actual Bool=false Prob=0.14185106490048777 Output=-0.37821411935948485 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #5, null
+////
+////////////////////////////////////////////////////////////////////////////////
+

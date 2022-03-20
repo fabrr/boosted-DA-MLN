@@ -1,0 +1,5 @@
+friends(Person, Person)
+friends(Person, Person)
+smokes(Person)
+cancer(Person)
+num_of_smoking_friends(Person, Number)

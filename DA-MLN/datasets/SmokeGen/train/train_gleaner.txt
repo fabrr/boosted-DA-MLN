@@ -1,0 +1,285 @@
+////// Learned from a dataset containing 700 positive (700,0 weighted sum) and 0 negative (0,0 wgt'ed) examples.
+////// The minimal (wgt'ed) coverage = 3,000, the maximal (wgt'ed) NEG coverage = 0,499, and the minimal (wgt'ed) precision = 0,001 (using m = 0,1)
+
+usePrologVariables: true.
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: allPossibleMarkers
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #1, null' and covering 6,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,171, precision = 0,984, and F1 = 0,291 - learned after 90 total and 58 acceptable nodes.  Node score = -3.990495260901997
+
+ FOR smokes(D) IF (friends(D, Anon27829), r_smokes(Anon27829), friends(D, Anon27959), friends(D, Anon28129), friends(Anon27959, Anon28129), r_smokes(Anon27959)) THEN output = -0,015556 ELSE output = 0,007035;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #1, null' and covering 8,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,228, precision = 0,988, and F1 = 0,370 - learned after 41 total and 19 acceptable nodes.  Node score = -3.941423599964886
+
+ FOR smokes(D) IF (friends(D, Anon22791), r_smokes(Anon22791), friends(Anon22791, Anon22921), r_smokes(Anon22921)) THEN output = 0,129248 ELSE output = -0,006878;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #1, null' and covering 12,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,342, precision = 0,992, and F1 = 0,508 - learned after 93 total and 60 acceptable nodes.  Node score = -3.5254220102798723
+
+ FOR smokes(D) IF (friends(D, Anon27829), r_smokes(Anon27829), friends(D, Anon27959), friends(D, Anon28129), friends(Anon27959, Anon28129), r_not_smokes(Anon27959)) THEN output = -0,005976 ELSE output = 0,017941;
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #1, null' and covering 16,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,456, precision = 0,994, and F1 = 0,625 - learned after 68 total and 40 acceptable nodes.  Node score = -4.08309364429309
+
+ FOR smokes(D) IF (friends(D, Anon27829), r_smokes(Anon27829), friends(D, Anon27959), friends(D, Anon28129), r_not_smokes(Anon27959)) THEN output = -0,001319 ELSE output = 0,000205;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #1, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #1, null' and covering 6,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,171, precision = 0,984, and F1 = 0,291 - learned after 90 total and 58 acceptable nodes.  Node score = -3.990495260901997
+
+ FOR smokes(D) IF (friends(D, Anon27829), r_smokes(Anon27829), friends(D, Anon27959), friends(D, Anon28129), friends(Anon27959, Anon28129), r_smokes(Anon27959)) THEN output = -0,015556 ELSE output = 0,007035;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #1, null' and covering 8,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,228, precision = 0,988, and F1 = 0,370 - learned after 41 total and 19 acceptable nodes.  Node score = -3.941423599964886
+
+ FOR smokes(D) IF (friends(D, Anon22791), r_smokes(Anon22791), friends(Anon22791, Anon22921), r_smokes(Anon22921)) THEN output = 0,129248 ELSE output = -0,006878;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #1, null' and covering 12,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,342, precision = 0,992, and F1 = 0,508 - learned after 93 total and 60 acceptable nodes.  Node score = -3.5254220102798723
+
+ FOR smokes(D) IF (friends(D, Anon27829), r_smokes(Anon27829), friends(D, Anon27959), friends(D, Anon28129), friends(Anon27959, Anon28129), r_not_smokes(Anon27959)) THEN output = -0,005976 ELSE output = 0,017941;
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #1, null' and covering 16,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,456, precision = 0,994, and F1 = 0,625 - learned after 68 total and 40 acceptable nodes.  Node score = -4.08309364429309
+
+ FOR smokes(D) IF (friends(D, Anon27829), r_smokes(Anon27829), friends(D, Anon27959), friends(D, Anon28129), r_not_smokes(Anon27959)) THEN output = -0,001319 ELSE output = 0,000205;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #2, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #2, null' and covering 6,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,171, precision = 0,984, and F1 = 0,291 - learned after 30 total and 10 acceptable nodes.  Node score = -4.489490454368843
+
+ FOR smokes(D) IF (friends(D, Anon16921), r_smokes(Anon16921), friends(Anon16921, Anon17051), friends(D, Anon17051)) THEN output = -0,030662 ELSE output = 0,009836;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #2, null' and covering 8,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,228, precision = 0,988, and F1 = 0,370 - learned after 41 total and 19 acceptable nodes.  Node score = -4.019952097586613
+
+ FOR smokes(D) IF (friends(D, Anon16921), r_smokes(Anon16921), friends(Anon16921, Anon17051), r_smokes(Anon17051)) THEN output = 0,151695 ELSE output = -0,007626;
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #2, null' and covering 16,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,456, precision = 0,994, and F1 = 0,625 - learned after 12 total and 0 acceptable nodes.  Node score = -4.541125560172153
+
+ FOR smokes(D) IF (friends(D, Anon16921), r_smokes(Anon16921)) THEN output = 0,039594 ELSE output = 0,000205;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #3, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #3, null' and covering 16,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,456, precision = 0,994, and F1 = 0,625 - learned after 15 total and 1 acceptable nodes.  Node score = -4.886036599303436
+
+ FOR smokes(D) IF (friends(D, Anon13525), r_smokes(Anon13525), friends(D, Anon13655)) THEN output = -0,006709 ELSE output = 0,000205;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #4, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #4, null' and covering 16,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,456, precision = 0,994, and F1 = 0,625 - learned after 12 total and 0 acceptable nodes.  Node score = -4.9505004509495265
+
+ FOR smokes(D) IF (friends(D, Anon12685), r_smokes(Anon12685)) THEN output = 0,029587 ELSE output = 0,000205;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #5, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #5, null' and covering 16,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,456, precision = 0,994, and F1 = 0,625 - learned after 12 total and 0 acceptable nodes.  Node score = -4.961058966383579
+
+ FOR smokes(D) IF (friends(D, Anon11541), r_smokes(Anon11541)) THEN output = 0,000149 ELSE output = 0,000205;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #6, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #6, null' and covering 16,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,456, precision = 0,994, and F1 = 0,625 - learned after 12 total and 0 acceptable nodes.  Node score = -4.963789594182926
+
+ FOR smokes(D) IF (friends(D, Anon10201), r_smokes(Anon10201)) THEN output = 0,000053 ELSE output = 0,000205;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #7, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #7, null' and covering 16,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,456, precision = 0,994, and F1 = 0,625 - learned after 12 total and 0 acceptable nodes.  Node score = -4.967157781925403
+
+ FOR smokes(D) IF (friends(D, Anon7789), r_smokes(Anon7789)) THEN output = 0,000019 ELSE output = 0,000205;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #8, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #8, null' and covering 16,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,456, precision = 0,994, and F1 = 0,625 - learned after 12 total and 0 acceptable nodes.  Node score = -4.96716455476478
+
+ FOR smokes(D) IF (friends(D, Anon8057), r_smokes(Anon8057)) THEN output = 0,000005 ELSE output = 0,000205;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #9, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #9, null' and covering 16,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,456, precision = 0,994, and F1 = 0,625 - learned after 12 total and 0 acceptable nodes.  Node score = -4.967166490079994
+
+ FOR smokes(D) IF (friends(D, Anon8325), r_smokes(Anon8325)) THEN output = 0,000002 ELSE output = 0,000205;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #10, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #10, null' and covering 16,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,456, precision = 0,994, and F1 = 0,625 - learned after 12 total and 0 acceptable nodes.  Node score = -4.967167043045016
+
+ FOR smokes(D) IF (friends(D, Anon8593), r_smokes(Anon8593)) THEN output = 4,34204e-07 ELSE output = 0,000205;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #11, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #11, null' and covering 16,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,456, precision = 0,994, and F1 = 0,625 - learned after 12 total and 0 acceptable nodes.  Node score = -4.971192395388675
+
+ FOR smokes(D) IF (friends(D, Anon3769), r_smokes(Anon3769)) THEN output = 1,50568e-07 ELSE output = 0,000205;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #12, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #12, null' and covering 16,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,456, precision = 0,994, and F1 = 0,625 - learned after 12 total and 0 acceptable nodes.  Node score = -4.97119245561589
+
+ FOR smokes(D) IF (friends(D, Anon4037), r_smokes(Anon4037)) THEN output = 4,30195e-08 ELSE output = 0,000205;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #13, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #13, null' and covering 16,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,456, precision = 0,994, and F1 = 0,625 - learned after 12 total and 0 acceptable nodes.  Node score = -4.971192472823676
+
+ FOR smokes(D) IF (friends(D, Anon4305), r_smokes(Anon4305)) THEN output = 1,22913e-08 ELSE output = 0,000205;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #14, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #14, null' and covering 16,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,456, precision = 0,994, and F1 = 0,625 - learned after 12 total and 0 acceptable nodes.  Node score = -4.971192477740191
+
+ FOR smokes(D) IF (friends(D, Anon4573), r_smokes(Anon4573)) THEN output = 3,51179e-09 ELSE output = 0,000205;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #15, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #15, null' and covering 16,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,456, precision = 0,994, and F1 = 0,625 - learned after 12 total and 0 acceptable nodes.  Node score = -4.971192479144905
+
+ FOR smokes(D) IF (friends(D, Anon4841), r_smokes(Anon4841)) THEN output = 1,00337e-09 ELSE output = 0,000205;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #16, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #16, null' and covering 16,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,456, precision = 0,994, and F1 = 0,625 - learned after 12 total and 0 acceptable nodes.  Node score = -4.971192479546257
+
+ FOR smokes(D) IF (friends(D, Anon5109), r_smokes(Anon5109)) THEN output = 2,86677e-10 ELSE output = 0,000205;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #17, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #17, null' and covering 16,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,456, precision = 0,994, and F1 = 0,625 - learned after 12 total and 0 acceptable nodes.  Node score = -4.971192479660929
+
+ FOR smokes(D) IF (friends(D, Anon5377), r_smokes(Anon5377)) THEN output = 8,19077e-11 ELSE output = 0,000205;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #18, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #18, null' and covering 16,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,456, precision = 0,994, and F1 = 0,625 - learned after 12 total and 0 acceptable nodes.  Node score = -4.971192479693693
+
+ FOR smokes(D) IF (friends(D, Anon5645), r_smokes(Anon5645)) THEN output = 2,34022e-11 ELSE output = 0,000205;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #19, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #19, null' and covering 16,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,456, precision = 0,994, and F1 = 0,625 - learned after 12 total and 0 acceptable nodes.  Node score = -4.971192479703049
+
+ FOR smokes(D) IF (friends(D, Anon5913), r_smokes(Anon5913)) THEN output = 6,68636e-12 ELSE output = 0,000205;
+

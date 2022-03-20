@@ -1,0 +1,17 @@
+//Parameters
+setParam: maxTreeDepth=3.
+setParam: nodeSize=2.
+setParam: numOfClauses=8.
+//Modes
+mode: male(+name).
+mode: female(+name).
+mode: childof(+name,+name).
+mode: siblingof(+name,-name).
+mode: father(+name,+name).
+mode: mother(+name,+name).
+mode: recursive_father(+name,+name).
+mode: recursive_mother(+name,+name).
+//Bridgers
+//bridger: siblingof/2.
+queryPred: father/2.
+queryPred: mother/2.

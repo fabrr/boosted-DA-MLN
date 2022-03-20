@@ -1,0 +1,6 @@
+setParam: stringsAreCaseSensitive = true.
+
+useStdLogicNotation: true.
+
+
+(cancer(a) ^ friends(a, b) ^ friends(a, c) ^ friends(b, c) ^ friends(b, d) ^ friends(a, d) => smokes(a, -1.1796792547428073E-5)).

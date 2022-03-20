@@ -1,0 +1,100 @@
+
+Loading domain sizes... 
+Domain sizes loaded!
+
+Train domain sizes: 
+Person: 30
+
+Test domain sizes: 
+Person: 100
+
+Domain size scales: 
+Person: 3.3333333333333335
+
+Scaling weights...
+
+Target: smokes
+
+Tree #0
+
+Clause: (friends(a, b) ^ s_smokes(b) => smokes(a, 0.1926249010874676))
+Connection variables: b (Person), 
+Scaling factor: 3.3333333333333335, Weight: 0.1926249010874676, Scaled weight: 0.05778747032624028
+
+Tree #1
+
+Clause: (friends(a, b) ^ s_smokes(b) => smokes(a, 0.13245598327537442))
+Connection variables: b (Person), 
+Scaling factor: 3.3333333333333335, Weight: 0.13245598327537442, Scaled weight: 0.039736794982612324
+
+Tree #2
+
+Clause: (friends(a, b) ^ s_smokes(b) => smokes(a, 0.10040012220273707))
+Connection variables: b (Person), 
+Scaling factor: 3.3333333333333335, Weight: 0.10040012220273707, Scaled weight: 0.03012003666082112
+
+Tree #3
+
+Clause: (friends(a, b) ^ s_smokes(b) => smokes(a, 0.08101440647735154))
+Connection variables: b (Person), 
+Scaling factor: 3.3333333333333335, Weight: 0.08101440647735154, Scaled weight: 0.024304321943205462
+
+Tree #4
+
+Clause: (friends(a, b) ^ s_smokes(b) => smokes(a, 0.10214734240924325))
+Connection variables: b (Person), 
+Scaling factor: 3.3333333333333335, Weight: 0.10214734240924325, Scaled weight: 0.030644202722772976
+
+Clause: (friends(a, b) ^ friends(b, c) ^ s_smokes(c) => smokes(a, 0.023198290255848547))
+Connection variables: b (Person), c (Person), 
+Scaling factor: 11.111111111111112, Weight: 0.023198290255848547, Scaled weight: 0.002087846123026369
+
+Tree #5
+
+Clause: (friends(a, b) ^ s_smokes(b) => smokes(a, 0.05120357095558278))
+Connection variables: b (Person), 
+Scaling factor: 3.3333333333333335, Weight: 0.05120357095558278, Scaled weight: 0.015361071286674834
+
+Clause: (friends(a, b) ^ friends(b, c) ^ s_smokes(c) => smokes(a, 0.01636115159708022))
+Connection variables: b (Person), c (Person), 
+Scaling factor: 11.111111111111112, Weight: 0.01636115159708022, Scaled weight: 0.0014725036437372196
+
+Tree #6
+
+Clause: (friends(a, b) ^ s_smokes(b) ^ friends(b, _) => smokes(a, 0.0078023731033964585))
+Connection variables: b (Person), _1 (Person), 
+Scaling factor: 11.111111111111112, Weight: 0.0078023731033964585, Scaled weight: 7.022135793056812E-4
+
+Clause: (friends(a, b) ^ friends(b, c) ^ s_smokes(c) => smokes(a, 0.01562042173431483))
+Connection variables: b (Person), c (Person), 
+Scaling factor: 11.111111111111112, Weight: 0.01562042173431483, Scaled weight: 0.0014058379560883344
+
+Tree #7
+
+Clause: (friends(a, b) ^ s_smokes(b) ^ friends(a, _) => smokes(a, -0.00918384058991879))
+Connection variables: b (Person), _1 (Person), 
+Scaling factor: 11.111111111111112, Weight: -0.00918384058991879, Scaled weight: -8.26545653092691E-4
+
+Clause: (friends(a, b) ^ friends(b, c) ^ s_smokes(c) => smokes(a, 0.00525631433965735))
+Connection variables: b (Person), c (Person), 
+Scaling factor: 11.111111111111112, Weight: 0.00525631433965735, Scaled weight: 4.7306829056916144E-4
+
+Tree #8
+
+Clause: (friends(a, b) ^ s_smokes(b) ^ friends(a, c) ^ s_smokes(c) => smokes(a, -0.016237607181947916))
+Connection variables: b (Person), c (Person), 
+Scaling factor: 11.111111111111112, Weight: -0.016237607181947916, Scaled weight: -0.0014613846463753122
+
+Clause: (friends(a, b) ^ friends(b, c) ^ s_smokes(c) ^ not_s_smokes(b) => smokes(a, 0.037339705432945985))
+Connection variables: b (Person), c (Person), 
+Scaling factor: 11.111111111111112, Weight: 0.037339705432945985, Scaled weight: 0.0033605734889651383
+
+Tree #9
+
+Clause: (friends(a, b) ^ s_smokes(b) ^ friends(a, c) ^ s_smokes(c) => smokes(a, -0.015873859820147693))
+Connection variables: b (Person), c (Person), 
+Scaling factor: 11.111111111111112, Weight: -0.015873859820147693, Scaled weight: -0.0014286473838132922
+
+Clause: (friends(a, b) ^ friends(b, c) ^ s_smokes(c) ^ not_s_smokes(b) => smokes(a, 0.033941378754779906))
+Connection variables: b (Person), c (Person), 
+Scaling factor: 11.111111111111112, Weight: 0.033941378754779906, Scaled weight: 0.0030547240879301913

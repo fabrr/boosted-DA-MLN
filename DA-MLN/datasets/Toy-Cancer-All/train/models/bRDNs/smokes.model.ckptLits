@@ -1,0 +1,5 @@
+cancer(A)
+friends(A, UniqueVar1)
+cancer(UniqueVar1)
+friends(A, UniqueVar2)
+cancer(UniqueVar2)

@@ -1,0 +1,132 @@
+% Running on host: DESKTOP-0S2LA4F
+
+% Switching to VarIndicator = uppercase.
+
+% Unset'ing VarIndicator.
+
+% Calling ILPouterLoop from createRegressionOuterLooper.
+
+% getInputArgWithDefaultValue: args=[datasets\Cora\train/train_pos.txt, datasets\Cora\train/train_neg.txt, datasets\Cora\train/train_bk.txt, datasets\Cora\train/train_facts.txt]
+%  for N=0: args[N]=datasets\Cora\train/train_pos.txt
+
+% getInputArgWithDefaultValue: args=[datasets\Cora\train/train_pos.txt, datasets\Cora\train/train_neg.txt, datasets\Cora\train/train_bk.txt, datasets\Cora\train/train_facts.txt]
+%  for N=1: args[N]=datasets\Cora\train/train_neg.txt
+
+% getInputArgWithDefaultValue: args=[datasets\Cora\train/train_pos.txt, datasets\Cora\train/train_neg.txt, datasets\Cora\train/train_bk.txt, datasets\Cora\train/train_facts.txt]
+%  for N=2: args[N]=datasets\Cora\train/train_bk.txt
+
+% getInputArgWithDefaultValue: args=[datasets\Cora\train/train_pos.txt, datasets\Cora\train/train_neg.txt, datasets\Cora\train/train_bk.txt, datasets\Cora\train/train_facts.txt]
+%  for N=3: args[N]=datasets\Cora\train/train_facts.txt
+
+% Welcome to the WILL ILP/SRL systems.
+
+
+% Switching to VarIndicator = uppercase.
+
+% Unset'ing VarIndicator.
+% Reading background theory from dir: null
+% Load '../cora_bk.txt'.
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to standard-logic notation for variables; previous setting = uppercase
+
+% Switching to VarIndicator = lowercase.
+
+% Switching to Prolog notation for variables; previous setting = lowercase
+
+% Switching to VarIndicator = uppercase.
+
+***** Warning: % Since this is the first setting of the notation for variables, will keep:
+%   variableIndicator = uppercase *****
+
+
+***** Warning: % Since this is the first setting of the notation for variables, will keep:
+%   variableIndicator = uppercase *****
+
+% [ LazyGroundClauseIndex ]  Building full index for mode/1 with 1 assertions.
+
+%  Read the facts.
+%  Have read 6.541 facts.
+% Have read 35.008 examples from 'datasets\Cora\train' [datasets\Cora\train/train*].
+% Have read 27.709 examples from 'datasets\Cora\train' [datasets\Cora\train/train*].
+
+%  LearnOneClause initialized.
+
+% The outer looper has been created.
+
+% Initializing the ILP inner looper.
+
+% NEW target:                 sameauthor(A, B)
+%  targetPred:                sameauthor/2
+%  targetArgTypes:            signature = ["Const", "Const"], types = [+auth, +auth]
+%  targets:                   [sameauthor(A, B)]
+%  targetPredicates:          [sameauthor/2, samebib/2, sametitle/2, samevenue/2]
+%  targetArgSpecs:            [[A[+auth], B[+auth]]]
+%  variablesInTargets:        [[A, B]]
+
+% NEW target:                 samebib(C, D)
+%  targetPred:                samebib/2
+%  targetArgTypes:            signature = ["Const", "Const"], types = [+paper, +paper]
+%  targets:                   [sameauthor(A, B), samebib(C, D)]
+%  targetPredicates:          [sameauthor/2, samebib/2, sametitle/2, samevenue/2]
+%  targetArgSpecs:            [[A[+auth], B[+auth]], [C[+paper], D[+paper]]]
+%  variablesInTargets:        [[A, B], [C, D]]
+
+% NEW target:                 sametitle(E, F)
+%  targetPred:                sametitle/2
+%  targetArgTypes:            signature = ["Const", "Const"], types = [+title, +title]
+%  targets:                   [sameauthor(A, B), samebib(C, D), sametitle(E, F)]
+%  targetPredicates:          [sameauthor/2, samebib/2, sametitle/2, samevenue/2]
+%  targetArgSpecs:            [[A[+auth], B[+auth]], [C[+paper], D[+paper]], [E[+title], F[+title]]]
+%  variablesInTargets:        [[A, B], [C, D], [E, F]]
+
+% NEW target:                 samevenue(G, H)
+%  targetPred:                samevenue/2
+%  targetArgTypes:            signature = ["Const", "Const"], types = [+venue, +venue]
+%  targets:                   [sameauthor(A, B), samebib(C, D), sametitle(E, F), samevenue(G, H)]
+%  targetPredicates:          [sameauthor/2, samebib/2, sametitle/2, samevenue/2]
+%  targetArgSpecs:            [[A[+auth], B[+auth]], [C[+paper], D[+paper]], [E[+title], F[+title]], [G[+venue], H[+venue]]]
+%  variablesInTargets:        [[A, B], [C, D], [E, F], [G, H]]
+
+% Started collecting constants
+
+% Collecting the types of constants.
+
+% Looking at the training examples to see if any types of new constants can be inferred.
+% Time to collect constants: 464 milliseconds
+% Time to collect examples: 0 seconds
+
+% Read 35.008 pos examples and 27.709 neg examples.
+% Time to init learnOneClause: 702 milliseconds
+% Old dirnull
+Setting model dir
+
+% Have 35.008 'raw' positive examples and kept 35.008.
+% Have 27.709 'raw' negative examples and kept 27.709.
+
+% processing backup's for sametitle
+%  POS EX = 661
+%  NEG EX = 714
+
+% processing backup's for samebib
+%  POS EX = 30.971
+%  NEG EX = 21.952
+
+% processing backup's for samevenue
+%  POS EX = 2.888
+%  NEG EX = 4.977
+
+% processing backup's for sameauthor
+%  POS EX = 488
+%  NEG EX = 66
+
+% Memory usage by WILLSetup (just counts # targets?):
+%  |backupPosExamples| = 4
+%  |backupNegExamples| = 4
+%  |predicatesAsFacts| = 0
+%  |addedToFactBase|   = 0
+datasets\Cora\train/models/
+
+
+// Closed by a createDribble call with file = datasets\Cora\train/train.txt

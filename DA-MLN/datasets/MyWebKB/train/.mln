@@ -1,0 +1,34 @@
+0,8087 faculty(a) v !linkto(b, a) v !course(b) /*  */
+0,0671 faculty(a) v !linkto(a, a) v !linkto(a, _) /*  */
+0,0169 faculty(a) v !has(a, "institut") /*  */
+0,2974 faculty(a) v !linkto(a, a) v !linkto(a, b) v !person(b) /*  */
+0,1000 faculty(a) v !has(a, "proceed") /*  */
+0,2218 faculty(a) v !has(a, "ph") /*  */
+-0,0022 faculty(a) v !linkto(b, a) v !has(b, _) /*  */
+-0,0104 faculty(a) v !has(a, "offic") /*  */
+-0,1858 faculty(a) v !has(a, "ut") /*  */
+0,0595 faculty(a) v !has(a, "process") /*  */
+0,0121 faculty(a) v !has(a, "research") /*  */
+-0,0233 faculty(a) v !linkto(a, a) v !linkto(_, a) /*  */
+0,1103 faculty(a) v !linkto(b, a) v !has(b, "write") /*  */
+1,0701 faculty(a) v !linkto(a, a) v !linkto(b, a) v !r_faculty(b) /*  */
+0,1475 faculty(a) v !has(a, "recent") /*  */
+-0,0436 faculty(a) v !linkto(b, a) v !linkto(_, b) /*  */
+0,3836 faculty(a) v !has(a, "fax") /*  */
+-0,0036 faculty(a) v !has(a, "phone") /*  */
+0,2415 faculty(a) v !linkto(b, a) v !linkto(b, c) v !r_faculty(c) /*  */
+0,0660 faculty(a) v !has(a, "tool") /*  */
+0,1481 faculty(a) v !has(a, "solv") /*  */
+-0,1634 faculty(a) v !has(a, "integr") /*  */
+0,2341 faculty(a) v !has(a, "ii") /*  */
+-0,1339 faculty(a) v !has(a, "inform") /*  */
+0,2371 faculty(a) v !linkto(a, b) v !has(b, "run") /*  */
+0,1129 faculty(a) v !has(a, "select") /*  */
+0,0232 faculty(a) v !has(a, "associ") /*  */
+0,0373 faculty(a) v !has(a, "decemb") /*  */
+0,0851 faculty(a) v !has(a, "area") /*  */
+-0,1274 faculty(a) v !has(a, "comput") /*  */
+-0,0617 faculty(a) v !linkto(b, a) v !has(b, "texa") /*  */
+-0,1836 faculty(a) v !has(a, "make") /*  */
+0,2557 faculty(a) v !has(a, "professor") /*  */
+0,3787 faculty(a) v !has(a, "summari") /*  */

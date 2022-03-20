@@ -1,0 +1,15 @@
+Prefix: test
+Size: 100
+Group count: 10
+Group size: 10
+
+Group #0 (0-9): not_smoke
+Group #1 (10-19): not_smoke
+Group #2 (20-29): not_smoke
+Group #3 (30-39): not_smoke
+Group #4 (40-49): not_smoke
+Group #5 (50-59): not_smoke
+Group #6 (60-69): not_smoke
+Group #7 (70-79): not_smoke
+Group #8 (80-89): not_smoke
+Group #9 (90-99): not_smoke

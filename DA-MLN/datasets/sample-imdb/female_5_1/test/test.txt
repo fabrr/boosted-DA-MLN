@@ -1,0 +1,380 @@
+% Running on host: DESKTOP-0S2LA4F
+
+% Creating string handler #1.
+
+
+% Switching to VarIndicator = uppercase.
+
+% Unset'ing VarIndicator.
+
+% Switching to VarIndicator = questionMarks.
+
+% getInputArgWithDefaultValue: args=[datasets\sample-imdb\female_5_1\test/test_pos.txt, datasets\sample-imdb\female_5_1\test/test_neg.txt, datasets\sample-imdb\female_5_1\test/test_bk.txt, datasets\sample-imdb\female_5_1\test/test_facts.txt, null]
+%  for N=0: args[N]=datasets\sample-imdb\female_5_1\test/test_pos.txt
+
+% getInputArgWithDefaultValue: args=[datasets\sample-imdb\female_5_1\test/test_pos.txt, datasets\sample-imdb\female_5_1\test/test_neg.txt, datasets\sample-imdb\female_5_1\test/test_bk.txt, datasets\sample-imdb\female_5_1\test/test_facts.txt, null]
+%  for N=1: args[N]=datasets\sample-imdb\female_5_1\test/test_neg.txt
+
+% getInputArgWithDefaultValue: args=[datasets\sample-imdb\female_5_1\test/test_pos.txt, datasets\sample-imdb\female_5_1\test/test_neg.txt, datasets\sample-imdb\female_5_1\test/test_bk.txt, datasets\sample-imdb\female_5_1\test/test_facts.txt, null]
+%  for N=2: args[N]=datasets\sample-imdb\female_5_1\test/test_bk.txt
+
+% getInputArgWithDefaultValue: args=[datasets\sample-imdb\female_5_1\test/test_pos.txt, datasets\sample-imdb\female_5_1\test/test_neg.txt, datasets\sample-imdb\female_5_1\test/test_bk.txt, datasets\sample-imdb\female_5_1\test/test_facts.txt, null]
+%  for N=3: args[N]=datasets\sample-imdb\female_5_1\test/test_facts.txt
+
+% Welcome to the WILL ILP/SRL systems.
+
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+% Reading background theory from dir: null
+% Load '../imdb_bk.txt'.
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+% LoadAllModes() called.  Currently loaded modes: []
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+% LoadAllLibraries() called.  Currently loaded libraries: [listsInLogic, differentInLogic, modes_arithmeticInLogic, inlines_comparisonInLogic, modes_listsInLogic, inlines_differentInLogic, modes_differentInLogic, arithmeticInLogic, inlines_listsInLogic, modes_comparisonInLogic, comparisonInLogic, inlines_arithmeticInLogic]
+
+%  Read the facts.
+%  Have read 1.077 facts.
+
+%  LearnOneClause initialized.
+% Have read 0 examples from 'datasets\sample-imdb\female_5_1\test' [datasets\sample-imdb\female_5_1\test/test*].
+% Have read 0 examples from 'datasets\sample-imdb\female_5_1\test' [datasets\sample-imdb\female_5_1\test/test*].
+
+% Started collecting constants
+
+% Collecting the types of constants.
+
+% Looking at the training examples to see if any types of new constants can be inferred.
+
+***** Warning: targetPredicates=null *****
+
+
+***** Warning: targetArgSpecs=null *****
+
+% Time to collect constants: 25 milliseconds
+% Time to collect examples: 0 seconds
+
+% Read 0 pos examples and 0 neg examples.
+% Time to init learnOneClause: 32 milliseconds
+Domain sizes loaded!
+
+Train domain sizes: 
+movie: 11
+person: 14
+genre: 4
+
+Test domain sizes: 
+movie: 20
+person: 268
+genre: 9
+
+Domain size scales: 
+movie: 1.8181818181818181
+person: 19.142857142857142
+genre: 2.25
+
+Scaling weights...
+
+Target: female
+
+Tree #0
+
+Clause: (female(A, 0.13087620782678497) :- actor(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.13087620782678497, Scaled weight: 0.13087620782678497
+
+Clause: (female(A, -0.14185106490048777) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.14185106490048777, Scaled weight: -0.14185106490048777
+
+Tree #1
+
+Clause: (female(A, -0.12544463852839138) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.12544463852839138, Scaled weight: -0.12544463852839138
+
+Clause: (female(A, 0) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0, Scaled weight: 0
+
+Clause: (female(A, 0) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0, Scaled weight: 0
+
+Clause: (female(A, 0) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0, Scaled weight: 0
+
+Clause: (female(A, 0) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0, Scaled weight: 0
+
+Clause: (female(A, 0) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0, Scaled weight: 0
+
+Clause: (female(A, 0) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0, Scaled weight: 0
+
+Clause: (female(A, 0) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0, Scaled weight: 0
+
+Clause: (female(A, 0) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0, Scaled weight: 0
+
+Clause: (female(A, 0) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0, Scaled weight: 0
+
+Tree #2
+
+Clause: (female(A, -0.11231637819360639) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.11231637819360639, Scaled weight: -0.11231637819360639
+
+Clause: (female(A, 0) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0, Scaled weight: 0
+
+Clause: (female(A, 0) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0, Scaled weight: 0
+
+Clause: (female(A, 0) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0, Scaled weight: 0
+
+Clause: (female(A, 0) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0, Scaled weight: 0
+
+Clause: (female(A, 0) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0, Scaled weight: 0
+
+Tree #3
+
+Clause: (female(A, -0.1015963294878363) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.1015963294878363, Scaled weight: -0.1015963294878363
+
+Clause: (female(A, 1.3877787807814457E-17) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 1.3877787807814457E-17, Scaled weight: 1.3877787807814457E-17
+
+Clause: (female(A, 0) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0, Scaled weight: 0
+
+Clause: (female(A, 0) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0, Scaled weight: 0
+
+Clause: (female(A, 0) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0, Scaled weight: 0
+
+Tree #4
+
+Clause: (female(A, -0.09269127618926094) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.09269127618926094, Scaled weight: -0.09269127618926094
+
+Clause: (female(A, -1.3877787807814457E-17) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -1.3877787807814457E-17, Scaled weight: -1.3877787807814457E-17
+
+Clause: (female(A, 0) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0, Scaled weight: 0
+
+Clause: (female(A, 0) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0, Scaled weight: 0
+
+Tree #5
+
+Clause: (female(A, -0.08518475138839687) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.08518475138839687, Scaled weight: -0.08518475138839687
+
+Clause: (female(A, 0) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0, Scaled weight: 0
+
+Clause: (female(A, 0) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0, Scaled weight: 0
+
+Tree #6
+
+Clause: (female(A, -0.07877675473109173) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.07877675473109173, Scaled weight: -0.07877675473109173
+
+Clause: (female(A, 0) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0, Scaled weight: 0
+
+Tree #7
+
+Clause: (female(A, -0.07324622576333704) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.07324622576333704, Scaled weight: -0.07324622576333704
+
+Clause: (female(A, 0) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0, Scaled weight: 0
+
+Tree #8
+
+Clause: (female(A, 0.06984249709040286) :- actor(A), movie(B, A), movie(B, _))
+Connection variables: B (movie), _1 (person), 
+Scaling factor: 34.8051948051948, Weight: 0.06984249709040286, Scaled weight: 0.002006668759686948
+
+Clause: (female(A, 0.03386302889231651) :- actor(A), movie(B, A), movie(B, _))
+Connection variables: B (movie), _1 (person), 
+Scaling factor: 34.8051948051948, Weight: 0.03386302889231651, Scaled weight: 9.729303077270042E-4
+
+Tree #9
+
+Clause: (female(A, 0.05483933304818804) :- actor(A), movie(B, A), movie(B, _))
+Connection variables: B (movie), _1 (person), 
+Scaling factor: 34.8051948051948, Weight: 0.05483933304818804, Scaled weight: 0.001575607703250179
+
+Clause: (female(A, 0.026588767538515426) :- actor(A), movie(B, A), movie(B, _))
+Connection variables: B (movie), _1 (person), 
+Scaling factor: 34.8051948051948, Weight: 0.026588767538515426, Scaled weight: 7.639310076364507E-4
+
+Tree #10
+
+Clause: (female(A, 0.04138565671519959) :- actor(A), movie(B, A), movie(B, _))
+Connection variables: B (movie), _1 (person), 
+Scaling factor: 34.8051948051948, Weight: 0.04138565671519959, Scaled weight: 0.0011890655101008838
+
+Tree #11
+
+Clause: (female(A, -0.06842697784420272) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.06842697784420272, Scaled weight: -0.06842697784420272
+
+Tree #12
+
+Clause: (female(A, 0.014701661129659763) :- actor(A), movie(B, A), movie(B, _), movie(B, _))
+Connection variables: B (movie), _1 (person), 
+Scaling factor: 34.8051948051948, Weight: 0.014701661129659763, Scaled weight: 4.2239847275514996E-4
+
+Tree #13
+
+Clause: (female(A, -0.0641918400820262) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.0641918400820262, Scaled weight: -0.0641918400820262
+
+Tree #14
+
+Clause: (female(A, -0.060441948167738596) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.060441948167738596, Scaled weight: -0.060441948167738596
+
+Tree #15
+
+Clause: (female(A, -0.05709935018833447) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.05709935018833447, Scaled weight: -0.05709935018833447
+
+Tree #16
+
+Clause: (female(A, -0.054101797942008124) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.054101797942008124, Scaled weight: -0.054101797942008124
+
+Tree #17
+
+Clause: (female(A, -0.051399010590168326) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.051399010590168326, Scaled weight: -0.051399010590168326
+
+Tree #18
+
+Clause: (female(A, -0.04894994992783664) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.04894994992783664, Scaled weight: -0.04894994992783664
+
+Tree #19
+
+Clause: (female(A, -0.04672080332836748) :- director(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.04672080332836748, Scaled weight: -0.04672080332836748
+
+% for female |lookupPos| = 95
+% for female |lookupNeg| = 173
+% getJointExamples: |pos| = 95, |neg| = 173
+
+% Starting inference in bRDN.
+
+% Subsampling the negative examples.
+% Trees = 20
+% [ LazyGroundClauseIndex ]  Building full index for actor/1 with 236 assertions.
+% [ LazyGroundClauseIndex ]  Building full index for director/1 with 32 assertions.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 1:  Building full index for movie/2.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 0:  Building full index for movie/2.
+ (Arithmetic) Mean Probability Assigned to Correct Output Class: 163,295/268,00 = 0,609310
+
+ The weighted count of positive examples = 95,000 and the weighted count of negative examples = 173,000
+
+printExamples: Writing out predictions (for Tuffy?) on 268 examples for 'female' to:
+  datasets\sample-imdb\female_5_1\test/results_female.db
+ and to:
+  datasets\sample-imdb\female_5_1\test/query_female.db
+%    No need to compress since small: datasets\sample-imdb\female_5_1\test/query_female.db
+
+% Computing Area Under Curves.
+%Pos=95
+%Neg=173
+%LL:-158.62586402500094
+%LL:-189.0981045341207
+
+% Running command: java -jar src/edu/wisc/cs/will/DataSetUtils/auc.jar datasets\sample-imdb\female_5_1\test/AUC/aucTemp.txt list 0.0
+% WAITING FOR command: java -jar src/edu/wisc/cs/will/DataSetUtils/auc.jar datasets\sample-imdb\female_5_1\test/AUC/aucTemp.txt list 0.0
+% DONE WAITING FOR command: java -jar src/edu/wisc/cs/will/DataSetUtils/auc.jar datasets\sample-imdb\female_5_1\test/AUC/aucTemp.txt list 0.0
+
+%   AUC ROC   = 0,609462
+%   AUC PR    = 0,468796
+%   CLL	      = -0,705590
+%   Precision = 0,402542 at threshold = 0,114
+%   Recall    = 1,000000
+%   F1        = 0,574018
+
+% Total inference time (20 trees): 3,135 seconds.

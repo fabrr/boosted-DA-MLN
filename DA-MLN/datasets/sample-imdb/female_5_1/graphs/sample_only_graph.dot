@@ -1,0 +1,90 @@
+graph IMDB {
+
+	// Director nodes
+	subgraph directors {
+		node[shape=diamond style=filled]
+		astephanbernhard[ fillcolor=lightskyblue]
+		atraykovatanas[ fillcolor=lightskyblue]
+		averhoevenpauli[ fillcolor=lightskyblue]
+	}
+
+	// Actor nodes
+	subgraph actors {
+		node[style=filled]
+		afabiolobello[ fillcolor=lightskyblue]
+		anelsonpeltz[ fillcolor=lightskyblue]
+		ajackmcgee[ fillcolor=lightskyblue]
+		asheilapaterson[ fillcolor=pink]
+		alucavitrano[ fillcolor=lightskyblue]
+		aguillaumeromain[ fillcolor=lightskyblue]
+		aindiravarma[ fillcolor=lightskyblue]
+		amanueladolcemascolo[ fillcolor=pink]
+		achelcieross[ fillcolor=pink]
+		ajohnlithgow[ fillcolor=lightskyblue]
+		ahumecronyn[ fillcolor=lightskyblue]
+	}
+
+	// Movie nodes
+	subgraph movies {
+		node[shape=box style=filled]
+		aunetunfontsix[ fillcolor=coral]
+		abasicinstinct[ fillcolor=coral]
+		agrandpatronle[ fillcolor=coral]
+		abadlands2005[ fillcolor=coral]
+		aperdutoamor[ fillcolor=coral]
+		anerolio[ fillcolor=coral]
+		apelicanbriefthe[ fillcolor=coral]
+		aoceanstwelve[ fillcolor=coral]
+		aplayerthe[ fillcolor=coral]
+		arosenheimcopsdie[ fillcolor=coral]
+		abeautifuljoe[ fillcolor=coral]
+		abasicinstinct2[ fillcolor=coral]
+		aletztezeugeder[ fillcolor=coral]
+		akristali[ fillcolor=coral]
+		aribellela[ fillcolor=coral]
+		aoceanseleven[ fillcolor=coral]
+		ageratzite[ fillcolor=coral]
+		aspasenieto[ fillcolor=coral]
+		alegendazapaisiy[ fillcolor=coral]
+		asaramay[ fillcolor=coral]
+	}
+
+	// Genre nodes
+	subgraph genres {
+		node[shape=parallelogram,style=filled]
+		amystery[ fillcolor=limegreen]
+		acomedy[ fillcolor=limegreen]
+		ascifi[ fillcolor=limegreen]
+		athriller[ fillcolor=limegreen]
+		adrama[ fillcolor=limegreen]
+		aaction[ fillcolor=limegreen]
+		adocumentary[ fillcolor=limegreen]
+		aromance[ fillcolor=limegreen]
+		acrime[ fillcolor=limegreen]
+	}
+
+	// Movie edges
+	akristali--atraykovatanas
+	apelicanbriefthe--ahumecronyn
+	aperdutoamor--alucavitrano
+	aoceanstwelve--anelsonpeltz
+	aletztezeugeder--astephanbernhard
+	abasicinstinct--ajackmcgee
+	apelicanbriefthe--ajohnlithgow
+	abeautifuljoe--asheilapaterson
+	abasicinstinct--achelcieross
+	anerolio--afabiolobello
+	abasicinstinct--averhoevenpauli
+	aunetunfontsix--aguillaumeromain
+	asaramay--amanueladolcemascolo
+	abasicinstinct2--aindiravarma
+
+	// Genre edges
+	atraykovatanas--adrama
+	averhoevenpauli--acrime
+	averhoevenpauli--adrama
+	averhoevenpauli--athriller
+	astephanbernhard--acrime
+	averhoevenpauli--amystery
+
+}

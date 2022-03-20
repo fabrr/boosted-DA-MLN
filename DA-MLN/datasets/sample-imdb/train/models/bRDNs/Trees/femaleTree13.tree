@@ -1,0 +1,6 @@
+setParam: stringsAreCaseSensitive = true.
+
+usePrologVariables: true.
+
+
+(female(A, -0.005949572675958801) :- workedunder(A, _), workedunder(A, _), workedunder(A, _), workedunder(A, _)).

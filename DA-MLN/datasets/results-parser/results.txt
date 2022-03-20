@@ -1,0 +1,10166 @@
+
+sample_loop: 5, 1
+exists, folder already exists!
+learn
+runtime: 4246
+try: 1
+total_runtime: 5958
+infer
+auc_roc: 0,478552
+auc_pr: 0,070698
+cll: -0,306744
+runtime: 4314
+infer dss
+auc_roc: 0,749897
+auc_pr: 0,097576
+cll: -0,592652
+runtime: 5135
+
+sample_loop: 10, 1
+exists, folder already exists!
+learn
+runtime: 6376
+try: 1
+total_runtime: 8265
+infer
+auc_roc: 0,638545
+auc_pr: 0,178049
+cll: -0,211102
+runtime: 3737
+infer dss
+auc_roc: 0,879016
+auc_pr: 0,443722
+cll: -0,208581
+runtime: 4206
+
+sample_loop: 15, 1
+exists, folder already exists!
+learn
+runtime: 9912
+try: 1
+total_runtime: 11747
+infer
+auc_roc: 0,563743
+auc_pr: 0,133075
+cll: -0,213575
+runtime: 6244
+infer dss
+auc_roc: 0,898521
+auc_pr: 0,607925
+cll: -0,184616
+runtime: 6988
+
+sample_loop: 20, 1
+exists, folder already exists!
+learn
+runtime: 14349
+try: 1
+total_runtime: 16312
+infer
+auc_roc: 0,867217
+auc_pr: 0,166511
+cll: -1,213097
+runtime: 3296
+infer dss
+auc_roc: 0,922979
+auc_pr: 0,549889
+cll: -0,206667
+runtime: 3830
+
+sample_loop: 25, 1
+exists, folder already exists!
+learn
+runtime: 10381
+try: 1
+total_runtime: 12224
+infer
+auc_roc: 0,887908
+auc_pr: 0,473192
+cll: -0,181791
+runtime: 2388
+infer dss
+auc_roc: 0,898400
+auc_pr: 0,472116
+cll: -0,183587
+runtime: 3119
+
+sample_loop: 30, 1
+exists, folder already exists!
+learn
+runtime: 12126
+try: 1
+total_runtime: 14085
+infer
+auc_roc: 0,663261
+auc_pr: 0,193623
+cll: -0,201937
+runtime: 2420
+infer dss
+auc_roc: 0,665015
+auc_pr: 0,213921
+cll: -0,204026
+runtime: 2965
+
+sample_loop: 35, 1
+exists, folder already exists!
+learn
+runtime: 38701
+try: 1
+total_runtime: 40786
+infer
+auc_roc: 0,850568
+auc_pr: 0,590646
+cll: -0,180506
+runtime: 11029
+infer dss
+auc_roc: 0,951875
+auc_pr: 0,780088
+cll: -0,193049
+runtime: 11994
+
+sample_loop: 40, 1
+exists, folder already exists!
+learn
+runtime: 68408
+try: 1
+total_runtime: 70699
+infer
+auc_roc: 0,926574
+auc_pr: 0,759410
+cll: -0,153980
+runtime: 22551
+infer dss
+auc_roc: 0,923237
+auc_pr: 0,617665
+cll: -0,179489
+runtime: 24165
+
+sample_loop: 45, 1
+exists, folder already exists!
+learn
+runtime: 21301
+try: 1
+total_runtime: 23287
+infer
+auc_roc: 0,885793
+auc_pr: 0,460512
+cll: -0,199904
+runtime: 2250
+infer dss
+auc_roc: 0,885793
+auc_pr: 0,460512
+cll: -0,199904
+runtime: 2931
+
+sample_loop: 50, 1
+exists, folder already exists!
+learn
+runtime: 823652
+try: 1
+total_runtime: 825700
+infer
+auc_roc: 0,887874
+auc_pr: 0,360961
+cll: -0,208270
+runtime: 26794
+infer dss
+auc_roc: 0,915807
+auc_pr: 0,425067
+cll: -0,238189
+runtime: 26797
+
+sample_loop: 55, 1
+exists, folder already exists!
+learn
+runtime: 195097
+try: 1
+total_runtime: 197277
+infer
+auc_roc: 0,939680
+auc_pr: 0,757042
+cll: -0,159510
+runtime: 17524
+infer dss
+auc_roc: 0,931115
+auc_pr: 0,678710
+cll: -0,178310
+runtime: 17425
+
+sample_loop: 60, 1
+exists, folder already exists!
+learn
+runtime: 31168
+try: 1
+total_runtime: 33232
+infer
+auc_roc: 0,972257
+auc_pr: 0,659650
+cll: -0,182637
+runtime: 2478
+infer dss
+auc_roc: 0,970829
+auc_pr: 0,671096
+cll: -0,189985
+runtime: 2974
+
+sample_loop: 65, 1
+exists, folder already exists!
+learn
+runtime: 75645
+try: 1
+total_runtime: 77778
+infer
+auc_roc: 0,976608
+auc_pr: 0,838664
+cll: -0,145583
+runtime: 8939
+infer dss
+auc_roc: 0,982422
+auc_pr: 0,823579
+cll: -0,162780
+runtime: 9426
+
+sample_loop: 70, 1
+exists, folder already exists!
+learn
+runtime: 1665937
+try: 1
+total_runtime: 1668324
+infer
+auc_roc: 0,913622
+auc_pr: 0,445400
+cll: -0,184351
+runtime: 7012
+infer dss
+auc_roc: 0,958789
+auc_pr: 0,486870
+cll: -0,192697
+runtime: 7716
+
+sample_loop: 75, 1
+exists, folder already exists!
+learn
+runtime: 145796
+try: 1
+total_runtime: 148283
+infer
+auc_roc: 0,969367
+auc_pr: 0,618199
+cll: -0,173375
+runtime: 2707
+infer dss
+auc_roc: 0,968111
+auc_pr: 0,671162
+cll: -0,176999
+runtime: 3205
+
+sample_loop: 80, 1
+exists, folder already exists!
+learn
+runtime: 69161
+try: 1
+total_runtime: 71422
+infer
+auc_roc: 0,979257
+auc_pr: 0,648843
+cll: -0,185972
+runtime: 2849
+infer dss
+auc_roc: 0,976643
+auc_pr: 0,639698
+cll: -0,187116
+runtime: 3236
+
+sample_loop: 85, 1
+exists, folder already exists!
+learn
+runtime: 231405
+try: 1
+total_runtime: 233749
+infer
+auc_roc: 0,991194
+auc_pr: 0,777255
+cll: -0,173406
+runtime: 2343
+infer dss
+auc_roc: 0,990678
+auc_pr: 0,791035
+cll: -0,176112
+runtime: 2961
+
+sample_loop: 90, 1
+exists, folder already exists!
+learn
+runtime: 190853
+try: 1
+total_runtime: 193152
+infer
+auc_roc: 0,925456
+auc_pr: 0,538158
+cll: -0,181849
+runtime: 2543
+infer dss
+auc_roc: 0,921844
+auc_pr: 0,528187
+cll: -0,183096
+runtime: 3078
+
+sample_loop: 95, 1
+exists, folder already exists!
+learn
+runtime: 239464
+try: 1
+total_runtime: 241946
+infer
+auc_roc: 0,979567
+auc_pr: 0,712937
+cll: -0,171736
+runtime: 4736
+infer dss
+auc_roc: 0,979085
+auc_pr: 0,714807
+cll: -0,172102
+runtime: 5358
+
+sample_loop: 100, 1
+exists, folder already exists!
+learn
+runtime: 180257
+try: 1
+total_runtime: 182817
+infer
+auc_roc: 0,977881
+auc_pr: 0,717329
+cll: -0,179449
+runtime: 4765
+infer dss
+auc_roc: 0,977881
+auc_pr: 0,717329
+cll: -0,179449
+runtime: 5290
+
+sample_loop: 5, 2
+exists, folder already exists!
+learn
+runtime: 4496
+try: 1
+total_runtime: 6105
+infer
+auc_roc: 0,626780
+auc_pr: 0,188597
+cll: -0,195448
+runtime: 2603
+infer dss
+auc_roc: 0,834813
+auc_pr: 0,435482
+cll: -0,196323
+runtime: 3242
+
+sample_loop: 10, 2
+exists, folder already exists!
+learn
+runtime: 5565
+try: 1
+total_runtime: 7192
+infer
+auc_roc: 0,760870
+auc_pr: 0,097417
+cll: -1,492678
+runtime: 2346
+infer dss
+auc_roc: 0,840110
+auc_pr: 0,194688
+cll: -0,342365
+runtime: 3000
+
+sample_loop: 15, 2
+exists, folder already exists!
+learn
+runtime: 6159
+try: 1
+total_runtime: 7760
+infer
+auc_roc: 0,919625
+auc_pr: 0,400813
+cll: -0,210487
+runtime: 2104
+infer dss
+auc_roc: 0,935243
+auc_pr: 0,529239
+cll: -0,191418
+runtime: 2789
+
+sample_loop: 20, 2
+exists, folder already exists!
+learn
+runtime: 11577
+try: 1
+total_runtime: 13259
+infer
+auc_roc: 0,990746
+auc_pr: 0,889928
+cll: -0,148322
+runtime: 2224
+infer dss
+auc_roc: 0,950980
+auc_pr: 0,566443
+cll: -0,179319
+runtime: 2865
+
+sample_loop: 25, 2
+exists, folder already exists!
+learn
+runtime: 9436
+try: 1
+total_runtime: 11056
+infer
+auc_roc: 0,880599
+auc_pr: 0,373372
+cll: -0,431856
+runtime: 2144
+infer dss
+auc_roc: 0,839491
+auc_pr: 0,368267
+cll: -0,190550
+runtime: 2750
+
+sample_loop: 30, 2
+exists, folder already exists!
+learn
+runtime: 47509
+try: 1
+total_runtime: 49464
+infer
+auc_roc: 0,934383
+auc_pr: 0,548278
+cll: -0,164391
+runtime: 5265
+infer dss
+auc_roc: 0,727021
+auc_pr: 0,160390
+cll: -0,204950
+runtime: 6008
+
+sample_loop: 35, 2
+exists, folder already exists!
+learn
+runtime: 18471
+try: 1
+total_runtime: 20212
+infer
+auc_roc: 0,979137
+auc_pr: 0,647538
+cll: -0,178791
+runtime: 2485
+infer dss
+auc_roc: 0,972274
+auc_pr: 0,642485
+cll: -0,188771
+runtime: 2951
+
+sample_loop: 40, 2
+exists, folder already exists!
+learn
+runtime: 17689
+try: 1
+total_runtime: 19469
+infer
+auc_roc: 0,974114
+auc_pr: 0,576245
+cll: -0,215117
+runtime: 2185
+infer dss
+auc_roc: 0,968576
+auc_pr: 0,610895
+cll: -0,190436
+runtime: 2888
+
+sample_loop: 45, 2
+exists, folder already exists!
+learn
+runtime: 328269
+try: 1
+total_runtime: 330186
+infer
+auc_roc: 0,936085
+auc_pr: 0,709836
+cll: -0,168862
+runtime: 37317
+infer dss
+auc_roc: 0,932095
+auc_pr: 0,656315
+cll: -0,190656
+runtime: 42539
+
+sample_loop: 50, 2
+exists, folder already exists!
+learn
+runtime: 952447
+try: 1
+total_runtime: 954615
+infer
+auc_roc: 0,659064
+auc_pr: 0,187820
+cll: -0,199159
+runtime: 27013
+infer dss
+auc_roc: 0,714001
+auc_pr: 0,250919
+cll: -0,205803
+runtime: 28604
+
+sample_loop: 55, 2
+exists, folder already exists!
+learn
+runtime: 56094
+try: 1
+total_runtime: 58334
+infer
+auc_roc: 0,986309
+auc_pr: 0,771439
+cll: -0,159658
+runtime: 2726
+infer dss
+auc_roc: 0,981424
+auc_pr: 0,736350
+cll: -0,179475
+runtime: 3225
+
+sample_loop: 60, 2
+exists, folder already exists!
+learn
+runtime: 983735
+try: 1
+total_runtime: 986258
+infer
+auc_roc: 0,890437
+auc_pr: 0,592691
+cll: -0,180070
+runtime: 4756
+infer dss
+auc_roc: 0,954025
+auc_pr: 0,613088
+cll: -0,193384
+runtime: 4010
+
+sample_loop: 65, 2
+exists, folder already exists!
+learn
+runtime: 662287
+try: 1
+total_runtime: 664535
+infer
+auc_roc: 0,936567
+auc_pr: 0,593011
+cll: -0,178865
+runtime: 3041
+infer dss
+auc_roc: 0,961576
+auc_pr: 0,650886
+cll: -0,188853
+runtime: 3774
+
+sample_loop: 70, 2
+exists, folder already exists!
+learn
+runtime: 67957
+try: 1
+total_runtime: 70394
+infer
+auc_roc: 0,962814
+auc_pr: 0,648601
+cll: -0,179393
+runtime: 2518
+infer dss
+auc_roc: 0,955452
+auc_pr: 0,628766
+cll: -0,182785
+runtime: 3149
+
+sample_loop: 75, 2
+exists, folder already exists!
+learn
+runtime: 83464
+try: 1
+total_runtime: 85742
+infer
+auc_roc: 0,994186
+auc_pr: 0,888812
+cll: -0,169092
+runtime: 2779
+infer dss
+auc_roc: 0,992776
+auc_pr: 0,864472
+cll: -0,177386
+runtime: 3450
+
+sample_loop: 80, 2
+exists, folder already exists!
+learn
+runtime: 2325203
+try: 1
+total_runtime: 2327397
+infer
+auc_roc: 0,985483
+auc_pr: 0,824836
+cll: -0,170285
+runtime: 5247
+infer dss
+auc_roc: 0,984761
+auc_pr: 0,806030
+cll: -0,176120
+runtime: 5633
+
+sample_loop: 85, 2
+exists, folder already exists!
+learn
+runtime: 56371
+try: 1
+total_runtime: 58724
+infer
+auc_roc: 0,945683
+auc_pr: 0,686129
+cll: -0,170075
+runtime: 2268
+infer dss
+auc_roc: 0,939663
+auc_pr: 0,679887
+cll: -0,171552
+runtime: 2992
+
+sample_loop: 90, 2
+exists, folder already exists!
+learn
+runtime: 153866
+try: 1
+total_runtime: 156080
+infer
+auc_roc: 0,990884
+auc_pr: 0,816532
+cll: -0,160530
+runtime: 6291
+infer dss
+auc_roc: 0,990265
+auc_pr: 0,809969
+cll: -0,162184
+runtime: 7502
+
+sample_loop: 95, 2
+exists, folder already exists!
+learn
+runtime: 108670
+try: 1
+total_runtime: 110920
+infer
+auc_roc: 0,974372
+auc_pr: 0,683239
+cll: -0,185367
+runtime: 3330
+infer dss
+auc_roc: 0,973512
+auc_pr: 0,657496
+cll: -0,186413
+runtime: 3736
+
+sample_loop: 100, 2
+exists, folder already exists!
+learn
+runtime: 129010
+try: 1
+total_runtime: 131445
+infer
+auc_roc: 0,983007
+auc_pr: 0,758727
+cll: -0,171450
+runtime: 3580
+infer dss
+auc_roc: 0,983007
+auc_pr: 0,758727
+cll: -0,171450
+runtime: 4210
+
+sample_loop: 5, 3
+exists, folder already exists!
+learn
+runtime: 3628
+try: 1
+total_runtime: 5412
+infer
+auc_roc: 0,691675
+auc_pr: 0,202849
+cll: -0,192422
+runtime: 2621
+infer dss
+auc_roc: 0,766323
+auc_pr: 0,333718
+cll: -0,207893
+runtime: 3533
+
+sample_loop: 10, 3
+exists, folder already exists!
+learn
+runtime: 7251
+try: 1
+total_runtime: 8979
+infer
+auc_roc: 0,726677
+auc_pr: 0,083919
+cll: -4,603324
+runtime: 3117
+infer dss
+auc_roc: 0,920537
+auc_pr: 0,543840
+cll: -0,206537
+runtime: 3646
+
+sample_loop: 15, 3
+exists, folder already exists!
+learn
+runtime: 8360
+try: 1
+total_runtime: 9994
+infer
+auc_roc: 0,657172
+auc_pr: 0,128089
+cll: -0,195826
+runtime: 2813
+infer dss
+auc_roc: 0,935621
+auc_pr: 0,408425
+cll: -0,224483
+runtime: 3331
+
+sample_loop: 20, 3
+exists, folder already exists!
+learn
+runtime: 14549
+try: 1
+total_runtime: 16473
+infer
+auc_roc: 0,768369
+auc_pr: 0,205517
+cll: -0,209707
+runtime: 2504
+infer dss
+auc_roc: 0,749587
+auc_pr: 0,144845
+cll: -0,216787
+runtime: 3190
+
+sample_loop: 25, 3
+exists, folder already exists!
+learn
+runtime: 11975
+try: 1
+total_runtime: 13913
+infer
+auc_roc: 0,904782
+auc_pr: 0,588924
+cll: -0,204799
+runtime: 2199
+infer dss
+auc_roc: 0,904782
+auc_pr: 0,588924
+cll: -0,204799
+runtime: 2966
+
+sample_loop: 30, 3
+exists, folder already exists!
+learn
+runtime: 28895
+try: 1
+total_runtime: 30914
+infer
+auc_roc: 0,958032
+auc_pr: 0,414465
+cll: -0,257976
+runtime: 2953
+infer dss
+auc_roc: 0,956519
+auc_pr: 0,532208
+cll: -0,196884
+runtime: 3538
+
+sample_loop: 35, 3
+exists, folder already exists!
+learn
+runtime: 37964
+try: 1
+total_runtime: 40089
+infer
+auc_roc: 0,823959
+auc_pr: 0,347934
+cll: -0,242803
+runtime: 6357
+infer dss
+auc_roc: 0,851359
+auc_pr: 0,372581
+cll: -0,195597
+runtime: 6791
+
+sample_loop: 40, 3
+exists, folder already exists!
+learn
+runtime: 30259
+try: 1
+total_runtime: 32442
+infer
+auc_roc: 0,984692
+auc_pr: 0,855213
+cll: -0,192019
+runtime: 2926
+infer dss
+auc_roc: 0,994599
+auc_pr: 0,904902
+cll: -0,182403
+runtime: 3356
+
+sample_loop: 45, 3
+exists, folder already exists!
+learn
+runtime: 36703
+try: 1
+total_runtime: 38774
+infer
+auc_roc: 0,960062
+auc_pr: 0,545136
+cll: -0,187669
+runtime: 4744
+infer dss
+auc_roc: 0,956072
+auc_pr: 0,565936
+cll: -0,184241
+runtime: 4896
+
+sample_loop: 50, 3
+exists, folder already exists!
+learn
+runtime: 282700
+try: 1
+total_runtime: 284926
+infer
+auc_roc: 0,826557
+auc_pr: 0,555166
+cll: -0,179046
+runtime: 28662
+infer dss
+auc_roc: 0,909942
+auc_pr: 0,627329
+cll: -0,190312
+runtime: 28799
+
+sample_loop: 55, 3
+success, learned on try #: 1
+learn
+runtime: 52214
+try: 1
+total_runtime: 54402
+infer
+auc_roc: 0,975542
+auc_pr: 0,696711
+cll: -0,184008
+runtime: 4699
+infer dss
+auc_roc: 0,980771
+auc_pr: 0,707856
+cll: -0,178008
+runtime: 5352
+
+sample_loop: 60, 3
+success, learned on try #: 1
+learn
+runtime: 1210423
+try: 1
+total_runtime: 1212587
+infer
+auc_roc: 0,916185
+auc_pr: 0,587191
+cll: -0,179583
+runtime: 4586
+infer dss
+auc_roc: 0,954885
+auc_pr: 0,613427
+cll: -0,193559
+runtime: 5161
+
+sample_loop: 65, 3
+success, learned on try #: 1
+learn
+runtime: 81070
+try: 1
+total_runtime: 83322
+infer
+auc_roc: 0,972239
+auc_pr: 0,551585
+cll: -0,186543
+runtime: 3772
+infer dss
+auc_roc: 0,969831
+auc_pr: 0,583752
+cll: -0,186882
+runtime: 4456
+
+sample_loop: 70, 3
+success, learned on try #: 1
+learn
+runtime: 47839
+try: 1
+total_runtime: 50044
+infer
+auc_roc: 0,964843
+auc_pr: 0,644483
+cll: -0,187348
+runtime: 2456
+infer dss
+auc_roc: 0,965600
+auc_pr: 0,623140
+cll: -0,191767
+runtime: 3096
+
+sample_loop: 75, 3
+success, learned on try #: 1
+learn
+runtime: 2385948
+try: 1
+total_runtime: 2388274
+infer
+auc_roc: 0,884486
+auc_pr: 0,546940
+cll: -0,175095
+runtime: 5995
+infer dss
+auc_roc: 0,946543
+auc_pr: 0,592462
+cll: -0,179604
+runtime: 6743
+
+sample_loop: 80, 3
+success, learned on try #: 1
+learn
+runtime: 69454
+try: 1
+total_runtime: 71615
+infer
+auc_roc: 0,987650
+auc_pr: 0,681947
+cll: -0,184524
+runtime: 4463
+infer dss
+auc_roc: 0,987840
+auc_pr: 0,688835
+cll: -0,186600
+runtime: 5279
+
+sample_loop: 85, 3
+success, learned on try #: 1
+learn
+runtime: 72756
+try: 1
+total_runtime: 74954
+infer
+auc_roc: 0,988648
+auc_pr: 0,775855
+cll: -0,176044
+runtime: 3733
+infer dss
+auc_roc: 0,987616
+auc_pr: 0,762857
+cll: -0,179100
+runtime: 4441
+
+sample_loop: 90, 3
+success, learned on try #: 1
+learn
+runtime: 4833086
+try: 1
+total_runtime: 4835473
+infer
+auc_roc: 0,985552
+auc_pr: 0,770471
+cll: -0,172786
+runtime: 3156
+infer dss
+auc_roc: 0,989921
+auc_pr: 0,781497
+cll: -0,176606
+runtime: 3704
+
+sample_loop: 95, 3
+success, learned on try #: 1
+learn
+runtime: 772218
+try: 1
+total_runtime: 774465
+infer
+auc_roc: 0,974579
+auc_pr: 0,798046
+cll: -0,166839
+runtime: 3802
+infer dss
+auc_roc: 0,973891
+auc_pr: 0,794198
+cll: -0,168458
+runtime: 4442
+
+sample_loop: 100, 3
+success, learned on try #: 1
+learn
+runtime: 4306846
+try: 1
+total_runtime: 4309068
+infer
+auc_roc: 0,938803
+auc_pr: 0,480804
+cll: -0,190726
+runtime: 5434
+infer dss
+auc_roc: 0,938803
+auc_pr: 0,480804
+cll: -0,190726
+runtime: 5952
+
+sample_loop: 5, 4
+exists, folder already exists!
+learn
+runtime: 3644
+try: 1
+total_runtime: 5291
+infer
+auc_roc: 0,528724
+auc_pr: 0,102816
+cll: -0,204493
+runtime: 2357
+infer dss
+auc_roc: 0,735741
+auc_pr: 0,189840
+cll: -0,226917
+runtime: 3028
+
+sample_loop: 10, 4
+exists, folder already exists!
+learn
+runtime: 5063
+try: 1
+total_runtime: 6962
+infer
+auc_roc: 0,424166
+auc_pr: 0,060513
+cll: -0,256979
+runtime: 4985
+infer dss
+auc_roc: 0,695459
+auc_pr: 0,194113
+cll: -0,219823
+runtime: 5807
+
+sample_loop: 15, 4
+exists, folder already exists!
+learn
+runtime: 6588
+try: 1
+total_runtime: 8285
+infer
+auc_roc: 0,419780
+auc_pr: 0,071153
+cll: -1,042857
+runtime: 4066
+infer dss
+auc_roc: 0,882095
+auc_pr: 0,397284
+cll: -0,200718
+runtime: 4894
+
+sample_loop: 20, 4
+exists, folder already exists!
+learn
+runtime: 9035
+try: 1
+total_runtime: 10807
+infer
+auc_roc: 0,950722
+auc_pr: 0,502063
+cll: -0,279177
+runtime: 2554
+infer dss
+auc_roc: 0,945511
+auc_pr: 0,620792
+cll: -0,184924
+runtime: 3009
+
+sample_loop: 25, 4
+exists, folder already exists!
+learn
+runtime: 31927
+try: 1
+total_runtime: 33986
+infer
+auc_roc: 0,911060
+auc_pr: 0,416772
+cll: -0,172687
+runtime: 3213
+infer dss
+auc_roc: 0,904678
+auc_pr: 0,446653
+cll: -0,181201
+runtime: 3774
+
+sample_loop: 30, 4
+exists, folder already exists!
+learn
+runtime: 16513
+try: 1
+total_runtime: 18328
+infer
+auc_roc: 0,911128
+auc_pr: 0,601335
+cll: -0,198801
+runtime: 2315
+infer dss
+auc_roc: 0,911128
+auc_pr: 0,601335
+cll: -0,198530
+runtime: 2979
+
+sample_loop: 35, 4
+exists, folder already exists!
+learn
+runtime: 150064
+try: 1
+total_runtime: 152278
+infer
+auc_roc: 0,927829
+auc_pr: 0,682928
+cll: -0,165628
+runtime: 13639
+infer dss
+auc_roc: 0,962797
+auc_pr: 0,552705
+cll: -0,195140
+runtime: 14361
+
+sample_loop: 40, 4
+exists, folder already exists!
+learn
+runtime: 29720
+try: 1
+total_runtime: 31910
+infer
+auc_roc: 0,979498
+auc_pr: 0,868130
+cll: -0,152157
+runtime: 2680
+infer dss
+auc_roc: 0,981011
+auc_pr: 0,825631
+cll: -0,175005
+runtime: 3220
+
+sample_loop: 45, 4
+exists, folder already exists!
+learn
+runtime: 35969
+try: 1
+total_runtime: 38132
+infer
+auc_roc: 0,970846
+auc_pr: 0,720387
+cll: -0,147468
+runtime: 2680
+infer dss
+auc_roc: 0,964689
+auc_pr: 0,728568
+cll: -0,175749
+runtime: 3216
+
+sample_loop: 50, 4
+exists, folder already exists!
+learn
+runtime: 167264
+try: 1
+total_runtime: 169399
+infer
+auc_roc: 0,953904
+auc_pr: 0,668319
+cll: -0,176860
+runtime: 3016
+infer dss
+auc_roc: 0,924613
+auc_pr: 0,542269
+cll: -0,194980
+runtime: 3778
+
+sample_loop: 55, 4
+success, learned on try #: 1
+learn
+runtime: 295371
+try: 1
+total_runtime: 297383
+infer
+auc_roc: 0,959993
+auc_pr: 0,655223
+cll: -0,168864
+runtime: 2771
+infer dss
+auc_roc: 0,955934
+auc_pr: 0,642737
+cll: -0,170526
+runtime: 3315
+
+sample_loop: 60, 4
+success, learned on try #: 1
+learn
+runtime: 222271
+try: 1
+total_runtime: 224289
+infer
+auc_roc: 0,771586
+auc_pr: 0,263074
+cll: -0,197066
+runtime: 56401
+infer dss
+auc_roc: 0,846680
+auc_pr: 0,444328
+cll: -0,197955
+runtime: 54559
+
+sample_loop: 65, 4
+success, learned on try #: 1
+learn
+runtime: 39474
+try: 1
+total_runtime: 41496
+infer
+auc_roc: 0,981046
+auc_pr: 0,707236
+cll: -0,179990
+runtime: 2447
+infer dss
+auc_roc: 0,979601
+auc_pr: 0,705808
+cll: -0,179967
+runtime: 3055
+
+sample_loop: 70, 4
+success, learned on try #: 1
+learn
+runtime: 48449
+try: 1
+total_runtime: 50588
+infer
+auc_roc: 0,958480
+auc_pr: 0,577882
+cll: -0,179925
+runtime: 3204
+infer dss
+auc_roc: 0,951772
+auc_pr: 0,597654
+cll: -0,180091
+runtime: 4031
+
+sample_loop: 75, 4
+success, learned on try #: 1
+learn
+runtime: 102990
+try: 1
+total_runtime: 105121
+infer
+auc_roc: 0,960372
+auc_pr: 0,572683
+cll: -0,186137
+runtime: 2925
+infer dss
+auc_roc: 0,961025
+auc_pr: 0,606472
+cll: -0,184072
+runtime: 3502
+
+sample_loop: 80, 4
+success, learned on try #: 1
+learn
+runtime: 421666
+try: 1
+total_runtime: 423904
+infer
+auc_roc: 0,939800
+auc_pr: 0,671002
+cll: -0,180585
+runtime: 12184
+infer dss
+auc_roc: 0,939044
+auc_pr: 0,637470
+cll: -0,189309
+runtime: 12196
+
+sample_loop: 85, 4
+success, learned on try #: 1
+learn
+runtime: 334426
+try: 1
+total_runtime: 336634
+infer
+auc_roc: 0,966305
+auc_pr: 0,570470
+cll: -0,180729
+runtime: 2448
+infer dss
+auc_roc: 0,965721
+auc_pr: 0,598690
+cll: -0,181634
+runtime: 3146
+
+sample_loop: 90, 4
+success, learned on try #: 1
+learn
+runtime: 86289
+try: 1
+total_runtime: 88605
+infer
+auc_roc: 0,975198
+auc_pr: 0,689894
+cll: -0,194151
+runtime: 2603
+infer dss
+auc_roc: 0,973375
+auc_pr: 0,670043
+cll: -0,195292
+runtime: 3153
+
+sample_loop: 95, 4
+success, learned on try #: 1
+learn
+runtime: 115722
+try: 1
+total_runtime: 117938
+infer
+auc_roc: 0,965119
+auc_pr: 0,677695
+cll: -0,186951
+runtime: 4374
+infer dss
+auc_roc: 0,963846
+auc_pr: 0,664563
+cll: -0,187296
+runtime: 4893
+
+sample_loop: 100, 4
+success, learned on try #: 1
+learn
+runtime: 519875
+try: 1
+total_runtime: 522422
+infer
+auc_roc: 0,988923
+auc_pr: 0,763296
+cll: -0,167128
+runtime: 2708
+infer dss
+auc_roc: 0,988923
+auc_pr: 0,763296
+cll: -0,167128
+runtime: 3382
+
+sample_loop: 5, 5
+exists, folder already exists!
+learn
+runtime: 3365
+try: 1
+total_runtime: 5063
+infer
+auc_roc: 0,429137
+auc_pr: 0,070206
+cll: -0,396183
+runtime: 2520
+infer dss
+auc_roc: 0,836756
+auc_pr: 0,298505
+cll: -0,212155
+runtime: 3073
+
+sample_loop: 10, 5
+exists, folder already exists!
+learn
+runtime: 7431
+try: 1
+total_runtime: 9190
+infer
+auc_roc: 0,639732
+auc_pr: 0,169596
+cll: -0,268621
+runtime: 3261
+infer dss
+auc_roc: 0,914620
+auc_pr: 0,447880
+cll: -0,228576
+runtime: 4046
+
+sample_loop: 15, 5
+exists, folder already exists!
+learn
+runtime: 11618
+try: 1
+total_runtime: 13456
+infer
+auc_roc: 0,501307
+auc_pr: 0,131663
+cll: -0,272981
+runtime: 8800
+infer dss
+auc_roc: 0,818473
+auc_pr: 0,416093
+cll: -0,209568
+runtime: 9276
+
+sample_loop: 20, 5
+exists, folder already exists!
+learn
+runtime: 11867
+try: 1
+total_runtime: 13673
+infer
+auc_roc: 0,926213
+auc_pr: 0,380062
+cll: -0,209649
+runtime: 2478
+infer dss
+auc_roc: 0,935243
+auc_pr: 0,403007
+cll: -0,206173
+runtime: 3135
+
+sample_loop: 25, 5
+exists, folder already exists!
+learn
+runtime: 11770
+try: 1
+total_runtime: 13617
+infer
+auc_roc: 0,961954
+auc_pr: 0,375114
+cll: -0,318064
+runtime: 2347
+infer dss
+auc_roc: 0,964947
+auc_pr: 0,466066
+cll: -0,209518
+runtime: 3089
+
+sample_loop: 30, 5
+exists, folder already exists!
+learn
+runtime: 62634
+try: 1
+total_runtime: 64816
+infer
+auc_roc: 0,878517
+auc_pr: 0,527309
+cll: -0,192073
+runtime: 497793
+infer dss
+auc_roc: 0,957809
+auc_pr: 0,522052
+cll: -0,195652
+runtime: 507358
+
+sample_loop: 35, 5
+exists, folder already exists!
+learn
+runtime: 29907
+try: 1
+total_runtime: 31992
+infer
+auc_roc: 0,398796
+auc_pr: 0,036198
+cll: -0,240173
+runtime: 15482
+infer dss
+auc_roc: 0,877468
+auc_pr: 0,567449
+cll: -0,209135
+runtime: 17005
+
+sample_loop: 40, 5
+exists, folder already exists!
+learn
+runtime: 29184
+try: 1
+total_runtime: 31271
+infer
+auc_roc: 0,988390
+auc_pr: 0,744904
+cll: -0,174171
+runtime: 2586
+infer dss
+auc_roc: 0,984021
+auc_pr: 0,715223
+cll: -0,184569
+runtime: 3232
+
+sample_loop: 45, 5
+exists, folder already exists!
+learn
+runtime: 21713
+try: 1
+total_runtime: 23644
+infer
+auc_roc: 0,955538
+auc_pr: 0,541812
+cll: -0,180765
+runtime: 2344
+infer dss
+auc_roc: 0,944066
+auc_pr: 0,624764
+cll: -0,174853
+runtime: 2952
+
+sample_loop: 50, 5
+exists, folder already exists!
+learn
+runtime: 57107
+try: 1
+total_runtime: 59379
+infer
+auc_roc: 0,960406
+auc_pr: 0,454836
+cll: -0,188309
+runtime: 4814
+infer dss
+auc_roc: 0,966426
+auc_pr: 0,648451
+cll: -0,168729
+runtime: 5477
+
+sample_loop: 55, 5
+success, learned on try #: 1
+learn
+runtime: 35957
+try: 1
+total_runtime: 38049
+infer
+auc_roc: 0,907620
+auc_pr: 0,445110
+cll: -0,185687
+runtime: 2380
+infer dss
+auc_roc: 0,870055
+auc_pr: 0,397361
+cll: -0,189179
+runtime: 3185
+
+sample_loop: 60, 5
+success, learned on try #: 1
+learn
+runtime: 223052
+try: 1
+total_runtime: 225327
+infer
+auc_roc: 0,910939
+auc_pr: 0,670987
+cll: -0,170857
+runtime: 10452
+infer dss
+auc_roc: 0,988304
+auc_pr: 0,750460
+cll: -0,180534
+runtime: 11265
+
+sample_loop: 65, 5
+success, learned on try #: 1
+learn
+runtime: 31895
+try: 1
+total_runtime: 34042
+infer
+auc_roc: 0,967871
+auc_pr: 0,642502
+cll: -0,200813
+runtime: 2703
+infer dss
+auc_roc: 0,967630
+auc_pr: 0,646334
+cll: -0,200716
+runtime: 3039
+
+sample_loop: 70, 5
+success, learned on try #: 1
+learn
+runtime: 120403
+try: 1
+total_runtime: 122662
+infer
+auc_roc: 0,964534
+auc_pr: 0,572863
+cll: -0,203349
+runtime: 3625
+infer dss
+auc_roc: 0,957757
+auc_pr: 0,544698
+cll: -0,207126
+runtime: 4326
+
+sample_loop: 75, 5
+success, learned on try #: 1
+learn
+runtime: 59159
+try: 1
+total_runtime: 61486
+infer
+auc_roc: 0,978431
+auc_pr: 0,712375
+cll: -0,164966
+runtime: 3024
+infer dss
+auc_roc: 0,977709
+auc_pr: 0,706453
+cll: -0,171514
+runtime: 3722
+
+sample_loop: 80, 5
+success, learned on try #: 1
+learn
+runtime: 142978
+try: 1
+total_runtime: 145257
+infer
+auc_roc: 0,992363
+auc_pr: 0,870392
+cll: -0,161789
+runtime: 2832
+infer dss
+auc_roc: 0,989302
+auc_pr: 0,828957
+cll: -0,167851
+runtime: 3343
+
+sample_loop: 85, 5
+success, learned on try #: 1
+learn
+runtime: 504233
+try: 1
+total_runtime: 506505
+infer
+auc_roc: 0,973701
+auc_pr: 0,711597
+cll: -0,163582
+runtime: 2614
+infer dss
+auc_roc: 0,968576
+auc_pr: 0,689444
+cll: -0,167436
+runtime: 3366
+
+sample_loop: 90, 5
+success, learned on try #: 1
+learn
+runtime: 106456
+try: 1
+total_runtime: 108915
+infer
+auc_roc: 0,946491
+auc_pr: 0,528504
+cll: -0,179219
+runtime: 2791
+infer dss
+auc_roc: 0,938786
+auc_pr: 0,524558
+cll: -0,180062
+runtime: 3519
+
+sample_loop: 95, 5
+success, learned on try #: 1
+learn
+runtime: 78084
+try: 1
+total_runtime: 80548
+infer
+auc_roc: 0,970416
+auc_pr: 0,710772
+cll: -0,172984
+runtime: 2672
+infer dss
+auc_roc: 0,969453
+auc_pr: 0,705384
+cll: -0,173820
+runtime: 3290
+
+sample_loop: 100, 5
+success, learned on try #: 1
+learn
+runtime: 1278700
+try: 1
+total_runtime: 1281237
+infer
+auc_roc: 0,976333
+auc_pr: 0,649697
+cll: -0,195822
+runtime: 3509
+infer dss
+auc_roc: 0,976333
+auc_pr: 0,649697
+cll: -0,195822
+runtime: 3928
+
+sample_loop: 5, 6
+exists, folder already exists!
+learn
+runtime: 5939
+try: 1
+total_runtime: 7629
+infer
+auc_roc: 0,680117
+auc_pr: 0,154421
+cll: -0,206513
+runtime: 2244
+infer dss
+auc_roc: 0,683591
+auc_pr: 0,154583
+cll: -0,206579
+runtime: 2967
+
+sample_loop: 10, 6
+exists, folder already exists!
+learn
+runtime: 4576
+try: 1
+total_runtime: 6212
+infer
+auc_roc: 0,836773
+auc_pr: 0,143457
+cll: -0,358836
+runtime: 2295
+infer dss
+auc_roc: 0,873185
+auc_pr: 0,280150
+cll: -0,207550
+runtime: 2926
+
+sample_loop: 15, 6
+exists, folder already exists!
+learn
+runtime: 10394
+try: 1
+total_runtime: 12371
+infer
+auc_roc: 0,942157
+auc_pr: 0,525034
+cll: -0,210537
+runtime: 2419
+infer dss
+auc_roc: 0,938803
+auc_pr: 0,556229
+cll: -0,209318
+runtime: 3030
+
+sample_loop: 20, 6
+exists, folder already exists!
+learn
+runtime: 10127
+try: 1
+total_runtime: 11853
+infer
+auc_roc: 0,824407
+auc_pr: 0,245955
+cll: -0,186468
+runtime: 2372
+infer dss
+auc_roc: 0,917079
+auc_pr: 0,451916
+cll: -0,203544
+runtime: 2933
+
+sample_loop: 25, 6
+exists, folder already exists!
+learn
+runtime: 11308
+try: 1
+total_runtime: 13076
+infer
+auc_roc: 0,973581
+auc_pr: 0,557364
+cll: -0,235546
+runtime: 2421
+infer dss
+auc_roc: 0,964517
+auc_pr: 0,631732
+cll: -0,190696
+runtime: 3123
+
+sample_loop: 30, 6
+exists, folder already exists!
+learn
+runtime: 30887
+try: 1
+total_runtime: 32892
+infer
+auc_roc: 0,606639
+auc_pr: 0,110923
+cll: -0,225988
+runtime: 3367
+infer dss
+auc_roc: 0,932955
+auc_pr: 0,499814
+cll: -0,207437
+runtime: 4495
+
+sample_loop: 35, 6
+exists, folder already exists!
+learn
+runtime: 37057
+try: 1
+total_runtime: 39067
+infer
+auc_roc: 0,956656
+auc_pr: 0,575988
+cll: -0,220417
+runtime: 4325
+infer dss
+auc_roc: 0,935535
+auc_pr: 0,506707
+cll: -0,219581
+runtime: 5161
+
+sample_loop: 40, 6
+exists, folder already exists!
+learn
+runtime: 60483
+try: 1
+total_runtime: 62647
+infer
+auc_roc: 0,906330
+auc_pr: 0,762777
+cll: -0,161166
+runtime: 5556
+infer dss
+auc_roc: 0,977262
+auc_pr: 0,656926
+cll: -0,186037
+runtime: 6230
+
+sample_loop: 45, 6
+exists, folder already exists!
+learn
+runtime: 31579
+try: 1
+total_runtime: 33652
+infer
+auc_roc: 0,987100
+auc_pr: 0,881258
+cll: -0,162694
+runtime: 3274
+infer dss
+auc_roc: 0,972893
+auc_pr: 0,811832
+cll: -0,189751
+runtime: 3817
+
+sample_loop: 50, 6
+exists, folder already exists!
+learn
+runtime: 245270
+try: 1
+total_runtime: 247448
+infer
+auc_roc: 0,963295
+auc_pr: 0,675939
+cll: -0,183171
+runtime: 3456
+infer dss
+auc_roc: 0,942965
+auc_pr: 0,652270
+cll: -0,194429
+runtime: 3973
+
+sample_loop: 55, 6
+success, learned on try #: 1
+learn
+runtime: 35877
+try: 1
+total_runtime: 38061
+infer
+auc_roc: 0,971672
+auc_pr: 0,679193
+cll: -0,186911
+runtime: 2172
+infer dss
+auc_roc: 0,970726
+auc_pr: 0,691538
+cll: -0,188429
+runtime: 2872
+
+sample_loop: 60, 6
+success, learned on try #: 1
+learn
+runtime: 48488
+try: 1
+total_runtime: 50619
+infer
+auc_roc: 0,936481
+auc_pr: 0,469545
+cll: -0,204753
+runtime: 3291
+infer dss
+auc_roc: 0,941985
+auc_pr: 0,499881
+cll: -0,202172
+runtime: 4032
+
+sample_loop: 65, 6
+success, learned on try #: 1
+learn
+runtime: 819108
+try: 1
+total_runtime: 821269
+infer
+auc_roc: 0,906295
+auc_pr: 0,593724
+cll: -0,178987
+runtime: 28681
+infer dss
+auc_roc: 0,966391
+auc_pr: 0,663677
+cll: -0,188457
+runtime: 29938
+
+sample_loop: 70, 6
+success, learned on try #: 1
+learn
+runtime: 125555
+try: 1
+total_runtime: 127849
+infer
+auc_roc: 0,985793
+auc_pr: 0,719293
+cll: -0,153514
+runtime: 2830
+infer dss
+auc_roc: 0,984589
+auc_pr: 0,717059
+cll: -0,165831
+runtime: 3533
+
+sample_loop: 75, 6
+success, learned on try #: 1
+learn
+runtime: 67114
+try: 1
+total_runtime: 69293
+infer
+auc_roc: 0,985759
+auc_pr: 0,792608
+cll: -0,181137
+runtime: 2891
+infer dss
+auc_roc: 0,983591
+auc_pr: 0,767970
+cll: -0,185367
+runtime: 3422
+
+sample_loop: 80, 6
+success, learned on try #: 1
+learn
+runtime: 208016
+try: 1
+total_runtime: 210357
+infer
+auc_roc: 0,980977
+auc_pr: 0,751089
+cll: -0,160191
+runtime: 3553
+infer dss
+auc_roc: 0,977348
+auc_pr: 0,711010
+cll: -0,166166
+runtime: 4267
+
+sample_loop: 85, 6
+success, learned on try #: 1
+learn
+runtime: 74527
+try: 1
+total_runtime: 76767
+infer
+auc_roc: 0,978672
+auc_pr: 0,731448
+cll: -0,162945
+runtime: 3132
+infer dss
+auc_roc: 0,975232
+auc_pr: 0,715670
+cll: -0,164744
+runtime: 3733
+
+sample_loop: 90, 6
+success, learned on try #: 1
+learn
+runtime: 129256
+try: 1
+total_runtime: 131475
+infer
+auc_roc: 0,987650
+auc_pr: 0,798847
+cll: -0,167282
+runtime: 4451
+infer dss
+auc_roc: 0,986343
+auc_pr: 0,795180
+cll: -0,170390
+runtime: 4962
+
+sample_loop: 95, 6
+success, learned on try #: 1
+learn
+runtime: 165618
+try: 1
+total_runtime: 167898
+infer
+auc_roc: 0,953836
+auc_pr: 0,523139
+cll: -0,192572
+runtime: 4413
+infer dss
+auc_roc: 0,952700
+auc_pr: 0,529049
+cll: -0,192515
+runtime: 5113
+
+sample_loop: 100, 6
+success, learned on try #: 1
+learn
+runtime: 167349
+try: 1
+total_runtime: 169948
+infer
+auc_roc: 0,972239
+auc_pr: 0,752906
+cll: -0,172296
+runtime: 4264
+infer dss
+auc_roc: 0,972239
+auc_pr: 0,752906
+cll: -0,172296
+runtime: 5077
+
+sample_loop: 5, 7
+success, learned on try #: 2
+learn
+runtime: 4250
+try: 2
+total_runtime: 7910
+infer
+auc_roc: 0,453010
+auc_pr: 0,079901
+cll: -0,233244
+runtime: 2220
+infer dss
+auc_roc: 0,453492
+auc_pr: 0,080064
+cll: -0,233277
+runtime: 3008
+
+sample_loop: 10, 7
+success, learned on try #: 1
+learn
+runtime: 6354
+try: 1
+total_runtime: 8314
+infer
+auc_roc: 0,875937
+auc_pr: 0,492956
+cll: -0,178296
+runtime: 2241
+infer dss
+auc_roc: 0,958204
+auc_pr: 0,618486
+cll: -0,192669
+runtime: 2889
+
+sample_loop: 15, 7
+success, learned on try #: 1
+learn
+runtime: 18559
+try: 1
+total_runtime: 20395
+infer
+auc_roc: 0,696233
+auc_pr: 0,218062
+cll: -0,190641
+runtime: 6133
+infer dss
+auc_roc: 0,831820
+auc_pr: 0,502502
+cll: -0,216445
+runtime: 7613
+
+sample_loop: 20, 7
+success, learned on try #: 1
+learn
+runtime: 8450
+try: 1
+total_runtime: 10166
+infer
+auc_roc: 0,872016
+auc_pr: 0,395432
+cll: -0,193714
+runtime: 2068
+infer dss
+auc_roc: 0,883299
+auc_pr: 0,480561
+cll: -0,191789
+runtime: 2878
+
+sample_loop: 25, 7
+success, learned on try #: 1
+learn
+runtime: 20807
+try: 1
+total_runtime: 22597
+infer
+auc_roc: 0,801204
+auc_pr: 0,462798
+cll: -1,336161
+runtime: 488944
+infer dss
+auc_roc: 0,926350
+auc_pr: 0,527610
+cll: -0,254617
+runtime: 512768
+
+sample_loop: 30, 7
+success, learned on try #: 1
+learn
+runtime: 18049
+try: 1
+total_runtime: 19843
+infer
+auc_roc: 0,961146
+auc_pr: 0,684824
+cll: -0,180926
+runtime: 2560
+infer dss
+auc_roc: 0,947540
+auc_pr: 0,728054
+cll: -0,186481
+runtime: 3120
+
+sample_loop: 35, 7
+success, learned on try #: 1
+learn
+runtime: 115758
+try: 1
+total_runtime: 117911
+infer
+auc_roc: 0,877709
+auc_pr: 0,606287
+cll: -0,177006
+runtime: 9042
+infer dss
+auc_roc: 0,847179
+auc_pr: 0,396293
+cll: -0,200698
+runtime: 10024
+
+sample_loop: 40, 7
+success, learned on try #: 1
+learn
+runtime: 23895
+try: 1
+total_runtime: 25702
+infer
+auc_roc: 0,988579
+auc_pr: 0,811331
+cll: -0,175562
+runtime: 2784
+infer dss
+auc_roc: 0,985999
+auc_pr: 0,773173
+cll: -0,186718
+runtime: 3420
+
+sample_loop: 45, 7
+success, learned on try #: 1
+learn
+runtime: 77224
+try: 1
+total_runtime: 79249
+infer
+auc_roc: 0,905814
+auc_pr: 0,747035
+cll: -0,191265
+runtime: 22273
+infer dss
+auc_roc: 0,936533
+auc_pr: 0,762838
+cll: -0,174553
+runtime: 23733
+
+sample_loop: 50, 7
+success, learned on try #: 1
+learn
+runtime: 41987
+try: 1
+total_runtime: 44015
+infer
+auc_roc: 0,966873
+auc_pr: 0,701400
+cll: -0,175614
+runtime: 4032
+infer dss
+auc_roc: 0,949192
+auc_pr: 0,636186
+cll: -0,183809
+runtime: 4779
+
+sample_loop: 55, 7
+success, learned on try #: 1
+learn
+runtime: 113252
+try: 1
+total_runtime: 115442
+infer
+auc_roc: 0,907998
+auc_pr: 0,371263
+cll: -0,200504
+runtime: 5063
+infer dss
+auc_roc: 0,912023
+auc_pr: 0,466290
+cll: -0,182634
+runtime: 5824
+
+sample_loop: 60, 7
+success, learned on try #: 1
+learn
+runtime: 57153
+try: 1
+total_runtime: 59553
+infer
+auc_roc: 0,961679
+auc_pr: 0,673494
+cll: -0,179190
+runtime: 3706
+infer dss
+auc_roc: 0,939439
+auc_pr: 0,601548
+cll: -0,185535
+runtime: 3912
+
+sample_loop: 65, 7
+success, learned on try #: 1
+learn
+runtime: 183390
+try: 1
+total_runtime: 185601
+infer
+auc_roc: 0,912143
+auc_pr: 0,726290
+cll: -0,171094
+runtime: 8288
+infer dss
+auc_roc: 0,951187
+auc_pr: 0,745611
+cll: -0,180735
+runtime: 9112
+
+sample_loop: 70, 7
+success, learned on try #: 1
+learn
+runtime: 108455
+try: 1
+total_runtime: 110866
+infer
+auc_roc: 0,974493
+auc_pr: 0,573974
+cll: -0,174508
+runtime: 2418
+infer dss
+auc_roc: 0,974303
+auc_pr: 0,564453
+cll: -0,173240
+runtime: 3073
+
+sample_loop: 75, 7
+success, learned on try #: 1
+learn
+runtime: 86477
+try: 1
+total_runtime: 88816
+infer
+auc_roc: 0,980616
+auc_pr: 0,673791
+cll: -0,161829
+runtime: 2504
+infer dss
+auc_roc: 0,978569
+auc_pr: 0,648911
+cll: -0,166000
+runtime: 3249
+
+sample_loop: 80, 7
+success, learned on try #: 1
+learn
+runtime: 724373
+try: 1
+total_runtime: 726678
+infer
+auc_roc: 0,982422
+auc_pr: 0,756838
+cll: -0,152281
+runtime: 6602
+infer dss
+auc_roc: 0,977468
+auc_pr: 0,708514
+cll: -0,156562
+runtime: 7691
+
+sample_loop: 85, 7
+success, learned on try #: 1
+learn
+runtime: 3490997
+try: 1
+total_runtime: 3493131
+infer
+auc_roc: 0,943928
+auc_pr: 0,632740
+cll: -0,179174
+runtime: 5771
+infer dss
+auc_roc: 0,965566
+auc_pr: 0,655768
+cll: -0,183703
+runtime: 6055
+
+sample_loop: 90, 7
+success, learned on try #: 1
+learn
+runtime: 666027
+try: 1
+total_runtime: 668176
+infer
+auc_roc: 0,913313
+auc_pr: 0,481016
+cll: -0,185054
+runtime: 3024
+infer dss
+auc_roc: 0,906261
+auc_pr: 0,469409
+cll: -0,186151
+runtime: 3661
+
+sample_loop: 95, 7
+success, learned on try #: 1
+learn
+runtime: 210867
+try: 1
+total_runtime: 213149
+infer
+auc_roc: 0,993705
+auc_pr: 0,890120
+cll: -0,166170
+runtime: 3863
+infer dss
+auc_roc: 0,993361
+auc_pr: 0,885650
+cll: -0,167737
+runtime: 4559
+
+sample_loop: 100, 7
+success, learned on try #: 1
+learn
+runtime: 163645
+try: 1
+total_runtime: 166170
+infer
+auc_roc: 0,973306
+auc_pr: 0,752086
+cll: -0,186057
+runtime: 4336
+infer dss
+auc_roc: 0,973306
+auc_pr: 0,752086
+cll: -0,186057
+runtime: 5070
+
+sample_loop: 5, 8
+success, learned on try #: 2
+learn
+runtime: 3498
+try: 2
+total_runtime: 7160
+infer
+auc_roc: 0,572360
+auc_pr: 0,107717
+cll: -0,199518
+runtime: 2753
+infer dss
+auc_roc: 0,882078
+auc_pr: 0,350890
+cll: -0,190357
+runtime: 3322
+
+sample_loop: 10, 8
+success, learned on try #: 1
+learn
+runtime: 6763
+try: 1
+total_runtime: 8528
+infer
+auc_roc: 0,530943
+auc_pr: 0,122560
+cll: -1,132222
+runtime: 311329
+infer dss
+auc_roc: 0,780667
+auc_pr: 0,391068
+cll: -0,205711
+runtime: 318383
+
+sample_loop: 15, 8
+success, learned on try #: 1
+learn
+runtime: 6920
+try: 1
+total_runtime: 8681
+infer
+auc_roc: 0,907413
+auc_pr: 0,305125
+cll: -0,217480
+runtime: 2221
+infer dss
+auc_roc: 0,907671
+auc_pr: 0,433219
+cll: -0,193875
+runtime: 2874
+
+sample_loop: 20, 8
+success, learned on try #: 1
+learn
+runtime: 11516
+try: 1
+total_runtime: 13320
+infer
+auc_roc: 0,925972
+auc_pr: 0,369214
+cll: -0,270506
+runtime: 3716
+infer dss
+auc_roc: 0,973357
+auc_pr: 0,574166
+cll: -0,216119
+runtime: 4433
+
+sample_loop: 25, 8
+success, learned on try #: 1
+learn
+runtime: 27133
+try: 1
+total_runtime: 29173
+infer
+auc_roc: 0,915222
+auc_pr: 0,435147
+cll: -0,193426
+runtime: 2319
+infer dss
+auc_roc: 0,736601
+auc_pr: 0,180020
+cll: -0,204818
+runtime: 2951
+
+sample_loop: 30, 8
+success, learned on try #: 1
+learn
+runtime: 8344
+try: 1
+total_runtime: 10070
+infer
+auc_roc: 0,878001
+auc_pr: 0,415420
+cll: -0,186468
+runtime: 2164
+infer dss
+auc_roc: 0,766701
+auc_pr: 0,275005
+cll: -0,194909
+runtime: 2781
+
+sample_loop: 35, 8
+success, learned on try #: 1
+learn
+runtime: 28186
+try: 1
+total_runtime: 30061
+infer
+auc_roc: 0,748246
+auc_pr: 0,368365
+cll: -0,197561
+runtime: 2516
+infer dss
+auc_roc: 0,705470
+auc_pr: 0,271383
+cll: -0,206568
+runtime: 2998
+
+sample_loop: 40, 8
+success, learned on try #: 1
+learn
+runtime: 19249
+try: 1
+total_runtime: 21019
+infer
+auc_roc: 0,936257
+auc_pr: 0,664780
+cll: -0,168456
+runtime: 2418
+infer dss
+auc_roc: 0,930444
+auc_pr: 0,617616
+cll: -0,172706
+runtime: 2974
+
+sample_loop: 45, 8
+success, learned on try #: 1
+learn
+runtime: 38099
+try: 1
+total_runtime: 40022
+infer
+auc_roc: 0,968765
+auc_pr: 0,595455
+cll: -0,191266
+runtime: 2701
+infer dss
+auc_roc: 0,967733
+auc_pr: 0,640937
+cll: -0,185768
+runtime: 3769
+
+sample_loop: 50, 8
+success, learned on try #: 1
+learn
+runtime: 102120
+try: 1
+total_runtime: 104277
+infer
+auc_roc: 0,867148
+auc_pr: 0,606112
+cll: -0,167050
+runtime: 34331
+infer dss
+auc_roc: 0,964981
+auc_pr: 0,786161
+cll: -0,187673
+runtime: 37747
+
+sample_loop: 55, 8
+success, learned on try #: 1
+learn
+runtime: 31907
+try: 1
+total_runtime: 34021
+infer
+auc_roc: 0,941968
+auc_pr: 0,527774
+cll: -0,187802
+runtime: 2610
+infer dss
+auc_roc: 0,940248
+auc_pr: 0,521289
+cll: -0,187643
+runtime: 3262
+
+sample_loop: 60, 8
+success, learned on try #: 1
+learn
+runtime: 41584
+try: 1
+total_runtime: 43838
+infer
+auc_roc: 0,937685
+auc_pr: 0,606580
+cll: -0,179696
+runtime: 2722
+infer dss
+auc_roc: 0,926625
+auc_pr: 0,632993
+cll: -0,184395
+runtime: 3169
+
+sample_loop: 65, 8
+success, learned on try #: 1
+learn
+runtime: 1411956
+try: 1
+total_runtime: 1414153
+infer
+auc_roc: 0,989267
+auc_pr: 0,789886
+cll: -0,154204
+runtime: 2957
+infer dss
+auc_roc: 0,980977
+auc_pr: 0,761414
+cll: -0,165049
+runtime: 3558
+
+sample_loop: 70, 8
+success, learned on try #: 1
+learn
+runtime: 48792
+try: 1
+total_runtime: 51174
+infer
+auc_roc: 0,976247
+auc_pr: 0,593088
+cll: -0,169977
+runtime: 2328
+infer dss
+auc_roc: 0,973289
+auc_pr: 0,608034
+cll: -0,172454
+runtime: 3026
+
+sample_loop: 75, 8
+success, learned on try #: 1
+learn
+runtime: 312528
+try: 1
+total_runtime: 314858
+infer
+auc_roc: 0,959512
+auc_pr: 0,854829
+cll: -0,159466
+runtime: 7649
+infer dss
+auc_roc: 0,986859
+auc_pr: 0,853078
+cll: -0,175354
+runtime: 8427
+
+sample_loop: 80, 8
+success, learned on try #: 1
+learn
+runtime: 2713413
+try: 1
+total_runtime: 2715678
+infer
+auc_roc: 0,929618
+auc_pr: 0,693273
+cll: -0,184191
+runtime: 4757
+infer dss
+auc_roc: 0,960372
+auc_pr: 0,729882
+cll: -0,190049
+runtime: 5542
+
+sample_loop: 85, 8
+success, learned on try #: 1
+learn
+runtime: 2686360
+try: 1
+total_runtime: 2688915
+infer
+auc_roc: 0,988166
+auc_pr: 0,780225
+cll: -0,171306
+runtime: 6618
+infer dss
+auc_roc: 0,987719
+auc_pr: 0,772185
+cll: -0,177008
+runtime: 7497
+
+sample_loop: 90, 8
+success, learned on try #: 1
+learn
+runtime: 91534
+try: 1
+total_runtime: 93856
+infer
+auc_roc: 0,986481
+auc_pr: 0,749017
+cll: -0,179147
+runtime: 3125
+infer dss
+auc_roc: 0,985621
+auc_pr: 0,726595
+cll: -0,181680
+runtime: 3771
+
+sample_loop: 95, 8
+success, learned on try #: 1
+learn
+runtime: 377896
+try: 1
+total_runtime: 380340
+infer
+auc_roc: 0,988201
+auc_pr: 0,789699
+cll: -0,172544
+runtime: 3389
+infer dss
+auc_roc: 0,987719
+auc_pr: 0,785455
+cll: -0,173937
+runtime: 4112
+
+sample_loop: 100, 8
+success, learned on try #: 1
+learn
+runtime: 230874
+try: 1
+total_runtime: 233227
+infer
+auc_roc: 0,988201
+auc_pr: 0,786750
+cll: -0,166524
+runtime: 4865
+infer dss
+auc_roc: 0,988201
+auc_pr: 0,786750
+cll: -0,166524
+runtime: 5400
+
+sample_loop: 5, 9
+success, learned on try #: 1
+learn
+runtime: 3363
+try: 1
+total_runtime: 5015
+infer
+auc_roc: 0,703681
+auc_pr: 0,153699
+cll: -0,192530
+runtime: 2504
+infer dss
+auc_roc: 0,744204
+auc_pr: 0,190771
+cll: -0,203449
+runtime: 3317
+
+sample_loop: 10, 9
+success, learned on try #: 1
+learn
+runtime: 6051
+try: 1
+total_runtime: 7944
+infer
+auc_roc: 0,776918
+auc_pr: 0,246872
+cll: -0,230546
+runtime: 2495
+infer dss
+auc_roc: 0,889147
+auc_pr: 0,370184
+cll: -0,194634
+runtime: 3042
+
+sample_loop: 15, 9
+success, learned on try #: 1
+learn
+runtime: 12848
+try: 1
+total_runtime: 14839
+infer
+auc_roc: 0,871775
+auc_pr: 0,425615
+cll: -0,207704
+runtime: 4792
+infer dss
+auc_roc: 0,867527
+auc_pr: 0,504625
+cll: -0,223186
+runtime: 5568
+
+sample_loop: 20, 9
+success, learned on try #: 1
+learn
+runtime: 9667
+try: 1
+total_runtime: 11467
+infer
+auc_roc: 0,882938
+auc_pr: 0,388421
+cll: -0,200603
+runtime: 2251
+infer dss
+auc_roc: 0,887375
+auc_pr: 0,401664
+cll: -0,202699
+runtime: 3009
+
+sample_loop: 25, 9
+success, learned on try #: 1
+learn
+runtime: 23619
+try: 1
+total_runtime: 25441
+infer
+auc_roc: 0,903234
+auc_pr: 0,722493
+cll: -0,158473
+runtime: 7294
+infer dss
+auc_roc: 0,971655
+auc_pr: 0,751515
+cll: -0,190630
+runtime: 7621
+
+sample_loop: 30, 9
+success, learned on try #: 1
+learn
+runtime: 25919
+try: 1
+total_runtime: 27807
+infer
+auc_roc: 0,356742
+auc_pr: 0,049098
+cll: -0,279127
+runtime: 4958
+infer dss
+auc_roc: 0,845511
+auc_pr: 0,378413
+cll: -0,211134
+runtime: 5822
+
+sample_loop: 35, 9
+success, learned on try #: 1
+learn
+runtime: 22563
+try: 1
+total_runtime: 24436
+infer
+auc_roc: 0,982972
+auc_pr: 0,783027
+cll: -0,182278
+runtime: 3131
+infer dss
+auc_roc: 0,971104
+auc_pr: 0,646248
+cll: -0,200730
+runtime: 3656
+
+sample_loop: 40, 9
+success, learned on try #: 1
+learn
+runtime: 21641
+try: 1
+total_runtime: 23507
+infer
+auc_roc: 0,969006
+auc_pr: 0,563209
+cll: -0,185549
+runtime: 2014
+infer dss
+auc_roc: 0,969006
+auc_pr: 0,563209
+cll: -0,185549
+runtime: 2762
+
+sample_loop: 45, 9
+success, learned on try #: 1
+learn
+runtime: 32377
+try: 1
+total_runtime: 34447
+infer
+auc_roc: 0,957895
+auc_pr: 0,662766
+cll: -0,185618
+runtime: 3794
+infer dss
+auc_roc: 0,937960
+auc_pr: 0,666368
+cll: -0,193520
+runtime: 4333
+
+sample_loop: 50, 9
+success, learned on try #: 1
+learn
+runtime: 105000
+try: 1
+total_runtime: 107283
+infer
+auc_roc: 0,975370
+auc_pr: 0,681395
+cll: -0,187864
+runtime: 2753
+infer dss
+auc_roc: 0,959684
+auc_pr: 0,680273
+cll: -0,175883
+runtime: 3463
+
+sample_loop: 55, 9
+success, learned on try #: 1
+learn
+runtime: 129344
+try: 1
+total_runtime: 131568
+infer
+auc_roc: 0,996594
+auc_pr: 0,924055
+cll: -0,140412
+runtime: 3715
+infer dss
+auc_roc: 0,993017
+auc_pr: 0,845801
+cll: -0,176363
+runtime: 4219
+
+sample_loop: 60, 9
+success, learned on try #: 1
+learn
+runtime: 49416
+try: 1
+total_runtime: 51661
+infer
+auc_roc: 0,967045
+auc_pr: 0,621667
+cll: -0,176096
+runtime: 3656
+infer dss
+auc_roc: 0,966391
+auc_pr: 0,613693
+cll: -0,185459
+runtime: 4218
+
+sample_loop: 65, 9
+success, learned on try #: 1
+learn
+runtime: 101935
+try: 1
+total_runtime: 104271
+infer
+auc_roc: 0,967853
+auc_pr: 0,502121
+cll: -0,199764
+runtime: 2772
+infer dss
+auc_roc: 0,966426
+auc_pr: 0,526482
+cll: -0,201427
+runtime: 3445
+
+sample_loop: 70, 9
+success, learned on try #: 1
+learn
+runtime: 53629
+try: 1
+total_runtime: 55920
+infer
+auc_roc: 0,945648
+auc_pr: 0,610186
+cll: -0,188256
+runtime: 2692
+infer dss
+auc_roc: 0,942656
+auc_pr: 0,621938
+cll: -0,189946
+runtime: 3274
+
+sample_loop: 75, 9
+success, learned on try #: 2
+learn
+runtime: 59020
+try: 2
+total_runtime: 48523462
+infer
+auc_roc: 0,992587
+auc_pr: 0,804954
+cll: -0,170391
+runtime: 2922
+infer dss
+auc_roc: 0,990024
+auc_pr: 0,786324
+cll: -0,178752
+runtime: 3535
+
+sample_loop: 80, 9
+success, learned on try #: 1
+learn
+runtime: 64514
+try: 1
+total_runtime: 66694
+infer
+auc_roc: 0,986068
+auc_pr: 0,739485
+cll: -0,182252
+runtime: 3053
+infer dss
+auc_roc: 0,984348
+auc_pr: 0,731554
+cll: -0,185712
+runtime: 3589
+
+sample_loop: 85, 9
+success, learned on try #: 1
+learn
+runtime: 3391227
+try: 1
+total_runtime: 3393547
+infer
+auc_roc: 0,928965
+auc_pr: 0,624107
+cll: -0,172069
+runtime: 28488
+infer dss
+auc_roc: 0,950808
+auc_pr: 0,663499
+cll: -0,174758
+runtime: 30019
+
+sample_loop: 90, 9
+success, learned on try #: 1
+learn
+runtime: 572011
+try: 1
+total_runtime: 574299
+infer
+auc_roc: 0,945958
+auc_pr: 0,609602
+cll: -0,174192
+runtime: 8896
+infer dss
+auc_roc: 0,956760
+auc_pr: 0,629782
+cll: -0,176808
+runtime: 9704
+
+sample_loop: 95, 9
+success, learned on try #: 1
+learn
+runtime: 186747
+try: 1
+total_runtime: 189251
+infer
+auc_roc: 0,985346
+auc_pr: 0,814432
+cll: -0,162269
+runtime: 8104
+infer dss
+auc_roc: 0,984520
+auc_pr: 0,804537
+cll: -0,163637
+runtime: 9047
+
+sample_loop: 100, 9
+success, learned on try #: 1
+learn
+runtime: 125891
+try: 1
+total_runtime: 128501
+infer
+auc_roc: 0,983867
+auc_pr: 0,779974
+cll: -0,176838
+runtime: 3251
+infer dss
+auc_roc: 0,983867
+auc_pr: 0,779974
+cll: -0,176838
+runtime: 3702
+
+sample_loop: 5, 10
+success, learned on try #: 1
+learn
+runtime: 4803
+try: 1
+total_runtime: 6580
+infer
+auc_roc: 0,838906
+auc_pr: 0,255401
+cll: -0,228444
+runtime: 2280
+infer dss
+auc_roc: 0,819883
+auc_pr: 0,236081
+cll: -0,227462
+runtime: 2957
+
+sample_loop: 10, 10
+success, learned on try #: 1
+learn
+runtime: 6043
+try: 1
+total_runtime: 7858
+infer
+auc_roc: 0,516047
+auc_pr: 0,079086
+cll: -0,226444
+runtime: 2344
+infer dss
+auc_roc: 0,516047
+auc_pr: 0,079086
+cll: -0,226444
+runtime: 2993
+
+sample_loop: 15, 10
+success, learned on try #: 1
+learn
+runtime: 6145
+try: 1
+total_runtime: 7825
+infer
+auc_roc: 0,928535
+auc_pr: 0,455089
+cll: -0,197784
+runtime: 2342
+infer dss
+auc_roc: 0,927847
+auc_pr: 0,428710
+cll: -0,201098
+runtime: 2914
+
+sample_loop: 20, 10
+success, learned on try #: 1
+learn
+runtime: 11687
+try: 1
+total_runtime: 13425
+infer
+auc_roc: 0,830358
+auc_pr: 0,156810
+cll: -2,826304
+runtime: 4403
+infer dss
+auc_roc: 0,943756
+auc_pr: 0,564005
+cll: -0,196316
+runtime: 5107
+
+sample_loop: 25, 10
+success, learned on try #: 1
+learn
+runtime: 19157
+try: 1
+total_runtime: 20921
+infer
+auc_roc: 0,981768
+auc_pr: 0,708140
+cll: -0,159865
+runtime: 2832
+infer dss
+auc_roc: 0,980581
+auc_pr: 0,733735
+cll: -0,188198
+runtime: 3269
+
+sample_loop: 30, 10
+success, learned on try #: 1
+learn
+runtime: 16029
+try: 1
+total_runtime: 17834
+infer
+auc_roc: 0,852288
+auc_pr: 0,386787
+cll: -0,219421
+runtime: 2230
+infer dss
+auc_roc: 0,852288
+auc_pr: 0,386931
+cll: -0,219527
+runtime: 2791
+
+sample_loop: 35, 10
+success, learned on try #: 1
+learn
+runtime: 15976
+try: 1
+total_runtime: 17787
+infer
+auc_roc: 0,936670
+auc_pr: 0,600006
+cll: -0,178987
+runtime: 2196
+infer dss
+auc_roc: 0,917234
+auc_pr: 0,528260
+cll: -0,181973
+runtime: 3003
+
+sample_loop: 40, 10
+success, learned on try #: 1
+learn
+runtime: 34719
+try: 1
+total_runtime: 36584
+infer
+auc_roc: 0,957774
+auc_pr: 0,488679
+cll: -0,205682
+runtime: 2380
+infer dss
+auc_roc: 0,922979
+auc_pr: 0,553381
+cll: -0,186325
+runtime: 2990
+
+sample_loop: 45, 10
+success, learned on try #: 1
+learn
+runtime: 204170
+try: 1
+total_runtime: 206293
+infer
+auc_roc: 0,956656
+auc_pr: 0,610127
+cll: -0,173363
+runtime: 3584
+infer dss
+auc_roc: 0,930375
+auc_pr: 0,539001
+cll: -0,189520
+runtime: 4130
+
+sample_loop: 50, 10
+success, learned on try #: 1
+learn
+runtime: 36694
+try: 1
+total_runtime: 38880
+infer
+auc_roc: 0,987926
+auc_pr: 0,694453
+cll: -0,184045
+runtime: 2459
+infer dss
+auc_roc: 0,984606
+auc_pr: 0,636405
+cll: -0,186906
+runtime: 2889
+
+sample_loop: 55, 10
+success, learned on try #: 1
+learn
+runtime: 61682
+try: 1
+total_runtime: 63731
+infer
+auc_roc: 0,987169
+auc_pr: 0,729875
+cll: -0,158041
+runtime: 3155
+infer dss
+auc_roc: 0,989198
+auc_pr: 0,819243
+cll: -0,150138
+runtime: 3670
+
+sample_loop: 60, 10
+success, learned on try #: 1
+learn
+runtime: 86667
+try: 1
+total_runtime: 88951
+infer
+auc_roc: 0,990299
+auc_pr: 0,848298
+cll: -0,145316
+runtime: 50967
+infer dss
+auc_roc: 0,990093
+auc_pr: 0,782541
+cll: -0,164026
+runtime: 54655
+
+sample_loop: 65, 10
+success, learned on try #: 1
+learn
+runtime: 32741
+try: 1
+total_runtime: 34856
+infer
+auc_roc: 0,972308
+auc_pr: 0,677153
+cll: -0,203871
+runtime: 2589
+infer dss
+auc_roc: 0,966976
+auc_pr: 0,638905
+cll: -0,205349
+runtime: 3014
+
+sample_loop: 70, 10
+success, learned on try #: 1
+learn
+runtime: 59206
+try: 1
+total_runtime: 61434
+infer
+auc_roc: 0,968232
+auc_pr: 0,577984
+cll: -0,181223
+runtime: 2845
+infer dss
+auc_roc: 0,963123
+auc_pr: 0,575856
+cll: -0,181405
+runtime: 3321
+
+sample_loop: 75, 10
+success, learned on try #: 1
+learn
+runtime: 76141
+try: 1
+total_runtime: 78445
+infer
+auc_roc: 0,970279
+auc_pr: 0,587898
+cll: -0,186586
+runtime: 4846
+infer dss
+auc_roc: 0,977434
+auc_pr: 0,677414
+cll: -0,183612
+runtime: 5382
+
+sample_loop: 80, 10
+success, learned on try #: 1
+learn
+runtime: 129270
+try: 1
+total_runtime: 131490
+infer
+auc_roc: 0,992054
+auc_pr: 0,850585
+cll: -0,161289
+runtime: 3253
+infer dss
+auc_roc: 0,989439
+auc_pr: 0,827610
+cll: -0,168249
+runtime: 3912
+
+sample_loop: 85, 10
+success, learned on try #: 1
+learn
+runtime: 127849
+try: 1
+total_runtime: 130066
+infer
+auc_roc: 0,991331
+auc_pr: 0,791287
+cll: -0,157067
+runtime: 2718
+infer dss
+auc_roc: 0,990265
+auc_pr: 0,793042
+cll: -0,161067
+runtime: 3284
+
+sample_loop: 90, 10
+success, learned on try #: 1
+learn
+runtime: 52854
+try: 1
+total_runtime: 55128
+infer
+auc_roc: 0,930272
+auc_pr: 0,566636
+cll: -0,189709
+runtime: 2464
+infer dss
+auc_roc: 0,930409
+auc_pr: 0,561534
+cll: -0,190469
+runtime: 3059
+
+sample_loop: 95, 10
+success, learned on try #: 1
+learn
+runtime: 4837836
+try: 1
+total_runtime: 4840425
+infer
+auc_roc: 0,983695
+auc_pr: 0,728231
+cll: -0,181096
+runtime: 5994
+infer dss
+auc_roc: 0,984486
+auc_pr: 0,729273
+cll: -0,182589
+runtime: 6227
+
+sample_loop: 100, 10
+success, learned on try #: 1
+learn
+runtime: 718258
+try: 1
+total_runtime: 720721
+infer
+auc_roc: 0,975611
+auc_pr: 0,659466
+cll: -0,174346
+runtime: 3523
+infer dss
+auc_roc: 0,975611
+auc_pr: 0,659466
+cll: -0,174346
+runtime: 4219
+
+sample_loop: 5, 11
+success, learned on try #: 1
+learn
+runtime: 4122
+try: 1
+total_runtime: 5931
+infer
+auc_roc: 0,693481
+auc_pr: 0,083633
+cll: -0,984222
+runtime: 3400
+infer dss
+auc_roc: 0,752821
+auc_pr: 0,092501
+cll: -1,014598
+runtime: 3939
+
+sample_loop: 15, 11
+success, learned on try #: 1
+learn
+runtime: 10946
+try: 1
+total_runtime: 13276
+infer
+auc_roc: 0,505882
+auc_pr: 0,096332
+cll: -1,244481
+runtime: 327050
+infer dss
+auc_roc: 0,601823
+auc_pr: 0,167986
+cll: -0,241489
+runtime: 328101
+
+sample_loop: 20, 11
+success, learned on try #: 1
+learn
+runtime: 11299
+try: 1
+total_runtime: 13155
+infer
+auc_roc: 0,754764
+auc_pr: 0,389895
+cll: -0,184998
+runtime: 4427
+infer dss
+auc_roc: 0,929033
+auc_pr: 0,645375
+cll: -0,191788
+runtime: 5310
+
+sample_loop: 25, 11
+success, learned on try #: 1
+learn
+runtime: 48448
+try: 1
+total_runtime: 50698
+infer
+auc_roc: 0,987754
+auc_pr: 0,916964
+cll: -0,090065
+runtime: 8674
+infer dss
+auc_roc: 0,974510
+auc_pr: 0,717433
+cll: -0,195626
+runtime: 9646
+
+sample_loop: 30, 11
+success, learned on try #: 1
+learn
+runtime: 13716
+try: 1
+total_runtime: 15738
+infer
+auc_roc: 0,962401
+auc_pr: 0,605697
+cll: -0,186227
+runtime: 2951
+infer dss
+auc_roc: 0,949570
+auc_pr: 0,754650
+cll: -0,172096
+runtime: 3588
+
+sample_loop: 35, 11
+success, learned on try #: 1
+learn
+runtime: 20973
+try: 1
+total_runtime: 22832
+infer
+auc_roc: 0,968025
+auc_pr: 0,554575
+cll: -0,205792
+runtime: 2512
+infer dss
+auc_roc: 0,960664
+auc_pr: 0,555165
+cll: -0,180261
+runtime: 3180
+
+sample_loop: 40, 11
+success, learned on try #: 1
+learn
+runtime: 371895
+try: 1
+total_runtime: 374032
+infer
+auc_roc: 0,945270
+auc_pr: 0,767750
+cll: -0,168967
+runtime: 28607
+infer dss
+auc_roc: 0,933591
+auc_pr: 0,553525
+cll: -0,201434
+runtime: 30206
+
+sample_loop: 45, 11
+success, learned on try #: 1
+learn
+runtime: 70138
+try: 1
+total_runtime: 72187
+infer
+auc_roc: 0,926729
+auc_pr: 0,663240
+cll: -0,183448
+runtime: 2610
+infer dss
+auc_roc: 0,914173
+auc_pr: 0,609971
+cll: -0,186478
+runtime: 3066
+
+sample_loop: 50, 11
+success, learned on try #: 1
+learn
+runtime: 30174
+try: 1
+total_runtime: 32126
+infer
+auc_roc: 0,961128
+auc_pr: 0,777376
+cll: -0,165252
+runtime: 3895
+infer dss
+auc_roc: 0,985174
+auc_pr: 0,796106
+cll: -0,181824
+runtime: 4577
+
+sample_loop: 55, 11
+success, learned on try #: 1
+learn
+runtime: 52938
+try: 1
+total_runtime: 55099
+infer
+auc_roc: 0,982387
+auc_pr: 0,696595
+cll: -0,163836
+runtime: 2515
+infer dss
+auc_roc: 0,976797
+auc_pr: 0,615726
+cll: -0,174050
+runtime: 3120
+
+sample_loop: 60, 11
+success, learned on try #: 1
+learn
+runtime: 276022
+try: 1
+total_runtime: 278229
+infer
+auc_roc: 0,963915
+auc_pr: 0,845397
+cll: -0,153346
+runtime: 20483
+infer dss
+auc_roc: 0,943756
+auc_pr: 0,777064
+cll: -0,168939
+runtime: 21483
+
+sample_loop: 65, 11
+success, learned on try #: 1
+learn
+runtime: 1426994
+try: 1
+total_runtime: 1429501
+infer
+auc_roc: 0,939766
+auc_pr: 0,654503
+cll: -0,180239
+runtime: 4562
+infer dss
+auc_roc: 0,962814
+auc_pr: 0,676770
+cll: -0,193162
+runtime: 5152
+
+sample_loop: 70, 11
+success, learned on try #: 1
+learn
+runtime: 2367711
+try: 1
+total_runtime: 2369981
+infer
+auc_roc: 0,932026
+auc_pr: 0,737292
+cll: -0,178153
+runtime: 7617
+infer dss
+auc_roc: 0,984727
+auc_pr: 0,805225
+cll: -0,188840
+runtime: 7398
+
+sample_loop: 75, 11
+success, learned on try #: 1
+learn
+runtime: 2735773
+try: 1
+total_runtime: 2738656
+infer
+auc_roc: 0,953560
+auc_pr: 0,732646
+cll: -0,166456
+runtime: 9577
+infer dss
+auc_roc: 0,984692
+auc_pr: 0,743762
+cll: -0,175057
+runtime: 10217
+
+sample_loop: 80, 11
+success, learned on try #: 1
+learn
+runtime: 71100
+try: 1
+total_runtime: 73923
+infer
+auc_roc: 0,970881
+auc_pr: 0,688085
+cll: -0,172867
+runtime: 2584
+infer dss
+auc_roc: 0,962676
+auc_pr: 0,682385
+cll: -0,176448
+runtime: 3155
+
+sample_loop: 85, 11
+success, learned on try #: 1
+learn
+runtime: 82335
+try: 1
+total_runtime: 84761
+infer
+auc_roc: 0,971655
+auc_pr: 0,723290
+cll: -0,190140
+runtime: 4323
+infer dss
+auc_roc: 0,971620
+auc_pr: 0,721835
+cll: -0,192904
+runtime: 5459
+
+sample_loop: 90, 11
+success, learned on try #: 1
+learn
+runtime: 420166
+try: 1
+total_runtime: 422657
+infer
+auc_roc: 0,977090
+auc_pr: 0,777713
+cll: -0,156699
+runtime: 3511
+infer dss
+auc_roc: 0,974338
+auc_pr: 0,768574
+cll: -0,160530
+runtime: 4382
+
+sample_loop: 95, 11
+success, learned on try #: 1
+learn
+runtime: 3432543
+try: 1
+total_runtime: 3434936
+infer
+auc_roc: 0,951754
+auc_pr: 0,520793
+cll: -0,194821
+runtime: 5116
+infer dss
+auc_roc: 0,961214
+auc_pr: 0,526427
+cll: -0,196289
+runtime: 5687
+
+sample_loop: 100, 11
+success, learned on try #: 1
+learn
+runtime: 93273
+try: 1
+total_runtime: 95588
+infer
+auc_roc: 0,979739
+auc_pr: 0,732484
+cll: -0,186099
+runtime: 3538
+infer dss
+auc_roc: 0,979739
+auc_pr: 0,732484
+cll: -0,186099
+runtime: 4194
+
+sample_loop: 5, 12
+success, learned on try #: 1
+learn
+runtime: 4348
+try: 1
+total_runtime: 6009
+infer
+auc_roc: 0,462350
+auc_pr: 0,067770
+cll: -0,236832
+runtime: 3495
+infer dss
+auc_roc: 0,649174
+auc_pr: 0,104259
+cll: -0,205545
+runtime: 4111
+
+sample_loop: 10, 12
+success, learned on try #: 1
+learn
+runtime: 3602
+try: 1
+total_runtime: 5180
+infer
+auc_roc: 0,874957
+auc_pr: 0,391716
+cll: -0,192547
+runtime: 2053
+infer dss
+auc_roc: 0,879051
+auc_pr: 0,399623
+cll: -0,193987
+runtime: 2954
+
+sample_loop: 15, 12
+success, learned on try #: 1
+learn
+runtime: 6637
+try: 1
+total_runtime: 8393
+infer
+auc_roc: 0,782800
+auc_pr: 0,309246
+cll: -0,219092
+runtime: 2155
+infer dss
+auc_roc: 0,782800
+auc_pr: 0,309246
+cll: -0,219092
+runtime: 2897
+
+sample_loop: 20, 12
+success, learned on try #: 1
+learn
+runtime: 6799
+try: 1
+total_runtime: 8435
+infer
+auc_roc: 0,938579
+auc_pr: 0,483351
+cll: -0,198878
+runtime: 2232
+infer dss
+auc_roc: 0,938390
+auc_pr: 0,505598
+cll: -0,194613
+runtime: 2809
+
+sample_loop: 25, 12
+success, learned on try #: 1
+learn
+runtime: 9311
+try: 1
+total_runtime: 11023
+infer
+auc_roc: 0,931631
+auc_pr: 0,460462
+cll: -0,203980
+runtime: 2301
+infer dss
+auc_roc: 0,940351
+auc_pr: 0,559117
+cll: -0,200549
+runtime: 3021
+
+sample_loop: 30, 12
+success, learned on try #: 1
+learn
+runtime: 15973
+try: 1
+total_runtime: 17803
+infer
+auc_roc: 0,943980
+auc_pr: 0,639806
+cll: -0,210575
+runtime: 2426
+infer dss
+auc_roc: 0,943154
+auc_pr: 0,635839
+cll: -0,214190
+runtime: 3114
+
+sample_loop: 35, 12
+success, learned on try #: 1
+learn
+runtime: 242801
+try: 1
+total_runtime: 245307
+infer
+auc_roc: 0,832800
+auc_pr: 0,411711
+cll: -0,191306
+runtime: 24811
+infer dss
+auc_roc: 0,949484
+auc_pr: 0,595961
+cll: -0,199233
+runtime: 25567
+
+sample_loop: 40, 12
+success, learned on try #: 1
+learn
+runtime: 24074
+try: 1
+total_runtime: 25978
+infer
+auc_roc: 0,954180
+auc_pr: 0,610089
+cll: -0,206359
+runtime: 2731
+infer dss
+auc_roc: 0,957448
+auc_pr: 0,658240
+cll: -0,204931
+runtime: 3494
+
+sample_loop: 45, 12
+success, learned on try #: 1
+learn
+runtime: 29599
+try: 1
+total_runtime: 31681
+infer
+auc_roc: 0,996732
+auc_pr: 0,949238
+cll: -0,101793
+runtime: 3175
+infer dss
+auc_roc: 0,993842
+auc_pr: 0,931759
+cll: -0,132334
+runtime: 3772
+
+sample_loop: 50, 12
+success, learned on try #: 1
+learn
+runtime: 25081
+try: 1
+total_runtime: 27098
+infer
+auc_roc: 0,715136
+auc_pr: 0,171017
+cll: -0,219949
+runtime: 2453
+infer dss
+auc_roc: 0,714413
+auc_pr: 0,175757
+cll: -0,220983
+runtime: 3040
+
+sample_loop: 55, 12
+success, learned on try #: 1
+learn
+runtime: 1090954
+try: 1
+total_runtime: 1093159
+infer
+auc_roc: 0,943791
+auc_pr: 0,684277
+cll: -0,171522
+runtime: 18259
+infer dss
+auc_roc: 0,981562
+auc_pr: 0,741293
+cll: -0,187502
+runtime: 20012
+
+sample_loop: 60, 12
+success, learned on try #: 1
+learn
+runtime: 1408362
+try: 1
+total_runtime: 1410593
+infer
+auc_roc: 0,886051
+auc_pr: 0,516734
+cll: -0,220146
+runtime: 31009
+infer dss
+auc_roc: 0,890248
+auc_pr: 0,547490
+cll: -0,218106
+runtime: 34696
+
+sample_loop: 65, 12
+success, learned on try #: 1
+learn
+runtime: 423910
+try: 1
+total_runtime: 426047
+infer
+auc_roc: 0,899914
+auc_pr: 0,503375
+cll: -0,180788
+runtime: 5566
+infer dss
+auc_roc: 0,912745
+auc_pr: 0,514218
+cll: -0,186892
+runtime: 6273
+
+sample_loop: 70, 12
+success, learned on try #: 1
+learn
+runtime: 2105225
+try: 1
+total_runtime: 2107449
+infer
+auc_roc: 0,926350
+auc_pr: 0,677962
+cll: -0,175844
+runtime: 5236
+infer dss
+auc_roc: 0,956106
+auc_pr: 0,696061
+cll: -0,186147
+runtime: 5746
+
+sample_loop: 75, 12
+success, learned on try #: 1
+learn
+runtime: 2460234
+try: 1
+total_runtime: 2462510
+infer
+auc_roc: 0,930031
+auc_pr: 0,569677
+cll: -0,188831
+runtime: 5028
+infer dss
+auc_roc: 0,931304
+auc_pr: 0,556255
+cll: -0,197705
+runtime: 5720
+
+sample_loop: 80, 12
+success, learned on try #: 1
+learn
+runtime: 83584
+try: 1
+total_runtime: 85926
+infer
+auc_roc: 0,952976
+auc_pr: 0,683323
+cll: -0,191754
+runtime: 3786
+infer dss
+auc_roc: 0,950258
+auc_pr: 0,676167
+cll: -0,192373
+runtime: 3975
+
+sample_loop: 85, 12
+success, learned on try #: 1
+learn
+runtime: 86502
+try: 1
+total_runtime: 88845
+infer
+auc_roc: 0,987994
+auc_pr: 0,739683
+cll: -0,174050
+runtime: 2369
+infer dss
+auc_roc: 0,987203
+auc_pr: 0,717327
+cll: -0,176044
+runtime: 3028
+
+sample_loop: 90, 12
+success, learned on try #: 1
+learn
+runtime: 858465
+try: 1
+total_runtime: 860706
+infer
+auc_roc: 0,982353
+auc_pr: 0,771595
+cll: -0,180132
+runtime: 4344
+infer dss
+auc_roc: 0,980771
+auc_pr: 0,755548
+cll: -0,181084
+runtime: 5076
+
+sample_loop: 95, 12
+success, learned on try #: 1
+learn
+runtime: 209003
+try: 1
+total_runtime: 211430
+infer
+auc_roc: 0,978294
+auc_pr: 0,657302
+cll: -0,181374
+runtime: 3518
+infer dss
+auc_roc: 0,977193
+auc_pr: 0,657126
+cll: -0,182551
+runtime: 4106
+
+sample_loop: 100, 12
+success, learned on try #: 1
+learn
+runtime: 191586
+try: 1
+total_runtime: 193898
+infer
+auc_roc: 0,986068
+auc_pr: 0,780501
+cll: -0,178768
+runtime: 4843
+infer dss
+auc_roc: 0,986068
+auc_pr: 0,780501
+cll: -0,178768
+runtime: 5607
+
+sample_loop: 5, 13
+success, learned on try #: 1
+learn
+runtime: 4927
+try: 1
+total_runtime: 6512
+infer
+auc_roc: 0,631751
+auc_pr: 0,163364
+cll: -0,765546
+runtime: 5529
+infer dss
+auc_roc: 0,814964
+auc_pr: 0,347109
+cll: -0,212252
+runtime: 5974
+
+sample_loop: 10, 13
+success, learned on try #: 1
+learn
+runtime: 7810
+try: 1
+total_runtime: 9471
+infer
+auc_roc: 0,429962
+auc_pr: 0,056843
+cll: -0,517740
+runtime: 14124
+infer dss
+auc_roc: 0,886206
+auc_pr: 0,360867
+cll: -0,180026
+runtime: 14742
+
+sample_loop: 15, 13
+success, learned on try #: 1
+learn
+runtime: 5176
+try: 1
+total_runtime: 6886
+infer
+auc_roc: 0,969126
+auc_pr: 0,624914
+cll: -0,173871
+runtime: 2075
+infer dss
+auc_roc: 0,969126
+auc_pr: 0,624914
+cll: -0,173871
+runtime: 2798
+
+sample_loop: 20, 13
+success, learned on try #: 1
+learn
+runtime: 10049
+try: 1
+total_runtime: 11885
+infer
+auc_roc: 0,957310
+auc_pr: 0,543933
+cll: -0,210887
+runtime: 2247
+infer dss
+auc_roc: 0,966391
+auc_pr: 0,647238
+cll: -0,178604
+runtime: 3143
+
+sample_loop: 25, 13
+success, learned on try #: 1
+learn
+runtime: 11355
+try: 1
+total_runtime: 13076
+infer
+auc_roc: 0,914207
+auc_pr: 0,460176
+cll: -0,203129
+runtime: 2094
+infer dss
+auc_roc: 0,911593
+auc_pr: 0,472839
+cll: -0,202840
+runtime: 2873
+
+sample_loop: 30, 13
+success, learned on try #: 1
+learn
+runtime: 32767
+try: 1
+total_runtime: 34745
+infer
+auc_roc: 0,664757
+auc_pr: 0,211761
+cll: -0,245061
+runtime: 13287
+infer dss
+auc_roc: 0,935879
+auc_pr: 0,602620
+cll: -0,195405
+runtime: 13965
+
+sample_loop: 35, 13
+success, learned on try #: 1
+learn
+runtime: 17546
+try: 1
+total_runtime: 19493
+infer
+auc_roc: 0,966099
+auc_pr: 0,627073
+cll: -0,178361
+runtime: 2062
+infer dss
+auc_roc: 0,966099
+auc_pr: 0,627073
+cll: -0,178361
+runtime: 2682
+
+sample_loop: 40, 13
+success, learned on try #: 1
+learn
+runtime: 19260
+try: 1
+total_runtime: 21323
+infer
+auc_roc: 0,862745
+auc_pr: 0,444504
+cll: -0,202690
+runtime: 2343
+infer dss
+auc_roc: 0,863915
+auc_pr: 0,462900
+cll: -0,203957
+runtime: 3042
+
+sample_loop: 45, 13
+success, learned on try #: 1
+learn
+runtime: 66036
+try: 1
+total_runtime: 68233
+infer
+auc_roc: 0,970657
+auc_pr: 0,634773
+cll: -0,173708
+runtime: 4029
+infer dss
+auc_roc: 0,949432
+auc_pr: 0,667189
+cll: -0,190688
+runtime: 4824
+
+sample_loop: 50, 13
+success, learned on try #: 1
+learn
+runtime: 35578
+try: 1
+total_runtime: 37630
+infer
+auc_roc: 0,980220
+auc_pr: 0,689482
+cll: -0,180775
+runtime: 3122
+infer dss
+auc_roc: 0,979395
+auc_pr: 0,647010
+cll: -0,185949
+runtime: 3493
+
+sample_loop: 55, 13
+success, learned on try #: 1
+learn
+runtime: 45002
+try: 1
+total_runtime: 47236
+infer
+auc_roc: 0,975817
+auc_pr: 0,522553
+cll: -0,209400
+runtime: 2447
+infer dss
+auc_roc: 0,976625
+auc_pr: 0,554958
+cll: -0,189860
+runtime: 3125
+
+sample_loop: 60, 13
+success, learned on try #: 1
+learn
+runtime: 48247
+try: 1
+total_runtime: 50564
+infer
+auc_roc: 0,988751
+auc_pr: 0,807707
+cll: -0,166454
+runtime: 2994
+infer dss
+auc_roc: 0,984073
+auc_pr: 0,773722
+cll: -0,179981
+runtime: 3673
+
+sample_loop: 65, 13
+success, learned on try #: 1
+learn
+runtime: 46496
+try: 1
+total_runtime: 48655
+infer
+auc_roc: 0,980702
+auc_pr: 0,629032
+cll: -0,187056
+runtime: 2643
+infer dss
+auc_roc: 0,981493
+auc_pr: 0,717157
+cll: -0,188493
+runtime: 3296
+
+sample_loop: 70, 13
+success, learned on try #: 1
+learn
+runtime: 165232
+try: 1
+total_runtime: 167624
+infer
+auc_roc: 0,980323
+auc_pr: 0,651514
+cll: -0,174716
+runtime: 4178
+infer dss
+auc_roc: 0,978982
+auc_pr: 0,667413
+cll: -0,177935
+runtime: 4949
+
+sample_loop: 75, 13
+success, learned on try #: 1
+learn
+runtime: 73584
+try: 1
+total_runtime: 75879
+infer
+auc_roc: 0,992088
+auc_pr: 0,824172
+cll: -0,150933
+runtime: 2495
+infer dss
+auc_roc: 0,990815
+auc_pr: 0,815729
+cll: -0,162689
+runtime: 3107
+
+sample_loop: 80, 13
+success, learned on try #: 1
+learn
+runtime: 60165
+try: 1
+total_runtime: 62470
+infer
+auc_roc: 0,988132
+auc_pr: 0,755334
+cll: -0,179143
+runtime: 3404
+infer dss
+auc_roc: 0,987582
+auc_pr: 0,749725
+cll: -0,182405
+runtime: 3969
+
+sample_loop: 85, 13
+success, learned on try #: 1
+learn
+runtime: 135847
+try: 1
+total_runtime: 138211
+infer
+auc_roc: 0,966581
+auc_pr: 0,637976
+cll: -0,172843
+runtime: 2665
+infer dss
+auc_roc: 0,960406
+auc_pr: 0,629728
+cll: -0,176512
+runtime: 3209
+
+sample_loop: 90, 13
+success, learned on try #: 1
+learn
+runtime: 134250
+try: 1
+total_runtime: 136731
+infer
+auc_roc: 0,989577
+auc_pr: 0,780519
+cll: -0,161022
+runtime: 3597
+infer dss
+auc_roc: 0,989405
+auc_pr: 0,797775
+cll: -0,162474
+runtime: 4251
+
+sample_loop: 95, 13
+success, learned on try #: 1
+learn
+runtime: 4880236
+try: 1
+total_runtime: 4882772
+infer
+auc_roc: 0,911266
+auc_pr: 0,460388
+cll: -0,189935
+runtime: 7236
+infer dss
+auc_roc: 0,921689
+auc_pr: 0,469595
+cll: -0,191167
+runtime: 8025
+
+sample_loop: 100, 13
+success, learned on try #: 1
+learn
+runtime: 3295193
+try: 1
+total_runtime: 3297459
+infer
+auc_roc: 0,977365
+auc_pr: 0,690247
+cll: -0,171109
+runtime: 3241
+infer dss
+auc_roc: 0,977365
+auc_pr: 0,690247
+cll: -0,171109
+runtime: 3475
+
+sample_loop: 5, 14
+success, learned on try #: 1
+learn
+runtime: 3480
+try: 1
+total_runtime: 5052
+infer
+auc_roc: 0,713777
+auc_pr: 0,168706
+cll: -0,218485
+runtime: 2041
+infer dss
+auc_roc: 0,713777
+auc_pr: 0,168706
+cll: -0,218485
+runtime: 2714
+
+sample_loop: 10, 14
+success, learned on try #: 1
+learn
+runtime: 5997
+try: 1
+total_runtime: 7619
+infer
+auc_roc: 0,552167
+auc_pr: 0,132671
+cll: -1,036743
+runtime: 10961
+infer dss
+auc_roc: 0,882491
+auc_pr: 0,525954
+cll: -0,194714
+runtime: 11453
+
+sample_loop: 15, 14
+success, learned on try #: 1
+learn
+runtime: 9191
+try: 1
+total_runtime: 10964
+infer
+auc_roc: 0,968679
+auc_pr: 0,523036
+cll: -0,195959
+runtime: 2424
+infer dss
+auc_roc: 0,928036
+auc_pr: 0,504580
+cll: -0,196927
+runtime: 3084
+
+sample_loop: 20, 14
+success, learned on try #: 1
+learn
+runtime: 10692
+try: 1
+total_runtime: 12501
+infer
+auc_roc: 0,926780
+auc_pr: 0,620607
+cll: -0,179901
+runtime: 2275
+infer dss
+auc_roc: 0,932800
+auc_pr: 0,624809
+cll: -0,180364
+runtime: 3039
+
+sample_loop: 25, 14
+success, learned on try #: 1
+learn
+runtime: 17557
+try: 1
+total_runtime: 19427
+infer
+auc_roc: 0,725267
+auc_pr: 0,488745
+cll: -0,536426
+runtime: 27631
+infer dss
+auc_roc: 0,912401
+auc_pr: 0,650104
+cll: -0,203142
+runtime: 27386
+
+sample_loop: 30, 14
+success, learned on try #: 1
+learn
+runtime: 20182
+try: 1
+total_runtime: 22066
+infer
+auc_roc: 0,647988
+auc_pr: 0,061918
+cll: -1,323279
+runtime: 8870
+infer dss
+auc_roc: 0,865033
+auc_pr: 0,335403
+cll: -0,224453
+runtime: 10093
+
+sample_loop: 35, 14
+success, learned on try #: 1
+learn
+runtime: 70390
+try: 1
+total_runtime: 72533
+infer
+auc_roc: 0,653715
+auc_pr: 0,175311
+cll: -0,233907
+runtime: 503318
+infer dss
+auc_roc: 0,874510
+auc_pr: 0,347984
+cll: -0,201328
+runtime: 545091
+
+sample_loop: 40, 14
+success, learned on try #: 1
+learn
+runtime: 35662
+try: 1
+total_runtime: 37674
+infer
+auc_roc: 0,982869
+auc_pr: 0,791175
+cll: -0,157095
+runtime: 2976
+infer dss
+auc_roc: 0,975679
+auc_pr: 0,675885
+cll: -0,185413
+runtime: 3758
+
+sample_loop: 45, 14
+success, learned on try #: 1
+learn
+runtime: 29942
+try: 1
+total_runtime: 31924
+infer
+auc_roc: 0,963244
+auc_pr: 0,552994
+cll: -0,188902
+runtime: 2298
+infer dss
+auc_roc: 0,948624
+auc_pr: 0,470726
+cll: -0,192585
+runtime: 2927
+
+sample_loop: 50, 14
+success, learned on try #: 1
+learn
+runtime: 32524
+try: 1
+total_runtime: 34510
+infer
+auc_roc: 0,924080
+auc_pr: 0,427870
+cll: -0,198609
+runtime: 4145
+infer dss
+auc_roc: 0,935019
+auc_pr: 0,465868
+cll: -0,195661
+runtime: 4671
+
+sample_loop: 55, 14
+success, learned on try #: 1
+learn
+runtime: 39248
+try: 1
+total_runtime: 41355
+infer
+auc_roc: 0,977761
+auc_pr: 0,657082
+cll: -0,164731
+runtime: 2502
+infer dss
+auc_roc: 0,972721
+auc_pr: 0,676095
+cll: -0,167476
+runtime: 3151
+
+sample_loop: 60, 14
+success, learned on try #: 1
+learn
+runtime: 48445
+try: 1
+total_runtime: 50764
+infer
+auc_roc: 0,986343
+auc_pr: 0,776521
+cll: -0,173413
+runtime: 3236
+infer dss
+auc_roc: 0,985105
+auc_pr: 0,745534
+cll: -0,179850
+runtime: 3877
+
+sample_loop: 65, 14
+success, learned on try #: 1
+learn
+runtime: 201459
+try: 1
+total_runtime: 203700
+infer
+auc_roc: 0,957396
+auc_pr: 0,518403
+cll: -0,184790
+runtime: 2748
+infer dss
+auc_roc: 0,958600
+auc_pr: 0,576160
+cll: -0,173479
+runtime: 3394
+
+sample_loop: 70, 14
+success, learned on try #: 1
+learn
+runtime: 64744
+try: 1
+total_runtime: 67103
+infer
+auc_roc: 0,987341
+auc_pr: 0,770901
+cll: -0,166458
+runtime: 3900
+infer dss
+auc_roc: 0,987926
+auc_pr: 0,792426
+cll: -0,166375
+runtime: 4834
+
+sample_loop: 75, 14
+success, learned on try #: 1
+learn
+runtime: 668335
+try: 1
+total_runtime: 670665
+infer
+auc_roc: 0,979876
+auc_pr: 0,716488
+cll: -0,165746
+runtime: 2366
+infer dss
+auc_roc: 0,976849
+auc_pr: 0,717350
+cll: -0,170126
+runtime: 3085
+
+sample_loop: 80, 14
+success, learned on try #: 1
+learn
+runtime: 67777
+try: 1
+total_runtime: 70117
+infer
+auc_roc: 0,961094
+auc_pr: 0,649396
+cll: -0,172324
+runtime: 2376
+infer dss
+auc_roc: 0,950946
+auc_pr: 0,602305
+cll: -0,175577
+runtime: 3052
+
+sample_loop: 85, 14
+success, learned on try #: 1
+learn
+runtime: 3371391
+try: 1
+total_runtime: 3373880
+infer
+auc_roc: 0,952976
+auc_pr: 0,564503
+cll: -0,188152
+runtime: 10111
+infer dss
+auc_roc: 0,950017
+auc_pr: 0,545091
+cll: -0,192897
+runtime: 11269
+
+sample_loop: 90, 14
+success, learned on try #: 1
+learn
+runtime: 3294735
+try: 1
+total_runtime: 3297119
+infer
+auc_roc: 0,970227
+auc_pr: 0,551568
+cll: -0,184003
+runtime: 3211
+infer dss
+auc_roc: 0,970915
+auc_pr: 0,559316
+cll: -0,186352
+runtime: 3686
+
+sample_loop: 95, 14
+success, learned on try #: 1
+learn
+runtime: 119417
+try: 1
+total_runtime: 121783
+infer
+auc_roc: 0,979051
+auc_pr: 0,796340
+cll: -0,184038
+runtime: 3270
+infer dss
+auc_roc: 0,977675
+auc_pr: 0,787386
+cll: -0,185457
+runtime: 3910
+
+sample_loop: 100, 14
+success, learned on try #: 1
+learn
+runtime: 169503
+try: 1
+total_runtime: 171959
+infer
+auc_roc: 0,983867
+auc_pr: 0,713642
+cll: -0,175113
+runtime: 2736
+infer dss
+auc_roc: 0,983867
+auc_pr: 0,713642
+cll: -0,175113
+runtime: 3306
+
+sample_loop: 5, 15
+success, learned on try #: 2
+learn
+runtime: 3280
+try: 2
+total_runtime: 6908
+infer
+auc_roc: 0,643034
+auc_pr: 0,138611
+cll: -0,199980
+runtime: 2521
+infer dss
+auc_roc: 0,764224
+auc_pr: 0,188119
+cll: -0,212560
+runtime: 3042
+
+sample_loop: 10, 15
+success, learned on try #: 1
+learn
+runtime: 4980
+try: 1
+total_runtime: 6616
+infer
+auc_roc: 0,777847
+auc_pr: 0,458225
+cll: -0,177870
+runtime: 3312
+infer dss
+auc_roc: 0,913003
+auc_pr: 0,420113
+cll: -0,217570
+runtime: 3975
+
+sample_loop: 15, 15
+success, learned on try #: 1
+learn
+runtime: 7329
+try: 1
+total_runtime: 9045
+infer
+auc_roc: 0,571569
+auc_pr: 0,080322
+cll: -0,248731
+runtime: 5807
+infer dss
+auc_roc: 0,780650
+auc_pr: 0,225027
+cll: -0,212726
+runtime: 6347
+
+sample_loop: 20, 15
+success, learned on try #: 1
+learn
+runtime: 13018
+try: 1
+total_runtime: 14759
+infer
+auc_roc: 0,520554
+auc_pr: 0,055891
+cll: -0,250051
+runtime: 9292
+infer dss
+auc_roc: 0,790987
+auc_pr: 0,346852
+cll: -0,207097
+runtime: 10099
+
+sample_loop: 25, 15
+success, learned on try #: 1
+learn
+runtime: 12664
+try: 1
+total_runtime: 14459
+infer
+auc_roc: 0,855470
+auc_pr: 0,258074
+cll: -0,211525
+runtime: 2337
+infer dss
+auc_roc: 0,820640
+auc_pr: 0,231756
+cll: -0,201813
+runtime: 2970
+
+sample_loop: 30, 15
+success, learned on try #: 1
+learn
+runtime: 11661
+try: 1
+total_runtime: 13467
+infer
+auc_roc: 0,951428
+auc_pr: 0,513900
+cll: -0,187591
+runtime: 2229
+infer dss
+auc_roc: 0,941692
+auc_pr: 0,564140
+cll: -0,180873
+runtime: 2962
+
+sample_loop: 35, 15
+success, learned on try #: 1
+learn
+runtime: 18525
+try: 1
+total_runtime: 20408
+infer
+auc_roc: 0,945476
+auc_pr: 0,496708
+cll: -0,207892
+runtime: 2511
+infer dss
+auc_roc: 0,946130
+auc_pr: 0,502346
+cll: -0,210208
+runtime: 3089
+
+sample_loop: 40, 15
+success, learned on try #: 1
+learn
+runtime: 150545
+try: 1
+total_runtime: 152736
+infer
+auc_roc: 0,921844
+auc_pr: 0,466769
+cll: -0,179990
+runtime: 3987
+infer dss
+auc_roc: 0,946268
+auc_pr: 0,525004
+cll: -0,204062
+runtime: 4682
+
+sample_loop: 45, 15
+success, learned on try #: 1
+learn
+runtime: 47674
+try: 1
+total_runtime: 49922
+infer
+auc_roc: 0,963846
+auc_pr: 0,788415
+cll: -0,132334
+runtime: 2766
+infer dss
+auc_roc: 0,935776
+auc_pr: 0,748204
+cll: -0,174229
+runtime: 3265
+
+sample_loop: 50, 15
+success, learned on try #: 1
+learn
+runtime: 94518
+try: 1
+total_runtime: 96838
+infer
+auc_roc: 0,947196
+auc_pr: 0,636177
+cll: -0,166671
+runtime: 5597
+infer dss
+auc_roc: 0,973925
+auc_pr: 0,625027
+cll: -0,181721
+runtime: 6321
+
+sample_loop: 55, 15
+success, learned on try #: 1
+learn
+runtime: 57027
+try: 1
+total_runtime: 59364
+infer
+auc_roc: 0,991434
+auc_pr: 0,809454
+cll: -0,165348
+runtime: 2871
+infer dss
+auc_roc: 0,987066
+auc_pr: 0,789951
+cll: -0,181617
+runtime: 3525
+
+sample_loop: 60, 15
+success, learned on try #: 1
+learn
+runtime: 57157
+try: 1
+total_runtime: 59442
+infer
+auc_roc: 0,948400
+auc_pr: 0,669152
+cll: -0,172685
+runtime: 2514
+infer dss
+auc_roc: 0,928552
+auc_pr: 0,593364
+cll: -0,180269
+runtime: 3543
+
+sample_loop: 65, 15
+success, learned on try #: 1
+learn
+runtime: 169576
+try: 1
+total_runtime: 171902
+infer
+auc_roc: 0,971827
+auc_pr: 0,583839
+cll: -0,177499
+runtime: 3676
+infer dss
+auc_roc: 0,969453
+auc_pr: 0,602148
+cll: -0,176711
+runtime: 4334
+
+sample_loop: 70, 15
+success, learned on try #: 1
+learn
+runtime: 548778
+try: 1
+total_runtime: 550985
+infer
+auc_roc: 0,935466
+auc_pr: 0,631539
+cll: -0,179731
+runtime: 3691
+infer dss
+auc_roc: 0,934469
+auc_pr: 0,609428
+cll: -0,186825
+runtime: 4448
+
+sample_loop: 75, 15
+success, learned on try #: 1
+learn
+runtime: 135774
+try: 1
+total_runtime: 138209
+infer
+auc_roc: 0,978397
+auc_pr: 0,623249
+cll: -0,172312
+runtime: 2949
+infer dss
+auc_roc: 0,977365
+auc_pr: 0,614088
+cll: -0,174527
+runtime: 3645
+
+sample_loop: 80, 15
+success, learned on try #: 1
+learn
+runtime: 54783
+try: 1
+total_runtime: 57174
+infer
+auc_roc: 0,958961
+auc_pr: 0,560145
+cll: -0,197996
+runtime: 2634
+infer dss
+auc_roc: 0,958652
+auc_pr: 0,579404
+cll: -0,200817
+runtime: 3235
+
+sample_loop: 85, 15
+success, learned on try #: 1
+learn
+runtime: 107802
+try: 1
+total_runtime: 110264
+infer
+auc_roc: 0,983110
+auc_pr: 0,705725
+cll: -0,184917
+runtime: 4434
+infer dss
+auc_roc: 0,980977
+auc_pr: 0,696339
+cll: -0,188719
+runtime: 5267
+
+sample_loop: 90, 15
+success, learned on try #: 1
+learn
+runtime: 40206
+try: 1
+total_runtime: 42480
+infer
+auc_roc: 0,952563
+auc_pr: 0,645879
+cll: -0,169048
+runtime: 2281
+infer dss
+auc_roc: 0,951187
+auc_pr: 0,635502
+cll: -0,169556
+runtime: 3060
+
+sample_loop: 95, 15
+success, learned on try #: 1
+learn
+runtime: 137355
+try: 1
+total_runtime: 139704
+infer
+auc_roc: 0,967802
+auc_pr: 0,668408
+cll: -0,170348
+runtime: 2918
+infer dss
+auc_roc: 0,966495
+auc_pr: 0,656116
+cll: -0,172011
+runtime: 3556
+
+sample_loop: 100, 15
+success, learned on try #: 1
+learn
+runtime: 170204
+try: 1
+total_runtime: 172692
+infer
+auc_roc: 0,987857
+auc_pr: 0,794753
+cll: -0,170581
+runtime: 4619
+infer dss
+auc_roc: 0,987857
+auc_pr: 0,794753
+cll: -0,170581
+runtime: 5322
+
+sample_loop: 5, 16
+success, learned on try #: 1
+learn
+runtime: 3831
+try: 1
+total_runtime: 5431
+infer
+auc_roc: 0,831648
+auc_pr: 0,213308
+cll: -0,263859
+runtime: 3214
+infer dss
+auc_roc: 0,893326
+auc_pr: 0,450101
+cll: -0,215935
+runtime: 3819
+
+sample_loop: 10, 16
+success, learned on try #: 1
+learn
+runtime: 5202
+try: 1
+total_runtime: 6878
+infer
+auc_roc: 0,765136
+auc_pr: 0,269646
+cll: -0,185029
+runtime: 2473
+infer dss
+auc_roc: 0,877761
+auc_pr: 0,346343
+cll: -0,198332
+runtime: 3076
+
+sample_loop: 15, 16
+success, learned on try #: 1
+learn
+runtime: 7643
+try: 1
+total_runtime: 9306
+infer
+auc_roc: 0,971551
+auc_pr: 0,473897
+cll: -0,237364
+runtime: 2613
+infer dss
+auc_roc: 0,960526
+auc_pr: 0,539927
+cll: -0,215008
+runtime: 3212
+
+sample_loop: 20, 16
+success, learned on try #: 1
+learn
+runtime: 8812
+try: 1
+total_runtime: 10554
+infer
+auc_roc: 0,632886
+auc_pr: 0,117887
+cll: -0,256071
+runtime: 2324
+infer dss
+auc_roc: 0,677503
+auc_pr: 0,196527
+cll: -0,218744
+runtime: 3048
+
+sample_loop: 25, 16
+success, learned on try #: 1
+learn
+runtime: 90480
+try: 1
+total_runtime: 92668
+infer
+auc_roc: 0,773031
+auc_pr: 0,377274
+cll: -0,193676
+runtime: 720034
+infer dss
+auc_roc: 0,955487
+auc_pr: 0,660137
+cll: -0,199636
+runtime: 726914
+
+sample_loop: 30, 16
+success, learned on try #: 1
+learn
+runtime: 49447
+try: 1
+total_runtime: 51648
+infer
+auc_roc: 0,783488
+auc_pr: 0,415531
+cll: -0,200133
+runtime: 2695
+infer dss
+auc_roc: 0,850189
+auc_pr: 0,469740
+cll: -0,196749
+runtime: 3476
+
+sample_loop: 35, 16
+success, learned on try #: 1
+learn
+runtime: 15065
+try: 1
+total_runtime: 16872
+infer
+auc_roc: 0,962865
+auc_pr: 0,581986
+cll: -0,187844
+runtime: 2141
+infer dss
+auc_roc: 0,965531
+auc_pr: 0,593928
+cll: -0,186629
+runtime: 2965
+
+sample_loop: 40, 16
+success, learned on try #: 1
+learn
+runtime: 88781
+try: 1
+total_runtime: 91042
+infer
+auc_roc: 0,966237
+auc_pr: 0,514859
+cll: -0,198998
+runtime: 3533
+infer dss
+auc_roc: 0,957241
+auc_pr: 0,649696
+cll: -0,190645
+runtime: 4730
+
+sample_loop: 45, 16
+success, learned on try #: 1
+learn
+runtime: 29823
+try: 1
+total_runtime: 31877
+infer
+auc_roc: 0,966563
+auc_pr: 0,628891
+cll: -0,177275
+runtime: 2314
+infer dss
+auc_roc: 0,969745
+auc_pr: 0,655160
+cll: -0,170378
+runtime: 2971
+
+sample_loop: 50, 16
+success, learned on try #: 1
+learn
+runtime: 60108
+try: 1
+total_runtime: 62434
+infer
+auc_roc: 0,968111
+auc_pr: 0,751520
+cll: -0,177139
+runtime: 2710
+infer dss
+auc_roc: 0,957860
+auc_pr: 0,673899
+cll: -0,189215
+runtime: 3502
+
+sample_loop: 55, 16
+success, learned on try #: 1
+learn
+runtime: 489932
+try: 1
+total_runtime: 492155
+infer
+auc_roc: 0,949157
+auc_pr: 0,786204
+cll: -0,156044
+runtime: 22184
+infer dss
+auc_roc: 0,945683
+auc_pr: 0,678971
+cll: -0,178630
+runtime: 23253
+
+sample_loop: 60, 16
+success, learned on try #: 1
+learn
+runtime: 1204529
+try: 1
+total_runtime: 1206855
+infer
+auc_roc: 0,916959
+auc_pr: 0,465830
+cll: -0,185714
+runtime: 15347
+infer dss
+auc_roc: 0,940781
+auc_pr: 0,507966
+cll: -0,199942
+runtime: 16075
+
+sample_loop: 65, 16
+success, learned on try #: 1
+learn
+runtime: 31914
+try: 1
+total_runtime: 34098
+infer
+auc_roc: 0,980031
+auc_pr: 0,677170
+cll: -0,182999
+runtime: 2236
+infer dss
+auc_roc: 0,974424
+auc_pr: 0,644462
+cll: -0,185373
+runtime: 2938
+
+sample_loop: 70, 16
+success, learned on try #: 1
+learn
+runtime: 74978
+try: 1
+total_runtime: 77304
+infer
+auc_roc: 0,975146
+auc_pr: 0,630868
+cll: -0,172053
+runtime: 2596
+infer dss
+auc_roc: 0,962865
+auc_pr: 0,628503
+cll: -0,174292
+runtime: 3079
+
+sample_loop: 75, 16
+success, learned on try #: 1
+learn
+runtime: 1420771
+try: 1
+total_runtime: 1423073
+infer
+auc_roc: 0,855693
+auc_pr: 0,502922
+cll: -0,187470
+runtime: 25265
+infer dss
+auc_roc: 0,883523
+auc_pr: 0,540129
+cll: -0,188507
+runtime: 25894
+
+sample_loop: 80, 16
+success, learned on try #: 1
+learn
+runtime: 148838
+try: 1
+total_runtime: 151127
+infer
+auc_roc: 0,987857
+auc_pr: 0,731769
+cll: -0,159742
+runtime: 2526
+infer dss
+auc_roc: 0,987479
+auc_pr: 0,744529
+cll: -0,162250
+runtime: 3053
+
+sample_loop: 85, 16
+success, learned on try #: 1
+learn
+runtime: 3035374
+try: 1
+total_runtime: 3037680
+infer
+auc_roc: 0,976385
+auc_pr: 0,800664
+cll: -0,170642
+runtime: 7704
+infer dss
+auc_roc: 0,983437
+auc_pr: 0,810282
+cll: -0,176886
+runtime: 8603
+
+sample_loop: 90, 16
+success, learned on try #: 1
+learn
+runtime: 3640478
+try: 1
+total_runtime: 3642956
+infer
+auc_roc: 0,974441
+auc_pr: 0,759535
+cll: -0,170086
+runtime: 9351
+infer dss
+auc_roc: 0,976918
+auc_pr: 0,778107
+cll: -0,172763
+runtime: 10145
+
+sample_loop: 95, 16
+success, learned on try #: 1
+learn
+runtime: 133034
+try: 1
+total_runtime: 135467
+infer
+auc_roc: 0,991366
+auc_pr: 0,837685
+cll: -0,165482
+runtime: 3373
+infer dss
+auc_roc: 0,991159
+auc_pr: 0,835596
+cll: -0,166584
+runtime: 3969
+
+sample_loop: 100, 16
+success, learned on try #: 1
+learn
+runtime: 116002
+try: 1
+total_runtime: 118382
+infer
+auc_roc: 0,977331
+auc_pr: 0,726780
+cll: -0,190728
+runtime: 3961
+infer dss
+auc_roc: 0,977331
+auc_pr: 0,726780
+cll: -0,190728
+runtime: 4917
+
+sample_loop: 5, 17
+success, learned on try #: 1
+learn
+runtime: 3831
+try: 1
+total_runtime: 5456
+infer
+auc_roc: 0,615807
+auc_pr: 0,134448
+cll: -1,169113
+runtime: 392325
+infer dss
+auc_roc: 0,856863
+auc_pr: 0,224342
+cll: -0,497854
+runtime: 409102
+
+sample_loop: 10, 17
+success, learned on try #: 1
+learn
+runtime: 14467
+try: 1
+total_runtime: 16403
+infer
+auc_roc: 0,447024
+auc_pr: 0,038934
+cll: -0,463432
+runtime: 12152
+infer dss
+auc_roc: 0,900688
+auc_pr: 0,535356
+cll: -0,219875
+runtime: 12996
+
+sample_loop: 15, 17
+success, learned on try #: 1
+learn
+runtime: 4849
+try: 1
+total_runtime: 6437
+infer
+auc_roc: 0,923529
+auc_pr: 0,599296
+cll: -0,189167
+runtime: 2089
+infer dss
+auc_roc: 0,923529
+auc_pr: 0,599296
+cll: -0,189167
+runtime: 2848
+
+sample_loop: 20, 17
+success, learned on try #: 1
+learn
+runtime: 11512
+try: 1
+total_runtime: 13233
+infer
+auc_roc: 0,709408
+auc_pr: 0,077857
+cll: -3,276457
+runtime: 17961
+infer dss
+auc_roc: 0,771999
+auc_pr: 0,093643
+cll: -0,521976
+runtime: 18086
+
+sample_loop: 25, 17
+success, learned on try #: 1
+learn
+runtime: 11692
+try: 1
+total_runtime: 13353
+infer
+auc_roc: 0,804661
+auc_pr: 0,252238
+cll: -0,201266
+runtime: 2382
+infer dss
+auc_roc: 0,892742
+auc_pr: 0,364703
+cll: -0,208068
+runtime: 3105
+
+sample_loop: 30, 17
+success, learned on try #: 1
+learn
+runtime: 30807
+try: 1
+total_runtime: 32807
+infer
+auc_roc: 0,928793
+auc_pr: 0,739952
+cll: -0,145567
+runtime: 27847
+infer dss
+auc_roc: 0,796319
+auc_pr: 0,266962
+cll: -0,198619
+runtime: 27971
+
+sample_loop: 35, 17
+success, learned on try #: 1
+learn
+runtime: 67318
+try: 1
+total_runtime: 69408
+infer
+auc_roc: 0,971414
+auc_pr: 0,642942
+cll: -0,178855
+runtime: 2901
+infer dss
+auc_roc: 0,967079
+auc_pr: 0,602409
+cll: -0,194218
+runtime: 3592
+
+sample_loop: 40, 17
+success, learned on try #: 1
+learn
+runtime: 210286
+try: 1
+total_runtime: 212487
+infer
+auc_roc: 0,858996
+auc_pr: 0,583527
+cll: -0,185966
+runtime: 15980
+infer dss
+auc_roc: 0,917337
+auc_pr: 0,598082
+cll: -0,202559
+runtime: 16780
+
+sample_loop: 45, 17
+success, learned on try #: 1
+learn
+runtime: 22165
+try: 1
+total_runtime: 24048
+infer
+auc_roc: 0,958376
+auc_pr: 0,695802
+cll: -0,174576
+runtime: 2253
+infer dss
+auc_roc: 0,959993
+auc_pr: 0,696831
+cll: -0,177849
+runtime: 2755
+
+sample_loop: 50, 17
+success, learned on try #: 1
+learn
+runtime: 32312
+try: 1
+total_runtime: 34337
+infer
+auc_roc: 0,939938
+auc_pr: 0,585885
+cll: -0,192836
+runtime: 2969
+infer dss
+auc_roc: 0,937599
+auc_pr: 0,573845
+cll: -0,193422
+runtime: 3723
+
+sample_loop: 55, 17
+success, learned on try #: 1
+learn
+runtime: 102394
+try: 1
+total_runtime: 104756
+infer
+auc_roc: 0,876023
+auc_pr: 0,618557
+cll: -0,174189
+runtime: 9482
+infer dss
+auc_roc: 0,962229
+auc_pr: 0,710101
+cll: -0,183982
+runtime: 10060
+
+sample_loop: 60, 17
+success, learned on try #: 1
+learn
+runtime: 169067
+try: 1
+total_runtime: 171405
+infer
+auc_roc: 0,972308
+auc_pr: 0,621586
+cll: -0,173188
+runtime: 2733
+infer dss
+auc_roc: 0,961988
+auc_pr: 0,635003
+cll: -0,183320
+runtime: 3085
+
+sample_loop: 65, 17
+success, learned on try #: 1
+learn
+runtime: 86346
+try: 1
+total_runtime: 88556
+infer
+auc_roc: 0,991452
+auc_pr: 0,794039
+cll: -0,151829
+runtime: 2586
+infer dss
+auc_roc: 0,986997
+auc_pr: 0,753916
+cll: -0,160143
+runtime: 3213
+
+sample_loop: 70, 17
+success, learned on try #: 1
+learn
+runtime: 59462
+try: 1
+total_runtime: 61715
+infer
+auc_roc: 0,965961
+auc_pr: 0,588408
+cll: -0,190081
+runtime: 2904
+infer dss
+auc_roc: 0,960423
+auc_pr: 0,546051
+cll: -0,194343
+runtime: 3452
+
+sample_loop: 75, 17
+success, learned on try #: 1
+learn
+runtime: 62218
+try: 1
+total_runtime: 64547
+infer
+auc_roc: 0,990196
+auc_pr: 0,811593
+cll: -0,166213
+runtime: 2577
+infer dss
+auc_roc: 0,989302
+auc_pr: 0,791504
+cll: -0,172387
+runtime: 3127
+
+sample_loop: 80, 17
+success, learned on try #: 1
+learn
+runtime: 1015481
+try: 1
+total_runtime: 1017729
+infer
+auc_roc: 0,950138
+auc_pr: 0,638393
+cll: -0,173842
+runtime: 3603
+infer dss
+auc_roc: 0,941503
+auc_pr: 0,605259
+cll: -0,176598
+runtime: 4192
+
+sample_loop: 85, 17
+success, learned on try #: 1
+learn
+runtime: 1021413
+try: 1
+total_runtime: 1023780
+infer
+auc_roc: 0,991297
+auc_pr: 0,825567
+cll: -0,165714
+runtime: 4456
+infer dss
+auc_roc: 0,989955
+auc_pr: 0,800937
+cll: -0,170484
+runtime: 4894
+
+sample_loop: 90, 17
+success, learned on try #: 1
+learn
+runtime: 63438
+try: 1
+total_runtime: 65731
+infer
+auc_roc: 0,944995
+auc_pr: 0,469557
+cll: -0,206864
+runtime: 3415
+infer dss
+auc_roc: 0,945476
+auc_pr: 0,472747
+cll: -0,207123
+runtime: 4002
+
+sample_loop: 95, 17
+success, learned on try #: 1
+learn
+runtime: 111835
+try: 1
+total_runtime: 114233
+infer
+auc_roc: 0,986103
+auc_pr: 0,791468
+cll: -0,173354
+runtime: 2876
+infer dss
+auc_roc: 0,985346
+auc_pr: 0,787506
+cll: -0,174758
+runtime: 3688
+
+sample_loop: 100, 17
+success, learned on try #: 1
+learn
+runtime: 1635225
+try: 1
+total_runtime: 1637655
+infer
+auc_roc: 0,980014
+auc_pr: 0,692279
+cll: -0,190597
+runtime: 3377
+infer dss
+auc_roc: 0,980014
+auc_pr: 0,692279
+cll: -0,190597
+runtime: 4518
+
+sample_loop: 5, 18
+success, learned on try #: 1
+learn
+runtime: 4133
+try: 1
+total_runtime: 5743
+infer
+auc_roc: 0,782903
+auc_pr: 0,296658
+cll: -0,191033
+runtime: 2118
+infer dss
+auc_roc: 0,826109
+auc_pr: 0,354619
+cll: -0,204325
+runtime: 2770
+
+sample_loop: 10, 18
+success, learned on try #: 2
+learn
+runtime: 4583
+try: 2
+total_runtime: 8201
+infer
+auc_roc: 0,928070
+auc_pr: 0,495680
+cll: -0,396334
+runtime: 3684
+infer dss
+auc_roc: 0,850310
+auc_pr: 0,297957
+cll: -0,208513
+runtime: 3771
+
+sample_loop: 15, 18
+success, learned on try #: 1
+learn
+runtime: 16384
+try: 1
+total_runtime: 18235
+infer
+auc_roc: 0,830272
+auc_pr: 0,330057
+cll: -0,193239
+runtime: 11536
+infer dss
+auc_roc: 0,887719
+auc_pr: 0,352009
+cll: -0,200822
+runtime: 12132
+
+sample_loop: 20, 18
+success, learned on try #: 1
+learn
+runtime: 12308
+try: 1
+total_runtime: 14084
+infer
+auc_roc: 0,939783
+auc_pr: 0,755039
+cll: -0,148916
+runtime: 2772
+infer dss
+auc_roc: 0,926230
+auc_pr: 0,430163
+cll: -0,204641
+runtime: 3270
+
+sample_loop: 25, 18
+success, learned on try #: 1
+learn
+runtime: 13160
+try: 1
+total_runtime: 14963
+infer
+auc_roc: 0,939474
+auc_pr: 0,505751
+cll: -0,233111
+runtime: 2520
+infer dss
+auc_roc: 0,924665
+auc_pr: 0,500027
+cll: -0,206906
+runtime: 3066
+
+sample_loop: 30, 18
+success, learned on try #: 1
+learn
+runtime: 18850
+try: 1
+total_runtime: 20713
+infer
+auc_roc: 0,783781
+auc_pr: 0,160353
+cll: -0,234391
+runtime: 2539
+infer dss
+auc_roc: 0,837307
+auc_pr: 0,263250
+cll: -0,213123
+runtime: 3061
+
+sample_loop: 35, 18
+success, learned on try #: 1
+learn
+runtime: 29444
+try: 1
+total_runtime: 31427
+infer
+auc_roc: 0,984125
+auc_pr: 0,673650
+cll: -0,169412
+runtime: 2520
+infer dss
+auc_roc: 0,986894
+auc_pr: 0,749430
+cll: -0,188612
+runtime: 3120
+
+sample_loop: 40, 18
+success, learned on try #: 1
+learn
+runtime: 219224
+try: 1
+total_runtime: 221455
+infer
+auc_roc: 0,958032
+auc_pr: 0,866613
+cll: -0,157216
+runtime: 10485
+infer dss
+auc_roc: 0,988442
+auc_pr: 0,751467
+cll: -0,190939
+runtime: 10855
+
+sample_loop: 45, 18
+success, learned on try #: 1
+learn
+runtime: 58857
+try: 1
+total_runtime: 61115
+infer
+auc_roc: 0,981940
+auc_pr: 0,820299
+cll: -0,223761
+runtime: 4185
+infer dss
+auc_roc: 0,979395
+auc_pr: 0,826899
+cll: -0,151065
+runtime: 4628
+
+sample_loop: 50, 18
+success, learned on try #: 1
+learn
+runtime: 52533
+try: 1
+total_runtime: 54703
+infer
+auc_roc: 0,993739
+auc_pr: 0,875066
+cll: -0,155294
+runtime: 3096
+infer dss
+auc_roc: 0,987891
+auc_pr: 0,769210
+cll: -0,175157
+runtime: 3629
+
+sample_loop: 55, 18
+success, learned on try #: 1
+learn
+runtime: 29708
+try: 1
+total_runtime: 31790
+infer
+auc_roc: 0,989542
+auc_pr: 0,796383
+cll: -0,161401
+runtime: 2491
+infer dss
+auc_roc: 0,987685
+auc_pr: 0,772407
+cll: -0,166824
+runtime: 3186
+
+sample_loop: 60, 18
+success, learned on try #: 1
+learn
+runtime: 39772
+try: 1
+total_runtime: 41906
+infer
+auc_roc: 0,963553
+auc_pr: 0,653774
+cll: -0,184445
+runtime: 2340
+infer dss
+auc_roc: 0,960836
+auc_pr: 0,647170
+cll: -0,189321
+runtime: 3095
+
+sample_loop: 65, 18
+success, learned on try #: 1
+learn
+runtime: 89902
+try: 1
+total_runtime: 92155
+infer
+auc_roc: 0,977520
+auc_pr: 0,598233
+cll: -0,180558
+runtime: 2389
+infer dss
+auc_roc: 0,960612
+auc_pr: 0,648223
+cll: -0,192283
+runtime: 3059
+
+sample_loop: 70, 18
+success, learned on try #: 1
+learn
+runtime: 56092
+try: 1
+total_runtime: 58455
+infer
+auc_roc: 0,986309
+auc_pr: 0,784179
+cll: -0,189725
+runtime: 3375
+infer dss
+auc_roc: 0,983523
+auc_pr: 0,746069
+cll: -0,192443
+runtime: 3969
+
+sample_loop: 75, 18
+success, learned on try #: 1
+learn
+runtime: 52110
+try: 1
+total_runtime: 54410
+infer
+auc_roc: 0,988270
+auc_pr: 0,749398
+cll: -0,184779
+runtime: 2909
+infer dss
+auc_roc: 0,986447
+auc_pr: 0,720266
+cll: -0,185865
+runtime: 3433
+
+sample_loop: 80, 18
+success, learned on try #: 1
+learn
+runtime: 64123
+try: 1
+total_runtime: 66456
+infer
+auc_roc: 0,973581
+auc_pr: 0,713723
+cll: -0,172430
+runtime: 3266
+infer dss
+auc_roc: 0,970829
+auc_pr: 0,705290
+cll: -0,172440
+runtime: 3749
+
+sample_loop: 85, 18
+success, learned on try #: 1
+learn
+runtime: 187380
+try: 1
+total_runtime: 189729
+infer
+auc_roc: 0,986103
+auc_pr: 0,750343
+cll: -0,177490
+runtime: 2575
+infer dss
+auc_roc: 0,984623
+auc_pr: 0,730726
+cll: -0,179407
+runtime: 3068
+
+sample_loop: 90, 18
+success, learned on try #: 1
+learn
+runtime: 2438848
+try: 1
+total_runtime: 2441309
+infer
+auc_roc: 0,952305
+auc_pr: 0,525248
+cll: -0,187594
+runtime: 4561
+infer dss
+auc_roc: 0,963983
+auc_pr: 0,550005
+cll: -0,190759
+runtime: 5112
+
+sample_loop: 95, 18
+success, learned on try #: 1
+learn
+runtime: 145043
+try: 1
+total_runtime: 147318
+infer
+auc_roc: 0,968111
+auc_pr: 0,746294
+cll: -0,176884
+runtime: 5382
+infer dss
+auc_roc: 0,966976
+auc_pr: 0,740946
+cll: -0,178136
+runtime: 5851
+
+sample_loop: 100, 18
+success, learned on try #: 1
+learn
+runtime: 105563
+try: 1
+total_runtime: 107959
+infer
+auc_roc: 0,979807
+auc_pr: 0,595619
+cll: -0,187574
+runtime: 3498
+infer dss
+auc_roc: 0,979807
+auc_pr: 0,595619
+cll: -0,187574
+runtime: 4028
+
+sample_loop: 5, 19
+success, learned on try #: 1
+learn
+runtime: 3636
+try: 1
+total_runtime: 5261
+infer
+auc_roc: 0,662590
+auc_pr: 0,120240
+cll: -0,212669
+runtime: 2034
+infer dss
+auc_roc: 0,662590
+auc_pr: 0,120240
+cll: -0,212669
+runtime: 2815
+
+sample_loop: 10, 19
+success, learned on try #: 1
+learn
+runtime: 6714
+try: 1
+total_runtime: 8380
+infer
+auc_roc: 0,588098
+auc_pr: 0,099519
+cll: -0,243827
+runtime: 5407
+infer dss
+auc_roc: 0,740437
+auc_pr: 0,120280
+cll: -0,432839
+runtime: 6159
+
+sample_loop: 15, 19
+success, learned on try #: 1
+learn
+runtime: 6633
+try: 1
+total_runtime: 8437
+infer
+auc_roc: 0,761816
+auc_pr: 0,157954
+cll: -0,268471
+runtime: 2834
+infer dss
+auc_roc: 0,816374
+auc_pr: 0,326082
+cll: -0,229262
+runtime: 3410
+
+sample_loop: 20, 19
+success, learned on try #: 1
+learn
+runtime: 12113
+try: 1
+total_runtime: 13886
+infer
+auc_roc: 0,953148
+auc_pr: 0,877081
+cll: -0,162637
+runtime: 5919
+infer dss
+auc_roc: 0,970795
+auc_pr: 0,782015
+cll: -0,161022
+runtime: 7291
+
+sample_loop: 25, 19
+success, learned on try #: 1
+learn
+runtime: 11511
+try: 1
+total_runtime: 13447
+infer
+auc_roc: 0,937221
+auc_pr: 0,335970
+cll: -0,244119
+runtime: 4583
+infer dss
+auc_roc: 0,964998
+auc_pr: 0,514665
+cll: -0,197444
+runtime: 5013
+
+sample_loop: 30, 19
+success, learned on try #: 1
+learn
+runtime: 10709
+try: 1
+total_runtime: 12509
+infer
+auc_roc: 0,930650
+auc_pr: 0,516792
+cll: -0,185021
+runtime: 2362
+infer dss
+auc_roc: 0,895769
+auc_pr: 0,458867
+cll: -0,188943
+runtime: 3089
+
+sample_loop: 35, 19
+success, learned on try #: 1
+learn
+runtime: 202632
+try: 1
+total_runtime: 204818
+infer
+auc_roc: 0,898521
+auc_pr: 0,561791
+cll: -0,178891
+runtime: 20397
+infer dss
+auc_roc: 0,968283
+auc_pr: 0,644591
+cll: -0,192550
+runtime: 20477
+
+sample_loop: 40, 19
+success, learned on try #: 1
+learn
+runtime: 16384
+try: 1
+total_runtime: 18245
+infer
+auc_roc: 0,694393
+auc_pr: 0,235703
+cll: -0,189763
+runtime: 2251
+infer dss
+auc_roc: 0,681527
+auc_pr: 0,235776
+cll: -0,196507
+runtime: 2927
+
+sample_loop: 45, 19
+success, learned on try #: 1
+learn
+runtime: 23997
+try: 1
+total_runtime: 25929
+infer
+auc_roc: 0,965531
+auc_pr: 0,671972
+cll: -0,173651
+runtime: 3379
+infer dss
+auc_roc: 0,967905
+auc_pr: 0,693990
+cll: -0,174026
+runtime: 3975
+
+sample_loop: 50, 19
+success, learned on try #: 1
+learn
+runtime: 52101
+try: 1
+total_runtime: 54286
+infer
+auc_roc: 0,950310
+auc_pr: 0,469048
+cll: -0,233874
+runtime: 2349
+infer dss
+auc_roc: 0,963863
+auc_pr: 0,612540
+cll: -0,178516
+runtime: 2978
+
+sample_loop: 55, 19
+success, learned on try #: 1
+learn
+runtime: 32746
+try: 1
+total_runtime: 34769
+infer
+auc_roc: 0,983454
+auc_pr: 0,629399
+cll: -0,184970
+runtime: 2227
+infer dss
+auc_roc: 0,981287
+auc_pr: 0,636578
+cll: -0,190172
+runtime: 3021
+
+sample_loop: 60, 19
+success, learned on try #: 1
+learn
+runtime: 39406
+try: 1
+total_runtime: 41581
+infer
+auc_roc: 0,972979
+auc_pr: 0,604676
+cll: -0,164727
+runtime: 3248
+infer dss
+auc_roc: 0,970846
+auc_pr: 0,614113
+cll: -0,165700
+runtime: 3866
+
+sample_loop: 65, 19
+success, learned on try #: 1
+learn
+runtime: 48965
+try: 1
+total_runtime: 51199
+infer
+auc_roc: 0,965187
+auc_pr: 0,651419
+cll: -0,186304
+runtime: 4783
+infer dss
+auc_roc: 0,968283
+auc_pr: 0,661019
+cll: -0,184166
+runtime: 5272
+
+sample_loop: 70, 19
+success, learned on try #: 1
+learn
+runtime: 63939
+try: 1
+total_runtime: 66189
+infer
+auc_roc: 0,979395
+auc_pr: 0,867057
+cll: -0,187177
+runtime: 2583
+infer dss
+auc_roc: 0,981183
+auc_pr: 0,849373
+cll: -0,192460
+runtime: 3229
+
+sample_loop: 75, 19
+success, learned on try #: 1
+learn
+runtime: 79260
+try: 1
+total_runtime: 81547
+infer
+auc_roc: 0,979016
+auc_pr: 0,689782
+cll: -0,167877
+runtime: 3227
+infer dss
+auc_roc: 0,968662
+auc_pr: 0,642719
+cll: -0,176965
+runtime: 3782
+
+sample_loop: 80, 19
+success, learned on try #: 1
+learn
+runtime: 89321
+try: 1
+total_runtime: 91659
+infer
+auc_roc: 0,972033
+auc_pr: 0,669621
+cll: -0,178730
+runtime: 5238
+infer dss
+auc_roc: 0,970726
+auc_pr: 0,650903
+cll: -0,184172
+runtime: 5730
+
+sample_loop: 85, 19
+success, learned on try #: 1
+learn
+runtime: 58691
+try: 1
+total_runtime: 61056
+infer
+auc_roc: 0,976608
+auc_pr: 0,719295
+cll: -0,178822
+runtime: 2648
+infer dss
+auc_roc: 0,975335
+auc_pr: 0,709271
+cll: -0,182159
+runtime: 3219
+
+sample_loop: 90, 19
+success, learned on try #: 1
+learn
+runtime: 70886
+try: 1
+total_runtime: 73290
+infer
+auc_roc: 0,982663
+auc_pr: 0,746033
+cll: -0,172879
+runtime: 2831
+infer dss
+auc_roc: 0,981837
+auc_pr: 0,733759
+cll: -0,174660
+runtime: 3272
+
+sample_loop: 95, 19
+success, learned on try #: 1
+learn
+runtime: 199557
+try: 1
+total_runtime: 201846
+infer
+auc_roc: 0,965703
+auc_pr: 0,641083
+cll: -0,173890
+runtime: 2978
+infer dss
+auc_roc: 0,962779
+auc_pr: 0,629906
+cll: -0,175017
+runtime: 3545
+
+sample_loop: 100, 19
+success, learned on try #: 1
+learn
+runtime: 196706
+try: 1
+total_runtime: 199126
+infer
+auc_roc: 0,965807
+auc_pr: 0,654050
+cll: -0,181964
+runtime: 2934
+infer dss
+auc_roc: 0,965807
+auc_pr: 0,654050
+cll: -0,181964
+runtime: 3901
+
+sample_loop: 5, 20
+success, learned on try #: 1
+learn
+runtime: 3630
+try: 1
+total_runtime: 5185
+infer
+auc_roc: 0,773873
+auc_pr: 0,092703
+cll: -1,860358
+runtime: 2903
+infer dss
+auc_roc: 0,815514
+auc_pr: 0,162993
+cll: -0,275331
+runtime: 3684
+
+sample_loop: 10, 20
+success, learned on try #: 1
+learn
+runtime: 5906
+try: 1
+total_runtime: 7502
+infer
+auc_roc: 0,595648
+auc_pr: 0,058095
+cll: -0,564247
+runtime: 2486
+infer dss
+auc_roc: 0,656639
+auc_pr: 0,095517
+cll: -0,242357
+runtime: 2923
+
+sample_loop: 15, 20
+success, learned on try #: 1
+learn
+runtime: 7498
+try: 1
+total_runtime: 9141
+infer
+auc_roc: 0,802133
+auc_pr: 0,197884
+cll: -0,230807
+runtime: 2306
+infer dss
+auc_roc: 0,809254
+auc_pr: 0,325170
+cll: -0,217692
+runtime: 2921
+
+sample_loop: 20, 20
+success, learned on try #: 1
+learn
+runtime: 6309
+try: 1
+total_runtime: 7945
+infer
+auc_roc: 0,773478
+auc_pr: 0,293353
+cll: -0,196134
+runtime: 2033
+infer dss
+auc_roc: 0,773478
+auc_pr: 0,293353
+cll: -0,196134
+runtime: 2777
+
+sample_loop: 25, 20
+success, learned on try #: 1
+learn
+runtime: 15129
+try: 1
+total_runtime: 16921
+infer
+auc_roc: 0,473271
+auc_pr: 0,116474
+cll: -2,405874
+runtime: 44302
+infer dss
+auc_roc: 0,587341
+auc_pr: 0,204385
+cll: -0,218685
+runtime: 45508
+
+sample_loop: 30, 20
+success, learned on try #: 1
+learn
+runtime: 33291
+try: 1
+total_runtime: 35298
+infer
+auc_roc: 0,767991
+auc_pr: 0,090448
+cll: -2,826517
+runtime: 1500000
+infer dss
+auc_roc: 0,805624
+auc_pr: 0,107193
+cll: -5,838050
+runtime: 1517905
+
+sample_loop: 35, 20
+success, learned on try #: 1
+learn
+runtime: 13241
+try: 1
+total_runtime: 14972
+infer
+auc_roc: 0,969057
+auc_pr: 0,521256
+cll: -0,207096
+runtime: 2248
+infer dss
+auc_roc: 0,967389
+auc_pr: 0,522654
+cll: -0,183711
+runtime: 2807
+
+sample_loop: 40, 20
+success, learned on try #: 1
+learn
+runtime: 86099
+try: 1
+total_runtime: 88244
+infer
+auc_roc: 0,739147
+auc_pr: 0,266678
+cll: -0,192416
+runtime: 25070
+infer dss
+auc_roc: 0,948641
+auc_pr: 0,523869
+cll: -0,203033
+runtime: 25247
+
+sample_loop: 45, 20
+success, learned on try #: 1
+learn
+runtime: 310827
+try: 1
+total_runtime: 312928
+infer
+auc_roc: 0,795752
+auc_pr: 0,476313
+cll: -0,191022
+runtime: 31730
+infer dss
+auc_roc: 0,874028
+auc_pr: 0,577263
+cll: -0,189226
+runtime: 31331
+
+sample_loop: 50, 20
+success, learned on try #: 1
+learn
+runtime: 23937
+try: 1
+total_runtime: 25836
+infer
+auc_roc: 0,960698
+auc_pr: 0,434760
+cll: -0,202298
+runtime: 2658
+infer dss
+auc_roc: 0,963295
+auc_pr: 0,501822
+cll: -0,202326
+runtime: 3321
+
+sample_loop: 55, 20
+success, learned on try #: 1
+learn
+runtime: 37218
+try: 1
+total_runtime: 39348
+infer
+auc_roc: 0,986120
+auc_pr: 0,765253
+cll: -0,165573
+runtime: 2510
+infer dss
+auc_roc: 0,983729
+auc_pr: 0,788483
+cll: -0,176861
+runtime: 3164
+
+sample_loop: 60, 20
+success, learned on try #: 1
+learn
+runtime: 149869
+try: 1
+total_runtime: 152140
+infer
+auc_roc: 0,985827
+auc_pr: 0,681805
+cll: -0,191318
+runtime: 2449
+infer dss
+auc_roc: 0,981803
+auc_pr: 0,718393
+cll: -0,191934
+runtime: 2937
+
+sample_loop: 65, 20
+success, learned on try #: 1
+learn
+runtime: 1702861
+try: 1
+total_runtime: 1705051
+infer
+auc_roc: 0,913622
+auc_pr: 0,641384
+cll: -0,175366
+runtime: 27499
+infer dss
+auc_roc: 0,947747
+auc_pr: 0,673872
+cll: -0,183852
+runtime: 28702
+
+sample_loop: 70, 20
+success, learned on try #: 1
+learn
+runtime: 59671
+try: 1
+total_runtime: 62049
+infer
+auc_roc: 0,983626
+auc_pr: 0,775208
+cll: -0,178308
+runtime: 3500
+infer dss
+auc_roc: 0,980323
+auc_pr: 0,740252
+cll: -0,184014
+runtime: 4137
+
+sample_loop: 75, 20
+success, learned on try #: 1
+learn
+runtime: 37963
+try: 1
+total_runtime: 40155
+infer
+auc_roc: 0,975645
+auc_pr: 0,655791
+cll: -0,188867
+runtime: 2621
+infer dss
+auc_roc: 0,976367
+auc_pr: 0,659999
+cll: -0,189620
+runtime: 3288
+
+sample_loop: 80, 20
+success, learned on try #: 1
+learn
+runtime: 122652
+try: 1
+total_runtime: 124897
+infer
+auc_roc: 0,990093
+auc_pr: 0,817609
+cll: -0,161451
+runtime: 3627
+infer dss
+auc_roc: 0,987547
+auc_pr: 0,771707
+cll: -0,166546
+runtime: 4230
+
+sample_loop: 85, 20
+success, learned on try #: 1
+learn
+runtime: 2987938
+try: 1
+total_runtime: 2990218
+infer
+auc_roc: 0,967974
+auc_pr: 0,687988
+cll: -0,173879
+runtime: 17133
+infer dss
+auc_roc: 0,985380
+auc_pr: 0,709003
+cll: -0,178599
+runtime: 17598
+
+sample_loop: 90, 20
+success, learned on try #: 1
+learn
+runtime: 1512089
+try: 1
+total_runtime: 1514482
+infer
+auc_roc: 0,920502
+auc_pr: 0,575422
+cll: -0,176519
+runtime: 7656
+infer dss
+auc_roc: 0,938390
+auc_pr: 0,581040
+cll: -0,179210
+runtime: 8081
+
+sample_loop: 95, 20
+success, learned on try #: 1
+learn
+runtime: 104066
+try: 1
+total_runtime: 106496
+infer
+auc_roc: 0,981493
+auc_pr: 0,732989
+cll: -0,182523
+runtime: 2991
+infer dss
+auc_roc: 0,981046
+auc_pr: 0,727395
+cll: -0,184164
+runtime: 3615
+
+sample_loop: 100, 20
+success, learned on try #: 1
+learn
+runtime: 84144
+try: 1
+total_runtime: 86544
+infer
+auc_roc: 0,976608
+auc_pr: 0,782491
+cll: -0,187443
+runtime: 3089
+infer dss
+auc_roc: 0,976608
+auc_pr: 0,782491
+cll: -0,187443
+runtime: 3630
+
+sample_loop: 5, 21
+success, learned on try #: 1
+learn
+runtime: 3634
+try: 1
+total_runtime: 5309
+infer
+auc_roc: 0,771483
+auc_pr: 0,146144
+cll: -0,221981
+runtime: 2025
+infer dss
+auc_roc: 0,771483
+auc_pr: 0,146144
+cll: -0,221981
+runtime: 2745
+
+sample_loop: 10, 21
+success, learned on try #: 1
+learn
+runtime: 6975
+try: 1
+total_runtime: 8635
+infer
+auc_roc: 0,985105
+auc_pr: 0,816141
+cll: -0,415552
+runtime: 2832
+infer dss
+auc_roc: 0,874235
+auc_pr: 0,554711
+cll: -0,185222
+runtime: 3395
+
+sample_loop: 15, 21
+success, learned on try #: 1
+learn
+runtime: 5549
+try: 1
+total_runtime: 7206
+infer
+auc_roc: 0,931218
+auc_pr: 0,616936
+cll: -0,179913
+runtime: 2023
+infer dss
+auc_roc: 0,931218
+auc_pr: 0,616936
+cll: -0,179913
+runtime: 2660
+
+sample_loop: 20, 21
+success, learned on try #: 1
+learn
+runtime: 19968
+try: 1
+total_runtime: 21808
+infer
+auc_roc: 0,942638
+auc_pr: 0,674670
+cll: -0,306512
+runtime: 5432
+infer dss
+auc_roc: 0,924974
+auc_pr: 0,568878
+cll: -0,181926
+runtime: 6248
+
+sample_loop: 25, 21
+success, learned on try #: 1
+learn
+runtime: 146467
+try: 1
+total_runtime: 148473
+infer
+auc_roc: 0,905366
+auc_pr: 0,322385
+cll: -0,293395
+runtime: 59069
+infer dss
+auc_roc: 0,960836
+auc_pr: 0,394973
+cll: -0,247876
+runtime: 58585
+
+sample_loop: 30, 21
+success, learned on try #: 1
+learn
+runtime: 14457
+try: 1
+total_runtime: 16454
+infer
+auc_roc: 0,952339
+auc_pr: 0,612501
+cll: -0,195680
+runtime: 2410
+infer dss
+auc_roc: 0,949690
+auc_pr: 0,586718
+cll: -0,198094
+runtime: 3006
+
+sample_loop: 35, 21
+success, learned on try #: 1
+learn
+runtime: 63126
+try: 1
+total_runtime: 65278
+infer
+auc_roc: 0,868817
+auc_pr: 0,535485
+cll: -0,349505
+runtime: 27314
+infer dss
+auc_roc: 0,931424
+auc_pr: 0,618553
+cll: -0,185309
+runtime: 29619
+
+sample_loop: 40, 21
+success, learned on try #: 1
+learn
+runtime: 23139
+try: 1
+total_runtime: 24992
+infer
+auc_roc: 0,951772
+auc_pr: 0,776002
+cll: -0,147247
+runtime: 3240
+infer dss
+auc_roc: 0,977606
+auc_pr: 0,726987
+cll: -0,174384
+runtime: 3793
+
+sample_loop: 45, 21
+success, learned on try #: 1
+learn
+runtime: 823331
+try: 1
+total_runtime: 825590
+infer
+auc_roc: 0,905298
+auc_pr: 0,515775
+cll: -0,183358
+runtime: 25380
+infer dss
+auc_roc: 0,968387
+auc_pr: 0,603932
+cll: -0,200326
+runtime: 24918
+
+sample_loop: 50, 21
+success, learned on try #: 1
+learn
+runtime: 33912
+try: 1
+total_runtime: 35983
+infer
+auc_roc: 0,980427
+auc_pr: 0,677626
+cll: -0,203595
+runtime: 2445
+infer dss
+auc_roc: 0,985483
+auc_pr: 0,662101
+cll: -0,197209
+runtime: 2974
+
+sample_loop: 55, 21
+success, learned on try #: 1
+learn
+runtime: 73787
+try: 1
+total_runtime: 76052
+infer
+auc_roc: 0,985776
+auc_pr: 0,721491
+cll: -0,158447
+runtime: 2520
+infer dss
+auc_roc: 0,984211
+auc_pr: 0,734811
+cll: -0,177855
+runtime: 3122
+
+sample_loop: 60, 21
+success, learned on try #: 1
+learn
+runtime: 36180
+try: 1
+total_runtime: 38287
+infer
+auc_roc: 0,953715
+auc_pr: 0,518708
+cll: -0,195988
+runtime: 2186
+infer dss
+auc_roc: 0,951789
+auc_pr: 0,492508
+cll: -0,196880
+runtime: 2945
+
+sample_loop: 65, 21
+success, learned on try #: 1
+learn
+runtime: 56222
+try: 1
+total_runtime: 58480
+infer
+auc_roc: 0,983144
+auc_pr: 0,719875
+cll: -0,168214
+runtime: 2398
+infer dss
+auc_roc: 0,979463
+auc_pr: 0,730072
+cll: -0,171410
+runtime: 3060
+
+sample_loop: 70, 21
+success, learned on try #: 1
+learn
+runtime: 324828
+try: 1
+total_runtime: 327141
+infer
+auc_roc: 0,872669
+auc_pr: 0,588048
+cll: -0,170699
+runtime: 7953
+infer dss
+auc_roc: 0,951359
+auc_pr: 0,674164
+cll: -0,177416
+runtime: 8457
+
+sample_loop: 75, 21
+success, learned on try #: 1
+learn
+runtime: 1994306
+try: 1
+total_runtime: 1996718
+infer
+auc_roc: 0,979051
+auc_pr: 0,686228
+cll: -0,179981
+runtime: 3047
+infer dss
+auc_roc: 0,981218
+auc_pr: 0,666164
+cll: -0,187259
+runtime: 3481
+
+sample_loop: 80, 21
+success, learned on try #: 1
+learn
+runtime: 72214
+try: 1
+total_runtime: 74536
+infer
+auc_roc: 0,971276
+auc_pr: 0,685433
+cll: -0,176399
+runtime: 2324
+infer dss
+auc_roc: 0,966529
+auc_pr: 0,691336
+cll: -0,179106
+runtime: 2995
+
+sample_loop: 85, 21
+success, learned on try #: 1
+learn
+runtime: 154457
+try: 1
+total_runtime: 156743
+infer
+auc_roc: 0,977520
+auc_pr: 0,708434
+cll: -0,162885
+runtime: 3053
+infer dss
+auc_roc: 0,974475
+auc_pr: 0,703476
+cll: -0,168137
+runtime: 3504
+
+sample_loop: 90, 21
+success, learned on try #: 1
+learn
+runtime: 101793
+try: 1
+total_runtime: 104184
+infer
+auc_roc: 0,980186
+auc_pr: 0,764057
+cll: -0,163418
+runtime: 3092
+infer dss
+auc_roc: 0,977640
+auc_pr: 0,748639
+cll: -0,165785
+runtime: 3551
+
+sample_loop: 95, 21
+success, learned on try #: 3
+learn
+runtime: 1862
+try: 3
+total_runtime: 3682335
+infer
+auc_roc: 0,978879
+auc_pr: 0,780877
+cll: -0,167193
+runtime: 2465
+infer dss
+auc_roc: 0,977434
+auc_pr: 0,773298
+cll: -0,168742
+runtime: 3016
+
+sample_loop: 100, 21
+success, learned on try #: 1
+learn
+runtime: 127302
+try: 1
+total_runtime: 129727
+infer
+auc_roc: 0,965824
+auc_pr: 0,708433
+cll: -0,171374
+runtime: 4531
+infer dss
+auc_roc: 0,965824
+auc_pr: 0,708433
+cll: -0,171374
+runtime: 5032
+
+sample_loop: 5, 22
+success, learned on try #: 1
+learn
+runtime: 3717
+try: 1
+total_runtime: 5286
+infer
+auc_roc: 0,394444
+auc_pr: 0,041961
+cll: -0,241994
+runtime: 2605
+infer dss
+auc_roc: 0,709907
+auc_pr: 0,156198
+cll: -0,211029
+runtime: 3041
+
+sample_loop: 10, 22
+success, learned on try #: 1
+learn
+runtime: 5877
+try: 1
+total_runtime: 7556
+infer
+auc_roc: 0,862367
+auc_pr: 0,196077
+cll: -0,306894
+runtime: 3223
+infer dss
+auc_roc: 0,887633
+auc_pr: 0,399307
+cll: -0,206719
+runtime: 3708
+
+sample_loop: 15, 22
+success, learned on try #: 1
+learn
+runtime: 7557
+try: 1
+total_runtime: 9175
+infer
+auc_roc: 0,640230
+auc_pr: 0,063696
+cll: -5,227020
+runtime: 2852
+infer dss
+auc_roc: 0,731871
+auc_pr: 0,081453
+cll: -0,283837
+runtime: 3298
+
+sample_loop: 20, 22
+success, learned on try #: 1
+learn
+runtime: 8017
+try: 1
+total_runtime: 9776
+infer
+auc_roc: 0,875851
+auc_pr: 0,294162
+cll: -0,262893
+runtime: 2462
+infer dss
+auc_roc: 0,771259
+auc_pr: 0,224258
+cll: -0,223203
+runtime: 3025
+
+sample_loop: 25, 22
+success, learned on try #: 1
+learn
+runtime: 27571
+try: 1
+total_runtime: 29532
+infer
+auc_roc: 0,843791
+auc_pr: 0,596406
+cll: -0,783679
+runtime: 968833
+infer dss
+auc_roc: 0,741417
+auc_pr: 0,420488
+cll: -0,237381
+runtime: 969991
+
+sample_loop: 30, 22
+success, learned on try #: 1
+learn
+runtime: 22900
+try: 1
+total_runtime: 24766
+infer
+auc_roc: 0,920967
+auc_pr: 0,238891
+cll: -0,418472
+runtime: 3425
+infer dss
+auc_roc: 0,982043
+auc_pr: 0,827041
+cll: -0,186312
+runtime: 4063
+
+sample_loop: 35, 22
+success, learned on try #: 1
+learn
+runtime: 17707
+try: 1
+total_runtime: 19577
+infer
+auc_roc: 0,891125
+auc_pr: 0,303134
+cll: -0,217920
+runtime: 2243
+infer dss
+auc_roc: 0,846164
+auc_pr: 0,299801
+cll: -0,212317
+runtime: 2995
+
+sample_loop: 40, 22
+success, learned on try #: 1
+learn
+runtime: 29973
+try: 1
+total_runtime: 32322
+infer
+auc_roc: 0,981407
+auc_pr: 0,702511
+cll: -0,162256
+runtime: 2342
+infer dss
+auc_roc: 0,980839
+auc_pr: 0,766656
+cll: -0,174118
+runtime: 3015
+
+sample_loop: 45, 22
+success, learned on try #: 1
+learn
+runtime: 71838
+try: 1
+total_runtime: 74051
+infer
+auc_roc: 0,970967
+auc_pr: 0,606574
+cll: -0,172579
+runtime: 6719
+infer dss
+auc_roc: 0,956656
+auc_pr: 0,560228
+cll: -0,192412
+runtime: 7739
+
+sample_loop: 50, 22
+success, learned on try #: 1
+learn
+runtime: 34833
+try: 1
+total_runtime: 36865
+infer
+auc_roc: 0,964843
+auc_pr: 0,616289
+cll: -0,190473
+runtime: 4443
+infer dss
+auc_roc: 0,964396
+auc_pr: 0,611391
+cll: -0,196491
+runtime: 4959
+
+sample_loop: 55, 22
+success, learned on try #: 1
+learn
+runtime: 36088
+try: 1
+total_runtime: 38252
+infer
+auc_roc: 0,986515
+auc_pr: 0,739137
+cll: -0,173435
+runtime: 3259
+infer dss
+auc_roc: 0,986343
+auc_pr: 0,733108
+cll: -0,169460
+runtime: 3835
+
+sample_loop: 60, 22
+success, learned on try #: 1
+learn
+runtime: 53487
+try: 1
+total_runtime: 55810
+infer
+auc_roc: 0,978552
+auc_pr: 0,759882
+cll: -0,172441
+runtime: 2992
+infer dss
+auc_roc: 0,964224
+auc_pr: 0,743320
+cll: -0,185589
+runtime: 3644
+
+sample_loop: 65, 22
+success, learned on try #: 1
+learn
+runtime: 48114
+try: 1
+total_runtime: 50352
+infer
+auc_roc: 0,973633
+auc_pr: 0,573820
+cll: -0,194880
+runtime: 3533
+infer dss
+auc_roc: 0,975525
+auc_pr: 0,601127
+cll: -0,191745
+runtime: 4048
+
+sample_loop: 70, 22
+success, learned on try #: 1
+learn
+runtime: 56246
+try: 1
+total_runtime: 58464
+infer
+auc_roc: 0,947334
+auc_pr: 0,646757
+cll: -0,198191
+runtime: 2601
+infer dss
+auc_roc: 0,945648
+auc_pr: 0,636386
+cll: -0,202397
+runtime: 3289
+
+sample_loop: 75, 22
+success, learned on try #: 1
+learn
+runtime: 99976
+try: 1
+total_runtime: 102239
+infer
+auc_roc: 0,991538
+auc_pr: 0,829906
+cll: -0,167296
+runtime: 2908
+infer dss
+auc_roc: 0,988098
+auc_pr: 0,781390
+cll: -0,172695
+runtime: 3517
+
+sample_loop: 80, 22
+success, learned on try #: 1
+learn
+runtime: 142186
+try: 1
+total_runtime: 144479
+infer
+auc_roc: 0,966357
+auc_pr: 0,694149
+cll: -0,172120
+runtime: 5121
+infer dss
+auc_roc: 0,960888
+auc_pr: 0,691006
+cll: -0,176175
+runtime: 5732
+
+sample_loop: 85, 22
+success, learned on try #: 1
+learn
+runtime: 981381
+try: 1
+total_runtime: 983722
+infer
+auc_roc: 0,981768
+auc_pr: 0,725595
+cll: -0,181471
+runtime: 4803
+infer dss
+auc_roc: 0,980323
+auc_pr: 0,705801
+cll: -0,184375
+runtime: 5514
+
+sample_loop: 90, 22
+success, learned on try #: 1
+learn
+runtime: 3284796
+try: 1
+total_runtime: 3287209
+infer
+auc_roc: 0,936326
+auc_pr: 0,512493
+cll: -0,192034
+runtime: 2849
+infer dss
+auc_roc: 0,943068
+auc_pr: 0,525250
+cll: -0,194691
+runtime: 3340
+
+sample_loop: 95, 22
+success, learned on try #: 1
+learn
+runtime: 4935992
+try: 1
+total_runtime: 4938334
+infer
+auc_roc: 0,970932
+auc_pr: 0,704119
+cll: -0,174855
+runtime: 6144
+infer dss
+auc_roc: 0,972446
+auc_pr: 0,704905
+cll: -0,176663
+runtime: 7415
+
+sample_loop: 100, 22
+success, learned on try #: 1
+learn
+runtime: 135457
+try: 1
+total_runtime: 137825
+infer
+auc_roc: 0,972755
+auc_pr: 0,660898
+cll: -0,181849
+runtime: 3495
+infer dss
+auc_roc: 0,972755
+auc_pr: 0,660898
+cll: -0,181849
+runtime: 3979
+
+sample_loop: 5, 23
+success, learned on try #: 1
+learn
+runtime: 3664
+try: 1
+total_runtime: 5308
+infer
+auc_roc: 0,739628
+auc_pr: 0,284056
+cll: -0,205053
+runtime: 2843
+infer dss
+auc_roc: 0,739972
+auc_pr: 0,282077
+cll: -0,206226
+runtime: 3410
+
+sample_loop: 10, 23
+success, learned on try #: 1
+learn
+runtime: 5316
+try: 1
+total_runtime: 7088
+infer
+auc_roc: 0,940850
+auc_pr: 0,515676
+cll: -0,188753
+runtime: 2272
+infer dss
+auc_roc: 0,941916
+auc_pr: 0,524559
+cll: -0,199811
+runtime: 3008
+
+sample_loop: 15, 23
+success, learned on try #: 1
+learn
+runtime: 7443
+try: 1
+total_runtime: 9127
+infer
+auc_roc: 0,973495
+auc_pr: 0,640368
+cll: -0,199202
+runtime: 2175
+infer dss
+auc_roc: 0,957551
+auc_pr: 0,640087
+cll: -0,181816
+runtime: 2884
+
+sample_loop: 20, 23
+success, learned on try #: 1
+learn
+runtime: 7094
+try: 1
+total_runtime: 8736
+infer
+auc_roc: 0,964396
+auc_pr: 0,462976
+cll: -0,233301
+runtime: 2247
+infer dss
+auc_roc: 0,960905
+auc_pr: 0,501531
+cll: -0,192384
+runtime: 2866
+
+sample_loop: 25, 23
+success, learned on try #: 1
+learn
+runtime: 11834
+try: 1
+total_runtime: 13560
+infer
+auc_roc: 0,947850
+auc_pr: 0,518131
+cll: -0,201120
+runtime: 2266
+infer dss
+auc_roc: 0,920244
+auc_pr: 0,522986
+cll: -0,178421
+runtime: 2828
+
+sample_loop: 30, 23
+success, learned on try #: 1
+learn
+runtime: 17267
+try: 1
+total_runtime: 19163
+infer
+auc_roc: 0,994943
+auc_pr: 0,924475
+cll: -0,154314
+runtime: 2394
+infer dss
+auc_roc: 0,979498
+auc_pr: 0,649329
+cll: -0,181517
+runtime: 2982
+
+sample_loop: 35, 23
+success, learned on try #: 1
+learn
+runtime: 14670
+try: 1
+total_runtime: 16502
+infer
+auc_roc: 0,935122
+auc_pr: 0,369131
+cll: -0,236045
+runtime: 2996
+infer dss
+auc_roc: 0,930530
+auc_pr: 0,432720
+cll: -0,178735
+runtime: 3527
+
+sample_loop: 40, 23
+success, learned on try #: 1
+learn
+runtime: 11785
+try: 1
+total_runtime: 13592
+infer
+auc_roc: 0,940179
+auc_pr: 0,544472
+cll: -0,191379
+runtime: 1973
+infer dss
+auc_roc: 0,942828
+auc_pr: 0,598350
+cll: -0,191154
+runtime: 2758
+
+sample_loop: 45, 23
+success, learned on try #: 1
+learn
+runtime: 38273
+try: 1
+total_runtime: 40321
+infer
+auc_roc: 0,990437
+auc_pr: 0,824145
+cll: -0,168999
+runtime: 3174
+infer dss
+auc_roc: 0,987513
+auc_pr: 0,735650
+cll: -0,176981
+runtime: 3910
+
+sample_loop: 50, 23
+success, learned on try #: 1
+learn
+runtime: 48989
+try: 1
+total_runtime: 51164
+infer
+auc_roc: 0,928363
+auc_pr: 0,526952
+cll: -0,180003
+runtime: 2555
+infer dss
+auc_roc: 0,904902
+auc_pr: 0,569110
+cll: -0,183152
+runtime: 3278
+
+sample_loop: 55, 23
+success, learned on try #: 1
+learn
+runtime: 125254
+try: 1
+total_runtime: 127499
+infer
+auc_roc: 0,878225
+auc_pr: 0,501572
+cll: -0,182860
+runtime: 24589
+infer dss
+auc_roc: 0,945820
+auc_pr: 0,591567
+cll: -0,196120
+runtime: 26066
+
+sample_loop: 60, 23
+success, learned on try #: 1
+learn
+runtime: 33435
+try: 1
+total_runtime: 35480
+infer
+auc_roc: 0,969831
+auc_pr: 0,548270
+cll: -0,185983
+runtime: 2882
+infer dss
+auc_roc: 0,965187
+auc_pr: 0,526773
+cll: -0,189098
+runtime: 3581
+
+sample_loop: 65, 23
+success, learned on try #: 1
+learn
+runtime: 1528719
+try: 1
+total_runtime: 1531048
+infer
+auc_roc: 0,837083
+auc_pr: 0,463103
+cll: -0,184166
+runtime: 3447
+infer dss
+auc_roc: 0,878775
+auc_pr: 0,519958
+cll: -0,188868
+runtime: 3935
+
+sample_loop: 70, 23
+success, learned on try #: 1
+learn
+runtime: 1495390
+try: 1
+total_runtime: 1497574
+infer
+auc_roc: 0,930444
+auc_pr: 0,518466
+cll: -0,199456
+runtime: 11155
+infer dss
+auc_roc: 0,955040
+auc_pr: 0,558888
+cll: -0,204678
+runtime: 11960
+
+sample_loop: 75, 23
+success, learned on try #: 1
+learn
+runtime: 78615
+try: 1
+total_runtime: 80945
+infer
+auc_roc: 0,954558
+auc_pr: 0,676259
+cll: -0,174123
+runtime: 4854
+infer dss
+auc_roc: 0,950843
+auc_pr: 0,709866
+cll: -0,174905
+runtime: 5663
+
+sample_loop: 80, 23
+success, learned on try #: 1
+learn
+runtime: 342100
+try: 1
+total_runtime: 344408
+infer
+auc_roc: 0,976127
+auc_pr: 0,712751
+cll: -0,174946
+runtime: 3641
+infer dss
+auc_roc: 0,971139
+auc_pr: 0,704625
+cll: -0,181471
+runtime: 4410
+
+sample_loop: 85, 23
+success, learned on try #: 1
+learn
+runtime: 79104
+try: 1
+total_runtime: 81268
+infer
+auc_roc: 0,978019
+auc_pr: 0,730877
+cll: -0,189987
+runtime: 2453
+infer dss
+auc_roc: 0,975163
+auc_pr: 0,697533
+cll: -0,191691
+runtime: 3083
+
+sample_loop: 90, 23
+success, learned on try #: 1
+learn
+runtime: 71939
+try: 1
+total_runtime: 74224
+infer
+auc_roc: 0,967045
+auc_pr: 0,723409
+cll: -0,174897
+runtime: 2397
+infer dss
+auc_roc: 0,961541
+auc_pr: 0,720021
+cll: -0,177244
+runtime: 2986
+
+sample_loop: 95, 23
+success, learned on try #: 1
+learn
+runtime: 101768
+try: 1
+total_runtime: 104108
+infer
+auc_roc: 0,963846
+auc_pr: 0,680779
+cll: -0,180617
+runtime: 4681
+infer dss
+auc_roc: 0,963123
+auc_pr: 0,673535
+cll: -0,181069
+runtime: 5181
+
+sample_loop: 100, 23
+success, learned on try #: 1
+learn
+runtime: 317310
+try: 1
+total_runtime: 319691
+infer
+auc_roc: 0,986756
+auc_pr: 0,782447
+cll: -0,183325
+runtime: 3327
+infer dss
+auc_roc: 0,986756
+auc_pr: 0,782447
+cll: -0,183325
+runtime: 4029
+
+sample_loop: 5, 24
+success, learned on try #: 2
+learn
+runtime: 3425
+try: 2
+total_runtime: 6998
+infer
+auc_roc: 0,738837
+auc_pr: 0,214285
+cll: -0,210759
+runtime: 2430
+infer dss
+auc_roc: 0,735982
+auc_pr: 0,272836
+cll: -0,191679
+runtime: 2965
+
+sample_loop: 10, 24
+success, learned on try #: 1
+learn
+runtime: 6476
+try: 1
+total_runtime: 8130
+infer
+auc_roc: 0,561404
+auc_pr: 0,069910
+cll: -0,411140
+runtime: 151709
+infer dss
+auc_roc: 0,872549
+auc_pr: 0,392469
+cll: -0,181050
+runtime: 155999
+
+sample_loop: 15, 24
+success, learned on try #: 1
+learn
+runtime: 9980
+try: 1
+total_runtime: 11714
+infer
+auc_roc: 0,880753
+auc_pr: 0,245377
+cll: -1,038755
+runtime: 65714
+infer dss
+auc_roc: 0,574389
+auc_pr: 0,165814
+cll: -0,255606
+runtime: 65412
+
+sample_loop: 20, 24
+success, learned on try #: 1
+learn
+runtime: 8377
+try: 1
+total_runtime: 10044
+infer
+auc_roc: 0,988132
+auc_pr: 0,874793
+cll: -0,212966
+runtime: 2730
+infer dss
+auc_roc: 0,980495
+auc_pr: 0,810785
+cll: -0,172908
+runtime: 3191
+
+sample_loop: 25, 24
+success, learned on try #: 1
+learn
+runtime: 22630
+try: 1
+total_runtime: 24470
+infer
+auc_roc: 0,811352
+auc_pr: 0,313374
+cll: -0,196827
+runtime: 8264
+infer dss
+auc_roc: 0,924149
+auc_pr: 0,540878
+cll: -0,203077
+runtime: 8704
+
+sample_loop: 30, 24
+success, learned on try #: 1
+learn
+runtime: 12078
+try: 1
+total_runtime: 13827
+infer
+auc_roc: 0,970623
+auc_pr: 0,546087
+cll: -0,182488
+runtime: 3123
+infer dss
+auc_roc: 0,978913
+auc_pr: 0,635165
+cll: -0,178213
+runtime: 3794
+
+sample_loop: 35, 24
+success, learned on try #: 1
+learn
+runtime: 33540
+try: 1
+total_runtime: 35481
+infer
+auc_roc: 0,936533
+auc_pr: 0,567649
+cll: -0,167141
+runtime: 3744
+infer dss
+auc_roc: 0,896956
+auc_pr: 0,515941
+cll: -0,174616
+runtime: 4365
+
+sample_loop: 40, 24
+success, learned on try #: 1
+learn
+runtime: 29913
+try: 1
+total_runtime: 31913
+infer
+auc_roc: 0,957688
+auc_pr: 0,614066
+cll: -0,184603
+runtime: 3481
+infer dss
+auc_roc: 0,958600
+auc_pr: 0,601625
+cll: -0,186290
+runtime: 4163
+
+sample_loop: 45, 24
+success, learned on try #: 1
+learn
+runtime: 23222
+try: 1
+total_runtime: 25112
+infer
+auc_roc: 0,968748
+auc_pr: 0,524860
+cll: -0,197644
+runtime: 2522
+infer dss
+auc_roc: 0,967492
+auc_pr: 0,607639
+cll: -0,181221
+runtime: 2982
+
+sample_loop: 50, 24
+success, learned on try #: 1
+learn
+runtime: 32679
+try: 1
+total_runtime: 34682
+infer
+auc_roc: 0,957000
+auc_pr: 0,652723
+cll: -0,187036
+runtime: 2667
+infer dss
+auc_roc: 0,957104
+auc_pr: 0,701011
+cll: -0,190932
+runtime: 3335
+
+sample_loop: 55, 24
+success, learned on try #: 1
+learn
+runtime: 49459
+try: 1
+total_runtime: 51610
+infer
+auc_roc: 0,964052
+auc_pr: 0,598486
+cll: -0,188410
+runtime: 2894
+infer dss
+auc_roc: 0,962676
+auc_pr: 0,560534
+cll: -0,191482
+runtime: 3566
+
+sample_loop: 60, 24
+success, learned on try #: 1
+learn
+runtime: 36053
+try: 1
+total_runtime: 38097
+infer
+auc_roc: 0,981854
+auc_pr: 0,694165
+cll: -0,186659
+runtime: 2369
+infer dss
+auc_roc: 0,979240
+auc_pr: 0,623267
+cll: -0,192039
+runtime: 2957
+
+sample_loop: 65, 24
+success, learned on try #: 1
+learn
+runtime: 1267298
+try: 1
+total_runtime: 1269417
+infer
+auc_roc: 0,952907
+auc_pr: 0,528803
+cll: -0,181933
+runtime: 3225
+infer dss
+auc_roc: 0,967320
+auc_pr: 0,569965
+cll: -0,192396
+runtime: 3807
+
+sample_loop: 70, 24
+success, learned on try #: 1
+learn
+runtime: 51168
+try: 1
+total_runtime: 53428
+infer
+auc_roc: 0,976092
+auc_pr: 0,689121
+cll: -0,200304
+runtime: 2542
+infer dss
+auc_roc: 0,973925
+auc_pr: 0,663284
+cll: -0,200807
+runtime: 3114
+
+sample_loop: 75, 24
+success, learned on try #: 1
+learn
+runtime: 409201
+try: 1
+total_runtime: 411360
+infer
+auc_roc: 0,969556
+auc_pr: 0,761234
+cll: -0,170936
+runtime: 4565
+infer dss
+auc_roc: 0,977847
+auc_pr: 0,739151
+cll: -0,180315
+runtime: 5023
+
+sample_loop: 80, 24
+success, learned on try #: 1
+learn
+runtime: 55542
+try: 1
+total_runtime: 57818
+infer
+auc_roc: 0,976746
+auc_pr: 0,690377
+cll: -0,187095
+runtime: 3870
+infer dss
+auc_roc: 0,976127
+auc_pr: 0,668818
+cll: -0,191296
+runtime: 4563
+
+sample_loop: 85, 24
+success, learned on try #: 1
+learn
+runtime: 163160
+try: 1
+total_runtime: 165465
+infer
+auc_roc: 0,972996
+auc_pr: 0,668992
+cll: -0,172771
+runtime: 2793
+infer dss
+auc_roc: 0,968455
+auc_pr: 0,659700
+cll: -0,177042
+runtime: 3442
+
+sample_loop: 90, 24
+success, learned on try #: 1
+learn
+runtime: 2888296
+try: 1
+total_runtime: 2890626
+infer
+auc_roc: 0,959236
+auc_pr: 0,672753
+cll: -0,190055
+runtime: 3339
+infer dss
+auc_roc: 0,962264
+auc_pr: 0,670099
+cll: -0,192637
+runtime: 3905
+
+sample_loop: 95, 24
+success, learned on try #: 1
+learn
+runtime: 284398
+try: 1
+total_runtime: 286652
+infer
+auc_roc: 0,974372
+auc_pr: 0,736747
+cll: -0,158346
+runtime: 2701
+infer dss
+auc_roc: 0,972377
+auc_pr: 0,729069
+cll: -0,159365
+runtime: 3356
+
+sample_loop: 100, 24
+success, learned on try #: 1
+learn
+runtime: 125563
+try: 1
+total_runtime: 127874
+infer
+auc_roc: 0,982250
+auc_pr: 0,752194
+cll: -0,176458
+runtime: 3407
+infer dss
+auc_roc: 0,982250
+auc_pr: 0,752194
+cll: -0,176458
+runtime: 3907
+
+sample_loop: 5, 25
+success, learned on try #: 1
+learn
+runtime: 4417
+try: 1
+total_runtime: 6124
+infer
+auc_roc: 0,600636
+auc_pr: 0,085574
+cll: -1,214807
+runtime: 14567
+infer dss
+auc_roc: 0,692054
+auc_pr: 0,335046
+cll: -0,230799
+runtime: 15044
+
+sample_loop: 10, 25
+success, learned on try #: 1
+learn
+runtime: 5523
+try: 1
+total_runtime: 7177
+infer
+auc_roc: 0,906123
+auc_pr: 0,334583
+cll: -0,254532
+runtime: 4354
+infer dss
+auc_roc: 0,917785
+auc_pr: 0,439840
+cll: -0,193550
+runtime: 4957
+
+sample_loop: 15, 25
+success, learned on try #: 1
+learn
+runtime: 8393
+try: 1
+total_runtime: 10182
+infer
+auc_roc: 0,876419
+auc_pr: 0,342061
+cll: -0,192126
+runtime: 2492
+infer dss
+auc_roc: 0,962642
+auc_pr: 0,465085
+cll: -0,197464
+runtime: 3142
+
+sample_loop: 20, 25
+success, learned on try #: 1
+learn
+runtime: 13300
+try: 1
+total_runtime: 14983
+infer
+auc_roc: 0,846646
+auc_pr: 0,341917
+cll: -0,196492
+runtime: 2272
+infer dss
+auc_roc: 0,840592
+auc_pr: 0,472722
+cll: -0,187717
+runtime: 2759
+
+sample_loop: 25, 25
+success, learned on try #: 1
+learn
+runtime: 12039
+try: 1
+total_runtime: 13793
+infer
+auc_roc: 0,958032
+auc_pr: 0,610630
+cll: -0,198503
+runtime: 2304
+infer dss
+auc_roc: 0,957860
+auc_pr: 0,610511
+cll: -0,199899
+runtime: 2872
+
+sample_loop: 30, 25
+success, learned on try #: 1
+learn
+runtime: 16346
+try: 1
+total_runtime: 18263
+infer
+auc_roc: 0,975525
+auc_pr: 0,515291
+cll: -0,210401
+runtime: 3208
+infer dss
+auc_roc: 0,971689
+auc_pr: 0,613900
+cll: -0,183478
+runtime: 3906
+
+sample_loop: 35, 25
+success, learned on try #: 1
+learn
+runtime: 13957
+try: 1
+total_runtime: 15782
+infer
+auc_roc: 0,902735
+auc_pr: 0,301897
+cll: -0,280031
+runtime: 2184
+infer dss
+auc_roc: 0,913743
+auc_pr: 0,329801
+cll: -0,216764
+runtime: 2929
+
+sample_loop: 40, 25
+success, learned on try #: 1
+learn
+runtime: 44818
+try: 1
+total_runtime: 46962
+infer
+auc_roc: 0,900482
+auc_pr: 0,543246
+cll: -0,160967
+runtime: 3213
+infer dss
+auc_roc: 0,960028
+auc_pr: 0,653598
+cll: -0,170761
+runtime: 3864
+
+sample_loop: 45, 25
+success, learned on try #: 1
+learn
+runtime: 38940
+try: 1
+total_runtime: 40986
+infer
+auc_roc: 0,965841
+auc_pr: 0,668658
+cll: -0,178252
+runtime: 2667
+infer dss
+auc_roc: 0,953113
+auc_pr: 0,647830
+cll: -0,187889
+runtime: 3327
+
+sample_loop: 50, 25
+success, learned on try #: 1
+learn
+runtime: 30104
+try: 1
+total_runtime: 32151
+infer
+auc_roc: 0,942277
+auc_pr: 0,592226
+cll: -0,194529
+runtime: 2431
+infer dss
+auc_roc: 0,934090
+auc_pr: 0,538223
+cll: -0,200159
+runtime: 2935
+
+sample_loop: 55, 25
+success, learned on try #: 1
+learn
+runtime: 111435
+try: 1
+total_runtime: 113685
+infer
+auc_roc: 0,954352
+auc_pr: 0,625424
+cll: -0,172245
+runtime: 2558
+infer dss
+auc_roc: 0,952219
+auc_pr: 0,615010
+cll: -0,175503
+runtime: 3205
+
+sample_loop: 60, 25
+success, learned on try #: 1
+learn
+runtime: 111131
+try: 1
+total_runtime: 113376
+infer
+auc_roc: 0,926127
+auc_pr: 0,541386
+cll: -0,172465
+runtime: 3449
+infer dss
+auc_roc: 0,897162
+auc_pr: 0,491537
+cll: -0,181426
+runtime: 3797
+
+sample_loop: 65, 25
+success, learned on try #: 1
+learn
+runtime: 55564
+try: 1
+total_runtime: 57778
+infer
+auc_roc: 0,996182
+auc_pr: 0,927398
+cll: -0,147919
+runtime: 3166
+infer dss
+auc_roc: 0,996904
+auc_pr: 0,939594
+cll: -0,156735
+runtime: 3568
+
+sample_loop: 70, 25
+success, learned on try #: 1
+learn
+runtime: 325624
+try: 1
+total_runtime: 327878
+infer
+auc_roc: 0,914947
+auc_pr: 0,584846
+cll: -0,180229
+runtime: 16452
+infer dss
+auc_roc: 0,942707
+auc_pr: 0,612366
+cll: -0,174926
+runtime: 16935
+
+sample_loop: 75, 25
+success, learned on try #: 1
+learn
+runtime: 109439
+try: 1
+total_runtime: 111653
+infer
+auc_roc: 0,975421
+auc_pr: 0,646352
+cll: -0,160795
+runtime: 2696
+infer dss
+auc_roc: 0,967974
+auc_pr: 0,640016
+cll: -0,163656
+runtime: 3447
+
+sample_loop: 80, 25
+success, learned on try #: 1
+learn
+runtime: 2627193
+try: 1
+total_runtime: 2629462
+infer
+auc_roc: 0,962092
+auc_pr: 0,856514
+cll: -0,160766
+runtime: 7705
+infer dss
+auc_roc: 0,989336
+auc_pr: 0,841344
+cll: -0,170711
+runtime: 8287
+
+sample_loop: 85, 25
+success, learned on try #: 1
+learn
+runtime: 3555514
+try: 1
+total_runtime: 3557846
+infer
+auc_roc: 0,964087
+auc_pr: 0,728653
+cll: -0,177854
+runtime: 4909
+infer dss
+auc_roc: 0,974131
+auc_pr: 0,730388
+cll: -0,182802
+runtime: 5338
+
+sample_loop: 90, 25
+success, learned on try #: 1
+learn
+runtime: 296393
+try: 1
+total_runtime: 298662
+infer
+auc_roc: 0,973013
+auc_pr: 0,620782
+cll: -0,168635
+runtime: 2447
+infer dss
+auc_roc: 0,970158
+auc_pr: 0,604131
+cll: -0,171116
+runtime: 2930
+
+sample_loop: 95, 25
+success, learned on try #: 1
+learn
+runtime: 122288
+try: 1
+total_runtime: 124532
+infer
+auc_roc: 0,987754
+auc_pr: 0,794324
+cll: -0,177691
+runtime: 3417
+infer dss
+auc_roc: 0,987100
+auc_pr: 0,785786
+cll: -0,178686
+runtime: 4012
+
+sample_loop: 100, 25
+success, learned on try #: 1
+learn
+runtime: 68034
+try: 1
+total_runtime: 70357
+infer
+auc_roc: 0,979154
+auc_pr: 0,752741
+cll: -0,166695
+runtime: 2402
+infer dss
+auc_roc: 0,979154
+auc_pr: 0,752741
+cll: -0,166695
+runtime: 2998
+
+sample_loop: 5, 26
+success, learned on try #: 1
+learn
+runtime: 4428
+try: 1
+total_runtime: 6016
+infer
+auc_roc: 0,745442
+auc_pr: 0,269612
+cll: -0,216222
+runtime: 2078
+infer dss
+auc_roc: 0,745442
+auc_pr: 0,269612
+cll: -0,216222
+runtime: 2730
+
+sample_loop: 15, 26
+success, learned on try #: 1
+learn
+runtime: 7087
+try: 1
+total_runtime: 8703
+infer
+auc_roc: 0,937203
+auc_pr: 0,457541
+cll: -0,218606
+runtime: 2241
+infer dss
+auc_roc: 0,936997
+auc_pr: 0,479572
+cll: -0,224232
+runtime: 2753
+
+sample_loop: 20, 26
+success, learned on try #: 1
+learn
+runtime: 37849
+try: 1
+total_runtime: 39681
+infer
+auc_roc: 0,647644
+auc_pr: 0,186204
+cll: -0,235696
+runtime: 32091
+infer dss
+auc_roc: 0,886447
+auc_pr: 0,529266
+cll: -0,199076
+runtime: 33434
+
+sample_loop: 25, 26
+success, learned on try #: 1
+learn
+runtime: 10103
+try: 1
+total_runtime: 11780
+infer
+auc_roc: 0,939181
+auc_pr: 0,479785
+cll: -0,243368
+runtime: 2478
+infer dss
+auc_roc: 0,953251
+auc_pr: 0,516430
+cll: -0,216230
+runtime: 3051
+
+sample_loop: 30, 26
+success, learned on try #: 1
+learn
+runtime: 13598
+try: 1
+total_runtime: 15334
+infer
+auc_roc: 0,856863
+auc_pr: 0,547464
+cll: -0,180925
+runtime: 2686
+infer dss
+auc_roc: 0,990437
+auc_pr: 0,882066
+cll: -0,197023
+runtime: 3156
+
+sample_loop: 35, 26
+success, learned on try #: 1
+learn
+runtime: 29645
+try: 1
+total_runtime: 31648
+infer
+auc_roc: 0,969350
+auc_pr: 0,884284
+cll: -0,157086
+runtime: 3754
+infer dss
+auc_roc: 0,960200
+auc_pr: 0,647674
+cll: -0,182399
+runtime: 4456
+
+sample_loop: 40, 26
+success, learned on try #: 1
+learn
+runtime: 37765
+try: 1
+total_runtime: 39716
+infer
+auc_roc: 0,910440
+auc_pr: 0,519350
+cll: -0,245371
+runtime: 3253
+infer dss
+auc_roc: 0,948744
+auc_pr: 0,736035
+cll: -0,173465
+runtime: 3778
+
+sample_loop: 45, 26
+success, learned on try #: 1
+learn
+runtime: 392285
+try: 1
+total_runtime: 394371
+infer
+auc_roc: 0,914276
+auc_pr: 0,624716
+cll: -0,166501
+runtime: 5418
+infer dss
+auc_roc: 0,949570
+auc_pr: 0,675979
+cll: -0,185504
+runtime: 5968
+
+sample_loop: 50, 26
+success, learned on try #: 1
+learn
+runtime: 450085
+try: 1
+total_runtime: 452242
+infer
+auc_roc: 0,908084
+auc_pr: 0,612525
+cll: -0,186488
+runtime: 4896
+infer dss
+auc_roc: 0,965119
+auc_pr: 0,681505
+cll: -0,202334
+runtime: 5571
+
+sample_loop: 55, 26
+success, learned on try #: 1
+learn
+runtime: 56507
+try: 1
+total_runtime: 58657
+infer
+auc_roc: 0,968937
+auc_pr: 0,692222
+cll: -0,180141
+runtime: 3452
+infer dss
+auc_roc: 0,964568
+auc_pr: 0,666920
+cll: -0,193299
+runtime: 4233
+
+sample_loop: 60, 26
+success, learned on try #: 1
+learn
+runtime: 68628
+try: 1
+total_runtime: 70838
+infer
+auc_roc: 0,974733
+auc_pr: 0,626907
+cll: -0,164009
+runtime: 2474
+infer dss
+auc_roc: 0,962969
+auc_pr: 0,658237
+cll: -0,170039
+runtime: 3116
+
+sample_loop: 65, 26
+success, learned on try #: 1
+learn
+runtime: 2306305
+try: 1
+total_runtime: 2308442
+infer
+auc_roc: 0,962969
+auc_pr: 0,670659
+cll: -0,178327
+runtime: 16362
+infer dss
+auc_roc: 0,977692
+auc_pr: 0,684139
+cll: -0,185082
+runtime: 16929
+
+sample_loop: 70, 26
+success, learned on try #: 1
+learn
+runtime: 81765
+try: 1
+total_runtime: 84042
+infer
+auc_roc: 0,970519
+auc_pr: 0,619675
+cll: -0,169854
+runtime: 4127
+infer dss
+auc_roc: 0,964087
+auc_pr: 0,611935
+cll: -0,173314
+runtime: 4708
+
+sample_loop: 75, 26
+success, learned on try #: 1
+learn
+runtime: 54295
+try: 1
+total_runtime: 56540
+infer
+auc_roc: 0,969522
+auc_pr: 0,655298
+cll: -0,185212
+runtime: 3335
+infer dss
+auc_roc: 0,968111
+auc_pr: 0,652551
+cll: -0,184982
+runtime: 3993
+
+sample_loop: 80, 26
+success, learned on try #: 1
+learn
+runtime: 69626
+try: 1
+total_runtime: 71874
+infer
+auc_roc: 0,992105
+auc_pr: 0,775582
+cll: -0,169455
+runtime: 3021
+infer dss
+auc_roc: 0,992260
+auc_pr: 0,793207
+cll: -0,175073
+runtime: 3531
+
+sample_loop: 85, 26
+success, learned on try #: 1
+learn
+runtime: 443660
+try: 1
+total_runtime: 446130
+infer
+auc_roc: 0,980702
+auc_pr: 0,689416
+cll: -0,163368
+runtime: 2756
+infer dss
+auc_roc: 0,977090
+auc_pr: 0,676113
+cll: -0,167718
+runtime: 3361
+
+sample_loop: 90, 26
+success, learned on try #: 1
+learn
+runtime: 4687313
+try: 1
+total_runtime: 4689653
+infer
+auc_roc: 0,967871
+auc_pr: 0,788464
+cll: -0,179986
+runtime: 5545
+infer dss
+auc_roc: 0,972446
+auc_pr: 0,774822
+cll: -0,183404
+runtime: 6067
+
+sample_loop: 95, 26
+success, learned on try #: 1
+learn
+runtime: 104912
+try: 1
+total_runtime: 107182
+infer
+auc_roc: 0,961438
+auc_pr: 0,620494
+cll: -0,182424
+runtime: 4310
+infer dss
+auc_roc: 0,961197
+auc_pr: 0,619333
+cll: -0,183788
+runtime: 4792
+
+sample_loop: 100, 26
+success, learned on try #: 1
+learn
+runtime: 705525
+try: 1
+total_runtime: 707809
+infer
+auc_roc: 0,969591
+auc_pr: 0,710997
+cll: -0,164410
+runtime: 3050
+infer dss
+auc_roc: 0,969591
+auc_pr: 0,710997
+cll: -0,164410
+runtime: 3682
+
+sample_loop: 5, 27
+success, learned on try #: 1
+learn
+runtime: 3325
+try: 1
+total_runtime: 4961
+infer
+auc_roc: 0,469694
+auc_pr: 0,067963
+cll: -0,214859
+runtime: 2245
+infer dss
+auc_roc: 0,504128
+auc_pr: 0,079490
+cll: -0,213689
+runtime: 2837
+
+sample_loop: 10, 27
+success, learned on try #: 1
+learn
+runtime: 6223
+try: 1
+total_runtime: 7826
+infer
+auc_roc: 0,692363
+auc_pr: 0,068318
+cll: -1,255808
+runtime: 3210
+infer dss
+auc_roc: 0,842208
+auc_pr: 0,342160
+cll: -0,226323
+runtime: 3782
+
+sample_loop: 15, 27
+success, learned on try #: 1
+learn
+runtime: 10931
+try: 1
+total_runtime: 12598
+infer
+auc_roc: 0,621637
+auc_pr: 0,151952
+cll: -0,196547
+runtime: 4848
+infer dss
+auc_roc: 0,836498
+auc_pr: 0,353881
+cll: -0,219840
+runtime: 5591
+
+sample_loop: 20, 27
+success, learned on try #: 1
+learn
+runtime: 7487
+try: 1
+total_runtime: 9075
+infer
+auc_roc: 0,843172
+auc_pr: 0,256020
+cll: -0,192618
+runtime: 2023
+infer dss
+auc_roc: 0,843172
+auc_pr: 0,256020
+cll: -0,192618
+runtime: 2799
+
+sample_loop: 25, 27
+success, learned on try #: 1
+learn
+runtime: 10939
+try: 1
+total_runtime: 12826
+infer
+auc_roc: 0,910251
+auc_pr: 0,240865
+cll: -0,335047
+runtime: 2395
+infer dss
+auc_roc: 0,941538
+auc_pr: 0,373471
+cll: -0,221224
+runtime: 3065
+
+sample_loop: 30, 27
+success, learned on try #: 1
+learn
+runtime: 13929
+try: 1
+total_runtime: 15720
+infer
+auc_roc: 0,936326
+auc_pr: 0,392435
+cll: -0,230808
+runtime: 2595
+infer dss
+auc_roc: 0,943430
+auc_pr: 0,524659
+cll: -0,175239
+runtime: 3203
+
+sample_loop: 35, 27
+success, learned on try #: 1
+learn
+runtime: 12621
+try: 1
+total_runtime: 14388
+infer
+auc_roc: 0,959219
+auc_pr: 0,562924
+cll: -0,192774
+runtime: 2169
+infer dss
+auc_roc: 0,968215
+auc_pr: 0,741130
+cll: -0,193948
+runtime: 2882
+
+sample_loop: 40, 27
+success, learned on try #: 1
+learn
+runtime: 265391
+try: 1
+total_runtime: 267431
+infer
+auc_roc: 0,613399
+auc_pr: 0,111737
+cll: -0,225989
+runtime: 21273
+infer dss
+auc_roc: 0,792105
+auc_pr: 0,261491
+cll: -0,210437
+runtime: 21686
+
+sample_loop: 45, 27
+success, learned on try #: 1
+learn
+runtime: 29681
+try: 1
+total_runtime: 31929
+infer
+auc_roc: 0,951737
+auc_pr: 0,553244
+cll: -0,203804
+runtime: 2351
+infer dss
+auc_roc: 0,939044
+auc_pr: 0,522414
+cll: -0,209382
+runtime: 2959
+
+sample_loop: 50, 27
+success, learned on try #: 1
+learn
+runtime: 49141
+try: 1
+total_runtime: 51303
+infer
+auc_roc: 0,891434
+auc_pr: 0,706116
+cll: -0,135399
+runtime: 20583
+infer dss
+auc_roc: 0,947747
+auc_pr: 0,734697
+cll: -0,187269
+runtime: 20016
+
+sample_loop: 55, 27
+success, learned on try #: 1
+learn
+runtime: 46489
+try: 1
+total_runtime: 48682
+infer
+auc_roc: 0,963347
+auc_pr: 0,582183
+cll: -0,164970
+runtime: 4329
+infer dss
+auc_roc: 0,939181
+auc_pr: 0,571228
+cll: -0,166379
+runtime: 4912
+
+sample_loop: 60, 27
+success, learned on try #: 1
+learn
+runtime: 38474
+try: 1
+total_runtime: 40557
+infer
+auc_roc: 0,979635
+auc_pr: 0,682030
+cll: -0,170668
+runtime: 2343
+infer dss
+auc_roc: 0,971999
+auc_pr: 0,642111
+cll: -0,178721
+runtime: 2935
+
+sample_loop: 65, 27
+success, learned on try #: 1
+learn
+runtime: 1238500
+try: 1
+total_runtime: 1240640
+infer
+auc_roc: 0,849002
+auc_pr: 0,357021
+cll: -0,190166
+runtime: 5515
+infer dss
+auc_roc: 0,900757
+auc_pr: 0,450200
+cll: -0,198310
+runtime: 6088
+
+sample_loop: 70, 27
+success, learned on try #: 1
+learn
+runtime: 1521449
+try: 1
+total_runtime: 1523776
+infer
+auc_roc: 0,951651
+auc_pr: 0,495712
+cll: -0,185445
+runtime: 3669
+infer dss
+auc_roc: 0,962040
+auc_pr: 0,548589
+cll: -0,192958
+runtime: 4577
+
+sample_loop: 75, 27
+success, learned on try #: 1
+learn
+runtime: 272099
+try: 1
+total_runtime: 274435
+infer
+auc_roc: 0,970588
+auc_pr: 0,718525
+cll: -0,158365
+runtime: 27943
+infer dss
+auc_roc: 0,960268
+auc_pr: 0,721510
+cll: -0,165057
+runtime: 29450
+
+sample_loop: 80, 27
+success, learned on try #: 1
+learn
+runtime: 54600
+try: 1
+total_runtime: 56835
+infer
+auc_roc: 0,979498
+auc_pr: 0,755438
+cll: -0,188773
+runtime: 3097
+infer dss
+auc_roc: 0,976195
+auc_pr: 0,728096
+cll: -0,190842
+runtime: 3713
+
+sample_loop: 85, 27
+success, learned on try #: 1
+learn
+runtime: 455030
+try: 1
+total_runtime: 457318
+infer
+auc_roc: 0,985260
+auc_pr: 0,715770
+cll: -0,175401
+runtime: 2486
+infer dss
+auc_roc: 0,983987
+auc_pr: 0,706340
+cll: -0,180528
+runtime: 3236
+
+sample_loop: 90, 27
+success, learned on try #: 1
+learn
+runtime: 169418
+try: 1
+total_runtime: 171713
+infer
+auc_roc: 0,989302
+auc_pr: 0,841427
+cll: -0,179076
+runtime: 4268
+infer dss
+auc_roc: 0,987031
+auc_pr: 0,822277
+cll: -0,181394
+runtime: 4683
+
+sample_loop: 95, 27
+success, learned on try #: 1
+learn
+runtime: 186884
+try: 1
+total_runtime: 189198
+infer
+auc_roc: 0,959168
+auc_pr: 0,615394
+cll: -0,186914
+runtime: 4719
+infer dss
+auc_roc: 0,957757
+auc_pr: 0,609821
+cll: -0,187385
+runtime: 5387
+
+sample_loop: 100, 27
+success, learned on try #: 1
+learn
+runtime: 148028
+try: 1
+total_runtime: 150333
+infer
+auc_roc: 0,989370
+auc_pr: 0,821220
+cll: -0,174046
+runtime: 4761
+infer dss
+auc_roc: 0,989370
+auc_pr: 0,821220
+cll: -0,174046
+runtime: 5489
+
+sample_loop: 5, 28
+success, learned on try #: 1
+learn
+runtime: 3234
+try: 1
+total_runtime: 4903
+infer
+auc_roc: 0,533695
+auc_pr: 0,172979
+cll: -0,211286
+runtime: 2421
+infer dss
+auc_roc: 0,722755
+auc_pr: 0,198616
+cll: -0,210373
+runtime: 2941
+
+sample_loop: 10, 28
+success, learned on try #: 1
+learn
+runtime: 8236
+try: 1
+total_runtime: 9882
+infer
+auc_roc: 0,778689
+auc_pr: 0,123697
+cll: -0,425607
+runtime: 2525
+infer dss
+auc_roc: 0,909357
+auc_pr: 0,301382
+cll: -0,228389
+runtime: 3039
+
+sample_loop: 15, 28
+success, learned on try #: 1
+learn
+runtime: 9109
+try: 1
+total_runtime: 10827
+infer
+auc_roc: 0,943172
+auc_pr: 0,542796
+cll: -0,185153
+runtime: 2182
+infer dss
+auc_roc: 0,942501
+auc_pr: 0,544615
+cll: -0,187496
+runtime: 2880
+
+sample_loop: 20, 28
+success, learned on try #: 1
+learn
+runtime: 10229
+try: 1
+total_runtime: 11959
+infer
+auc_roc: 0,976471
+auc_pr: 0,679635
+cll: -0,155320
+runtime: 2859
+infer dss
+auc_roc: 0,957792
+auc_pr: 0,580916
+cll: -0,172506
+runtime: 3400
+
+sample_loop: 25, 28
+success, learned on try #: 1
+learn
+runtime: 8261
+try: 1
+total_runtime: 9928
+infer
+auc_roc: 0,763192
+auc_pr: 0,164116
+cll: -0,203527
+runtime: 2280
+infer dss
+auc_roc: 0,770124
+auc_pr: 0,175017
+cll: -0,203825
+runtime: 3003
+
+sample_loop: 30, 28
+success, learned on try #: 1
+learn
+runtime: 12446
+try: 1
+total_runtime: 14156
+infer
+auc_roc: 0,838717
+auc_pr: 0,300850
+cll: -0,211887
+runtime: 2296
+infer dss
+auc_roc: 0,922876
+auc_pr: 0,419881
+cll: -0,215624
+runtime: 3012
+
+sample_loop: 35, 28
+success, learned on try #: 1
+learn
+runtime: 14488
+try: 1
+total_runtime: 16329
+infer
+auc_roc: 0,937650
+auc_pr: 0,486695
+cll: -0,181158
+runtime: 2271
+infer dss
+auc_roc: 0,938837
+auc_pr: 0,534259
+cll: -0,180837
+runtime: 3020
+
+sample_loop: 40, 28
+success, learned on try #: 1
+learn
+runtime: 42913
+try: 1
+total_runtime: 44994
+infer
+auc_roc: 0,927915
+auc_pr: 0,700635
+cll: -0,271776
+runtime: 286406
+infer dss
+auc_roc: 0,938923
+auc_pr: 0,679984
+cll: -0,198138
+runtime: 291101
+
+sample_loop: 45, 28
+success, learned on try #: 1
+learn
+runtime: 29666
+try: 1
+total_runtime: 31724
+infer
+auc_roc: 0,973787
+auc_pr: 0,617312
+cll: -0,189434
+runtime: 2377
+infer dss
+auc_roc: 0,976987
+auc_pr: 0,625827
+cll: -0,195666
+runtime: 2868
+
+sample_loop: 50, 28
+success, learned on try #: 1
+learn
+runtime: 31746
+try: 1
+total_runtime: 33793
+infer
+auc_roc: 0,907912
+auc_pr: 0,516262
+cll: -0,173962
+runtime: 2168
+infer dss
+auc_roc: 0,870829
+auc_pr: 0,436199
+cll: -0,180304
+runtime: 2767
+
+sample_loop: 55, 28
+success, learned on try #: 1
+learn
+runtime: 70861
+try: 1
+total_runtime: 73054
+infer
+auc_roc: 0,931837
+auc_pr: 0,531732
+cll: -0,179852
+runtime: 2765
+infer dss
+auc_roc: 0,908531
+auc_pr: 0,470888
+cll: -0,188183
+runtime: 3277
+
+sample_loop: 60, 28
+success, learned on try #: 1
+learn
+runtime: 955997
+try: 1
+total_runtime: 958091
+infer
+auc_roc: 0,914310
+auc_pr: 0,723600
+cll: -0,167140
+runtime: 3426
+infer dss
+auc_roc: 0,963880
+auc_pr: 0,730039
+cll: -0,182260
+runtime: 4047
+
+sample_loop: 65, 28
+success, learned on try #: 1
+learn
+runtime: 56527
+try: 1
+total_runtime: 58777
+infer
+auc_roc: 0,911318
+auc_pr: 0,440798
+cll: -0,184443
+runtime: 2720
+infer dss
+auc_roc: 0,878070
+auc_pr: 0,442713
+cll: -0,186474
+runtime: 3302
+
+sample_loop: 70, 28
+success, learned on try #: 1
+learn
+runtime: 57653
+try: 1
+total_runtime: 59861
+infer
+auc_roc: 0,982043
+auc_pr: 0,725421
+cll: -0,178520
+runtime: 2615
+infer dss
+auc_roc: 0,979395
+auc_pr: 0,667329
+cll: -0,180466
+runtime: 3084
+
+sample_loop: 75, 28
+success, learned on try #: 1
+learn
+runtime: 82729
+try: 1
+total_runtime: 84961
+infer
+auc_roc: 0,911197
+auc_pr: 0,439655
+cll: -0,185694
+runtime: 2635
+infer dss
+auc_roc: 0,889938
+auc_pr: 0,416685
+cll: -0,189516
+runtime: 3335
+
+sample_loop: 80, 28
+success, learned on try #: 1
+learn
+runtime: 89939
+try: 1
+total_runtime: 92197
+infer
+auc_roc: 0,976522
+auc_pr: 0,669719
+cll: -0,162794
+runtime: 2527
+infer dss
+auc_roc: 0,973925
+auc_pr: 0,684286
+cll: -0,164216
+runtime: 3121
+
+sample_loop: 85, 28
+success, learned on try #: 1
+learn
+runtime: 118708
+try: 1
+total_runtime: 121046
+infer
+auc_roc: 0,988201
+auc_pr: 0,732091
+cll: -0,182902
+runtime: 3038
+infer dss
+auc_roc: 0,986825
+auc_pr: 0,696232
+cll: -0,186816
+runtime: 3521
+
+sample_loop: 90, 28
+success, learned on try #: 1
+learn
+runtime: 3466908
+try: 1
+total_runtime: 3469231
+infer
+auc_roc: 0,936361
+auc_pr: 0,602838
+cll: -0,179787
+runtime: 7980
+infer dss
+auc_roc: 0,942243
+auc_pr: 0,612979
+cll: -0,182586
+runtime: 8602
+
+sample_loop: 95, 28
+success, learned on try #: 1
+learn
+runtime: 1069554
+try: 1
+total_runtime: 1071801
+infer
+auc_roc: 0,975679
+auc_pr: 0,761377
+cll: -0,168470
+runtime: 4390
+infer dss
+auc_roc: 0,974716
+auc_pr: 0,761806
+cll: -0,169794
+runtime: 4973
+
+sample_loop: 100, 28
+success, learned on try #: 1
+learn
+runtime: 193980
+try: 1
+total_runtime: 196367
+infer
+auc_roc: 0,975473
+auc_pr: 0,656474
+cll: -0,180422
+runtime: 3343
+infer dss
+auc_roc: 0,975473
+auc_pr: 0,656474
+cll: -0,180422
+runtime: 3946
+
+sample_loop: 5, 29
+success, learned on try #: 1
+learn
+runtime: 3947
+try: 1
+total_runtime: 5511
+infer
+auc_roc: 0,465480
+auc_pr: 0,072161
+cll: -0,215442
+runtime: 2111
+infer dss
+auc_roc: 0,581579
+auc_pr: 0,090022
+cll: -0,217482
+runtime: 2776
+
+sample_loop: 10, 29
+success, learned on try #: 1
+learn
+runtime: 6899
+try: 1
+total_runtime: 8464
+infer
+auc_roc: 0,925456
+auc_pr: 0,346829
+cll: -0,623738
+runtime: 12514
+infer dss
+auc_roc: 0,872824
+auc_pr: 0,197067
+cll: -0,270462
+runtime: 12604
+
+sample_loop: 15, 29
+success, learned on try #: 1
+learn
+runtime: 7000
+try: 1
+total_runtime: 8626
+infer
+auc_roc: 0,971913
+auc_pr: 0,673300
+cll: -0,518298
+runtime: 2517
+infer dss
+auc_roc: 0,866907
+auc_pr: 0,514580
+cll: -0,221861
+runtime: 3040
+
+sample_loop: 20, 29
+success, learned on try #: 1
+learn
+runtime: 10247
+try: 1
+total_runtime: 11908
+infer
+auc_roc: 0,886343
+auc_pr: 0,208656
+cll: -0,321567
+runtime: 2328
+infer dss
+auc_roc: 0,940574
+auc_pr: 0,541715
+cll: -0,193558
+runtime: 3051
+
+sample_loop: 25, 29
+success, learned on try #: 1
+learn
+runtime: 10657
+try: 1
+total_runtime: 12408
+infer
+auc_roc: 0,932749
+auc_pr: 0,378579
+cll: -0,232945
+runtime: 2493
+infer dss
+auc_roc: 0,932112
+auc_pr: 0,388664
+cll: -0,218018
+runtime: 3125
+
+sample_loop: 30, 29
+success, learned on try #: 1
+learn
+runtime: 31861
+try: 1
+total_runtime: 33827
+infer
+auc_roc: 0,451772
+auc_pr: 0,185931
+cll: -0,692498
+runtime: 1617862
+infer dss
+auc_roc: 0,524974
+auc_pr: 0,165617
+cll: -0,215201
+runtime: 1502207
+
+sample_loop: 35, 29
+success, learned on try #: 1
+learn
+runtime: 56576
+try: 1
+total_runtime: 58694
+infer
+auc_roc: 0,858789
+auc_pr: 0,422482
+cll: -0,922770
+runtime: 508823
+infer dss
+auc_roc: 0,936034
+auc_pr: 0,625461
+cll: -0,252527
+runtime: 512210
+
+sample_loop: 40, 29
+success, learned on try #: 1
+learn
+runtime: 53841
+try: 1
+total_runtime: 55938
+infer
+auc_roc: 0,991056
+auc_pr: 0,908841
+cll: -0,134947
+runtime: 3261
+infer dss
+auc_roc: 0,975955
+auc_pr: 0,805138
+cll: -0,168298
+runtime: 4360
+
+sample_loop: 45, 29
+success, learned on try #: 1
+learn
+runtime: 15675
+try: 1
+total_runtime: 17511
+infer
+auc_roc: 0,914792
+auc_pr: 0,342880
+cll: -0,198247
+runtime: 2164
+infer dss
+auc_roc: 0,872497
+auc_pr: 0,294308
+cll: -0,192350
+runtime: 2827
+
+sample_loop: 50, 29
+success, learned on try #: 1
+learn
+runtime: 560469
+try: 1
+total_runtime: 562523
+infer
+auc_roc: 0,864190
+auc_pr: 0,461381
+cll: -0,178951
+runtime: 9620
+infer dss
+auc_roc: 0,886326
+auc_pr: 0,520791
+cll: -0,193189
+runtime: 10365
+
+sample_loop: 55, 29
+success, learned on try #: 1
+learn
+runtime: 1569194
+try: 1
+total_runtime: 1571243
+infer
+auc_roc: 0,980427
+auc_pr: 0,649485
+cll: -0,164165
+runtime: 2642
+infer dss
+auc_roc: 0,978156
+auc_pr: 0,636979
+cll: -0,178337
+runtime: 3183
+
+sample_loop: 60, 29
+success, learned on try #: 1
+learn
+runtime: 55116
+try: 1
+total_runtime: 57319
+infer
+auc_roc: 0,923633
+auc_pr: 0,552518
+cll: -0,207067
+runtime: 2271
+infer dss
+auc_roc: 0,920777
+auc_pr: 0,547563
+cll: -0,207086
+runtime: 2898
+
+sample_loop: 65, 29
+success, learned on try #: 1
+learn
+runtime: 203065
+try: 1
+total_runtime: 205229
+infer
+auc_roc: 0,874579
+auc_pr: 0,664071
+cll: -0,166356
+runtime: 7346
+infer dss
+auc_roc: 0,920812
+auc_pr: 0,673817
+cll: -0,174168
+runtime: 8231
+
+sample_loop: 70, 29
+success, learned on try #: 1
+learn
+runtime: 893665
+try: 1
+total_runtime: 895845
+infer
+auc_roc: 0,994014
+auc_pr: 0,869335
+cll: -0,151825
+runtime: 7558
+infer dss
+auc_roc: 0,991744
+auc_pr: 0,838746
+cll: -0,165844
+runtime: 8153
+
+sample_loop: 75, 29
+success, learned on try #: 1
+learn
+runtime: 30716
+try: 1
+total_runtime: 32792
+infer
+auc_roc: 0,950413
+auc_pr: 0,510186
+cll: -0,191140
+runtime: 2189
+infer dss
+auc_roc: 0,947248
+auc_pr: 0,506973
+cll: -0,191451
+runtime: 2690
+
+sample_loop: 80, 29
+success, learned on try #: 1
+learn
+runtime: 97103
+try: 1
+total_runtime: 99348
+infer
+auc_roc: 0,974716
+auc_pr: 0,669330
+cll: -0,182394
+runtime: 2529
+infer dss
+auc_roc: 0,969797
+auc_pr: 0,644367
+cll: -0,184952
+runtime: 2993
+
+sample_loop: 85, 29
+success, learned on try #: 1
+learn
+runtime: 140622
+try: 1
+total_runtime: 142901
+infer
+auc_roc: 0,963399
+auc_pr: 0,681882
+cll: -0,180135
+runtime: 4338
+infer dss
+auc_roc: 0,958376
+auc_pr: 0,668914
+cll: -0,182160
+runtime: 4821
+
+sample_loop: 90, 29
+success, learned on try #: 1
+learn
+runtime: 69748
+try: 1
+total_runtime: 72096
+infer
+auc_roc: 0,976918
+auc_pr: 0,704629
+cll: -0,183604
+runtime: 2937
+infer dss
+auc_roc: 0,976436
+auc_pr: 0,690382
+cll: -0,185581
+runtime: 3611
+
+sample_loop: 95, 29
+success, learned on try #: 1
+learn
+runtime: 446219
+try: 1
+total_runtime: 448363
+infer
+auc_roc: 0,984899
+auc_pr: 0,733166
+cll: -0,169375
+runtime: 4760
+infer dss
+auc_roc: 0,984830
+auc_pr: 0,728842
+cll: -0,170530
+runtime: 5272
+
+sample_loop: 100, 29
+success, learned on try #: 1
+learn
+runtime: 243185
+try: 1
+total_runtime: 245471
+infer
+auc_roc: 0,989095
+auc_pr: 0,804586
+cll: -0,169656
+runtime: 5140
+infer dss
+auc_roc: 0,989095
+auc_pr: 0,804586
+cll: -0,169656
+runtime: 5741
+
+sample_loop: 5, 30
+success, learned on try #: 1
+learn
+runtime: 4923
+try: 1
+total_runtime: 6492
+infer
+auc_roc: 0,518920
+auc_pr: 0,118325
+cll: -0,232193
+runtime: 3463
+infer dss
+auc_roc: 0,755108
+auc_pr: 0,101805
+cll: -0,384599
+runtime: 4130
+
+sample_loop: 10, 30
+success, learned on try #: 1
+learn
+runtime: 4579
+try: 1
+total_runtime: 6159
+infer
+auc_roc: 0,865101
+auc_pr: 0,263482
+cll: -0,248743
+runtime: 2157
+infer dss
+auc_roc: 0,803337
+auc_pr: 0,317264
+cll: -0,218219
+runtime: 2878
+
+sample_loop: 15, 30
+success, learned on try #: 1
+learn
+runtime: 10232
+try: 1
+total_runtime: 11910
+infer
+auc_roc: 0,584606
+auc_pr: 0,159045
+cll: -0,593098
+runtime: 498604
+infer dss
+auc_roc: 0,812040
+auc_pr: 0,299814
+cll: -0,686491
+runtime: 504690
+
+sample_loop: 20, 30
+success, learned on try #: 1
+learn
+runtime: 9046
+try: 1
+total_runtime: 10746
+infer
+auc_roc: 0,887358
+auc_pr: 0,511829
+cll: -0,185918
+runtime: 2288
+infer dss
+auc_roc: 0,895580
+auc_pr: 0,524528
+cll: -0,184230
+runtime: 2963
+
+sample_loop: 25, 30
+success, learned on try #: 1
+learn
+runtime: 12219
+try: 1
+total_runtime: 13973
+infer
+auc_roc: 0,944221
+auc_pr: 0,478738
+cll: -0,204345
+runtime: 2362
+infer dss
+auc_roc: 0,959047
+auc_pr: 0,544920
+cll: -0,203681
+runtime: 2968
+
+sample_loop: 30, 30
+success, learned on try #: 1
+learn
+runtime: 31617
+try: 1
+total_runtime: 33605
+infer
+auc_roc: 0,982835
+auc_pr: 0,715463
+cll: -0,170083
+runtime: 2327
+infer dss
+auc_roc: 0,985449
+auc_pr: 0,764552
+cll: -0,162532
+runtime: 2906
+
+sample_loop: 35, 30
+success, learned on try #: 1
+learn
+runtime: 13315
+try: 1
+total_runtime: 15098
+infer
+auc_roc: 0,981046
+auc_pr: 0,607253
+cll: -0,200548
+runtime: 2344
+infer dss
+auc_roc: 0,984193
+auc_pr: 0,693100
+cll: -0,189715
+runtime: 2892
+
+sample_loop: 40, 30
+success, learned on try #: 1
+learn
+runtime: 29169
+try: 1
+total_runtime: 31192
+infer
+auc_roc: 0,953268
+auc_pr: 0,453833
+cll: -0,292007
+runtime: 5555
+infer dss
+auc_roc: 0,978810
+auc_pr: 0,757088
+cll: -0,178467
+runtime: 6248
+
+sample_loop: 45, 30
+success, learned on try #: 1
+learn
+runtime: 32177
+try: 1
+total_runtime: 34288
+infer
+auc_roc: 0,986326
+auc_pr: 0,688883
+cll: -0,202505
+runtime: 2542
+infer dss
+auc_roc: 0,987685
+auc_pr: 0,685848
+cll: -0,200686
+runtime: 3097
+
+sample_loop: 50, 30
+success, learned on try #: 1
+learn
+runtime: 379243
+try: 1
+total_runtime: 381379
+infer
+auc_roc: 0,940110
+auc_pr: 0,736598
+cll: -0,162269
+runtime: 5407
+infer dss
+auc_roc: 0,960062
+auc_pr: 0,669722
+cll: -0,189788
+runtime: 6075
+
+sample_loop: 55, 30
+success, learned on try #: 1
+learn
+runtime: 58056
+try: 1
+total_runtime: 60286
+infer
+auc_roc: 0,968903
+auc_pr: 0,589648
+cll: -0,181778
+runtime: 2479
+infer dss
+auc_roc: 0,956725
+auc_pr: 0,616971
+cll: -0,180880
+runtime: 3066
+
+sample_loop: 60, 30
+success, learned on try #: 1
+learn
+runtime: 37589
+try: 1
+total_runtime: 39696
+infer
+auc_roc: 0,988029
+auc_pr: 0,772713
+cll: -0,197667
+runtime: 3273
+infer dss
+auc_roc: 0,987994
+auc_pr: 0,764578
+cll: -0,201415
+runtime: 3921
+
+sample_loop: 65, 30
+success, learned on try #: 1
+learn
+runtime: 786101
+try: 1
+total_runtime: 788960
+infer
+auc_roc: 0,985896
+auc_pr: 0,794806
+cll: -0,182429
+runtime: 3624
+infer dss
+auc_roc: 0,983282
+auc_pr: 0,744113
+cll: -0,189966
+runtime: 4237
+
+sample_loop: 70, 30
+success, learned on try #: 1
+learn
+runtime: 93818
+try: 1
+total_runtime: 96015
+infer
+auc_roc: 0,994358
+auc_pr: 0,884314
+cll: -0,155090
+runtime: 2785
+infer dss
+auc_roc: 0,991090
+auc_pr: 0,819851
+cll: -0,166004
+runtime: 3285
+
+sample_loop: 75, 30
+success, learned on try #: 1
+learn
+runtime: 101717
+try: 1
+total_runtime: 103916
+infer
+auc_roc: 0,971689
+auc_pr: 0,817783
+cll: -0,157743
+runtime: 3880
+infer dss
+auc_roc: 0,966082
+auc_pr: 0,807402
+cll: -0,166494
+runtime: 4858
+
+sample_loop: 80, 30
+success, learned on try #: 1
+learn
+runtime: 99738
+try: 1
+total_runtime: 102057
+infer
+auc_roc: 0,991228
+auc_pr: 0,801718
+cll: -0,157296
+runtime: 2910
+infer dss
+auc_roc: 0,990574
+auc_pr: 0,808578
+cll: -0,167293
+runtime: 3520
+
+sample_loop: 85, 30
+success, learned on try #: 1
+learn
+runtime: 326114
+try: 1
+total_runtime: 328440
+infer
+auc_roc: 0,984004
+auc_pr: 0,743705
+cll: -0,178287
+runtime: 4838
+infer dss
+auc_roc: 0,981734
+auc_pr: 0,750257
+cll: -0,179426
+runtime: 5476
+
+sample_loop: 90, 30
+success, learned on try #: 1
+learn
+runtime: 65818
+try: 1
+total_runtime: 68153
+infer
+auc_roc: 0,978053
+auc_pr: 0,639965
+cll: -0,173594
+runtime: 2396
+infer dss
+auc_roc: 0,976230
+auc_pr: 0,630047
+cll: -0,174331
+runtime: 2925
+
+sample_loop: 95, 30
+success, learned on try #: 1
+learn
+runtime: 5249167
+try: 1
+total_runtime: 5251524
+infer
+auc_roc: 0,983144
+auc_pr: 0,687803
+cll: -0,179875
+runtime: 3869
+infer dss
+auc_roc: 0,983041
+auc_pr: 0,686109
+cll: -0,181424
+runtime: 4713
+
+sample_loop: 100, 30
+success, learned on try #: 1
+learn
+runtime: 131684
+try: 1
+total_runtime: 133990
+infer
+auc_roc: 0,991710
+auc_pr: 0,847791
+cll: -0,166862
+runtime: 3498
+infer dss
+auc_roc: 0,991710
+auc_pr: 0,847791
+cll: -0,166862
+runtime: 4281

@@ -1,0 +1,6 @@
+setParam: stringsAreCaseSensitive = true.
+
+useStdLogicNotation: true.
+
+
+(friends(a, b) ^ s_smokes(b) ^ friends(b, c) ^ not_s_smokes(c) => smokes(a, -0.0060914297286419694)).

@@ -1,0 +1,267 @@
+////// Learned from a dataset containing 280 positive (280,0 weighted sum) and 0 negative (0,0 wgt'ed) examples.
+////// The minimal (wgt'ed) coverage = 3,000, the maximal (wgt'ed) NEG coverage = 0,499, and the minimal (wgt'ed) precision = 0,001 (using m = 0,1)
+
+usePrologVariables: true.
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: allPossibleMarkers
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #1, null' and covering 20,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,071, precision = 0,995, and F1 = 0,133 - learned after 8 total and 4 acceptable nodes.  Node score = -880.7365134370744
+
+ FOR female(D) IF (workedunder(Anon21085, D)) THEN output = -0,695030 ELSE output = 1,106490;
+
+// Best in (weighted) recall bin #2, (0.1, 0.15], from 'outerLoop #1, null' and covering 40,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,143, precision = 0,998, and F1 = 0,250 - learned after 7 total and 3 acceptable nodes.  Node score = -4640.284109909412
+
+ FOR female(D) IF (workedunder(D, Anon21083)) THEN output = 5,379809 ELSE output = 0,186225;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #1, null' and covering 3,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,213, precision = 0,968, and F1 = 0,349 - learned after 2 total and 0 acceptable nodes.  Node score = -2.154537035991746
+
+ FOR female(D) IF (director(D)) THEN output = -0,064192 ELSE output = 0,051988;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #1, null' and covering 11,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,780, precision = 0,991, and F1 = 0,873 - learned after 3 total and 1 acceptable nodes.  Node score = -2.154537035991746
+
+ FOR female(D) IF (actor(D)) THEN output = 0,051988 ELSE output = -0,064192;
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #1, null' and covering 14,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,993, precision = 0,993, and F1 = 0,993 - learned after 4 total and 2 acceptable nodes.  Node score = -Infinity
+
+ FOR female(D) IF (movie(Anon1089, D)) THEN output = 0,072435 ELSE output = 0,000000;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #1, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #1, null' and covering 20,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,071, precision = 0,995, and F1 = 0,133 - learned after 8 total and 4 acceptable nodes.  Node score = -880.7365134370744
+
+ FOR female(D) IF (workedunder(Anon21085, D)) THEN output = -0,695030 ELSE output = 1,106490;
+
+// Best in (weighted) recall bin #2, (0.1, 0.15], from 'outerLoop #1, null' and covering 40,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,143, precision = 0,998, and F1 = 0,250 - learned after 7 total and 3 acceptable nodes.  Node score = -4640.284109909412
+
+ FOR female(D) IF (workedunder(D, Anon21083)) THEN output = 5,379809 ELSE output = 0,186225;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #1, null' and covering 3,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,213, precision = 0,968, and F1 = 0,349 - learned after 2 total and 0 acceptable nodes.  Node score = -2.154537035991746
+
+ FOR female(D) IF (director(D)) THEN output = -0,064192 ELSE output = 0,051988;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #1, null' and covering 11,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,780, precision = 0,991, and F1 = 0,873 - learned after 3 total and 1 acceptable nodes.  Node score = -2.154537035991746
+
+ FOR female(D) IF (actor(D)) THEN output = 0,051988 ELSE output = -0,064192;
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #1, null' and covering 14,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,993, precision = 0,993, and F1 = 0,993 - learned after 4 total and 2 acceptable nodes.  Node score = -Infinity
+
+ FOR female(D) IF (movie(Anon1089, D)) THEN output = 0,072435 ELSE output = 0,000000;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #2, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #2, null' and covering 3,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,213, precision = 0,968, and F1 = 0,349 - learned after 2 total and 0 acceptable nodes.  Node score = -2.1714107343535862
+
+ FOR female(D) IF (director(D)) THEN output = -0,068427 ELSE output = 0,036467;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #2, null' and covering 11,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,780, precision = 0,991, and F1 = 0,873 - learned after 21 total and 7 acceptable nodes.  Node score = -2.1627110217546797
+
+ FOR female(D) IF (actor(D), movie(Anon10103, D), movie(Anon10103, Anon10207)) THEN output = 0,026589 ELSE output = -0,068427;
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #2, null' and covering 14,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,993, precision = 0,993, and F1 = 0,993 - learned after 4 total and 2 acceptable nodes.  Node score = -Infinity
+
+ FOR female(D) IF (movie(Anon1167, D)) THEN output = -0,030397 ELSE output = 0,000000;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #3, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #3, null' and covering 3,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,213, precision = 0,968, and F1 = 0,349 - learned after 2 total and 0 acceptable nodes.  Node score = -2.181819191818183
+
+ FOR female(D) IF (director(D)) THEN output = 0,000000 ELSE output = 0,114186;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #3, null' and covering 11,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,780, precision = 0,991, and F1 = 0,873 - learned after 3 total and 1 acceptable nodes.  Node score = -2.181819191818184
+
+ FOR female(D) IF (actor(D)) THEN output = 0,114186 ELSE output = 0,000000;
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #3, null' and covering 14,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,993, precision = 0,993, and F1 = 0,993 - learned after 4 total and 2 acceptable nodes.  Node score = -Infinity
+
+ FOR female(D) IF (movie(Anon1395, D)) THEN output = 0,089718 ELSE output = 0,000000;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #4, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #4, null' and covering 3,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,213, precision = 0,968, and F1 = 0,349 - learned after 2 total and 0 acceptable nodes.  Node score = -2.181819191818183
+
+ FOR female(D) IF (director(D)) THEN output = 0,000000 ELSE output = 0,114186;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #4, null' and covering 11,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,780, precision = 0,991, and F1 = 0,873 - learned after 3 total and 1 acceptable nodes.  Node score = -2.181819191818184
+
+ FOR female(D) IF (actor(D)) THEN output = 0,114186 ELSE output = 0,000000;
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #4, null' and covering 14,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,993, precision = 0,993, and F1 = 0,993 - learned after 4 total and 2 acceptable nodes.  Node score = -Infinity
+
+ FOR female(D) IF (movie(Anon1471, D)) THEN output = 0,089718 ELSE output = 0,000000;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #5, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #5, null' and covering 3,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,213, precision = 0,968, and F1 = 0,349 - learned after 2 total and 0 acceptable nodes.  Node score = -2.181819191818183
+
+ FOR female(D) IF (director(D)) THEN output = 0,000000 ELSE output = 0,114186;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #5, null' and covering 11,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,780, precision = 0,991, and F1 = 0,873 - learned after 3 total and 1 acceptable nodes.  Node score = -2.181819191818184
+
+ FOR female(D) IF (actor(D)) THEN output = 0,114186 ELSE output = 0,000000;
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #5, null' and covering 14,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,993, precision = 0,993, and F1 = 0,993 - learned after 4 total and 2 acceptable nodes.  Node score = -Infinity
+
+ FOR female(D) IF (movie(Anon1547, D)) THEN output = 0,089718 ELSE output = 0,000000;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #6, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #6, null' and covering 3,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,213, precision = 0,968, and F1 = 0,349 - learned after 2 total and 0 acceptable nodes.  Node score = -2.181819191818183
+
+ FOR female(D) IF (director(D)) THEN output = 0,000000 ELSE output = 0,114186;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #6, null' and covering 11,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,780, precision = 0,991, and F1 = 0,873 - learned after 3 total and 1 acceptable nodes.  Node score = -2.181819191818184
+
+ FOR female(D) IF (actor(D)) THEN output = 0,114186 ELSE output = 0,000000;
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #6, null' and covering 14,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,993, precision = 0,993, and F1 = 0,993 - learned after 4 total and 2 acceptable nodes.  Node score = -Infinity
+
+ FOR female(D) IF (movie(Anon1623, D)) THEN output = 0,089718 ELSE output = 0,000000;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #7, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #7, null' and covering 3,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,213, precision = 0,968, and F1 = 0,349 - learned after 2 total and 0 acceptable nodes.  Node score = -2.181819191818183
+
+ FOR female(D) IF (director(D)) THEN output = 0,000000 ELSE output = 0,114186;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #7, null' and covering 11,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,780, precision = 0,991, and F1 = 0,873 - learned after 3 total and 1 acceptable nodes.  Node score = -2.181819191818184
+
+ FOR female(D) IF (actor(D)) THEN output = 0,114186 ELSE output = 0,000000;
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #7, null' and covering 14,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,993, precision = 0,993, and F1 = 0,993 - learned after 4 total and 2 acceptable nodes.  Node score = -Infinity
+
+ FOR female(D) IF (movie(Anon1699, D)) THEN output = 0,089718 ELSE output = 0,000000;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #8, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #8, null' and covering 3,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,213, precision = 0,968, and F1 = 0,349 - learned after 2 total and 0 acceptable nodes.  Node score = -2.181819191818183
+
+ FOR female(D) IF (director(D)) THEN output = 0,000000 ELSE output = 0,114186;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #8, null' and covering 11,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,780, precision = 0,991, and F1 = 0,873 - learned after 3 total and 1 acceptable nodes.  Node score = -2.181819191818184
+
+ FOR female(D) IF (actor(D)) THEN output = 0,114186 ELSE output = 0,000000;
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #8, null' and covering 14,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,993, precision = 0,993, and F1 = 0,993 - learned after 4 total and 2 acceptable nodes.  Node score = -Infinity
+
+ FOR female(D) IF (movie(Anon1775, D)) THEN output = 0,089718 ELSE output = 0,000000;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #9, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #9, null' and covering 3,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,213, precision = 0,968, and F1 = 0,349 - learned after 2 total and 0 acceptable nodes.  Node score = -2.181819191818183
+
+ FOR female(D) IF (director(D)) THEN output = 0,000000 ELSE output = 0,114186;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #9, null' and covering 11,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,780, precision = 0,991, and F1 = 0,873 - learned after 3 total and 1 acceptable nodes.  Node score = -2.181819191818184
+
+ FOR female(D) IF (actor(D)) THEN output = 0,114186 ELSE output = 0,000000;
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #9, null' and covering 14,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,993, precision = 0,993, and F1 = 0,993 - learned after 4 total and 2 acceptable nodes.  Node score = -Infinity
+
+ FOR female(D) IF (movie(Anon1851, D)) THEN output = 0,089718 ELSE output = 0,000000;
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #10, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #10, null' and covering 3,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,213, precision = 0,968, and F1 = 0,349 - learned after 2 total and 0 acceptable nodes.  Node score = -2.181819191818183
+
+ FOR female(D) IF (director(D)) THEN output = 0,000000 ELSE output = 0,114186;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #10, null' and covering 11,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,780, precision = 0,991, and F1 = 0,873 - learned after 3 total and 1 acceptable nodes.  Node score = -2.181819191818184
+
+ FOR female(D) IF (actor(D)) THEN output = 0,114186 ELSE output = 0,000000;
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #10, null' and covering 14,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,993, precision = 0,993, and F1 = 0,993 - learned after 4 total and 2 acceptable nodes.  Node score = -Infinity
+
+ FOR female(D) IF (movie(Anon1927, D)) THEN output = 0,089718 ELSE output = 0,000000;
+

@@ -1,0 +1,9 @@
+setParam: stringsAreCaseSensitive = true.
+
+usePrologVariables: true.
+
+
+(movie(A, B, 0.8653894048261028) :- workedunder(B, C), recursive_movie(A, C)).
+(movie(A, B, 0.1943399627411877) :- workedunder(C, B), recursive_movie(A, C)).
+(movie(_, A, -0.1250195613426893) :- workedunder(A, _)).
+(movie(A, B, 0.1478673629552515) :- workedunder(C, B), recursive_movie(A, C)).

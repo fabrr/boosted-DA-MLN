@@ -1,0 +1,105 @@
+% Running on host: DESKTOP-0S2LA4F
+
+% Switching to VarIndicator = uppercase.
+
+% Unset'ing VarIndicator.
+
+% Calling ILPouterLoop from createRegressionOuterLooper.
+
+% getInputArgWithDefaultValue: args=[datasets\WebKB\train/train_pos.txt, datasets\WebKB\train/train_neg.txt, datasets\WebKB\train/train_bk.txt, datasets\WebKB\train/train_facts.txt]
+%  for N=0: args[N]=datasets\WebKB\train/train_pos.txt
+
+% getInputArgWithDefaultValue: args=[datasets\WebKB\train/train_pos.txt, datasets\WebKB\train/train_neg.txt, datasets\WebKB\train/train_bk.txt, datasets\WebKB\train/train_facts.txt]
+%  for N=1: args[N]=datasets\WebKB\train/train_neg.txt
+
+% getInputArgWithDefaultValue: args=[datasets\WebKB\train/train_pos.txt, datasets\WebKB\train/train_neg.txt, datasets\WebKB\train/train_bk.txt, datasets\WebKB\train/train_facts.txt]
+%  for N=2: args[N]=datasets\WebKB\train/train_bk.txt
+
+% getInputArgWithDefaultValue: args=[datasets\WebKB\train/train_pos.txt, datasets\WebKB\train/train_neg.txt, datasets\WebKB\train/train_bk.txt, datasets\WebKB\train/train_facts.txt]
+%  for N=3: args[N]=datasets\WebKB\train/train_facts.txt
+
+% Welcome to the WILL ILP/SRL systems.
+
+
+% Switching to VarIndicator = uppercase.
+
+% Unset'ing VarIndicator.
+% Reading background theory from dir: null
+% Load '../webkb_bk.txt'.
+
+% Switching to VarIndicator = uppercase.
+
+***** Warning: % Since this is the first setting of the notation for variables, will keep:
+%   variableIndicator = uppercase *****
+
+
+***** Warning: % Since this is the first setting of the notation for variables, will keep:
+%   variableIndicator = uppercase *****
+
+% [ LazyGroundClauseIndex ]  Building full index for mode/1 with 1 assertions.
+% LoadAllModes() called.  Currently loaded modes: []
+% [ LazyGroundClauseIndex ]  Building full index for sameAs/2 with 2 assertions.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 1:  Building full index for exp/3.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 0:  Building full index for log/3.
+
+%  Read the facts.
+%  Have read 90 facts.
+% Have read 0 examples from 'datasets\WebKB\train' [datasets\WebKB\train/train*].
+% Have read 0 examples from 'datasets\WebKB\train' [datasets\WebKB\train/train*].
+
+%  LearnOneClause initialized.
+
+% The outer looper has been created.
+
+% Initializing the ILP inner looper.
+
+% Started collecting constants
+
+% Collecting the types of constants.
+
+% Looking at the training examples to see if any types of new constants can be inferred.
+
+***** Warning: targetPredicates=null *****
+
+
+***** Warning: targetArgSpecs=null *****
+
+% Time to collect constants: 19 milliseconds
+% Time to collect examples: 0 seconds
+
+% Read 0 pos examples and 0 neg examples.
+% Time to init learnOneClause: 37 milliseconds
+% Old dirnull
+Setting model dir
+
+% Have 0 'raw' positive examples and kept 0.
+% Have 0 'raw' negative examples and kept 0.
+% No pos ex for faculty
+% No neg ex for faculty
+
+% NEW target:                 faculty(D)
+%  targetPred:                faculty/1
+%  targetArgTypes:            signature = [const], types = [+Person]
+%  targets:                   [faculty(D)]
+%  targetPredicates:          [faculty/1]
+%  targetArgSpecs:            [[D[+Person]]]
+%  variablesInTargets:        [[D]]
+Creating neg ex for: faculty
+
+% Target variant already exists.  Skipping target:                 faculty(E).
+%  targetArgTypes:            signature = [const], types = [+Person]
+%  targetArgSpecs:            [[D[+Person]]]
+
+% processing backup's for faculty
+%  POS EX = 23
+%  NEG EX = 21
+
+% Memory usage by WILLSetup (just counts # targets?):
+%  |backupPosExamples| = 1
+%  |backupNegExamples| = 1
+%  |predicatesAsFacts| = 1
+%  |addedToFactBase|   = 0
+datasets\WebKB\train/models/
+
+
+// Closed by a createDribble call with file = datasets\WebKB\train/train.txt

@@ -1,0 +1,60 @@
+Log stream opened: C:\Users\MSI\Documents\code\BoostSRL/datasets/MyWebKB//sample_log.txt
+
+MyWebKBSample main
+Current directory: C:\Users\MSI\Documents\code\BoostSRL
+Dataset path: /datasets/MyWebKB/
+
+Create Full Dataset
+
+Reading Dataset... done!
+Modifying Dataset... done!
+
+Dataset loaded!
+Page constants: 803/803
+Word constants: 765/765
+Category ground atoms: 490/490
+Has ground atoms: 50175/50175
+LinkTo ground atoms: 1919/1919
+
+Sample Dataset
+Sample page: 1.0
+Sample word: 1.0
+
+Sampling constants... done!
+Adding relevant constants and ground atoms... done!
+
+Sample Dataset created!
+Page constants: 803/803
+Word constants: 765/765
+Category ground atoms: 490/490
+Has ground atoms: 50175/50175
+LinkTo ground atoms: 1919/1919
+
+Write Dataset
+Data prefix: test
+Writing 'test_facts.txt' file... done!
+Writing 'test_pos.txt' file... done!
+Writing 'test_neg.txt' file... done!
+
+Sample Dataset
+Sample page: 0.3
+Sample word: 1.0
+
+Sampling constants... done!
+Adding relevant constants and ground atoms... done!
+
+Sample Dataset created!
+Page constants: 241/803
+Word constants: 751/765
+Category ground atoms: 135/490
+Has ground atoms: 14601/50175
+LinkTo ground atoms: 213/1919
+
+Write Dataset
+Data prefix: train
+Writing 'train_facts.txt' file... done!
+Writing 'train_pos.txt' file... done!
+Writing 'train_neg.txt' file... done!
+
+Exiting main...
+Log stream closing...

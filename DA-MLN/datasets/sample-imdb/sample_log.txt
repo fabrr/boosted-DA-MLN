@@ -1,0 +1,86 @@
+Log stream opened: C:\Users\MSI\Documents\code\BoostSRL/datasets/sample-imdb//sample_log.txt
+
+IMDBSample main
+Current directory: C:\Users\MSI\Documents\code\BoostSRL
+Dataset path: /datasets/sample-imdb/
+
+Create Full Dataset
+
+Reading Dataset...
+Dataset loaded!
+Person constants: 268
+Movie constants: 20
+Genre constants: 9
+Female ground atoms: 95
+Director ground atoms: 32
+Actor ground atoms: 236
+Genre ground atoms: 46
+Movie ground atoms: 286
+WorkedUnder ground atoms: 382
+
+Write Dataset
+Data prefix: test
+Writing 'test_facts.txt' file... done!
+Writing 'test_pos.txt' file... done!
+Writing 'test_neg.txt' file... done!
+
+Sample Dataset
+Sample person: 0.25
+Sample movie: 1.0
+Sample genre: 1.0
+
+Sampled person constants: 67/268
+Sampled movie constants: 20/20
+Sampled genre constants: 9/9
+
+Adding relations...
+Sample Dataset created!
+Person constants: 67
+Movie constants: 20
+Genre constants: 9
+Female ground atoms: 23
+Director ground atoms: 2
+Actor ground atoms: 65
+Genre ground atoms: 4
+Movie ground atoms: 72
+WorkedUnder ground atoms: 9
+
+Write Dataset
+Data prefix: train
+Writing 'train_facts.txt' file... done!
+Writing 'train_pos.txt' file... done!
+Writing 'train_neg.txt' file... done!
+
+Create Full Graph
+Actors = true
+Genres = false
+Creating 32 Director nodes
+Creating 236 Actor nodes
+Creating 20 Movie nodes
+Creating 286 movie edges
+Writing 'graphs/full_graph.dot' file... done!
+
+Create Sample Graph
+Actors = true
+Genres = true
+Creating 32 Director nodes
+Creating 236 Actor nodes
+Creating 20 Movie nodes
+Creating 9 Genre nodes
+Creating 286 movie edges
+Creating 46 genre edges
+Writing 'graphs/sample_graph.dot' file... done!
+
+Create Sample Only Graph
+Actors = true
+Genres = true
+Creating 2 Director nodes
+Creating 65 Actor nodes
+Creating 20 Movie nodes
+Creating 9 Genre nodes
+Creating 72 movie edges
+Creating 4 genre edges
+Writing 'graphs/sample_only_graph.dot' file... done!
+
+Exiting main...
+Log stream closing...

@@ -1,0 +1,199 @@
+graph IMDB {
+
+	// Director nodes
+	subgraph directors {
+		node[shape=diamond style=filled]
+		apakulaalanj[ fillcolor=lightskyblue]
+		apunchevborislav[ fillcolor=lightskyblue]
+	}
+
+	// Actor nodes
+	subgraph actors {
+		node[style=filled]
+		afrankcturner[ fillcolor=lightskyblue]
+		asheilapaterson[ fillcolor=pink]
+		alucavitrano[ fillcolor=lightskyblue]
+		ajohnheard[ fillcolor=lightskyblue]
+		achelcieross[ fillcolor=pink]
+		agilbellows[ fillcolor=lightskyblue]
+		astefanpejchev[ fillcolor=lightskyblue]
+		aconsuelolupo[ fillcolor=lightskyblue]
+		abogomilsimeonov[ fillcolor=lightskyblue]
+		adebraengle[ fillcolor=pink]
+		astephentobolowsky[ fillcolor=lightskyblue]
+		adillonmoen[ fillcolor=lightskyblue]
+		alarrysontag[ fillcolor=lightskyblue]
+		amaurizionicolosi[ fillcolor=lightskyblue]
+		aanthonyheald[ fillcolor=lightskyblue]
+		aleonardlansink[ fillcolor=lightskyblue]
+		aheathcotewilliams[ fillcolor=lightskyblue]
+		alloydalan[ fillcolor=lightskyblue]
+		ahumecronyn[ fillcolor=lightskyblue]
+		acarolflorence[ fillcolor=pink]
+		adenisarndt[ fillcolor=lightskyblue]
+		aemilmarkov[ fillcolor=lightskyblue]
+		ajuliaroberts[ fillcolor=pink]
+		asavahashamov[ fillcolor=lightskyblue]
+		ageorgeclooney[ fillcolor=pink]
+		afranoisechristophe[ fillcolor=pink]
+		anicolegrimaudo[ fillcolor=pink]
+		asamshepard[ fillcolor=lightskyblue]
+		agiancarloscuderi[ fillcolor=lightskyblue]
+		aalexandrawinisky[ fillcolor=pink]
+		ajohnfinn[ fillcolor=lightskyblue]
+		aarmelledeutsch[ fillcolor=pink]
+		aulrichmhe[ fillcolor=lightskyblue]
+		akunkabaeva[ fillcolor=pink]
+		asalvatorelazzaro[ fillcolor=lightskyblue]
+		adanielvonbargen[ fillcolor=lightskyblue]
+		amarcoleonardi[ fillcolor=lightskyblue]
+		arobyndouglass[ fillcolor=pink]
+		amarenschumacher[ fillcolor=pink]
+		amiguelferrer[ fillcolor=lightskyblue]
+		apetardespotov[ fillcolor=lightskyblue]
+		apieradegliesposti[ fillcolor=pink]
+		agesinecukrowski[ fillcolor=pink]
+		aileanarigano[ fillcolor=pink]
+		ahorstkummeth[ fillcolor=lightskyblue]
+		aluciacammalleri[ fillcolor=pink]
+		avyarakovacheva[ fillcolor=pink]
+		ajaimzwoolvett[ fillcolor=lightskyblue]
+		aedkross[ fillcolor=lightskyblue]
+		asharonstone[ fillcolor=pink]
+		ajohnlithgow[ fillcolor=lightskyblue]
+		adanielegalea[ fillcolor=lightskyblue]
+		astevekalfa[ fillcolor=lightskyblue]
+		araffaeladavi[ fillcolor=pink]
+		adavidsontag[ fillcolor=lightskyblue]
+		aivantonev[ fillcolor=lightskyblue]
+		afrankpatton[ fillcolor=pink]
+		aleilanisarelle[ fillcolor=pink]
+		abenjohnson[ fillcolor=lightskyblue]
+		adinamerrill[ fillcolor=pink]
+		aloccorbery[ fillcolor=lightskyblue]
+		aludwigbriand[ fillcolor=lightskyblue]
+		avannifois[ fillcolor=lightskyblue]
+		atommikulla[ fillcolor=lightskyblue]
+		adeanstockwell[ fillcolor=lightskyblue]
+	}
+
+	// Movie nodes
+	subgraph movies {
+		node[shape=box style=filled]
+		aunetunfontsix[ fillcolor=coral]
+		abasicinstinct[ fillcolor=coral]
+		agrandpatronle[ fillcolor=coral]
+		abadlands2005[ fillcolor=coral]
+		aperdutoamor[ fillcolor=coral]
+		anerolio[ fillcolor=coral]
+		apelicanbriefthe[ fillcolor=coral]
+		aoceanstwelve[ fillcolor=coral]
+		aplayerthe[ fillcolor=coral]
+		arosenheimcopsdie[ fillcolor=coral]
+		abasicinstinct2[ fillcolor=coral]
+		abeautifuljoe[ fillcolor=coral]
+		akristali[ fillcolor=coral]
+		aletztezeugeder[ fillcolor=coral]
+		aribellela[ fillcolor=coral]
+		aoceanseleven[ fillcolor=coral]
+		aspasenieto[ fillcolor=coral]
+		ageratzite[ fillcolor=coral]
+		alegendazapaisiy[ fillcolor=coral]
+		asaramay[ fillcolor=coral]
+	}
+
+	// Genre nodes
+	subgraph genres {
+		node[shape=parallelogram,style=filled]
+		amystery[ fillcolor=limegreen]
+		acomedy[ fillcolor=limegreen]
+		ascifi[ fillcolor=limegreen]
+		athriller[ fillcolor=limegreen]
+		adrama[ fillcolor=limegreen]
+		aaction[ fillcolor=limegreen]
+		adocumentary[ fillcolor=limegreen]
+		aromance[ fillcolor=limegreen]
+		acrime[ fillcolor=limegreen]
+	}
+
+	// Movie edges
+	arosenheimcopsdie--ahorstkummeth
+	aunetunfontsix--aarmelledeutsch
+	aplayerthe--adeanstockwell
+	abadlands2005--alloydalan
+	aplayerthe--adinamerrill
+	apelicanbriefthe--asamshepard
+	arosenheimcopsdie--atommikulla
+	abeautifuljoe--agilbellows
+	apelicanbriefthe--ajohnheard
+	arosenheimcopsdie--amarenschumacher
+	abasicinstinct2--asharonstone
+	abasicinstinct--achelcieross
+	abasicinstinct--adanielvonbargen
+	apelicanbriefthe--ajuliaroberts
+	aribellela--amarcoleonardi
+	abeautifuljoe--adillonmoen
+	ageratzite--astefanpejchev
+	abeautifuljoe--asharonstone
+	akristali--apetardespotov
+	apelicanbriefthe--ahumecronyn
+	aperdutoamor--alucavitrano
+	apelicanbriefthe--apakulaalanj
+	ageratzite--aivantonev
+	anerolio--asalvatorelazzaro
+	aunetunfontsix--aalexandrawinisky
+	apelicanbriefthe--ajohnlithgow
+	anerolio--agiancarloscuderi
+	abadlands2005--amiguelferrer
+	aletztezeugeder--agesinecukrowski
+	aoceanseleven--afrankpatton
+	aspasenieto--abogomilsimeonov
+	abasicinstinct2--aheathcotewilliams
+	anerolio--apieradegliesposti
+	asaramay--aconsuelolupo
+	abeautifuljoe--ajaimzwoolvett
+	abadlands2005--adebraengle
+	aspasenieto--aemilmarkov
+	abadlands2005--asharonstone
+	ageratzite--akunkabaeva
+	asaramay--avannifois
+	aribellela--adanielegalea
+	aribellela--araffaeladavi
+	aoceanseleven--ageorgeclooney
+	apelicanbriefthe--aanthonyheald
+	agrandpatronle--astevekalfa
+	abadlands2005--arobyndouglass
+	asaramay--aileanarigano
+	aoceanstwelve--adavidsontag
+	aspasenieto--apunchevborislav
+	aoceanstwelve--aedkross
+	abasicinstinct--asharonstone
+	aoceanstwelve--alarrysontag
+	abeautifuljoe--afrankcturner
+	abasicinstinct--aleilanisarelle
+	aletztezeugeder--aulrichmhe
+	aoceanstwelve--ageorgeclooney
+	aletztezeugeder--aleonardlansink
+	abasicinstinct--astephentobolowsky
+	aperdutoamor--anicolegrimaudo
+	asaramay--aluciacammalleri
+	aunetunfontsix--aloccorbery
+	aoceanstwelve--ajuliaroberts
+	alegendazapaisiy--asavahashamov
+	apelicanbriefthe--ajohnfinn
+	abeautifuljoe--asheilapaterson
+	abeautifuljoe--abenjohnson
+	ageratzite--avyarakovacheva
+	anerolio--amaurizionicolosi
+	agrandpatronle--afranoisechristophe
+	aoceanseleven--acarolflorence
+	abasicinstinct--adenisarndt
+	aunetunfontsix--aludwigbriand
+
+	// Genre edges
+	apakulaalanj--adrama
+	apunchevborislav--adrama
+	apakulaalanj--athriller
+	apakulaalanj--amystery
+
+}

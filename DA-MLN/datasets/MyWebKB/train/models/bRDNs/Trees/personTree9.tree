@@ -1,0 +1,7 @@
+setParam: stringsAreCaseSensitive = true.
+
+usePrologVariables: true.
+
+
+(person(A, -0.2665244410540717) :- has(A, part)).
+(person(A, 0.16150253139188345) :- has(A, email)).

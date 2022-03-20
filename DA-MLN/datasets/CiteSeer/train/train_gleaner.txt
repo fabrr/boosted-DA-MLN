@@ -1,0 +1,210 @@
+////// Learned from a dataset containing 22.628 positive (22.628,0 weighted sum) and 0 negative (0,0 wgt'ed) examples.
+////// The minimal (wgt'ed) coverage = 3,000, the maximal (wgt'ed) NEG coverage = 0,499, and the minimal (wgt'ed) precision = 0,001 (using m = 0,1)
+
+usePrologVariables: true.
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: allPossibleMarkers
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #0, (-Infinity, 0.05], from 'outerLoop #1, null' and covering 470,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,021, precision = 1,000, and F1 = 0,041 - learned after 10 total and 5 acceptable nodes.  Node score = -4962.704939297234
+
+ FOR infield_fauthor(D) IF (isbibpos(D, Anon230319, Anon230321), firstnonauthortitletkn(Anon230319, Anon230321)) THEN output = -0,141851 ELSE output = 0,196808;
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #3, null' and covering 1.520,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,067, precision = 1,000, and F1 = 0,126 - learned after 14 total and 6 acceptable nodes.  Node score = -3267.2606232290436
+
+ FOR infield_fauthor(D) IF (isbibpos(D, Anon1994239, Anon1994241), lastinitial(Anon1994239, Anon1994241)) THEN output = 0,832095 ELSE output = 0,240459;
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #4, null' and covering 3.546,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,157, precision = 1,000, and F1 = 0,271 - learned after 10 total and 4 acceptable nodes.  Node score = -3173.090358853792
+
+ FOR infield_fauthor(D) IF (isbibpos(D, Anon2876243, Anon2876245), hascomma(Anon2876243, Anon2876245)) THEN output = 0,428982 ELSE output = 0,186272;
+
+// Best in (weighted) recall bin #5, (0.25, 0.3], from 'outerLoop #2, null' and covering 5.802,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,256, precision = 1,000, and F1 = 0,408 - learned after 5 total and 1 acceptable nodes.  Node score = -3150.9613740312416
+
+ FOR infield_fauthor(D) IF (infield_ftitle(D)) THEN output = -0,141851 ELSE output = 0,376821;
+
+// Best in (weighted) recall bin #7, (0.35, 0.4], from 'outerLoop #4, null' and covering 7.989,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,353, precision = 1,000, and F1 = 0,522 - learned after 12 total and 5 acceptable nodes.  Node score = -3333.6319700468866
+
+ FOR infield_fauthor(D) IF (isbibpos(D, Anon2876243, Anon2876245), haspunc(Anon2876243, Anon2876245)) THEN output = 0,259863 ELSE output = 0,204902;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #4, null' and covering 17.826,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,788, precision = 1,000, and F1 = 0,881 - learned after 5 total and 1 acceptable nodes.  Node score = -3343.717677801261
+
+ FOR infield_fauthor(D) IF (isbibpos(D, Anon2876243, Anon2876245), center(Anon2876243, Anon3087761)) THEN output = 0,216195 ELSE output = 0,254417;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #4, null' and covering 21.136,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,934, precision = 1,000, and F1 = 0,966 - learned after 2 total and 0 acceptable nodes.  Node score = -3154.008568529135
+
+ FOR infield_fauthor(D) IF (nextbibpos(D, Anon2646889)) THEN output = 0,199628 ELSE output = 0,573916;
+      /* FALSE NEG: infield_fauthor(b0004_p00) Actual Bool=true Prob=0.14185106490048777 Output=0.02605435328163952 */
+      /* FALSE NEG: infield_fauthor(b0001_p00) Actual Bool=true Prob=0.14185106490048777 Output=0.8581489350995122 */
+      /* FALSE NEG: infield_fauthor(b0003_p00) Actual Bool=true Prob=0.14185106490048777 Output=0.02605435328163952 */
+      /* FALSE NEG: infield_fauthor(b0005_p00) Actual Bool=true Prob=0.14185106490048777 Output=0.02605435328163952 */
+      /* FALSE NEG: infield_fauthor(b0002_p00) Actual Bool=true Prob=0.14185106490048777 Output=0.02605435328163952 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #1, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #0, (-Infinity, 0.05], from 'outerLoop #1, null' and covering 470,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,021, precision = 1,000, and F1 = 0,041 - learned after 10 total and 5 acceptable nodes.  Node score = -4962.704939297234
+
+ FOR infield_fauthor(D) IF (isbibpos(D, Anon230319, Anon230321), firstnonauthortitletkn(Anon230319, Anon230321)) THEN output = -0,141851 ELSE output = 0,196808;
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #1, null' and covering 3.546,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,157, precision = 1,000, and F1 = 0,271 - learned after 14 total and 8 acceptable nodes.  Node score = -4824.835546469968
+
+ FOR infield_fauthor(D) IF (isbibpos(D, Anon230319, Anon230321), hascomma(Anon230319, Anon230321)) THEN output = 0,402706 ELSE output = 0,150204;
+
+// Best in (weighted) recall bin #5, (0.25, 0.3], from 'outerLoop #1, null' and covering 5.802,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,256, precision = 1,000, and F1 = 0,408 - learned after 5 total and 1 acceptable nodes.  Node score = -4157.39260768833
+
+ FOR infield_fauthor(D) IF (infield_ftitle(D)) THEN output = -0,141851 ELSE output = 0,304125;
+
+// Best in (weighted) recall bin #7, (0.35, 0.4], from 'outerLoop #1, null' and covering 8.623,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,381, precision = 1,000, and F1 = 0,552 - learned after 6 total and 2 acceptable nodes.  Node score = -3483.2919681626095
+
+ FOR infield_fauthor(D) IF (infield_fvenue(D)) THEN output = -0,141851 ELSE output = 0,393958;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #1, null' and covering 17.826,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,788, precision = 1,000, and F1 = 0,881 - learned after 8 total and 4 acceptable nodes.  Node score = -4999.939383817154
+
+ FOR infield_fauthor(D) IF (isbibpos(D, Anon230319, Anon230321), center(Anon230319, Anon441849)) THEN output = 0,176168 ELSE output = 0,240281;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #1, null' and covering 21.136,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,934, precision = 1,000, and F1 = 0,966 - learned after 2 total and 0 acceptable nodes.  Node score = -4403.898079282327
+
+ FOR infield_fauthor(D) IF (nextbibpos(D, Anon1105)) THEN output = 0,146094 ELSE output = 0,808551;
+      /* FALSE NEG: infield_fauthor(b0004_p00) Actual Bool=true Prob=0.14185106490048777 Output=0.02605435328163952 */
+      /* FALSE NEG: infield_fauthor(b0001_p00) Actual Bool=true Prob=0.14185106490048777 Output=0.8581489350995122 */
+      /* FALSE NEG: infield_fauthor(b0003_p00) Actual Bool=true Prob=0.14185106490048777 Output=0.02605435328163952 */
+      /* FALSE NEG: infield_fauthor(b0005_p00) Actual Bool=true Prob=0.14185106490048777 Output=0.02605435328163952 */
+      /* FALSE NEG: infield_fauthor(b0002_p00) Actual Bool=true Prob=0.14185106490048777 Output=0.02605435328163952 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #2, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #2, null' and covering 3.546,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,157, precision = 1,000, and F1 = 0,271 - learned after 11 total and 5 acceptable nodes.  Node score = -4111.325888377462
+
+ FOR infield_fauthor(D) IF (isbibpos(D, Anon1112265, Anon1112267), hascomma(Anon1112265, Anon1112267)) THEN output = 0,462071 ELSE output = 0,203274;
+
+// Best in (weighted) recall bin #5, (0.25, 0.3], from 'outerLoop #2, null' and covering 5.802,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,256, precision = 1,000, and F1 = 0,408 - learned after 5 total and 1 acceptable nodes.  Node score = -3150.9613740312416
+
+ FOR infield_fauthor(D) IF (infield_ftitle(D)) THEN output = -0,141851 ELSE output = 0,376821;
+
+// Best in (weighted) recall bin #7, (0.35, 0.4], from 'outerLoop #2, null' and covering 7.989,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,353, precision = 1,000, and F1 = 0,522 - learned after 13 total and 6 acceptable nodes.  Node score = -4289.330283232995
+
+ FOR infield_fauthor(D) IF (isbibpos(D, Anon1112265, Anon1112267), haspunc(Anon1112265, Anon1112267)) THEN output = 0,286300 ELSE output = 0,220652;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #2, null' and covering 17.826,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,788, precision = 1,000, and F1 = 0,881 - learned after 6 total and 2 acceptable nodes.  Node score = -4303.611060271138
+
+ FOR infield_fauthor(D) IF (isbibpos(D, Anon1112265, Anon1112267), center(Anon1112265, Anon1323789)) THEN output = 0,234075 ELSE output = 0,280042;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #2, null' and covering 21.136,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,934, precision = 1,000, and F1 = 0,966 - learned after 2 total and 0 acceptable nodes.  Node score = -3798.0774492024884
+
+ FOR infield_fauthor(D) IF (nextbibpos(D, Anon882911)) THEN output = 0,203805 ELSE output = 0,810833;
+      /* FALSE NEG: infield_fauthor(b0004_p00) Actual Bool=true Prob=0.14185106490048777 Output=0.02605435328163952 */
+      /* FALSE NEG: infield_fauthor(b0001_p00) Actual Bool=true Prob=0.14185106490048777 Output=0.8581489350995122 */
+      /* FALSE NEG: infield_fauthor(b0003_p00) Actual Bool=true Prob=0.14185106490048777 Output=0.02605435328163952 */
+      /* FALSE NEG: infield_fauthor(b0005_p00) Actual Bool=true Prob=0.14185106490048777 Output=0.02605435328163952 */
+      /* FALSE NEG: infield_fauthor(b0002_p00) Actual Bool=true Prob=0.14185106490048777 Output=0.02605435328163952 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #3, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #3, null' and covering 1.520,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,067, precision = 1,000, and F1 = 0,126 - learned after 14 total and 6 acceptable nodes.  Node score = -3267.2606232290436
+
+ FOR infield_fauthor(D) IF (isbibpos(D, Anon1994239, Anon1994241), lastinitial(Anon1994239, Anon1994241)) THEN output = 0,832095 ELSE output = 0,240459;
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #3, null' and covering 3.546,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,157, precision = 1,000, and F1 = 0,271 - learned after 10 total and 4 acceptable nodes.  Node score = -3616.4804517264424
+
+ FOR infield_fauthor(D) IF (isbibpos(D, Anon1994239, Anon1994241), hascomma(Anon1994239, Anon1994241)) THEN output = 0,467231 ELSE output = 0,245446;
+
+// Best in (weighted) recall bin #5, (0.25, 0.3], from 'outerLoop #3, null' and covering 6.226,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,275, precision = 1,000, and F1 = 0,432 - learned after 8 total and 2 acceptable nodes.  Node score = -3309.503528713076
+
+ FOR infield_fauthor(D) IF (isbibpos(D, Anon1994239, Anon1994241), followby(Anon1994239, Anon1994241, tperiod)) THEN output = 0,510123 ELSE output = 0,192926;
+
+// Best in (weighted) recall bin #7, (0.35, 0.4], from 'outerLoop #3, null' and covering 7.989,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,353, precision = 1,000, and F1 = 0,522 - learned after 12 total and 5 acceptable nodes.  Node score = -3757.3356548580296
+
+ FOR infield_fauthor(D) IF (isbibpos(D, Anon1994239, Anon1994241), haspunc(Anon1994239, Anon1994241)) THEN output = 0,302671 ELSE output = 0,267939;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #3, null' and covering 17.826,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,788, precision = 1,000, and F1 = 0,881 - learned after 5 total and 1 acceptable nodes.  Node score = -3752.744908597163
+
+ FOR infield_fauthor(D) IF (isbibpos(D, Anon1994239, Anon1994241), center(Anon1994239, Anon2205757)) THEN output = 0,268849 ELSE output = 0,322343;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #3, null' and covering 21.136,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,934, precision = 1,000, and F1 = 0,966 - learned after 2 total and 0 acceptable nodes.  Node score = -3312.684136503156
+
+ FOR infield_fauthor(D) IF (nextbibpos(D, Anon1764955)) THEN output = 0,242697 ELSE output = 0,811498;
+      /* FALSE NEG: infield_fauthor(b0004_p00) Actual Bool=true Prob=0.14185106490048777 Output=0.02605435328163952 */
+      /* FALSE NEG: infield_fauthor(b0001_p00) Actual Bool=true Prob=0.14185106490048777 Output=0.8581489350995122 */
+      /* FALSE NEG: infield_fauthor(b0003_p00) Actual Bool=true Prob=0.14185106490048777 Output=0.02605435328163952 */
+      /* FALSE NEG: infield_fauthor(b0005_p00) Actual Bool=true Prob=0.14185106490048777 Output=0.02605435328163952 */
+      /* FALSE NEG: infield_fauthor(b0002_p00) Actual Bool=true Prob=0.14185106490048777 Output=0.02605435328163952 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #4, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #4, null' and covering 3.546,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,157, precision = 1,000, and F1 = 0,271 - learned after 10 total and 4 acceptable nodes.  Node score = -3173.090358853792
+
+ FOR infield_fauthor(D) IF (isbibpos(D, Anon2876243, Anon2876245), hascomma(Anon2876243, Anon2876245)) THEN output = 0,428982 ELSE output = 0,186272;
+
+// Best in (weighted) recall bin #5, (0.25, 0.3], from 'outerLoop #4, null' and covering 6.226,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,275, precision = 1,000, and F1 = 0,432 - learned after 8 total and 2 acceptable nodes.  Node score = -3236.150172393926
+
+ FOR infield_fauthor(D) IF (isbibpos(D, Anon2876243, Anon2876245), followby(Anon2876243, Anon2876245, tperiod)) THEN output = 0,339054 ELSE output = 0,180750;
+
+// Best in (weighted) recall bin #7, (0.35, 0.4], from 'outerLoop #4, null' and covering 7.989,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,353, precision = 1,000, and F1 = 0,522 - learned after 12 total and 5 acceptable nodes.  Node score = -3333.6319700468866
+
+ FOR infield_fauthor(D) IF (isbibpos(D, Anon2876243, Anon2876245), haspunc(Anon2876243, Anon2876245)) THEN output = 0,259863 ELSE output = 0,204902;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #4, null' and covering 17.826,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,788, precision = 1,000, and F1 = 0,881 - learned after 5 total and 1 acceptable nodes.  Node score = -3343.717677801261
+
+ FOR infield_fauthor(D) IF (isbibpos(D, Anon2876243, Anon2876245), center(Anon2876243, Anon3087761)) THEN output = 0,216195 ELSE output = 0,254417;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #4, null' and covering 21.136,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,934, precision = 1,000, and F1 = 0,966 - learned after 2 total and 0 acceptable nodes.  Node score = -3154.008568529135
+
+ FOR infield_fauthor(D) IF (nextbibpos(D, Anon2646889)) THEN output = 0,199628 ELSE output = 0,573916;
+      /* FALSE NEG: infield_fauthor(b0004_p00) Actual Bool=true Prob=0.14185106490048777 Output=0.02605435328163952 */
+      /* FALSE NEG: infield_fauthor(b0001_p00) Actual Bool=true Prob=0.14185106490048777 Output=0.8581489350995122 */
+      /* FALSE NEG: infield_fauthor(b0003_p00) Actual Bool=true Prob=0.14185106490048777 Output=0.02605435328163952 */
+      /* FALSE NEG: infield_fauthor(b0005_p00) Actual Bool=true Prob=0.14185106490048777 Output=0.02605435328163952 */
+      /* FALSE NEG: infield_fauthor(b0002_p00) Actual Bool=true Prob=0.14185106490048777 Output=0.02605435328163952 */
+

@@ -1,0 +1,79 @@
+Log stream opened: C:\Users\MSI\Documents\code\BoostSRL/datasets/WebKB//sample_log.txt
+
+WebKBSample main
+Current directory: C:\Users\MSI\Documents\code\BoostSRL
+Dataset path: /datasets/WebKB/
+
+Create Full Dataset
+
+Reading Dataset... done!
+
+Dataset loaded!
+Course constants: 163
+Person constants: 746
+Project constants: 80
+Student ground atoms: 558
+Faculty ground atoms: 153
+CourseProf ground atoms: 130
+CourseTA ground atoms: 121
+Project ground atoms: 392
+
+Write Dataset
+Data prefix: test
+Writing 'test_facts.txt' file... done!
+Writing 'test_pos.txt' file... done!
+Writing 'test_neg.txt' file... done!
+
+Sample Dataset
+Sample person: 0.1
+Sample course: 1.0
+Sample project: 1.0
+
+Sampling constants... done!
+Adding relevant constants and ground atoms... done!
+
+Sample Dataset created!
+Person constants: 75/746
+Course constants: 28/163
+Project constants: 31/80
+Student ground atoms: 48/558
+Faculty ground atoms: 23/153
+CourseProf ground atoms: 24/130
+CourseTA ground atoms: 5/121
+Project ground atoms: 38/392
+
+Write Dataset
+Data prefix: train
+Writing 'train_facts.txt' file... done!
+Writing 'train_pos.txt' file... done!
+Writing 'train_neg.txt' file... done!
+
+Create full Graph
+Creating 746 Person nodes
+Creating 163 Course nodes
+Creating 80 Project nodes
+Creating 130 CourseProf edges
+Creating 121 CourseTA edges
+Creating 392 Project edges
+Writing 'full_graph.dot' file... done!
+
+Create sample Graph
+Creating 75 Person nodes
+Creating 28 Course nodes
+Creating 31 Project nodes
+Creating 24 CourseProf edges
+Creating 5 CourseTA edges
+Creating 38 Project edges
+Writing 'sample_graph.dot' file... done!
+
+Create combined Graph
+Creating 746 Person nodes
+Creating 163 Course nodes
+Creating 80 Project nodes
+Creating 130 CourseProf edges
+Creating 121 CourseTA edges
+Creating 392 Project edges
+Writing 'combined_graph.dot' file... done!
+
+Exiting main...
+Log stream closing...

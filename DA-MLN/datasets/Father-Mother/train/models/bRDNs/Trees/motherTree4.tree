@@ -1,0 +1,8 @@
+setParam: stringsAreCaseSensitive = true.
+
+usePrologVariables: true.
+
+
+(mother(A, B, 0.32071184716014967) :-  /* #pos=5 */ female(B), childof(B, A)).
+(mother(_, A, -0.19835503727575554) :-  /* #neg=3 */ female(A)).
+mother(_, _, -0.08972214865884202) /* #neg=6 */ .

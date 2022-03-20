@@ -1,0 +1,4448 @@
+
+not_smokes(person_110).
+cancer(person_110).
+smokes(person_111).
+cancer(person_111).
+not_smokes(person_112).
+not_cancer(person_112).
+not_smokes(person_113).
+not_cancer(person_113).
+not_smokes(person_114).
+not_cancer(person_114).
+not_smokes(person_115).
+not_cancer(person_115).
+not_smokes(person_116).
+not_cancer(person_116).
+not_smokes(person_117).
+not_cancer(person_117).
+not_smokes(person_118).
+not_cancer(person_118).
+not_smokes(person_119).
+not_cancer(person_119).
+smokes(person_10).
+cancer(person_10).
+not_smokes(person_11).
+not_cancer(person_11).
+not_smokes(person_12).
+not_cancer(person_12).
+not_smokes(person_13).
+not_cancer(person_13).
+not_smokes(person_14).
+not_cancer(person_14).
+smokes(person_15).
+not_cancer(person_15).
+not_smokes(person_16).
+not_cancer(person_16).
+not_smokes(person_17).
+not_cancer(person_17).
+not_smokes(person_18).
+not_cancer(person_18).
+not_smokes(person_19).
+not_cancer(person_19).
+smokes(person_120).
+cancer(person_120).
+not_smokes(person_0).
+not_cancer(person_0).
+not_smokes(person_121).
+not_cancer(person_121).
+not_smokes(person_1).
+not_cancer(person_1).
+smokes(person_122).
+cancer(person_122).
+not_smokes(person_2).
+cancer(person_2).
+smokes(person_123).
+cancer(person_123).
+not_smokes(person_3).
+not_cancer(person_3).
+smokes(person_124).
+not_cancer(person_124).
+smokes(person_4).
+not_cancer(person_4).
+not_smokes(person_125).
+not_cancer(person_125).
+not_smokes(person_5).
+not_cancer(person_5).
+not_smokes(person_126).
+not_cancer(person_126).
+not_smokes(person_6).
+not_cancer(person_6).
+smokes(person_127).
+cancer(person_127).
+not_smokes(person_7).
+not_cancer(person_7).
+not_smokes(person_128).
+not_cancer(person_128).
+not_smokes(person_8).
+not_cancer(person_8).
+smokes(person_129).
+not_cancer(person_129).
+not_smokes(person_9).
+cancer(person_9).
+not_smokes(person_20).
+not_cancer(person_20).
+not_smokes(person_21).
+not_cancer(person_21).
+not_smokes(person_22).
+not_cancer(person_22).
+not_smokes(person_23).
+not_cancer(person_23).
+not_smokes(person_24).
+not_cancer(person_24).
+not_smokes(person_25).
+not_cancer(person_25).
+not_smokes(person_26).
+not_cancer(person_26).
+not_smokes(person_27).
+not_cancer(person_27).
+not_smokes(person_28).
+not_cancer(person_28).
+not_smokes(person_29).
+not_cancer(person_29).
+smokes(person_130).
+cancer(person_130).
+smokes(person_131).
+cancer(person_131).
+not_smokes(person_132).
+not_cancer(person_132).
+smokes(person_133).
+cancer(person_133).
+smokes(person_134).
+not_cancer(person_134).
+not_smokes(person_135).
+not_cancer(person_135).
+not_smokes(person_136).
+not_cancer(person_136).
+not_smokes(person_137).
+not_cancer(person_137).
+not_smokes(person_138).
+not_cancer(person_138).
+not_smokes(person_139).
+not_cancer(person_139).
+not_smokes(person_30).
+not_cancer(person_30).
+not_smokes(person_31).
+not_cancer(person_31).
+not_smokes(person_32).
+not_cancer(person_32).
+not_smokes(person_33).
+not_cancer(person_33).
+not_smokes(person_34).
+not_cancer(person_34).
+not_smokes(person_35).
+not_cancer(person_35).
+not_smokes(person_36).
+not_cancer(person_36).
+not_smokes(person_37).
+not_cancer(person_37).
+not_smokes(person_38).
+not_cancer(person_38).
+not_smokes(person_39).
+not_cancer(person_39).
+not_smokes(person_140).
+not_cancer(person_140).
+not_smokes(person_141).
+not_cancer(person_141).
+not_smokes(person_142).
+not_cancer(person_142).
+not_smokes(person_143).
+not_cancer(person_143).
+not_smokes(person_144).
+not_cancer(person_144).
+not_smokes(person_145).
+not_cancer(person_145).
+not_smokes(person_146).
+not_cancer(person_146).
+not_smokes(person_147).
+not_cancer(person_147).
+not_smokes(person_148).
+cancer(person_148).
+not_smokes(person_149).
+not_cancer(person_149).
+not_smokes(person_40).
+not_cancer(person_40).
+not_smokes(person_41).
+not_cancer(person_41).
+not_smokes(person_42).
+not_cancer(person_42).
+not_smokes(person_43).
+not_cancer(person_43).
+not_smokes(person_44).
+not_cancer(person_44).
+not_smokes(person_45).
+not_cancer(person_45).
+not_smokes(person_46).
+not_cancer(person_46).
+smokes(person_47).
+not_cancer(person_47).
+not_smokes(person_48).
+not_cancer(person_48).
+not_smokes(person_49).
+not_cancer(person_49).
+not_smokes(person_150).
+not_cancer(person_150).
+not_smokes(person_151).
+not_cancer(person_151).
+not_smokes(person_152).
+not_cancer(person_152).
+not_smokes(person_153).
+not_cancer(person_153).
+not_smokes(person_154).
+not_cancer(person_154).
+not_smokes(person_155).
+not_cancer(person_155).
+not_smokes(person_156).
+not_cancer(person_156).
+not_smokes(person_157).
+not_cancer(person_157).
+not_smokes(person_158).
+not_cancer(person_158).
+smokes(person_159).
+not_cancer(person_159).
+not_smokes(person_50).
+not_cancer(person_50).
+not_smokes(person_51).
+not_cancer(person_51).
+smokes(person_52).
+not_cancer(person_52).
+not_smokes(person_53).
+not_cancer(person_53).
+not_smokes(person_54).
+not_cancer(person_54).
+not_smokes(person_55).
+not_cancer(person_55).
+smokes(person_56).
+cancer(person_56).
+not_smokes(person_57).
+not_cancer(person_57).
+not_smokes(person_58).
+not_cancer(person_58).
+not_smokes(person_59).
+not_cancer(person_59).
+not_smokes(person_160).
+not_cancer(person_160).
+not_smokes(person_161).
+not_cancer(person_161).
+not_smokes(person_162).
+not_cancer(person_162).
+not_smokes(person_163).
+not_cancer(person_163).
+not_smokes(person_164).
+not_cancer(person_164).
+smokes(person_165).
+cancer(person_165).
+not_smokes(person_166).
+cancer(person_166).
+not_smokes(person_167).
+not_cancer(person_167).
+not_smokes(person_168).
+not_cancer(person_168).
+not_smokes(person_169).
+not_cancer(person_169).
+smokes(person_60).
+cancer(person_60).
+smokes(person_61).
+cancer(person_61).
+smokes(person_62).
+not_cancer(person_62).
+smokes(person_63).
+cancer(person_63).
+smokes(person_64).
+not_cancer(person_64).
+smokes(person_65).
+not_cancer(person_65).
+smokes(person_66).
+not_cancer(person_66).
+smokes(person_67).
+not_cancer(person_67).
+smokes(person_68).
+not_cancer(person_68).
+smokes(person_69).
+not_cancer(person_69).
+not_smokes(person_170).
+not_cancer(person_170).
+smokes(person_171).
+cancer(person_171).
+not_smokes(person_172).
+not_cancer(person_172).
+not_smokes(person_173).
+not_cancer(person_173).
+not_smokes(person_174).
+not_cancer(person_174).
+not_smokes(person_175).
+not_cancer(person_175).
+not_smokes(person_176).
+not_cancer(person_176).
+not_smokes(person_177).
+not_cancer(person_177).
+not_smokes(person_178).
+not_cancer(person_178).
+not_smokes(person_179).
+not_cancer(person_179).
+smokes(person_70).
+cancer(person_70).
+smokes(person_71).
+not_cancer(person_71).
+smokes(person_72).
+not_cancer(person_72).
+not_smokes(person_73).
+cancer(person_73).
+not_smokes(person_74).
+not_cancer(person_74).
+smokes(person_75).
+not_cancer(person_75).
+not_smokes(person_76).
+not_cancer(person_76).
+not_smokes(person_77).
+not_cancer(person_77).
+smokes(person_78).
+not_cancer(person_78).
+not_smokes(person_79).
+not_cancer(person_79).
+not_smokes(person_180).
+not_cancer(person_180).
+smokes(person_181).
+not_cancer(person_181).
+smokes(person_182).
+not_cancer(person_182).
+smokes(person_183).
+not_cancer(person_183).
+smokes(person_184).
+not_cancer(person_184).
+smokes(person_185).
+not_cancer(person_185).
+smokes(person_186).
+not_cancer(person_186).
+smokes(person_187).
+cancer(person_187).
+smokes(person_188).
+cancer(person_188).
+smokes(person_189).
+cancer(person_189).
+smokes(person_80).
+cancer(person_80).
+smokes(person_81).
+not_cancer(person_81).
+smokes(person_82).
+cancer(person_82).
+smokes(person_83).
+not_cancer(person_83).
+smokes(person_84).
+not_cancer(person_84).
+smokes(person_85).
+not_cancer(person_85).
+smokes(person_86).
+not_cancer(person_86).
+not_smokes(person_87).
+not_cancer(person_87).
+smokes(person_88).
+not_cancer(person_88).
+smokes(person_89).
+cancer(person_89).
+smokes(person_190).
+cancer(person_190).
+smokes(person_191).
+cancer(person_191).
+not_smokes(person_192).
+not_cancer(person_192).
+smokes(person_193).
+cancer(person_193).
+smokes(person_194).
+not_cancer(person_194).
+not_smokes(person_195).
+not_cancer(person_195).
+smokes(person_196).
+not_cancer(person_196).
+smokes(person_197).
+not_cancer(person_197).
+not_smokes(person_198).
+not_cancer(person_198).
+not_smokes(person_199).
+not_cancer(person_199).
+not_smokes(person_90).
+not_cancer(person_90).
+not_smokes(person_91).
+not_cancer(person_91).
+not_smokes(person_92).
+not_cancer(person_92).
+not_smokes(person_93).
+not_cancer(person_93).
+not_smokes(person_94).
+not_cancer(person_94).
+smokes(person_95).
+not_cancer(person_95).
+not_smokes(person_96).
+not_cancer(person_96).
+not_smokes(person_97).
+not_cancer(person_97).
+not_smokes(person_98).
+not_cancer(person_98).
+not_smokes(person_99).
+not_cancer(person_99).
+smokes(person_200).
+not_cancer(person_200).
+smokes(person_201).
+not_cancer(person_201).
+smokes(person_202).
+cancer(person_202).
+not_smokes(person_203).
+not_cancer(person_203).
+not_smokes(person_204).
+not_cancer(person_204).
+smokes(person_205).
+cancer(person_205).
+smokes(person_206).
+cancer(person_206).
+smokes(person_207).
+cancer(person_207).
+smokes(person_208).
+cancer(person_208).
+not_smokes(person_209).
+not_cancer(person_209).
+not_smokes(person_210).
+not_cancer(person_210).
+not_smokes(person_211).
+cancer(person_211).
+smokes(person_212).
+not_cancer(person_212).
+not_smokes(person_213).
+not_cancer(person_213).
+not_smokes(person_214).
+not_cancer(person_214).
+not_smokes(person_215).
+cancer(person_215).
+not_smokes(person_216).
+not_cancer(person_216).
+not_smokes(person_217).
+not_cancer(person_217).
+not_smokes(person_218).
+not_cancer(person_218).
+not_smokes(person_219).
+not_cancer(person_219).
+not_smokes(person_220).
+not_cancer(person_220).
+not_smokes(person_100).
+not_cancer(person_100).
+not_smokes(person_221).
+not_cancer(person_221).
+not_smokes(person_101).
+not_cancer(person_101).
+smokes(person_222).
+not_cancer(person_222).
+not_smokes(person_102).
+cancer(person_102).
+not_smokes(person_223).
+cancer(person_223).
+not_smokes(person_103).
+not_cancer(person_103).
+not_smokes(person_224).
+not_cancer(person_224).
+not_smokes(person_104).
+not_cancer(person_104).
+not_smokes(person_105).
+not_cancer(person_105).
+not_smokes(person_106).
+not_cancer(person_106).
+not_smokes(person_107).
+not_cancer(person_107).
+not_smokes(person_108).
+not_cancer(person_108).
+not_smokes(person_109).
+not_cancer(person_109).
+
+friends(person_38, person_44).
+friends(person_44, person_38).
+friends(person_7, person_202).
+friends(person_202, person_7).
+friends(person_132, person_180).
+friends(person_180, person_132).
+friends(person_195, person_199).
+friends(person_199, person_195).
+friends(person_195, person_198).
+friends(person_198, person_195).
+friends(person_94, person_100).
+friends(person_100, person_94).
+friends(person_107, person_147).
+friends(person_147, person_107).
+friends(person_38, person_40).
+friends(person_40, person_38).
+friends(person_38, person_41).
+friends(person_41, person_38).
+friends(person_38, person_42).
+friends(person_42, person_38).
+friends(person_38, person_43).
+friends(person_43, person_38).
+friends(person_40, person_127).
+friends(person_127, person_40).
+friends(person_26, person_54).
+friends(person_54, person_26).
+friends(person_40, person_126).
+friends(person_126, person_40).
+friends(person_195, person_197).
+friends(person_197, person_195).
+friends(person_195, person_196).
+friends(person_196, person_195).
+friends(person_14, person_86).
+friends(person_86, person_14).
+friends(person_24, person_144).
+friends(person_144, person_24).
+friends(person_38, person_39).
+friends(person_39, person_38).
+friends(person_87, person_133).
+friends(person_133, person_87).
+friends(person_179, person_190).
+friends(person_190, person_179).
+friends(person_24, person_146).
+friends(person_146, person_24).
+friends(person_83, person_86).
+friends(person_86, person_83).
+friends(person_129, person_205).
+friends(person_205, person_129).
+friends(person_83, person_89).
+friends(person_89, person_83).
+friends(person_83, person_88).
+friends(person_88, person_83).
+friends(person_114, person_119).
+friends(person_119, person_114).
+friends(person_129, person_223).
+friends(person_223, person_129).
+friends(person_154, person_220).
+friends(person_220, person_154).
+friends(person_24, person_118).
+friends(person_118, person_24).
+friends(person_95, person_98).
+friends(person_98, person_95).
+friends(person_95, person_99).
+friends(person_99, person_95).
+friends(person_219, person_223).
+friends(person_223, person_219).
+friends(person_17, person_197).
+friends(person_197, person_17).
+friends(person_95, person_96).
+friends(person_96, person_95).
+friends(person_95, person_97).
+friends(person_97, person_95).
+friends(person_129, person_218).
+friends(person_218, person_129).
+friends(person_55, person_215).
+friends(person_215, person_55).
+friends(person_123, person_129).
+friends(person_129, person_123).
+friends(person_123, person_128).
+friends(person_128, person_123).
+friends(person_123, person_127).
+friends(person_127, person_123).
+friends(person_55, person_218).
+friends(person_218, person_55).
+friends(person_123, person_126).
+friends(person_126, person_123).
+friends(person_123, person_125).
+friends(person_125, person_123).
+friends(person_7, person_217).
+friends(person_217, person_7).
+friends(person_114, person_129).
+friends(person_129, person_114).
+friends(person_123, person_124).
+friends(person_124, person_123).
+friends(person_6, person_8).
+friends(person_8, person_6).
+friends(person_6, person_9).
+friends(person_9, person_6).
+friends(person_26, person_194).
+friends(person_194, person_26).
+friends(person_7, person_94).
+friends(person_94, person_7).
+friends(person_33, person_145).
+friends(person_145, person_33).
+friends(person_51, person_52).
+friends(person_52, person_51).
+friends(person_51, person_55).
+friends(person_55, person_51).
+friends(person_199, person_208).
+friends(person_208, person_199).
+friends(person_123, person_133).
+friends(person_133, person_123).
+friends(person_51, person_54).
+friends(person_54, person_51).
+friends(person_123, person_132).
+friends(person_132, person_123).
+friends(person_123, person_131).
+friends(person_131, person_123).
+friends(person_26, person_45).
+friends(person_45, person_26).
+friends(person_51, person_56).
+friends(person_56, person_51).
+friends(person_199, person_207).
+friends(person_207, person_199).
+friends(person_123, person_130).
+friends(person_130, person_123).
+friends(person_199, person_204).
+friends(person_204, person_199).
+friends(person_94, person_103).
+friends(person_103, person_94).
+friends(person_51, person_58).
+friends(person_58, person_51).
+friends(person_199, person_205).
+friends(person_205, person_199).
+friends(person_199, person_202).
+friends(person_202, person_199).
+friends(person_94, person_101).
+friends(person_101, person_94).
+friends(person_199, person_203).
+friends(person_203, person_199).
+friends(person_94, person_102).
+friends(person_102, person_94).
+friends(person_199, person_200).
+friends(person_200, person_199).
+friends(person_114, person_115).
+friends(person_115, person_114).
+friends(person_114, person_117).
+friends(person_117, person_114).
+friends(person_114, person_118).
+friends(person_118, person_114).
+friends(person_3, person_190).
+friends(person_190, person_3).
+friends(person_17, person_132).
+friends(person_132, person_17).
+friends(person_170, person_208).
+friends(person_208, person_170).
+friends(person_3, person_192).
+friends(person_192, person_3).
+friends(person_141, person_182).
+friends(person_182, person_141).
+friends(person_152, person_201).
+friends(person_201, person_152).
+friends(person_26, person_29).
+friends(person_29, person_26).
+friends(person_33, person_122).
+friends(person_122, person_33).
+friends(person_219, person_220).
+friends(person_220, person_219).
+friends(person_219, person_222).
+friends(person_222, person_219).
+friends(person_219, person_221).
+friends(person_221, person_219).
+friends(person_69, person_103).
+friends(person_103, person_69).
+friends(person_26, person_28).
+friends(person_28, person_26).
+friends(person_26, person_27).
+friends(person_27, person_26).
+friends(person_132, person_133).
+friends(person_133, person_132).
+friends(person_132, person_134).
+friends(person_134, person_132).
+friends(person_63, person_66).
+friends(person_66, person_63).
+friends(person_63, person_67).
+friends(person_67, person_63).
+friends(person_71, person_215).
+friends(person_215, person_71).
+friends(person_63, person_68).
+friends(person_68, person_63).
+friends(person_63, person_69).
+friends(person_69, person_63).
+friends(person_116, person_166).
+friends(person_166, person_116).
+friends(person_71, person_217).
+friends(person_217, person_71).
+friends(person_0, person_12).
+friends(person_12, person_0).
+friends(person_0, person_13).
+friends(person_13, person_0).
+friends(person_87, person_121).
+friends(person_121, person_87).
+friends(person_0, person_10).
+friends(person_10, person_0).
+friends(person_0, person_11).
+friends(person_11, person_0).
+friends(person_24, person_157).
+friends(person_157, person_24).
+friends(person_37, person_217).
+friends(person_217, person_37).
+friends(person_48, person_223).
+friends(person_223, person_48).
+friends(person_22, person_101).
+friends(person_101, person_22).
+friends(person_48, person_221).
+friends(person_221, person_48).
+friends(person_123, person_165).
+friends(person_165, person_123).
+friends(person_3, person_170).
+friends(person_170, person_3).
+friends(person_188, person_189).
+friends(person_189, person_188).
+friends(person_63, person_64).
+friends(person_64, person_63).
+friends(person_177, person_178).
+friends(person_178, person_177).
+friends(person_136, person_222).
+friends(person_222, person_136).
+friends(person_177, person_179).
+friends(person_179, person_177).
+friends(person_33, person_106).
+friends(person_106, person_33).
+friends(person_188, person_192).
+friends(person_192, person_188).
+friends(person_188, person_191).
+friends(person_191, person_188).
+friends(person_48, person_216).
+friends(person_216, person_48).
+friends(person_123, person_177).
+friends(person_177, person_123).
+friends(person_0, person_18).
+friends(person_18, person_0).
+friends(person_123, person_173).
+friends(person_173, person_123).
+friends(person_0, person_14).
+friends(person_14, person_0).
+friends(person_3, person_169).
+friends(person_169, person_3).
+friends(person_63, person_70).
+friends(person_70, person_63).
+friends(person_63, person_71).
+friends(person_71, person_63).
+friends(person_177, person_185).
+friends(person_185, person_177).
+friends(person_63, person_72).
+friends(person_72, person_63).
+friends(person_188, person_194).
+friends(person_194, person_188).
+friends(person_63, person_73).
+friends(person_73, person_63).
+friends(person_63, person_74).
+friends(person_74, person_63).
+friends(person_188, person_198).
+friends(person_198, person_188).
+friends(person_141, person_146).
+friends(person_146, person_141).
+friends(person_94, person_180).
+friends(person_180, person_94).
+friends(person_141, person_149).
+friends(person_149, person_141).
+friends(person_22, person_129).
+friends(person_129, person_22).
+friends(person_141, person_148).
+friends(person_148, person_141).
+friends(person_141, person_143).
+friends(person_143, person_141).
+friends(person_51, person_184).
+friends(person_184, person_51).
+friends(person_141, person_142).
+friends(person_142, person_141).
+friends(person_141, person_145).
+friends(person_145, person_141).
+friends(person_141, person_144).
+friends(person_144, person_141).
+friends(person_147, person_207).
+friends(person_207, person_147).
+friends(person_58, person_59).
+friends(person_59, person_58).
+friends(person_109, person_154).
+friends(person_154, person_109).
+friends(person_147, person_212).
+friends(person_212, person_147).
+friends(person_114, person_185).
+friends(person_185, person_114).
+friends(person_121, person_132).
+friends(person_132, person_121).
+friends(person_121, person_131).
+friends(person_131, person_121).
+friends(person_15, person_165).
+friends(person_165, person_15).
+friends(person_121, person_130).
+friends(person_130, person_121).
+friends(person_121, person_134).
+friends(person_134, person_121).
+friends(person_208, person_209).
+friends(person_209, person_208).
+friends(person_92, person_102).
+friends(person_102, person_92).
+friends(person_141, person_156).
+friends(person_156, person_141).
+friends(person_92, person_100).
+friends(person_100, person_92).
+friends(person_150, person_179).
+friends(person_179, person_150).
+friends(person_121, person_129).
+friends(person_129, person_121).
+friends(person_85, person_153).
+friends(person_153, person_85).
+friends(person_121, person_128).
+friends(person_128, person_121).
+friends(person_121, person_127).
+friends(person_127, person_121).
+friends(person_150, person_173).
+friends(person_173, person_150).
+friends(person_105, person_118).
+friends(person_118, person_105).
+friends(person_121, person_125).
+friends(person_125, person_121).
+friends(person_64, person_208).
+friends(person_208, person_64).
+friends(person_121, person_124).
+friends(person_124, person_121).
+friends(person_121, person_122).
+friends(person_122, person_121).
+friends(person_105, person_112).
+friends(person_112, person_105).
+friends(person_105, person_110).
+friends(person_110, person_105).
+friends(person_105, person_116).
+friends(person_116, person_105).
+friends(person_105, person_113).
+friends(person_113, person_105).
+friends(person_105, person_114).
+friends(person_114, person_105).
+friends(person_109, person_172).
+friends(person_172, person_109).
+friends(person_109, person_177).
+friends(person_177, person_109).
+friends(person_0, person_50).
+friends(person_50, person_0).
+friends(person_109, person_168).
+friends(person_168, person_109).
+friends(person_112, person_117).
+friends(person_117, person_112).
+friends(person_105, person_108).
+friends(person_108, person_105).
+friends(person_112, person_118).
+friends(person_118, person_112).
+friends(person_2, person_4).
+friends(person_4, person_2).
+friends(person_112, person_119).
+friends(person_119, person_112).
+friends(person_2, person_5).
+friends(person_5, person_2).
+friends(person_92, person_103).
+friends(person_103, person_92).
+friends(person_2, person_6).
+friends(person_6, person_2).
+friends(person_92, person_104).
+friends(person_104, person_92).
+friends(person_105, person_107).
+friends(person_107, person_105).
+friends(person_112, person_113).
+friends(person_113, person_112).
+friends(person_112, person_115).
+friends(person_115, person_112).
+friends(person_2, person_9).
+friends(person_9, person_2).
+friends(person_112, person_116).
+friends(person_116, person_112).
+friends(person_18, person_28).
+friends(person_28, person_18).
+friends(person_18, person_29).
+friends(person_29, person_18).
+friends(person_18, person_24).
+friends(person_24, person_18).
+friends(person_18, person_26).
+friends(person_26, person_18).
+friends(person_18, person_27).
+friends(person_27, person_18).
+friends(person_18, person_20).
+friends(person_20, person_18).
+friends(person_18, person_23).
+friends(person_23, person_18).
+friends(person_193, person_195).
+friends(person_195, person_193).
+friends(person_193, person_194).
+friends(person_194, person_193).
+friends(person_114, person_199).
+friends(person_199, person_114).
+friends(person_121, person_143).
+friends(person_143, person_121).
+friends(person_141, person_174).
+friends(person_174, person_141).
+friends(person_186, person_194).
+friends(person_194, person_186).
+friends(person_186, person_192).
+friends(person_192, person_186).
+friends(person_186, person_193).
+friends(person_193, person_186).
+friends(person_186, person_190).
+friends(person_190, person_186).
+friends(person_186, person_191).
+friends(person_191, person_186).
+friends(person_197, person_200).
+friends(person_200, person_197).
+friends(person_197, person_203).
+friends(person_203, person_197).
+friends(person_58, person_91).
+friends(person_91, person_58).
+friends(person_197, person_202).
+friends(person_202, person_197).
+friends(person_197, person_205).
+friends(person_205, person_197).
+friends(person_197, person_204).
+friends(person_204, person_197).
+friends(person_1, person_180).
+friends(person_180, person_1).
+friends(person_197, person_207).
+friends(person_207, person_197).
+friends(person_197, person_206).
+friends(person_206, person_197).
+friends(person_199, person_212).
+friends(person_212, person_199).
+friends(person_114, person_149).
+friends(person_149, person_114).
+friends(person_62, person_220).
+friends(person_220, person_62).
+friends(person_109, person_181).
+friends(person_181, person_109).
+friends(person_0, person_89).
+friends(person_89, person_0).
+friends(person_107, person_113).
+friends(person_113, person_107).
+friends(person_107, person_114).
+friends(person_114, person_107).
+friends(person_107, person_111).
+friends(person_111, person_107).
+friends(person_107, person_112).
+friends(person_112, person_107).
+friends(person_107, person_110).
+friends(person_110, person_107).
+friends(person_0, person_83).
+friends(person_83, person_0).
+friends(person_71, person_74).
+friends(person_74, person_71).
+friends(person_71, person_72).
+friends(person_72, person_71).
+friends(person_71, person_73).
+friends(person_73, person_71).
+friends(person_107, person_108).
+friends(person_108, person_107).
+friends(person_107, person_109).
+friends(person_109, person_107).
+friends(person_42, person_107).
+friends(person_107, person_42).
+friends(person_186, person_189).
+friends(person_189, person_186).
+friends(person_186, person_187).
+friends(person_187, person_186).
+friends(person_186, person_188).
+friends(person_188, person_186).
+friends(person_127, person_215).
+friends(person_215, person_127).
+friends(person_28, person_209).
+friends(person_209, person_28).
+friends(person_57, person_222).
+friends(person_222, person_57).
+friends(person_107, person_119).
+friends(person_119, person_107).
+friends(person_114, person_161).
+friends(person_161, person_114).
+friends(person_107, person_117).
+friends(person_117, person_107).
+friends(person_107, person_118).
+friends(person_118, person_107).
+friends(person_107, person_116).
+friends(person_116, person_107).
+friends(person_44, person_197).
+friends(person_197, person_44).
+friends(person_42, person_128).
+friends(person_128, person_42).
+friends(person_19, person_105).
+friends(person_105, person_19).
+friends(person_66, person_70).
+friends(person_70, person_66).
+friends(person_66, person_71).
+friends(person_71, person_66).
+friends(person_66, person_74).
+friends(person_74, person_66).
+friends(person_66, person_73).
+friends(person_73, person_66).
+friends(person_60, person_154).
+friends(person_154, person_60).
+friends(person_143, person_145).
+friends(person_145, person_143).
+friends(person_143, person_144).
+friends(person_144, person_143).
+friends(person_44, person_137).
+friends(person_137, person_44).
+friends(person_10, person_45).
+friends(person_45, person_10).
+friends(person_143, person_147).
+friends(person_147, person_143).
+friends(person_143, person_146).
+friends(person_146, person_143).
+friends(person_22, person_25).
+friends(person_25, person_22).
+friends(person_143, person_149).
+friends(person_149, person_143).
+friends(person_76, person_163).
+friends(person_163, person_76).
+friends(person_22, person_26).
+friends(person_26, person_22).
+friends(person_143, person_148).
+friends(person_148, person_143).
+friends(person_20, person_120).
+friends(person_120, person_20).
+friends(person_22, person_28).
+friends(person_28, person_22).
+friends(person_165, person_207).
+friends(person_207, person_165).
+friends(person_22, person_24).
+friends(person_24, person_22).
+friends(person_175, person_177).
+friends(person_177, person_175).
+friends(person_175, person_176).
+friends(person_176, person_175).
+friends(person_12, person_224).
+friends(person_224, person_12).
+friends(person_118, person_119).
+friends(person_119, person_118).
+friends(person_175, person_179).
+friends(person_179, person_175).
+friends(person_175, person_178).
+friends(person_178, person_175).
+friends(person_4, person_10).
+friends(person_10, person_4).
+friends(person_4, person_11).
+friends(person_11, person_4).
+friends(person_103, person_104).
+friends(person_104, person_103).
+friends(person_4, person_12).
+friends(person_12, person_4).
+friends(person_4, person_13).
+friends(person_13, person_4).
+friends(person_4, person_14).
+friends(person_14, person_4).
+friends(person_4, person_15).
+friends(person_15, person_4).
+friends(person_78, person_80).
+friends(person_80, person_78).
+friends(person_78, person_83).
+friends(person_83, person_78).
+friends(person_10, person_11).
+friends(person_11, person_10).
+friends(person_78, person_82).
+friends(person_82, person_78).
+friends(person_78, person_85).
+friends(person_85, person_78).
+friends(person_78, person_84).
+friends(person_84, person_78).
+friends(person_78, person_87).
+friends(person_87, person_78).
+friends(person_78, person_86).
+friends(person_86, person_78).
+friends(person_44, person_163).
+friends(person_163, person_44).
+friends(person_44, person_165).
+friends(person_165, person_44).
+friends(person_58, person_102).
+friends(person_102, person_58).
+friends(person_5, person_184).
+friends(person_184, person_5).
+friends(person_10, person_14).
+friends(person_14, person_10).
+friends(person_191, person_192).
+friends(person_192, person_191).
+friends(person_42, person_83).
+friends(person_83, person_42).
+friends(person_111, person_211).
+friends(person_211, person_111).
+friends(person_103, person_112).
+friends(person_112, person_103).
+friends(person_159, person_192).
+friends(person_192, person_159).
+friends(person_78, person_79).
+friends(person_79, person_78).
+friends(person_76, person_150).
+friends(person_150, person_76).
+friends(person_42, person_74).
+friends(person_74, person_42).
+friends(person_222, person_224).
+friends(person_224, person_222).
+friends(person_222, person_223).
+friends(person_223, person_222).
+friends(person_30, person_87).
+friends(person_87, person_30).
+friends(person_161, person_196).
+friends(person_196, person_161).
+friends(person_161, person_193).
+friends(person_193, person_161).
+friends(person_161, person_194).
+friends(person_194, person_161).
+friends(person_76, person_140).
+friends(person_140, person_76).
+friends(person_161, person_190).
+friends(person_190, person_161).
+friends(person_134, person_150).
+friends(person_150, person_134).
+friends(person_195, person_203).
+friends(person_203, person_195).
+friends(person_76, person_128).
+friends(person_128, person_76).
+friends(person_195, person_202).
+friends(person_202, person_195).
+friends(person_195, person_205).
+friends(person_205, person_195).
+friends(person_195, person_204).
+friends(person_204, person_195).
+friends(person_78, person_93).
+friends(person_93, person_78).
+friends(person_195, person_200).
+friends(person_200, person_195).
+friends(person_195, person_207).
+friends(person_207, person_195).
+friends(person_105, person_163).
+friends(person_163, person_105).
+friends(person_195, person_208).
+friends(person_208, person_195).
+friends(person_134, person_169).
+friends(person_169, person_134).
+friends(person_161, person_180).
+friends(person_180, person_161).
+friends(person_125, person_221).
+friends(person_221, person_125).
+friends(person_35, person_166).
+friends(person_166, person_35).
+friends(person_76, person_118).
+friends(person_118, person_76).
+friends(person_134, person_170).
+friends(person_170, person_134).
+friends(person_20, person_178).
+friends(person_178, person_20).
+friends(person_91, person_96).
+friends(person_96, person_91).
+friends(person_91, person_97).
+friends(person_97, person_91).
+friends(person_91, person_94).
+friends(person_94, person_91).
+friends(person_91, person_95).
+friends(person_95, person_91).
+friends(person_17, person_81).
+friends(person_81, person_17).
+friends(person_159, person_163).
+friends(person_163, person_159).
+friends(person_159, person_164).
+friends(person_164, person_159).
+friends(person_159, person_161).
+friends(person_161, person_159).
+friends(person_76, person_114).
+friends(person_114, person_76).
+friends(person_91, person_98).
+friends(person_98, person_91).
+friends(person_91, person_99).
+friends(person_99, person_91).
+friends(person_31, person_194).
+friends(person_194, person_31).
+friends(person_91, person_92).
+friends(person_92, person_91).
+friends(person_91, person_93).
+friends(person_93, person_91).
+friends(person_29, person_62).
+friends(person_62, person_29).
+friends(person_134, person_171).
+friends(person_171, person_134).
+friends(person_42, person_43).
+friends(person_43, person_42).
+friends(person_42, person_44).
+friends(person_44, person_42).
+friends(person_134, person_177).
+friends(person_177, person_134).
+friends(person_105, person_148).
+friends(person_148, person_105).
+friends(person_161, person_164).
+friends(person_164, person_161).
+friends(person_161, person_162).
+friends(person_162, person_161).
+friends(person_161, person_163).
+friends(person_163, person_161).
+friends(person_125, person_201).
+friends(person_201, person_125).
+friends(person_29, person_72).
+friends(person_72, person_29).
+friends(person_145, person_199).
+friends(person_199, person_145).
+friends(person_7, person_167).
+friends(person_167, person_7).
+friends(person_173, person_175).
+friends(person_175, person_173).
+friends(person_86, person_87).
+friends(person_87, person_86).
+friends(person_173, person_174).
+friends(person_174, person_173).
+friends(person_86, person_88).
+friends(person_88, person_86).
+friends(person_34, person_87).
+friends(person_87, person_34).
+friends(person_74, person_166).
+friends(person_166, person_74).
+friends(person_46, person_61).
+friends(person_61, person_46).
+friends(person_10, person_223).
+friends(person_223, person_10).
+friends(person_74, person_96).
+friends(person_96, person_74).
+friends(person_74, person_93).
+friends(person_93, person_74).
+friends(person_173, person_179).
+friends(person_179, person_173).
+friends(person_19, person_184).
+friends(person_184, person_19).
+friends(person_22, person_91).
+friends(person_91, person_22).
+friends(person_173, person_178).
+friends(person_178, person_173).
+friends(person_78, person_199).
+friends(person_199, person_78).
+friends(person_34, person_70).
+friends(person_70, person_34).
+friends(person_46, person_163).
+friends(person_163, person_46).
+friends(person_34, person_76).
+friends(person_76, person_34).
+friends(person_46, person_50).
+friends(person_50, person_46).
+friends(person_31, person_180).
+friends(person_180, person_31).
+friends(person_80, person_210).
+friends(person_210, person_80).
+friends(person_46, person_58).
+friends(person_58, person_46).
+friends(person_46, person_59).
+friends(person_59, person_46).
+friends(person_46, person_56).
+friends(person_56, person_46).
+friends(person_46, person_57).
+friends(person_57, person_46).
+friends(person_46, person_54).
+friends(person_54, person_46).
+friends(person_46, person_55).
+friends(person_55, person_46).
+friends(person_46, person_52).
+friends(person_52, person_46).
+friends(person_173, person_188).
+friends(person_188, person_173).
+friends(person_7, person_189).
+friends(person_189, person_7).
+friends(person_46, person_49).
+friends(person_49, person_46).
+friends(person_34, person_67).
+friends(person_67, person_34).
+friends(person_167, person_208).
+friends(person_208, person_167).
+friends(person_74, person_144).
+friends(person_144, person_74).
+friends(person_167, person_206).
+friends(person_206, person_167).
+friends(person_10, person_201).
+friends(person_201, person_10).
+friends(person_145, person_147).
+friends(person_147, person_145).
+friends(person_22, person_77).
+friends(person_77, person_22).
+friends(person_145, person_146).
+friends(person_146, person_145).
+friends(person_145, person_148).
+friends(person_148, person_145).
+friends(person_46, person_47).
+friends(person_47, person_46).
+friends(person_101, person_103).
+friends(person_103, person_101).
+friends(person_46, person_48).
+friends(person_48, person_46).
+friends(person_101, person_102).
+friends(person_102, person_101).
+friends(person_101, person_104).
+friends(person_104, person_101).
+friends(person_116, person_117).
+friends(person_117, person_116).
+friends(person_5, person_103).
+friends(person_103, person_5).
+friends(person_116, person_118).
+friends(person_118, person_116).
+friends(person_116, person_119).
+friends(person_119, person_116).
+friends(person_19, person_164).
+friends(person_164, person_19).
+friends(person_5, person_109).
+friends(person_109, person_5).
+friends(person_167, person_211).
+friends(person_211, person_167).
+friends(person_34, person_55).
+friends(person_55, person_34).
+friends(person_118, person_182).
+friends(person_182, person_118).
+friends(person_145, person_157).
+friends(person_157, person_145).
+friends(person_19, person_179).
+friends(person_179, person_19).
+friends(person_5, person_118).
+friends(person_118, person_5).
+friends(person_130, person_133).
+friends(person_133, person_130).
+friends(person_130, person_134).
+friends(person_134, person_130).
+friends(person_89, person_112).
+friends(person_112, person_89).
+friends(person_130, person_131).
+friends(person_131, person_130).
+friends(person_130, person_132).
+friends(person_132, person_130).
+friends(person_31, person_128).
+friends(person_128, person_31).
+friends(person_34, person_44).
+friends(person_44, person_34).
+friends(person_74, person_128).
+friends(person_128, person_74).
+friends(person_54, person_56).
+friends(person_56, person_54).
+friends(person_74, person_121).
+friends(person_121, person_74).
+friends(person_34, person_42).
+friends(person_42, person_34).
+friends(person_54, person_55).
+friends(person_55, person_54).
+friends(person_54, person_59).
+friends(person_59, person_54).
+friends(person_54, person_58).
+friends(person_58, person_54).
+friends(person_54, person_57).
+friends(person_57, person_54).
+friends(person_60, person_193).
+friends(person_193, person_60).
+friends(person_34, person_36).
+friends(person_36, person_34).
+friends(person_34, person_35).
+friends(person_35, person_34).
+friends(person_31, person_133).
+friends(person_133, person_31).
+friends(person_98, person_99).
+friends(person_99, person_98).
+friends(person_22, person_66).
+friends(person_66, person_22).
+friends(person_34, person_39).
+friends(person_39, person_34).
+friends(person_22, person_67).
+friends(person_67, person_22).
+friends(person_34, person_38).
+friends(person_38, person_34).
+friends(person_34, person_37).
+friends(person_37, person_34).
+friends(person_3, person_107).
+friends(person_107, person_3).
+friends(person_8, person_14).
+friends(person_14, person_8).
+friends(person_33, person_198).
+friends(person_198, person_33).
+friends(person_22, person_37).
+friends(person_37, person_22).
+friends(person_80, person_214).
+friends(person_214, person_80).
+friends(person_8, person_12).
+friends(person_12, person_8).
+friends(person_8, person_13).
+friends(person_13, person_8).
+friends(person_8, person_10).
+friends(person_10, person_8).
+friends(person_8, person_11).
+friends(person_11, person_8).
+friends(person_60, person_177).
+friends(person_177, person_60).
+friends(person_89, person_101).
+friends(person_101, person_89).
+friends(person_66, person_69).
+friends(person_69, person_66).
+friends(person_48, person_174).
+friends(person_174, person_48).
+friends(person_118, person_145).
+friends(person_145, person_118).
+friends(person_31, person_119).
+friends(person_119, person_31).
+friends(person_118, person_144).
+friends(person_144, person_118).
+friends(person_118, person_147).
+friends(person_147, person_118).
+friends(person_39, person_208).
+friends(person_208, person_39).
+friends(person_66, person_67).
+friends(person_67, person_66).
+friends(person_66, person_68).
+friends(person_68, person_66).
+friends(person_123, person_212).
+friends(person_212, person_123).
+friends(person_15, person_46).
+friends(person_46, person_15).
+friends(person_211, person_216).
+friends(person_216, person_211).
+friends(person_211, person_217).
+friends(person_217, person_211).
+friends(person_211, person_218).
+friends(person_218, person_211).
+friends(person_211, person_219).
+friends(person_219, person_211).
+friends(person_211, person_212).
+friends(person_212, person_211).
+friends(person_211, person_213).
+friends(person_213, person_211).
+friends(person_211, person_214).
+friends(person_214, person_211).
+friends(person_211, person_215).
+friends(person_215, person_211).
+friends(person_163, person_164).
+friends(person_164, person_163).
+friends(person_72, person_74).
+friends(person_74, person_72).
+friends(person_106, person_221).
+friends(person_221, person_106).
+friends(person_27, person_28).
+friends(person_28, person_27).
+friends(person_27, person_29).
+friends(person_29, person_27).
+friends(person_15, person_56).
+friends(person_56, person_15).
+friends(person_7, person_8).
+friends(person_8, person_7).
+friends(person_7, person_9).
+friends(person_9, person_7).
+friends(person_211, person_224).
+friends(person_224, person_211).
+friends(person_211, person_220).
+friends(person_220, person_211).
+friends(person_211, person_221).
+friends(person_221, person_211).
+friends(person_211, person_222).
+friends(person_222, person_211).
+friends(person_8, person_44).
+friends(person_44, person_8).
+friends(person_55, person_100).
+friends(person_100, person_55).
+friends(person_72, person_81).
+friends(person_81, person_72).
+friends(person_15, person_24).
+friends(person_24, person_15).
+friends(person_15, person_22).
+friends(person_22, person_15).
+friends(person_148, person_195).
+friends(person_195, person_148).
+friends(person_84, person_86).
+friends(person_86, person_84).
+friends(person_15, person_21).
+friends(person_21, person_15).
+friends(person_84, person_85).
+friends(person_85, person_84).
+friends(person_15, person_28).
+friends(person_28, person_15).
+friends(person_15, person_27).
+friends(person_27, person_15).
+friends(person_15, person_26).
+friends(person_26, person_15).
+friends(person_15, person_20).
+friends(person_20, person_15).
+friends(person_72, person_99).
+friends(person_99, person_72).
+friends(person_148, person_199).
+friends(person_199, person_148).
+friends(person_169, person_207).
+friends(person_207, person_169).
+friends(person_139, person_149).
+friends(person_149, person_139).
+friends(person_180, person_185).
+friends(person_185, person_180).
+friends(person_180, person_186).
+friends(person_186, person_180).
+friends(person_8, person_151).
+friends(person_151, person_8).
+friends(person_180, person_183).
+friends(person_183, person_180).
+friends(person_180, person_184).
+friends(person_184, person_180).
+friends(person_163, person_184).
+friends(person_184, person_163).
+friends(person_180, person_189).
+friends(person_189, person_180).
+friends(person_180, person_187).
+friends(person_187, person_180).
+friends(person_180, person_188).
+friends(person_188, person_180).
+friends(person_15, person_29).
+friends(person_29, person_15).
+friends(person_47, person_99).
+friends(person_99, person_47).
+friends(person_180, person_181).
+friends(person_181, person_180).
+friends(person_84, person_88).
+friends(person_88, person_84).
+friends(person_180, person_182).
+friends(person_182, person_180).
+friends(person_84, person_87).
+friends(person_87, person_84).
+friends(person_84, person_89).
+friends(person_89, person_84).
+friends(person_171, person_179).
+friends(person_179, person_171).
+friends(person_81, person_191).
+friends(person_191, person_81).
+friends(person_171, person_178).
+friends(person_178, person_171).
+friends(person_85, person_203).
+friends(person_203, person_85).
+friends(person_180, person_197).
+friends(person_197, person_180).
+friends(person_180, person_194).
+friends(person_194, person_180).
+friends(person_49, person_175).
+friends(person_175, person_49).
+friends(person_180, person_198).
+friends(person_198, person_180).
+friends(person_171, person_172).
+friends(person_172, person_171).
+friends(person_47, person_88).
+friends(person_88, person_47).
+friends(person_171, person_177).
+friends(person_177, person_171).
+friends(person_171, person_176).
+friends(person_176, person_171).
+friends(person_49, person_178).
+friends(person_178, person_49).
+friends(person_171, person_175).
+friends(person_175, person_171).
+friends(person_180, person_190).
+friends(person_190, person_180).
+friends(person_171, person_174).
+friends(person_174, person_171).
+friends(person_180, person_191).
+friends(person_191, person_180).
+friends(person_22, person_205).
+friends(person_205, person_22).
+friends(person_154, person_162).
+friends(person_162, person_154).
+friends(person_154, person_163).
+friends(person_163, person_154).
+friends(person_154, person_164).
+friends(person_164, person_154).
+friends(person_57, person_164).
+friends(person_164, person_57).
+friends(person_72, person_120).
+friends(person_120, person_72).
+friends(person_8, person_175).
+friends(person_175, person_8).
+friends(person_121, person_216).
+friends(person_216, person_121).
+friends(person_49, person_160).
+friends(person_160, person_49).
+friends(person_154, person_160).
+friends(person_160, person_154).
+friends(person_154, person_161).
+friends(person_161, person_154).
+friends(person_47, person_77).
+friends(person_77, person_47).
+friends(person_16, person_201).
+friends(person_201, person_16).
+friends(person_154, person_156).
+friends(person_156, person_154).
+friends(person_87, person_217).
+friends(person_217, person_87).
+friends(person_154, person_157).
+friends(person_157, person_154).
+friends(person_154, person_158).
+friends(person_158, person_154).
+friends(person_15, person_17).
+friends(person_17, person_15).
+friends(person_100, person_102).
+friends(person_102, person_100).
+friends(person_15, person_16).
+friends(person_16, person_15).
+friends(person_100, person_101).
+friends(person_101, person_100).
+friends(person_90, person_199).
+friends(person_199, person_90).
+friends(person_84, person_92).
+friends(person_92, person_84).
+friends(person_8, person_85).
+friends(person_85, person_8).
+friends(person_100, person_104).
+friends(person_104, person_100).
+friends(person_100, person_103).
+friends(person_103, person_100).
+friends(person_154, person_159).
+friends(person_159, person_154).
+friends(person_72, person_105).
+friends(person_105, person_72).
+friends(person_15, person_19).
+friends(person_19, person_15).
+friends(person_15, person_18).
+friends(person_18, person_15).
+friends(person_192, person_217).
+friends(person_217, person_192).
+friends(person_156, person_181).
+friends(person_181, person_156).
+friends(person_137, person_140).
+friends(person_140, person_137).
+friends(person_137, person_142).
+friends(person_142, person_137).
+friends(person_173, person_190).
+friends(person_190, person_173).
+friends(person_137, person_147).
+friends(person_147, person_137).
+friends(person_137, person_149).
+friends(person_149, person_137).
+friends(person_137, person_143).
+friends(person_143, person_137).
+friends(person_52, person_53).
+friends(person_53, person_52).
+friends(person_137, person_144).
+friends(person_144, person_137).
+friends(person_52, person_54).
+friends(person_54, person_52).
+friends(person_137, person_145).
+friends(person_145, person_137).
+friends(person_137, person_146).
+friends(person_146, person_137).
+friends(person_47, person_51).
+friends(person_51, person_47).
+friends(person_47, person_52).
+friends(person_52, person_47).
+friends(person_52, person_55).
+friends(person_55, person_52).
+friends(person_55, person_131).
+friends(person_131, person_55).
+friends(person_47, person_50).
+friends(person_50, person_47).
+friends(person_52, person_56).
+friends(person_56, person_52).
+friends(person_72, person_137).
+friends(person_137, person_72).
+friends(person_52, person_59).
+friends(person_59, person_52).
+friends(person_47, person_59).
+friends(person_59, person_47).
+friends(person_47, person_57).
+friends(person_57, person_47).
+friends(person_47, person_58).
+friends(person_58, person_47).
+friends(person_47, person_55).
+friends(person_55, person_47).
+friends(person_47, person_53).
+friends(person_53, person_47).
+friends(person_38, person_138).
+friends(person_138, person_38).
+friends(person_35, person_60).
+friends(person_60, person_35).
+friends(person_93, person_223).
+friends(person_223, person_93).
+friends(person_148, person_149).
+friends(person_149, person_148).
+friends(person_137, person_138).
+friends(person_138, person_137).
+friends(person_90, person_172).
+friends(person_172, person_90).
+friends(person_6, person_108).
+friends(person_108, person_6).
+friends(person_52, person_68).
+friends(person_68, person_52).
+friends(person_204, person_207).
+friends(person_207, person_204).
+friends(person_204, person_208).
+friends(person_208, person_204).
+friends(person_96, person_97).
+friends(person_97, person_96).
+friends(person_204, person_205).
+friends(person_205, person_204).
+friends(person_204, person_209).
+friends(person_209, person_204).
+friends(person_47, person_48).
+friends(person_48, person_47).
+friends(person_47, person_49).
+friends(person_49, person_47).
+friends(person_102, person_197).
+friends(person_197, person_102).
+friends(person_102, person_192).
+friends(person_192, person_102).
+friends(person_213, person_221).
+friends(person_221, person_213).
+friends(person_165, person_179).
+friends(person_179, person_165).
+friends(person_213, person_222).
+friends(person_222, person_213).
+friends(person_213, person_223).
+friends(person_223, person_213).
+friends(person_165, person_177).
+friends(person_177, person_165).
+friends(person_213, person_224).
+friends(person_224, person_213).
+friends(person_165, person_176).
+friends(person_176, person_165).
+friends(person_165, person_175).
+friends(person_175, person_165).
+friends(person_221, person_223).
+friends(person_223, person_221).
+friends(person_57, person_126).
+friends(person_126, person_57).
+friends(person_165, person_173).
+friends(person_173, person_165).
+friends(person_221, person_222).
+friends(person_222, person_221).
+friends(person_221, person_224).
+friends(person_224, person_221).
+friends(person_137, person_165).
+friends(person_165, person_137).
+friends(person_66, person_171).
+friends(person_171, person_66).
+friends(person_70, person_152).
+friends(person_152, person_70).
+friends(person_213, person_220).
+friends(person_220, person_213).
+friends(person_165, person_171).
+friends(person_171, person_165).
+friends(person_213, person_219).
+friends(person_219, person_213).
+friends(person_3, person_4).
+friends(person_4, person_3).
+friends(person_165, person_170).
+friends(person_170, person_165).
+friends(person_3, person_5).
+friends(person_5, person_3).
+friends(person_3, person_6).
+friends(person_6, person_3).
+friends(person_3, person_7).
+friends(person_7, person_3).
+friends(person_3, person_8).
+friends(person_8, person_3).
+friends(person_3, person_9).
+friends(person_9, person_3).
+friends(person_165, person_169).
+friends(person_169, person_165).
+friends(person_165, person_168).
+friends(person_168, person_165).
+friends(person_165, person_166).
+friends(person_166, person_165).
+friends(person_213, person_214).
+friends(person_214, person_213).
+friends(person_213, person_215).
+friends(person_215, person_213).
+friends(person_90, person_155).
+friends(person_155, person_90).
+friends(person_213, person_216).
+friends(person_216, person_213).
+friends(person_213, person_217).
+friends(person_217, person_213).
+friends(person_1, person_13).
+friends(person_13, person_1).
+friends(person_1, person_14).
+friends(person_14, person_1).
+friends(person_1, person_11).
+friends(person_11, person_1).
+friends(person_1, person_12).
+friends(person_12, person_1).
+friends(person_39, person_83).
+friends(person_83, person_39).
+friends(person_39, person_85).
+friends(person_85, person_39).
+friends(person_128, person_134).
+friends(person_134, person_128).
+friends(person_128, person_131).
+friends(person_131, person_128).
+friends(person_128, person_133).
+friends(person_133, person_128).
+friends(person_132, person_214).
+friends(person_214, person_132).
+friends(person_128, person_132).
+friends(person_132, person_128).
+friends(person_38, person_143).
+friends(person_143, person_38).
+friends(person_49, person_113).
+friends(person_113, person_49).
+friends(person_137, person_183).
+friends(person_183, person_137).
+friends(person_29, person_130).
+friends(person_130, person_29).
+friends(person_49, person_108).
+friends(person_108, person_49).
+friends(person_156, person_157).
+friends(person_157, person_156).
+friends(person_156, person_158).
+friends(person_158, person_156).
+friends(person_156, person_159).
+friends(person_159, person_156).
+friends(person_39, person_77).
+friends(person_77, person_39).
+friends(person_175, person_206).
+friends(person_206, person_175).
+friends(person_38, person_170).
+friends(person_170, person_38).
+friends(person_40, person_62).
+friends(person_62, person_40).
+friends(person_156, person_160).
+friends(person_160, person_156).
+friends(person_156, person_161).
+friends(person_161, person_156).
+friends(person_156, person_162).
+friends(person_162, person_156).
+friends(person_39, person_60).
+friends(person_60, person_39).
+friends(person_92, person_97).
+friends(person_97, person_92).
+friends(person_70, person_188).
+friends(person_188, person_70).
+friends(person_92, person_98).
+friends(person_98, person_92).
+friends(person_92, person_95).
+friends(person_95, person_92).
+friends(person_128, person_157).
+friends(person_157, person_128).
+friends(person_66, person_174).
+friends(person_174, person_66).
+friends(person_92, person_94).
+friends(person_94, person_92).
+friends(person_59, person_62).
+friends(person_62, person_59).
+friends(person_40, person_44).
+friends(person_44, person_40).
+friends(person_40, person_43).
+friends(person_43, person_40).
+friends(person_182, person_212).
+friends(person_212, person_182).
+friends(person_100, person_198).
+friends(person_198, person_100).
+friends(person_64, person_111).
+friends(person_111, person_64).
+friends(person_70, person_104).
+friends(person_104, person_70).
+friends(person_70, person_106).
+friends(person_106, person_70).
+friends(person_40, person_42).
+friends(person_42, person_40).
+friends(person_40, person_41).
+friends(person_41, person_40).
+friends(person_158, person_181).
+friends(person_181, person_158).
+friends(person_60, person_62).
+friends(person_62, person_60).
+friends(person_60, person_61).
+friends(person_61, person_60).
+friends(person_113, person_220).
+friends(person_220, person_113).
+friends(person_39, person_40).
+friends(person_40, person_39).
+friends(person_39, person_42).
+friends(person_42, person_39).
+friends(person_39, person_41).
+friends(person_41, person_39).
+friends(person_39, person_43).
+friends(person_43, person_39).
+friends(person_59, person_164).
+friends(person_164, person_59).
+friends(person_60, person_69).
+friends(person_69, person_60).
+friends(person_60, person_67).
+friends(person_67, person_60).
+friends(person_36, person_112).
+friends(person_112, person_36).
+friends(person_60, person_65).
+friends(person_65, person_60).
+friends(person_100, person_181).
+friends(person_181, person_100).
+friends(person_60, person_63).
+friends(person_63, person_60).
+friends(person_1, person_60).
+friends(person_60, person_1).
+friends(person_60, person_73).
+friends(person_73, person_60).
+friends(person_90, person_102).
+friends(person_102, person_90).
+friends(person_57, person_106).
+friends(person_106, person_57).
+friends(person_60, person_72).
+friends(person_72, person_60).
+friends(person_90, person_101).
+friends(person_101, person_90).
+friends(person_135, person_136).
+friends(person_136, person_135).
+friends(person_60, person_71).
+friends(person_71, person_60).
+friends(person_135, person_137).
+friends(person_137, person_135).
+friends(person_60, person_70).
+friends(person_70, person_60).
+friends(person_78, person_201).
+friends(person_201, person_78).
+friends(person_135, person_138).
+friends(person_138, person_135).
+friends(person_135, person_139).
+friends(person_139, person_135).
+friends(person_90, person_100).
+friends(person_100, person_90).
+friends(person_206, person_209).
+friends(person_209, person_206).
+friends(person_1, person_69).
+friends(person_69, person_1).
+friends(person_206, person_207).
+friends(person_207, person_206).
+friends(person_206, person_208).
+friends(person_208, person_206).
+friends(person_60, person_78).
+friends(person_78, person_60).
+friends(person_60, person_74).
+friends(person_74, person_60).
+friends(person_135, person_145).
+friends(person_145, person_135).
+friends(person_135, person_146).
+friends(person_146, person_135).
+friends(person_59, person_94).
+friends(person_94, person_59).
+friends(person_135, person_147).
+friends(person_147, person_135).
+friends(person_60, person_81).
+friends(person_81, person_60).
+friends(person_135, person_149).
+friends(person_149, person_135).
+friends(person_29, person_102).
+friends(person_102, person_29).
+friends(person_135, person_140).
+friends(person_140, person_135).
+friends(person_135, person_141).
+friends(person_141, person_135).
+friends(person_135, person_142).
+friends(person_142, person_135).
+friends(person_135, person_143).
+friends(person_143, person_135).
+friends(person_135, person_144).
+friends(person_144, person_135).
+friends(person_149, person_215).
+friends(person_215, person_149).
+friends(person_158, person_198).
+friends(person_198, person_158).
+friends(person_167, person_188).
+friends(person_188, person_167).
+friends(person_74, person_202).
+friends(person_202, person_74).
+friends(person_43, person_70).
+friends(person_70, person_43).
+friends(person_55, person_69).
+friends(person_69, person_55).
+friends(person_12, person_112).
+friends(person_112, person_12).
+friends(person_12, person_115).
+friends(person_115, person_12).
+friends(person_152, person_190).
+friends(person_190, person_152).
+friends(person_111, person_112).
+friends(person_112, person_111).
+friends(person_111, person_113).
+friends(person_113, person_111).
+friends(person_11, person_13).
+friends(person_13, person_11).
+friends(person_98, person_103).
+friends(person_103, person_98).
+friends(person_98, person_104).
+friends(person_104, person_98).
+friends(person_111, person_118).
+friends(person_118, person_111).
+friends(person_98, person_101).
+friends(person_101, person_98).
+friends(person_111, person_119).
+friends(person_119, person_111).
+friends(person_98, person_102).
+friends(person_102, person_98).
+friends(person_111, person_116).
+friends(person_116, person_111).
+friends(person_111, person_117).
+friends(person_117, person_111).
+friends(person_98, person_100).
+friends(person_100, person_98).
+friends(person_111, person_114).
+friends(person_114, person_111).
+friends(person_102, person_209).
+friends(person_209, person_102).
+friends(person_111, person_115).
+friends(person_115, person_111).
+friends(person_53, person_198).
+friends(person_198, person_53).
+friends(person_11, person_14).
+friends(person_14, person_11).
+friends(person_12, person_105).
+friends(person_105, person_12).
+friends(person_173, person_221).
+friends(person_221, person_173).
+friends(person_167, person_169).
+friends(person_169, person_167).
+friends(person_167, person_168).
+friends(person_168, person_167).
+friends(person_31, person_78).
+friends(person_78, person_31).
+friends(person_67, person_68).
+friends(person_68, person_67).
+friends(person_67, person_69).
+friends(person_69, person_67).
+friends(person_167, person_174).
+friends(person_174, person_167).
+friends(person_167, person_173).
+friends(person_173, person_167).
+friends(person_167, person_172).
+friends(person_172, person_167).
+friends(person_167, person_171).
+friends(person_171, person_167).
+friends(person_167, person_178).
+friends(person_178, person_167).
+friends(person_55, person_92).
+friends(person_92, person_55).
+friends(person_167, person_177).
+friends(person_177, person_167).
+friends(person_167, person_176).
+friends(person_176, person_167).
+friends(person_167, person_175).
+friends(person_175, person_167).
+friends(person_167, person_179).
+friends(person_179, person_167).
+friends(person_156, person_206).
+friends(person_206, person_156).
+friends(person_67, person_71).
+friends(person_71, person_67).
+friends(person_31, person_67).
+friends(person_67, person_31).
+friends(person_67, person_72).
+friends(person_72, person_67).
+friends(person_67, person_70).
+friends(person_70, person_67).
+friends(person_67, person_75).
+friends(person_75, person_67).
+friends(person_43, person_44).
+friends(person_44, person_43).
+friends(person_67, person_73).
+friends(person_73, person_67).
+friends(person_67, person_74).
+friends(person_74, person_67).
+friends(person_184, person_189).
+friends(person_189, person_184).
+friends(person_200, person_202).
+friends(person_202, person_200).
+friends(person_200, person_201).
+friends(person_201, person_200).
+friends(person_184, person_187).
+friends(person_187, person_184).
+friends(person_200, person_204).
+friends(person_204, person_200).
+friends(person_184, person_188).
+friends(person_188, person_184).
+friends(person_200, person_203).
+friends(person_203, person_200).
+friends(person_59, person_215).
+friends(person_215, person_59).
+friends(person_200, person_206).
+friends(person_206, person_200).
+friends(person_200, person_205).
+friends(person_205, person_200).
+friends(person_200, person_207).
+friends(person_207, person_200).
+friends(person_109, person_111).
+friends(person_111, person_109).
+friends(person_109, person_112).
+friends(person_112, person_109).
+friends(person_128, person_168).
+friends(person_168, person_128).
+friends(person_158, person_221).
+friends(person_221, person_158).
+friends(person_184, person_185).
+friends(person_185, person_184).
+friends(person_184, person_186).
+friends(person_186, person_184).
+friends(person_5, person_11).
+friends(person_11, person_5).
+friends(person_44, person_219).
+friends(person_219, person_44).
+friends(person_59, person_200).
+friends(person_200, person_59).
+friends(person_5, person_12).
+friends(person_12, person_5).
+friends(person_29, person_166).
+friends(person_166, person_29).
+friends(person_5, person_13).
+friends(person_13, person_5).
+friends(person_5, person_14).
+friends(person_14, person_5).
+friends(person_200, person_214).
+friends(person_214, person_200).
+friends(person_51, person_130).
+friends(person_130, person_51).
+friends(person_51, person_131).
+friends(person_131, person_51).
+friends(person_59, person_205).
+friends(person_205, person_59).
+friends(person_31, person_42).
+friends(person_42, person_31).
+friends(person_31, person_41).
+friends(person_41, person_31).
+friends(person_31, person_44).
+friends(person_44, person_31).
+friends(person_31, person_43).
+friends(person_43, person_31).
+friends(person_31, person_40).
+friends(person_40, person_31).
+friends(person_158, person_209).
+friends(person_209, person_158).
+friends(person_5, person_10).
+friends(person_10, person_5).
+friends(person_85, person_195).
+friends(person_195, person_85).
+friends(person_85, person_191).
+friends(person_191, person_85).
+friends(person_184, person_192).
+friends(person_192, person_184).
+friends(person_184, person_193).
+friends(person_193, person_184).
+friends(person_200, person_209).
+friends(person_209, person_200).
+friends(person_184, person_190).
+friends(person_190, person_184).
+friends(person_184, person_191).
+friends(person_191, person_184).
+friends(person_184, person_194).
+friends(person_194, person_184).
+friends(person_5, person_24).
+friends(person_24, person_5).
+friends(person_80, person_82).
+friends(person_82, person_80).
+friends(person_80, person_81).
+friends(person_81, person_80).
+friends(person_126, person_131).
+friends(person_131, person_126).
+friends(person_126, person_130).
+friends(person_130, person_126).
+friends(person_126, person_133).
+friends(person_133, person_126).
+friends(person_150, person_169).
+friends(person_169, person_150).
+friends(person_126, person_132).
+friends(person_132, person_126).
+friends(person_31, person_33).
+friends(person_33, person_31).
+friends(person_126, person_134).
+friends(person_134, person_126).
+friends(person_31, person_32).
+friends(person_32, person_31).
+friends(person_31, person_39).
+friends(person_39, person_31).
+friends(person_150, person_161).
+friends(person_161, person_150).
+friends(person_126, person_129).
+friends(person_129, person_126).
+friends(person_31, person_38).
+friends(person_38, person_31).
+friends(person_150, person_160).
+friends(person_160, person_150).
+friends(person_31, person_35).
+friends(person_35, person_31).
+friends(person_31, person_34).
+friends(person_34, person_31).
+friends(person_150, person_164).
+friends(person_164, person_150).
+friends(person_31, person_37).
+friends(person_37, person_31).
+friends(person_150, person_163).
+friends(person_163, person_150).
+friends(person_31, person_36).
+friends(person_36, person_31).
+friends(person_150, person_162).
+friends(person_162, person_150).
+friends(person_80, person_85).
+friends(person_85, person_80).
+friends(person_80, person_84).
+friends(person_84, person_80).
+friends(person_80, person_83).
+friends(person_83, person_80).
+friends(person_51, person_159).
+friends(person_159, person_51).
+friends(person_80, person_89).
+friends(person_89, person_80).
+friends(person_80, person_88).
+friends(person_88, person_80).
+friends(person_80, person_87).
+friends(person_87, person_80).
+friends(person_79, person_80).
+friends(person_80, person_79).
+friends(person_59, person_223).
+friends(person_223, person_59).
+friends(person_79, person_82).
+friends(person_82, person_79).
+friends(person_79, person_81).
+friends(person_81, person_79).
+friends(person_79, person_84).
+friends(person_84, person_79).
+friends(person_150, person_158).
+friends(person_158, person_150).
+friends(person_215, person_224).
+friends(person_224, person_215).
+friends(person_150, person_157).
+friends(person_157, person_150).
+friends(person_79, person_88).
+friends(person_88, person_79).
+friends(person_150, person_155).
+friends(person_155, person_150).
+friends(person_79, person_87).
+friends(person_87, person_79).
+friends(person_215, person_220).
+friends(person_220, person_215).
+friends(person_79, person_89).
+friends(person_89, person_79).
+friends(person_215, person_222).
+friends(person_222, person_215).
+friends(person_126, person_127).
+friends(person_127, person_126).
+friends(person_109, person_116).
+friends(person_116, person_109).
+friends(person_109, person_113).
+friends(person_113, person_109).
+friends(person_109, person_114).
+friends(person_114, person_109).
+friends(person_150, person_154).
+friends(person_154, person_150).
+friends(person_215, person_217).
+friends(person_217, person_215).
+friends(person_109, person_119).
+friends(person_119, person_109).
+friends(person_150, person_153).
+friends(person_153, person_150).
+friends(person_215, person_216).
+friends(person_216, person_215).
+friends(person_150, person_152).
+friends(person_152, person_150).
+friends(person_215, person_219).
+friends(person_219, person_215).
+friends(person_109, person_117).
+friends(person_117, person_109).
+friends(person_150, person_151).
+friends(person_151, person_150).
+friends(person_215, person_218).
+friends(person_218, person_215).
+friends(person_109, person_118).
+friends(person_118, person_109).
+friends(person_5, person_46).
+friends(person_46, person_5).
+friends(person_5, person_47).
+friends(person_47, person_5).
+friends(person_96, person_101).
+friends(person_101, person_96).
+friends(person_23, person_63).
+friends(person_63, person_23).
+friends(person_96, person_102).
+friends(person_102, person_96).
+friends(person_96, person_100).
+friends(person_100, person_96).
+friends(person_96, person_103).
+friends(person_103, person_96).
+friends(person_169, person_199).
+friends(person_199, person_169).
+friends(person_96, person_104).
+friends(person_104, person_96).
+friends(person_35, person_40).
+friends(person_40, person_35).
+friends(person_197, person_199).
+friends(person_199, person_197).
+friends(person_197, person_198).
+friends(person_198, person_197).
+friends(person_35, person_48).
+friends(person_48, person_35).
+friends(person_35, person_42).
+friends(person_42, person_35).
+friends(person_75, person_79).
+friends(person_79, person_75).
+friends(person_12, person_190).
+friends(person_190, person_12).
+friends(person_35, person_41).
+friends(person_41, person_35).
+friends(person_75, person_78).
+friends(person_78, person_75).
+friends(person_75, person_76).
+friends(person_76, person_75).
+friends(person_5, person_69).
+friends(person_69, person_5).
+friends(person_111, person_184).
+friends(person_184, person_111).
+friends(person_35, person_37).
+friends(person_37, person_35).
+friends(person_35, person_36).
+friends(person_36, person_35).
+friends(person_12, person_182).
+friends(person_182, person_12).
+friends(person_87, person_203).
+friends(person_203, person_87).
+friends(person_55, person_182).
+friends(person_182, person_55).
+friends(person_75, person_89).
+friends(person_89, person_75).
+friends(person_75, person_88).
+friends(person_88, person_75).
+friends(person_182, person_191).
+friends(person_191, person_182).
+friends(person_98, person_184).
+friends(person_184, person_98).
+friends(person_75, person_86).
+friends(person_86, person_75).
+friends(person_12, person_172).
+friends(person_172, person_12).
+friends(person_98, person_182).
+friends(person_182, person_98).
+friends(person_75, person_84).
+friends(person_84, person_75).
+friends(person_55, person_178).
+friends(person_178, person_55).
+friends(person_169, person_179).
+friends(person_179, person_169).
+friends(person_75, person_83).
+friends(person_83, person_75).
+friends(person_35, person_39).
+friends(person_39, person_35).
+friends(person_169, person_178).
+friends(person_178, person_169).
+friends(person_75, person_82).
+friends(person_82, person_75).
+friends(person_35, person_38).
+friends(person_38, person_35).
+friends(person_169, person_177).
+friends(person_177, person_169).
+friends(person_75, person_81).
+friends(person_81, person_75).
+friends(person_169, person_176).
+friends(person_176, person_169).
+friends(person_75, person_80).
+friends(person_80, person_75).
+friends(person_169, person_175).
+friends(person_175, person_169).
+friends(person_169, person_172).
+friends(person_172, person_169).
+friends(person_182, person_194).
+friends(person_194, person_182).
+friends(person_169, person_171).
+friends(person_171, person_169).
+friends(person_5, person_78).
+friends(person_78, person_5).
+friends(person_98, person_163).
+friends(person_163, person_98).
+friends(person_55, person_164).
+friends(person_164, person_55).
+friends(person_182, person_188).
+friends(person_188, person_182).
+friends(person_182, person_186).
+friends(person_186, person_182).
+friends(person_186, person_201).
+friends(person_201, person_186).
+friends(person_182, person_183).
+friends(person_183, person_182).
+friends(person_182, person_184).
+friends(person_184, person_182).
+friends(person_23, person_50).
+friends(person_50, person_23).
+friends(person_152, person_158).
+friends(person_158, person_152).
+friends(person_152, person_157).
+friends(person_157, person_152).
+friends(person_152, person_156).
+friends(person_156, person_152).
+friends(person_152, person_155).
+friends(person_155, person_152).
+friends(person_152, person_154).
+friends(person_154, person_152).
+friends(person_152, person_153).
+friends(person_153, person_152).
+friends(person_23, person_26).
+friends(person_26, person_23).
+friends(person_23, person_27).
+friends(person_27, person_23).
+friends(person_23, person_28).
+friends(person_28, person_23).
+friends(person_202, person_208).
+friends(person_208, person_202).
+friends(person_23, person_25).
+friends(person_25, person_23).
+friends(person_96, person_148).
+friends(person_148, person_96).
+friends(person_87, person_88).
+friends(person_88, person_87).
+friends(person_87, person_89).
+friends(person_89, person_87).
+friends(person_152, person_164).
+friends(person_164, person_152).
+friends(person_139, person_141).
+friends(person_141, person_139).
+friends(person_202, person_204).
+friends(person_204, person_202).
+friends(person_202, person_203).
+friends(person_203, person_202).
+friends(person_139, person_143).
+friends(person_143, person_139).
+friends(person_202, person_206).
+friends(person_206, person_202).
+friends(person_139, person_144).
+friends(person_144, person_139).
+friends(person_202, person_205).
+friends(person_205, person_202).
+friends(person_139, person_145).
+friends(person_145, person_139).
+friends(person_139, person_146).
+friends(person_146, person_139).
+friends(person_139, person_147).
+friends(person_147, person_139).
+friends(person_96, person_155).
+friends(person_155, person_96).
+friends(person_53, person_153).
+friends(person_153, person_53).
+friends(person_96, person_158).
+friends(person_158, person_96).
+friends(person_152, person_163).
+friends(person_163, person_152).
+friends(person_152, person_162).
+friends(person_162, person_152).
+friends(person_152, person_161).
+friends(person_161, person_152).
+friends(person_152, person_160).
+friends(person_160, person_152).
+friends(person_124, person_128).
+friends(person_128, person_124).
+friends(person_124, person_127).
+friends(person_127, person_124).
+friends(person_217, person_220).
+friends(person_220, person_217).
+friends(person_124, person_129).
+friends(person_129, person_124).
+friends(person_217, person_222).
+friends(person_222, person_217).
+friends(person_217, person_221).
+friends(person_221, person_217).
+friends(person_117, person_209).
+friends(person_209, person_117).
+friends(person_124, person_126).
+friends(person_126, person_124).
+friends(person_217, person_224).
+friends(person_224, person_217).
+friends(person_124, person_125).
+friends(person_125, person_124).
+friends(person_31, person_220).
+friends(person_220, person_31).
+friends(person_217, person_223).
+friends(person_223, person_217).
+friends(person_217, person_218).
+friends(person_218, person_217).
+friends(person_102, person_224).
+friends(person_224, person_102).
+friends(person_102, person_223).
+friends(person_223, person_102).
+friends(person_25, person_115).
+friends(person_115, person_25).
+friends(person_11, person_28).
+friends(person_28, person_11).
+friends(person_124, person_131).
+friends(person_131, person_124).
+friends(person_124, person_130).
+friends(person_130, person_124).
+friends(person_124, person_133).
+friends(person_133, person_124).
+friends(person_124, person_132).
+friends(person_132, person_124).
+friends(person_53, person_140).
+friends(person_140, person_53).
+friends(person_81, person_155).
+friends(person_155, person_81).
+friends(person_55, person_57).
+friends(person_57, person_55).
+friends(person_124, person_134).
+friends(person_134, person_124).
+friends(person_55, person_59).
+friends(person_59, person_55).
+friends(person_55, person_58).
+friends(person_58, person_55).
+friends(person_25, person_122).
+friends(person_122, person_25).
+friends(person_43, person_87).
+friends(person_87, person_43).
+friends(person_25, person_129).
+friends(person_129, person_25).
+friends(person_25, person_128).
+friends(person_128, person_25).
+friends(person_61, person_63).
+friends(person_63, person_61).
+friends(person_61, person_62).
+friends(person_62, person_61).
+friends(person_16, person_18).
+friends(person_18, person_16).
+friends(person_140, person_180).
+friends(person_180, person_140).
+friends(person_187, person_191).
+friends(person_191, person_187).
+friends(person_187, person_192).
+friends(person_192, person_187).
+friends(person_187, person_193).
+friends(person_193, person_187).
+friends(person_115, person_144).
+friends(person_144, person_115).
+friends(person_187, person_190).
+friends(person_190, person_187).
+friends(person_61, person_69).
+friends(person_69, person_61).
+friends(person_16, person_19).
+friends(person_19, person_16).
+friends(person_61, person_68).
+friends(person_68, person_61).
+friends(person_61, person_66).
+friends(person_66, person_61).
+friends(person_153, person_204).
+friends(person_204, person_153).
+friends(person_61, person_65).
+friends(person_65, person_61).
+friends(person_61, person_64).
+friends(person_64, person_61).
+friends(person_16, person_25).
+friends(person_25, person_16).
+friends(person_124, person_197).
+friends(person_197, person_124).
+friends(person_61, person_73).
+friends(person_73, person_61).
+friends(person_16, person_23).
+friends(person_23, person_16).
+friends(person_16, person_22).
+friends(person_22, person_16).
+friends(person_16, person_29).
+friends(person_29, person_16).
+friends(person_61, person_70).
+friends(person_70, person_61).
+friends(person_16, person_27).
+friends(person_27, person_16).
+friends(person_9, person_19).
+friends(person_19, person_9).
+friends(person_16, person_26).
+friends(person_26, person_16).
+friends(person_140, person_196).
+friends(person_196, person_140).
+friends(person_187, person_188).
+friends(person_188, person_187).
+friends(person_9, person_10).
+friends(person_10, person_9).
+friends(person_187, person_189).
+friends(person_189, person_187).
+friends(person_106, person_107).
+friends(person_107, person_106).
+friends(person_16, person_21).
+friends(person_21, person_16).
+friends(person_9, person_13).
+friends(person_13, person_9).
+friends(person_9, person_14).
+friends(person_14, person_9).
+friends(person_9, person_11).
+friends(person_11, person_9).
+friends(person_9, person_12).
+friends(person_12, person_9).
+friends(person_131, person_132).
+friends(person_132, person_131).
+friends(person_131, person_133).
+friends(person_133, person_131).
+friends(person_106, person_111).
+friends(person_111, person_106).
+friends(person_131, person_134).
+friends(person_134, person_131).
+friends(person_106, person_112).
+friends(person_112, person_106).
+friends(person_106, person_113).
+friends(person_113, person_106).
+friends(person_106, person_114).
+friends(person_114, person_106).
+friends(person_79, person_154).
+friends(person_154, person_79).
+friends(person_106, person_115).
+friends(person_115, person_106).
+friends(person_108, person_188).
+friends(person_188, person_108).
+friends(person_61, person_77).
+friends(person_77, person_61).
+friends(person_95, person_127).
+friends(person_127, person_95).
+friends(person_218, person_222).
+friends(person_222, person_218).
+friends(person_95, person_128).
+friends(person_128, person_95).
+friends(person_218, person_221).
+friends(person_221, person_218).
+friends(person_218, person_220).
+friends(person_220, person_218).
+friends(person_124, person_160).
+friends(person_160, person_124).
+friends(person_106, person_116).
+friends(person_116, person_106).
+friends(person_106, person_117).
+friends(person_117, person_106).
+friends(person_106, person_118).
+friends(person_118, person_106).
+friends(person_106, person_119).
+friends(person_119, person_106).
+friends(person_0, person_112).
+friends(person_112, person_0).
+friends(person_178, person_179).
+friends(person_179, person_178).
+friends(person_47, person_217).
+friends(person_217, person_47).
+friends(person_70, person_204).
+friends(person_204, person_70).
+friends(person_218, person_219).
+friends(person_219, person_218).
+friends(person_34, person_199).
+friends(person_199, person_34).
+friends(person_23, person_104).
+friends(person_104, person_23).
+friends(person_2, person_175).
+friends(person_175, person_2).
+friends(person_86, person_130).
+friends(person_130, person_86).
+friends(person_48, person_52).
+friends(person_52, person_48).
+friends(person_48, person_53).
+friends(person_53, person_48).
+friends(person_48, person_50).
+friends(person_50, person_48).
+friends(person_25, person_160).
+friends(person_160, person_25).
+friends(person_48, person_51).
+friends(person_51, person_48).
+friends(person_32, person_116).
+friends(person_116, person_32).
+friends(person_86, person_124).
+friends(person_124, person_86).
+friends(person_48, person_59).
+friends(person_59, person_48).
+friends(person_48, person_57).
+friends(person_57, person_48).
+friends(person_48, person_54).
+friends(person_54, person_48).
+friends(person_48, person_55).
+friends(person_55, person_48).
+friends(person_12, person_95).
+friends(person_95, person_12).
+friends(person_2, person_140).
+friends(person_140, person_2).
+friends(person_9, person_42).
+friends(person_42, person_9).
+friends(person_140, person_141).
+friends(person_141, person_140).
+friends(person_122, person_130).
+friends(person_130, person_122).
+friends(person_9, person_41).
+friends(person_41, person_9).
+friends(person_122, person_133).
+friends(person_133, person_122).
+friends(person_122, person_132).
+friends(person_132, person_122).
+friends(person_122, person_134).
+friends(person_134, person_122).
+friends(person_140, person_147).
+friends(person_147, person_140).
+friends(person_140, person_148).
+friends(person_148, person_140).
+friends(person_140, person_145).
+friends(person_145, person_140).
+friends(person_140, person_143).
+friends(person_143, person_140).
+friends(person_93, person_100).
+friends(person_100, person_93).
+friends(person_93, person_101).
+friends(person_101, person_93).
+friends(person_34, person_173).
+friends(person_173, person_34).
+friends(person_48, person_49).
+friends(person_49, person_48).
+friends(person_24, person_70).
+friends(person_70, person_24).
+friends(person_88, person_146).
+friends(person_146, person_88).
+friends(person_122, person_126).
+friends(person_126, person_122).
+friends(person_36, person_51).
+friends(person_51, person_36).
+friends(person_122, person_128).
+friends(person_128, person_122).
+friends(person_122, person_127).
+friends(person_127, person_122).
+friends(person_122, person_129).
+friends(person_129, person_122).
+friends(person_36, person_59).
+friends(person_59, person_36).
+friends(person_47, person_209).
+friends(person_209, person_47).
+friends(person_122, person_124).
+friends(person_124, person_122).
+friends(person_79, person_196).
+friends(person_196, person_79).
+friends(person_88, person_139).
+friends(person_139, person_88).
+friends(person_79, person_199).
+friends(person_199, person_79).
+friends(person_38, person_221).
+friends(person_221, person_38).
+friends(person_88, person_133).
+friends(person_133, person_88).
+friends(person_24, person_84).
+friends(person_84, person_24).
+friends(person_36, person_41).
+friends(person_41, person_36).
+friends(person_36, person_40).
+friends(person_40, person_36).
+friends(person_88, person_170).
+friends(person_170, person_88).
+friends(person_140, person_163).
+friends(person_163, person_140).
+friends(person_140, person_164).
+friends(person_164, person_140).
+friends(person_36, person_44).
+friends(person_44, person_36).
+friends(person_115, person_118).
+friends(person_118, person_115).
+friends(person_36, person_43).
+friends(person_43, person_36).
+friends(person_115, person_119).
+friends(person_119, person_115).
+friends(person_36, person_42).
+friends(person_42, person_36).
+friends(person_117, person_177).
+friends(person_177, person_117).
+friends(person_25, person_193).
+friends(person_193, person_25).
+friends(person_93, person_121).
+friends(person_121, person_93).
+friends(person_88, person_165).
+friends(person_165, person_88).
+friends(person_4, person_5).
+friends(person_5, person_4).
+friends(person_4, person_6).
+friends(person_6, person_4).
+friends(person_4, person_8).
+friends(person_8, person_4).
+friends(person_4, person_9).
+friends(person_9, person_4).
+friends(person_85, person_87).
+friends(person_87, person_85).
+friends(person_2, person_133).
+friends(person_133, person_2).
+friends(person_85, person_86).
+friends(person_86, person_85).
+friends(person_36, person_38).
+friends(person_38, person_36).
+friends(person_93, person_102).
+friends(person_102, person_93).
+friends(person_36, person_37).
+friends(person_37, person_36).
+friends(person_93, person_103).
+friends(person_103, person_93).
+friends(person_93, person_105).
+friends(person_105, person_93).
+friends(person_9, person_79).
+friends(person_79, person_9).
+friends(person_115, person_116).
+friends(person_116, person_115).
+friends(person_115, person_117).
+friends(person_117, person_115).
+friends(person_153, person_214).
+friends(person_214, person_153).
+friends(person_36, person_39).
+friends(person_39, person_36).
+friends(person_85, person_89).
+friends(person_89, person_85).
+friends(person_85, person_88).
+friends(person_88, person_85).
+friends(person_198, person_208).
+friends(person_208, person_198).
+friends(person_108, person_109).
+friends(person_109, person_108).
+friends(person_198, person_207).
+friends(person_207, person_198).
+friends(person_14, person_126).
+friends(person_126, person_14).
+friends(person_43, person_180).
+friends(person_180, person_43).
+friends(person_198, person_206).
+friends(person_206, person_198).
+friends(person_113, person_133).
+friends(person_133, person_113).
+friends(person_198, person_205).
+friends(person_205, person_198).
+friends(person_198, person_203).
+friends(person_203, person_198).
+friends(person_198, person_200).
+friends(person_200, person_198).
+friends(person_185, person_192).
+friends(person_192, person_185).
+friends(person_185, person_193).
+friends(person_193, person_185).
+friends(person_185, person_194).
+friends(person_194, person_185).
+friends(person_133, person_141).
+friends(person_141, person_133).
+friends(person_142, person_197).
+friends(person_197, person_142).
+friends(person_9, person_82).
+friends(person_82, person_9).
+friends(person_23, person_163).
+friends(person_163, person_23).
+friends(person_50, person_142).
+friends(person_142, person_50).
+friends(person_119, person_200).
+friends(person_200, person_119).
+friends(person_108, person_111).
+friends(person_111, person_108).
+friends(person_108, person_113).
+friends(person_113, person_108).
+friends(person_41, person_53).
+friends(person_53, person_41).
+friends(person_43, person_175).
+friends(person_175, person_43).
+friends(person_122, person_169).
+friends(person_169, person_122).
+friends(person_160, person_223).
+friends(person_223, person_160).
+friends(person_41, person_44).
+friends(person_44, person_41).
+friends(person_41, person_104).
+friends(person_104, person_41).
+friends(person_14, person_134).
+friends(person_134, person_14).
+friends(person_41, person_103).
+friends(person_103, person_41).
+friends(person_9, person_95).
+friends(person_95, person_9).
+friends(person_133, person_134).
+friends(person_134, person_133).
+friends(person_185, person_186).
+friends(person_186, person_185).
+friends(person_185, person_187).
+friends(person_187, person_185).
+friends(person_142, person_185).
+friends(person_185, person_142).
+friends(person_185, person_189).
+friends(person_189, person_185).
+friends(person_28, person_83).
+friends(person_83, person_28).
+friends(person_41, person_43).
+friends(person_43, person_41).
+friends(person_41, person_42).
+friends(person_42, person_41).
+friends(person_34, person_124).
+friends(person_124, person_34).
+friends(person_86, person_188).
+friends(person_188, person_86).
+friends(person_108, person_125).
+friends(person_125, person_108).
+friends(person_108, person_118).
+friends(person_118, person_108).
+friends(person_108, person_119).
+friends(person_119, person_108).
+friends(person_81, person_82).
+friends(person_82, person_81).
+friends(person_81, person_83).
+friends(person_83, person_81).
+friends(person_108, person_114).
+friends(person_114, person_108).
+friends(person_108, person_115).
+friends(person_115, person_108).
+friends(person_108, person_116).
+friends(person_116, person_108).
+friends(person_160, person_207).
+friends(person_207, person_160).
+friends(person_108, person_117).
+friends(person_117, person_108).
+friends(person_122, person_184).
+friends(person_184, person_122).
+friends(person_16, person_81).
+friends(person_81, person_16).
+friends(person_93, person_152).
+friends(person_152, person_93).
+friends(person_23, person_175).
+friends(person_175, person_23).
+friends(person_81, person_88).
+friends(person_88, person_81).
+friends(person_81, person_89).
+friends(person_89, person_81).
+friends(person_81, person_84).
+friends(person_84, person_81).
+friends(person_81, person_86).
+friends(person_86, person_81).
+friends(person_84, person_131).
+friends(person_131, person_84).
+friends(person_0, person_137).
+friends(person_137, person_0).
+friends(person_120, person_128).
+friends(person_128, person_120).
+friends(person_120, person_127).
+friends(person_127, person_120).
+friends(person_49, person_207).
+friends(person_207, person_49).
+friends(person_16, person_59).
+friends(person_59, person_16).
+friends(person_120, person_124).
+friends(person_124, person_120).
+friends(person_93, person_99).
+friends(person_99, person_93).
+friends(person_120, person_123).
+friends(person_123, person_120).
+friends(person_2, person_14).
+friends(person_14, person_2).
+friends(person_120, person_126).
+friends(person_126, person_120).
+friends(person_2, person_13).
+friends(person_13, person_2).
+friends(person_93, person_97).
+friends(person_97, person_93).
+friends(person_120, person_125).
+friends(person_125, person_120).
+friends(person_2, person_12).
+friends(person_12, person_2).
+friends(person_93, person_96).
+friends(person_96, person_93).
+friends(person_2, person_11).
+friends(person_11, person_2).
+friends(person_120, person_122).
+friends(person_122, person_120).
+friends(person_142, person_153).
+friends(person_153, person_142).
+friends(person_93, person_95).
+friends(person_95, person_93).
+friends(person_93, person_94).
+friends(person_94, person_93).
+friends(person_79, person_105).
+friends(person_105, person_79).
+friends(person_63, person_207).
+friends(person_207, person_63).
+friends(person_16, person_68).
+friends(person_68, person_16).
+friends(person_16, person_61).
+friends(person_61, person_16).
+friends(person_148, person_205).
+friends(person_205, person_148).
+friends(person_93, person_168).
+friends(person_168, person_93).
+friends(person_120, person_134).
+friends(person_134, person_120).
+friends(person_148, person_204).
+friends(person_204, person_148).
+friends(person_2, person_22).
+friends(person_22, person_2).
+friends(person_120, person_130).
+friends(person_130, person_120).
+friends(person_120, person_133).
+friends(person_133, person_120).
+friends(person_120, person_132).
+friends(person_132, person_120).
+friends(person_91, person_103).
+friends(person_103, person_91).
+friends(person_142, person_147).
+friends(person_147, person_142).
+friends(person_91, person_102).
+friends(person_102, person_91).
+friends(person_142, person_146).
+friends(person_146, person_142).
+friends(person_91, person_100).
+friends(person_100, person_91).
+friends(person_56, person_220).
+friends(person_220, person_56).
+friends(person_162, person_210).
+friends(person_210, person_162).
+friends(person_29, person_210).
+friends(person_210, person_29).
+friends(person_90, person_224).
+friends(person_224, person_90).
+friends(person_113, person_114).
+friends(person_114, person_113).
+friends(person_113, person_115).
+friends(person_115, person_113).
+friends(person_91, person_104).
+friends(person_104, person_91).
+friends(person_113, person_118).
+friends(person_118, person_113).
+friends(person_113, person_119).
+friends(person_119, person_113).
+friends(person_16, person_196).
+friends(person_196, person_16).
+friends(person_113, person_116).
+friends(person_116, person_113).
+friends(person_0, person_1).
+friends(person_1, person_0).
+friends(person_0, person_2).
+friends(person_2, person_0).
+friends(person_56, person_215).
+friends(person_215, person_56).
+friends(person_0, person_3).
+friends(person_3, person_0).
+friends(person_0, person_4).
+friends(person_4, person_0).
+friends(person_56, person_213).
+friends(person_213, person_56).
+friends(person_0, person_5).
+friends(person_5, person_0).
+friends(person_86, person_158).
+friends(person_158, person_86).
+friends(person_99, person_211).
+friends(person_211, person_99).
+friends(person_0, person_8).
+friends(person_8, person_0).
+friends(person_0, person_9).
+friends(person_9, person_0).
+friends(person_21, person_136).
+friends(person_136, person_21).
+friends(person_192, person_194).
+friends(person_194, person_192).
+friends(person_192, person_193).
+friends(person_193, person_192).
+friends(person_2, person_45).
+friends(person_45, person_2).
+friends(person_16, person_40).
+friends(person_40, person_16).
+friends(person_79, person_130).
+friends(person_130, person_79).
+friends(person_99, person_209).
+friends(person_209, person_99).
+friends(person_28, person_29).
+friends(person_29, person_28).
+friends(person_90, person_205).
+friends(person_205, person_90).
+friends(person_93, person_191).
+friends(person_191, person_93).
+friends(person_93, person_192).
+friends(person_192, person_93).
+friends(person_45, person_191).
+friends(person_191, person_45).
+friends(person_21, person_160).
+friends(person_160, person_21).
+friends(person_59, person_139).
+friends(person_139, person_59).
+friends(person_2, person_59).
+friends(person_59, person_2).
+friends(person_119, person_160).
+friends(person_160, person_119).
+friends(person_196, person_200).
+friends(person_200, person_196).
+friends(person_4, person_108).
+friends(person_108, person_4).
+friends(person_196, person_204).
+friends(person_204, person_196).
+friends(person_196, person_203).
+friends(person_203, person_196).
+friends(person_196, person_201).
+friends(person_201, person_196).
+friends(person_160, person_192).
+friends(person_192, person_160).
+friends(person_196, person_207).
+friends(person_207, person_196).
+friends(person_196, person_206).
+friends(person_206, person_196).
+friends(person_160, person_195).
+friends(person_195, person_160).
+friends(person_196, person_205).
+friends(person_205, person_196).
+friends(person_196, person_209).
+friends(person_209, person_196).
+friends(person_27, person_212).
+friends(person_212, person_27).
+friends(person_223, person_224).
+friends(person_224, person_223).
+friends(person_207, person_218).
+friends(person_218, person_207).
+friends(person_119, person_155).
+friends(person_155, person_119).
+friends(person_160, person_184).
+friends(person_184, person_160).
+friends(person_20, person_58).
+friends(person_58, person_20).
+friends(person_32, person_44).
+friends(person_44, person_32).
+friends(person_32, person_42).
+friends(person_42, person_32).
+friends(person_56, person_57).
+friends(person_57, person_56).
+friends(person_32, person_43).
+friends(person_43, person_32).
+friends(person_32, person_41).
+friends(person_41, person_32).
+friends(person_19, person_63).
+friends(person_63, person_19).
+friends(person_126, person_206).
+friends(person_206, person_126).
+friends(person_36, person_166).
+friends(person_166, person_36).
+friends(person_56, person_59).
+friends(person_59, person_56).
+friends(person_43, person_117).
+friends(person_117, person_43).
+friends(person_158, person_162).
+friends(person_162, person_158).
+friends(person_158, person_163).
+friends(person_163, person_158).
+friends(person_30, person_192).
+friends(person_192, person_30).
+friends(person_158, person_164).
+friends(person_164, person_158).
+friends(person_207, person_208).
+friends(person_208, person_207).
+friends(person_207, person_209).
+friends(person_209, person_207).
+friends(person_27, person_208).
+friends(person_208, person_27).
+friends(person_30, person_194).
+friends(person_194, person_30).
+friends(person_158, person_161).
+friends(person_161, person_158).
+friends(person_119, person_129).
+friends(person_129, person_119).
+friends(person_119, person_128).
+friends(person_128, person_119).
+friends(person_32, person_33).
+friends(person_33, person_32).
+friends(person_77, person_191).
+friends(person_191, person_77).
+friends(person_158, person_159).
+friends(person_159, person_158).
+friends(person_32, person_39).
+friends(person_39, person_32).
+friends(person_32, person_37).
+friends(person_37, person_32).
+friends(person_32, person_38).
+friends(person_38, person_32).
+friends(person_32, person_35).
+friends(person_35, person_32).
+friends(person_43, person_128).
+friends(person_128, person_43).
+friends(person_32, person_36).
+friends(person_36, person_32).
+friends(person_160, person_162).
+friends(person_162, person_160).
+friends(person_45, person_195).
+friends(person_195, person_45).
+friends(person_160, person_164).
+friends(person_164, person_160).
+friends(person_50, person_219).
+friends(person_219, person_50).
+friends(person_2, person_90).
+friends(person_90, person_2).
+friends(person_180, person_208).
+friends(person_208, person_180).
+friends(person_180, person_206).
+friends(person_206, person_180).
+friends(person_91, person_175).
+friends(person_175, person_91).
+friends(person_104, person_132).
+friends(person_132, person_104).
+friends(person_45, person_144).
+friends(person_144, person_45).
+friends(person_19, person_59).
+friends(person_59, person_19).
+friends(person_144, person_149).
+friends(person_149, person_144).
+friends(person_144, person_148).
+friends(person_148, person_144).
+friends(person_144, person_147).
+friends(person_147, person_144).
+friends(person_176, person_178).
+friends(person_178, person_176).
+friends(person_61, person_143).
+friends(person_143, person_61).
+friends(person_81, person_205).
+friends(person_205, person_81).
+friends(person_164, person_203).
+friends(person_203, person_164).
+friends(person_19, person_29).
+friends(person_29, person_19).
+friends(person_45, person_171).
+friends(person_171, person_45).
+friends(person_19, person_26).
+friends(person_26, person_19).
+friends(person_19, person_25).
+friends(person_25, person_19).
+friends(person_19, person_28).
+friends(person_28, person_19).
+friends(person_19, person_27).
+friends(person_27, person_19).
+friends(person_19, person_22).
+friends(person_22, person_19).
+friends(person_56, person_99).
+friends(person_99, person_56).
+friends(person_190, person_194).
+friends(person_194, person_190).
+friends(person_190, person_193).
+friends(person_193, person_190).
+friends(person_190, person_192).
+friends(person_192, person_190).
+friends(person_19, person_23).
+friends(person_23, person_19).
+friends(person_11, person_215).
+friends(person_215, person_11).
+friends(person_19, person_20).
+friends(person_20, person_19).
+friends(person_61, person_131).
+friends(person_131, person_61).
+friends(person_68, person_73).
+friends(person_73, person_68).
+friends(person_68, person_72).
+friends(person_72, person_68).
+friends(person_68, person_71).
+friends(person_71, person_68).
+friends(person_68, person_70).
+friends(person_70, person_68).
+friends(person_77, person_152).
+friends(person_152, person_77).
+friends(person_45, person_168).
+friends(person_168, person_45).
+friends(person_68, person_74).
+friends(person_74, person_68).
+friends(person_110, person_221).
+friends(person_221, person_110).
+friends(person_20, person_29).
+friends(person_29, person_20).
+friends(person_20, person_28).
+friends(person_28, person_20).
+friends(person_20, person_25).
+friends(person_25, person_20).
+friends(person_97, person_202).
+friends(person_202, person_97).
+friends(person_20, person_24).
+friends(person_24, person_20).
+friends(person_20, person_23).
+friends(person_23, person_20).
+friends(person_77, person_150).
+friends(person_150, person_77).
+friends(person_20, person_22).
+friends(person_22, person_20).
+friends(person_68, person_85).
+friends(person_85, person_68).
+friends(person_110, person_211).
+friends(person_211, person_110).
+friends(person_149, person_178).
+friends(person_178, person_149).
+friends(person_6, person_12).
+friends(person_12, person_6).
+friends(person_6, person_14).
+friends(person_14, person_6).
+friends(person_30, person_126).
+friends(person_126, person_30).
+friends(person_12, person_50).
+friends(person_50, person_12).
+friends(person_6, person_11).
+friends(person_11, person_6).
+friends(person_6, person_10).
+friends(person_10, person_6).
+friends(person_24, person_30).
+friends(person_30, person_24).
+friends(person_106, person_185).
+friends(person_185, person_106).
+friends(person_106, person_187).
+friends(person_187, person_106).
+friends(person_117, person_158).
+friends(person_158, person_117).
+friends(person_6, person_120).
+friends(person_120, person_6).
+friends(person_88, person_101).
+friends(person_101, person_88).
+friends(person_6, person_24).
+friends(person_24, person_6).
+friends(person_64, person_68).
+friends(person_68, person_64).
+friends(person_64, person_69).
+friends(person_69, person_64).
+friends(person_30, person_139).
+friends(person_139, person_30).
+friends(person_4, person_189).
+friends(person_189, person_4).
+friends(person_73, person_109).
+friends(person_109, person_73).
+friends(person_64, person_66).
+friends(person_66, person_64).
+friends(person_64, person_65).
+friends(person_65, person_64).
+friends(person_6, person_147).
+friends(person_147, person_6).
+friends(person_117, person_135).
+friends(person_135, person_117).
+friends(person_102, person_146).
+friends(person_146, person_102).
+friends(person_32, person_189).
+friends(person_189, person_32).
+friends(person_64, person_71).
+friends(person_71, person_64).
+friends(person_64, person_72).
+friends(person_72, person_64).
+friends(person_64, person_74).
+friends(person_74, person_64).
+friends(person_6, person_47).
+friends(person_47, person_6).
+friends(person_30, person_114).
+friends(person_114, person_30).
+friends(person_30, person_117).
+friends(person_117, person_30).
+friends(person_189, person_194).
+friends(person_194, person_189).
+friends(person_24, person_28).
+friends(person_28, person_24).
+friends(person_189, person_193).
+friends(person_193, person_189).
+friends(person_24, person_29).
+friends(person_29, person_24).
+friends(person_189, person_195).
+friends(person_195, person_189).
+friends(person_47, person_189).
+friends(person_189, person_47).
+friends(person_189, person_190).
+friends(person_190, person_189).
+friends(person_24, person_25).
+friends(person_25, person_24).
+friends(person_189, person_192).
+friends(person_192, person_189).
+friends(person_24, person_26).
+friends(person_26, person_24).
+friends(person_189, person_191).
+friends(person_191, person_189).
+friends(person_44, person_98).
+friends(person_98, person_44).
+friends(person_47, person_182).
+friends(person_182, person_47).
+friends(person_32, person_196).
+friends(person_196, person_32).
+friends(person_12, person_14).
+friends(person_14, person_12).
+friends(person_76, person_80).
+friends(person_80, person_76).
+friends(person_12, person_13).
+friends(person_13, person_12).
+friends(person_76, person_81).
+friends(person_81, person_76).
+friends(person_76, person_82).
+friends(person_82, person_76).
+friends(person_174, person_179).
+friends(person_179, person_174).
+friends(person_76, person_84).
+friends(person_84, person_76).
+friends(person_76, person_85).
+friends(person_85, person_76).
+friends(person_174, person_176).
+friends(person_176, person_174).
+friends(person_76, person_86).
+friends(person_86, person_76).
+friends(person_174, person_175).
+friends(person_175, person_174).
+friends(person_76, person_87).
+friends(person_87, person_76).
+friends(person_174, person_178).
+friends(person_178, person_174).
+friends(person_174, person_177).
+friends(person_177, person_174).
+friends(person_76, person_89).
+friends(person_89, person_76).
+friends(person_47, person_156).
+friends(person_156, person_47).
+friends(person_166, person_220).
+friends(person_220, person_166).
+friends(person_12, person_18).
+friends(person_18, person_12).
+friends(person_64, person_95).
+friends(person_95, person_64).
+friends(person_12, person_19).
+friends(person_19, person_12).
+friends(person_117, person_119).
+friends(person_119, person_117).
+friends(person_117, person_118).
+friends(person_118, person_117).
+friends(person_18, person_113).
+friends(person_113, person_18).
+friends(person_32, person_97).
+friends(person_97, person_32).
+friends(person_146, person_177).
+friends(person_177, person_146).
+friends(person_76, person_78).
+friends(person_78, person_76).
+friends(person_76, person_79).
+friends(person_79, person_76).
+friends(person_102, person_138).
+friends(person_138, person_102).
+friends(person_18, person_119).
+friends(person_119, person_18).
+friends(person_102, person_134).
+friends(person_134, person_102).
+friends(person_12, person_27).
+friends(person_27, person_12).
+friends(person_44, person_79).
+friends(person_79, person_44).
+friends(person_146, person_148).
+friends(person_148, person_146).
+friends(person_32, person_81).
+friends(person_81, person_32).
+friends(person_146, person_147).
+friends(person_147, person_146).
+friends(person_88, person_89).
+friends(person_89, person_88).
+friends(person_75, person_152).
+friends(person_152, person_75).
+friends(person_146, person_149).
+friends(person_149, person_146).
+friends(person_32, person_83).
+friends(person_83, person_32).
+friends(person_166, person_201).
+friends(person_201, person_166).
+friends(person_104, person_199).
+friends(person_199, person_104).
+friends(person_102, person_104).
+friends(person_104, person_102).
+friends(person_44, person_62).
+friends(person_62, person_44).
+friends(person_75, person_162).
+friends(person_162, person_75).
+friends(person_44, person_58).
+friends(person_58, person_44).
+friends(person_119, person_169).
+friends(person_169, person_119).
+friends(person_32, person_73).
+friends(person_73, person_32).
+friends(person_47, person_149).
+friends(person_149, person_47).
+friends(person_104, person_182).
+friends(person_182, person_104).
+friends(person_6, person_193).
+friends(person_193, person_6).
+friends(person_122, person_219).
+friends(person_219, person_122).
+friends(person_37, person_70).
+friends(person_70, person_37).
+friends(person_155, person_171).
+friends(person_171, person_155).
+friends(person_50, person_52).
+friends(person_52, person_50).
+friends(person_50, person_51).
+friends(person_51, person_50).
+friends(person_50, person_54).
+friends(person_54, person_50).
+friends(person_50, person_53).
+friends(person_53, person_50).
+friends(person_50, person_56).
+friends(person_56, person_50).
+friends(person_49, person_51).
+friends(person_51, person_49).
+friends(person_50, person_55).
+friends(person_55, person_50).
+friends(person_49, person_50).
+friends(person_50, person_49).
+friends(person_50, person_57).
+friends(person_57, person_50).
+friends(person_50, person_59).
+friends(person_59, person_50).
+friends(person_49, person_59).
+friends(person_59, person_49).
+friends(person_49, person_58).
+friends(person_58, person_49).
+friends(person_203, person_221).
+friends(person_221, person_203).
+friends(person_49, person_56).
+friends(person_56, person_49).
+friends(person_49, person_55).
+friends(person_55, person_49).
+friends(person_138, person_139).
+friends(person_139, person_138).
+friends(person_94, person_99).
+friends(person_99, person_94).
+friends(person_94, person_98).
+friends(person_98, person_94).
+friends(person_94, person_97).
+friends(person_97, person_94).
+friends(person_15, person_211).
+friends(person_211, person_15).
+friends(person_138, person_140).
+friends(person_140, person_138).
+friends(person_80, person_177).
+friends(person_177, person_80).
+friends(person_94, person_96).
+friends(person_96, person_94).
+friends(person_138, person_141).
+friends(person_141, person_138).
+friends(person_94, person_95).
+friends(person_95, person_94).
+friends(person_80, person_179).
+friends(person_179, person_80).
+friends(person_15, person_212).
+friends(person_212, person_15).
+friends(person_114, person_210).
+friends(person_210, person_114).
+friends(person_138, person_144).
+friends(person_144, person_138).
+friends(person_138, person_145).
+friends(person_145, person_138).
+friends(person_138, person_142).
+friends(person_142, person_138).
+friends(person_138, person_143).
+friends(person_143, person_138).
+friends(person_138, person_148).
+friends(person_148, person_138).
+friends(person_138, person_146).
+friends(person_146, person_138).
+friends(person_138, person_147).
+friends(person_147, person_138).
+friends(person_7, person_101).
+friends(person_101, person_7).
+friends(person_13, person_85).
+friends(person_85, person_13).
+friends(person_155, person_191).
+friends(person_191, person_155).
+friends(person_80, person_140).
+friends(person_140, person_80).
+friends(person_172, person_199).
+friends(person_199, person_172).
+friends(person_203, person_204).
+friends(person_204, person_203).
+friends(person_71, person_144).
+friends(person_144, person_71).
+friends(person_9, person_183).
+friends(person_183, person_9).
+friends(person_37, person_43).
+friends(person_43, person_37).
+friends(person_37, person_44).
+friends(person_44, person_37).
+friends(person_62, person_66).
+friends(person_66, person_62).
+friends(person_62, person_67).
+friends(person_67, person_62).
+friends(person_62, person_69).
+friends(person_69, person_62).
+friends(person_203, person_207).
+friends(person_207, person_203).
+friends(person_203, person_208).
+friends(person_208, person_203).
+friends(person_203, person_209).
+friends(person_209, person_203).
+friends(person_122, person_220).
+friends(person_220, person_122).
+friends(person_37, person_40).
+friends(person_40, person_37).
+friends(person_37, person_41).
+friends(person_41, person_37).
+friends(person_0, person_223).
+friends(person_223, person_0).
+friends(person_37, person_42).
+friends(person_42, person_37).
+friends(person_94, person_224).
+friends(person_224, person_94).
+friends(person_147, person_148).
+friends(person_148, person_147).
+friends(person_80, person_156).
+friends(person_156, person_80).
+friends(person_56, person_122).
+friends(person_122, person_56).
+friends(person_23, person_218).
+friends(person_218, person_23).
+friends(person_7, person_105).
+friends(person_105, person_7).
+friends(person_62, person_64).
+friends(person_64, person_62).
+friends(person_162, person_163).
+friends(person_163, person_162).
+friends(person_7, person_126).
+friends(person_126, person_7).
+friends(person_162, person_164).
+friends(person_164, person_162).
+friends(person_37, person_38).
+friends(person_38, person_37).
+friends(person_13, person_68).
+friends(person_68, person_13).
+friends(person_37, person_39).
+friends(person_39, person_37).
+friends(person_172, person_174).
+friends(person_174, person_172).
+friends(person_172, person_176).
+friends(person_176, person_172).
+friends(person_172, person_175).
+friends(person_175, person_172).
+friends(person_172, person_178).
+friends(person_178, person_172).
+friends(person_210, person_219).
+friends(person_219, person_210).
+friends(person_172, person_177).
+friends(person_177, person_172).
+friends(person_210, person_217).
+friends(person_217, person_210).
+friends(person_172, person_179).
+friends(person_179, person_172).
+friends(person_210, person_218).
+friends(person_218, person_210).
+friends(person_210, person_215).
+friends(person_215, person_210).
+friends(person_210, person_214).
+friends(person_214, person_210).
+friends(person_162, person_169).
+friends(person_169, person_162).
+friends(person_210, person_211).
+friends(person_211, person_210).
+friends(person_210, person_212).
+friends(person_212, person_210).
+friends(person_56, person_199).
+friends(person_199, person_56).
+friends(person_62, person_70).
+friends(person_70, person_62).
+friends(person_62, person_71).
+friends(person_71, person_62).
+friends(person_62, person_72).
+friends(person_72, person_62).
+friends(person_62, person_73).
+friends(person_73, person_62).
+friends(person_5, person_6).
+friends(person_6, person_5).
+friends(person_62, person_74).
+friends(person_74, person_62).
+friends(person_5, person_7).
+friends(person_7, person_5).
+friends(person_5, person_8).
+friends(person_8, person_5).
+friends(person_54, person_104).
+friends(person_104, person_54).
+friends(person_13, person_78).
+friends(person_78, person_13).
+friends(person_63, person_166).
+friends(person_166, person_63).
+friends(person_168, person_221).
+friends(person_221, person_168).
+friends(person_210, person_224).
+friends(person_224, person_210).
+friends(person_210, person_222).
+friends(person_222, person_210).
+friends(person_210, person_223).
+friends(person_223, person_210).
+friends(person_210, person_220).
+friends(person_220, person_210).
+friends(person_56, person_187).
+friends(person_187, person_56).
+friends(person_210, person_221).
+friends(person_221, person_210).
+friends(person_25, person_29).
+friends(person_29, person_25).
+friends(person_25, person_28).
+friends(person_28, person_25).
+friends(person_155, person_156).
+friends(person_156, person_155).
+friends(person_155, person_157).
+friends(person_157, person_155).
+friends(person_25, person_27).
+friends(person_27, person_25).
+friends(person_25, person_26).
+friends(person_26, person_25).
+friends(person_155, person_158).
+friends(person_158, person_155).
+friends(person_168, person_216).
+friends(person_216, person_168).
+friends(person_131, person_209).
+friends(person_209, person_131).
+friends(person_162, person_195).
+friends(person_195, person_162).
+friends(person_25, person_39).
+friends(person_39, person_25).
+friends(person_155, person_160).
+friends(person_160, person_155).
+friends(person_191, person_202).
+friends(person_202, person_191).
+friends(person_155, person_163).
+friends(person_163, person_155).
+friends(person_155, person_164).
+friends(person_164, person_155).
+friends(person_155, person_161).
+friends(person_161, person_155).
+friends(person_155, person_162).
+friends(person_162, person_155).
+friends(person_56, person_167).
+friends(person_167, person_56).
+friends(person_73, person_167).
+friends(person_167, person_73).
+friends(person_13, person_202).
+friends(person_202, person_13).
+friends(person_30, person_41).
+friends(person_41, person_30).
+friends(person_30, person_40).
+friends(person_40, person_30).
+friends(person_30, person_43).
+friends(person_43, person_30).
+friends(person_30, person_42).
+friends(person_42, person_30).
+friends(person_183, person_220).
+friends(person_220, person_183).
+friends(person_17, person_62).
+friends(person_62, person_17).
+friends(person_29, person_49).
+friends(person_49, person_29).
+friends(person_29, person_47).
+friends(person_47, person_29).
+friends(person_112, person_212).
+friends(person_212, person_112).
+friends(person_17, person_79).
+friends(person_79, person_17).
+friends(person_57, person_90).
+friends(person_90, person_57).
+friends(person_157, person_187).
+friends(person_187, person_157).
+friends(person_13, person_212).
+friends(person_212, person_13).
+friends(person_17, person_76).
+friends(person_76, person_17).
+friends(person_30, person_31).
+friends(person_31, person_30).
+friends(person_17, person_73).
+friends(person_73, person_17).
+friends(person_30, person_38).
+friends(person_38, person_30).
+friends(person_191, person_221).
+friends(person_221, person_191).
+friends(person_30, person_37).
+friends(person_37, person_30).
+friends(person_30, person_39).
+friends(person_39, person_30).
+friends(person_30, person_34).
+friends(person_34, person_30).
+friends(person_30, person_33).
+friends(person_33, person_30).
+friends(person_69, person_73).
+friends(person_73, person_69).
+friends(person_69, person_72).
+friends(person_72, person_69).
+friends(person_30, person_35).
+friends(person_35, person_30).
+friends(person_205, person_206).
+friends(person_206, person_205).
+friends(person_65, person_147).
+friends(person_147, person_65).
+friends(person_205, person_207).
+friends(person_207, person_205).
+friends(person_205, person_208).
+friends(person_208, person_205).
+friends(person_205, person_209).
+friends(person_209, person_205).
+friends(person_129, person_181).
+friends(person_181, person_129).
+friends(person_70, person_79).
+friends(person_79, person_70).
+friends(person_70, person_74).
+friends(person_74, person_70).
+friends(person_70, person_73).
+friends(person_73, person_70).
+friends(person_136, person_142).
+friends(person_142, person_136).
+friends(person_136, person_143).
+friends(person_143, person_136).
+friends(person_136, person_140).
+friends(person_140, person_136).
+friends(person_136, person_141).
+friends(person_141, person_136).
+friends(person_70, person_71).
+friends(person_71, person_70).
+friends(person_21, person_210).
+friends(person_210, person_21).
+friends(person_136, person_148).
+friends(person_148, person_136).
+friends(person_136, person_146).
+friends(person_146, person_136).
+friends(person_136, person_147).
+friends(person_147, person_136).
+friends(person_136, person_144).
+friends(person_144, person_136).
+friends(person_17, person_57).
+friends(person_57, person_17).
+friends(person_37, person_122).
+friends(person_122, person_37).
+friends(person_136, person_139).
+friends(person_139, person_136).
+friends(person_136, person_137).
+friends(person_137, person_136).
+friends(person_136, person_138).
+friends(person_138, person_136).
+friends(person_58, person_192).
+friends(person_192, person_58).
+friends(person_34, person_222).
+friends(person_222, person_34).
+friends(person_17, person_27).
+friends(person_27, person_17).
+friends(person_17, person_28).
+friends(person_28, person_17).
+friends(person_17, person_29).
+friends(person_29, person_17).
+friends(person_82, person_83).
+friends(person_83, person_82).
+friends(person_82, person_84).
+friends(person_84, person_82).
+friends(person_17, person_23).
+friends(person_23, person_17).
+friends(person_17, person_25).
+friends(person_25, person_17).
+friends(person_17, person_26).
+friends(person_26, person_17).
+friends(person_17, person_20).
+friends(person_20, person_17).
+friends(person_17, person_21).
+friends(person_21, person_17).
+friends(person_212, person_219).
+friends(person_219, person_212).
+friends(person_17, person_22).
+friends(person_22, person_17).
+friends(person_212, person_224).
+friends(person_224, person_212).
+friends(person_212, person_222).
+friends(person_222, person_212).
+friends(person_212, person_223).
+friends(person_223, person_212).
+friends(person_220, person_224).
+friends(person_224, person_220).
+friends(person_220, person_223).
+friends(person_223, person_220).
+friends(person_1, person_2).
+friends(person_2, person_1).
+friends(person_220, person_222).
+friends(person_222, person_220).
+friends(person_220, person_221).
+friends(person_221, person_220).
+friends(person_1, person_4).
+friends(person_4, person_1).
+friends(person_82, person_89).
+friends(person_89, person_82).
+friends(person_99, person_111).
+friends(person_111, person_99).
+friends(person_1, person_5).
+friends(person_5, person_1).
+friends(person_1, person_6).
+friends(person_6, person_1).
+friends(person_1, person_7).
+friends(person_7, person_1).
+friends(person_1, person_8).
+friends(person_8, person_1).
+friends(person_82, person_85).
+friends(person_85, person_82).
+friends(person_212, person_220).
+friends(person_220, person_212).
+friends(person_82, person_86).
+friends(person_86, person_82).
+friends(person_136, person_166).
+friends(person_166, person_136).
+friends(person_82, person_87).
+friends(person_87, person_82).
+friends(person_49, person_99).
+friends(person_99, person_49).
+friends(person_82, person_88).
+friends(person_88, person_82).
+friends(person_129, person_133).
+friends(person_133, person_129).
+friends(person_129, person_134).
+friends(person_134, person_129).
+friends(person_129, person_130).
+friends(person_130, person_129).
+friends(person_129, person_131).
+friends(person_131, person_129).
+friends(person_37, person_141).
+friends(person_141, person_37).
+friends(person_129, person_132).
+friends(person_132, person_129).
+friends(person_49, person_87).
+friends(person_87, person_49).
+friends(person_212, person_213).
+friends(person_213, person_212).
+friends(person_212, person_214).
+friends(person_214, person_212).
+friends(person_99, person_104).
+friends(person_104, person_99).
+friends(person_212, person_218).
+friends(person_218, person_212).
+friends(person_212, person_216).
+friends(person_216, person_212).
+friends(person_99, person_100).
+friends(person_100, person_99).
+friends(person_99, person_101).
+friends(person_101, person_99).
+friends(person_99, person_102).
+friends(person_102, person_99).
+friends(person_99, person_103).
+friends(person_103, person_99).
+friends(person_176, person_204).
+friends(person_204, person_176).
+friends(person_157, person_158).
+friends(person_158, person_157).
+friends(person_157, person_159).
+friends(person_159, person_157).
+friends(person_37, person_93).
+friends(person_93, person_37).
+friends(person_17, person_18).
+friends(person_18, person_17).
+friends(person_17, person_19).
+friends(person_19, person_17).
+friends(person_41, person_205).
+friends(person_205, person_41).
+friends(person_41, person_204).
+friends(person_204, person_41).
+friends(person_41, person_209).
+friends(person_209, person_41).
+friends(person_170, person_176).
+friends(person_176, person_170).
+friends(person_170, person_175).
+friends(person_175, person_170).
+friends(person_3, person_14).
+friends(person_14, person_3).
+friends(person_157, person_163).
+friends(person_163, person_157).
+friends(person_170, person_178).
+friends(person_178, person_170).
+friends(person_3, person_13).
+friends(person_13, person_3).
+friends(person_157, person_164).
+friends(person_164, person_157).
+friends(person_170, person_177).
+friends(person_177, person_170).
+friends(person_3, person_12).
+friends(person_12, person_3).
+friends(person_157, person_161).
+friends(person_161, person_157).
+friends(person_170, person_172).
+friends(person_172, person_170).
+friends(person_3, person_11).
+friends(person_11, person_3).
+friends(person_170, person_171).
+friends(person_171, person_170).
+friends(person_3, person_10).
+friends(person_10, person_3).
+friends(person_170, person_174).
+friends(person_174, person_170).
+friends(person_157, person_160).
+friends(person_160, person_157).
+friends(person_170, person_173).
+friends(person_173, person_170).
+friends(person_170, person_179).
+friends(person_179, person_170).
+friends(person_157, person_216).
+friends(person_216, person_157).
+friends(person_151, person_153).
+friends(person_153, person_151).
+friends(person_151, person_152).
+friends(person_152, person_151).
+friends(person_33, person_34).
+friends(person_34, person_33).
+friends(person_183, person_184).
+friends(person_184, person_183).
+friends(person_33, person_35).
+friends(person_35, person_33).
+friends(person_183, person_185).
+friends(person_185, person_183).
+friends(person_183, person_186).
+friends(person_186, person_183).
+friends(person_183, person_187).
+friends(person_187, person_183).
+friends(person_183, person_188).
+friends(person_188, person_183).
+friends(person_33, person_39).
+friends(person_39, person_33).
+friends(person_183, person_189).
+friends(person_189, person_183).
+friends(person_28, person_144).
+friends(person_144, person_28).
+friends(person_33, person_36).
+friends(person_36, person_33).
+friends(person_33, person_37).
+friends(person_37, person_33).
+friends(person_151, person_155).
+friends(person_155, person_151).
+friends(person_151, person_154).
+friends(person_154, person_151).
+friends(person_151, person_157).
+friends(person_157, person_151).
+friends(person_151, person_156).
+friends(person_156, person_151).
+friends(person_151, person_159).
+friends(person_159, person_151).
+friends(person_151, person_158).
+friends(person_158, person_151).
+friends(person_157, person_208).
+friends(person_208, person_157).
+friends(person_151, person_160).
+friends(person_160, person_151).
+friends(person_13, person_173).
+friends(person_173, person_13).
+friends(person_183, person_190).
+friends(person_190, person_183).
+friends(person_151, person_162).
+friends(person_162, person_151).
+friends(person_151, person_161).
+friends(person_161, person_151).
+friends(person_77, person_81).
+friends(person_81, person_77).
+friends(person_151, person_163).
+friends(person_163, person_151).
+friends(person_77, person_82).
+friends(person_82, person_77).
+friends(person_77, person_83).
+friends(person_83, person_77).
+friends(person_157, person_221).
+friends(person_221, person_157).
+friends(person_77, person_84).
+friends(person_84, person_77).
+friends(person_77, person_85).
+friends(person_85, person_77).
+friends(person_77, person_86).
+friends(person_86, person_77).
+friends(person_77, person_87).
+friends(person_87, person_77).
+friends(person_183, person_191).
+friends(person_191, person_183).
+friends(person_183, person_193).
+friends(person_193, person_183).
+friends(person_183, person_194).
+friends(person_194, person_183).
+friends(person_4, person_218).
+friends(person_218, person_4).
+friends(person_58, person_217).
+friends(person_217, person_58).
+friends(person_58, person_215).
+friends(person_215, person_58).
+friends(person_151, person_169).
+friends(person_169, person_151).
+friends(person_21, person_29).
+friends(person_29, person_21).
+friends(person_21, person_28).
+friends(person_28, person_21).
+friends(person_127, person_134).
+friends(person_134, person_127).
+friends(person_21, person_27).
+friends(person_27, person_21).
+friends(person_127, person_133).
+friends(person_133, person_127).
+friends(person_21, person_26).
+friends(person_26, person_21).
+friends(person_127, person_132).
+friends(person_132, person_127).
+friends(person_127, person_130).
+friends(person_130, person_127).
+friends(person_89, person_92).
+friends(person_92, person_89).
+friends(person_112, person_195).
+friends(person_195, person_112).
+friends(person_214, person_216).
+friends(person_216, person_214).
+friends(person_21, person_22).
+friends(person_22, person_21).
+friends(person_214, person_215).
+friends(person_215, person_214).
+friends(person_69, person_197).
+friends(person_197, person_69).
+friends(person_118, person_207).
+friends(person_207, person_118).
+friends(person_127, person_129).
+friends(person_129, person_127).
+friends(person_127, person_128).
+friends(person_128, person_127).
+friends(person_19, person_214).
+friends(person_214, person_19).
+friends(person_214, person_219).
+friends(person_219, person_214).
+friends(person_214, person_218).
+friends(person_218, person_214).
+friends(person_52, person_133).
+friends(person_133, person_52).
+friends(person_3, person_57).
+friends(person_57, person_3).
+friends(person_99, person_127).
+friends(person_127, person_99).
+friends(person_214, person_224).
+friends(person_224, person_214).
+friends(person_214, person_223).
+friends(person_223, person_214).
+friends(person_214, person_221).
+friends(person_221, person_214).
+friends(person_50, person_100).
+friends(person_100, person_50).
+friends(person_28, person_189).
+friends(person_189, person_28).
+friends(person_189, person_215).
+friends(person_215, person_189).
+friends(person_97, person_100).
+friends(person_100, person_97).
+friends(person_99, person_193).
+friends(person_193, person_99).
+friends(person_97, person_101).
+friends(person_101, person_97).
+friends(person_97, person_102).
+friends(person_102, person_97).
+friends(person_13, person_131).
+friends(person_131, person_13).
+friends(person_97, person_103).
+friends(person_103, person_97).
+friends(person_97, person_104).
+friends(person_104, person_97).
+friends(person_90, person_94).
+friends(person_94, person_90).
+friends(person_90, person_93).
+friends(person_93, person_90).
+friends(person_127, person_183).
+friends(person_183, person_127).
+friends(person_90, person_96).
+friends(person_96, person_90).
+friends(person_57, person_59).
+friends(person_59, person_57).
+friends(person_198, person_199).
+friends(person_199, person_198).
+friends(person_90, person_95).
+friends(person_95, person_90).
+friends(person_90, person_97).
+friends(person_97, person_90).
+friends(person_110, person_115).
+friends(person_115, person_110).
+friends(person_110, person_116).
+friends(person_116, person_110).
+friends(person_110, person_118).
+friends(person_118, person_110).
+friends(person_110, person_119).
+friends(person_119, person_110).
+friends(person_90, person_91).
+friends(person_91, person_90).
+friends(person_82, person_120).
+friends(person_120, person_82).
+friends(person_110, person_111).
+friends(person_111, person_110).
+friends(person_110, person_112).
+friends(person_112, person_110).
+friends(person_110, person_113).
+friends(person_113, person_110).
+friends(person_41, person_85).
+friends(person_85, person_41).
+friends(person_110, person_114).
+friends(person_114, person_110).
+friends(person_3, person_83).
+friends(person_83, person_3).
+friends(person_151, person_174).
+friends(person_174, person_151).
+friends(person_50, person_114).
+friends(person_114, person_50).
+friends(person_65, person_107).
+friends(person_107, person_65).
+friends(person_142, person_210).
+friends(person_210, person_142).
+friends(person_166, person_167).
+friends(person_167, person_166).
+friends(person_41, person_72).
+friends(person_72, person_41).
+friends(person_166, person_169).
+friends(person_169, person_166).
+friends(person_41, person_68).
+friends(person_68, person_41).
+friends(person_52, person_178).
+friends(person_178, person_52).
+friends(person_166, person_171).
+friends(person_171, person_166).
+friends(person_174, person_204).
+friends(person_204, person_174).
+friends(person_166, person_170).
+friends(person_170, person_166).
+friends(person_166, person_177).
+friends(person_177, person_166).
+friends(person_166, person_176).
+friends(person_176, person_166).
+friends(person_166, person_179).
+friends(person_179, person_166).
+friends(person_166, person_178).
+friends(person_178, person_166).
+friends(person_166, person_173).
+friends(person_173, person_166).
+friends(person_112, person_161).
+friends(person_161, person_112).
+friends(person_43, person_206).
+friends(person_206, person_43).
+friends(person_166, person_172).
+friends(person_172, person_166).
+friends(person_166, person_175).
+friends(person_175, person_166).
+friends(person_112, person_163).
+friends(person_163, person_112).
+friends(person_166, person_174).
+friends(person_174, person_166).
+friends(person_43, person_203).
+friends(person_203, person_43).
+friends(person_60, person_208).
+friends(person_208, person_60).
+friends(person_99, person_167).
+friends(person_167, person_99).
+friends(person_112, person_168).
+friends(person_168, person_112).
+friends(person_159, person_222).
+friends(person_222, person_159).
+friends(person_97, person_154).
+friends(person_154, person_97).
+friends(person_11, person_154).
+friends(person_154, person_11).
+friends(person_201, person_209).
+friends(person_209, person_201).
+friends(person_110, person_161).
+friends(person_161, person_110).
+friends(person_201, person_208).
+friends(person_208, person_201).
+friends(person_153, person_161).
+friends(person_161, person_153).
+friends(person_153, person_160).
+friends(person_160, person_153).
+friends(person_125, person_150).
+friends(person_150, person_125).
+friends(person_97, person_98).
+friends(person_98, person_97).
+friends(person_97, person_99).
+friends(person_99, person_97).
+friends(person_153, person_164).
+friends(person_164, person_153).
+friends(person_110, person_162).
+friends(person_162, person_110).
+friends(person_110, person_169).
+friends(person_169, person_110).
+friends(person_97, person_144).
+friends(person_144, person_97).
+friends(person_13, person_35).
+friends(person_35, person_13).
+friends(person_53, person_54).
+friends(person_54, person_53).
+friends(person_153, person_158).
+friends(person_158, person_153).
+friends(person_53, person_58).
+friends(person_58, person_53).
+friends(person_153, person_156).
+friends(person_156, person_153).
+friends(person_53, person_56).
+friends(person_56, person_53).
+friends(person_45, person_82).
+friends(person_82, person_45).
+friends(person_153, person_157).
+friends(person_157, person_153).
+friends(person_53, person_57).
+friends(person_57, person_53).
+friends(person_153, person_154).
+friends(person_154, person_153).
+friends(person_153, person_155).
+friends(person_155, person_153).
+friends(person_116, person_209).
+friends(person_209, person_116).
+friends(person_159, person_208).
+friends(person_208, person_159).
+friends(person_201, person_207).
+friends(person_207, person_201).
+friends(person_201, person_206).
+friends(person_206, person_201).
+friends(person_45, person_211).
+friends(person_211, person_45).
+friends(person_201, person_204).
+friends(person_204, person_201).
+friends(person_201, person_203).
+friends(person_203, person_201).
+friends(person_54, person_151).
+friends(person_151, person_54).
+friends(person_82, person_160).
+friends(person_160, person_82).
+friends(person_201, person_202).
+friends(person_202, person_201).
+friends(person_216, person_218).
+friends(person_218, person_216).
+friends(person_216, person_217).
+friends(person_217, person_216).
+friends(person_82, person_146).
+friends(person_146, person_82).
+friends(person_216, person_219).
+friends(person_219, person_216).
+friends(person_11, person_137).
+friends(person_137, person_11).
+friends(person_69, person_118).
+friends(person_118, person_69).
+friends(person_125, person_132).
+friends(person_132, person_125).
+friends(person_69, person_114).
+friends(person_114, person_69).
+friends(person_125, person_131).
+friends(person_131, person_125).
+friends(person_125, person_130).
+friends(person_130, person_125).
+friends(person_216, person_221).
+friends(person_221, person_216).
+friends(person_125, person_134).
+friends(person_134, person_125).
+friends(person_110, person_143).
+friends(person_143, person_110).
+friends(person_125, person_133).
+friends(person_133, person_125).
+friends(person_216, person_223).
+friends(person_223, person_216).
+friends(person_7, person_14).
+friends(person_14, person_7).
+friends(person_97, person_120).
+friends(person_120, person_97).
+friends(person_7, person_13).
+friends(person_13, person_7).
+friends(person_2, person_211).
+friends(person_211, person_2).
+friends(person_13, person_14).
+friends(person_14, person_13).
+friends(person_7, person_10).
+friends(person_10, person_7).
+friends(person_7, person_11).
+friends(person_11, person_7).
+friends(person_82, person_143).
+friends(person_143, person_82).
+friends(person_125, person_128).
+friends(person_128, person_125).
+friends(person_125, person_127).
+friends(person_127, person_125).
+friends(person_125, person_126).
+friends(person_126, person_125).
+friends(person_65, person_69).
+friends(person_69, person_65).
+friends(person_95, person_104).
+friends(person_104, person_95).
+friends(person_11, person_199).
+friends(person_199, person_11).
+friends(person_33, person_71).
+friends(person_71, person_33).
+friends(person_65, person_68).
+friends(person_68, person_65).
+friends(person_95, person_100).
+friends(person_100, person_95).
+friends(person_30, person_203).
+friends(person_203, person_30).
+friends(person_45, person_59).
+friends(person_59, person_45).
+friends(person_95, person_101).
+friends(person_101, person_95).
+friends(person_95, person_102).
+friends(person_102, person_95).
+friends(person_95, person_103).
+friends(person_103, person_95).
+friends(person_53, person_83).
+friends(person_83, person_53).
+friends(person_45, person_50).
+friends(person_50, person_45).
+friends(person_45, person_56).
+friends(person_56, person_45).
+friends(person_45, person_55).
+friends(person_55, person_45).
+friends(person_45, person_58).
+friends(person_58, person_45).
+friends(person_45, person_57).
+friends(person_57, person_45).
+friends(person_45, person_52).
+friends(person_52, person_45).
+friends(person_45, person_51).
+friends(person_51, person_45).
+friends(person_45, person_54).
+friends(person_54, person_45).
+friends(person_65, person_67).
+friends(person_67, person_65).
+friends(person_45, person_53).
+friends(person_53, person_45).
+friends(person_65, person_66).
+friends(person_66, person_65).
+friends(person_30, person_210).
+friends(person_210, person_30).
+friends(person_33, person_60).
+friends(person_60, person_33).
+friends(person_97, person_187).
+friends(person_187, person_97).
+friends(person_45, person_49).
+friends(person_49, person_45).
+friends(person_45, person_48).
+friends(person_48, person_45).
+friends(person_26, person_176).
+friends(person_176, person_26).
+friends(person_24, person_102).
+friends(person_102, person_24).
+friends(person_172, person_220).
+friends(person_220, person_172).
+friends(person_196, person_199).
+friends(person_199, person_196).
+friends(person_196, person_197).
+friends(person_197, person_196).
+friends(person_168, person_185).
+friends(person_185, person_168).
+friends(person_65, person_70).
+friends(person_70, person_65).
+friends(person_65, person_72).
+friends(person_72, person_65).
+friends(person_69, person_187).
+friends(person_187, person_69).
+friends(person_54, person_191).
+friends(person_191, person_54).
+friends(person_65, person_71).
+friends(person_71, person_65).
+friends(person_45, person_47).
+friends(person_47, person_45).
+friends(person_65, person_74).
+friends(person_74, person_65).
+friends(person_45, person_46).
+friends(person_46, person_45).
+friends(person_65, person_73).
+friends(person_73, person_65).
+friends(person_11, person_190).
+friends(person_190, person_11).
+friends(person_218, person_224).
+friends(person_224, person_218).
+friends(person_181, person_193).
+friends(person_193, person_181).
+friends(person_181, person_194).
+friends(person_194, person_181).
+friends(person_26, person_164).
+friends(person_164, person_26).
+friends(person_26, person_165).
+friends(person_165, person_26).
+friends(person_7, person_41).
+friends(person_41, person_7).
+friends(person_153, person_182).
+friends(person_182, person_153).
+friends(person_181, person_190).
+friends(person_190, person_181).
+friends(person_33, person_50).
+friends(person_50, person_33).
+friends(person_77, person_78).
+friends(person_78, person_77).
+friends(person_181, person_191).
+friends(person_191, person_181).
+friends(person_77, person_79).
+friends(person_79, person_77).
+friends(person_181, person_192).
+friends(person_192, person_181).
+friends(person_168, person_171).
+friends(person_171, person_168).
+friends(person_168, person_170).
+friends(person_170, person_168).
+friends(person_168, person_174).
+friends(person_174, person_168).
+friends(person_125, person_174).
+friends(person_174, person_125).
+friends(person_168, person_177).
+friends(person_177, person_168).
+friends(person_168, person_176).
+friends(person_176, person_168).
+friends(person_69, person_157).
+friends(person_157, person_69).
+friends(person_11, person_181).
+friends(person_181, person_11).
+friends(person_168, person_179).
+friends(person_179, person_168).
+friends(person_168, person_178).
+friends(person_178, person_168).
+friends(person_73, person_215).
+friends(person_215, person_73).
+friends(person_65, person_89).
+friends(person_89, person_65).
+friends(person_181, person_183).
+friends(person_183, person_181).
+friends(person_181, person_184).
+friends(person_184, person_181).
+friends(person_181, person_187).
+friends(person_187, person_181).
+friends(person_181, person_188).
+friends(person_188, person_181).
+friends(person_181, person_189).
+friends(person_189, person_181).
+friends(person_33, person_44).
+friends(person_44, person_33).
+friends(person_33, person_41).
+friends(person_41, person_33).
+friends(person_33, person_42).
+friends(person_42, person_33).
+friends(person_33, person_40).
+friends(person_40, person_33).
+friends(person_125, person_161).
+friends(person_161, person_125).
+friends(person_172, person_204).
+friends(person_204, person_172).
+friends(person_168, person_169).
+friends(person_169, person_168).
+friends(person_65, person_95).
+friends(person_95, person_65).
+friends(person_73, person_204).
+friends(person_204, person_73).
+friends(person_97, person_170).
+friends(person_170, person_97).
+friends(person_21, person_74).
+friends(person_74, person_21).
+friends(person_65, person_97).
+friends(person_97, person_65).

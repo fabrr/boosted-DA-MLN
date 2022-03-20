@@ -1,0 +1,264 @@
+% Running on host: DESKTOP-0S2LA4F
+
+% Creating string handler #1.
+
+
+% Switching to VarIndicator = uppercase.
+
+% Unset'ing VarIndicator.
+
+% Switching to VarIndicator = questionMarks.
+
+% getInputArgWithDefaultValue: args=[datasets\Toy-Father\test/test_pos.txt, datasets\Toy-Father\test/test_neg.txt, datasets\Toy-Father\test/test_bk.txt, datasets\Toy-Father\test/test_facts.txt, null]
+%  for N=0: args[N]=datasets\Toy-Father\test/test_pos.txt
+
+% getInputArgWithDefaultValue: args=[datasets\Toy-Father\test/test_pos.txt, datasets\Toy-Father\test/test_neg.txt, datasets\Toy-Father\test/test_bk.txt, datasets\Toy-Father\test/test_facts.txt, null]
+%  for N=1: args[N]=datasets\Toy-Father\test/test_neg.txt
+
+% getInputArgWithDefaultValue: args=[datasets\Toy-Father\test/test_pos.txt, datasets\Toy-Father\test/test_neg.txt, datasets\Toy-Father\test/test_bk.txt, datasets\Toy-Father\test/test_facts.txt, null]
+%  for N=2: args[N]=datasets\Toy-Father\test/test_bk.txt
+
+% getInputArgWithDefaultValue: args=[datasets\Toy-Father\test/test_pos.txt, datasets\Toy-Father\test/test_neg.txt, datasets\Toy-Father\test/test_bk.txt, datasets\Toy-Father\test/test_facts.txt, null]
+%  for N=3: args[N]=datasets\Toy-Father\test/test_facts.txt
+
+% Welcome to the WILL ILP/SRL systems.
+
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+% Reading background theory from dir: null
+% Load '../background.txt'.
+% LoadAllModes() called.  Currently loaded modes: []
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+% LoadAllLibraries() called.  Currently loaded libraries: [listsInLogic, differentInLogic, modes_arithmeticInLogic, inlines_comparisonInLogic, modes_listsInLogic, inlines_differentInLogic, modes_differentInLogic, arithmeticInLogic, inlines_listsInLogic, modes_comparisonInLogic, comparisonInLogic, inlines_arithmeticInLogic]
+
+%  Read the facts.
+%  Have read 11 facts.
+
+%  LearnOneClause initialized.
+% Have read 7 examples from 'datasets\Toy-Father\test' [datasets\Toy-Father\test/test*].
+% Have read 0 examples from 'datasets\Toy-Father\test' [datasets\Toy-Father\test/test*].
+
+% NEW target:                 father(?a, ?b)
+%  targetPred:                father/2
+%  targetArgTypes:            signature = [Const, Const], types = [+name, +name]
+%  targets:                   [father(?a, ?b)]
+%  targetPredicates:          [father/2]
+%  targetArgSpecs:            [[?a[+name], ?b[+name]]]
+%  variablesInTargets:        [[?a, ?b]]
+
+% Started collecting constants
+
+% Collecting the types of constants.
+
+% Looking at the training examples to see if any types of new constants can be inferred.
+% Time to collect constants: 1 milliseconds
+% Time to collect examples: 0 seconds
+
+% Read 7 pos examples and 0 neg examples.
+% Time to init learnOneClause: 8 milliseconds
+Domain sizes loaded!
+
+Train domain sizes: 
+name: 21
+
+Test domain sizes: 
+name: 8
+
+Domain size scales: 
+name: 0.38095238095238093
+
+Scaling weights...
+
+Target: father
+
+Tree #0
+
+Clause: (father(A, B, 0.6914822684328455) :- childof(B, A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.6914822684328455, Scaled weight: 0.6914822684328455
+
+Clause: (father(_, A, 0.012407800883089432) :- male(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.012407800883089432, Scaled weight: 0.012407800883089432
+
+Clause: (father(A, _, -0.028370212980097547) :- male(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.028370212980097547, Scaled weight: -0.028370212980097547
+
+Tree #1
+
+Clause: (father(A, B, 0.37870235223516735) :- childof(B, A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.37870235223516735, Scaled weight: 0.37870235223516735
+
+Clause: (father(_, A, 0.09384822285356469) :- male(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.09384822285356469, Scaled weight: 0.09384822285356469
+
+Clause: (father(A, _, -0.0781852639676875) :- male(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.0781852639676875, Scaled weight: -0.0781852639676875
+
+Tree #2
+
+Clause: (father(A, B, 0.5080083077395625) :- childof(B, A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.5080083077395625, Scaled weight: 0.5080083077395625
+
+Clause: (father(_, A, 0.02700550168416017) :- male(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.02700550168416017, Scaled weight: 0.02700550168416017
+
+Clause: (father(A, _, -0.009558558550448296) :- siblingof(A, _))
+Connection variables: _1 (name), 
+Scaling factor: 0.38095238095238093, Weight: -0.009558558550448296, Scaled weight: -0.02509121619492678
+
+Tree #3
+
+Clause: (father(A, B, 0.3821938913149756) :- childof(B, A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.3821938913149756, Scaled weight: 0.3821938913149756
+
+Clause: (father(_, A, 0.04982652975666821) :- male(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.04982652975666821, Scaled weight: 0.04982652975666821
+
+Clause: (father(A, _, -0.009134133763471093) :- siblingof(A, _))
+Connection variables: _1 (name), 
+Scaling factor: 0.38095238095238093, Weight: -0.009134133763471093, Scaled weight: -0.02397710112911162
+
+Tree #4
+
+Clause: (father(A, B, 0.4441115128423757) :- childof(B, A), male(B))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.4441115128423757, Scaled weight: 0.4441115128423757
+
+Clause: (father(_, A, -0.07501340625169735) :- male(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.07501340625169735, Scaled weight: -0.07501340625169735
+
+Clause: (father(A, _, -0.06117483095830437) :- male(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.06117483095830437, Scaled weight: -0.06117483095830437
+
+Clause: (father(A, _, -0.022647381365394945) :- siblingof(A, B), male(B))
+Connection variables: B (name), 
+Scaling factor: 0.38095238095238093, Weight: -0.022647381365394945, Scaled weight: -0.05944937608416173
+
+Tree #5
+
+Clause: (father(A, B, 0.3745839023733179) :- childof(B, A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.3745839023733179, Scaled weight: 0.3745839023733179
+
+Clause: (father(A, B, -0.12335578351994375) :- siblingof(A, B))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.12335578351994375, Scaled weight: -0.12335578351994375
+
+Clause: (father(A, _, -0.006418212131709423) :- siblingof(A, B), male(B))
+Connection variables: B (name), 
+Scaling factor: 0.38095238095238093, Weight: -0.006418212131709423, Scaled weight: -0.016847806845737237
+
+Tree #6
+
+Clause: (father(A, B, 0.2936175079990261) :- male(B), childof(B, A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.2936175079990261, Scaled weight: 0.2936175079990261
+
+Clause: (father(_, A, -0.07985239885836445) :- male(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.07985239885836445, Scaled weight: -0.07985239885836445
+
+Tree #7
+
+Clause: (father(A, B, 0.2513383062417555) :- childof(B, A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.2513383062417555, Scaled weight: 0.2513383062417555
+
+Clause: (father(A, B, -0.012541675920894052) :- male(B), siblingof(A, _))
+Connection variables: _1 (name), 
+Scaling factor: 0.38095238095238093, Weight: -0.012541675920894052, Scaled weight: -0.03292189929234689
+
+Tree #8
+
+Clause: (father(A, B, 0.2108769928493947) :- male(B), childof(B, A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.2108769928493947, Scaled weight: 0.2108769928493947
+
+Clause: (father(_, A, -0.0632368273237864) :- male(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.0632368273237864, Scaled weight: -0.0632368273237864
+
+Tree #9
+
+Clause: (father(A, B, 0.1873743278756333) :- male(B), childof(B, A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.1873743278756333, Scaled weight: 0.1873743278756333
+
+Clause: (father(_, A, -0.04693233466980938) :- male(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.04693233466980938, Scaled weight: -0.04693233466980938
+
+% for father |lookupPos| = 7
+% for father |lookupNeg| = 0
+% getJointExamples: |pos| = 7, |neg| = 0
+
+% Starting inference in bRDN.
+
+% Subsampling the negative examples.
+% Trees = 10
+% [ LazyGroundClauseIndex ]  Building full index for childof/2 with 6 assertions.
+% [ LazyGroundClauseIndex ]  Building full index for male/1 with 3 assertions.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 0:  Building full index for siblingof/2.
+% [ LazyGroundClauseIndex ]  Building full index for siblingof/2 with 2 assertions.
+ (Arithmetic) Mean Probability Assigned to Correct Output Class: 3,088/7,00 = 0,441169
+
+ The weighted count of positive examples = 7,000 and the weighted count of negative examples = 0,000
+
+printExamples: Writing out predictions (for Tuffy?) on 7 examples for 'father' to:
+  datasets\Toy-Father\test/results_father.db
+ and to:
+  datasets\Toy-Father\test/query_father.db
+%    No need to compress since small: datasets\Toy-Father\test/query_father.db
+
+% Computing Area Under Curves.
+%Pos=7
+%Neg=0
+%LL:-8.639928075199277
+%LL:-8.639928075199277
+
+No negative examples in ComputeAUC.  Using AUC-ROC = 1.0 and AUC-PR = 1.0
+
+%   AUC ROC   = 1,000000
+%   AUC PR    = 1,000000
+%   CLL	      = -1,234275
+%   Precision = 1,000000 at threshold = 0,127
+%   Recall    = 0,714286
+%   F1        = 0,833333
+
+% Total inference time (10 trees): 931 milliseconds.

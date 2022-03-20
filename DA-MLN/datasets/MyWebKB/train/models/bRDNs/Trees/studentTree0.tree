@@ -1,0 +1,25 @@
+setParam: stringsAreCaseSensitive = true.
+
+usePrologVariables: true.
+
+
+(student(A, -0.003683179560780049) :- linkto(A, _), linkto(A, _)).
+(student(A, -0.0034425698407290935) :- linkto(A, _), linkto(A, _)).
+(student(A, -0.0032176783435960373) :- linkto(A, _), linkto(A, _)).
+(student(A, 3.447493551641476E-4) :- linkto(A, B), has(B, _)).
+(student(A, 3.411722983380527E-4) :- linkto(A, B), has(B, _)).
+(student(A, 3.3763235640527246E-4) :- linkto(A, B), has(B, _)).
+(student(A, 3.341291442683992E-4) :- linkto(A, B), has(B, _)).
+(student(A, 3.3066228082573014E-4) :- linkto(A, B), has(B, _)).
+(student(A, -0.0031177721736878575) :- linkto(A, _), linkto(A, _)).
+(student(A, -0.1368055558360057) :- has(A, lectur)).
+(student(A, 5.609150605253779E-4) :- linkto(A, B), has(B, _)).
+(student(A, 5.550951075187753E-4) :- linkto(A, B), has(B, _)).
+(student(A, 5.493355412897505E-4) :- linkto(A, B), has(B, _)).
+(student(A, 5.436357352760409E-4) :- linkto(A, B), has(B, _)).
+(student(A, 5.379950694164848E-4) :- linkto(A, B), has(B, _)).
+(student(A, 5.324129300835622E-4) :- linkto(A, B), has(B, _)).
+(student(A, 5.268887100166386E-4) :- linkto(A, B), has(B, _)).
+(student(A, 5.214218082559092E-4) :- linkto(A, B), has(B, _)).
+(student(A, 5.160116300770162E-4) :- linkto(A, B), has(B, _)).
+(student(A, 5.10657586926356E-4) :- linkto(A, B), has(B, _)).

@@ -1,0 +1,135 @@
+usePrologVariables: true.
+
+% maxTreeDepthInNodes                 = 5
+% maxTreeDepthInLiterals              = 12
+% maxNumberOfLiteralsAtAnInteriorNode = 3
+% maxFreeBridgersInBody               = 1
+% maxNumberOfClauses                  = 5
+% maxNodesToConsider                  = 10
+% maxNodesToCreate                    = 10.000
+% maxAcceptableNodeScoreToStop        = 0,003
+% negPosRatio                         = -1,000
+% testNegPosRatio                     = -1,000
+% # of pos examples                   = 405
+% # of neg examples                   = 0
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%  Final call for computing score for movie.  %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+stepLength_tree1(1.0).
+stepLength_tree2(1.0).
+stepLength_tree3(1.0).
+stepLength_tree4(1.0).
+stepLength_tree5(1.0).
+stepLength_tree6(1.0).
+stepLength_tree7(1.0).
+stepLength_tree8(1.0).
+stepLength_tree9(1.0).
+stepLength_tree10(1.0).
+stepLength_tree11(1.0).
+stepLength_tree12(1.0).
+stepLength_tree13(1.0).
+stepLength_tree14(1.0).
+stepLength_tree15(1.0).
+stepLength_tree16(1.0).
+stepLength_tree17(1.0).
+stepLength_tree18(1.0).
+stepLength_tree19(1.0).
+stepLength_tree20(1.0).
+
+logPrior(-1.8).
+movie(D, E, Total) :- // A general accessor. 
+   movie(D, E, 1000000, Total), !.
+movie(D, E, Total) :- waitHere("This should not fail", movie(D, E, Total)).
+
+movie(D, E, TreesToUse, Total) :- // A tree-limited accessor (e.g., for tuning the number of trees to use).
+   logPrior(LogPrior),
+   getScore_movie_tree1(D, E, TreesToUse, Total1),
+   getScore_movie_tree2(D, E, TreesToUse, Total2),
+   getScore_movie_tree3(D, E, TreesToUse, Total3),
+   getScore_movie_tree4(D, E, TreesToUse, Total4),
+   getScore_movie_tree5(D, E, TreesToUse, Total5),
+   getScore_movie_tree6(D, E, TreesToUse, Total6),
+   getScore_movie_tree7(D, E, TreesToUse, Total7),
+   getScore_movie_tree8(D, E, TreesToUse, Total8),
+   getScore_movie_tree9(D, E, TreesToUse, Total9),
+   getScore_movie_tree10(D, E, TreesToUse, Total10),
+   getScore_movie_tree11(D, E, TreesToUse, Total11),
+   getScore_movie_tree12(D, E, TreesToUse, Total12),
+   getScore_movie_tree13(D, E, TreesToUse, Total13),
+   getScore_movie_tree14(D, E, TreesToUse, Total14),
+   getScore_movie_tree15(D, E, TreesToUse, Total15),
+   getScore_movie_tree16(D, E, TreesToUse, Total16),
+   getScore_movie_tree17(D, E, TreesToUse, Total17),
+   getScore_movie_tree18(D, E, TreesToUse, Total18),
+   getScore_movie_tree19(D, E, TreesToUse, Total19),
+   getScore_movie_tree20(D, E, TreesToUse, Total20),
+   Total is LogPrior + Total1 + Total2 + Total3 + Total4 + Total5 + Total6 + Total7 + Total8 + Total9 + Total10 + Total11 + Total12 + Total13 + Total14 + Total15 + Total16 + Total17 + Total18 + Total19 + Total20,
+   !.
+movie(D, E, TreesToUse, Total) :- waitHere("This should not fail", movie(D, E, TreesToUse, Total)).
+
+getScore_movie_tree1(D, E, TreesToUse, 0.0) :- 1 > TreesToUse, !.
+getScore_movie_tree1(D, E, TreesToUse, Total1) :- movie_tree1(D, E, Total), stepLength_tree1(StepLen), Total1 is Total * StepLen.
+
+getScore_movie_tree2(D, E, TreesToUse, 0.0) :- 2 > TreesToUse, !.
+getScore_movie_tree2(D, E, TreesToUse, Total2) :- movie_tree2(D, E, Total), stepLength_tree2(StepLen), Total2 is Total * StepLen.
+
+getScore_movie_tree3(D, E, TreesToUse, 0.0) :- 3 > TreesToUse, !.
+getScore_movie_tree3(D, E, TreesToUse, Total3) :- movie_tree3(D, E, Total), stepLength_tree3(StepLen), Total3 is Total * StepLen.
+
+getScore_movie_tree4(D, E, TreesToUse, 0.0) :- 4 > TreesToUse, !.
+getScore_movie_tree4(D, E, TreesToUse, Total4) :- movie_tree4(D, E, Total), stepLength_tree4(StepLen), Total4 is Total * StepLen.
+
+getScore_movie_tree5(D, E, TreesToUse, 0.0) :- 5 > TreesToUse, !.
+getScore_movie_tree5(D, E, TreesToUse, Total5) :- movie_tree5(D, E, Total), stepLength_tree5(StepLen), Total5 is Total * StepLen.
+
+getScore_movie_tree6(D, E, TreesToUse, 0.0) :- 6 > TreesToUse, !.
+getScore_movie_tree6(D, E, TreesToUse, Total6) :- movie_tree6(D, E, Total), stepLength_tree6(StepLen), Total6 is Total * StepLen.
+
+getScore_movie_tree7(D, E, TreesToUse, 0.0) :- 7 > TreesToUse, !.
+getScore_movie_tree7(D, E, TreesToUse, Total7) :- movie_tree7(D, E, Total), stepLength_tree7(StepLen), Total7 is Total * StepLen.
+
+getScore_movie_tree8(D, E, TreesToUse, 0.0) :- 8 > TreesToUse, !.
+getScore_movie_tree8(D, E, TreesToUse, Total8) :- movie_tree8(D, E, Total), stepLength_tree8(StepLen), Total8 is Total * StepLen.
+
+getScore_movie_tree9(D, E, TreesToUse, 0.0) :- 9 > TreesToUse, !.
+getScore_movie_tree9(D, E, TreesToUse, Total9) :- movie_tree9(D, E, Total), stepLength_tree9(StepLen), Total9 is Total * StepLen.
+
+getScore_movie_tree10(D, E, TreesToUse, 0.0) :- 10 > TreesToUse, !.
+getScore_movie_tree10(D, E, TreesToUse, Total10) :- movie_tree10(D, E, Total), stepLength_tree10(StepLen), Total10 is Total * StepLen.
+
+getScore_movie_tree11(D, E, TreesToUse, 0.0) :- 11 > TreesToUse, !.
+getScore_movie_tree11(D, E, TreesToUse, Total11) :- movie_tree11(D, E, Total), stepLength_tree11(StepLen), Total11 is Total * StepLen.
+
+getScore_movie_tree12(D, E, TreesToUse, 0.0) :- 12 > TreesToUse, !.
+getScore_movie_tree12(D, E, TreesToUse, Total12) :- movie_tree12(D, E, Total), stepLength_tree12(StepLen), Total12 is Total * StepLen.
+
+getScore_movie_tree13(D, E, TreesToUse, 0.0) :- 13 > TreesToUse, !.
+getScore_movie_tree13(D, E, TreesToUse, Total13) :- movie_tree13(D, E, Total), stepLength_tree13(StepLen), Total13 is Total * StepLen.
+
+getScore_movie_tree14(D, E, TreesToUse, 0.0) :- 14 > TreesToUse, !.
+getScore_movie_tree14(D, E, TreesToUse, Total14) :- movie_tree14(D, E, Total), stepLength_tree14(StepLen), Total14 is Total * StepLen.
+
+getScore_movie_tree15(D, E, TreesToUse, 0.0) :- 15 > TreesToUse, !.
+getScore_movie_tree15(D, E, TreesToUse, Total15) :- movie_tree15(D, E, Total), stepLength_tree15(StepLen), Total15 is Total * StepLen.
+
+getScore_movie_tree16(D, E, TreesToUse, 0.0) :- 16 > TreesToUse, !.
+getScore_movie_tree16(D, E, TreesToUse, Total16) :- movie_tree16(D, E, Total), stepLength_tree16(StepLen), Total16 is Total * StepLen.
+
+getScore_movie_tree17(D, E, TreesToUse, 0.0) :- 17 > TreesToUse, !.
+getScore_movie_tree17(D, E, TreesToUse, Total17) :- movie_tree17(D, E, Total), stepLength_tree17(StepLen), Total17 is Total * StepLen.
+
+getScore_movie_tree18(D, E, TreesToUse, 0.0) :- 18 > TreesToUse, !.
+getScore_movie_tree18(D, E, TreesToUse, Total18) :- movie_tree18(D, E, Total), stepLength_tree18(StepLen), Total18 is Total * StepLen.
+
+getScore_movie_tree19(D, E, TreesToUse, 0.0) :- 19 > TreesToUse, !.
+getScore_movie_tree19(D, E, TreesToUse, Total19) :- movie_tree19(D, E, Total), stepLength_tree19(StepLen), Total19 is Total * StepLen.
+
+getScore_movie_tree20(D, E, TreesToUse, 0.0) :- 20 > TreesToUse, !.
+getScore_movie_tree20(D, E, TreesToUse, Total20) :- movie_tree20(D, E, Total), stepLength_tree20(StepLen), Total20 is Total * StepLen.
+
+flattenedLiteralsInThisSetOfTrees(0, []).

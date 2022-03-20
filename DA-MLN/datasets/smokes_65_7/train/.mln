@@ -1,0 +1,8 @@
+0,0002 smokes(a) v !friends(a, b) v !recursive_smokes(b) v !friends(b, c) v !friends(a, c) v !friends(c, _) v !recursive_smokes(c) /*  */
+0,3162 smokes(a) v !friends(a, b) v !recursive_smokes(b) /*  */
+-1,364e-05 smokes(a) v !friends(a, b) v !recursive_smokes(b) v !friends(a, c) v !friends(a, _) v !friends(a, _) v !not_smokes(c) /*  */
+0,0058 smokes(a) v !friends(a, b) v !recursive_smokes(b) v !friends(b, c) v !recursive_smokes(c) /*  */
+0,0003 smokes(a) v !friends(a, b) v !recursive_smokes(b) v !friends(a, c) v !friends(b, c) v !friends(c, _) v !recursive_smokes(c) /*  */
+0,0060 smokes(a) v !friends(a, b) v !recursive_smokes(b) v !friends(a, c) v !friends(b, c) v !recursive_smokes(c) /*  */
+-0,0002 smokes(a) v !friends(a, b) v !recursive_smokes(b) v !friends(a, c) v !friends(a, _) v !not_smokes(c) /*  */
+-0,0014 smokes(a) v !friends(a, b) v !recursive_smokes(b) v !friends(a, c) v !not_smokes(c) /*  */

@@ -1,0 +1,8 @@
+mode: movie(-movie,+person).
+mode: movie(+movie,-person).
+mode: genre(-person,+genre).
+mode: genre(+person,-genre).
+mode: actor(+person).
+mode: director(+person).
+mode: female_gender(+person).
+mode: workedUnder(+person,+person).

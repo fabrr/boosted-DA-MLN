@@ -1,0 +1,237 @@
+% Running on host: LAPTOP-B1J81TKT
+
+% Creating string handler #1.
+
+
+% Switching to VarIndicator = uppercase.
+
+% Unset'ing VarIndicator.
+
+% Switching to VarIndicator = questionMarks.
+
+% getInputArgWithDefaultValue: args=[datasets\Cancer\test/test_pos.txt, datasets\Cancer\test/test_neg.txt, datasets\Cancer\test/test_bk.txt, datasets\Cancer\test/test_facts.txt, null]
+%  for N=0: args[N]=datasets\Cancer\test/test_pos.txt
+
+% getInputArgWithDefaultValue: args=[datasets\Cancer\test/test_pos.txt, datasets\Cancer\test/test_neg.txt, datasets\Cancer\test/test_bk.txt, datasets\Cancer\test/test_facts.txt, null]
+%  for N=1: args[N]=datasets\Cancer\test/test_neg.txt
+
+% getInputArgWithDefaultValue: args=[datasets\Cancer\test/test_pos.txt, datasets\Cancer\test/test_neg.txt, datasets\Cancer\test/test_bk.txt, datasets\Cancer\test/test_facts.txt, null]
+%  for N=2: args[N]=datasets\Cancer\test/test_bk.txt
+
+% getInputArgWithDefaultValue: args=[datasets\Cancer\test/test_pos.txt, datasets\Cancer\test/test_neg.txt, datasets\Cancer\test/test_bk.txt, datasets\Cancer\test/test_facts.txt, null]
+%  for N=3: args[N]=datasets\Cancer\test/test_facts.txt
+
+% Welcome to the WILL ILP/SRL systems.
+
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+% Reading background theory from dir: null
+% Load '../toy_cancer_bk.txt'.
+
+% Switching to standard-logic notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = lowercase.
+
+***** Warning: At least one argument in a mode should be an input argument.  You provided signature = [Const], types = [`Person] for 's_smokes'. *****
+
+
+***** Warning: At least one argument in a mode should be an input argument.  You provided signature = [Const], types = [`Person] for 'not_s_smokes'. *****
+
+
+% Switching to VarIndicator = questionMarks.
+% LoadAllModes() called.  Currently loaded modes: []
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+% LoadAllLibraries() called.  Currently loaded libraries: [listsInLogic, differentInLogic, modes_arithmeticInLogic, inlines_comparisonInLogic, modes_listsInLogic, inlines_differentInLogic, modes_differentInLogic, arithmeticInLogic, inlines_listsInLogic, modes_comparisonInLogic, comparisonInLogic, inlines_arithmeticInLogic]
+
+%  Read the facts.
+
+% Switching to standard-logic notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = lowercase.
+
+% Switching to VarIndicator = questionMarks.
+%  Have read 1.649 facts.
+
+%  LearnOneClause initialized.
+% Have read 0 examples from 'datasets\Cancer\test' [datasets\Cancer\test/test*].
+% Have read 0 examples from 'datasets\Cancer\test' [datasets\Cancer\test/test*].
+
+% Started collecting constants
+
+% Collecting the types of constants.
+
+% Looking at the training examples to see if any types of new constants can be inferred.
+
+***** Warning: targetPredicates=null *****
+
+
+***** Warning: targetArgSpecs=null *****
+
+% Time to collect constants: 10 milliseconds
+% Time to collect examples: 0 seconds
+
+% Read 0 pos examples and 0 neg examples.
+% Time to init learnOneClause: 13 milliseconds
+Domain sizes loaded!
+
+Train domain sizes: 
+Person: 30
+
+Test domain sizes: 
+Person: 100
+
+Domain size scales: 
+Person: 3.3333333333333335
+
+Scaling weights...
+
+Target: smokes
+
+Tree #0
+
+Clause: (friends(a, b) ^ s_smokes(b) => smokes(a, 0.1926249010874676))
+Connection variables: b (Person), 
+Scaling factor: 3.3333333333333335, Weight: 0.1926249010874676, Scaled weight: 0.05778747032624028
+
+Tree #1
+
+Clause: (friends(a, b) ^ s_smokes(b) => smokes(a, 0.13245598327537442))
+Connection variables: b (Person), 
+Scaling factor: 3.3333333333333335, Weight: 0.13245598327537442, Scaled weight: 0.039736794982612324
+
+Tree #2
+
+Clause: (friends(a, b) ^ s_smokes(b) => smokes(a, 0.10040012220273707))
+Connection variables: b (Person), 
+Scaling factor: 3.3333333333333335, Weight: 0.10040012220273707, Scaled weight: 0.03012003666082112
+
+Tree #3
+
+Clause: (friends(a, b) ^ s_smokes(b) => smokes(a, 0.08101440647735154))
+Connection variables: b (Person), 
+Scaling factor: 3.3333333333333335, Weight: 0.08101440647735154, Scaled weight: 0.024304321943205462
+
+Tree #4
+
+Clause: (friends(a, b) ^ s_smokes(b) => smokes(a, 0.10214734240924325))
+Connection variables: b (Person), 
+Scaling factor: 3.3333333333333335, Weight: 0.10214734240924325, Scaled weight: 0.030644202722772976
+
+Clause: (friends(a, b) ^ friends(b, c) ^ s_smokes(c) => smokes(a, 0.023198290255848547))
+Connection variables: b (Person), c (Person), 
+Scaling factor: 11.111111111111112, Weight: 0.023198290255848547, Scaled weight: 0.002087846123026369
+
+Tree #5
+
+Clause: (friends(a, b) ^ s_smokes(b) => smokes(a, 0.05120357095558278))
+Connection variables: b (Person), 
+Scaling factor: 3.3333333333333335, Weight: 0.05120357095558278, Scaled weight: 0.015361071286674834
+
+Clause: (friends(a, b) ^ friends(b, c) ^ s_smokes(c) => smokes(a, 0.01636115159708022))
+Connection variables: b (Person), c (Person), 
+Scaling factor: 11.111111111111112, Weight: 0.01636115159708022, Scaled weight: 0.0014725036437372196
+
+Tree #6
+
+Clause: (friends(a, b) ^ s_smokes(b) ^ friends(b, _) => smokes(a, 0.0078023731033964585))
+Connection variables: b (Person), _1 (Person), 
+Scaling factor: 11.111111111111112, Weight: 0.0078023731033964585, Scaled weight: 7.022135793056812E-4
+
+Clause: (friends(a, b) ^ friends(b, c) ^ s_smokes(c) => smokes(a, 0.01562042173431483))
+Connection variables: b (Person), c (Person), 
+Scaling factor: 11.111111111111112, Weight: 0.01562042173431483, Scaled weight: 0.0014058379560883344
+
+Tree #7
+
+Clause: (friends(a, b) ^ s_smokes(b) ^ friends(a, _) => smokes(a, -0.00918384058991879))
+Connection variables: b (Person), _1 (Person), 
+Scaling factor: 11.111111111111112, Weight: -0.00918384058991879, Scaled weight: -8.26545653092691E-4
+
+Clause: (friends(a, b) ^ friends(b, c) ^ s_smokes(c) => smokes(a, 0.00525631433965735))
+Connection variables: b (Person), c (Person), 
+Scaling factor: 11.111111111111112, Weight: 0.00525631433965735, Scaled weight: 4.7306829056916144E-4
+
+Tree #8
+
+Clause: (friends(a, b) ^ s_smokes(b) ^ friends(a, c) ^ s_smokes(c) => smokes(a, -0.016237607181947916))
+Connection variables: b (Person), c (Person), 
+Scaling factor: 11.111111111111112, Weight: -0.016237607181947916, Scaled weight: -0.0014613846463753122
+
+Clause: (friends(a, b) ^ friends(b, c) ^ s_smokes(c) ^ not_s_smokes(b) => smokes(a, 0.037339705432945985))
+Connection variables: b (Person), c (Person), 
+Scaling factor: 11.111111111111112, Weight: 0.037339705432945985, Scaled weight: 0.0033605734889651383
+
+Tree #9
+
+Clause: (friends(a, b) ^ s_smokes(b) ^ friends(a, c) ^ s_smokes(c) => smokes(a, -0.015873859820147693))
+Connection variables: b (Person), c (Person), 
+Scaling factor: 11.111111111111112, Weight: -0.015873859820147693, Scaled weight: -0.0014286473838132922
+
+Clause: (friends(a, b) ^ friends(b, c) ^ s_smokes(c) ^ not_s_smokes(b) => smokes(a, 0.033941378754779906))
+Connection variables: b (Person), c (Person), 
+Scaling factor: 11.111111111111112, Weight: 0.033941378754779906, Scaled weight: 0.0030547240879301913
+
+% for smokes |lookupPos| = 19
+% for smokes |lookupNeg| = 81
+% getJointExamples: |pos| = 19, |neg| = 81
+
+% Starting inference in bRDN.
+
+% Subsampling the negative examples.
+% Trees = 10
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 0:  Building full index for friends/2.
+% [ LazyGroundClauseIndex ]  Building full index for s_smokes/1 with 19 assertions.
+% [ LazyGroundClauseIndex ]  Building full index for not_s_smokes/1 with 81 assertions.
+ (Arithmetic) Mean Probability Assigned to Correct Output Class: 73,824/100,00 = 0,738238
+
+ The weighted count of positive examples = 19,000 and the weighted count of negative examples = 81,000
+
+printExamples: Writing out predictions (for Tuffy?) on 100 examples for 'smokes' to:
+  datasets\Cancer\test/results_smokes.db
+ and to:
+  datasets\Cancer\test/query_smokes.db
+%    No need to compress since small: datasets\Cancer\test/query_smokes.db
+
+% Computing Area Under Curves.
+%Pos=19
+%Neg=81
+%LL:-12.302006352412363
+%LL:-37.396669988360145
+
+% Running command: java -jar src\edu\wisc\cs\will\DataSetUtils/auc.jar datasets\Cancer\test/AUC/aucTemp.txt list 0.0
+% WAITING FOR command: java -jar src\edu\wisc\cs\will\DataSetUtils/auc.jar datasets\Cancer\test/AUC/aucTemp.txt list 0.0
+% DONE WAITING FOR command: java -jar src\edu\wisc\cs\will\DataSetUtils/auc.jar datasets\Cancer\test/AUC/aucTemp.txt list 0.0
+
+%   AUC ROC   = 0,763808
+%   AUC PR    = 0,499754
+%   CLL	      = -0,373967
+%   Precision = 0,700000 at threshold = 0,493
+%   Recall    = 0,736842
+%   F1        = 0,717949
+
+% Total inference time (10 trees): 1,289 seconds.

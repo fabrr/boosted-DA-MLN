@@ -1,0 +1,136 @@
+
+Loading domain sizes... 
+Domain sizes loaded!
+
+Train domain sizes: 
+Person: 200
+
+Test domain sizes: 
+Person: 200
+
+Domain size scales: 
+Person: 1.0
+
+Scaling weights...
+
+Target: smokes
+
+Tree #0
+
+Clause: (friends(a, _) ^ cancer(a) => smokes(a, 0.02154500757460035))
+Connection variables: _1 (Person), 
+Scaling factor: 1.0, Weight: 0.02154500757460035, Scaled weight: 0.02154500757460035
+
+Tree #1
+
+Clause: (friends(a, _) ^ cancer(a) => smokes(a, 0.01827899064621997))
+Connection variables: _1 (Person), 
+Scaling factor: 1.0, Weight: 0.01827899064621997, Scaled weight: 0.01827899064621997
+
+Tree #2
+
+Clause: (cancer(a) => smokes(a, 0.4169695799692034))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.4169695799692034, Scaled weight: 0.4169695799692034
+
+Tree #3
+
+Clause: (cancer(a) => smokes(a, 0.31886100944977597))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.31886100944977597, Scaled weight: 0.31886100944977597
+
+Tree #4
+
+Clause: (cancer(a) ^ friends(a, b) ^ cancer(b) => smokes(a, 0.02590653160430552))
+Connection variables: b (Person), 
+Scaling factor: 1.0, Weight: 0.02590653160430552, Scaled weight: 0.02590653160430552
+
+Tree #5
+
+Clause: (cancer(a) ^ friends(a, b) ^ cancer(b) => smokes(a, 0.01961512286041409))
+Connection variables: b (Person), 
+Scaling factor: 1.0, Weight: 0.01961512286041409, Scaled weight: 0.01961512286041409
+
+Tree #6
+
+Clause: (cancer(a) ^ friends(a, b) ^ cancer(b) => smokes(a, 0.015087173732535894))
+Connection variables: b (Person), 
+Scaling factor: 1.0, Weight: 0.015087173732535894, Scaled weight: 0.015087173732535894
+
+Tree #7
+
+Clause: (cancer(a) ^ friends(a, b) ^ cancer(b) => smokes(a, 0.011801445343923094))
+Connection variables: b (Person), 
+Scaling factor: 1.0, Weight: 0.011801445343923094, Scaled weight: 0.011801445343923094
+
+Tree #8
+
+Clause: (cancer(a) ^ friends(a, b) ^ cancer(b) => smokes(a, 0.00937034133814109))
+Connection variables: b (Person), 
+Scaling factor: 1.0, Weight: 0.00937034133814109, Scaled weight: 0.00937034133814109
+
+Tree #9
+
+Clause: (cancer(a) ^ friends(a, b) ^ cancer(b) => smokes(a, 0.0075335248839906305))
+Connection variables: b (Person), 
+Scaling factor: 1.0, Weight: 0.0075335248839906305, Scaled weight: 0.0075335248839906305
+
+Tree #10
+
+Clause: (cancer(a) ^ friends(a, b) ^ cancer(b) => smokes(a, 0.006118945970877081))
+Connection variables: b (Person), 
+Scaling factor: 1.0, Weight: 0.006118945970877081, Scaled weight: 0.006118945970877081
+
+Tree #11
+
+Clause: (cancer(a) ^ friends(a, b) ^ cancer(b) => smokes(a, 0.005011466774707669))
+Connection variables: b (Person), 
+Scaling factor: 1.0, Weight: 0.005011466774707669, Scaled weight: 0.005011466774707669
+
+Tree #12
+
+Clause: (cancer(a) ^ friends(a, b) ^ cancer(b) => smokes(a, 0.004132327259233176))
+Connection variables: b (Person), 
+Scaling factor: 1.0, Weight: 0.004132327259233176, Scaled weight: 0.004132327259233176
+
+Tree #13
+
+Clause: (cancer(a) ^ friends(a, b) ^ cancer(b) => smokes(a, 0.0034263418947209955))
+Connection variables: b (Person), 
+Scaling factor: 1.0, Weight: 0.0034263418947209955, Scaled weight: 0.0034263418947209955
+
+Tree #14
+
+Clause: (cancer(a) ^ friends(a, b) ^ friends(a, _) ^ cancer(b) => smokes(a, 9.42945252252643E-5))
+Connection variables: b (Person), _1 (Person), 
+Scaling factor: 1.0, Weight: 9.42945252252643E-5, Scaled weight: 9.42945252252643E-5
+
+Tree #15
+
+Clause: (cancer(a) ^ friends(a, b) ^ friends(a, _) ^ cancer(b) => smokes(a, 7.961765105765244E-5))
+Connection variables: b (Person), _1 (Person), 
+Scaling factor: 1.0, Weight: 7.961765105765244E-5, Scaled weight: 7.961765105765244E-5
+
+Tree #16
+
+Clause: (cancer(a) ^ friends(a, b) ^ friends(a, _) ^ cancer(b) => smokes(a, 6.744743580507757E-5))
+Connection variables: b (Person), _1 (Person), 
+Scaling factor: 1.0, Weight: 6.744743580507757E-5, Scaled weight: 6.744743580507757E-5
+
+Tree #17
+
+Clause: (cancer(a) ^ friends(a, b) ^ friends(a, _) ^ cancer(b) => smokes(a, 5.729551362332007E-5))
+Connection variables: b (Person), _1 (Person), 
+Scaling factor: 1.0, Weight: 5.729551362332007E-5, Scaled weight: 5.729551362332007E-5
+
+Tree #18
+
+Clause: (cancer(a) ^ friends(a, b) ^ friends(a, c) ^ friends(b, c) ^ friends(b, d) ^ friends(a, d) => smokes(a, -1.1796792547428073E-5))
+Connection variables: b (Person), c (Person), d (Person), 
+Scaling factor: 1.0, Weight: -1.1796792547428073E-5, Scaled weight: -1.1796792547428073E-5
+
+Tree #19
+
+Clause: (cancer(a) ^ friends(a, b) ^ friends(a, _) ^ cancer(b) => smokes(a, 5.599984027039253E-5))
+Connection variables: b (Person), _1 (Person), 
+Scaling factor: 1.0, Weight: 5.599984027039253E-5, Scaled weight: 5.599984027039253E-5

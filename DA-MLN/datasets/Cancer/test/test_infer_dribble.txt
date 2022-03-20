@@ -1,0 +1,198 @@
+% Running on host: LAPTOP-B1J81TKT
+
+% Switching to VarIndicator = uppercase.
+
+% Unset'ing VarIndicator.
+
+% Calling ILPouterLoop from createRegressionOuterLooper.
+
+% getInputArgWithDefaultValue: args=[datasets\Cancer\test/test_pos.txt, datasets\Cancer\test/test_neg.txt, datasets\Cancer\test/test_bk.txt, datasets\Cancer\test/test_facts.txt]
+%  for N=0: args[N]=datasets\Cancer\test/test_pos.txt
+
+% getInputArgWithDefaultValue: args=[datasets\Cancer\test/test_pos.txt, datasets\Cancer\test/test_neg.txt, datasets\Cancer\test/test_bk.txt, datasets\Cancer\test/test_facts.txt]
+%  for N=1: args[N]=datasets\Cancer\test/test_neg.txt
+
+% getInputArgWithDefaultValue: args=[datasets\Cancer\test/test_pos.txt, datasets\Cancer\test/test_neg.txt, datasets\Cancer\test/test_bk.txt, datasets\Cancer\test/test_facts.txt]
+%  for N=2: args[N]=datasets\Cancer\test/test_bk.txt
+
+% getInputArgWithDefaultValue: args=[datasets\Cancer\test/test_pos.txt, datasets\Cancer\test/test_neg.txt, datasets\Cancer\test/test_bk.txt, datasets\Cancer\test/test_facts.txt]
+%  for N=3: args[N]=datasets\Cancer\test/test_facts.txt
+
+% Welcome to the WILL ILP/SRL systems.
+
+
+% Switching to VarIndicator = uppercase.
+
+% Unset'ing VarIndicator.
+% Reading background theory from dir: null
+% Load '../toy_cancer_bk.txt'.
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to standard-logic notation for variables; previous setting = uppercase
+
+% Switching to VarIndicator = lowercase.
+
+***** Warning: At least one argument in a mode should be an input argument.  You provided signature = [Const], types = [`Person] for 's_smokes'. *****
+
+
+***** Warning: At least one argument in a mode should be an input argument.  You provided signature = [Const], types = [`Person] for 'not_s_smokes'. *****
+
+
+***** Warning: % Since this is the first setting of the notation for variables, will keep:
+%   variableIndicator = lowercase *****
+
+
+***** Warning: % Since this is the first setting of the notation for variables, will keep:
+%   variableIndicator = lowercase *****
+
+% [ LazyGroundClauseIndex ]  Building full index for mode/1 with 1 assertions.
+% LoadAllModes() called.  Currently loaded modes: []
+
+% Switching to Prolog notation for variables; previous setting = lowercase
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = lowercase.
+
+% Switching to Prolog notation for variables; previous setting = lowercase
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = lowercase.
+
+% Switching to Prolog notation for variables; previous setting = lowercase
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = lowercase.
+
+% Switching to Prolog notation for variables; previous setting = lowercase
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = lowercase.
+% [ LazyGroundClauseIndex ]  Building full index for sameAs/2 with 2 assertions.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 1:  Building full index for exp/3.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 0:  Building full index for log/3.
+% LoadAllLibraries() called.  Currently loaded libraries: [listsInLogic, differentInLogic, modes_arithmeticInLogic, inlines_comparisonInLogic, modes_listsInLogic, inlines_differentInLogic, modes_differentInLogic, arithmeticInLogic, inlines_listsInLogic, modes_comparisonInLogic, comparisonInLogic, inlines_arithmeticInLogic]
+
+%  Read the facts.
+%  Have read 1.594 facts.
+% Have read 0 examples from 'datasets\Cancer\test' [datasets\Cancer\test/test*].
+% Have read 0 examples from 'datasets\Cancer\test' [datasets\Cancer\test/test*].
+
+%  LearnOneClause initialized.
+
+% The outer looper has been created.
+
+% Initializing the ILP inner looper.
+
+% Started collecting constants
+
+% Collecting the types of constants.
+
+% Looking at the training examples to see if any types of new constants can be inferred.
+
+***** Warning: targetPredicates=null *****
+
+
+***** Warning: targetArgSpecs=null *****
+
+% Time to collect constants: 20 milliseconds
+% Time to collect examples: 0 seconds
+
+% Read 0 pos examples and 0 neg examples.
+% Time to init learnOneClause: 28 milliseconds
+% Old dirdatasets\Cancer\train\models/
+
+% Have 0 'raw' positive examples and kept 0.
+% Have 0 'raw' negative examples and kept 0.
+% No pos ex for smokes
+% No neg ex for smokes
+
+% NEW target:                 smokes(a)
+%  targetPred:                smokes/1
+%  targetArgTypes:            signature = [Const], types = [+Person]
+%  targets:                   [smokes(a)]
+%  targetPredicates:          [smokes/1]
+%  targetArgSpecs:            [[a[+Person]]]
+%  variablesInTargets:        [[a]]
+Creating neg ex for: smokes
+
+% Target variant already exists.  Skipping target:                 smokes(b).
+%  targetArgTypes:            signature = [Const], types = [+Person]
+%  targetArgSpecs:            [[a[+Person]]]
+
+% processing backup's for smokes
+%  POS EX = 24
+%  NEG EX = 76
+
+% Memory usage by WILLSetup (just counts # targets?):
+%  |backupPosExamples| = 1
+%  |backupNegExamples| = 1
+%  |predicatesAsFacts| = 1
+%  |addedToFactBase|   = 0
+% Did not learn a model for 'smokes' this run.
+%   loadModel (#0): datasets\Cancer\train\models/bRDNs/Trees/smokesTree0.tree
+%   loadModel (#1): datasets\Cancer\train\models/bRDNs/Trees/smokesTree1.tree
+%   loadModel (#2): datasets\Cancer\train\models/bRDNs/Trees/smokesTree2.tree
+%   loadModel (#3): datasets\Cancer\train\models/bRDNs/Trees/smokesTree3.tree
+%   loadModel (#4): datasets\Cancer\train\models/bRDNs/Trees/smokesTree4.tree
+%   loadModel (#5): datasets\Cancer\train\models/bRDNs/Trees/smokesTree5.tree
+%   loadModel (#6): datasets\Cancer\train\models/bRDNs/Trees/smokesTree6.tree
+%   loadModel (#7): datasets\Cancer\train\models/bRDNs/Trees/smokesTree7.tree
+%   loadModel (#8): datasets\Cancer\train\models/bRDNs/Trees/smokesTree8.tree
+%   loadModel (#9): datasets\Cancer\train\models/bRDNs/Trees/smokesTree9.tree
+%   loadModel (#10): datasets\Cancer\train\models/bRDNs/Trees/smokesTree10.tree
+%   loadModel (#11): datasets\Cancer\train\models/bRDNs/Trees/smokesTree11.tree
+%   loadModel (#12): datasets\Cancer\train\models/bRDNs/Trees/smokesTree12.tree
+%   loadModel (#13): datasets\Cancer\train\models/bRDNs/Trees/smokesTree13.tree
+%   loadModel (#14): datasets\Cancer\train\models/bRDNs/Trees/smokesTree14.tree
+%   loadModel (#15): datasets\Cancer\train\models/bRDNs/Trees/smokesTree15.tree
+%   loadModel (#16): datasets\Cancer\train\models/bRDNs/Trees/smokesTree16.tree
+%   loadModel (#17): datasets\Cancer\train\models/bRDNs/Trees/smokesTree17.tree
+%   loadModel (#18): datasets\Cancer\train\models/bRDNs/Trees/smokesTree18.tree
+%   loadModel (#19): datasets\Cancer\train\models/bRDNs/Trees/smokesTree19.tree
+%  Done loading 20 models.
+File: datasets\Cancer\test/advice.txt doesnt exist.Hence no advice loaded
+
+% for smokes |lookupPos| = 24
+% for smokes |lookupNeg| = 76
+% getJointExamples: |pos| = 24, |neg| = 76
+
+% Starting inference in bRDN.
+
+% Subsampling the negative examples.
+% Trees = 20
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 0:  Building full index for friends/2.
+% [ LazyGroundClauseIndex ]  Building full index for s_smokes/1 with 24 assertions.
+% [ LazyGroundClauseIndex ]  Building full index for not_s_smokes/1 with 76 assertions.
+ (Arithmetic) Mean Probability Assigned to Correct Output Class: 81,993/100,00 = 0,819930
+
+ The weighted count of positive examples = 24,000 and the weighted count of negative examples = 76,000
+
+printExamples: Writing out predictions (for Tuffy?) on 100 examples for 'smokes' to:
+  datasets\Cancer\test/results_smokes.db
+ and to:
+  datasets\Cancer\test/query_smokes.db
+%    No need to compress since small: datasets\Cancer\test/query_smokes.db
+
+% Computing Area Under Curves.
+%Pos=24
+%Neg=76
+%LL:-16.946998266342852
+%LL:-34.71230767166323
+
+% Running command: java -jar src\edu\wisc\cs\will\DataSetUtils/auc.jar datasets\Cancer\test/AUC/aucTemp.txt list 0.0
+% WAITING FOR command: java -jar src\edu\wisc\cs\will\DataSetUtils/auc.jar datasets\Cancer\test/AUC/aucTemp.txt list 0.0
+% DONE WAITING FOR command: java -jar src\edu\wisc\cs\will\DataSetUtils/auc.jar datasets\Cancer\test/AUC/aucTemp.txt list 0.0
+
+%   AUC ROC   = 0,837445
+%   AUC PR    = 0,653800
+%   CLL	      = -0,347123
+%   Precision = 0,386364 at threshold = 0,127
+%   Recall    = 0,708333
+%   F1        = 0,500000
+
+% Total inference time (20 trees): 3,092 seconds.

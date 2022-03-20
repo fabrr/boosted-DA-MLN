@@ -1,0 +1,25 @@
+setParam: stringsAreCaseSensitive = true.
+
+usePrologVariables: true.
+
+
+(faculty(A, 0.221785298735876) :- has(A, ph)).
+(faculty(A, 0.2472562857315742) :- linkto(B, A), course(B)).
+(faculty(A, -0.023263972648000942) :- linkto(A, A), linkto(_, A)).
+(faculty(A, -0.010351761171745678) :- has(A, offic)).
+(faculty(A, 0.09998848037426097) :- has(A, proceed)).
+(faculty(A, -0.05159232057047953) :- linkto(B, A), has(B, texa)).
+(faculty(A, 0.041951773692269496) :- linkto(A, A), linkto(A, _)).
+(faculty(A, 0.025171064215361673) :- linkto(A, A), linkto(A, _)).
+(faculty(A, 0.02316466932242951) :- has(A, associ)).
+(faculty(A, -0.06868363878851061) :- has(A, inform)).
+(faculty(A, 0.23705497213467513) :- linkto(A, B), has(B, run)).
+(faculty(A, -0.05777995927180943) :- has(A, comput)).
+(faculty(A, -3.612383326214639E-4) :- linkto(B, A), has(B, _)).
+(faculty(A, -3.5879997682609986E-4) :- linkto(B, A), has(B, _)).
+(faculty(A, -3.563780799124431E-4) :- linkto(B, A), has(B, _)).
+(faculty(A, -3.539725307831768E-4) :- linkto(B, A), has(B, _)).
+(faculty(A, -3.515832190908895E-4) :- linkto(B, A), has(B, _)).
+(faculty(A, 0.02442619332272237) :- has(A, research)).
+(faculty(A, -4.336082639519125E-4) :- linkto(B, A), has(B, _)).
+(faculty(A, 0.14805659482175332) :- has(A, solv)).

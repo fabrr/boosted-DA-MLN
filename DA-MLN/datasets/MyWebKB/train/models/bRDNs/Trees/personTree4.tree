@@ -1,0 +1,9 @@
+setParam: stringsAreCaseSensitive = true.
+
+usePrologVariables: true.
+
+
+(person(A, 0.5065335579898574) :- has(A, ph), has(A, mondai)).
+(person(A, 0.3540815766160903) :- has(A, mondai), has(A, homepag)).
+(person(A, 0.11088145920841624) :- linkto(B, A), linkto(B, C), r_person(C)).
+(person(A, 0.0539192048557579) :- linkto(B, A), linkto(_, B), has(B, home)).

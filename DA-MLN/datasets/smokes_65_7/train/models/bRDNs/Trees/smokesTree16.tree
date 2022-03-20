@@ -1,0 +1,6 @@
+setParam: stringsAreCaseSensitive = true.
+
+usePrologVariables: true.
+
+
+(smokes(A, 2.2412465041095445E-4) :- friends(A, B), recursive_smokes(B), friends(B, C), friends(A, C), friends(C, _), recursive_smokes(C)).

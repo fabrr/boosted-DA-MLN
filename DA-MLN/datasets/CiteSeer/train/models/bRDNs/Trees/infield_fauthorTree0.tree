@@ -1,0 +1,9 @@
+setParam: stringsAreCaseSensitive = true.
+
+usePrologVariables: true.
+
+
+(infield_fauthor(A, -0.14185106490049262) :- infield_fvenue(A)).
+(infield_fauthor(A, -0.14185106490049249) :- infield_ftitle(A)).
+(infield_fauthor(A, 0.8320945818178727) :- isbibpos(A, B, C), lastinitial(B, C)).
+(infield_fauthor(A, 0.19962758553806723) :- nextbibpos(A, _)).

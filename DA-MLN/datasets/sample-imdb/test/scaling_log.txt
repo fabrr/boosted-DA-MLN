@@ -1,0 +1,326 @@
+
+Loading domain sizes... 
+Domain sizes loaded!
+
+Train domain sizes: 
+movie: 19
+person: 67
+genre: 6
+
+Test domain sizes: 
+movie: 20
+person: 268
+genre: 9
+
+Domain size scales: 
+movie: 1.0526315789473684
+person: 4.0
+genre: 1.5
+
+Scaling weights...
+
+Target: movie
+
+Tree #0
+
+Clause: (movie(_, A, -0.08204245246029683) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.08204245246029683, Scaled weight: -0.08204245246029683
+
+Clause: (movie(_, A, 7.137100586234147E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 7.137100586234147E-16, Scaled weight: 7.137100586234147E-16
+
+Clause: (movie(_, A, -5.596599738668141E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -5.596599738668141E-16, Scaled weight: -5.596599738668141E-16
+
+Clause: (movie(_, A, 6.640089860198305E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 6.640089860198305E-16, Scaled weight: 6.640089860198305E-16
+
+Clause: (movie(_, A, -5.641420345224479E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -5.641420345224479E-16, Scaled weight: -5.641420345224479E-16
+
+Clause: (movie(_, A, 6.595269253641966E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 6.595269253641966E-16, Scaled weight: 6.595269253641966E-16
+
+Clause: (movie(_, A, -7.194205359031854E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -7.194205359031854E-16, Scaled weight: -7.194205359031854E-16
+
+Clause: (movie(_, A, 6.629133711928978E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 6.629133711928978E-16, Scaled weight: 6.629133711928978E-16
+
+Clause: (movie(_, A, -7.161004909730862E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -7.161004909730862E-16, Scaled weight: -7.161004909730862E-16
+
+Clause: (movie(_, A, 6.991018609309785E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 6.991018609309785E-16, Scaled weight: 6.991018609309785E-16
+
+Clause: (movie(_, A, -7.153368806391634E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -7.153368806391634E-16, Scaled weight: -7.153368806391634E-16
+
+Clause: (movie(_, A, 6.993674645253864E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 6.993674645253864E-16, Scaled weight: 6.993674645253864E-16
+
+Clause: (movie(_, A, -7.151044774940564E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -7.151044774940564E-16, Scaled weight: -7.151044774940564E-16
+
+Clause: (movie(_, A, 6.999650726128043E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 6.999650726128043E-16, Scaled weight: 6.999650726128043E-16
+
+Clause: (movie(_, A, -5.726413495435018E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -5.726413495435018E-16, Scaled weight: -5.726413495435018E-16
+
+Clause: (movie(_, A, 6.002973238112277E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 6.002973238112277E-16, Scaled weight: 6.002973238112277E-16
+
+Clause: (movie(_, A, -7.153368806391634E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -7.153368806391634E-16, Scaled weight: -7.153368806391634E-16
+
+Clause: (movie(_, A, 6.993674645253864E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 6.993674645253864E-16, Scaled weight: 6.993674645253864E-16
+
+Clause: (movie(_, A, -7.151044774940564E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -7.151044774940564E-16, Scaled weight: -7.151044774940564E-16
+
+Clause: (movie(_, A, 6.999650726128043E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 6.999650726128043E-16, Scaled weight: 6.999650726128043E-16
+
+Tree #1
+
+Clause: (movie(_, A, -0.07234583689924357) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.07234583689924357, Scaled weight: -0.07234583689924357
+
+Clause: (movie(_, A, -5.599587779105231E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -5.599587779105231E-16, Scaled weight: -5.599587779105231E-16
+
+Clause: (movie(_, A, 6.637101819761216E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 6.637101819761216E-16, Scaled weight: 6.637101819761216E-16
+
+Clause: (movie(_, A, -7.068043651688085E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -7.068043651688085E-16, Scaled weight: -7.068043651688085E-16
+
+Clause: (movie(_, A, 6.993674645253864E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 6.993674645253864E-16, Scaled weight: 6.993674645253864E-16
+
+Clause: (movie(_, A, -7.066051624730026E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -7.066051624730026E-16, Scaled weight: -7.066051624730026E-16
+
+Clause: (movie(_, A, 6.994006649746874E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 6.994006649746874E-16, Scaled weight: 6.994006649746874E-16
+
+Clause: (movie(_, A, -7.065387615744006E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -7.065387615744006E-16, Scaled weight: -7.065387615744006E-16
+
+Clause: (movie(_, A, 6.999650726128043E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 6.999650726128043E-16, Scaled weight: 6.999650726128043E-16
+
+Clause: (movie(_, A, -5.641420345224479E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -5.641420345224479E-16, Scaled weight: -5.641420345224479E-16
+
+Tree #2
+
+Clause: (movie(_, A, -0.06426703529637673) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.06426703529637673, Scaled weight: -0.06426703529637673
+
+Clause: (movie(_, A, -5.641420345224479E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -5.641420345224479E-16, Scaled weight: -5.641420345224479E-16
+
+Clause: (movie(_, A, 6.595269253641966E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 6.595269253641966E-16, Scaled weight: 6.595269253641966E-16
+
+Clause: (movie(_, A, -7.194205359031854E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -7.194205359031854E-16, Scaled weight: -7.194205359031854E-16
+
+Clause: (movie(_, A, 6.629133711928978E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 6.629133711928978E-16, Scaled weight: 6.629133711928978E-16
+
+Clause: (movie(_, A, -7.161004909730862E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -7.161004909730862E-16, Scaled weight: -7.161004909730862E-16
+
+Tree #3
+
+Clause: (movie(_, A, -0.05744949233608133) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.05744949233608133, Scaled weight: -0.05744949233608133
+
+Clause: (movie(_, A, -5.632456223913212E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -5.632456223913212E-16, Scaled weight: -5.632456223913212E-16
+
+Clause: (movie(_, A, 6.605893397418284E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 6.605893397418284E-16, Scaled weight: 6.605893397418284E-16
+
+Clause: (movie(_, A, -7.183581215255536E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -7.183581215255536E-16, Scaled weight: -7.183581215255536E-16
+
+Clause: (movie(_, A, 6.639757855705295E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 6.639757855705295E-16, Scaled weight: 6.639757855705295E-16
+
+Tree #4
+
+Clause: (movie(A, B, 0.8653894048261028) :- workedunder(B, C), recursive_movie(A, C))
+Connection variables: C (person), 
+Scaling factor: 4.0, Weight: 0.8653894048261028, Scaled weight: 0.2163473512065257
+
+Clause: (movie(A, B, 0.1943399627411877) :- workedunder(C, B), recursive_movie(A, C))
+Connection variables: C (person), 
+Scaling factor: 4.0, Weight: 0.1943399627411877, Scaled weight: 0.048584990685296925
+
+Clause: (movie(_, A, -0.1250195613426893) :- workedunder(A, _))
+Connection variables: _1 (person), 
+Scaling factor: 4.0, Weight: -0.1250195613426893, Scaled weight: -0.031254890335672324
+
+Clause: (movie(A, B, 0.1478673629552515) :- workedunder(C, B), recursive_movie(A, C))
+Connection variables: C (person), 
+Scaling factor: 4.0, Weight: 0.1478673629552515, Scaled weight: 0.03696684073881287
+
+Tree #5
+
+Clause: (movie(A, B, 0.7543264859174821) :- workedunder(B, C), recursive_movie(A, C))
+Connection variables: C (person), 
+Scaling factor: 4.0, Weight: 0.7543264859174821, Scaled weight: 0.18858162147937052
+
+Clause: (movie(_, A, -0.0592742286836221) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.0592742286836221, Scaled weight: -0.0592742286836221
+
+Clause: (movie(_, A, 6.898389355760019E-16) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: 6.898389355760019E-16, Scaled weight: 6.898389355760019E-16
+
+Tree #6
+
+Clause: (movie(A, B, 0.5945883486348656) :- workedunder(B, C), recursive_movie(A, C))
+Connection variables: C (person), 
+Scaling factor: 4.0, Weight: 0.5945883486348656, Scaled weight: 0.1486470871587164
+
+Clause: (movie(_, A, -0.05345052194231742) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.05345052194231742, Scaled weight: -0.05345052194231742
+
+Tree #7
+
+Clause: (movie(A, B, 0.4511996401254773) :- workedunder(B, C), recursive_movie(A, C))
+Connection variables: C (person), 
+Scaling factor: 4.0, Weight: 0.4511996401254773, Scaled weight: 0.11279991003136933
+
+Clause: (movie(_, A, -0.04850467645396791) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.04850467645396791, Scaled weight: -0.04850467645396791
+
+Tree #8
+
+Clause: (movie(A, B, 0.3471576164546922) :- workedunder(B, C), recursive_movie(A, C))
+Connection variables: C (person), 
+Scaling factor: 4.0, Weight: 0.3471576164546922, Scaled weight: 0.08678940411367304
+
+Clause: (movie(_, A, -0.04428808380610936) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.04428808380610936, Scaled weight: -0.04428808380610936
+
+Tree #9
+
+Clause: (movie(A, B, 0.2760876098158035) :- workedunder(B, C), recursive_movie(A, C))
+Connection variables: C (person), 
+Scaling factor: 4.0, Weight: 0.2760876098158035, Scaled weight: 0.06902190245395087
+
+Clause: (movie(_, A, -0.04063092255564469) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.04063092255564469, Scaled weight: -0.04063092255564469
+
+Tree #10
+
+Clause: (movie(A, B, 0.2268703289274599) :- workedunder(B, C), recursive_movie(A, C))
+Connection variables: C (person), 
+Scaling factor: 4.0, Weight: 0.2268703289274599, Scaled weight: 0.056717582231864974
+
+Tree #11
+
+Clause: (movie(A, B, 0.1898752590789119) :- workedunder(B, C), recursive_movie(A, C))
+Connection variables: C (person), 
+Scaling factor: 4.0, Weight: 0.1898752590789119, Scaled weight: 0.047468814769727974
+
+Tree #12
+
+Clause: (movie(A, B, 0.1625862991601946) :- workedunder(B, C), recursive_movie(A, C))
+Connection variables: C (person), 
+Scaling factor: 4.0, Weight: 0.1625862991601946, Scaled weight: 0.04064657479004865
+
+Tree #13
+
+Clause: (movie(_, A, -0.035975076963417875) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.035975076963417875, Scaled weight: -0.035975076963417875
+
+Tree #14
+
+Clause: (movie(_, A, -0.03312015346718509) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.03312015346718509, Scaled weight: -0.03312015346718509
+
+Tree #15
+
+Clause: (movie(_, A, -0.03056308043272263) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.03056308043272263, Scaled weight: -0.03056308043272263
+
+Tree #16
+
+Clause: (movie(_, A, -0.028262739418624006) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.028262739418624006, Scaled weight: -0.028262739418624006
+
+Tree #17
+
+Clause: (movie(_, A, -0.0261851622637379) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.0261851622637379, Scaled weight: -0.0261851622637379
+
+Tree #18
+
+Clause: (movie(_, A, -0.024302048469900625) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.024302048469900625, Scaled weight: -0.024302048469900625
+
+Tree #19
+
+Clause: (movie(_, A, -0.022589635017824652) :- female(A))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.022589635017824652, Scaled weight: -0.022589635017824652

@@ -1,0 +1,1667 @@
+////// Learned from a dataset containing 1.610 positive (1.610,0 weighted sum) and 0 negative (0,0 wgt'ed) examples.
+////// The minimal (wgt'ed) coverage = 3,000, the maximal (wgt'ed) NEG coverage = 0,499, and the minimal (wgt'ed) precision = 0,001 (using m = 0,1)
+
+usePrologVariables: true.
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: allPossibleMarkers
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #0, (-Infinity, 0.05], from 'outerLoop #2, null' and covering 3,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,019, precision = 0,968, and F1 = 0,037 - learned after 75 total and 56 acceptable nodes.  Node score = -4.130452207503984
+
+ FOR faculty(D) IF (linkto(D, D), linkto(D, Anon42361), person(Anon42361)) THEN output = 0,297386 ELSE output = -0,097231;
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #2, null' and covering 10,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,062, precision = 0,990, and F1 = 0,117 - learned after 81 total and 59 acceptable nodes.  Node score = -4.424605993454434
+
+ FOR faculty(D) IF (linkto(D, D), linkto(D, Anon42361), linkto(D, Anon42579)) THEN output = 0,008344 ELSE output = -0,105117;
+
+// Best in (weighted) recall bin #2, (0.1, 0.15], from 'outerLoop #2, null' and covering 17,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,106, precision = 0,994, and F1 = 0,191 - learned after 36 total and 28 acceptable nodes.  Node score = -4.368841536281261
+
+ FOR faculty(D) IF (has(D, select)) THEN output = -0,001229 ELSE output = -0,110458;
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #2, null' and covering 30,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,186, precision = 0,997, and F1 = 0,314 - learned after 12 total and 8 acceptable nodes.  Node score = -4.1410906707120425
+
+ FOR faculty(D) IF (has(D, public)) THEN output = 0,006419 ELSE output = -0,123049;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #2, null' and covering 35,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,217, precision = 0,997, and F1 = 0,357 - learned after 20 total and 13 acceptable nodes.  Node score = -4.529376032362544
+
+ FOR faculty(D) IF (has(D, www)) THEN output = -0,120531 ELSE output = -0,092923;
+
+// Best in (weighted) recall bin #5, (0.25, 0.3], from 'outerLoop #2, null' and covering 46,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,286, precision = 0,998, and F1 = 0,444 - learned after 49 total and 38 acceptable nodes.  Node score = -4.490535889520905
+
+ FOR faculty(D) IF (has(D, time)) THEN output = -0,129376 ELSE output = -0,086744;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #4, null' and covering 56,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,348, precision = 0,998, and F1 = 0,516 - learned after 3 total and 0 acceptable nodes.  Node score = -4.507610875069559
+
+ FOR faculty(D) IF (has(D, research)) THEN output = -0,007783 ELSE output = -0,116342;
+
+// Best in (weighted) recall bin #7, (0.35, 0.4], from 'outerLoop #4, null' and covering 64,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,397, precision = 0,998, and F1 = 0,568 - learned after 34 total and 24 acceptable nodes.  Node score = -4.767518284817031
+
+ FOR faculty(D) IF (has(D, inform)) THEN output = -0,038519 ELSE output = -0,105015;
+
+// Best in (weighted) recall bin #8, (0.4, 0.45], from 'outerLoop #4, null' and covering 72,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,447, precision = 0,999, and F1 = 0,617 - learned after 33 total and 23 acceptable nodes.  Node score = -4.782506147307952
+
+ FOR faculty(D) IF (has(D, univers)) THEN output = -0,044028 ELSE output = -0,106536;
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #4, null' and covering 73,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,453, precision = 0,999, and F1 = 0,623 - learned after 21 total and 14 acceptable nodes.  Node score = -4.930744527247743
+
+ FOR faculty(D) IF (has(D, austin)) THEN output = -0,071203 ELSE output = -0,084703;
+
+// Best in (weighted) recall bin #10, (0.5, 0.55], from 'outerLoop #4, null' and covering 85,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,528, precision = 0,999, and F1 = 0,690 - learned after 30 total and 20 acceptable nodes.  Node score = -4.70609013034645
+
+ FOR faculty(D) IF (has(D, comput)) THEN output = -0,042693 ELSE output = -0,118721;
+
+// Best in (weighted) recall bin #12, (0.6, 0.65], from 'outerLoop #2, null' and covering 101,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,627, precision = 0,999, and F1 = 0,770 - learned after 24 total and 16 acceptable nodes.  Node score = -4.545854147572924
+
+ FOR faculty(D) IF (has(D, utexa)) THEN output = -0,094896 ELSE output = -0,105707;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #3, null' and covering 121,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,751, precision = 0,999, and F1 = 0,858 - learned after 36 total and 27 acceptable nodes.  Node score = -4.90465668500085
+
+ FOR faculty(D) IF (has(D, mondai)) THEN output = -0,100093 ELSE output = -0,128265;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #2, null' and covering 147,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,912, precision = 0,999, and F1 = 0,954 - learned after 39 total and 30 acceptable nodes.  Node score = -4.513251058973005
+
+ FOR faculty(D) IF (has(D, cern)) THEN output = -0,094246 ELSE output = -0,148049;
+      /* FALSE NEG: faculty(httpwwwhostccutexaseduresearchfundingscihtml) Actual Bool=false Prob=0.1313641522326047 Output=-0.1313641522326047 */
+      /* FALSE NEG: faculty(httpwwwhostccutexaseduworld) Actual Bool=false Prob=0.09347596117375497 Output=-0.09347596117375497 */
+      /* FALSE NEG: faculty(httpwwwphutexasedu) Actual Bool=false Prob=0.09531856506497485 Output=-0.09531856506497485 */
+      /* FALSE NEG: faculty(httpwwwarlututexaseduitgwwwhomehtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #2, null' and covering 156,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,968, precision = 0,999, and F1 = 0,984 - learned after 37 total and 29 acceptable nodes.  Node score = -4.547255831594546
+
+ FOR faculty(D) IF (has(D, length)) THEN output = -0,098152 ELSE output = -0,123025;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.13683307791317872 Output=-0.13683307791317872 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.10510045749576313 Output=-0.10510045749576313 */
+      /* FALSE NEG: faculty(httpwwwmautexasedu) Actual Bool=false Prob=0.0894909388683334 Output=-0.0894909388683334 */
+      /* FALSE NEG: faculty(httpwwwarlututexaseduitgwwwhomehtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #1, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #0, (-Infinity, 0.05], from 'outerLoop #1, null' and covering 7,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,043, precision = 0,986, and F1 = 0,083 - learned after 64 total and 54 acceptable nodes.  Node score = -4.478636630270232
+
+ FOR faculty(D) IF (has(D, summari)) THEN output = 0,378678 ELSE output = -0,103421;
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #1, null' and covering 13,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,081, precision = 0,992, and F1 = 0,149 - learned after 41 total and 31 acceptable nodes.  Node score = -5.073579672030153
+
+ FOR faculty(D) IF (has(D, lectur)) THEN output = 0,048492 ELSE output = -0,098470;
+
+// Best in (weighted) recall bin #2, (0.1, 0.15], from 'outerLoop #1, null' and covering 22,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,137, precision = 0,995, and F1 = 0,240 - learned after 3 total and 0 acceptable nodes.  Node score = -4.910356358518651
+
+ FOR faculty(D) IF (has(D, ph)) THEN output = 0,127608 ELSE output = -0,115709;
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #1, null' and covering 30,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,186, precision = 0,997, and F1 = 0,314 - learned after 8 total and 5 acceptable nodes.  Node score = -5.183071661762568
+
+ FOR faculty(D) IF (has(D, public)) THEN output = 0,069532 ELSE output = -0,117268;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #1, null' and covering 39,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,242, precision = 0,997, and F1 = 0,390 - learned after 12 total and 6 acceptable nodes.  Node score = -5.275356764889809
+
+ FOR faculty(D) IF (has(D, web)) THEN output = -0,119685 ELSE output = -0,076028;
+
+// Best in (weighted) recall bin #5, (0.25, 0.3], from 'outerLoop #1, null' and covering 48,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,298, precision = 0,998, and F1 = 0,459 - learned after 16 total and 10 acceptable nodes.  Node score = -5.259428709979224
+
+ FOR faculty(D) IF (has(D, student)) THEN output = -0,119107 ELSE output = -0,072797;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #1, null' and covering 56,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,348, precision = 0,998, and F1 = 0,516 - learned after 11 total and 5 acceptable nodes.  Node score = -4.814538198058974
+
+ FOR faculty(D) IF (has(D, research)) THEN output = -0,008998 ELSE output = -0,127993;
+
+// Best in (weighted) recall bin #7, (0.35, 0.4], from 'outerLoop #1, null' and covering 64,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,397, precision = 0,998, and F1 = 0,568 - learned after 34 total and 27 acceptable nodes.  Node score = -5.104261066904774
+
+ FOR faculty(D) IF (has(D, inform)) THEN output = -0,030952 ELSE output = -0,120205;
+
+// Best in (weighted) recall bin #8, (0.4, 0.45], from 'outerLoop #1, null' and covering 72,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,447, precision = 0,999, and F1 = 0,617 - learned after 50 total and 40 acceptable nodes.  Node score = -5.0542301858868495
+
+ FOR faculty(D) IF (has(D, univers)) THEN output = -0,040450 ELSE output = -0,123941;
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #1, null' and covering 73,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,453, precision = 0,999, and F1 = 0,623 - learned after 27 total and 19 acceptable nodes.  Node score = -5.256883927288396
+
+ FOR faculty(D) IF (has(D, austin)) THEN output = -0,062938 ELSE output = -0,106235;
+
+// Best in (weighted) recall bin #10, (0.5, 0.55], from 'outerLoop #1, null' and covering 85,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,528, precision = 0,999, and F1 = 0,690 - learned after 32 total and 24 acceptable nodes.  Node score = -4.980927055018228
+
+ FOR faculty(D) IF (has(D, comput)) THEN output = -0,042468 ELSE output = -0,135965;
+
+// Best in (weighted) recall bin #12, (0.6, 0.65], from 'outerLoop #1, null' and covering 101,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,627, precision = 0,999, and F1 = 0,770 - learned after 48 total and 38 acceptable nodes.  Node score = -5.330428679375594
+
+ FOR faculty(D) IF (has(D, utexa)) THEN output = -0,084454 ELSE output = -0,090221;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #1, null' and covering 121,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,751, precision = 0,999, and F1 = 0,858 - learned after 36 total and 27 acceptable nodes.  Node score = -5.36581435147863
+
+ FOR faculty(D) IF (has(D, mondai)) THEN output = -0,077368 ELSE output = -0,113459;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #1, null' and covering 153,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,950, precision = 0,999, and F1 = 0,974 - learned after 15 total and 9 acceptable nodes.  Node score = -5.315337488185493
+
+ FOR faculty(D) IF (has(D, modifi)) THEN output = -0,084300 ELSE output = -0,130664;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.13683307791317872 Output=-0.13683307791317872 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.10378756154631746 Output=-0.06415437139166064 */
+      /* FALSE NEG: faculty(httpwwwcsutexaseduusersUTCSvisitorscgishowlist) Actual Bool=false Prob=0.131496330097906 Output=-0.131496330097906 */
+      /* FALSE NEG: faculty(httpwwwcsutexaseduusersnovakcgixgcldemo) Actual Bool=false Prob=0.18999279343392045 Output=-0.18999279343392045 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #1, null' and covering 156,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,968, precision = 0,999, and F1 = 0,984 - learned after 4 total and 0 acceptable nodes.  Node score = -5.324933521678688
+
+ FOR faculty(D) IF (has(D, length)) THEN output = -0,085444 ELSE output = -0,122763;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.13683307791317872 Output=-0.13683307791317872 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.10378756154631746 Output=-0.06415437139166064 */
+      /* FALSE NEG: faculty(httpwwwmautexasedu) Actual Bool=false Prob=0.0894909388683334 Output=-0.05885564497781329 */
+      /* FALSE NEG: faculty(httpwwwarlututexaseduitgwwwhomehtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #2, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #0, (-Infinity, 0.05], from 'outerLoop #2, null' and covering 3,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,019, precision = 0,968, and F1 = 0,037 - learned after 75 total and 56 acceptable nodes.  Node score = -4.130452207503984
+
+ FOR faculty(D) IF (linkto(D, D), linkto(D, Anon42361), person(Anon42361)) THEN output = 0,297386 ELSE output = -0,097231;
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #2, null' and covering 10,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,062, precision = 0,990, and F1 = 0,117 - learned after 81 total and 59 acceptable nodes.  Node score = -4.424605993454434
+
+ FOR faculty(D) IF (linkto(D, D), linkto(D, Anon42361), linkto(D, Anon42579)) THEN output = 0,008344 ELSE output = -0,105117;
+
+// Best in (weighted) recall bin #2, (0.1, 0.15], from 'outerLoop #2, null' and covering 17,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,106, precision = 0,994, and F1 = 0,191 - learned after 36 total and 28 acceptable nodes.  Node score = -4.368841536281261
+
+ FOR faculty(D) IF (has(D, select)) THEN output = -0,001229 ELSE output = -0,110458;
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #2, null' and covering 30,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,186, precision = 0,997, and F1 = 0,314 - learned after 12 total and 8 acceptable nodes.  Node score = -4.1410906707120425
+
+ FOR faculty(D) IF (has(D, public)) THEN output = 0,006419 ELSE output = -0,123049;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #2, null' and covering 35,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,217, precision = 0,997, and F1 = 0,357 - learned after 20 total and 13 acceptable nodes.  Node score = -4.529376032362544
+
+ FOR faculty(D) IF (has(D, www)) THEN output = -0,120531 ELSE output = -0,092923;
+
+// Best in (weighted) recall bin #5, (0.25, 0.3], from 'outerLoop #2, null' and covering 46,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,286, precision = 0,998, and F1 = 0,444 - learned after 49 total and 38 acceptable nodes.  Node score = -4.490535889520905
+
+ FOR faculty(D) IF (has(D, time)) THEN output = -0,129376 ELSE output = -0,086744;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #2, null' and covering 51,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,317, precision = 0,998, and F1 = 0,481 - learned after 46 total and 35 acceptable nodes.  Node score = -4.548766347169802
+
+ FOR faculty(D) IF (has(D, tuesdai)) THEN output = -0,103388 ELSE output = -0,096856;
+
+// Best in (weighted) recall bin #7, (0.35, 0.4], from 'outerLoop #2, null' and covering 64,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,397, precision = 0,998, and F1 = 0,568 - learned after 24 total and 17 acceptable nodes.  Node score = -5.116270789816611
+
+ FOR faculty(D) IF (has(D, inform)) THEN output = -0,030635 ELSE output = -0,118336;
+
+// Best in (weighted) recall bin #8, (0.4, 0.45], from 'outerLoop #2, null' and covering 70,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,435, precision = 0,999, and F1 = 0,606 - learned after 17 total and 11 acceptable nodes.  Node score = -4.850314483283371
+
+ FOR faculty(D) IF (has(D, scienc)) THEN output = -0,044750 ELSE output = -0,126109;
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #2, null' and covering 73,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,453, precision = 0,999, and F1 = 0,623 - learned after 14 total and 10 acceptable nodes.  Node score = -5.047836966975851
+
+ FOR faculty(D) IF (has(D, austin)) THEN output = -0,068782 ELSE output = -0,108947;
+
+// Best in (weighted) recall bin #10, (0.5, 0.55], from 'outerLoop #2, null' and covering 85,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,528, precision = 0,999, and F1 = 0,690 - learned after 4 total and 1 acceptable nodes.  Node score = -4.779369233383537
+
+ FOR faculty(D) IF (has(D, comput)) THEN output = -0,047742 ELSE output = -0,138820;
+
+// Best in (weighted) recall bin #12, (0.6, 0.65], from 'outerLoop #2, null' and covering 101,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,627, precision = 0,999, and F1 = 0,770 - learned after 24 total and 16 acceptable nodes.  Node score = -4.545854147572924
+
+ FOR faculty(D) IF (has(D, utexa)) THEN output = -0,094896 ELSE output = -0,105707;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #2, null' and covering 121,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,751, precision = 0,999, and F1 = 0,858 - learned after 60 total and 51 acceptable nodes.  Node score = -5.084722215925407
+
+ FOR faculty(D) IF (has(D, mondai)) THEN output = -0,083224 ELSE output = -0,113459;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #2, null' and covering 147,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,912, precision = 0,999, and F1 = 0,954 - learned after 39 total and 30 acceptable nodes.  Node score = -4.513251058973005
+
+ FOR faculty(D) IF (has(D, cern)) THEN output = -0,094246 ELSE output = -0,148049;
+      /* FALSE NEG: faculty(httpwwwhostccutexaseduresearchfundingscihtml) Actual Bool=false Prob=0.1313641522326047 Output=-0.1313641522326047 */
+      /* FALSE NEG: faculty(httpwwwhostccutexaseduworld) Actual Bool=false Prob=0.09347596117375497 Output=-0.09347596117375497 */
+      /* FALSE NEG: faculty(httpwwwphutexasedu) Actual Bool=false Prob=0.09531856506497485 Output=-0.09531856506497485 */
+      /* FALSE NEG: faculty(httpwwwarlututexaseduitgwwwhomehtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #2, null' and covering 156,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,968, precision = 0,999, and F1 = 0,984 - learned after 37 total and 29 acceptable nodes.  Node score = -4.547255831594546
+
+ FOR faculty(D) IF (has(D, length)) THEN output = -0,098152 ELSE output = -0,123025;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.13683307791317872 Output=-0.13683307791317872 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.10510045749576313 Output=-0.10510045749576313 */
+      /* FALSE NEG: faculty(httpwwwmautexasedu) Actual Bool=false Prob=0.0894909388683334 Output=-0.0894909388683334 */
+      /* FALSE NEG: faculty(httpwwwarlututexaseduitgwwwhomehtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #3, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #0, (-Infinity, 0.05], from 'outerLoop #3, null' and covering 3,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,019, precision = 0,968, and F1 = 0,037 - learned after 72 total and 54 acceptable nodes.  Node score = -4.819363037254626
+
+ FOR faculty(D) IF (linkto(D, D), linkto(D, Anon38843), person(Anon38843)) THEN output = -0,024128 ELSE output = -0,103329;
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #3, null' and covering 10,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,062, precision = 0,990, and F1 = 0,117 - learned after 64 total and 49 acceptable nodes.  Node score = -4.81572968966259
+
+ FOR faculty(D) IF (linkto(D, D), linkto(Anon38845, D), linkto(D, Anon38879)) THEN output = -0,040488 ELSE output = -0,104774;
+
+// Best in (weighted) recall bin #2, (0.1, 0.15], from 'outerLoop #3, null' and covering 20,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,124, precision = 0,995, and F1 = 0,221 - learned after 37 total and 28 acceptable nodes.  Node score = -4.78826781479496
+
+ FOR faculty(D) IF (has(D, code)) THEN output = -0,185458 ELSE output = -0,095976;
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #3, null' and covering 25,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,155, precision = 0,996, and F1 = 0,269 - learned after 45 total and 35 acceptable nodes.  Node score = -4.755259013345648
+
+ FOR faculty(D) IF (has(D, make)) THEN output = -0,183604 ELSE output = -0,093027;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #3, null' and covering 34,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,211, precision = 0,997, and F1 = 0,348 - learned after 43 total and 33 acceptable nodes.  Node score = -4.928361279617169
+
+ FOR faculty(D) IF (has(D, list)) THEN output = -0,108984 ELSE output = -0,106586;
+
+// Best in (weighted) recall bin #5, (0.25, 0.3], from 'outerLoop #3, null' and covering 41,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,255, precision = 0,998, and F1 = 0,406 - learned after 24 total and 18 acceptable nodes.  Node score = -6.988296485284372
+
+ FOR faculty(D) IF (has(D, interest)) THEN output = 0,034911 ELSE output = -0,111218;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #3, null' and covering 52,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,323, precision = 0,998, and F1 = 0,488 - learned after 23 total and 16 acceptable nodes.  Node score = -4.878220571334188
+
+ FOR faculty(D) IF (has(D, program)) THEN output = -0,081503 ELSE output = -0,119300;
+
+// Best in (weighted) recall bin #7, (0.35, 0.4], from 'outerLoop #3, null' and covering 64,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,397, precision = 0,998, and F1 = 0,568 - learned after 24 total and 17 acceptable nodes.  Node score = -4.824590662089198
+
+ FOR faculty(D) IF (has(D, inform)) THEN output = -0,075814 ELSE output = -0,127729;
+
+// Best in (weighted) recall bin #8, (0.4, 0.45], from 'outerLoop #3, null' and covering 66,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,410, precision = 0,998, and F1 = 0,581 - learned after 16 total and 10 acceptable nodes.  Node score = -5.245420337886525
+
+ FOR faculty(D) IF (has(D, home)) THEN output = -0,078010 ELSE output = -0,113309;
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #3, null' and covering 73,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,453, precision = 0,999, and F1 = 0,623 - learned after 14 total and 8 acceptable nodes.  Node score = -6.97068069428499
+
+ FOR faculty(D) IF (has(D, austin)) THEN output = -0,101887 ELSE output = -0,102104;
+
+// Best in (weighted) recall bin #10, (0.5, 0.55], from 'outerLoop #3, null' and covering 88,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,546, precision = 0,999, and F1 = 0,706 - learned after 41 total and 32 acceptable nodes.  Node score = -4.924609356026805
+
+ FOR faculty(D) IF (has(D, page)) THEN output = -0,102606 ELSE output = -0,112500;
+
+// Best in (weighted) recall bin #12, (0.6, 0.65], from 'outerLoop #3, null' and covering 101,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,627, precision = 0,999, and F1 = 0,770 - learned after 29 total and 21 acceptable nodes.  Node score = -5.2931781049493605
+
+ FOR faculty(D) IF (has(D, utexa)) THEN output = -0,100522 ELSE output = -0,096005;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #3, null' and covering 121,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,751, precision = 0,999, and F1 = 0,858 - learned after 36 total and 27 acceptable nodes.  Node score = -4.90465668500085
+
+ FOR faculty(D) IF (has(D, mondai)) THEN output = -0,100093 ELSE output = -0,128265;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #3, null' and covering 153,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,950, precision = 0,999, and F1 = 0,974 - learned after 26 total and 19 acceptable nodes.  Node score = -4.923735775238173
+
+ FOR faculty(D) IF (has(D, modifi)) THEN output = -0,105846 ELSE output = -0,130920;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.13683307791317872 Output=-0.13683307791317872 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.10583475701329413 Output=-0.09805153086129825 */
+      /* FALSE NEG: faculty(httpwwwcsutexaseduusersUTCSvisitorscgishowlist) Actual Bool=false Prob=0.131496330097906 Output=-0.131496330097906 */
+      /* FALSE NEG: faculty(httpwwwcsutexaseduusersnovakcgixgcldemo) Actual Bool=false Prob=0.18999279343392045 Output=-0.18999279343392045 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #3, null' and covering 156,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,968, precision = 0,999, and F1 = 0,984 - learned after 8 total and 4 acceptable nodes.  Node score = -4.927181264501944
+
+ FOR faculty(D) IF (has(D, length)) THEN output = -0,106577 ELSE output = -0,123172;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.13683307791317872 Output=-0.13683307791317872 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.10583475701329413 Output=-0.09805153086129825 */
+      /* FALSE NEG: faculty(httpwwwmautexasedu) Actual Bool=false Prob=0.0894909388683334 Output=-0.0894909388683334 */
+      /* FALSE NEG: faculty(httpwwwarlututexaseduitgwwwhomehtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #4, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #0, (-Infinity, 0.05], from 'outerLoop #4, null' and covering 3,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,019, precision = 0,968, and F1 = 0,037 - learned after 62 total and 44 acceptable nodes.  Node score = -4.810050401937018
+
+ FOR faculty(D) IF (linkto(D, D), linkto(D, Anon39405), person(Anon39405)) THEN output = -0,024128 ELSE output = -0,078247;
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #4, null' and covering 10,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,062, precision = 0,990, and F1 = 0,117 - learned after 54 total and 39 acceptable nodes.  Node score = -4.782435687741619
+
+ FOR faculty(D) IF (linkto(D, D), linkto(Anon39407, D), linkto(D, Anon39441)) THEN output = -0,039490 ELSE output = -0,075592;
+
+// Best in (weighted) recall bin #2, (0.1, 0.15], from 'outerLoop #4, null' and covering 22,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,137, precision = 0,995, and F1 = 0,240 - learned after 37 total and 27 acceptable nodes.  Node score = -4.825475275309468
+
+ FOR faculty(D) IF (has(D, center)) THEN output = -0,012125 ELSE output = -0,089100;
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #4, null' and covering 32,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,199, precision = 0,997, and F1 = 0,331 - learned after 36 total and 26 acceptable nodes.  Node score = -4.884757286714044
+
+ FOR faculty(D) IF (has(D, ut)) THEN output = -0,115100 ELSE output = -0,069523;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #4, null' and covering 35,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,217, precision = 0,997, and F1 = 0,357 - learned after 17 total and 11 acceptable nodes.  Node score = -4.785239402169365
+
+ FOR faculty(D) IF (has(D, group)) THEN output = -0,020134 ELSE output = -0,094818;
+
+// Best in (weighted) recall bin #5, (0.25, 0.3], from 'outerLoop #4, null' and covering 48,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,298, precision = 0,998, and F1 = 0,459 - learned after 28 total and 20 acceptable nodes.  Node score = -6.638712818477292
+
+ FOR faculty(D) IF (has(D, student)) THEN output = -0,159905 ELSE output = -0,082031;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #4, null' and covering 56,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,348, precision = 0,998, and F1 = 0,516 - learned after 3 total and 0 acceptable nodes.  Node score = -4.507610875069559
+
+ FOR faculty(D) IF (has(D, research)) THEN output = -0,007783 ELSE output = -0,116342;
+
+// Best in (weighted) recall bin #7, (0.35, 0.4], from 'outerLoop #4, null' and covering 64,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,397, precision = 0,998, and F1 = 0,568 - learned after 34 total and 24 acceptable nodes.  Node score = -4.767518284817031
+
+ FOR faculty(D) IF (has(D, inform)) THEN output = -0,038519 ELSE output = -0,105015;
+
+// Best in (weighted) recall bin #8, (0.4, 0.45], from 'outerLoop #4, null' and covering 72,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,447, precision = 0,999, and F1 = 0,617 - learned after 33 total and 23 acceptable nodes.  Node score = -4.782506147307952
+
+ FOR faculty(D) IF (has(D, univers)) THEN output = -0,044028 ELSE output = -0,106536;
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #4, null' and covering 73,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,453, precision = 0,999, and F1 = 0,623 - learned after 21 total and 14 acceptable nodes.  Node score = -4.930744527247743
+
+ FOR faculty(D) IF (has(D, austin)) THEN output = -0,071203 ELSE output = -0,084703;
+
+// Best in (weighted) recall bin #10, (0.5, 0.55], from 'outerLoop #4, null' and covering 85,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,528, precision = 0,999, and F1 = 0,690 - learned after 30 total and 20 acceptable nodes.  Node score = -4.70609013034645
+
+ FOR faculty(D) IF (has(D, comput)) THEN output = -0,042693 ELSE output = -0,118721;
+
+// Best in (weighted) recall bin #12, (0.6, 0.65], from 'outerLoop #4, null' and covering 101,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,627, precision = 0,999, and F1 = 0,770 - learned after 16 total and 10 acceptable nodes.  Node score = -4.9029288833643685
+
+ FOR faculty(D) IF (has(D, utexa)) THEN output = -0,089960 ELSE output = -0,059429;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #4, null' and covering 121,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,751, precision = 0,999, and F1 = 0,858 - learned after 3 total and 0 acceptable nodes.  Node score = -6.628361904214687
+
+ FOR faculty(D) IF (has(D, mondai)) THEN output = -0,080692 ELSE output = -0,117543;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #4, null' and covering 153,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,950, precision = 0,999, and F1 = 0,974 - learned after 28 total and 19 acceptable nodes.  Node score = -4.914956108383773
+
+ FOR faculty(D) IF (has(D, modifi)) THEN output = -0,075845 ELSE output = -0,130920;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.13683307791317872 Output=-0.13683307791317872 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.10583475701329413 Output=-0.09805153086129825 */
+      /* FALSE NEG: faculty(httpwwwcsutexaseduusersUTCSvisitorscgishowlist) Actual Bool=false Prob=0.131496330097906 Output=-0.131496330097906 */
+      /* FALSE NEG: faculty(httpwwwcsutexaseduusersnovakcgixgcldemo) Actual Bool=false Prob=0.18999279343392045 Output=-0.18999279343392045 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #4, null' and covering 156,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,968, precision = 0,999, and F1 = 0,984 - learned after 5 total and 2 acceptable nodes.  Node score = -4.927756253714991
+
+ FOR faculty(D) IF (has(D, length)) THEN output = -0,077153 ELSE output = -0,123172;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.13683307791317872 Output=-0.13683307791317872 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.10583475701329413 Output=-0.09805153086129825 */
+      /* FALSE NEG: faculty(httpwwwmautexasedu) Actual Bool=false Prob=0.0894909388683334 Output=-0.0894909388683334 */
+      /* FALSE NEG: faculty(httpwwwarlututexaseduitgwwwhomehtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #5, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #0, (-Infinity, 0.05], from 'outerLoop #5, null' and covering 4,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,025, precision = 0,976, and F1 = 0,048 - learned after 29 total and 18 acceptable nodes.  Node score = -6.678207540376526
+
+ FOR faculty(D) IF (linkto(Anon29039, D), course(Anon29039)) THEN output = 0,196888 ELSE output = -0,065844;
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #5, null' and covering 12,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,074, precision = 0,992, and F1 = 0,139 - learned after 21 total and 17 acceptable nodes.  Node score = -6.2138448735171545
+
+ FOR faculty(D) IF (has(D, confer)) THEN output = 0,098859 ELSE output = -0,123961;
+
+// Best in (weighted) recall bin #2, (0.1, 0.15], from 'outerLoop #5, null' and covering 17,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,106, precision = 0,994, and F1 = 0,191 - learned after 65 total and 58 acceptable nodes.  Node score = -5.843269847350052
+
+ FOR faculty(D) IF (has(D, select)) THEN output = 0,112888 ELSE output = -0,133354;
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #5, null' and covering 25,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,155, precision = 0,996, and F1 = 0,269 - learned after 20 total and 11 acceptable nodes.  Node score = -6.616979039954851
+
+ FOR faculty(D) IF (has(D, click)) THEN output = -0,149620 ELSE output = -0,071819;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #5, null' and covering 35,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,217, precision = 0,997, and F1 = 0,357 - learned after 20 total and 16 acceptable nodes.  Node score = -6.534851759390079
+
+ FOR faculty(D) IF (has(D, offic)) THEN output = -0,035581 ELSE output = -0,127290;
+
+// Best in (weighted) recall bin #5, (0.25, 0.3], from 'outerLoop #5, null' and covering 48,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,298, precision = 0,998, and F1 = 0,459 - learned after 49 total and 45 acceptable nodes.  Node score = -6.555511849925126
+
+ FOR faculty(D) IF (has(D, student)) THEN output = -0,162729 ELSE output = -0,083831;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #5, null' and covering 56,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,348, precision = 0,998, and F1 = 0,516 - learned after 32 total and 28 acceptable nodes.  Node score = -6.4937190808929754
+
+ FOR faculty(D) IF (has(D, research)) THEN output = -0,051122 ELSE output = -0,137343;
+
+// Best in (weighted) recall bin #7, (0.35, 0.4], from 'outerLoop #5, null' and covering 64,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,397, precision = 0,998, and F1 = 0,568 - learned after 18 total and 14 acceptable nodes.  Node score = -6.4697429082688265
+
+ FOR faculty(D) IF (has(D, inform)) THEN output = -0,054612 ELSE output = -0,142151;
+
+// Best in (weighted) recall bin #10, (0.5, 0.55], from 'outerLoop #5, null' and covering 85,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,528, precision = 0,999, and F1 = 0,690 - learned after 77 total and 70 acceptable nodes.  Node score = -6.52101411766199
+
+ FOR faculty(D) IF (has(D, comput)) THEN output = -0,070526 ELSE output = -0,148541;
+
+// Best in (weighted) recall bin #12, (0.6, 0.65], from 'outerLoop #5, null' and covering 101,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,627, precision = 0,999, and F1 = 0,770 - learned after 60 total and 51 acceptable nodes.  Node score = -7.034764367534508
+
+ FOR faculty(D) IF (has(D, utexa)) THEN output = -0,114826 ELSE output = -0,108565;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #5, null' and covering 121,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,751, precision = 0,999, and F1 = 0,858 - learned after 4 total and 0 acceptable nodes.  Node score = -6.703613878146966
+
+ FOR faculty(D) IF (has(D, mondai)) THEN output = -0,074703 ELSE output = -0,111720;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #5, null' and covering 147,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,912, precision = 0,999, and F1 = 0,954 - learned after 14 total and 8 acceptable nodes.  Node score = -6.720452470179734
+
+ FOR faculty(D) IF (has(D, cern)) THEN output = -0,080104 ELSE output = -0,123753;
+      /* FALSE NEG: faculty(httpwwwhostccutexaseduresearchfundingscihtml) Actual Bool=false Prob=0.13359798074793716 Output=-0.12194435115968374 */
+      /* FALSE NEG: faculty(httpwwwhostccutexaseduworld) Actual Bool=false Prob=0.102774295606476 Output=-0.049025607044782524 */
+      /* FALSE NEG: faculty(httpwwwphutexasedu) Actual Bool=false Prob=0.09700789685772947 Output=-0.08535426726947605 */
+      /* FALSE NEG: faculty(httpwwwarlututexaseduitgwwwhomehtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #5, null' and covering 156,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,968, precision = 0,999, and F1 = 0,984 - learned after 17 total and 10 acceptable nodes.  Node score = -6.740456578248572
+
+ FOR faculty(D) IF (has(D, length)) THEN output = -0,082969 ELSE output = -0,112933;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.14206578947101584 Output=-0.09845663233661499 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.10694266037978731 Output=-0.09528903079153389 */
+      /* FALSE NEG: faculty(httpwwwmautexasedu) Actual Bool=false Prob=0.0912826542789193 Output=-0.06948949326337325 */
+      /* FALSE NEG: faculty(httpwwwarlututexaseduitgwwwhomehtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #6, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #0, (-Infinity, 0.05], from 'outerLoop #6, null' and covering 6,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,037, precision = 0,984, and F1 = 0,072 - learned after 22 total and 14 acceptable nodes.  Node score = -6.099264887381083
+
+ FOR faculty(D) IF (has(D, travel)) THEN output = -0,167340 ELSE output = -0,117412;
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #6, null' and covering 15,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,093, precision = 0,993, and F1 = 0,170 - learned after 9 total and 5 acceptable nodes.  Node score = -5.9471381271420265
+
+ FOR faculty(D) IF (has(D, nation)) THEN output = -0,219610 ELSE output = -0,108965;
+
+// Best in (weighted) recall bin #2, (0.1, 0.15], from 'outerLoop #6, null' and covering 18,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,112, precision = 0,994, and F1 = 0,201 - learned after 46 total and 35 acceptable nodes.  Node score = -6.438605424162244
+
+ FOR faculty(D) IF (linkto(Anon19113, D), linkto(Anon19113, Anon19113)) THEN output = -0,093386 ELSE output = -0,097168;
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #6, null' and covering 32,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,199, precision = 0,997, and F1 = 0,331 - learned after 25 total and 17 acceptable nodes.  Node score = -5.936923556600947
+
+ FOR faculty(D) IF (has(D, ut)) THEN output = -0,185797 ELSE output = -0,102771;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #6, null' and covering 37,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,230, precision = 0,997, and F1 = 0,373 - learned after 49 total and 38 acceptable nodes.  Node score = -6.152349834867956
+
+ FOR faculty(D) IF (linkto(Anon19113, D), linkto(Anon19305, Anon19113)) THEN output = -0,038709 ELSE output = -0,122840;
+
+// Best in (weighted) recall bin #5, (0.25, 0.3], from 'outerLoop #6, null' and covering 46,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,286, precision = 0,998, and F1 = 0,444 - learned after 84 total and 70 acceptable nodes.  Node score = -6.580078908797881
+
+ FOR faculty(D) IF (linkto(Anon4671, D), has(D, modifi)) THEN output = -0,044166 ELSE output = -0,134953;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #6, null' and covering 49,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,304, precision = 0,998, and F1 = 0,466 - learned after 43 total and 32 acceptable nodes.  Node score = -6.149356345433935
+
+ FOR faculty(D) IF (linkto(Anon19113, D), has(Anon19113, Anon19299)) THEN output = -0,000779 ELSE output = -0,127746;
+
+// Best in (weighted) recall bin #8, (0.4, 0.45], from 'outerLoop #6, null' and covering 68,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,422, precision = 0,999, and F1 = 0,593 - learned after 15 total and 9 acceptable nodes.  Node score = -6.054300673526002
+
+ FOR faculty(D) IF (has(D, texa)) THEN output = -0,096817 ELSE output = -0,135693;
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #6, null' and covering 73,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,453, precision = 0,999, and F1 = 0,623 - learned after 28 total and 18 acceptable nodes.  Node score = -6.113646934910207
+
+ FOR faculty(D) IF (has(D, austin)) THEN output = -0,119631 ELSE output = -0,118976;
+
+// Best in (weighted) recall bin #10, (0.5, 0.55], from 'outerLoop #6, null' and covering 88,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,546, precision = 0,999, and F1 = 0,706 - learned after 23 total and 15 acceptable nodes.  Node score = -6.1066289279257955
+
+ FOR faculty(D) IF (has(D, page)) THEN output = -0,113252 ELSE output = -0,126531;
+
+// Best in (weighted) recall bin #12, (0.6, 0.65], from 'outerLoop #6, null' and covering 101,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,627, precision = 0,999, and F1 = 0,770 - learned after 16 total and 10 acceptable nodes.  Node score = -6.598638126151955
+
+ FOR faculty(D) IF (has(D, utexa)) THEN output = -0,124726 ELSE output = -0,113565;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #6, null' and covering 121,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,751, precision = 0,999, and F1 = 0,858 - learned after 14 total and 8 acceptable nodes.  Node score = -6.046755562393819
+
+ FOR faculty(D) IF (has(D, mondai)) THEN output = -0,107552 ELSE output = -0,154729;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #6, null' and covering 147,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,912, precision = 0,999, and F1 = 0,954 - learned after 6 total and 2 acceptable nodes.  Node score = -6.079501646393728
+
+ FOR faculty(D) IF (has(D, cern)) THEN output = -0,114778 ELSE output = -0,166475;
+      /* FALSE NEG: faculty(httpwwwhostccutexaseduresearchfundingscihtml) Actual Bool=false Prob=0.13133291712939493 Output=-0.1855675411290807 */
+      /* FALSE NEG: faculty(httpwwwhostccutexaseduworld) Actual Bool=false Prob=0.11850129656188187 Output=0.03000481957922224 */
+      /* FALSE NEG: faculty(httpwwwphutexasedu) Actual Bool=false Prob=0.11809438663470767 Output=0.06770218412629256 */
+      /* FALSE NEG: faculty(httpwwwarlututexaseduitgwwwhomehtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #6, null' and covering 156,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,968, precision = 0,999, and F1 = 0,984 - learned after 7 total and 3 acceptable nodes.  Node score = -6.112582178490517
+
+ FOR faculty(D) IF (has(D, length)) THEN output = -0,118809 ELSE output = -0,133752;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.14206578947101584 Output=-0.14206578947101584 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.12987805409531497 Output=0.05591851666568526 */
+      /* FALSE NEG: faculty(httpwwwmautexasedu) Actual Bool=false Prob=0.11311540834011631 Output=0.07268116242088392 */
+      /* FALSE NEG: faculty(httpwwwarlututexaseduitgwwwhomehtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #7, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #0, (-Infinity, 0.05], from 'outerLoop #7, null' and covering 7,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,043, precision = 0,986, and F1 = 0,083 - learned after 31 total and 20 acceptable nodes.  Node score = -6.125260683930831
+
+ FOR faculty(D) IF (has(D, street)) THEN output = -0,188500 ELSE output = -0,077519;
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #7, null' and covering 10,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,062, precision = 0,990, and F1 = 0,117 - learned after 37 total and 26 acceptable nodes.  Node score = -6.146734036697067
+
+ FOR faculty(D) IF (linkto(D, D), linkto(Anon19661, D)) THEN output = -0,024500 ELSE output = -0,086502;
+
+// Best in (weighted) recall bin #2, (0.1, 0.15], from 'outerLoop #7, null' and covering 21,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,130, precision = 0,995, and F1 = 0,231 - learned after 13 total and 8 acceptable nodes.  Node score = -6.058036484633192
+
+ FOR faculty(D) IF (has(D, phone)) THEN output = -0,003615 ELSE output = -0,094154;
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #7, null' and covering 29,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,180, precision = 0,997, and F1 = 0,305 - learned after 26 total and 16 acceptable nodes.  Node score = -6.18383170483125
+
+ FOR faculty(D) IF (has(D, updat)) THEN output = -0,108337 ELSE output = -0,076634;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #7, null' and covering 37,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,230, precision = 0,997, and F1 = 0,373 - learned after 52 total and 40 acceptable nodes.  Node score = -6.168043604689993
+
+ FOR faculty(D) IF (linkto(Anon19503, D), linkto(Anon19705, Anon19503)) THEN output = -0,027737 ELSE output = -0,086880;
+
+// Best in (weighted) recall bin #5, (0.25, 0.3], from 'outerLoop #7, null' and covering 46,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,286, precision = 0,998, and F1 = 0,444 - learned after 78 total and 66 acceptable nodes.  Node score = -6.703956562030451
+
+ FOR faculty(D) IF (linkto(Anon6231, D), has(D, modifi)) THEN output = -0,024725 ELSE output = -0,134056;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #7, null' and covering 49,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,304, precision = 0,998, and F1 = 0,466 - learned after 45 total and 33 acceptable nodes.  Node score = -6.124848539744043
+
+ FOR faculty(D) IF (linkto(Anon19503, D), has(D, Anon19699)) THEN output = -0,000398 ELSE output = -0,096227;
+
+// Best in (weighted) recall bin #7, (0.35, 0.4], from 'outerLoop #7, null' and covering 64,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,397, precision = 0,998, and F1 = 0,568 - learned after 34 total and 24 acceptable nodes.  Node score = -6.586900546327565
+
+ FOR faculty(D) IF (has(D, inform)) THEN output = -0,059059 ELSE output = -0,145192;
+
+// Best in (weighted) recall bin #8, (0.4, 0.45], from 'outerLoop #7, null' and covering 72,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,447, precision = 0,999, and F1 = 0,617 - learned after 33 total and 23 acceptable nodes.  Node score = -6.698965851681752
+
+ FOR faculty(D) IF (has(D, univers)) THEN output = -0,074403 ELSE output = -0,140522;
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #7, null' and covering 73,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,453, precision = 0,999, and F1 = 0,623 - learned after 22 total and 14 acceptable nodes.  Node score = -6.11504671510629
+
+ FOR faculty(D) IF (has(D, austin)) THEN output = -0,056002 ELSE output = -0,104197;
+
+// Best in (weighted) recall bin #10, (0.5, 0.55], from 'outerLoop #7, null' and covering 88,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,546, precision = 0,999, and F1 = 0,706 - learned after 3 total and 0 acceptable nodes.  Node score = -6.1472496294013155
+
+ FOR faculty(D) IF (has(D, page)) THEN output = -0,064692 ELSE output = -0,103624;
+
+// Best in (weighted) recall bin #12, (0.6, 0.65], from 'outerLoop #7, null' and covering 101,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,627, precision = 0,999, and F1 = 0,770 - learned after 11 total and 6 acceptable nodes.  Node score = -6.204165560192717
+
+ FOR faculty(D) IF (has(D, utexa)) THEN output = -0,078719 ELSE output = -0,088448;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #7, null' and covering 121,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,751, precision = 0,999, and F1 = 0,858 - learned after 18 total and 11 acceptable nodes.  Node score = -6.171927997500032
+
+ FOR faculty(D) IF (has(D, mondai)) THEN output = -0,073771 ELSE output = -0,108280;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #7, null' and covering 148,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,919, precision = 0,999, and F1 = 0,957 - learned after 7 total and 3 acceptable nodes.  Node score = -6.180356997519752
+
+ FOR faculty(D) IF (has(D, mime)) THEN output = -0,086209 ELSE output = -0,038351;
+      /* FALSE NEG: faculty(httpwwwhostccutexaseduresearchfundingscihtml) Actual Bool=false Prob=0.13133291712939493 Output=-0.1855675411290807 */
+      /* FALSE NEG: faculty(httpwwwhostccutexaseduworld) Actual Bool=false Prob=0.11850129656188187 Output=0.03000481957922224 */
+      /* FALSE NEG: faculty(httpwwwphutexasedu) Actual Bool=false Prob=0.11809438663470767 Output=0.06770218412629256 */
+      /* FALSE NEG: faculty(httpwwwarlututexaseduitgwwwhomehtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #7, null' and covering 156,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,968, precision = 0,999, and F1 = 0,984 - learned after 4 total and 1 acceptable nodes.  Node score = -6.205019620997406
+
+ FOR faculty(D) IF (has(D, length)) THEN output = -0,083079 ELSE output = -0,059434;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.14206578947101584 Output=-0.14206578947101584 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.12987805409531497 Output=0.05591851666568526 */
+      /* FALSE NEG: faculty(httpwwwmautexasedu) Actual Bool=false Prob=0.11311540834011631 Output=0.07268116242088392 */
+      /* FALSE NEG: faculty(httpwwwarlututexaseduitgwwwhomehtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #8, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #0, (-Infinity, 0.05], from 'outerLoop #8, null' and covering 6,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,037, precision = 0,984, and F1 = 0,072 - learned after 5 total and 1 acceptable nodes.  Node score = -6.203553243198114
+
+ FOR faculty(D) IF (has(D, talk)) THEN output = -0,133117 ELSE output = -0,079889;
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #8, null' and covering 16,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,099, precision = 0,994, and F1 = 0,181 - learned after 17 total and 10 acceptable nodes.  Node score = -6.101832268931221
+
+ FOR faculty(D) IF (has(D, integr)) THEN output = -0,163402 ELSE output = -0,072877;
+
+// Best in (weighted) recall bin #2, (0.1, 0.15], from 'outerLoop #8, null' and covering 18,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,112, precision = 0,994, and F1 = 0,201 - learned after 41 total and 29 acceptable nodes.  Node score = -6.352696621888641
+
+ FOR faculty(D) IF (linkto(Anon19903, D), linkto(Anon19903, Anon19903)) THEN output = -0,062118 ELSE output = -0,067753;
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #8, null' and covering 29,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,180, precision = 0,997, and F1 = 0,305 - learned after 8 total and 4 acceptable nodes.  Node score = -6.111806591404469
+
+ FOR faculty(D) IF (has(D, nov)) THEN output = -0,026587 ELSE output = -0,094019;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #8, null' and covering 37,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,230, precision = 0,997, and F1 = 0,373 - learned after 44 total and 32 acceptable nodes.  Node score = -6.1795651795376285
+
+ FOR faculty(D) IF (linkto(Anon19903, D), linkto(Anon20075, Anon19903)) THEN output = -0,027566 ELSE output = -0,086442;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #8, null' and covering 49,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,304, precision = 0,998, and F1 = 0,466 - learned after 37 total and 25 acceptable nodes.  Node score = -6.136950002716197
+
+ FOR faculty(D) IF (linkto(Anon19903, D), has(D, Anon20069)) THEN output = -0,000394 ELSE output = -0,095775;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #8, null' and covering 148,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,919, precision = 0,999, and F1 = 0,957 - learned after 10 total and 6 acceptable nodes.  Node score = -6.193131177606036
+
+ FOR faculty(D) IF (has(D, mime)) THEN output = -0,085696 ELSE output = -0,038351;
+      /* FALSE NEG: faculty(httpwwwhostccutexaseduresearchfundingscihtml) Actual Bool=false Prob=0.13133291712939493 Output=-0.1855675411290807 */
+      /* FALSE NEG: faculty(httpwwwhostccutexaseduworld) Actual Bool=false Prob=0.11850129656188187 Output=0.03000481957922224 */
+      /* FALSE NEG: faculty(httpwwwphutexasedu) Actual Bool=false Prob=0.11809438663470767 Output=0.06770218412629256 */
+      /* FALSE NEG: faculty(httpwwwarlututexaseduitgwwwhomehtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #8, null' and covering 156,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,968, precision = 0,999, and F1 = 0,984 - learned after 9 total and 5 acceptable nodes.  Node score = -6.217320626047001
+
+ FOR faculty(D) IF (has(D, length)) THEN output = -0,082592 ELSE output = -0,059434;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.14206578947101584 Output=-0.14206578947101584 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.12987805409531497 Output=0.05591851666568526 */
+      /* FALSE NEG: faculty(httpwwwmautexasedu) Actual Bool=false Prob=0.11311540834011631 Output=0.07268116242088392 */
+      /* FALSE NEG: faculty(httpwwwarlututexaseduitgwwwhomehtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #9, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #0, (-Infinity, 0.05], from 'outerLoop #9, null' and covering 7,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,043, precision = 0,986, and F1 = 0,083 - learned after 92 total and 75 acceptable nodes.  Node score = -6.023385618801969
+
+ FOR faculty(D) IF (linkto(Anon20273, D), has(Anon20273, write)) THEN output = 0,110288 ELSE output = -0,057482;
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #9, null' and covering 9,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,056, precision = 0,989, and F1 = 0,106 - learned after 35 total and 25 acceptable nodes.  Node score = -6.095491921119592
+
+ FOR faculty(D) IF (linkto(Anon20273, D), r_faculty(Anon20273)) THEN output = 0,040933 ELSE output = -0,060687;
+
+// Best in (weighted) recall bin #2, (0.1, 0.15], from 'outerLoop #9, null' and covering 21,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,130, precision = 0,995, and F1 = 0,231 - learned after 15 total and 8 acceptable nodes.  Node score = -6.12610052147975
+
+ FOR faculty(D) IF (has(D, read)) THEN output = -0,112154 ELSE output = -0,058656;
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #9, null' and covering 27,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,168, precision = 0,996, and F1 = 0,287 - learned after 9 total and 3 acceptable nodes.  Node score = -6.083922928432289
+
+ FOR faculty(D) IF (has(D, project)) THEN output = -0,011679 ELSE output = -0,076506;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #9, null' and covering 37,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,230, precision = 0,997, and F1 = 0,373 - learned after 112 total and 93 acceptable nodes.  Node score = -6.083509902472282
+
+ FOR faculty(D) IF (linkto(Anon20273, D), has(Anon20273, mondai)) THEN output = -0,018530 ELSE output = -0,073989;
+
+// Best in (weighted) recall bin #5, (0.25, 0.3], from 'outerLoop #9, null' and covering 48,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,298, precision = 0,998, and F1 = 0,459 - learned after 67 total and 54 acceptable nodes.  Node score = -6.146770426569945
+
+ FOR faculty(D) IF (linkto(Anon20273, D), has(D, jan)) THEN output = -0,018603 ELSE output = -0,077386;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #9, null' and covering 49,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,304, precision = 0,998, and F1 = 0,466 - learned after 43 total and 32 acceptable nodes.  Node score = -6.1358132978192215
+
+ FOR faculty(D) IF (linkto(Anon20273, D), has(Anon20273, Anon20459)) THEN output = -0,000327 ELSE output = -0,076809;
+
+// Best in (weighted) recall bin #7, (0.35, 0.4], from 'outerLoop #9, null' and covering 64,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,397, precision = 0,998, and F1 = 0,568 - learned after 12 total and 9 acceptable nodes.  Node score = -6.399555068375891
+
+ FOR faculty(D) IF (has(D, inform)) THEN output = -0,063254 ELSE output = -0,149344;
+
+// Best in (weighted) recall bin #8, (0.4, 0.45], from 'outerLoop #9, null' and covering 72,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,447, precision = 0,999, and F1 = 0,617 - learned after 27 total and 23 acceptable nodes.  Node score = -6.5246312960709005
+
+ FOR faculty(D) IF (has(D, univers)) THEN output = -0,079996 ELSE output = -0,143539;
+
+// Best in (weighted) recall bin #10, (0.5, 0.55], from 'outerLoop #9, null' and covering 85,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,528, precision = 0,999, and F1 = 0,690 - learned after 33 total and 27 acceptable nodes.  Node score = -6.469551835532481
+
+ FOR faculty(D) IF (has(D, comput)) THEN output = -0,080505 ELSE output = -0,153839;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #9, null' and covering 121,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,751, precision = 0,999, and F1 = 0,858 - learned after 20 total and 13 acceptable nodes.  Node score = -6.160859451808754
+
+ FOR faculty(D) IF (has(D, mondai)) THEN output = -0,059639 ELSE output = -0,083770;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #9, null' and covering 148,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,919, precision = 0,999, and F1 = 0,957 - learned after 3 total and 0 acceptable nodes.  Node score = -6.155902599023652
+
+ FOR faculty(D) IF (has(D, version)) THEN output = -0,069135 ELSE output = -0,025781;
+      /* FALSE NEG: faculty(httpwwwhostccutexaseduresearchfundingscihtml) Actual Bool=false Prob=0.13133291712939493 Output=-0.1855675411290807 */
+      /* FALSE NEG: faculty(httpwwwhostccutexaseduworld) Actual Bool=false Prob=0.11850129656188187 Output=0.03000481957922224 */
+      /* FALSE NEG: faculty(httpwwwphutexasedu) Actual Bool=false Prob=0.11809438663470767 Output=0.06770218412629256 */
+      /* FALSE NEG: faculty(httpwwwarlututexaseduitgwwwhomehtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #9, null' and covering 156,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,968, precision = 0,999, and F1 = 0,984 - learned after 23 total and 16 acceptable nodes.  Node score = -6.178165511093955
+
+ FOR faculty(D) IF (has(D, length)) THEN output = -0,065833 ELSE output = -0,059434;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.14206578947101584 Output=-0.14206578947101584 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.12987805409531497 Output=0.05591851666568526 */
+      /* FALSE NEG: faculty(httpwwwmautexasedu) Actual Bool=false Prob=0.11311540834011631 Output=0.07268116242088392 */
+      /* FALSE NEG: faculty(httpwwwarlututexaseduitgwwwhomehtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #10, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #0, (-Infinity, 0.05], from 'outerLoop #10, null' and covering 6,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,037, precision = 0,984, and F1 = 0,072 - learned after 11 total and 6 acceptable nodes.  Node score = -5.985900139208381
+
+ FOR faculty(D) IF (has(D, synchron)) THEN output = 0,032458 ELSE output = -0,074412;
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #10, null' and covering 11,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,068, precision = 0,991, and F1 = 0,128 - learned after 45 total and 38 acceptable nodes.  Node score = -5.986022489424709
+
+ FOR faculty(D) IF (has(D, variabl)) THEN output = 0,004253 ELSE output = -0,075906;
+
+// Best in (weighted) recall bin #2, (0.1, 0.15], from 'outerLoop #10, null' and covering 21,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,130, precision = 0,995, and F1 = 0,231 - learned after 30 total and 24 acceptable nodes.  Node score = -5.6440242484405765
+
+ FOR faculty(D) IF (has(D, process)) THEN output = 0,059525 ELSE output = -0,089923;
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #10, null' and covering 28,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,174, precision = 0,996, and F1 = 0,296 - learned after 51 total and 41 acceptable nodes.  Node score = -6.023047860083124
+
+ FOR faculty(D) IF (has(D, comment)) THEN output = -0,099592 ELSE output = -0,064290;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #10, null' and covering 37,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,230, precision = 0,997, and F1 = 0,373 - learned after 88 total and 76 acceptable nodes.  Node score = -6.021737076231
+
+ FOR faculty(D) IF (linkto(Anon21455, D), linkto(Anon21807, Anon21455)) THEN output = -0,029769 ELSE output = -0,069772;
+
+// Best in (weighted) recall bin #5, (0.25, 0.3], from 'outerLoop #10, null' and covering 46,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,286, precision = 0,998, and F1 = 0,444 - learned after 10 total and 5 acceptable nodes.  Node score = -6.045274111109041
+
+ FOR faculty(D) IF (has(D, time)) THEN output = -0,060306 ELSE output = -0,074479;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #10, null' and covering 52,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,323, precision = 0,998, and F1 = 0,488 - learned after 21 total and 16 acceptable nodes.  Node score = -5.935487921811579
+
+ FOR faculty(D) IF (has(D, program)) THEN output = -0,031503 ELSE output = -0,089000;
+
+// Best in (weighted) recall bin #7, (0.35, 0.4], from 'outerLoop #10, null' and covering 64,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,397, precision = 0,998, and F1 = 0,568 - learned after 72 total and 61 acceptable nodes.  Node score = -6.3157505059476
+
+ FOR faculty(D) IF (has(D, inform)) THEN output = -0,068684 ELSE output = -0,150300;
+
+// Best in (weighted) recall bin #10, (0.5, 0.55], from 'outerLoop #10, null' and covering 85,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,528, precision = 0,999, and F1 = 0,690 - learned after 33 total and 27 acceptable nodes.  Node score = -5.759452648571993
+
+ FOR faculty(D) IF (has(D, comput)) THEN output = -0,030131 ELSE output = -0,115500;
+
+// Best in (weighted) recall bin #12, (0.6, 0.65], from 'outerLoop #10, null' and covering 101,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,627, precision = 0,999, and F1 = 0,770 - learned after 65 total and 54 acceptable nodes.  Node score = -6.045818016091809
+
+ FOR faculty(D) IF (has(D, utexa)) THEN output = -0,065702 ELSE output = -0,078387;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #10, null' and covering 121,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,751, precision = 0,999, and F1 = 0,858 - learned after 20 total and 15 acceptable nodes.  Node score = -6.042402424348392
+
+ FOR faculty(D) IF (has(D, mondai)) THEN output = -0,066020 ELSE output = -0,083770;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #10, null' and covering 148,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,919, precision = 0,999, and F1 = 0,957 - learned after 16 total and 11 acceptable nodes.  Node score = -6.02368245839811
+
+ FOR faculty(D) IF (has(D, version)) THEN output = -0,074351 ELSE output = -0,025781;
+      /* FALSE NEG: faculty(httpwwwhostccutexaseduresearchfundingscihtml) Actual Bool=false Prob=0.13133291712939493 Output=-0.1855675411290807 */
+      /* FALSE NEG: faculty(httpwwwhostccutexaseduworld) Actual Bool=false Prob=0.11850129656188187 Output=0.03000481957922224 */
+      /* FALSE NEG: faculty(httpwwwphutexasedu) Actual Bool=false Prob=0.11809438663470767 Output=0.06770218412629256 */
+      /* FALSE NEG: faculty(httpwwwarlututexaseduitgwwwhomehtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #10, null' and covering 156,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,968, precision = 0,999, and F1 = 0,984 - learned after 40 total and 33 acceptable nodes.  Node score = -6.0512500843115555
+
+ FOR faculty(D) IF (has(D, length)) THEN output = -0,070782 ELSE output = -0,059434;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.14206578947101584 Output=-0.14206578947101584 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.12987805409531497 Output=0.05591851666568526 */
+      /* FALSE NEG: faculty(httpwwwmautexasedu) Actual Bool=false Prob=0.11311540834011631 Output=0.07268116242088392 */
+      /* FALSE NEG: faculty(httpwwwarlututexaseduitgwwwhomehtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-0.14185106490048777 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #11, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #0, (-Infinity, 0.05], from 'outerLoop #11, null' and covering 7,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,043, precision = 0,986, and F1 = 0,083 - learned after 168 total and 148 acceptable nodes.  Node score = -6.674618610811039
+
+ FOR faculty(D) IF (linkto(D, Anon8927), has(Anon8927, run)) THEN output = 0,237055 ELSE output = -0,083987;
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #11, null' and covering 9,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,056, precision = 0,989, and F1 = 0,106 - learned after 195 total and 175 acceptable nodes.  Node score = -6.766399929807122
+
+ FOR faculty(D) IF (linkto(D, Anon8927), has(Anon8927, oper)) THEN output = 0,086817 ELSE output = -0,096283;
+
+// Best in (weighted) recall bin #2, (0.1, 0.15], from 'outerLoop #11, null' and covering 21,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,130, precision = 0,995, and F1 = 0,231 - learned after 17 total and 13 acceptable nodes.  Node score = -6.748731587189839
+
+ FOR faculty(D) IF (has(D, process)) THEN output = 0,044129 ELSE output = -0,110756;
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #11, null' and covering 25,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,155, precision = 0,996, and F1 = 0,269 - learned after 80 total and 68 acceptable nodes.  Node score = -7.176078070685571
+
+ FOR faculty(D) IF (linkto(Anon8929, D), linkto(D, Anon8929)) THEN output = -0,032533 ELSE output = -0,088589;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #11, null' and covering 38,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,236, precision = 0,997, and F1 = 0,382 - learned after 128 total and 112 acceptable nodes.  Node score = -6.867041619575163
+
+ FOR faculty(D) IF (linkto(D, Anon8927), has(D, mondai)) THEN output = 0,023197 ELSE output = -0,108503;
+
+// Best in (weighted) recall bin #5, (0.25, 0.3], from 'outerLoop #11, null' and covering 41,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,255, precision = 0,998, and F1 = 0,406 - learned after 40 total and 31 acceptable nodes.  Node score = -6.888668432441024
+
+ FOR faculty(D) IF (has(D, interest)) THEN output = -0,016935 ELSE output = -0,115706;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #11, null' and covering 49,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,304, precision = 0,998, and F1 = 0,466 - learned after 78 total and 66 acceptable nodes.  Node score = -6.968199561185983
+
+ FOR faculty(D) IF (linkto(Anon8929, D), has(Anon8929, Anon9227)) THEN output = -0,000491 ELSE output = -0,110560;
+
+// Best in (weighted) recall bin #12, (0.6, 0.65], from 'outerLoop #11, null' and covering 101,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,627, precision = 0,999, and F1 = 0,770 - learned after 22 total and 16 acceptable nodes.  Node score = -7.184557300248759
+
+ FOR faculty(D) IF (has(D, utexa)) THEN output = -0,093428 ELSE output = -0,085714;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #11, null' and covering 121,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,751, precision = 0,999, and F1 = 0,858 - learned after 34 total and 25 acceptable nodes.  Node score = -7.067459529559079
+
+ FOR faculty(D) IF (has(D, mondai)) THEN output = -0,074900 ELSE output = -0,137905;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #11, null' and covering 147,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,912, precision = 0,999, and F1 = 0,954 - learned after 8 total and 4 acceptable nodes.  Node score = -7.179964440758876
+
+ FOR faculty(D) IF (has(D, cern)) THEN output = -0,088543 ELSE output = -0,111662;
+      /* FALSE NEG: faculty(httpwwwhostccutexaseduresearchfundingscihtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.2366806681794913 */
+      /* FALSE NEG: faculty(httpwwwhostccutexaseduworld) Actual Bool=false Prob=0.14185106490048777 Output=9.04711790720837 */
+      /* FALSE NEG: faculty(httpwwwphutexasedu) Actual Bool=false Prob=0.14185106490048777 Output=-0.9196273068384753 */
+      /* FALSE NEG: faculty(httpwwwarlututexaseduitgwwwhomehtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.418510649004878 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.418510649004878 */
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #11, null' and covering 156,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,968, precision = 0,999, and F1 = 0,984 - learned after 3 total and 0 acceptable nodes.  Node score = -7.184689607087804
+
+ FOR faculty(D) IF (has(D, length)) THEN output = -0,089905 ELSE output = -0,110761;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.14185106490048777 Output=-1.4306901856490521 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.012001510733135 */
+      /* FALSE NEG: faculty(httpwwwmautexasedu) Actual Bool=false Prob=0.14185106490048777 Output=-0.7858791824787185 */
+      /* FALSE NEG: faculty(httpwwwarlututexaseduitgwwwhomehtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.418510649004878 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.418510649004878 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #12, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #0, (-Infinity, 0.05], from 'outerLoop #12, null' and covering 4,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,025, precision = 0,976, and F1 = 0,048 - learned after 41 total and 31 acceptable nodes.  Node score = -6.6744839001760345
+
+ FOR faculty(D) IF (linkto(Anon10523, D), course(Anon10523)) THEN output = 0,046625 ELSE output = -0,077042;
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #12, null' and covering 12,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,074, precision = 0,992, and F1 = 0,139 - learned after 13 total and 8 acceptable nodes.  Node score = -6.370691756839877
+
+ FOR faculty(D) IF (has(D, usa)) THEN output = -0,010824 ELSE output = -0,108111;
+
+// Best in (weighted) recall bin #2, (0.1, 0.15], from 'outerLoop #12, null' and covering 20,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,124, precision = 0,995, and F1 = 0,221 - learned after 11 total and 6 acceptable nodes.  Node score = -6.232429193030963
+
+ FOR faculty(D) IF (has(D, institut)) THEN output = 0,002373 ELSE output = -0,115503;
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #12, null' and covering 31,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,192, precision = 0,997, and F1 = 0,323 - learned after 8 total and 4 acceptable nodes.  Node score = -6.471126602273117
+
+ FOR faculty(D) IF (has(D, link)) THEN output = -0,089823 ELSE output = -0,103492;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #12, null' and covering 37,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,230, precision = 0,997, and F1 = 0,373 - learned after 31 total and 23 acceptable nodes.  Node score = -6.475407904838053
+
+ FOR faculty(D) IF (has(D, tx)) THEN output = -0,103729 ELSE output = -0,100004;
+
+// Best in (weighted) recall bin #5, (0.25, 0.3], from 'outerLoop #12, null' and covering 48,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,298, precision = 0,998, and F1 = 0,459 - learned after 28 total and 20 acceptable nodes.  Node score = -6.290565940703514
+
+ FOR faculty(D) IF (has(D, student)) THEN output = -0,152904 ELSE output = -0,078753;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #12, null' and covering 49,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,304, precision = 0,998, and F1 = 0,466 - learned after 48 total and 37 acceptable nodes.  Node score = -6.319212744405899
+
+ FOR faculty(D) IF (linkto(Anon10523, D), has(Anon10523, Anon10705)) THEN output = -0,000612 ELSE output = -0,116910;
+
+// Best in (weighted) recall bin #8, (0.4, 0.45], from 'outerLoop #12, null' and covering 70,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,435, precision = 0,999, and F1 = 0,606 - learned after 21 total and 15 acceptable nodes.  Node score = -6.211609338566231
+
+ FOR faculty(D) IF (has(D, scienc)) THEN output = -0,054673 ELSE output = -0,136388;
+
+// Best in (weighted) recall bin #9, (0.45, 0.5], from 'outerLoop #12, null' and covering 73,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,453, precision = 0,999, and F1 = 0,623 - learned after 23 total and 17 acceptable nodes.  Node score = -6.474965747570744
+
+ FOR faculty(D) IF (has(D, austin)) THEN output = -0,098355 ELSE output = -0,102937;
+
+// Best in (weighted) recall bin #10, (0.5, 0.55], from 'outerLoop #12, null' and covering 85,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,528, precision = 0,999, and F1 = 0,690 - learned after 26 total and 18 acceptable nodes.  Node score = -6.141622956931009
+
+ FOR faculty(D) IF (has(D, comput)) THEN output = -0,057780 ELSE output = -0,149041;
+
+// Best in (weighted) recall bin #12, (0.6, 0.65], from 'outerLoop #12, null' and covering 101,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,627, precision = 0,999, and F1 = 0,770 - learned after 16 total and 10 acceptable nodes.  Node score = -6.453863879817561
+
+ FOR faculty(D) IF (has(D, utexa)) THEN output = -0,109857 ELSE output = -0,085714;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #12, null' and covering 121,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,751, precision = 0,999, and F1 = 0,858 - learned after 17 total and 11 acceptable nodes.  Node score = -6.3775239582902525
+
+ FOR faculty(D) IF (has(D, mondai)) THEN output = -0,086654 ELSE output = -0,143831;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #12, null' and covering 153,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,950, precision = 0,999, and F1 = 0,974 - learned after 30 total and 22 acceptable nodes.  Node score = -6.464797967812988
+
+ FOR faculty(D) IF (has(D, modifi)) THEN output = -0,098969 ELSE output = -0,137017;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.14185106490048777 Output=-1.4306901856490521 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.012001510733135 */
+      /* FALSE NEG: faculty(httpwwwcsutexaseduusersUTCSvisitorscgishowlist) Actual Bool=false Prob=0.14185106490048777 Output=-1.2744694676822077 */
+      /* FALSE NEG: faculty(httpwwwcsutexaseduusersnovakcgixgcldemo) Actual Bool=false Prob=0.14185106490048777 Output=-2.0720728452786084 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.418510649004878 */
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #12, null' and covering 156,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,968, precision = 0,999, and F1 = 0,984 - learned after 34 total and 25 acceptable nodes.  Node score = -6.4752976240412075
+
+ FOR faculty(D) IF (has(D, length)) THEN output = -0,100543 ELSE output = -0,110761;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.14185106490048777 Output=-1.4306901856490521 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.012001510733135 */
+      /* FALSE NEG: faculty(httpwwwmautexasedu) Actual Bool=false Prob=0.14185106490048777 Output=-0.7858791824787185 */
+      /* FALSE NEG: faculty(httpwwwarlututexaseduitgwwwhomehtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.418510649004878 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.418510649004878 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #13, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #0, (-Infinity, 0.05], from 'outerLoop #13, null' and covering 7,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,043, precision = 0,986, and F1 = 0,083 - learned after 6 total and 2 acceptable nodes.  Node score = -6.973850797045432
+
+ FOR faculty(D) IF (has(D, submit)) THEN output = -0,160194 ELSE output = -0,066271;
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #13, null' and covering 11,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,068, precision = 0,991, and F1 = 0,128 - learned after 14 total and 9 acceptable nodes.  Node score = -6.920231213132056
+
+ FOR faculty(D) IF (has(D, case)) THEN output = 0,027339 ELSE output = -0,077519;
+
+// Best in (weighted) recall bin #2, (0.1, 0.15], from 'outerLoop #13, null' and covering 24,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,149, precision = 0,996, and F1 = 0,259 - learned after 11 total and 7 acceptable nodes.  Node score = -6.868107669770007
+
+ FOR faculty(D) IF (has(D, file)) THEN output = -0,146797 ELSE output = -0,056964;
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #13, null' and covering 25,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,155, precision = 0,996, and F1 = 0,269 - learned after 44 total and 33 acceptable nodes.  Node score = -7.067329403154065
+
+ FOR faculty(D) IF (linkto(Anon10953, D), linkto(D, Anon10953)) THEN output = -0,033231 ELSE output = -0,066285;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #13, null' and covering 37,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,230, precision = 0,997, and F1 = 0,373 - learned after 49 total and 38 acceptable nodes.  Node score = -7.000850953884137
+
+ FOR faculty(D) IF (linkto(Anon10953, D), linkto(Anon11111, Anon10953)) THEN output = -0,015927 ELSE output = -0,078522;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #13, null' and covering 49,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,304, precision = 0,998, and F1 = 0,466 - learned after 42 total and 31 acceptable nodes.  Node score = -6.839450269769472
+
+ FOR faculty(D) IF (linkto(Anon10953, D), has(Anon10953, Anon11105)) THEN output = -0,000361 ELSE output = -0,089567;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #13, null' and covering 121,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,751, precision = 0,999, and F1 = 0,858 - learned after 27 total and 18 acceptable nodes.  Node score = -6.927110267706639
+
+ FOR faculty(D) IF (has(D, mondai)) THEN output = -0,055616 ELSE output = -0,114941;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #13, null' and covering 153,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,950, precision = 0,999, and F1 = 0,974 - learned after 8 total and 4 acceptable nodes.  Node score = -7.015872839202681
+
+ FOR faculty(D) IF (has(D, modifi)) THEN output = -0,068002 ELSE output = -0,115349;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.14185106490048777 Output=-1.4306901856490521 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.012001510733135 */
+      /* FALSE NEG: faculty(httpwwwcsutexaseduusersUTCSvisitorscgishowlist) Actual Bool=false Prob=0.14185106490048777 Output=-1.2744694676822077 */
+      /* FALSE NEG: faculty(httpwwwcsutexaseduusersnovakcgixgcldemo) Actual Bool=false Prob=0.14185106490048777 Output=-2.0720728452786084 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.418510649004878 */
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #13, null' and covering 156,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,968, precision = 0,999, and F1 = 0,984 - learned after 16 total and 11 acceptable nodes.  Node score = -7.0313724204777115
+
+ FOR faculty(D) IF (has(D, length)) THEN output = -0,069801 ELSE output = -0,087649;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.14185106490048777 Output=-1.4306901856490521 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.012001510733135 */
+      /* FALSE NEG: faculty(httpwwwmautexasedu) Actual Bool=false Prob=0.14185106490048777 Output=-0.7858791824787185 */
+      /* FALSE NEG: faculty(httpwwwarlututexaseduitgwwwhomehtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.418510649004878 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.418510649004878 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #14, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #0, (-Infinity, 0.05], from 'outerLoop #14, null' and covering 4,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,025, precision = 0,976, and F1 = 0,048 - learned after 28 total and 18 acceptable nodes.  Node score = -7.1201739297749675
+
+ FOR faculty(D) IF (linkto(Anon11383, D), course(Anon11383)) THEN output = 0,090321 ELSE output = -0,052966;
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #14, null' and covering 12,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,074, precision = 0,992, and F1 = 0,139 - learned after 7 total and 4 acceptable nodes.  Node score = -6.9735886959993465
+
+ FOR faculty(D) IF (has(D, aug)) THEN output = -0,138770 ELSE output = -0,064726;
+
+// Best in (weighted) recall bin #2, (0.1, 0.15], from 'outerLoop #14, null' and covering 17,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,106, precision = 0,994, and F1 = 0,191 - learned after 21 total and 13 acceptable nodes.  Node score = -7.033062962039188
+
+ FOR faculty(D) IF (has(D, assign)) THEN output = -0,078864 ELSE output = -0,069228;
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #14, null' and covering 31,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,192, precision = 0,997, and F1 = 0,323 - learned after 3 total and 0 acceptable nodes.  Node score = -6.957038344853613
+
+ FOR faculty(D) IF (has(D, class)) THEN output = -0,025334 ELSE output = -0,080954;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #14, null' and covering 37,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,230, precision = 0,997, and F1 = 0,373 - learned after 42 total and 31 acceptable nodes.  Node score = -7.001519204622142
+
+ FOR faculty(D) IF (linkto(Anon11383, D), linkto(Anon11515, Anon11383)) THEN output = -0,015813 ELSE output = -0,078487;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #14, null' and covering 49,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,304, precision = 0,998, and F1 = 0,466 - learned after 35 total and 24 acceptable nodes.  Node score = -6.8397569101363
+
+ FOR faculty(D) IF (linkto(Anon11383, D), has(Anon11383, Anon11509)) THEN output = -0,000359 ELSE output = -0,089567;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #14, null' and covering 121,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,751, precision = 0,999, and F1 = 0,858 - learned after 6 total and 3 acceptable nodes.  Node score = -6.92861901936232
+
+ FOR faculty(D) IF (has(D, mondai)) THEN output = -0,055502 ELSE output = -0,114842;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #14, null' and covering 153,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,950, precision = 0,999, and F1 = 0,974 - learned after 13 total and 9 acceptable nodes.  Node score = -7.017451241605309
+
+ FOR faculty(D) IF (has(D, modifi)) THEN output = -0,067894 ELSE output = -0,115214;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.14185106490048777 Output=-1.4306901856490521 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.012001510733135 */
+      /* FALSE NEG: faculty(httpwwwcsutexaseduusersUTCSvisitorscgishowlist) Actual Bool=false Prob=0.14185106490048777 Output=-1.2744694676822077 */
+      /* FALSE NEG: faculty(httpwwwcsutexaseduusersnovakcgixgcldemo) Actual Bool=false Prob=0.14185106490048777 Output=-2.0720728452786084 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.418510649004878 */
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #14, null' and covering 156,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,968, precision = 0,999, and F1 = 0,984 - learned after 9 total and 6 acceptable nodes.  Node score = -7.032937654745195
+
+ FOR faculty(D) IF (has(D, length)) THEN output = -0,069692 ELSE output = -0,087504;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.14185106490048777 Output=-1.4306901856490521 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.012001510733135 */
+      /* FALSE NEG: faculty(httpwwwmautexasedu) Actual Bool=false Prob=0.14185106490048777 Output=-0.7858791824787185 */
+      /* FALSE NEG: faculty(httpwwwarlututexaseduitgwwwhomehtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.418510649004878 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.418510649004878 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #15, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #0, (-Infinity, 0.05], from 'outerLoop #15, null' and covering 4,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,025, precision = 0,976, and F1 = 0,048 - learned after 23 total and 13 acceptable nodes.  Node score = -7.121547619148113
+
+ FOR faculty(D) IF (linkto(Anon11793, D), course(Anon11793)) THEN output = 0,090680 ELSE output = -0,052866;
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #15, null' and covering 10,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,062, precision = 0,990, and F1 = 0,117 - learned after 38 total and 27 acceptable nodes.  Node score = -6.995397996546154
+
+ FOR faculty(D) IF (linkto(D, D), has(D, Anon12093)) THEN output = -0,000707 ELSE output = -0,073014;
+
+// Best in (weighted) recall bin #2, (0.1, 0.15], from 'outerLoop #15, null' and covering 18,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,112, precision = 0,994, and F1 = 0,201 - learned after 34 total and 23 acceptable nodes.  Node score = -7.236751698267556
+
+ FOR faculty(D) IF (linkto(Anon11793, D), linkto(Anon11793, Anon11793)) THEN output = -0,045237 ELSE output = -0,053988;
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #15, null' and covering 25,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,155, precision = 0,996, and F1 = 0,269 - learned after 32 total and 21 acceptable nodes.  Node score = -7.069773163780229
+
+ FOR faculty(D) IF (linkto(Anon11793, D), linkto(D, Anon11793)) THEN output = -0,032638 ELSE output = -0,066150;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #15, null' and covering 37,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,230, precision = 0,997, and F1 = 0,373 - learned after 4 total and 1 acceptable nodes.  Node score = -6.987472532959045
+
+ FOR faculty(D) IF (has(D, dec)) THEN output = -0,101929 ELSE output = -0,060649;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #15, null' and covering 49,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,304, precision = 0,998, and F1 = 0,466 - learned after 30 total and 19 acceptable nodes.  Node score = -6.84006585126013
+
+ FOR faculty(D) IF (linkto(Anon11793, D), has(Anon11793, Anon11901)) THEN output = -0,000356 ELSE output = -0,089567;
+
+// Best in (weighted) recall bin #10, (0.5, 0.55], from 'outerLoop #15, null' and covering 88,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,546, precision = 0,999, and F1 = 0,706 - learned after 3 total and 0 acceptable nodes.  Node score = -7.031047775507558
+
+ FOR faculty(D) IF (has(D, page)) THEN output = -0,065068 ELSE output = -0,076245;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #15, null' and covering 121,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,751, precision = 0,999, and F1 = 0,858 - learned after 18 total and 8 acceptable nodes.  Node score = -6.930126381469659
+
+ FOR faculty(D) IF (has(D, mondai)) THEN output = -0,055389 ELSE output = -0,114743;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #15, null' and covering 153,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,950, precision = 0,999, and F1 = 0,974 - learned after 9 total and 3 acceptable nodes.  Node score = -7.019027785304247
+
+ FOR faculty(D) IF (has(D, modifi)) THEN output = -0,067786 ELSE output = -0,115079;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.14185106490048777 Output=-1.4306901856490521 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.012001510733135 */
+      /* FALSE NEG: faculty(httpwwwcsutexaseduusersUTCSvisitorscgishowlist) Actual Bool=false Prob=0.14185106490048777 Output=-1.2744694676822077 */
+      /* FALSE NEG: faculty(httpwwwcsutexaseduusersnovakcgixgcldemo) Actual Bool=false Prob=0.14185106490048777 Output=-2.0720728452786084 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.418510649004878 */
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #15, null' and covering 156,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,968, precision = 0,999, and F1 = 0,984 - learned after 11 total and 5 acceptable nodes.  Node score = -7.034501117852684
+
+ FOR faculty(D) IF (has(D, length)) THEN output = -0,069584 ELSE output = -0,087361;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.14185106490048777 Output=-1.4306901856490521 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.012001510733135 */
+      /* FALSE NEG: faculty(httpwwwmautexasedu) Actual Bool=false Prob=0.14185106490048777 Output=-0.7858791824787185 */
+      /* FALSE NEG: faculty(httpwwwarlututexaseduitgwwwhomehtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.418510649004878 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.418510649004878 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #16, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #0, (-Infinity, 0.05], from 'outerLoop #16, null' and covering 7,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,043, precision = 0,986, and F1 = 0,083 - learned after 25 total and 17 acceptable nodes.  Node score = -6.948602013952952
+
+ FOR faculty(D) IF (has(D, global)) THEN output = -0,180298 ELSE output = -0,065015;
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #16, null' and covering 14,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,087, precision = 0,993, and F1 = 0,160 - learned after 29 total and 20 acceptable nodes.  Node score = -6.989143243778871
+
+ FOR faculty(D) IF (has(D, wide)) THEN output = -0,126236 ELSE output = -0,064674;
+
+// Best in (weighted) recall bin #2, (0.1, 0.15], from 'outerLoop #16, null' and covering 21,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,130, precision = 0,995, and F1 = 0,231 - learned after 26 total and 18 acceptable nodes.  Node score = -7.00106090244763
+
+ FOR faculty(D) IF (has(D, read)) THEN output = -0,108918 ELSE output = -0,064194;
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #16, null' and covering 27,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,168, precision = 0,996, and F1 = 0,287 - learned after 32 total and 22 acceptable nodes.  Node score = -7.037567141758732
+
+ FOR faculty(D) IF (has(D, world)) THEN output = -0,070823 ELSE output = -0,069867;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #16, null' and covering 37,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,230, precision = 0,997, and F1 = 0,373 - learned after 3 total and 0 acceptable nodes.  Node score = -6.988990959670943
+
+ FOR faculty(D) IF (has(D, dec)) THEN output = -0,101833 ELSE output = -0,060537;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #16, null' and covering 49,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,304, precision = 0,998, and F1 = 0,466 - learned after 44 total and 33 acceptable nodes.  Node score = -6.840377018807289
+
+ FOR faculty(D) IF (linkto(Anon12185, D), has(Anon12185, Anon12343)) THEN output = -0,000354 ELSE output = -0,089567;
+
+// Best in (weighted) recall bin #8, (0.4, 0.45], from 'outerLoop #16, null' and covering 66,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,410, precision = 0,998, and F1 = 0,581 - learned after 17 total and 10 acceptable nodes.  Node score = -6.864209911991077
+
+ FOR faculty(D) IF (has(D, home)) THEN output = -0,030657 ELSE output = -0,097380;
+
+// Best in (weighted) recall bin #10, (0.5, 0.55], from 'outerLoop #16, null' and covering 88,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,546, precision = 0,999, and F1 = 0,706 - learned after 13 total and 9 acceptable nodes.  Node score = -7.032601575303973
+
+ FOR faculty(D) IF (has(D, page)) THEN output = -0,064959 ELSE output = -0,076137;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #16, null' and covering 121,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,751, precision = 0,999, and F1 = 0,858 - learned after 18 total and 11 acceptable nodes.  Node score = -6.931632245083006
+
+ FOR faculty(D) IF (has(D, mondai)) THEN output = -0,055278 ELSE output = -0,114645;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #16, null' and covering 153,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,950, precision = 0,999, and F1 = 0,974 - learned after 10 total and 6 acceptable nodes.  Node score = -7.020602364507361
+
+ FOR faculty(D) IF (has(D, modifi)) THEN output = -0,067679 ELSE output = -0,114946;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.14185106490048777 Output=-1.4306901856490521 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.012001510733135 */
+      /* FALSE NEG: faculty(httpwwwcsutexaseduusersUTCSvisitorscgishowlist) Actual Bool=false Prob=0.14185106490048777 Output=-1.2744694676822077 */
+      /* FALSE NEG: faculty(httpwwwcsutexaseduusersnovakcgixgcldemo) Actual Bool=false Prob=0.14185106490048777 Output=-2.0720728452786084 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.418510649004878 */
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #16, null' and covering 156,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,968, precision = 0,999, and F1 = 0,984 - learned after 12 total and 8 acceptable nodes.  Node score = -7.036062703435173
+
+ FOR faculty(D) IF (has(D, length)) THEN output = -0,069476 ELSE output = -0,087218;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.14185106490048777 Output=-1.4306901856490521 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.012001510733135 */
+      /* FALSE NEG: faculty(httpwwwmautexasedu) Actual Bool=false Prob=0.14185106490048777 Output=-0.7858791824787185 */
+      /* FALSE NEG: faculty(httpwwwarlututexaseduitgwwwhomehtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.418510649004878 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.418510649004878 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #17, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #0, (-Infinity, 0.05], from 'outerLoop #17, null' and covering 7,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,043, precision = 0,986, and F1 = 0,083 - learned after 24 total and 17 acceptable nodes.  Node score = -7.032108765420704
+
+ FOR faculty(D) IF (has(D, friend)) THEN output = -0,100919 ELSE output = -0,068511;
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #17, null' and covering 13,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,081, precision = 0,992, and F1 = 0,149 - learned after 22 total and 15 acceptable nodes.  Node score = -6.932267307371576
+
+ FOR faculty(D) IF (has(D, log)) THEN output = -0,156852 ELSE output = -0,062284;
+
+// Best in (weighted) recall bin #2, (0.1, 0.15], from 'outerLoop #17, null' and covering 17,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,106, precision = 0,994, and F1 = 0,191 - learned after 29 total and 19 acceptable nodes.  Node score = -6.992113621563169
+
+ FOR faculty(D) IF (has(D, net)) THEN output = -0,119661 ELSE output = -0,064047;
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #17, null' and covering 25,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,155, precision = 0,996, and F1 = 0,269 - learned after 44 total and 32 acceptable nodes.  Node score = -7.072204485388354
+
+ FOR faculty(D) IF (linkto(Anon12621, D), linkto(D, Anon12621)) THEN output = -0,032053 ELSE output = -0,066016;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #17, null' and covering 37,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,230, precision = 0,997, and F1 = 0,373 - learned after 49 total and 37 acceptable nodes.  Node score = -7.003531640518431
+
+ FOR faculty(D) IF (linkto(Anon12621, D), linkto(Anon12783, Anon12621)) THEN output = -0,015477 ELSE output = -0,078384;
+
+// Best in (weighted) recall bin #5, (0.25, 0.3], from 'outerLoop #17, null' and covering 46,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,286, precision = 0,998, and F1 = 0,444 - learned after 21 total and 14 acceptable nodes.  Node score = -7.016084405840925
+
+ FOR faculty(D) IF (has(D, time)) THEN output = -0,088841 ELSE output = -0,062351;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #17, null' and covering 49,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,304, precision = 0,998, and F1 = 0,466 - learned after 42 total and 30 acceptable nodes.  Node score = -6.840690339737025
+
+ FOR faculty(D) IF (linkto(Anon12621, D), has(Anon12621, Anon12777)) THEN output = -0,000352 ELSE output = -0,089567;
+
+// Best in (weighted) recall bin #8, (0.4, 0.45], from 'outerLoop #17, null' and covering 66,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,410, precision = 0,998, and F1 = 0,581 - learned after 17 total and 10 acceptable nodes.  Node score = -6.865578628132701
+
+ FOR faculty(D) IF (has(D, home)) THEN output = -0,030528 ELSE output = -0,097286;
+
+// Best in (weighted) recall bin #12, (0.6, 0.65], from 'outerLoop #17, null' and covering 101,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,627, precision = 0,999, and F1 = 0,770 - learned after 11 total and 5 acceptable nodes.  Node score = -7.032278074646488
+
+ FOR faculty(D) IF (has(D, utexa)) THEN output = -0,074952 ELSE output = -0,061449;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #17, null' and covering 121,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,751, precision = 0,999, and F1 = 0,858 - learned after 15 total and 9 acceptable nodes.  Node score = -6.933136503584097
+
+ FOR faculty(D) IF (has(D, mondai)) THEN output = -0,055166 ELSE output = -0,114548;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #17, null' and covering 153,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,950, precision = 0,999, and F1 = 0,974 - learned after 4 total and 0 acceptable nodes.  Node score = -7.022174875728799
+
+ FOR faculty(D) IF (has(D, modifi)) THEN output = -0,067572 ELSE output = -0,114813;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.14185106490048777 Output=-1.4306901856490521 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.012001510733135 */
+      /* FALSE NEG: faculty(httpwwwcsutexaseduusersUTCSvisitorscgishowlist) Actual Bool=false Prob=0.14185106490048777 Output=-1.2744694676822077 */
+      /* FALSE NEG: faculty(httpwwwcsutexaseduusersnovakcgixgcldemo) Actual Bool=false Prob=0.14185106490048777 Output=-2.0720728452786084 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.418510649004878 */
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #17, null' and covering 156,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,968, precision = 0,999, and F1 = 0,984 - learned after 8 total and 3 acceptable nodes.  Node score = -7.037622307437556
+
+ FOR faculty(D) IF (has(D, length)) THEN output = -0,069370 ELSE output = -0,087076;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.14185106490048777 Output=-1.4306901856490521 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.012001510733135 */
+      /* FALSE NEG: faculty(httpwwwmautexasedu) Actual Bool=false Prob=0.14185106490048777 Output=-0.7858791824787185 */
+      /* FALSE NEG: faculty(httpwwwarlututexaseduitgwwwhomehtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.418510649004878 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.418510649004878 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #18, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #0, (-Infinity, 0.05], from 'outerLoop #18, null' and covering 7,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,043, precision = 0,986, and F1 = 0,083 - learned after 69 total and 63 acceptable nodes.  Node score = -6.766914500549619
+
+ FOR faculty(D) IF (has(D, improv)) THEN output = 0,123606 ELSE output = -0,078604;
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #18, null' and covering 13,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,081, precision = 0,992, and F1 = 0,149 - learned after 55 total and 50 acceptable nodes.  Node score = -6.540340141022913
+
+ FOR faculty(D) IF (has(D, recent)) THEN output = 0,118285 ELSE output = -0,086335;
+
+// Best in (weighted) recall bin #2, (0.1, 0.15], from 'outerLoop #18, null' and covering 21,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,130, precision = 0,995, and F1 = 0,231 - learned after 17 total and 14 acceptable nodes.  Node score = -6.665196383100376
+
+ FOR faculty(D) IF (has(D, process)) THEN output = 0,054881 ELSE output = -0,088517;
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #18, null' and covering 25,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,155, precision = 0,996, and F1 = 0,269 - learned after 99 total and 90 acceptable nodes.  Node score = -6.326239747731282
+
+ FOR faculty(D) IF (has(D, area)) THEN output = 0,085560 ELSE output = -0,098374;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #18, null' and covering 35,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,217, precision = 0,997, and F1 = 0,357 - learned after 6 total and 3 acceptable nodes.  Node score = -6.790656872635278
+
+ FOR faculty(D) IF (has(D, group)) THEN output = 0,004959 ELSE output = -0,090583;
+
+// Best in (weighted) recall bin #5, (0.25, 0.3], from 'outerLoop #18, null' and covering 41,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,255, precision = 0,998, and F1 = 0,406 - learned after 33 total and 30 acceptable nodes.  Node score = -6.638076125812342
+
+ FOR faculty(D) IF (has(D, interest)) THEN output = 0,015740 ELSE output = -0,099043;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #18, null' and covering 56,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,348, precision = 0,998, and F1 = 0,516 - learned after 25 total and 22 acceptable nodes.  Node score = -6.27811528049826
+
+ FOR faculty(D) IF (has(D, research)) THEN output = 0,024426 ELSE output = -0,120073;
+
+// Best in (weighted) recall bin #8, (0.4, 0.45], from 'outerLoop #18, null' and covering 66,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,410, precision = 0,998, and F1 = 0,581 - learned after 50 total and 46 acceptable nodes.  Node score = -6.866946463583212
+
+ FOR faculty(D) IF (has(D, home)) THEN output = -0,030400 ELSE output = -0,097194;
+
+// Best in (weighted) recall bin #10, (0.5, 0.55], from 'outerLoop #18, null' and covering 88,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,546, precision = 0,999, and F1 = 0,706 - learned after 30 total and 27 acceptable nodes.  Node score = -7.03570332016854
+
+ FOR faculty(D) IF (has(D, page)) THEN output = -0,064742 ELSE output = -0,075925;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #18, null' and covering 121,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,751, precision = 0,999, and F1 = 0,858 - learned after 31 total and 28 acceptable nodes.  Node score = -6.934639052644915
+
+ FOR faculty(D) IF (has(D, mondai)) THEN output = -0,055056 ELSE output = -0,114451;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #18, null' and covering 153,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,950, precision = 0,999, and F1 = 0,974 - learned after 80 total and 73 acceptable nodes.  Node score = -7.023745217751991
+
+ FOR faculty(D) IF (has(D, modifi)) THEN output = -0,067467 ELSE output = -0,114681;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.14185106490048777 Output=-1.4306901856490521 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.012001510733135 */
+      /* FALSE NEG: faculty(httpwwwcsutexaseduusersUTCSvisitorscgishowlist) Actual Bool=false Prob=0.14185106490048777 Output=-1.2744694676822077 */
+      /* FALSE NEG: faculty(httpwwwcsutexaseduusersnovakcgixgcldemo) Actual Bool=false Prob=0.14185106490048777 Output=-2.0720728452786084 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.418510649004878 */
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #18, null' and covering 156,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,968, precision = 0,999, and F1 = 0,984 - learned after 87 total and 79 acceptable nodes.  Node score = -7.039179828077617
+
+ FOR faculty(D) IF (has(D, length)) THEN output = -0,069264 ELSE output = -0,086936;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.14185106490048777 Output=-1.4306901856490521 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.012001510733135 */
+      /* FALSE NEG: faculty(httpwwwmautexasedu) Actual Bool=false Prob=0.14185106490048777 Output=-0.7858791824787185 */
+      /* FALSE NEG: faculty(httpwwwarlututexaseduitgwwwhomehtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.418510649004878 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.418510649004878 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #19, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #0, (-Infinity, 0.05], from 'outerLoop #19, null' and covering 8,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,050, precision = 0,988, and F1 = 0,095 - learned after 22 total and 13 acceptable nodes.  Node score = -6.804106616540549
+
+ FOR faculty(D) IF (has(D, pm)) THEN output = -0,086496 ELSE output = -0,077881;
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #19, null' and covering 16,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,099, precision = 0,994, and F1 = 0,181 - learned after 7 total and 3 acceptable nodes.  Node score = -6.724738076402597
+
+ FOR faculty(D) IF (has(D, john)) THEN output = -0,011232 ELSE output = -0,085710;
+
+// Best in (weighted) recall bin #2, (0.1, 0.15], from 'outerLoop #19, null' and covering 17,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,106, precision = 0,994, and F1 = 0,191 - learned after 10 total and 5 acceptable nodes.  Node score = -6.801437992257491
+
+ FOR faculty(D) IF (has(D, thursdai)) THEN output = -0,065267 ELSE output = -0,079848;
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #19, null' and covering 25,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,155, precision = 0,996, and F1 = 0,269 - learned after 20 total and 12 acceptable nodes.  Node score = -6.750148860579044
+
+ FOR faculty(D) IF (has(D, fridai)) THEN output = -0,035387 ELSE output = -0,086199;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #19, null' and covering 38,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,236, precision = 0,997, and F1 = 0,382 - learned after 4 total and 1 acceptable nodes.  Node score = -6.768576257745073
+
+ FOR faculty(D) IF (has(D, wednesdai)) THEN output = -0,105247 ELSE output = -0,069986;
+
+// Best in (weighted) recall bin #5, (0.25, 0.3], from 'outerLoop #19, null' and covering 46,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,286, precision = 0,998, and F1 = 0,444 - learned after 3 total and 0 acceptable nodes.  Node score = -6.780244285017805
+
+ FOR faculty(D) IF (has(D, time)) THEN output = -0,097784 ELSE output = -0,070518;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #19, null' and covering 49,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,304, precision = 0,998, and F1 = 0,466 - learned after 37 total and 26 acceptable nodes.  Node score = -6.5966469548970235
+
+ FOR faculty(D) IF (linkto(Anon13747, D), has(Anon13747, Anon13883)) THEN output = -0,000434 ELSE output = -0,097419;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #19, null' and covering 121,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,751, precision = 0,999, and F1 = 0,858 - learned after 17 total and 11 acceptable nodes.  Node score = -6.69836464698695
+
+ FOR faculty(D) IF (has(D, mondai)) THEN output = -0,063534 ELSE output = -0,123001;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #19, null' and covering 153,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,950, precision = 0,999, and F1 = 0,974 - learned after 25 total and 15 acceptable nodes.  Node score = -6.791585563440058
+
+ FOR faculty(D) IF (has(D, modifi)) THEN output = -0,076247 ELSE output = -0,117734;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.14185106490048777 Output=-1.4306901856490521 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.012001510733135 */
+      /* FALSE NEG: faculty(httpwwwcsutexaseduusersUTCSvisitorscgishowlist) Actual Bool=false Prob=0.14185106490048777 Output=-1.2744694676822077 */
+      /* FALSE NEG: faculty(httpwwwcsutexaseduusersnovakcgixgcldemo) Actual Bool=false Prob=0.14185106490048777 Output=-2.0720728452786084 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.418510649004878 */
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #19, null' and covering 156,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,968, precision = 0,999, and F1 = 0,984 - learned after 23 total and 14 acceptable nodes.  Node score = -6.803728712803283
+
+ FOR faculty(D) IF (has(D, length)) THEN output = -0,077876 ELSE output = -0,091821;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.14185106490048777 Output=-1.4306901856490521 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.012001510733135 */
+      /* FALSE NEG: faculty(httpwwwmautexasedu) Actual Bool=false Prob=0.14185106490048777 Output=-0.7858791824787185 */
+      /* FALSE NEG: faculty(httpwwwarlututexaseduitgwwwhomehtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.418510649004878 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.418510649004878 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #20, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #0, (-Infinity, 0.05], from 'outerLoop #20, null' and covering 7,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,043, precision = 0,986, and F1 = 0,083 - learned after 46 total and 37 acceptable nodes.  Node score = -6.4319778865623505
+
+ FOR faculty(D) IF (has(D, solv)) THEN output = 0,148057 ELSE output = -0,088460;
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #20, null' and covering 15,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,093, precision = 0,993, and F1 = 0,170 - learned after 28 total and 19 acceptable nodes.  Node score = -6.644922940481663
+
+ FOR faculty(D) IF (has(D, fall)) THEN output = 0,020668 ELSE output = -0,088332;
+
+// Best in (weighted) recall bin #2, (0.1, 0.15], from 'outerLoop #20, null' and covering 20,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,124, precision = 0,995, and F1 = 0,221 - learned after 40 total and 31 acceptable nodes.  Node score = -6.724833295733501
+
+ FOR faculty(D) IF (has(D, mathemat)) THEN output = -0,018364 ELSE output = -0,086661;
+
+// Best in (weighted) recall bin #3, (0.15, 0.2], from 'outerLoop #20, null' and covering 25,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,155, precision = 0,996, and F1 = 0,269 - learned after 21 total and 12 acceptable nodes.  Node score = -6.715829343810725
+
+ FOR faculty(D) IF (has(D, make)) THEN output = -0,133537 ELSE output = -0,068000;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #20, null' and covering 37,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,230, precision = 0,997, and F1 = 0,373 - learned after 34 total and 25 acceptable nodes.  Node score = -6.755507956537559
+
+ FOR faculty(D) IF (has(D, dec)) THEN output = -0,110767 ELSE output = -0,068452;
+
+// Best in (weighted) recall bin #5, (0.25, 0.3], from 'outerLoop #20, null' and covering 48,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,298, precision = 0,998, and F1 = 0,459 - learned after 31 total and 22 acceptable nodes.  Node score = -6.6692027242977945
+
+ FOR faculty(D) IF (has(D, student)) THEN output = -0,122988 ELSE output = -0,059142;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #20, null' and covering 49,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,304, precision = 0,998, and F1 = 0,466 - learned after 60 total and 49 acceptable nodes.  Node score = -6.596965924632231
+
+ FOR faculty(D) IF (linkto(Anon14167, D), has(Anon14167, Anon14395)) THEN output = -0,000431 ELSE output = -0,097419;
+
+// Best in (weighted) recall bin #10, (0.5, 0.55], from 'outerLoop #20, null' and covering 88,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,546, precision = 0,999, and F1 = 0,706 - learned after 24 total and 15 acceptable nodes.  Node score = -6.802273078925044
+
+ FOR faculty(D) IF (has(D, page)) THEN output = -0,073491 ELSE output = -0,083825;
+
+// Best in (weighted) recall bin #12, (0.6, 0.65], from 'outerLoop #20, null' and covering 101,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,627, precision = 0,999, and F1 = 0,770 - learned after 38 total and 29 acceptable nodes.  Node score = -6.795529407095032
+
+ FOR faculty(D) IF (has(D, utexa)) THEN output = -0,084549 ELSE output = -0,067450;
+
+// Best in (weighted) recall bin #15, (0.75, 0.8], from 'outerLoop #20, null' and covering 121,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,751, precision = 0,999, and F1 = 0,858 - learned after 4 total and 1 acceptable nodes.  Node score = -6.700166634142015
+
+ FOR faculty(D) IF (has(D, mondai)) THEN output = -0,063398 ELSE output = -0,122881;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #20, null' and covering 153,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,950, precision = 0,999, and F1 = 0,974 - learned after 29 total and 20 acceptable nodes.  Node score = -6.793468425647667
+
+ FOR faculty(D) IF (has(D, modifi)) THEN output = -0,076117 ELSE output = -0,117572;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.14185106490048777 Output=-1.4306901856490521 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.012001510733135 */
+      /* FALSE NEG: faculty(httpwwwcsutexaseduusersUTCSvisitorscgishowlist) Actual Bool=false Prob=0.14185106490048777 Output=-1.2744694676822077 */
+      /* FALSE NEG: faculty(httpwwwcsutexaseduusersnovakcgixgcldemo) Actual Bool=false Prob=0.14185106490048777 Output=-2.0720728452786084 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.418510649004878 */
+
+// Best in (weighted) recall bin #19, (0.95, 1.01], from 'outerLoop #20, null' and covering 156,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,968, precision = 0,999, and F1 = 0,984 - learned after 32 total and 23 acceptable nodes.  Node score = -6.805597022362596
+
+ FOR faculty(D) IF (has(D, length)) THEN output = -0,077745 ELSE output = -0,091648;
+      /* FALSE NEG: faculty(httpwwwarlututexaseduatc) Actual Bool=false Prob=0.14185106490048777 Output=-1.4306901856490521 */
+      /* FALSE NEG: faculty(httpwwwmautexaseduusersbshultsATPbledsoestudshtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.012001510733135 */
+      /* FALSE NEG: faculty(httpwwwmautexasedu) Actual Bool=false Prob=0.14185106490048777 Output=-0.7858791824787185 */
+      /* FALSE NEG: faculty(httpwwwarlututexaseduitgwwwhomehtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.418510649004878 */
+      /* FALSE NEG: faculty(httpwwwhostccutexasedutexasregisteredhtml) Actual Bool=false Prob=0.14185106490048777 Output=-1.418510649004878 */
+

@@ -1,0 +1,61 @@
+Log stream opened: C:\Users\MSI\Documents\code\BoostSRL/datasets/SmokeGen//sample_log.txt
+
+SmokeSample main
+Current directory: C:\Users\MSI\Documents\code\BoostSRL
+Dataset path: /datasets/SmokeGen/
+
+Create Full Dataset
+
+Reading Dataset... done!
+
+Dataset loaded!
+Person constants: 100
+Smokes ground atoms: 25
+NotSmokes ground atoms: 0
+Cancer ground atoms: 0
+NotCancer ground atoms: 0
+Friends ground atoms: 1206
+
+Write Dataset
+Data prefix: test
+Writing 'test_facts.txt' file... done!
+Writing 'test_pos.txt' file... done!
+Writing 'test_neg.txt' file... done!
+
+Sample Dataset
+Sample person: 0.35
+
+Sampling constants... done!
+Adding relevant constants and ground atoms... done!
+
+Sample Dataset created!
+Person constants: 35/100
+Smokes ground atoms: 6/25
+NotSmokes ground atoms: 0/0
+Cancer ground atoms: 0/0
+NotCancer ground atoms: 0/0
+Friends ground atoms: 162/1206
+
+Write Dataset
+Data prefix: train
+Writing 'train_facts.txt' file... done!
+Writing 'train_pos.txt' file... done!
+Writing 'train_neg.txt' file... done!
+
+Create full Graph
+Creating 100 Person nodes
+Creating 1206 Friends edges
+Writing 'full_graph.dot' file... done!
+
+Create sample Graph
+Creating 35 Person nodes
+Creating 162 Friends edges
+Writing 'sample_graph.dot' file... done!
+
+Create combined Graph
+Creating 100 Person nodes
+Creating 1206 Friends edges
+Writing 'combined_graph.dot' file... done!
+
+Exiting main...
+Log stream closing...

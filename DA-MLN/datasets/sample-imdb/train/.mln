@@ -1,0 +1,4 @@
+-0,7233 movie(_, a) v !female(a) /*  */
+0,3422 movie(a, b) v !workedunder(c, b) v !recursive_movie(a, c) /*  */
+-0,1250 movie(_, a) v !workedunder(a, _) /*  */
+3,8681 movie(a, b) v !workedunder(b, c) v !recursive_movie(a, c) /*  */

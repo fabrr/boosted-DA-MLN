@@ -1,0 +1,1568 @@
+% Running on host: DESKTOP-0S2LA4F
+
+% Creating string handler #1.
+
+
+% Switching to VarIndicator = uppercase.
+
+% Unset'ing VarIndicator.
+
+% Switching to VarIndicator = questionMarks.
+
+% getInputArgWithDefaultValue: args=[datasets\Cora\train/train_pos.txt, datasets\Cora\train/train_neg.txt, datasets\Cora\train/train_bk.txt, datasets\Cora\train/train_facts.txt, null]
+%  for N=0: args[N]=datasets\Cora\train/train_pos.txt
+
+% getInputArgWithDefaultValue: args=[datasets\Cora\train/train_pos.txt, datasets\Cora\train/train_neg.txt, datasets\Cora\train/train_bk.txt, datasets\Cora\train/train_facts.txt, null]
+%  for N=1: args[N]=datasets\Cora\train/train_neg.txt
+
+% getInputArgWithDefaultValue: args=[datasets\Cora\train/train_pos.txt, datasets\Cora\train/train_neg.txt, datasets\Cora\train/train_bk.txt, datasets\Cora\train/train_facts.txt, null]
+%  for N=2: args[N]=datasets\Cora\train/train_bk.txt
+
+% getInputArgWithDefaultValue: args=[datasets\Cora\train/train_pos.txt, datasets\Cora\train/train_neg.txt, datasets\Cora\train/train_bk.txt, datasets\Cora\train/train_facts.txt, null]
+%  for N=3: args[N]=datasets\Cora\train/train_facts.txt
+
+% Welcome to the WILL ILP/SRL systems.
+
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+% Reading background theory from dir: null
+% Load '../cora_bk.txt'.
+
+% Switching to standard-logic notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = lowercase.
+
+% Switching to Prolog notation for variables; previous setting = lowercase
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+
+%  Read the facts.
+%  Have read 6.541 facts.
+
+%  LearnOneClause initialized.
+% Have read 35.008 examples from 'datasets\Cora\train' [datasets\Cora\train/train*].
+% Have read 27.709 examples from 'datasets\Cora\train' [datasets\Cora\train/train*].
+
+% NEW target:                 sameauthor(?a, ?b)
+%  targetPred:                sameauthor/2
+%  targetArgTypes:            signature = [Const, Const], types = [+auth, +auth]
+%  targets:                   [sameauthor(?a, ?b)]
+%  targetPredicates:          [sameauthor/2, samebib/2, sametitle/2, samevenue/2]
+%  targetArgSpecs:            [[?a[+auth], ?b[+auth]]]
+%  variablesInTargets:        [[?a, ?b]]
+
+% NEW target:                 samebib(?c, ?d)
+%  targetPred:                samebib/2
+%  targetArgTypes:            signature = [Const, Const], types = [+paper, +paper]
+%  targets:                   [sameauthor(?a, ?b), samebib(?c, ?d)]
+%  targetPredicates:          [sameauthor/2, samebib/2, sametitle/2, samevenue/2]
+%  targetArgSpecs:            [[?a[+auth], ?b[+auth]], [?c[+paper], ?d[+paper]]]
+%  variablesInTargets:        [[?a, ?b], [?c, ?d]]
+
+% NEW target:                 sametitle(?e, ?f)
+%  targetPred:                sametitle/2
+%  targetArgTypes:            signature = [Const, Const], types = [+title, +title]
+%  targets:                   [sameauthor(?a, ?b), samebib(?c, ?d), sametitle(?e, ?f)]
+%  targetPredicates:          [sameauthor/2, samebib/2, sametitle/2, samevenue/2]
+%  targetArgSpecs:            [[?a[+auth], ?b[+auth]], [?c[+paper], ?d[+paper]], [?e[+title], ?f[+title]]]
+%  variablesInTargets:        [[?a, ?b], [?c, ?d], [?e, ?f]]
+
+% NEW target:                 samevenue(?g, ?h)
+%  targetPred:                samevenue/2
+%  targetArgTypes:            signature = [Const, Const], types = [+venue, +venue]
+%  targets:                   [sameauthor(?a, ?b), samebib(?c, ?d), sametitle(?e, ?f), samevenue(?g, ?h)]
+%  targetPredicates:          [sameauthor/2, samebib/2, sametitle/2, samevenue/2]
+%  targetArgSpecs:            [[?a[+auth], ?b[+auth]], [?c[+paper], ?d[+paper]], [?e[+title], ?f[+title]], [?g[+venue], ?h[+venue]]]
+%  variablesInTargets:        [[?a, ?b], [?c, ?d], [?e, ?f], [?g, ?h]]
+
+% Started collecting constants
+
+% Collecting the types of constants.
+
+% Looking at the training examples to see if any types of new constants can be inferred.
+% Time to collect constants: 276 milliseconds
+% Time to collect examples: 0 seconds
+
+% Read 35.008 pos examples and 27.709 neg examples.
+% Time to init learnOneClause: 1 seconds
+
+% 'models/domain_size.txt' saved.
+File: datasets\Cora\train/advice.txt doesnt exist.Hence no advice loaded
+% Learning 1 trees in this iteration for sametitle
+
+% Learn model for: sametitle
+% Kept 661 of the 661 positive examples.
+% Kept 714 of the 714 negative examples.
+% Dataset size: 1.375
+Computing probabilities
+prob time:16 milliseconds
+No hidden examples for : sametitle
+Time to build dataset: 21 milliseconds
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% Have these 10 positive seeds: 111 119 255 421 452 556 612 621 720 768
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% LearnOneClause Parameters:
+%   Targets (12):
+%    samebib(+paper, +paper),
+%    samebib(+paper, -paper),
+%    samebib(-paper, +paper),
+%    sametitle(+title, +title),
+%    sametitle(+title, -title),
+%    sametitle(-title, +title),
+%    samevenue(+venue, +venue),
+%    samevenue(+venue, -venue),
+%    samevenue(-venue, +venue),
+%    sameauthor(+auth, +auth),
+%    sameauthor(+auth, -auth),
+%    sameauthor(-auth, +auth)
+%  Modes (29):
+%    author(+paper, -auth),
+%    author(-paper, +auth),
+%    haswordauthor(+auth, -word),
+%    haswordauthor(-auth, +word),
+%    haswordtitle(+title, -word),
+%    haswordtitle(-title, +word),
+%    haswordvenue(+venue, -word),
+%    haswordvenue(-venue, +word),
+%    title(+paper, -title),
+%    title(-paper, +title),
+%    venue(+paper, -venue),
+%    venue(-paper, +venue),
+%    recursive_samebib(+paper, `paper),
+%    recursive_samebib(`paper, +paper),
+%    recursive_sametitle(+title, `title),
+%    recursive_sametitle(`title, +title),
+%    recursive_samevenue(+venue, `venue),
+%    recursive_samevenue(`venue, +venue),
+%    recursive_sameauthor(+auth, `auth),
+%    recursive_sameauthor(`auth, +auth),
+%    sameauthor(+auth, +auth),
+%    sameauthor(+auth, -auth),
+%    sameauthor(-auth, +auth),
+%    samebib(+paper, +paper),
+%    samebib(+paper, -paper),
+%    samebib(-paper, +paper),
+%    samevenue(+venue, +venue),
+%    samevenue(+venue, -venue),
+%    samevenue(-venue, +venue)
+
+% target           = sametitle(E, E)
+%     Score = -276,782161 (regressionFit = 276,782161, penalties=1.0E-8) for clause:  sametitle(A, A).  [covers 209,0/1.375,0 pos, 0,0/0,0 neg]
+% Unacceptable due to being the root node.
+% New min-general root: sametitle(A, A).  [covers 209,0/1.375,0 pos, 0,0/0,0 neg]  score = -276,782
+
+% target           = sametitle(E, E)
+% New min-general root: sametitle(A, A).  [covers 209,0/1.375,0 pos, 0,0/0,0 neg]  score = NaN
+
+% target           = sametitle(E, E)
+% New min-general root: sametitle(A, A).  [covers 209,0/1.375,0 pos, 0,0/0,0 neg]  score = NaN
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #1, bodyLen=0] 'sametitle(A, A).  [covers 209,0/1.375,0 pos, 0,0/0,0 neg]' score=-276.78216124499136
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 0:  Building full index for haswordtitle/2.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 1:  Building full index for title/2.
+%  At # nodes expanded = 1, |OPEN| = 1.  Pruned 0 variant children.  Sending 2 items to OPEN for evaluation and possible insertion.
+% Have created 2 valid-on-seeds descendants.
+%     Score = -312,761182 (regressionFit = 312,761181, penalties=1.12E-6) for clause:  sametitle(A, A) :- haswordtitle(A, _).  [covers 209,0/1.375,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -312,761182): sametitle(A, A) :- haswordtitle(A, _).  [covers 209,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -394,501434 (regressionFit = 394,501433, penalties=1.12E-6) for clause:  sametitle(A, A) :- title(_, A).  [covers 209,0/1.375,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#2 of outerLoop #1, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 2, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: sametitle(A, A) :- haswordtitle(A, _).  [covers 209,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: sametitle(A, A) :- haswordtitle(A, _).  [covers 209,0/1.375,0 pos, 0,0/0,0 neg]
+Setting 0.12065567671625006 for 
+ // Learned this clause on outer loop cycle #1.  It scores=-312,76 and has recall=0,15, precision=1,00, and F1=0,26 (using m-estimates).
+ // It covers 15,2% of the positive examples, 209 of 1375,
+(sametitle(E, E) :- haswordtitle(E, Anon89))
+
+% On cycle #1, the best clause found is:
+%      sametitle(A, A) :- haswordtitle(A, _).  [covers 209,0/1.375,0 pos, 0,0/0,0 neg]
+% This clause covers 209 positive examples, of which 209 are newly covered.
+% It also covers 0 negative examples, of which 0 are newly covered.
+% The current set of 1 best clauses covers 15,2% of the positive examples and NaN% of the negatives.}
+
+% Have these 6 positive seeds: 147 177 231 449 960 1021
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #2, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 5 66 104 335 461 559 610 714 729 782
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #3, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 19 365 444 582 602 826 890 892 894 914
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #4, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 62 211 392 580 632 672 901 1029 1049 1110
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #5, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 22 300 373 746 776 814 941 942 1093 1212
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #6, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 69 194 237 239 331 586 764 768 907 1323
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #7, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 197 476 540 871 897 902 1080 1124 1144 1188
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #8, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 10 48 229 235 602 671 807 909 921 1003
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #9, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 125 136 195 717 766 800 817 889 943 1007
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #10, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 84 375 388 396 454 522 721 759 844 1006
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #11, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 5 positive seeds: 250 252 317 437 828
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #12, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 9 positive seeds: 75 103 282 525 528 723 882 956 1202
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #13, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 102 292 445 503 545 822 883 893 1100 1179
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #14, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 72 105 177 243 486 608 746 893 947 977
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #15, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 136 192 362 366 439 595 885 924 1021 1028
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #16, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 27 386 579 621 863 889 894 920 1005 1216
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #17, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 150 276 412 675 692 705 870 896 959 984
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #18, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 88 95 183 485 586 750 821 1031 1201 1249
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #19, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 8 positive seeds: 96 198 428 461 536 644 927 1092
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #20, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% ******************************************
+
+% Have stopped ILP's outer loop because have reached the maximum number of iterations (20).
+
+% ******************************************
+adding regression values
+Added 0.12065567671625006 to wgt = 0,1207 (sametitle(A, A) :- haswordtitle(A, _))
+% Saving model in: datasets\Cora\train/models/bRDNs/sametitle.model.ckpt
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% Have these 8 positive seeds: 132 316 359 456 468 796 1241 1344
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, E)
+%     Score = -276,782161 (regressionFit = 276,782161, penalties=1.0E-8) for clause:  sametitle(A, A).  [covers 209,0/1.375,0 pos, 0,0/0,0 neg]
+% Unacceptable due to being the root node.
+% New min-general root: sametitle(A, A).  [covers 209,0/1.375,0 pos, 0,0/0,0 neg]  score = -276,782
+
+% target           = sametitle(E, E)
+% New min-general root: sametitle(A, A).  [covers 209,0/1.375,0 pos, 0,0/0,0 neg]  score = NaN
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #1, bodyLen=0] 'sametitle(A, A).  [covers 209,0/1.375,0 pos, 0,0/0,0 neg]' score=-276.78216124499016
+%  At # nodes expanded = 1, |OPEN| = 1.  Pruned 0 variant children.  Sending 2 items to OPEN for evaluation and possible insertion.
+% Have created 2 valid-on-seeds descendants.
+%     Score = -303,355133 (regressionFit = 303,355131, penalties=1.12E-6) for clause:  sametitle(A, A) :- haswordtitle(A, _).  [covers 209,0/1.375,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -303,355133): sametitle(A, A) :- haswordtitle(A, _).  [covers 209,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -363,725907 (regressionFit = 363,725906, penalties=1.12E-6) for clause:  sametitle(A, A) :- title(_, A).  [covers 209,0/1.375,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#2 of outerLoop #1, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 2, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: sametitle(A, A) :- haswordtitle(A, _).  [covers 209,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: sametitle(A, A) :- haswordtitle(A, _).  [covers 209,0/1.375,0 pos, 0,0/0,0 neg]
+Setting 0.10369149750629998 for 
+ // Learned this clause on outer loop cycle #1.  It scores=-303,36 and has recall=0,15, precision=1,00, and F1=0,26 (using m-estimates).
+ // It covers 15,2% of the positive examples, 209 of 1375,
+(sametitle(E, E) :- haswordtitle(E, Anon1845))
+
+% On cycle #1, the best clause found is:
+%      sametitle(A, A) :- haswordtitle(A, _).  [covers 209,0/1.375,0 pos, 0,0/0,0 neg]
+% This clause covers 209 positive examples, of which 209 are newly covered.
+% It also covers 0 negative examples, of which 0 are newly covered.
+% The current set of 1 best clauses covers 15,2% of the positive examples and NaN% of the negatives.}
+
+% Have these 10 positive seeds: 72 100 116 309 618 667 1059 1105 1280 1319
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #2, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 9 positive seeds: 156 243 308 546 1080 1114 1163 1177 1236
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #3, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 117 122 214 269 346 392 619 656 843 845
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #4, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 9 positive seeds: 300 607 619 658 728 844 973 1104 1326
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #5, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 103 139 276 400 460 563 580 615 659 664
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #6, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 7 positive seeds: 26 608 835 920 1165 1196 1269
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #7, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 7 98 294 579 718 769 786 942 1013 1023
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #8, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 6 positive seeds: 359 750 765 1224 1225 1289
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #9, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 77 102 139 237 338 549 591 916 1098 1143
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #10, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 6 positive seeds: 517 780 798 907 953 1199
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #11, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 38 139 214 254 424 540 562 749 751 844
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #12, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 9 positive seeds: 172 179 807 832 840 870 954 1074 1171
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #13, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 40 258 413 521 657 724 845 883 892 926
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #14, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 7 positive seeds: 48 255 533 918 1104 1166 1348
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #15, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 102 293 654 674 718 790 793 802 1137 1170
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #16, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 30 214 251 440 449 767 817 898 907 1022
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #17, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 6 positive seeds: 375 614 706 1120 1140 1370
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #18, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 32 127 191 299 507 736 831 892 1188 1276
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #19, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 97 264 286 464 698 768 996 998 1165 1274
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = sametitle(E, F)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+% Most-general root: sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #20, bodyLen=0] 'sametitle(_, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- haswordtitle(A, _).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(A, _) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  sametitle(_, A) :- title(_, A).  [covers 1.375,0/1.375,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% ******************************************
+
+% Have stopped ILP's outer loop because have reached the maximum number of iterations (20).
+
+% ******************************************
+adding regression values
+Added 0.10369149750629998 to wgt = 0,1037 (sametitle(A, A) :- haswordtitle(A, _))
+% Learning 1 trees in this iteration for samebib
+
+% Learn model for: samebib
+% Kept 30.971 of the 30.971 positive examples.
+% Kept 21.952 of the 21.952 negative examples.
+% Dataset size: 52.923
+Computing probabilities
+prob time:3 seconds
+No hidden examples for : samebib
+Time to build dataset: 4 seconds
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% Have these 10 positive seeds: 3959 7115 11672 14716 16070 16722 22005 24696 25408 25819
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = samebib(C, D)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+% Most-general root: samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #1, bodyLen=0] 'samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]' score=-Infinity
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 0:  Building full index for author/2.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 0:  Building full index for title/2.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 0:  Building full index for venue/2.
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 6 items to OPEN for evaluation and possible insertion.
+% Have created 6 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 2634 30651 32595 33192 33326 39543 40149 40635 43339 43612
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = samebib(C, D)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+% Most-general root: samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #2, bodyLen=0] 'samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 6 items to OPEN for evaluation and possible insertion.
+% Have created 6 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 5777 7501 10219 17500 17817 18242 19853 20548 33348 37582
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = samebib(C, D)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+% Most-general root: samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #3, bodyLen=0] 'samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 6 items to OPEN for evaluation and possible insertion.
+% Have created 6 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 9105 12130 14016 20615 27524 40443 46638 47815 49905 51053
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = samebib(C, C)
+%     Score = -12.618,105524 (regressionFit = 12.618,105524, penalties=1.0E-8) for clause:  samebib(A, A).  [covers 1.295,0/52.923,0 pos, 0,0/0,0 neg]
+% Unacceptable due to being the root node.
+% New min-general root: samebib(A, A).  [covers 1.295,0/52.923,0 pos, 0,0/0,0 neg]  score = -12.618,106
+
+% target           = samebib(C, D)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+% Most-general root: samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #4, bodyLen=0] 'samebib(A, A).  [covers 1.295,0/52.923,0 pos, 0,0/0,0 neg]' score=-12618.105524163666
+%  At # nodes expanded = 1, |OPEN| = 1.  Pruned 0 variant children.  Sending 3 items to OPEN for evaluation and possible insertion.
+% Have created 3 valid-on-seeds descendants.
+%     Score = -12.618,105525 (regressionFit = 12.618,105524, penalties=1.12E-6) for clause:  samebib(A, A) :- author(A, _).  [covers 1.295,0/52.923,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -12.618,105525): samebib(A, A) :- author(A, _).  [covers 1.295,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -12.618,105525 (regressionFit = 12.618,105524, penalties=1.12E-6) for clause:  samebib(A, A) :- title(A, _).  [covers 1.295,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -12.618,839675 (regressionFit = 12.618,839674, penalties=1.12E-6) for clause:  samebib(A, A) :- venue(A, _).  [covers 1.295,0/52.923,0 pos, 0,0/0,0 neg]
+
+% Consider expanding [#2 of outerLoop #4, bodyLen=0] 'samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 2, |OPEN| = 0.  Pruned 0 variant children.  Sending 6 items to OPEN for evaluation and possible insertion.
+% Have created 6 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+
+% The best node found: samebib(A, A) :- author(A, _).  [covers 1.295,0/52.923,0 pos, 0,0/0,0 neg]
+
+% The best node found: samebib(A, A) :- author(A, _).  [covers 1.295,0/52.923,0 pos, 0,0/0,0 neg]
+Setting 0.8581489350995074 for 
+ // Learned this clause on outer loop cycle #4.  It scores=-12.618,11 and has recall=0,02, precision=1,00, and F1=0,05 (using m-estimates).
+ // It covers 2,4% of the positive examples, 1295 of 52923,
+ // So far 1295 (2,4%) of the positive examples have been covered.
+(samebib(C, C) :- author(C, Anon3929))
+
+% On cycle #4, the best clause found is:
+%      samebib(A, A) :- author(A, _).  [covers 1.295,0/52.923,0 pos, 0,0/0,0 neg]
+% This clause covers 1295 positive examples, of which 1295 are newly covered.
+% It also covers 0 negative examples, of which 0 are newly covered.
+% The current set of 1 best clauses covers 2,4% of the positive examples and NaN% of the negatives.}
+
+% Have these 10 positive seeds: 2984 3782 10618 11606 13108 23318 45932 48586 48693 50558
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = samebib(C, D)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+% Most-general root: samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #5, bodyLen=0] 'samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 6 items to OPEN for evaluation and possible insertion.
+% Have created 6 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 7 positive seeds: 23652 26634 28814 37828 38217 41132 46888
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = samebib(C, D)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+% Most-general root: samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #6, bodyLen=0] 'samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 6 items to OPEN for evaluation and possible insertion.
+% Have created 6 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 1130 1427 3101 10641 14020 16794 17335 20001 29264 30974
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = samebib(C, D)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+% Most-general root: samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #7, bodyLen=0] 'samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 6 items to OPEN for evaluation and possible insertion.
+% Have created 6 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 8 positive seeds: 600 3452 8391 23534 30579 31637 42589 52169
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = samebib(C, D)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+% Most-general root: samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #8, bodyLen=0] 'samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 6 items to OPEN for evaluation and possible insertion.
+% Have created 6 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 3026 3479 4066 15319 23898 25228 27405 29062 30735 31092
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = samebib(C, D)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+% Most-general root: samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #9, bodyLen=0] 'samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 6 items to OPEN for evaluation and possible insertion.
+% Have created 6 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 5896 7526 11483 24106 30990 30992 33416 33756 41208 47689
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = samebib(C, D)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+% Most-general root: samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #10, bodyLen=0] 'samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 6 items to OPEN for evaluation and possible insertion.
+% Have created 6 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 1031 9871 11994 12197 15344 17602 20631 23514 24218 34447
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = samebib(C, D)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+% Most-general root: samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #11, bodyLen=0] 'samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 6 items to OPEN for evaluation and possible insertion.
+% Have created 6 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 7 positive seeds: 19010 22277 24611 26588 29786 32695 50405
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = samebib(C, D)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+% Most-general root: samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #12, bodyLen=0] 'samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 6 items to OPEN for evaluation and possible insertion.
+% Have created 6 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 4 positive seeds: 14469 19162 35436 42169
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = samebib(C, D)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+% Most-general root: samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #13, bodyLen=0] 'samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 6 items to OPEN for evaluation and possible insertion.
+% Have created 6 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 722 14628 21388 27334 31071 35373 43712 44326 48169 49061
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = samebib(C, D)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+% Most-general root: samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #14, bodyLen=0] 'samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 6 items to OPEN for evaluation and possible insertion.
+% Have created 6 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 8 positive seeds: 3331 20744 23724 35793 36401 37324 43902 48798
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = samebib(C, D)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+% Most-general root: samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #15, bodyLen=0] 'samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 6 items to OPEN for evaluation and possible insertion.
+% Have created 6 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 1075 8707 14424 21608 21796 28119 28313 29046 37347 37788
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = samebib(C, D)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+% Most-general root: samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #16, bodyLen=0] 'samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 6 items to OPEN for evaluation and possible insertion.
+% Have created 6 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 472 1359 2777 9843 18147 20177 24356 33401 37727 38473
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = samebib(C, D)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+% Most-general root: samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #17, bodyLen=0] 'samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 6 items to OPEN for evaluation and possible insertion.
+% Have created 6 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 5246 21186 25763 27832 29479 29765 33998 36562 44682 44909
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = samebib(C, D)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+% Most-general root: samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #18, bodyLen=0] 'samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 6 items to OPEN for evaluation and possible insertion.
+% Have created 6 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 2622 2824 8544 12121 14628 14807 17178 20585 31095 35265
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = samebib(C, D)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+% Most-general root: samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #19, bodyLen=0] 'samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 6 items to OPEN for evaluation and possible insertion.
+% Have created 6 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% Have these 10 positive seeds: 7713 10645 16448 24796 26956 30799 31815 37982 40692 43735
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = samebib(C, D)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+% Most-general root: samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #20, bodyLen=0] 'samebib(_, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 6 items to OPEN for evaluation and possible insertion.
+% Have created 6 valid-on-seeds descendants.
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- author(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- title(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(A, _) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  samebib(_, A) :- venue(A, _).  [covers 52.923,0/52.923,0 pos, 0,0/0,0 neg]
+
+% The best node found: null
+
+% No acceptable clause was learned on this cycle of the ILP inner loop (LearnOneClause).
+% The closest-to-acceptable node found (score = -Infinity):
+%  null
+
+% ******************************************
+
+% Have stopped ILP's outer loop because have reached the maximum number of iterations (20).
+
+% ******************************************
+adding regression values
+Added 0.8581489350995074 to wgt = 0,8581 (samebib(A, A) :- author(A, _))
+% Saving model in: datasets\Cora\train/models/bRDNs/samebib.model.ckpt
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% Have these 10 positive seeds: 68 351 416 473 650 691 701 702 714 839
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.

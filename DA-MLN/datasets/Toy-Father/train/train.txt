@@ -1,0 +1,87 @@
+% Running on host: DESKTOP-0S2LA4F
+
+% Creating string handler #1.
+
+
+% Switching to VarIndicator = uppercase.
+
+% Unset'ing VarIndicator.
+
+% Switching to VarIndicator = questionMarks.
+
+% getInputArgWithDefaultValue: args=[datasets\Toy-Father\train/train_pos.txt, datasets\Toy-Father\train/train_neg.txt, datasets\Toy-Father\train/train_bk.txt, datasets\Toy-Father\train/train_facts.txt, null]
+%  for N=0: args[N]=datasets\Toy-Father\train/train_pos.txt
+
+% getInputArgWithDefaultValue: args=[datasets\Toy-Father\train/train_pos.txt, datasets\Toy-Father\train/train_neg.txt, datasets\Toy-Father\train/train_bk.txt, datasets\Toy-Father\train/train_facts.txt, null]
+%  for N=1: args[N]=datasets\Toy-Father\train/train_neg.txt
+
+% getInputArgWithDefaultValue: args=[datasets\Toy-Father\train/train_pos.txt, datasets\Toy-Father\train/train_neg.txt, datasets\Toy-Father\train/train_bk.txt, datasets\Toy-Father\train/train_facts.txt, null]
+%  for N=2: args[N]=datasets\Toy-Father\train/train_bk.txt
+
+% getInputArgWithDefaultValue: args=[datasets\Toy-Father\train/train_pos.txt, datasets\Toy-Father\train/train_neg.txt, datasets\Toy-Father\train/train_bk.txt, datasets\Toy-Father\train/train_facts.txt, null]
+%  for N=3: args[N]=datasets\Toy-Father\train/train_facts.txt
+
+% Welcome to the WILL ILP/SRL systems.
+
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+% Reading background theory from dir: null
+% Load '../background.txt'.
+% LoadAllModes() called.  Currently loaded modes: []
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+% LoadAllLibraries() called.  Currently loaded libraries: [listsInLogic, differentInLogic, modes_arithmeticInLogic, inlines_comparisonInLogic, modes_listsInLogic, inlines_differentInLogic, modes_differentInLogic, arithmeticInLogic, inlines_listsInLogic, modes_comparisonInLogic, comparisonInLogic, inlines_arithmeticInLogic]
+
+%  Read the facts.
+%  Have read 41 facts.
+
+%  LearnOneClause initialized.
+% Have read 5 examples from 'datasets\Toy-Father\train' [datasets\Toy-Father\train/train*].
+% Have read 21 examples from 'datasets\Toy-Father\train' [datasets\Toy-Father\train/train*].
+
+% NEW target:                 father(?a, ?b)
+%  targetPred:                father/2
+%  targetArgTypes:            signature = [Const, Const], types = [+name, +name]
+%  targets:                   [father(?a, ?b)]
+%  targetPredicates:          [father/2]
+%  targetArgSpecs:            [[?a[+name], ?b[+name]]]
+%  variablesInTargets:        [[?a, ?b]]
+
+% Started collecting constants
+
+% Collecting the types of constants.
+
+% Looking at the training examples to see if any types of new constants can be inferred.
+% Time to collect constants: 3 milliseconds
+% Time to collect examples: 0 seconds
+
+% Read 5 pos examples and 21 neg examples.
+% Time to init learnOneClause: 7 milliseconds
+
+% 'models/domain_size.txt' saved.
+
+% Total learning time (10 trees): 5,530 seconds.

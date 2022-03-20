@@ -1,0 +1,325 @@
+% Running on host: DESKTOP-0S2LA4F
+
+% Creating string handler #1.
+
+
+% Switching to VarIndicator = uppercase.
+
+% Unset'ing VarIndicator.
+
+% Switching to VarIndicator = questionMarks.
+
+% getInputArgWithDefaultValue: args=[datasets\WebKB\test/test_pos.txt, datasets\WebKB\test/test_neg.txt, datasets\WebKB\test/test_bk.txt, datasets\WebKB\test/test_facts.txt, null]
+%  for N=0: args[N]=datasets\WebKB\test/test_pos.txt
+
+% getInputArgWithDefaultValue: args=[datasets\WebKB\test/test_pos.txt, datasets\WebKB\test/test_neg.txt, datasets\WebKB\test/test_bk.txt, datasets\WebKB\test/test_facts.txt, null]
+%  for N=1: args[N]=datasets\WebKB\test/test_neg.txt
+
+% getInputArgWithDefaultValue: args=[datasets\WebKB\test/test_pos.txt, datasets\WebKB\test/test_neg.txt, datasets\WebKB\test/test_bk.txt, datasets\WebKB\test/test_facts.txt, null]
+%  for N=2: args[N]=datasets\WebKB\test/test_bk.txt
+
+% getInputArgWithDefaultValue: args=[datasets\WebKB\test/test_pos.txt, datasets\WebKB\test/test_neg.txt, datasets\WebKB\test/test_bk.txt, datasets\WebKB\test/test_facts.txt, null]
+%  for N=3: args[N]=datasets\WebKB\test/test_facts.txt
+
+% Welcome to the WILL ILP/SRL systems.
+
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+% Reading background theory from dir: null
+% Load '../webkb_bk.txt'.
+% LoadAllModes() called.  Currently loaded modes: []
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+
+%  Read the facts.
+%  Have read 796 facts.
+
+%  LearnOneClause initialized.
+% Have read 0 examples from 'datasets\WebKB\test' [datasets\WebKB\test/test*].
+% Have read 0 examples from 'datasets\WebKB\test' [datasets\WebKB\test/test*].
+
+% Started collecting constants
+
+% Collecting the types of constants.
+
+% Looking at the training examples to see if any types of new constants can be inferred.
+
+***** Warning: targetPredicates=null *****
+
+
+***** Warning: targetArgSpecs=null *****
+
+% Time to collect constants: 41 milliseconds
+% Time to collect examples: 0 seconds
+
+% Read 0 pos examples and 0 neg examples.
+% Time to init learnOneClause: 46 milliseconds
+Domain sizes loaded!
+
+Train domain sizes: 
+Proj: 31
+Course: 28
+Person: 44
+
+Test domain sizes: 
+Proj: 80
+Course: 163
+Person: 438
+
+Domain size scales: 
+Proj: 2.5806451612903225
+Course: 5.821428571428571
+Person: 9.954545454545455
+
+Scaling weights...
+
+Target: faculty
+
+Tree #0
+
+Clause: (faculty(A, 0.12938609187538375) :- project(_, A))
+Connection variables: _0 (Proj), 
+Scaling factor: 2.5806451612903225, Weight: 0.12938609187538375, Scaled weight: 0.0501371106017112
+
+Clause: (faculty(A, -0.10132218921463412) :- courseta(_, A))
+Connection variables: _0 (Course), 
+Scaling factor: 5.821428571428571, Weight: -0.10132218921463412, Scaled weight: -0.01740503863809666
+
+Clause: (faculty(A, 0.26084399083482374) :- courseprof(_, A))
+Connection variables: _0 (Course), 
+Scaling factor: 5.821428571428571, Weight: 0.26084399083482374, Scaled weight: 0.044807556707822487
+
+Tree #1
+
+Clause: (faculty(A, 0.09657705116267779) :- project(_, A))
+Connection variables: _0 (Proj), 
+Scaling factor: 2.5806451612903225, Weight: 0.09657705116267779, Scaled weight: 0.03742360732553764
+
+Clause: (faculty(A, -0.08967540326705456) :- courseta(_, A))
+Connection variables: _0 (Course), 
+Scaling factor: 5.821428571428571, Weight: -0.08967540326705456, Scaled weight: -0.015404363751395875
+
+Clause: (faculty(A, 0.21497648124363394) :- courseprof(_, A))
+Connection variables: _0 (Course), 
+Scaling factor: 5.821428571428571, Weight: 0.21497648124363394, Scaled weight: 0.03692847530565491
+
+Tree #2
+
+Clause: (faculty(A, 0.06261930004423807) :- project(_, A))
+Connection variables: _0 (Proj), 
+Scaling factor: 2.5806451612903225, Weight: 0.06261930004423807, Scaled weight: 0.024264978767142256
+
+Clause: (faculty(A, -0.0804588749447747) :- courseta(_, A))
+Connection variables: _0 (Course), 
+Scaling factor: 5.821428571428571, Weight: -0.0804588749447747, Scaled weight: -0.013821156432231238
+
+Clause: (faculty(A, 0.16286551911726738) :- courseprof(_, A))
+Connection variables: _0 (Course), 
+Scaling factor: 5.821428571428571, Weight: 0.16286551911726738, Scaled weight: 0.027976898989469243
+
+Tree #3
+
+Clause: (faculty(A, 0.03767318347326741) :- project(_, A))
+Connection variables: _0 (Proj), 
+Scaling factor: 2.5806451612903225, Weight: 0.03767318347326741, Scaled weight: 0.014598358595891122
+
+Clause: (faculty(A, -0.07299544581834112) :- courseta(_, A))
+Connection variables: _0 (Course), 
+Scaling factor: 5.821428571428571, Weight: -0.07299544581834112, Scaled weight: -0.012539094987199703
+
+Clause: (faculty(A, 0.12282164076250723) :- courseprof(_, A))
+Connection variables: _0 (Course), 
+Scaling factor: 5.821428571428571, Weight: 0.12282164076250723, Scaled weight: 0.021098195959203696
+
+Tree #4
+
+Clause: (faculty(A, 0.008541870738126863) :- project(_, A), project(_, A))
+Connection variables: _0 (Proj), 
+Scaling factor: 2.5806451612903225, Weight: 0.008541870738126863, Scaled weight: 0.0033099749110241596
+
+Clause: (faculty(A, 0.09853626450635561) :- courseprof(_, A))
+Connection variables: _0 (Course), 
+Scaling factor: 5.821428571428571, Weight: 0.09853626450635561, Scaled weight: 0.016926474884527344
+
+Clause: (faculty(A, -0.06683312812650637) :- courseta(_, A))
+Connection variables: _0 (Course), 
+Scaling factor: 5.821428571428571, Weight: -0.06683312812650637, Scaled weight: -0.01148053734688453
+
+Tree #5
+
+Clause: (faculty(A, 0.00493278127612211) :- project(_, A), project(_, A))
+Connection variables: _0 (Proj), 
+Scaling factor: 2.5806451612903225, Weight: 0.00493278127612211, Scaled weight: 0.0019114527444973179
+
+Clause: (faculty(A, -0.06166068071061694) :- courseta(_, A))
+Connection variables: _0 (Course), 
+Scaling factor: 5.821428571428571, Weight: -0.06166068071061694, Scaled weight: -0.010592018772375917
+
+Clause: (faculty(A, 0.07912919211048929) :- courseprof(_, A))
+Connection variables: _0 (Course), 
+Scaling factor: 5.821428571428571, Weight: 0.07912919211048929, Scaled weight: 0.013592744657016565
+
+Tree #6
+
+Clause: (faculty(A, 0.002637170514990262) :- project(_, A), project(_, A))
+Connection variables: _0 (Proj), 
+Scaling factor: 2.5806451612903225, Weight: 0.002637170514990262, Scaled weight: 0.0010219035745587266
+
+Clause: (faculty(A, -0.05725767634187416) :- courseta(_, A))
+Connection variables: _0 (Course), 
+Scaling factor: 5.821428571428571, Weight: -0.05725767634187416, Scaled weight: -0.009835674463634826
+
+Tree #7
+
+Clause: (faculty(A, -0.005201034891268511) :- project(B, A), project(B, _))
+Connection variables: B (Proj), _1 (Person), 
+Scaling factor: 25.689149560117304, Weight: -0.005201034891268511, Scaled weight: -2.024603764751783E-4
+
+Clause: (faculty(A, -0.05346405886725831) :- courseta(_, A))
+Connection variables: _0 (Course), 
+Scaling factor: 5.821428571428571, Weight: -0.05346405886725831, Scaled weight: -0.009184010112167072
+
+Tree #8
+
+Clause: (faculty(A, -0.004996068439135757) :- project(B, A), project(B, _), project(B, _))
+Connection variables: B (Proj), _1 (Person), 
+Scaling factor: 25.689149560117304, Weight: -0.004996068439135757, Scaled weight: -1.9448165955996495E-4
+
+Clause: (faculty(A, -0.05016101303400313) :- courseta(_, A))
+Connection variables: _0 (Course), 
+Scaling factor: 5.821428571428571, Weight: -0.05016101303400313, Scaled weight: -0.008616615735902378
+
+Tree #9
+
+Clause: (faculty(A, -0.0040608170537018255) :- project(B, A), project(B, _), project(B, _))
+Connection variables: B (Proj), _1 (Person), 
+Scaling factor: 25.689149560117304, Weight: -0.0040608170537018255, Scaled weight: -1.5807518439638383E-4
+
+Clause: (faculty(A, -0.04725859591275009) :- courseta(_, A))
+Connection variables: _0 (Course), 
+Scaling factor: 5.821428571428571, Weight: -0.04725859591275009, Scaled weight: -0.008118041015687133
+
+Tree #10
+
+Clause: (faculty(A, 0.004085620342223193) :- project(_, A), project(_, A))
+Connection variables: _0 (Proj), 
+Scaling factor: 2.5806451612903225, Weight: 0.004085620342223193, Scaled weight: 0.0015831778826114874
+
+Tree #11
+
+Clause: (faculty(A, -0.0039013939899408727) :- project(B, A), project(B, _), project(B, _))
+Connection variables: B (Proj), _1 (Person), 
+Scaling factor: 25.689149560117304, Weight: -0.0039013939899408727, Scaled weight: -1.5186933225683075E-4
+
+Tree #12
+
+Clause: (faculty(A, 0.003880294638903661) :- project(_, A), project(_, A))
+Connection variables: _0 (Proj), 
+Scaling factor: 2.5806451612903225, Weight: 0.003880294638903661, Scaled weight: 0.0015036141725751687
+
+Tree #13
+
+Clause: (faculty(A, -0.0021067538846475686) :- project(B, A), project(_, A), project(B, _), project(B, _))
+Connection variables: _0 (Proj), B (Proj), _1 (Person), 
+Scaling factor: 66.29457950998014, Weight: -0.0021067538846475686, Scaled weight: -3.1778674821075125E-5
+
+Tree #14
+
+Clause: (faculty(A, -0.0016628059346352653) :- project(B, A), project(_, A), project(B, _), project(B, _))
+Connection variables: _0 (Proj), B (Proj), _1 (Person), 
+Scaling factor: 66.29457950998014, Weight: -0.0016628059346352653, Scaled weight: -2.5082079815966592E-5
+
+Tree #15
+
+Clause: (faculty(A, 0.005189093101354082) :- project(_, A), project(_, A))
+Connection variables: _0 (Proj), 
+Scaling factor: 2.5806451612903225, Weight: 0.005189093101354082, Scaled weight: 0.002010773576774707
+
+Tree #16
+
+Clause: (faculty(A, -6.196473559750996E-4) :- project(B, A), project(_, A), project(_, A), project(B, _), project(B, _))
+Connection variables: _0 (Proj), B (Proj), _1 (Person), 
+Scaling factor: 66.29457950998014, Weight: -6.196473559750996E-4, Scaled weight: -9.34687813928764E-6
+
+Tree #17
+
+Clause: (faculty(A, 0.005367747346131986) :- project(_, A), project(_, A))
+Connection variables: _0 (Proj), 
+Scaling factor: 2.5806451612903225, Weight: 0.005367747346131986, Scaled weight: 0.0020800020966261447
+
+Tree #18
+
+Clause: (faculty(A, -5.649796324606458E-4) :- project(B, A), project(_, A), project(_, A), project(B, _), project(B, _))
+Connection variables: _0 (Proj), B (Proj), _1 (Person), 
+Scaling factor: 66.29457950998014, Weight: -5.649796324606458E-4, Scaled weight: -8.522259838386824E-6
+
+Tree #19
+
+Clause: (faculty(A, 0.005393703988940872) :- project(_, A), project(_, A))
+Connection variables: _0 (Proj), 
+Scaling factor: 2.5806451612903225, Weight: 0.005393703988940872, Scaled weight: 0.0020900602957145877
+
+% for faculty |lookupPos| = 153
+% for faculty |lookupNeg| = 285
+% getJointExamples: |pos| = 153, |neg| = 285
+
+% Starting inference in bRDN.
+
+% Subsampling the negative examples.
+% Trees = 20
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 1:  Building full index for project/2.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 1:  Building full index for courseta/2.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 1:  Building full index for courseprof/2.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 0:  Building full index for project/2.
+ (Arithmetic) Mean Probability Assigned to Correct Output Class: 269,160/438,00 = 0,614521
+
+ The weighted count of positive examples = 153,000 and the weighted count of negative examples = 285,000
+
+printExamples: Writing out predictions (for Tuffy?) on 438 examples for 'faculty' to:
+  datasets\WebKB\test/results_faculty.db
+ and to:
+  datasets\WebKB\test/query_faculty.db
+%    No need to compress since small: datasets\WebKB\test/query_faculty.db
+
+% Computing Area Under Curves.
+%Pos=153
+%Neg=285
+%LL:-271.19305664791847
+%LL:-317.2155345644252
+
+% Running command: java -jar src/edu/wisc/cs/will/DataSetUtils/auc.jar datasets\WebKB\test/AUC/aucTemp.txt list 0.0
+% WAITING FOR command: java -jar src/edu/wisc/cs/will/DataSetUtils/auc.jar datasets\WebKB\test/AUC/aucTemp.txt list 0.0
+% DONE WAITING FOR command: java -jar src/edu/wisc/cs/will/DataSetUtils/auc.jar datasets\WebKB\test/AUC/aucTemp.txt list 0.0
+
+%   AUC ROC   = 0,691893
+%   AUC PR    = 0,625296
+%   CLL	      = -0,724236
+%   Precision = 0,710843 at threshold = 0,170
+%   Recall    = 0,385621
+%   F1        = 0,500000
+
+% Total inference time (20 trees): 4,131 seconds.

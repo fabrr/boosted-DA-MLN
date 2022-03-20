@@ -1,0 +1,195 @@
+
+Loading domain sizes... 
+Domain sizes loaded!
+
+Train domain sizes: 
+Word: 734
+Page: 161
+
+Test domain sizes: 
+Word: 765
+Page: 803
+
+Domain size scales: 
+Word: 1.042234332425068
+Page: 4.987577639751553
+
+Scaling weights...
+
+Target: person
+
+Tree #0
+
+Clause: (person(A, 0.597279369882121) :- has(A, tx))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.597279369882121, Scaled weight: 0.597279369882121
+
+Clause: (person(A, 0.7088290926289819) :- linkto(B, A), has(B, robert))
+Connection variables: B (Page), 
+Scaling factor: 4.987577639751553, Weight: 0.7088290926289819, Scaled weight: 0.14211890898289672
+
+Clause: (person(A, 0.6581489350995122) :- has(A, download))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.6581489350995122, Scaled weight: 0.6581489350995122
+
+Clause: (person(A, -0.5002186868297605) :- has(A, symposium))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.5002186868297605, Scaled weight: -0.5002186868297605
+
+Clause: (person(A, 0.11967078303803057) :- has(A, scienc))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.11967078303803057, Scaled weight: 0.11967078303803057
+
+Clause: (person(A, 0.0062149838574334084) :- has(A, mondai))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.0062149838574334084, Scaled weight: 0.0062149838574334084
+
+Clause: (person(A, 0.44089175716920287) :- linkto(B, A), has(B, job))
+Connection variables: B (Page), 
+Scaling factor: 4.987577639751553, Weight: 0.44089175716920287, Scaled weight: 0.088397973728819
+
+Clause: (person(A, -0.21821477391977864) :- has(A, www))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.21821477391977864, Scaled weight: -0.21821477391977864
+
+Tree #1
+
+Clause: (person(A, 0.3656565392515143) :- has(A, scienc))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.3656565392515143, Scaled weight: 0.3656565392515143
+
+Clause: (person(A, -0.28232490776624236) :- has(A, gener))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.28232490776624236, Scaled weight: -0.28232490776624236
+
+Clause: (person(A, 0.6133424990767713) :- has(A, download))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.6133424990767713, Scaled weight: 0.6133424990767713
+
+Clause: (person(A, 0.26264697028481787) :- has(A, email))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.26264697028481787, Scaled weight: 0.26264697028481787
+
+Clause: (person(A, -0.25550440323238943) :- has(A, sourc))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.25550440323238943, Scaled weight: -0.25550440323238943
+
+Clause: (person(A, 0.48779451826673376) :- has(A, true))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.48779451826673376, Scaled weight: 0.48779451826673376
+
+Clause: (person(A, -0.3373641386429598) :- has(A, answer))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.3373641386429598, Scaled weight: -0.3373641386429598
+
+Clause: (person(A, 0.02830664990172289) :- has(A, version))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.02830664990172289, Scaled weight: 0.02830664990172289
+
+Tree #2
+
+Clause: (person(A, 0.36763598136277736) :- has(A, email))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.36763598136277736, Scaled weight: 0.36763598136277736
+
+Clause: (person(A, 0.4158159704570811) :- has(A, homepag))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.4158159704570811, Scaled weight: 0.4158159704570811
+
+Clause: (person(A, 0.6638684471400819) :- linkto(B, A), has(B, don))
+Connection variables: B (Page), 
+Scaling factor: 4.987577639751553, Weight: 0.6638684471400819, Scaled weight: 0.1331043835486341
+
+Clause: (person(A, 0.07601877317720064) :- has(A, scienc))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.07601877317720064, Scaled weight: 0.07601877317720064
+
+Clause: (person(A, 0.4824398773867547) :- has(A, browser))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.4824398773867547, Scaled weight: 0.4824398773867547
+
+Clause: (person(A, 0.325320316912688) :- linkto(B, A), has(B, unix))
+Connection variables: B (Page), 
+Scaling factor: 4.987577639751553, Weight: 0.325320316912688, Scaled weight: 0.06522611584426247
+
+Tree #3
+
+Clause: (person(A, 0.23026223550599473) :- has(A, austin))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.23026223550599473, Scaled weight: 0.23026223550599473
+
+Clause: (person(A, 0.021223132274818108) :- has(A, version))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.021223132274818108, Scaled weight: 0.021223132274818108
+
+Tree #4
+
+Clause: (person(A, 0.5065335579898574) :- has(A, ph), has(A, mondai))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.5065335579898574, Scaled weight: 0.5065335579898574
+
+Clause: (person(A, 0.3540815766160903) :- has(A, mondai), has(A, homepag))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.3540815766160903, Scaled weight: 0.3540815766160903
+
+Clause: (person(A, 0.11088145920841624) :- linkto(B, A), linkto(B, C), r_person(C))
+Connection variables: B (Page), C (Page), 
+Scaling factor: 24.87593071254967, Weight: 0.11088145920841624, Scaled weight: 0.0044573793233986456
+
+Clause: (person(A, 0.0539192048557579) :- linkto(B, A), linkto(_, B), has(B, home))
+Connection variables: _0 (Page), B (Page), 
+Scaling factor: 24.87593071254967, Weight: 0.0539192048557579, Scaled weight: 0.0021675251261475885
+
+Tree #5
+
+Clause: (person(A, 0.14354172916344327) :- has(A, scienc))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.14354172916344327, Scaled weight: 0.14354172916344327
+
+Clause: (person(A, 0.07578212458649884) :- has(A, email))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.07578212458649884, Scaled weight: 0.07578212458649884
+
+Clause: (person(A, -0.28649669054362825) :- has(A, refer))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.28649669054362825, Scaled weight: -0.28649669054362825
+
+Tree #6
+
+Clause: (person(A, 0.43652459531005866) :- has(A, browser))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.43652459531005866, Scaled weight: 0.43652459531005866
+
+Clause: (person(A, 0.1665481748705476) :- has(A, univers))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.1665481748705476, Scaled weight: 0.1665481748705476
+
+Tree #7
+
+Clause: (person(A, 0.25819360040841316) :- has(A, hall))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.25819360040841316, Scaled weight: 0.25819360040841316
+
+Clause: (person(A, 0.0699921479006159) :- linkto(B, A), linkto(B, C), r_person(C))
+Connection variables: B (Page), C (Page), 
+Scaling factor: 24.87593071254967, Weight: 0.0699921479006159, Scaled weight: 0.002813649415147532
+
+Tree #8
+
+Clause: (person(A, 0.18389373226551264) :- has(A, hall))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.18389373226551264, Scaled weight: 0.18389373226551264
+
+Clause: (person(A, 0.11388459756778754) :- linkto(B, A), has(B, www))
+Connection variables: B (Page), 
+Scaling factor: 4.987577639751553, Weight: 0.11388459756778754, Scaled weight: 0.02283364907648044
+
+Tree #9
+
+Clause: (person(A, -0.2665244410540717) :- has(A, part))
+Connection variables: 
+Scaling factor: 1.0, Weight: -0.2665244410540717, Scaled weight: -0.2665244410540717
+
+Clause: (person(A, 0.16150253139188345) :- has(A, email))
+Connection variables: 
+Scaling factor: 1.0, Weight: 0.16150253139188345, Scaled weight: 0.16150253139188345

@@ -1,0 +1,7 @@
+setParam: stringsAreCaseSensitive = true.
+
+usePrologVariables: true.
+
+
+(faculty(A, -0.03964741210169478) :- has(A, comput)).
+(faculty(A, 0.24147534977050156) :- linkto(B, A), linkto(B, C), r_faculty(C)).

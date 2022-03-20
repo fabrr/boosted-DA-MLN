@@ -1,0 +1,713 @@
+graph SmokeGen {
+
+	// Person nodes
+	subgraph person {
+		node[style=filled]
+		person_55[ fillcolor=lightcyan]
+		person_56[ fillcolor=lightcyan]
+		person_53[ fillcolor=lightcyan]
+		person_54[ fillcolor=lightcyan]
+		person_59[ penwidth=5 fillcolor=aquamarine3]
+		person_57[ penwidth=5 fillcolor=aquamarine3]
+		person_58[ penwidth=5 fillcolor=aquamarine3]
+		person_51[ fillcolor=lightcyan]
+		person_52[ fillcolor=lightcoral]
+		person_50[ fillcolor=lightcyan]
+		person_66[ penwidth=5 fillcolor=aquamarine3]
+		person_67[ fillcolor=lightcyan]
+		person_64[ fillcolor=lightcyan]
+		person_65[ penwidth=5 fillcolor=crimson]
+		person_68[ penwidth=5 fillcolor=aquamarine3]
+		person_69[ penwidth=5 fillcolor=aquamarine3]
+		person_62[ fillcolor=lightcyan]
+		person_63[ penwidth=5 fillcolor=aquamarine3]
+		person_60[ fillcolor=lightcyan]
+		person_61[ penwidth=5 fillcolor=aquamarine3]
+		person_39[ fillcolor=lightcyan]
+		person_33[ fillcolor=lightcyan]
+		person_34[ fillcolor=lightcyan]
+		person_31[ fillcolor=lightcyan]
+		person_32[ fillcolor=lightcyan]
+		person_37[ penwidth=5 fillcolor=aquamarine3]
+		person_38[ fillcolor=lightcyan]
+		person_35[ fillcolor=lightcyan]
+		person_36[ fillcolor=lightcyan]
+		person_30[ fillcolor=lightcyan]
+		person_44[ penwidth=5 fillcolor=aquamarine3]
+		person_45[ fillcolor=lightcyan]
+		person_42[ penwidth=5 fillcolor=aquamarine3]
+		person_43[ penwidth=5 fillcolor=aquamarine3]
+		person_48[ penwidth=5 fillcolor=aquamarine3]
+		person_49[ fillcolor=lightcyan]
+		person_46[ fillcolor=lightcyan]
+		person_47[ penwidth=5 fillcolor=aquamarine3]
+		person_40[ fillcolor=lightcyan]
+		person_41[ penwidth=5 fillcolor=aquamarine3]
+		person_19[ fillcolor=lightcoral]
+		person_17[ fillcolor=lightcoral]
+		person_18[ fillcolor=lightcoral]
+		person_11[ fillcolor=lightcoral]
+		person_99[ penwidth=5 fillcolor=aquamarine3]
+		person_12[ fillcolor=lightcoral]
+		person_97[ fillcolor=lightcyan]
+		person_10[ penwidth=5 fillcolor=aquamarine3]
+		person_98[ penwidth=5 fillcolor=aquamarine3]
+		person_15[ fillcolor=lightcyan]
+		person_16[ fillcolor=lightcoral]
+		person_13[ fillcolor=lightcoral]
+		person_14[ fillcolor=lightcoral]
+		person_91[ fillcolor=lightcyan]
+		person_92[ fillcolor=lightcyan]
+		person_90[ penwidth=5 fillcolor=aquamarine3]
+		person_95[ fillcolor=lightcyan]
+		person_96[ penwidth=5 fillcolor=aquamarine3]
+		person_93[ fillcolor=lightcyan]
+		person_94[ penwidth=5 fillcolor=aquamarine3]
+		person_4[ fillcolor=lightcoral]
+		person_5[ fillcolor=lightcoral]
+		person_2[ fillcolor=lightcoral]
+		person_3[ penwidth=5 fillcolor=crimson]
+		person_8[ fillcolor=lightcyan]
+		person_9[ penwidth=5 fillcolor=crimson]
+		person_6[ fillcolor=lightcoral]
+		person_7[ fillcolor=lightcoral]
+		person_28[ fillcolor=lightcoral]
+		person_29[ fillcolor=lightcyan]
+		person_0[ penwidth=5 fillcolor=crimson]
+		person_1[ fillcolor=lightcyan]
+		person_22[ penwidth=5 fillcolor=crimson]
+		person_23[ fillcolor=lightcoral]
+		person_20[ fillcolor=lightcoral]
+		person_21[ fillcolor=lightcoral]
+		person_26[ penwidth=5 fillcolor=aquamarine3]
+		person_27[ penwidth=5 fillcolor=crimson]
+		person_24[ penwidth=5 fillcolor=aquamarine3]
+		person_25[ fillcolor=lightcyan]
+		person_77[ fillcolor=lightcyan]
+		person_78[ fillcolor=lightcyan]
+		person_75[ fillcolor=lightcyan]
+		person_76[ fillcolor=lightcyan]
+		person_79[ penwidth=5 fillcolor=aquamarine3]
+		person_70[ fillcolor=lightcyan]
+		person_73[ fillcolor=lightcyan]
+		person_74[ fillcolor=lightcyan]
+		person_71[ fillcolor=lightcyan]
+		person_72[ fillcolor=lightcoral]
+		person_88[ fillcolor=lightcyan]
+		person_89[ penwidth=5 fillcolor=aquamarine3]
+		person_86[ penwidth=5 fillcolor=aquamarine3]
+		person_87[ penwidth=5 fillcolor=aquamarine3]
+		person_80[ fillcolor=lightcyan]
+		person_81[ penwidth=5 fillcolor=aquamarine3]
+		person_84[ penwidth=5 fillcolor=aquamarine3]
+		person_85[ fillcolor=lightcyan]
+		person_82[ fillcolor=lightcyan]
+		person_83[ fillcolor=lightcyan]
+	}
+
+	// Friends edges
+	person_78--person_79
+	person_34--person_37
+	person_74--person_79
+	person_33--person_37
+	person_76--person_79
+	person_0--person_62
+	person_32--person_37
+	person_70--person_79
+	person_31--person_37
+	person_73--person_79
+	person_30--person_37
+	person_3--person_73
+	person_71--person_79
+	person_14--person_28
+	person_67--person_68
+	person_66--person_68[ penwidth=5]
+	person_23--person_26
+	person_63--person_68[ penwidth=5]
+	person_64--person_68
+	person_22--person_26[ penwidth=5]
+	person_10--person_28
+	person_60--person_68
+	person_11--person_17
+	person_0--person_3[ penwidth=5]
+	person_12--person_17
+	person_15--person_17
+	person_61--person_68[ penwidth=5]
+	person_57--person_59[ penwidth=5]
+	person_14--person_17
+	person_56--person_59
+	person_55--person_59
+	person_54--person_59
+	person_18--person_9
+	person_1--person_8
+	person_53--person_59
+	person_50--person_59
+	person_22--person_28
+	person_51--person_59
+	person_23--person_28
+	person_4--person_97
+	person_25--person_28
+	person_87--person_88
+	person_26--person_28
+	person_85--person_88
+	person_59--person_68[ penwidth=5]
+	person_27--person_28
+	person_84--person_88
+	person_45--person_46
+	person_42--person_46
+	person_18--person_26
+	person_86--person_88
+	person_43--person_46
+	person_80--person_88
+	person_41--person_46
+	person_81--person_88
+	person_83--person_88
+	person_35--person_37
+	person_36--person_37
+	person_37--person_39
+	person_32--person_35
+	person_30--person_35
+	person_25--person_81
+	person_73--person_77
+	person_71--person_77
+	person_63--person_66[ penwidth=5]
+	person_22--person_24[ penwidth=5]
+	person_35--person_81
+	person_0--person_71
+	person_65--person_66[ penwidth=5]
+	person_5--person_6
+	person_11--person_19
+	person_20--person_24
+	person_15--person_19
+	person_13--person_19
+	person_61--person_66[ penwidth=5]
+	person_0--person_84[ penwidth=5]
+	person_96--person_99[ penwidth=5]
+	person_34--person_57
+	person_44--person_79[ penwidth=5]
+	person_55--person_57
+	person_16--person_17
+	person_32--person_57
+	person_53--person_57
+	person_0--person_1
+	person_12--person_15
+	person_1--person_6
+	person_90--person_99[ penwidth=5]
+	person_30--person_57
+	person_24--person_26[ penwidth=5]
+	person_92--person_99
+	person_20--person_90
+	person_45--person_48
+	person_85--person_86
+	person_3--person_7
+	person_43--person_48[ penwidth=5]
+	person_29--person_94
+	person_6--person_84
+	person_33--person_39
+	person_26--person_90[ penwidth=5]
+	person_12--person_39
+	person_81--person_86[ penwidth=5]
+	person_35--person_39
+	person_40--person_44
+	person_83--person_86
+	person_28--person_90
+	person_72--person_90
+	person_16--person_35
+	person_57--person_77
+	person_74--person_75
+	person_25--person_72
+	person_55--person_92
+	person_32--person_33
+	person_54--person_77
+	person_29--person_83
+	person_70--person_75
+	person_2--person_4
+	person_73--person_75
+	person_2--person_31
+	person_14--person_85
+	person_63--person_64
+	person_60--person_64
+	person_27--person_4
+	person_95--person_97
+	person_67--person_77
+	person_53--person_55
+	person_12--person_13
+	person_54--person_55
+	person_17--person_19
+	person_90--person_97
+	person_91--person_97
+	person_73--person_97
+	person_50--person_55
+	person_94--person_97
+	person_74--person_86
+	person_64--person_88
+	person_43--person_88
+	person_80--person_84
+	person_29--person_50
+	person_5--person_82
+	person_83--person_84
+	person_38--person_39
+	person_3--person_68[ penwidth=5]
+	person_74--person_77
+	person_10--person_94[ penwidth=5]
+	person_33--person_35
+	person_55--person_90
+	person_30--person_39
+	person_70--person_77
+	person_25--person_85
+	person_2--person_6
+	person_6--person_9
+	person_23--person_24
+	person_64--person_66
+	person_20--person_28
+	person_10--person_19
+	person_60--person_66
+	person_18--person_74
+	person_13--person_15
+	person_15--person_55
+	person_37--person_59[ penwidth=5]
+	person_58--person_59[ penwidth=5]
+	person_95--person_99
+	person_77--person_95
+	person_54--person_57
+	person_90--person_95
+	person_91--person_99
+	person_94--person_95
+	person_84--person_86[ penwidth=5]
+	person_32--person_42
+	person_78--person_88
+	person_44--person_48[ penwidth=5]
+	person_29--person_87
+	person_11--person_65
+	person_56--person_61
+	person_43--person_44[ penwidth=5]
+	person_19--person_66
+	person_40--person_48
+	person_28--person_94
+	person_80--person_86
+	person_4--person_5
+	person_63--person_95
+	person_82--person_93
+	person_25--person_53
+	person_75--person_94
+	person_31--person_75
+	person_11--person_77
+	person_11--person_31
+	person_17--person_42
+	person_15--person_88
+	person_2--person_8
+	person_51--person_73
+	person_36--person_41
+	person_7--person_9
+	person_39--person_97
+	person_61--person_83
+	person_26--person_53
+	person_54--person_97
+	person_25--person_31
+	person_91--person_93
+	person_59--person_60
+	person_47--person_96[ penwidth=5]
+	person_65--person_93
+	person_70--person_96
+	person_50--person_52
+	person_42--person_9[ penwidth=5]
+	person_69--person_9[ penwidth=5]
+	person_60--person_62
+	person_51--person_60
+	person_18--person_78
+	person_70--person_72
+	person_91--person_95
+	person_55--person_72
+	person_44--person_94[ penwidth=5]
+	person_38--person_85
+	person_49--person_63
+	person_71--person_80
+	person_10--person_65[ penwidth=5]
+	person_80--person_82
+	person_15--person_73
+	person_49--person_52
+	person_75--person_98
+	person_50--person_92
+	person_4--person_89
+	person_10--person_12
+	person_18--person_58
+	person_5--person_8
+	person_31--person_33
+	person_52--person_54
+	person_71--person_75
+	person_22--person_83
+	person_38--person_4
+	person_81--person_85
+	person_20--person_22
+	person_62--person_64
+	person_41--person_43[ penwidth=5]
+	person_16--person_19
+	person_11--person_13
+	person_72--person_74
+	person_30--person_32
+	person_14--person_48
+	person_12--person_86
+	person_21--person_23
+	person_21--person_69
+	person_26--person_73
+	person_61--person_65[ penwidth=5]
+	person_4--person_9
+	person_40--person_42
+	person_97--person_98
+	person_35--person_58
+	person_92--person_94
+	person_76--person_77
+	person_23--person_51
+	person_31--person_35
+	person_71--person_73
+	person_86--person_87[ penwidth=5]
+	person_13--person_41
+	person_1--person_10
+	person_26--person_29
+	person_81--person_83
+	person_41--person_45
+	person_51--person_64
+	person_3--person_60
+	person_62--person_66
+	person_76--person_99
+	person_43--person_71
+	person_56--person_57
+	person_64--person_94
+	person_32--person_38
+	person_11--person_15
+	person_12--person_95
+	person_62--person_79
+	person_20--person_33
+	person_51--person_99
+	person_59--person_66[ penwidth=5]
+	person_48--person_7
+	person_25--person_26
+	person_46--person_49
+	person_72--person_76
+	person_93--person_99
+	person_66--person_67
+	person_43--person_82
+	person_31--person_46
+	person_21--person_25
+	person_42--person_48[ penwidth=5]
+	person_68--person_71
+	person_61--person_63[ penwidth=5]
+	person_48--person_75
+	person_16--person_96
+	person_1--person_69
+	person_51--person_88
+	person_82--person_86
+	person_15--person_16
+	person_4--person_7
+	person_36--person_39
+	person_57--person_58[ penwidth=5]
+	person_55--person_58
+	person_53--person_58
+	person_11--person_16
+	person_1--person_9
+	person_10--person_16
+	person_15--person_80
+	person_51--person_58
+	person_23--person_27
+	person_24--person_27[ penwidth=5]
+	person_58--person_8
+	person_25--person_27
+	person_58--person_69[ penwidth=5]
+	person_26--person_27[ penwidth=5]
+	person_87--person_89[ penwidth=5]
+	person_45--person_47
+	person_84--person_89[ penwidth=5]
+	person_43--person_47[ penwidth=5]
+	person_3--person_6
+	person_44--person_47[ penwidth=5]
+	person_42--person_47[ penwidth=5]
+	person_85--person_89
+	person_86--person_89[ penwidth=5]
+	person_80--person_89
+	person_81--person_89[ penwidth=5]
+	person_40--person_47
+	person_41--person_47[ penwidth=5]
+	person_34--person_38
+	person_35--person_38
+	person_83--person_89
+	person_77--person_78
+	person_37--person_38
+	person_35--person_36
+	person_34--person_36
+	person_33--person_36
+	person_74--person_78
+	person_75--person_78
+	person_76--person_78
+	person_32--person_36
+	person_70--person_78
+	person_31--person_36
+	person_30--person_36
+	person_71--person_78
+	person_68--person_69[ penwidth=5]
+	person_67--person_69
+	person_66--person_69[ penwidth=5]
+	person_64--person_69
+	person_63--person_69[ penwidth=5]
+	person_65--person_69[ penwidth=5]
+	person_21--person_27
+	person_60--person_69
+	person_10--person_18
+	person_61--person_69[ penwidth=5]
+	person_11--person_18
+	person_20--person_27
+	person_62--person_69
+	person_0--person_4
+	person_12--person_18
+	person_6--person_63
+	person_14--person_18
+	person_15--person_18
+	person_13--person_18
+	person_96--person_98[ penwidth=5]
+	person_55--person_56
+	person_16--person_18
+	person_24--person_36
+	person_43--person_91
+	person_12--person_14
+	person_53--person_56
+	person_1--person_7
+	person_10--person_14
+	person_21--person_29
+	person_39--person_80
+	person_90--person_98[ penwidth=5]
+	person_23--person_29
+	person_25--person_29
+	person_94--person_98[ penwidth=5]
+	person_92--person_98
+	person_51--person_56
+	person_36--person_69
+	person_16--person_29
+	person_27--person_29
+	person_85--person_87
+	person_3--person_8
+	person_44--person_45
+	person_75--person_89
+	person_0--person_94[ penwidth=5]
+	person_41--person_49
+	person_81--person_87[ penwidth=5]
+	person_12--person_38
+	person_83--person_87
+	person_61--person_89[ penwidth=5]
+	person_31--person_91
+	person_75--person_76
+	person_42--person_56
+	person_33--person_38
+	person_31--person_38
+	person_30--person_34
+	person_73--person_76
+	person_71--person_76
+	person_4--person_72
+	person_31--person_80
+	person_47--person_49
+	person_24--person_25
+	person_63--person_67
+	person_65--person_67
+	person_20--person_25
+	person_0--person_2
+	person_12--person_16
+	person_61--person_67
+	person_14--person_16
+	person_95--person_96
+	person_31--person_71
+	person_78--person_98
+	person_53--person_54
+	person_19--person_58
+	person_32--person_56
+	person_1--person_5
+	person_91--person_96
+	person_90--person_96[ penwidth=5]
+	person_58--person_80
+	person_94--person_96[ penwidth=5]
+	person_40--person_93
+	person_11--person_62
+	person_23--person_45
+	person_42--person_43[ penwidth=5]
+	person_80--person_85
+	person_8--person_81
+	person_70--person_74
+	person_73--person_74
+	person_47--person_65[ penwidth=5]
+	person_3--person_56
+	person_41--person_80
+	person_16--person_45
+	person_14--person_40
+	person_64--person_65
+	person_63--person_65[ penwidth=5]
+	person_53--person_67
+	person_32--person_67
+	person_22--person_23
+	person_60--person_65
+	person_52--person_71
+	person_95--person_98
+	person_13--person_14
+	person_1--person_3
+	person_22--person_78
+	person_22--person_32
+	person_90--person_94[ penwidth=5]
+	person_54--person_56
+	person_91--person_98
+	person_24--person_29
+	person_28--person_29
+	person_84--person_87[ penwidth=5]
+	person_67--person_85
+	person_2--person_52
+	person_22--person_43[ penwidth=5]
+	person_64--person_89
+	person_19--person_67
+	person_43--person_45
+	person_40--person_49
+	person_80--person_87
+	person_29--person_97
+	person_39--person_95
+	person_72--person_91
+	person_57--person_76
+	person_46--person_52
+	person_88--person_98
+	person_33--person_34
+	person_30--person_38
+	person_70--person_76
+	person_2--person_7
+	person_5--person_72
+	person_6--person_8
+	person_48--person_49
+	person_72--person_80
+	person_46--person_63
+	person_10--person_84[ penwidth=5]
+	person_23--person_25
+	person_13--person_16
+	person_43--person_74
+	person_41--person_97
+	person_70--person_71
+	person_91--person_92
+	person_24--person_5
+	person_80--person_81
+	person_28--person_76
+	person_27--person_53
+	person_52--person_97
+	person_90--person_93
+	person_45--person_50
+	person_19--person_99
+	person_12--person_32
+	person_88--person_92
+	person_29--person_42
+	person_39--person_87
+	person_50--person_51
+	person_69--person_84[ penwidth=5]
+	person_2--person_9
+	person_30--person_51
+	person_60--person_61
+	person_45--person_61
+	person_19--person_64
+	person_72--person_8
+	person_36--person_75
+	person_30--person_40
+	person_59--person_94[ penwidth=5]
+	person_61--person_93
+	person_16--person_79
+	person_93--person_94
+	person_74--person_96
+	person_42--person_95
+	person_56--person_98
+	person_91--person_94
+	person_70--person_73
+	person_33--person_77
+	person_58--person_82
+	person_72--person_73
+	person_82--person_83
+	person_19--person_86
+	person_80--person_83
+	person_0--person_9[ penwidth=5]
+	person_62--person_9
+	person_25--person_56
+	person_4--person_46
+	person_2--person_23
+	person_88--person_94
+	person_90--person_91
+	person_7--person_8
+	person_20--person_9
+	person_5--person_91
+	person_50--person_53
+	person_52--person_53
+	person_7--person_80
+	person_60--person_63
+	person_62--person_63
+	person_1--person_20
+	person_11--person_12
+	person_77--person_90
+	person_19--person_84
+	person_81--person_97
+	person_72--person_75
+	person_51--person_54
+	person_30--person_33
+	person_15--person_24
+	person_76--person_87
+	person_1--person_31
+	person_45--person_8
+	person_21--person_22
+	person_46--person_81
+	person_0--person_7
+	person_30--person_68
+	person_82--person_85
+	person_61--person_64
+	person_41--person_66[ penwidth=5]
+	person_62--person_87
+	person_50--person_93
+	person_24--person_35
+	person_13--person_97
+	person_57--person_70
+	person_10--person_13
+	person_5--person_9
+	person_52--person_55
+	person_31--person_32
+	person_92--person_97
+	person_71--person_74
+	person_45--person_65
+	person_75--person_86
+	person_81--person_84[ penwidth=5]
+	person_18--person_68
+	person_20--person_69
+	person_20--person_23
+	person_26--person_50
+	person_62--person_65
+	person_41--person_42[ penwidth=5]
+	person_16--person_71
+	person_2--person_29
+	person_33--person_73
+	person_52--person_79
+	person_11--person_14
+	person_86--person_99[ penwidth=5]
+	person_26--person_81[ penwidth=5]
+	person_22--person_29
+	person_93--person_98
+	person_40--person_76
+	person_30--person_31
+	person_51--person_52
+	person_21--person_24
+	person_42--person_49
+	person_12--person_19
+	person_40--person_87
+	person_40--person_41
+	person_82--person_87
+	person_4--person_8
+	person_17--person_78
+	person_10--person_11
+	person_11--person_38
+	person_97--person_99
+	person_52--person_57
+	person_31--person_34
+	person_69--person_86[ penwidth=5]
+	person_40--person_52
+	person_63--person_90[ penwidth=5]
+	person_44--person_86[ penwidth=5]
+	person_35--person_7
+	person_81--person_82
+	person_30--person_88
+	person_20--person_21
+	person_62--person_67
+	person_41--person_44[ penwidth=5]
+
+}

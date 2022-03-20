@@ -1,0 +1,6 @@
+-0,0447 smokes(a) v !friends(a, b) v !r_smokes(b) v !friends(a, _) /*  */
+0,2972 smokes(a) v !friends(a, b) v !r_smokes(b) /*  */
+-0,0059 smokes(a) v !friends(a, b) v !r_smokes(b) v !friends(a, c) v !friends(a, d) v !friends(c, d) /*  */
+-0,0195 smokes(a) v !friends(a, b) v !r_smokes(b) v !friends(a, c) v !friends(a, d) v !friends(c, d) v !r_not_smokes(c) /*  */
+-0,2846 smokes(a) v !friends(a, b) v !r_smokes(b) v !friends(a, c) v !friends(b, c) /*  */
+0,4579 smokes(a) v !friends(a, b) v !r_smokes(b) v !friends(b, c) v !r_smokes(c) /*  */

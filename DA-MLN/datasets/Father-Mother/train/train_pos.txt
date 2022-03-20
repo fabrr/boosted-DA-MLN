@@ -1,0 +1,11 @@
+father(harrypotter,jamespotter).
+father(dracomalfoy,luciusmalfoy).
+father(ginnyweasley,arthurweasley).
+father(ronweasley,arthurweasley).
+father(fredweasley,arthurweasley).
+
+mother(harrypotter,lilypotter).
+mother(dracomalfoy,narcissamalfoy).
+mother(ginnyweasley,mollyweasley).
+mother(ronweasley,mollyweasley).
+mother(fredweasley,mollyweasley).

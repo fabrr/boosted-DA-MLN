@@ -1,0 +1,89 @@
+% Running on host: DESKTOP-0S2LA4F
+
+% Creating string handler #1.
+
+
+% Switching to VarIndicator = uppercase.
+
+% Unset'ing VarIndicator.
+
+% Switching to VarIndicator = questionMarks.
+
+% getInputArgWithDefaultValue: args=[C:\Users\MSI\Documents\code\BoostSRL\datasets\IMDB\test/test_pos.txt, C:\Users\MSI\Documents\code\BoostSRL\datasets\IMDB\test/test_neg.txt, C:\Users\MSI\Documents\code\BoostSRL\datasets\IMDB\test/test_bk.txt, C:\Users\MSI\Documents\code\BoostSRL\datasets\IMDB\test/test_facts.txt, null]
+%  for N=0: args[N]=C:\Users\MSI\Documents\code\BoostSRL\datasets\IMDB\test/test_pos.txt
+
+% getInputArgWithDefaultValue: args=[C:\Users\MSI\Documents\code\BoostSRL\datasets\IMDB\test/test_pos.txt, C:\Users\MSI\Documents\code\BoostSRL\datasets\IMDB\test/test_neg.txt, C:\Users\MSI\Documents\code\BoostSRL\datasets\IMDB\test/test_bk.txt, C:\Users\MSI\Documents\code\BoostSRL\datasets\IMDB\test/test_facts.txt, null]
+%  for N=1: args[N]=C:\Users\MSI\Documents\code\BoostSRL\datasets\IMDB\test/test_neg.txt
+
+% getInputArgWithDefaultValue: args=[C:\Users\MSI\Documents\code\BoostSRL\datasets\IMDB\test/test_pos.txt, C:\Users\MSI\Documents\code\BoostSRL\datasets\IMDB\test/test_neg.txt, C:\Users\MSI\Documents\code\BoostSRL\datasets\IMDB\test/test_bk.txt, C:\Users\MSI\Documents\code\BoostSRL\datasets\IMDB\test/test_facts.txt, null]
+%  for N=2: args[N]=C:\Users\MSI\Documents\code\BoostSRL\datasets\IMDB\test/test_bk.txt
+
+% getInputArgWithDefaultValue: args=[C:\Users\MSI\Documents\code\BoostSRL\datasets\IMDB\test/test_pos.txt, C:\Users\MSI\Documents\code\BoostSRL\datasets\IMDB\test/test_neg.txt, C:\Users\MSI\Documents\code\BoostSRL\datasets\IMDB\test/test_bk.txt, C:\Users\MSI\Documents\code\BoostSRL\datasets\IMDB\test/test_facts.txt, null]
+%  for N=3: args[N]=C:\Users\MSI\Documents\code\BoostSRL\datasets\IMDB\test/test_facts.txt
+
+% Welcome to the WILL ILP/SRL systems.
+
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+% Reading background theory from dir: null
+% Load '../imdb_bk.txt'.
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+% LoadAllModes() called.  Currently loaded modes: []
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+% LoadAllLibraries() called.  Currently loaded libraries: [listsInLogic, differentInLogic, modes_arithmeticInLogic, inlines_comparisonInLogic, modes_listsInLogic, inlines_differentInLogic, modes_differentInLogic, arithmeticInLogic, inlines_listsInLogic, modes_comparisonInLogic, comparisonInLogic, inlines_arithmeticInLogic]
+
+%  Read the facts.
+%  Have read 951 facts.
+
+%  LearnOneClause initialized.
+% Have read 95 examples from 'C:\Users\MSI\Documents\code\BoostSRL\datasets\IMDB\test' [C:\Users\MSI\Documents\code\BoostSRL\datasets\IMDB\test/test*].
+% Have read 146 examples from 'C:\Users\MSI\Documents\code\BoostSRL\datasets\IMDB\test' [C:\Users\MSI\Documents\code\BoostSRL\datasets\IMDB\test/test*].
+
+% NEW target:                 female_gender(?a)
+%  targetPred:                female_gender/1
+%  targetArgTypes:            signature = [Const], types = [+person]
+%  targets:                   [female_gender(?a)]
+%  targetPredicates:          [female_gender/1]
+%  targetArgSpecs:            [[?a[+person]]]
+%  variablesInTargets:        [[?a]]
+
+% Started collecting constants
+
+% Collecting the types of constants.
+
+% Looking at the training examples to see if any types of new constants can be inferred.
+% Time to collect constants: 47 milliseconds
+% Time to collect examples: 0 seconds
+
+% Read 95 pos examples and 146 neg examples.
+% Time to init learnOneClause: 62 milliseconds

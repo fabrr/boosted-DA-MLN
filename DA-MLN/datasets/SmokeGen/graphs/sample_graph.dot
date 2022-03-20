@@ -1,0 +1,126 @@
+graph SmokeGen {
+
+	// Person nodes
+	subgraph person {
+		node[style=filled]
+		person_99[ fillcolor=aquamarine3]
+		person_10[ fillcolor=aquamarine3]
+		person_98[ fillcolor=aquamarine3]
+		person_37[ fillcolor=aquamarine3]
+		person_59[ fillcolor=aquamarine3]
+		person_79[ fillcolor=aquamarine3]
+		person_57[ fillcolor=aquamarine3]
+		person_58[ fillcolor=aquamarine3]
+		person_90[ fillcolor=aquamarine3]
+		person_96[ fillcolor=aquamarine3]
+		person_94[ fillcolor=aquamarine3]
+		person_3[ fillcolor=crimson]
+		person_9[ fillcolor=crimson]
+		person_0[ fillcolor=crimson]
+		person_22[ fillcolor=crimson]
+		person_44[ fillcolor=aquamarine3]
+		person_66[ fillcolor=aquamarine3]
+		person_89[ fillcolor=aquamarine3]
+		person_86[ fillcolor=aquamarine3]
+		person_42[ fillcolor=aquamarine3]
+		person_65[ fillcolor=crimson]
+		person_87[ fillcolor=aquamarine3]
+		person_43[ fillcolor=aquamarine3]
+		person_48[ fillcolor=aquamarine3]
+		person_26[ fillcolor=aquamarine3]
+		person_27[ fillcolor=crimson]
+		person_68[ fillcolor=aquamarine3]
+		person_24[ fillcolor=aquamarine3]
+		person_69[ fillcolor=aquamarine3]
+		person_47[ fillcolor=aquamarine3]
+		person_81[ fillcolor=aquamarine3]
+		person_84[ fillcolor=aquamarine3]
+		person_63[ fillcolor=aquamarine3]
+		person_41[ fillcolor=aquamarine3]
+		person_61[ fillcolor=aquamarine3]
+	}
+
+	// Friends edges
+	person_57--person_58
+	person_90--person_96
+	person_24--person_27
+	person_94--person_96
+	person_58--person_69
+	person_26--person_27
+	person_87--person_89
+	person_66--person_68
+	person_84--person_89
+	person_42--person_43
+	person_43--person_47
+	person_63--person_68
+	person_22--person_26
+	person_44--person_47
+	person_42--person_47
+	person_86--person_89
+	person_81--person_89
+	person_41--person_47
+	person_0--person_3
+	person_41--person_66
+	person_41--person_43
+	person_61--person_68
+	person_57--person_59
+	person_69--person_84
+	person_47--person_65
+	person_68--person_69
+	person_59--person_68
+	person_66--person_69
+	person_63--person_65
+	person_81--person_84
+	person_63--person_69
+	person_65--person_69
+	person_61--person_69
+	person_47--person_96
+	person_41--person_42
+	person_61--person_65
+	person_59--person_94
+	person_3--person_68
+	person_96--person_98
+	person_10--person_94
+	person_90--person_94
+	person_86--person_99
+	person_90--person_98
+	person_26--person_81
+	person_94--person_98
+	person_86--person_87
+	person_42--person_9
+	person_84--person_87
+	person_63--person_66
+	person_22--person_24
+	person_22--person_43
+	person_0--person_94
+	person_65--person_66
+	person_0--person_9
+	person_81--person_87
+	person_69--person_9
+	person_61--person_89
+	person_61--person_66
+	person_0--person_84
+	person_37--person_59
+	person_58--person_59
+	person_96--person_99
+	person_44--person_79
+	person_44--person_94
+	person_90--person_99
+	person_69--person_86
+	person_24--person_26
+	person_59--person_66
+	person_63--person_90
+	person_44--person_86
+	person_84--person_86
+	person_10--person_84
+	person_43--person_48
+	person_44--person_48
+	person_10--person_65
+	person_43--person_44
+	person_42--person_48
+	person_26--person_90
+	person_81--person_86
+	person_61--person_63
+	person_41--person_44
+
+}

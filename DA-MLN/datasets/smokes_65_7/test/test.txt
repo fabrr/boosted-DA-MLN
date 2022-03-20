@@ -1,0 +1,262 @@
+% Running on host: DESKTOP-0S2LA4F
+
+% Creating string handler #1.
+
+
+% Switching to VarIndicator = uppercase.
+
+% Unset'ing VarIndicator.
+
+% Switching to VarIndicator = questionMarks.
+
+% getInputArgWithDefaultValue: args=[datasets\smokes_65_7\test/test_pos.txt, datasets\smokes_65_7\test/test_neg.txt, datasets\smokes_65_7\test/test_bk.txt, datasets\smokes_65_7\test/test_facts.txt, null]
+%  for N=0: args[N]=datasets\smokes_65_7\test/test_pos.txt
+
+% getInputArgWithDefaultValue: args=[datasets\smokes_65_7\test/test_pos.txt, datasets\smokes_65_7\test/test_neg.txt, datasets\smokes_65_7\test/test_bk.txt, datasets\smokes_65_7\test/test_facts.txt, null]
+%  for N=1: args[N]=datasets\smokes_65_7\test/test_neg.txt
+
+% getInputArgWithDefaultValue: args=[datasets\smokes_65_7\test/test_pos.txt, datasets\smokes_65_7\test/test_neg.txt, datasets\smokes_65_7\test/test_bk.txt, datasets\smokes_65_7\test/test_facts.txt, null]
+%  for N=2: args[N]=datasets\smokes_65_7\test/test_bk.txt
+
+% getInputArgWithDefaultValue: args=[datasets\smokes_65_7\test/test_pos.txt, datasets\smokes_65_7\test/test_neg.txt, datasets\smokes_65_7\test/test_bk.txt, datasets\smokes_65_7\test/test_facts.txt, null]
+%  for N=3: args[N]=datasets\smokes_65_7\test/test_facts.txt
+
+% Welcome to the WILL ILP/SRL systems.
+
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+% Reading background theory from dir: null
+% Load '../smoke_bk.txt'.
+
+***** Warning: At least one argument in a mode should be an input argument.  You provided signature = [Const], types = [`Person] for 'recursive_smokes'. *****
+
+
+***** Warning: At least one argument in a mode should be an input argument.  You provided signature = [Const], types = [`Person] for 'not_smokes'. *****
+
+% LoadAllModes() called.  Currently loaded modes: []
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+% LoadAllLibraries() called.  Currently loaded libraries: [listsInLogic, differentInLogic, modes_arithmeticInLogic, inlines_comparisonInLogic, modes_listsInLogic, inlines_differentInLogic, modes_differentInLogic, arithmeticInLogic, inlines_listsInLogic, modes_comparisonInLogic, comparisonInLogic, inlines_arithmeticInLogic]
+
+%  Read the facts.
+%  Have read 4.515 facts.
+
+%  LearnOneClause initialized.
+% Have read 0 examples from 'datasets\smokes_65_7\test' [datasets\smokes_65_7\test/test*].
+% Have read 0 examples from 'datasets\smokes_65_7\test' [datasets\smokes_65_7\test/test*].
+
+% Started collecting constants
+
+% Collecting the types of constants.
+
+% Looking at the training examples to see if any types of new constants can be inferred.
+
+***** Warning: targetPredicates=null *****
+
+
+***** Warning: targetArgSpecs=null *****
+
+% Time to collect constants: 47 milliseconds
+% Time to collect examples: 0 seconds
+
+% Read 0 pos examples and 0 neg examples.
+% Time to init learnOneClause: 47 milliseconds
+Domain sizes loaded!
+
+Train domain sizes: 
+Person: 147
+
+Test domain sizes: 
+Person: 225
+
+Domain size scales: 
+Person: 1.530612244897959
+
+Scaling weights...
+
+Target: smokes
+
+Tree #0
+
+Clause: (smokes(A, 0.07203608162795246) :- friends(A, B), recursive_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 1.530612244897959, Weight: 0.07203608162795246, Scaled weight: 0.04706357333026227
+
+Tree #1
+
+Clause: (smokes(A, 0.06483450356205538) :- friends(A, B), recursive_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 1.530612244897959, Weight: 0.06483450356205538, Scaled weight: 0.042358542327209515
+
+Tree #2
+
+Clause: (smokes(A, 0.05509312195671303) :- friends(A, B), recursive_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 1.530612244897959, Weight: 0.05509312195671303, Scaled weight: 0.03599417301171918
+
+Tree #3
+
+Clause: (smokes(A, 0.03743485337411186) :- friends(A, B), recursive_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 1.530612244897959, Weight: 0.03743485337411186, Scaled weight: 0.02445743753775308
+
+Tree #4
+
+Clause: (smokes(A, 0.027949897961624275) :- friends(A, B), recursive_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 1.530612244897959, Weight: 0.027949897961624275, Scaled weight: 0.01826060000159453
+
+Tree #5
+
+Clause: (smokes(A, 0.027506319091492162) :- friends(A, B), recursive_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 1.530612244897959, Weight: 0.027506319091492162, Scaled weight: 0.01797079513977488
+
+Tree #6
+
+Clause: (smokes(A, 0.01966002532090043) :- friends(A, B), recursive_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 1.530612244897959, Weight: 0.01966002532090043, Scaled weight: 0.012844549876321614
+
+Tree #7
+
+Clause: (smokes(A, 0.01164046847042208) :- friends(A, B), recursive_smokes(B))
+Connection variables: B (Person), 
+Scaling factor: 1.530612244897959, Weight: 0.01164046847042208, Scaled weight: 0.007605106067342426
+
+Tree #8
+
+Clause: (smokes(A, 0.002598651827941684) :- friends(A, B), recursive_smokes(B), friends(B, C), recursive_smokes(C))
+Connection variables: B (Person), C (Person), 
+Scaling factor: 2.3427738442315698, Weight: 0.002598651827941684, Scaled weight: 0.0011092200958023083
+
+Tree #9
+
+Clause: (smokes(A, 0.0016991856957695485) :- friends(A, B), recursive_smokes(B), friends(B, C), recursive_smokes(C))
+Connection variables: B (Person), C (Person), 
+Scaling factor: 2.3427738442315698, Weight: 0.0016991856957695485, Scaled weight: 7.252879743186999E-4
+
+Tree #10
+
+Clause: (smokes(A, -0.001442336678233394) :- friends(A, B), recursive_smokes(B), friends(A, C), not_smokes(C))
+Connection variables: B (Person), C (Person), 
+Scaling factor: 2.3427738442315698, Weight: -0.001442336678233394, Scaled weight: -6.156533981223786E-4
+
+Tree #11
+
+Clause: (smokes(A, 0.0014752053655961255) :- friends(A, B), recursive_smokes(B), friends(B, C), recursive_smokes(C))
+Connection variables: B (Person), C (Person), 
+Scaling factor: 2.3427738442315698, Weight: 0.0014752053655961255, Scaled weight: 6.296832147193418E-4
+
+Tree #12
+
+Clause: (smokes(A, 0.0023855652488711434) :- friends(A, B), recursive_smokes(B), friends(A, C), friends(B, C), recursive_smokes(C))
+Connection variables: B (Person), C (Person), 
+Scaling factor: 2.3427738442315698, Weight: 0.0023855652488711434, Scaled weight: 0.0010182652733403761
+
+Tree #13
+
+Clause: (smokes(A, 0.0018010998258408892) :- friends(A, B), recursive_smokes(B), friends(A, C), friends(B, C), recursive_smokes(C))
+Connection variables: B (Person), C (Person), 
+Scaling factor: 2.3427738442315698, Weight: 0.0018010998258408892, Scaled weight: 7.687894545500402E-4
+
+Tree #14
+
+Clause: (smokes(A, -1.6794212796594082E-4) :- friends(A, B), recursive_smokes(B), friends(A, C), friends(A, _), not_smokes(C))
+Connection variables: B (Person), _1 (Person), C (Person), 
+Scaling factor: 3.5858783330075044, Weight: -1.6794212796594082E-4, Scaled weight: -4.683430734948735E-5
+
+Tree #15
+
+Clause: (smokes(A, 0.0017761020439288522) :- friends(A, B), recursive_smokes(B), friends(A, C), friends(B, C), recursive_smokes(C))
+Connection variables: B (Person), C (Person), 
+Scaling factor: 2.3427738442315698, Weight: 0.0017761020439288522, Scaled weight: 7.581192902174533E-4
+
+Tree #16
+
+Clause: (smokes(A, 2.2412465041095445E-4) :- friends(A, B), recursive_smokes(B), friends(B, C), friends(A, C), friends(C, _), recursive_smokes(C))
+Connection variables: B (Person), _1 (Person), C (Person), 
+Scaling factor: 3.5858783330075044, Weight: 2.2412465041095445E-4, Scaled weight: 6.250202310209988E-5
+
+Tree #17
+
+Clause: (smokes(A, 1.718414422336782E-4) :- friends(A, B), recursive_smokes(B), friends(A, C), friends(B, C), friends(C, _), recursive_smokes(C))
+Connection variables: B (Person), _1 (Person), C (Person), 
+Scaling factor: 3.5858783330075044, Weight: 1.718414422336782E-4, Scaled weight: 4.792171576260743E-5
+
+Tree #18
+
+Clause: (smokes(A, -1.3636283785199575E-5) :- friends(A, B), recursive_smokes(B), friends(A, C), friends(A, _), friends(A, _), not_smokes(C))
+Connection variables: B (Person), _1 (Person), C (Person), 
+Scaling factor: 3.5858783330075044, Weight: -1.3636283785199575E-5, Scaled weight: -3.802773691365796E-6
+
+Tree #19
+
+Clause: (smokes(A, 9.466672303674097E-5) :- friends(A, B), recursive_smokes(B), friends(A, C), friends(B, C), friends(C, _), recursive_smokes(C))
+Connection variables: B (Person), _1 (Person), C (Person), 
+Scaling factor: 3.5858783330075044, Weight: 9.466672303674097E-5, Scaled weight: 2.6399870337302617E-5
+
+% for smokes |lookupPos| = 69
+% for smokes |lookupNeg| = 156
+% getJointExamples: |pos| = 69, |neg| = 156
+
+% Starting inference in bRDN.
+
+% Subsampling the negative examples.
+% Trees = 20
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 0:  Building full index for friends/2.
+% [ LazyGroundClauseIndex ]  Building full index for recursive_smokes/1 with 69 assertions.
+% [ LazyGroundClauseIndex ]  Building full index for not_smokes/1 with 156 assertions.
+% [ LazyGroundClauseIndex ]  Building full index for friends/2 with 3.996 assertions.
+ (Arithmetic) Mean Probability Assigned to Correct Output Class: 152,034/225,00 = 0,675708
+
+ The weighted count of positive examples = 69,000 and the weighted count of negative examples = 156,000
+
+printExamples: Writing out predictions (for Tuffy?) on 225 examples for 'smokes' to:
+  datasets\smokes_65_7\test/results_smokes.db
+ and to:
+  datasets\smokes_65_7\test/query_smokes.db
+%    No need to compress since small: datasets\smokes_65_7\test/query_smokes.db
+
+% Computing Area Under Curves.
+%Pos=69
+%Neg=156
+%LL:-45.55277520003285
+%LL:-99.68291579793133
+
+% Running command: java -jar src/edu/wisc/cs/will/DataSetUtils/auc.jar datasets\smokes_65_7\test/AUC/aucTemp.txt list 0.0
+% WAITING FOR command: java -jar src/edu/wisc/cs/will/DataSetUtils/auc.jar datasets\smokes_65_7\test/AUC/aucTemp.txt list 0.0
+% DONE WAITING FOR command: java -jar src/edu/wisc/cs/will/DataSetUtils/auc.jar datasets\smokes_65_7\test/AUC/aucTemp.txt list 0.0
+
+%   AUC ROC   = 0,867196
+%   AUC PR    = 0,711218
+%   CLL	      = -0,443035
+%   Precision = 0,746032 at threshold = 0,510
+%   Recall    = 0,681159
+%   F1        = 0,712121
+
+% Total inference time (20 trees): 14,268 seconds.

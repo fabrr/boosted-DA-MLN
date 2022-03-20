@@ -1,0 +1,69 @@
+usePrologVariables: true.
+setParam: treeDepth=4.
+setParam: nodeSize=2.
+setParam: numOfClauses=8.
+setParam: numOfCycles=8.
+
+mode: center(+bib, +pos).
+mode: center(+bib, -pos).
+
+
+mode: firstin(+bib, +pos).
+mode: firstin(+bib, -pos).
+
+
+mode: firstnonauthortitletkn(+bib, +pos).
+mode: firstnonauthortitletkn(+bib, -pos).
+
+
+mode: followby(+bib, +pos, #token).
+
+mode: hascomma(+bib, +pos).
+mode: hascomma(+bib, -pos).
+
+mode: haspunc(+bib, +pos).
+mode: haspunc(+bib, -pos).
+
+
+mode: infield_ftitle(+bibpos).
+mode: infield_fauthor(+bibpos).
+mode: infield_fvenue(+bibpos).
+
+
+mode: isalphachar(+token).
+
+mode: isdate(+token).
+mode: isdigit(+token).
+
+mode: lastinitial(+bib, +pos).
+mode: lastinitial(+bib, -pos).
+
+
+mode: lessthan(+pos, -pos).
+mode: lessthan(-pos, +pos).
+
+
+mode: next(+pos, -pos).
+mode: next(-pos, +pos).
+bridger: next/2.
+
+mode: nextbibpos(+bibpos, -bibpos).
+mode: nextbibpos(-bibpos, +bibpos).
+
+nextbibpos(BP1,BP2) :- isbibpos(BP1, B,P1), isbibpos(BP2,B,P2), next(P1,P2).
+
+mode: isbibpos(+bibpos, -bib, -pos).
+mode: isbibpos(+bibpos, +bib, -pos).
+mode: isbibpos(+bibpos, -bib, +pos).
+
+mode: isbibpos(-bibpos, +bib, +pos).
+
+
+
+
+bridger: isbibpos/3.
+
+mode: token(+token, +pos, +bib).
+mode: token(+token, -pos, +bib).
+mode: token(-token, +pos, +bib).
+

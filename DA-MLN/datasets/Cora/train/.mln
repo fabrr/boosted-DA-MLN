@@ -1,0 +1,17 @@
+author(paper, auth)
+haswordauthor(auth, word)
+haswordtitle(title, word)
+haswordvenue(venue, word)
+title(paper, title)
+venue(paper, venue)
+recursive_samebib(paper, paper)
+recursive_sametitle(title, title)
+recursive_samevenue(venue, venue)
+recursive_sameauthor(auth, auth)
+samebib(paper, paper)
+sametitle(title, title)
+samevenue(venue, venue)
+sameauthor(auth, auth)
+0,0496 sameauthor(a, b) v !haswordauthor(a, c) v !haswordauthor(b, c) /*  */
+1,2794 sameauthor(a, a) v !haswordauthor(a, _) /*  */
+-0,0053 sameauthor(a, b) v !haswordauthor(a, c) v !haswordauthor(b, c) v !haswordauthor(_, c) /*  */

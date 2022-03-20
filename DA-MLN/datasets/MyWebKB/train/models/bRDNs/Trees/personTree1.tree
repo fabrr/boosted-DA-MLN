@@ -1,0 +1,13 @@
+setParam: stringsAreCaseSensitive = true.
+
+usePrologVariables: true.
+
+
+(person(A, 0.3656565392515143) :- has(A, scienc)).
+(person(A, -0.28232490776624236) :- has(A, gener)).
+(person(A, 0.6133424990767713) :- has(A, download)).
+(person(A, 0.26264697028481787) :- has(A, email)).
+(person(A, -0.25550440323238943) :- has(A, sourc)).
+(person(A, 0.48779451826673376) :- has(A, true)).
+(person(A, -0.3373641386429598) :- has(A, answer)).
+(person(A, 0.02830664990172289) :- has(A, version)).

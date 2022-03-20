@@ -1,0 +1,521 @@
+% Running on host: DESKTOP-0S2LA4F
+
+% Creating string handler #1.
+
+
+% Switching to VarIndicator = uppercase.
+
+% Unset'ing VarIndicator.
+
+% Switching to VarIndicator = questionMarks.
+
+% getInputArgWithDefaultValue: args=[datasets\Father-Mother\train/train_pos.txt, datasets\Father-Mother\train/train_neg.txt, datasets\Father-Mother\train/train_bk.txt, datasets\Father-Mother\train/train_facts.txt, null]
+%  for N=0: args[N]=datasets\Father-Mother\train/train_pos.txt
+
+% getInputArgWithDefaultValue: args=[datasets\Father-Mother\train/train_pos.txt, datasets\Father-Mother\train/train_neg.txt, datasets\Father-Mother\train/train_bk.txt, datasets\Father-Mother\train/train_facts.txt, null]
+%  for N=1: args[N]=datasets\Father-Mother\train/train_neg.txt
+
+% getInputArgWithDefaultValue: args=[datasets\Father-Mother\train/train_pos.txt, datasets\Father-Mother\train/train_neg.txt, datasets\Father-Mother\train/train_bk.txt, datasets\Father-Mother\train/train_facts.txt, null]
+%  for N=2: args[N]=datasets\Father-Mother\train/train_bk.txt
+
+% getInputArgWithDefaultValue: args=[datasets\Father-Mother\train/train_pos.txt, datasets\Father-Mother\train/train_neg.txt, datasets\Father-Mother\train/train_bk.txt, datasets\Father-Mother\train/train_facts.txt, null]
+%  for N=3: args[N]=datasets\Father-Mother\train/train_facts.txt
+
+% Welcome to the WILL ILP/SRL systems.
+
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+% Reading background theory from dir: null
+% Load '../background.txt'.
+% LoadAllModes() called.  Currently loaded modes: []
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+% LoadAllLibraries() called.  Currently loaded libraries: [listsInLogic, differentInLogic, modes_arithmeticInLogic, inlines_comparisonInLogic, modes_listsInLogic, inlines_differentInLogic, modes_differentInLogic, arithmeticInLogic, inlines_listsInLogic, modes_comparisonInLogic, comparisonInLogic, inlines_arithmeticInLogic]
+
+%  Read the facts.
+%  Have read 55 facts.
+
+%  LearnOneClause initialized.
+% Have read 10 examples from 'datasets\Father-Mother\train' [datasets\Father-Mother\train/train*].
+% Have read 42 examples from 'datasets\Father-Mother\train' [datasets\Father-Mother\train/train*].
+
+% NEW target:                 father(?a, ?b)
+%  targetPred:                father/2
+%  targetArgTypes:            signature = [Const, Const], types = [+name, +name]
+%  targets:                   [father(?a, ?b)]
+%  targetPredicates:          [father/2, mother/2]
+%  targetArgSpecs:            [[?a[+name], ?b[+name]]]
+%  variablesInTargets:        [[?a, ?b]]
+
+% NEW target:                 mother(?c, ?d)
+%  targetPred:                mother/2
+%  targetArgTypes:            signature = [Const, Const], types = [+name, +name]
+%  targets:                   [father(?a, ?b), mother(?c, ?d)]
+%  targetPredicates:          [father/2, mother/2]
+%  targetArgSpecs:            [[?a[+name], ?b[+name]], [?c[+name], ?d[+name]]]
+%  variablesInTargets:        [[?a, ?b], [?c, ?d]]
+
+% Started collecting constants
+
+% Collecting the types of constants.
+
+% Looking at the training examples to see if any types of new constants can be inferred.
+% Time to collect constants: 14 milliseconds
+% Time to collect examples: 0 seconds
+
+% Read 10 pos examples and 42 neg examples.
+% Time to init learnOneClause: 37 milliseconds
+
+% 'models/domain_size.txt' saved.
+Loading checkpoint model from datasets\Father-Mother\train/models/bRDNs/mother.model.ckpt
+%   loadModel (#0): datasets\Father-Mother\train/models/bRDNs/Trees/motherTree0.tree
+%  Done loading 1 models.
+Found 1 trees in checkpoint
+Loading checkpoint model from datasets\Father-Mother\train/models/bRDNs/father.model.ckpt
+%   loadModel (#0): datasets\Father-Mother\train/models/bRDNs/Trees/fatherTree0.tree
+%  Done loading 1 models.
+Found 1 trees in checkpoint
+File: datasets\Father-Mother\train/advice.txt doesnt exist.Hence no advice loaded
+% Learning 1 trees in this iteration for mother
+
+% Learn model for: mother
+% Kept 5 of the 5 positive examples.
+% Kept 11 of the 21 negative examples.
+% Time taken to learn 1 trees is 0 seconds.
+
+% Dataset size: 16
+Computing probabilities
+% [ LazyGroundClauseIndex ]  Building full index for childof/2 with 16 assertions.
+% [ LazyGroundClauseIndex ]  Building full index for female/1 with 4 assertions.
+% [ LazyGroundClauseIndex ]  Building full index for male/1 with 13 assertions.
+prob time:27 milliseconds
+No hidden examples for : mother
+Time to build dataset: 28 milliseconds
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% Have these 10 positive seeds: 0 2 3 4 5 7 8 12 14 15
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% LearnOneClause Parameters:
+%   Targets (2):
+%    father(+name, +name),
+%    mother(+name, +name)
+%  Modes (41):
+%    male(+name),
+%    female(+name),
+%    childof(+name, +name),
+%    siblingof(+name, -name),
+%    addList(+willList, #willNumber),
+%    multiplyList(+willList, #willNumber),
+%    abs(+willNumber, &willNumber),
+%    minus(+willNumber, &willNumber),
+%    minus(+willNumber, +willNumber, &willNumber),
+%    plus(+willNumber, +willNumber, &willNumber),
+%    mult(+willNumber, +willNumber, &willNumber),
+%    div(+willNumber, +willNumber, &willNumber),
+%    allNumbers(+willList),
+%    positiveNumber(+willNumber),
+%    negativeNumber(+willNumber),
+%    in0toDot001(+willNumber),
+%    in0toDot01(+willNumber),
+%    in0toDot1(+willNumber),
+%    in0to1(+willNumber),
+%    in0to10(+willNumber),
+%    in0to100(+willNumber),
+%    in0to1000(+willNumber),
+%    equalWithTolerance(+willNumber, +willNumber, &willNumber),
+%    greaterOrEqualDifference(+willNumber, +willNumber, &willNumber),
+%    smallerOrEqualDifference(+willNumber, +willNumber, &willNumber),
+%    isaEqualTolerance(+willNumber),
+%    lessThan(+willNumber, +willNumber),
+%    greaterThan(+willNumber, +willNumber),
+%    lessThanOrEqual(+willNumber, +willNumber),
+%    greaterThanOrEqual(+willNumber, +willNumber),
+%    inBetweenOO(+willNumber, +willNumber, +willNumber),
+%    inBetweenCO(+willNumber, +willNumber, +willNumber),
+%    inBetweenOC(+willNumber, +willNumber, +willNumber),
+%    inBetweenCC(+willNumber, +willNumber, +willNumber),
+%    memberOfList(+willAnything, +willList),
+%    firstInList(+willList, &willAnything),
+%    restOfList(+willList, &willList),
+%    positionInList(+willAnything, +willList, &willNumber),
+%    nthInList(+willNumber, +willList, &willAnything),
+%    lengthOfList(+willList, &willNumber),
+%    father(+name, +name)
+
+% target           = mother(F, G)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  mother(_, _).  [covers 16,0/16,0 pos, 0,0/0,0 neg]
+% Most-general root: mother(_, _).  [covers 16,0/16,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #1, bodyLen=0] 'mother(_, _).  [covers 16,0/16,0 pos, 0,0/0,0 neg]' score=-Infinity
+% [ LazyGroundClauseIndex ]  Building full index for siblingof/2 with 12 assertions.
+% [ LazyGroundNthArgumentClauseIndex ]  Argument 0:  Building full index for siblingof/2.
+% [ LazyGroundClauseIndex ]  Building full index for father/2 with 10 assertions.
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 8 items to OPEN for evaluation and possible insertion.
+% Have created 8 valid-on-seeds descendants and have picked up 10 bad extensions.
+%     Score = -2,625536 (regressionFit = 2,625535, penalties=1.12E-6) for clause:  mother(A, _) :- male(A).  [covers 13,0/16,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -2,625536): mother(A, _) :- male(A).  [covers 13,0/16,0 pos, 0,0/0,0 neg]
+%     Score = -1,752155 (regressionFit = 1,752154, penalties=1.12E-6) for clause:  mother(_, A) :- male(A).  [covers 7,0/16,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -1,752155): mother(_, A) :- male(A).  [covers 7,0/16,0 pos, 0,0/0,0 neg]
+%     Score = -1,487774 (regressionFit = 1,487773, penalties=1.12E-6) for clause:  mother(_, A) :- female(A).  [covers 8,0/16,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -1,487774): mother(_, A) :- female(A).  [covers 8,0/16,0 pos, 0,0/0,0 neg]
+%     Score = -0,743807 (regressionFit = 0,743806, penalties=1.0200000000000002E-6) for clause:  mother(A, B) :- childof(B, A).  [covers 6,0/16,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -0,743807): mother(A, B) :- childof(B, A).  [covers 6,0/16,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.0200000000000002E-6) for clause:  mother(A, B) :- siblingof(A, B).  [covers 2,0/16,0 pos, 0,0/0,0 neg]
+%     Score = -2,477306 (regressionFit = 2,477304, penalties=1.23E-6) for clause:  mother(A, _) :- siblingof(A, _).  [covers 7,0/16,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.0200000000000002E-6) for clause:  mother(A, B) :- siblingof(B, A).  [covers 2,0/16,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  mother(_, A) :- siblingof(A, _).  [covers 2,0/16,0 pos, 0,0/0,0 neg]
+
+% The best node found: mother(A, B) :- childof(B, A).  [covers 6,0/16,0 pos, 0,0/0,0 neg]
+
+% The best node found: mother(A, B) :- childof(B, A).  [covers 6,0/16,0 pos, 0,0/0,0 neg]
+Setting 0.5797615751207921 for 
+ // Learned this clause on outer loop cycle #1.  It scores=-0,74 and has recall=0,37, precision=0,98, and F1=0,54 (using m-estimates).
+ // It covers 37,5% of the positive examples, 6 of 16,
+(mother(F, G) :- childof(G, F))
+
+% On cycle #1, the best clause found is:
+%      mother(A, B) :- childof(B, A).  [covers 6,0/16,0 pos, 0,0/0,0 neg]
+% This clause covers 6 positive examples, of which 6 are newly covered.
+% It also covers 0 negative examples, of which 0 are newly covered.
+% The current set of 1 best clauses covers 37,5% of the positive examples and NaN% of the negatives.}
+
+% Have these 10 positive seeds: 5 6 7 8 9 10 11 12 13 14
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = mother(F, G)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  mother(_, _).  [covers 16,0/16,0 pos, 0,0/0,0 neg]
+% Most-general root: mother(_, _).  [covers 16,0/16,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #2, bodyLen=0] 'mother(_, _).  [covers 16,0/16,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 7 items to OPEN for evaluation and possible insertion.
+% Have created 7 valid-on-seeds descendants and have picked up 11 bad extensions.
+%     Score = -0,686722 (regressionFit = 0,686721, penalties=1.12E-6) for clause:  mother(A, _) :- male(A).  [covers 13,0/16,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -0,686722): mother(A, _) :- male(A).  [covers 13,0/16,0 pos, 0,0/0,0 neg]
+%     Score = -0,594322 (regressionFit = 0,594320, penalties=1.12E-6) for clause:  mother(_, A) :- male(A).  [covers 7,0/16,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -0,594322): mother(_, A) :- male(A).  [covers 7,0/16,0 pos, 0,0/0,0 neg]
+%     Score = -0,568654 (regressionFit = 0,568653, penalties=1.12E-6) for clause:  mother(_, A) :- female(A).  [covers 8,0/16,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -0,568654): mother(_, A) :- female(A).  [covers 8,0/16,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.0200000000000002E-6) for clause:  mother(A, B) :- siblingof(A, B).  [covers 2,0/16,0 pos, 0,0/0,0 neg]
+%     Score = -0,729748 (regressionFit = 0,729747, penalties=1.23E-6) for clause:  mother(A, _) :- siblingof(A, _).  [covers 7,0/16,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.0200000000000002E-6) for clause:  mother(A, B) :- siblingof(B, A).  [covers 2,0/16,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  mother(_, A) :- siblingof(A, _).  [covers 2,0/16,0 pos, 0,0/0,0 neg]
+
+% The best node found: mother(_, A) :- female(A).  [covers 8,0/16,0 pos, 0,0/0,0 neg]
+
+% The best node found: mother(_, A) :- female(A).  [covers 8,0/16,0 pos, 0,0/0,0 neg]
+Setting 0.04134115278898973 for 
+ // Learned this clause on outer loop cycle #2.  It scores=-0,57 and has recall=0,50, precision=0,99, and F1=0,66 (using m-estimates).
+ // It covers 50,0% of the positive examples, 8 of 16 (of which 3 are newly covered),
+ // So far 9 (56,3%) of the positive examples have been covered.
+(mother(F, G) :- female(G))
+
+% On cycle #2, the best clause found is:
+%      mother(_, A) :- female(A).  [covers 8,0/16,0 pos, 0,0/0,0 neg]
+% This clause covers 8 positive examples, of which 3 are newly covered.
+% It also covers 0 negative examples, of which 0 are newly covered.
+% The current set of 2 best clauses covers 56,3% of the positive examples and NaN% of the negatives.}
+
+% Have these 7 positive seeds: 6 7 8 9 11 13 14
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = mother(F, G)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  mother(_, _).  [covers 16,0/16,0 pos, 0,0/0,0 neg]
+% Most-general root: mother(_, _).  [covers 16,0/16,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #3, bodyLen=0] 'mother(_, _).  [covers 16,0/16,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 6 items to OPEN for evaluation and possible insertion.
+% Have created 6 valid-on-seeds descendants and have picked up 12 bad extensions.
+%     Score = -0,603694 (regressionFit = 0,603693, penalties=1.12E-6) for clause:  mother(A, _) :- male(A).  [covers 13,0/16,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -0,603694): mother(A, _) :- male(A).  [covers 13,0/16,0 pos, 0,0/0,0 neg]
+%     Score = -0,582377 (regressionFit = 0,582376, penalties=1.12E-6) for clause:  mother(_, A) :- male(A).  [covers 7,0/16,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -0,582377): mother(_, A) :- male(A).  [covers 7,0/16,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.0200000000000002E-6) for clause:  mother(A, B) :- siblingof(A, B).  [covers 2,0/16,0 pos, 0,0/0,0 neg]
+%     Score = -0,650178 (regressionFit = 0,650177, penalties=1.23E-6) for clause:  mother(A, _) :- siblingof(A, _).  [covers 7,0/16,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.0200000000000002E-6) for clause:  mother(A, B) :- siblingof(B, A).  [covers 2,0/16,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  mother(_, A) :- siblingof(A, _).  [covers 2,0/16,0 pos, 0,0/0,0 neg]
+
+% The best node found: mother(_, A) :- male(A).  [covers 7,0/16,0 pos, 0,0/0,0 neg]
+
+% The best node found: mother(_, A) :- male(A).  [covers 7,0/16,0 pos, 0,0/0,0 neg]
+Setting -0.21082623024811012 for 
+ // Learned this clause on outer loop cycle #3.  It scores=-0,58 and has recall=0,43, precision=0,99, and F1=0,60 (using m-estimates).
+ // It covers 43,8% of the positive examples, 7 of 16 (of which 6 are newly covered),
+ // So far 15 (93,8%) of the positive examples have been covered.
+(mother(F, G) :- male(G))
+
+% On cycle #3, the best clause found is:
+%      mother(_, A) :- male(A).  [covers 7,0/16,0 pos, 0,0/0,0 neg]
+% This clause covers 7 positive examples, of which 6 are newly covered.
+% It also covers 0 negative examples, of which 0 are newly covered.
+% The current set of 3 best clauses covers 93,8% of the positive examples and NaN% of the negatives.}
+
+% ******************************************
+
+
+% ******************************************
+adding regression values
+Added 0.5797615751207921 to wgt = 0,5798 (mother(A, B) :- childof(B, A))
+Added 0.04134115278898973 to wgt = 0,0413 (mother(_, A) :- female(A))
+Added -0.21082623024811012 to wgt = -0,2108 (mother(_, A) :- male(A))
+% Saving model in: datasets\Father-Mother\train/models/bRDNs/mother.model.ckpt
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% Have these 10 positive seeds: 0 1 3 4 5 6 7 10 11 13
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = mother(F, G)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  mother(_, _).  [covers 16,0/16,0 pos, 0,0/0,0 neg]
+% Most-general root: mother(_, _).  [covers 16,0/16,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #1, bodyLen=0] 'mother(_, _).  [covers 16,0/16,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 8 items to OPEN for evaluation and possible insertion.
+% Have created 8 valid-on-seeds descendants and have picked up 10 bad extensions.
+%     Score = -0,422813 (regressionFit = 0,422812, penalties=1.12E-6) for clause:  mother(A, _) :- male(A).  [covers 13,0/16,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -0,422813): mother(A, _) :- male(A).  [covers 13,0/16,0 pos, 0,0/0,0 neg]
+%     Score = -0,582377 (regressionFit = 0,582376, penalties=1.12E-6) for clause:  mother(_, A) :- male(A).  [covers 7,0/16,0 pos, 0,0/0,0 neg]
+%     Score = -0,582097 (regressionFit = 0,582096, penalties=1.12E-6) for clause:  mother(_, A) :- female(A).  [covers 8,0/16,0 pos, 0,0/0,0 neg]
+%     Score = -0,582479 (regressionFit = 0,582478, penalties=1.0200000000000002E-6) for clause:  mother(A, B) :- childof(B, A).  [covers 6,0/16,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.0200000000000002E-6) for clause:  mother(A, B) :- siblingof(A, B).  [covers 2,0/16,0 pos, 0,0/0,0 neg]
+%     Score = -0,505093 (regressionFit = 0,505092, penalties=1.23E-6) for clause:  mother(A, _) :- siblingof(A, _).  [covers 7,0/16,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.0200000000000002E-6) for clause:  mother(A, B) :- siblingof(B, A).  [covers 2,0/16,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  mother(_, A) :- siblingof(A, _).  [covers 2,0/16,0 pos, 0,0/0,0 neg]
+
+% The best node found: mother(A, _) :- male(A).  [covers 13,0/16,0 pos, 0,0/0,0 neg]
+
+% The best node found: mother(A, _) :- male(A).  [covers 13,0/16,0 pos, 0,0/0,0 neg]
+Setting 0.03925399811314826 for 
+ // Learned this clause on outer loop cycle #1.  It scores=-0,42 and has recall=0,81, precision=0,99, and F1=0,89 (using m-estimates).
+ // It covers 81,3% of the positive examples, 13 of 16,
+(mother(F, G) :- male(F))
+
+% On cycle #1, the best clause found is:
+%      mother(A, _) :- male(A).  [covers 13,0/16,0 pos, 0,0/0,0 neg]
+% This clause covers 13 positive examples, of which 13 are newly covered.
+% It also covers 0 negative examples, of which 0 are newly covered.
+% The current set of 1 best clauses covers 81,3% of the positive examples and NaN% of the negatives.}
+
+% Have these 3 positive seeds: 2 10 15
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = mother(F, G)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  mother(_, _).  [covers 16,0/16,0 pos, 0,0/0,0 neg]
+% Most-general root: mother(_, _).  [covers 16,0/16,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #2, bodyLen=0] 'mother(_, _).  [covers 16,0/16,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 4 items to OPEN for evaluation and possible insertion.
+% Have created 4 valid-on-seeds descendants and have picked up 13 bad extensions.
+%     Score = -0,537370 (regressionFit = 0,537369, penalties=1.12E-6) for clause:  mother(_, A) :- male(A).  [covers 7,0/16,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -0,537370): mother(_, A) :- male(A).  [covers 7,0/16,0 pos, 0,0/0,0 neg]
+%     Score = -0,535950 (regressionFit = 0,535949, penalties=1.12E-6) for clause:  mother(_, A) :- female(A).  [covers 8,0/16,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -0,535950): mother(_, A) :- female(A).  [covers 8,0/16,0 pos, 0,0/0,0 neg]
+%     Score = -0,535759 (regressionFit = 0,535758, penalties=1.0200000000000002E-6) for clause:  mother(A, B) :- childof(B, A).  [covers 6,0/16,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -0,535759): mother(A, B) :- childof(B, A).  [covers 6,0/16,0 pos, 0,0/0,0 neg]
+%     Score = -0,463158 (regressionFit = 0,463157, penalties=1.23E-6) for clause:  mother(A, _) :- siblingof(A, _).  [covers 7,0/16,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -0,463158): mother(A, _) :- siblingof(A, _).  [covers 7,0/16,0 pos, 0,0/0,0 neg]
+
+% The best node found: mother(A, _) :- siblingof(A, _).  [covers 7,0/16,0 pos, 0,0/0,0 neg]
+
+% The best node found: mother(A, _) :- siblingof(A, _).  [covers 7,0/16,0 pos, 0,0/0,0 neg]
+Setting 0.012263621808695318 for 
+ // Learned this clause on outer loop cycle #2.  It scores=-0,46 and has recall=0,43, precision=0,99, and F1=0,60 (using m-estimates).
+ // It covers 43,8% of the positive examples, 7 of 16 (of which 1 are newly covered),
+ // So far 14 (87,5%) of the positive examples have been covered.
+(mother(F, G) :- siblingof(F, Anon1601))
+
+% On cycle #2, the best clause found is:
+%      mother(A, _) :- siblingof(A, _).  [covers 7,0/16,0 pos, 0,0/0,0 neg]
+% This clause covers 7 positive examples, of which 1 are newly covered.
+% It also covers 0 negative examples, of which 0 are newly covered.
+% The current set of 2 best clauses covers 87,5% of the positive examples and NaN% of the negatives.}
+
+% Have these 2 positive seeds: 10 15
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = mother(F, G)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  mother(_, _).  [covers 16,0/16,0 pos, 0,0/0,0 neg]
+% Most-general root: mother(_, _).  [covers 16,0/16,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #3, bodyLen=0] 'mother(_, _).  [covers 16,0/16,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 3 items to OPEN for evaluation and possible insertion.
+% Have created 3 valid-on-seeds descendants and have picked up 13 bad extensions.
+%     Score = -0,524628 (regressionFit = 0,524627, penalties=1.12E-6) for clause:  mother(_, A) :- male(A).  [covers 7,0/16,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -0,524628): mother(_, A) :- male(A).  [covers 7,0/16,0 pos, 0,0/0,0 neg]
+%     Score = -0,522940 (regressionFit = 0,522939, penalties=1.12E-6) for clause:  mother(_, A) :- female(A).  [covers 8,0/16,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -0,522940): mother(_, A) :- female(A).  [covers 8,0/16,0 pos, 0,0/0,0 neg]
+%     Score = -0,523256 (regressionFit = 0,523255, penalties=1.0200000000000002E-6) for clause:  mother(A, B) :- childof(B, A).  [covers 6,0/16,0 pos, 0,0/0,0 neg]
+
+% The best node found: mother(_, A) :- female(A).  [covers 8,0/16,0 pos, 0,0/0,0 neg]
+
+% The best node found: mother(_, A) :- female(A).  [covers 8,0/16,0 pos, 0,0/0,0 neg]
+Setting -0.03403935676312195 for 
+ // Learned this clause on outer loop cycle #3.  It scores=-0,52 and has recall=0,50, precision=0,99, and F1=0,66 (using m-estimates).
+ // It covers 50,0% of the positive examples, 8 of 16 (of which 1 are newly covered),
+ // So far 15 (93,8%) of the positive examples have been covered.
+(mother(F, G) :- female(G))
+
+% On cycle #3, the best clause found is:
+%      mother(_, A) :- female(A).  [covers 8,0/16,0 pos, 0,0/0,0 neg]
+% This clause covers 8 positive examples, of which 1 are newly covered.
+% It also covers 0 negative examples, of which 0 are newly covered.
+% The current set of 3 best clauses covers 93,8% of the positive examples and NaN% of the negatives.}
+
+% ******************************************
+
+
+% ******************************************
+adding regression values
+Added 0.03925399811314826 to wgt = 0,0393 (mother(A, _) :- male(A))
+Added 0.012263621808695318 to wgt = 0,0123 (mother(A, _) :- siblingof(A, _))
+Added -0.03403935676312195 to wgt = -0,0340 (mother(_, A) :- female(A))
+% Learning 1 trees in this iteration for father
+
+% Learn model for: father
+% Kept 5 of the 5 positive examples.
+% Kept 8 of the 21 negative examples.
+% Time taken to learn 1 trees is 0 seconds.
+
+% Dataset size: 13
+Computing probabilities
+prob time:49 milliseconds
+No hidden examples for : father
+Time to build dataset: 49 milliseconds
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% Have these 10 positive seeds: 0 2 3 4 5 6 7 8 9 10
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = father(D, E)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  father(_, _).  [covers 13,0/13,0 pos, 0,0/0,0 neg]
+% Most-general root: father(_, _).  [covers 13,0/13,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #1, bodyLen=0] 'father(_, _).  [covers 13,0/13,0 pos, 0,0/0,0 neg]' score=-Infinity
+% [ LazyGroundClauseIndex ]  Building full index for mother/2 with 10 assertions.
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 6 items to OPEN for evaluation and possible insertion.
+% Have created 6 valid-on-seeds descendants and have picked up 11 bad extensions.
+%     Score = -2,380909 (regressionFit = 2,380907, penalties=1.12E-6) for clause:  father(A, _) :- male(A).  [covers 9,0/13,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -2,380909): father(A, _) :- male(A).  [covers 9,0/13,0 pos, 0,0/0,0 neg]
+%     Score = -2,058185 (regressionFit = 2,058184, penalties=1.12E-6) for clause:  father(_, A) :- male(A).  [covers 10,0/13,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -2,058185): father(_, A) :- male(A).  [covers 10,0/13,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.12E-6) for clause:  father(A, _) :- female(A).  [covers 1,0/13,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.12E-6) for clause:  father(_, A) :- female(A).  [covers 2,0/13,0 pos, 0,0/0,0 neg]
+%     Score = -0,676059 (regressionFit = 0,676058, penalties=1.0200000000000002E-6) for clause:  father(A, B) :- childof(B, A).  [covers 6,0/13,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -0,676059): father(A, B) :- childof(B, A).  [covers 6,0/13,0 pos, 0,0/0,0 neg]
+%     Score = -2,181839 (regressionFit = 2,181837, penalties=1.23E-6) for clause:  father(A, _) :- siblingof(A, _).  [covers 5,0/13,0 pos, 0,0/0,0 neg]
+
+% The best node found: father(A, B) :- childof(B, A).  [covers 6,0/13,0 pos, 0,0/0,0 neg]
+
+% The best node found: father(A, B) :- childof(B, A).  [covers 6,0/13,0 pos, 0,0/0,0 neg]
+Setting 0.5975679577033091 for 
+ // Learned this clause on outer loop cycle #1.  It scores=-0,68 and has recall=0,46, precision=0,98, and F1=0,63 (using m-estimates).
+ // It covers 46,2% of the positive examples, 6 of 13,
+(father(D, E) :- childof(E, D))
+
+% On cycle #1, the best clause found is:
+%      father(A, B) :- childof(B, A).  [covers 6,0/13,0 pos, 0,0/0,0 neg]
+% This clause covers 6 positive examples, of which 6 are newly covered.
+% It also covers 0 negative examples, of which 0 are newly covered.
+% The current set of 1 best clauses covers 46,2% of the positive examples and NaN% of the negatives.}
+
+% Have these 7 positive seeds: 5 6 7 8 9 10 11
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = father(D, E)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  father(_, _).  [covers 13,0/13,0 pos, 0,0/0,0 neg]
+% Most-general root: father(_, _).  [covers 13,0/13,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #2, bodyLen=0] 'father(_, _).  [covers 13,0/13,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 8 items to OPEN for evaluation and possible insertion.
+% Have created 8 valid-on-seeds descendants and have picked up 10 bad extensions.
+%     Score = -0,746098 (regressionFit = 0,746097, penalties=1.12E-6) for clause:  father(A, _) :- male(A).  [covers 9,0/13,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -0,746098): father(A, _) :- male(A).  [covers 9,0/13,0 pos, 0,0/0,0 neg]
+%     Score = -0,506716 (regressionFit = 0,506715, penalties=1.12E-6) for clause:  father(_, A) :- male(A).  [covers 10,0/13,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -0,506716): father(_, A) :- male(A).  [covers 10,0/13,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.12E-6) for clause:  father(A, _) :- female(A).  [covers 1,0/13,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.12E-6) for clause:  father(_, A) :- female(A).  [covers 2,0/13,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.0200000000000002E-6) for clause:  father(A, B) :- siblingof(A, B).  [covers 1,0/13,0 pos, 0,0/0,0 neg]
+%     Score = -0,656375 (regressionFit = 0,656373, penalties=1.23E-6) for clause:  father(A, _) :- siblingof(A, _).  [covers 5,0/13,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.0200000000000002E-6) for clause:  father(A, B) :- siblingof(B, A).  [covers 1,0/13,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.23E-6) for clause:  father(_, A) :- siblingof(A, _).  [covers 1,0/13,0 pos, 0,0/0,0 neg]
+
+% The best node found: father(_, A) :- male(A).  [covers 10,0/13,0 pos, 0,0/0,0 neg]
+
+% The best node found: father(_, A) :- male(A).  [covers 10,0/13,0 pos, 0,0/0,0 neg]
+Setting -0.004981312455203909 for 
+ // Learned this clause on outer loop cycle #2.  It scores=-0,51 and has recall=0,76, precision=0,99, and F1=0,86 (using m-estimates).
+ // It covers 76,9% of the positive examples, 10 of 13 (of which 5 are newly covered),
+ // So far 11 (84,6%) of the positive examples have been covered.
+(father(D, E) :- male(E))
+
+% On cycle #2, the best clause found is:
+%      father(_, A) :- male(A).  [covers 10,0/13,0 pos, 0,0/0,0 neg]
+% This clause covers 10 positive examples, of which 5 are newly covered.
+% It also covers 0 negative examples, of which 0 are newly covered.
+% The current set of 2 best clauses covers 84,6% of the positive examples and NaN% of the negatives.}
+
+% Have these 2 positive seeds: 8 10
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% target           = father(D, E)
+%     Score = -Infinity (regressionFit = Infinity, penalties=2.2E-7) for clause:  father(_, _).  [covers 13,0/13,0 pos, 0,0/0,0 neg]
+% Most-general root: father(_, _).  [covers 13,0/13,0 pos, 0,0/0,0 neg]  score = -Infinity
+
+% Consider expanding [#1 of outerLoop #3, bodyLen=0] 'father(_, _).  [covers 13,0/13,0 pos, 0,0/0,0 neg]' score=-Infinity
+%  At # nodes expanded = 1, |OPEN| = 0.  Pruned 0 variant children.  Sending 2 items to OPEN for evaluation and possible insertion.
+% Have created 2 valid-on-seeds descendants and have picked up 14 bad extensions.
+%     Score = -0,753565 (regressionFit = 0,753564, penalties=1.12E-6) for clause:  father(A, _) :- male(A).  [covers 9,0/13,0 pos, 0,0/0,0 neg]
+% Gleaner: New best node found (score = -0,753565): father(A, _) :- male(A).  [covers 9,0/13,0 pos, 0,0/0,0 neg]
+%     Score = -Infinity (regressionFit = Infinity, penalties=1.12E-6) for clause:  father(_, A) :- female(A).  [covers 2,0/13,0 pos, 0,0/0,0 neg]
+
+% The best node found: father(A, _) :- male(A).  [covers 9,0/13,0 pos, 0,0/0,0 neg]
+
+% The best node found: father(A, _) :- male(A).  [covers 9,0/13,0 pos, 0,0/0,0 neg]
+Setting -0.07687412388437329 for 
+ // Learned this clause on outer loop cycle #3.  It scores=-0,75 and has recall=0,69, precision=0,99, and F1=0,81 (using m-estimates).
+ // It covers 69,2% of the positive examples, 9 of 13 (of which 1 are newly covered),
+ // So far 12 (92,3%) of the positive examples have been covered.
+(father(D, E) :- male(D))
+
+% On cycle #3, the best clause found is:
+%      father(A, _) :- male(A).  [covers 9,0/13,0 pos, 0,0/0,0 neg]
+% This clause covers 9 positive examples, of which 1 are newly covered.
+% It also covers 0 negative examples, of which 0 are newly covered.
+% The current set of 3 best clauses covers 92,3% of the positive examples and NaN% of the negatives.}
+
+% ******************************************
+
+
+% ******************************************
+adding regression values
+Added 0.5975679577033091 to wgt = 0,5976 (father(A, B) :- childof(B, A))
+Added -0.004981312455203909 to wgt = -0,0050 (father(_, A) :- male(A))
+Added -0.07687412388437329 to wgt = -0,0769 (father(A, _) :- male(A))
+% Saving model in: datasets\Father-Mother\train/models/bRDNs/father.model.ckpt
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.
+
+% Have these 10 positive seeds: 0 1 2 3 4 6 7 11 13 14
+% [AdviceProcessor]  Generated 0 clauses at relevance level STRONGLY_IRRELEVANT.

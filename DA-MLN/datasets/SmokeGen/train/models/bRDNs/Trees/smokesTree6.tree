@@ -1,0 +1,7 @@
+setParam: stringsAreCaseSensitive = true.
+
+usePrologVariables: true.
+
+
+(smokes(A, 0.03243716684212818) :- friends(A, B), r_smokes(B)).
+(smokes(A, -0.007083419787773061) :- friends(A, B), r_smokes(B), friends(A, _)).

@@ -1,0 +1,25 @@
+setParam: treeDepth=4.
+setParam: nodeSize=2.
+setParam: numOfClauses=8.
+// setParam: recursion=true. 
+
+mode: friends(+Person, -Person).
+mode: friends(-Person, +Person).
+
+mode: smokes(+Person).
+
+mode: r_smokes(`Person).
+mode: r_not_smokes(`Person).
+
+// mode: recursive_smokes(`Person).
+// okIfUnknown: recursive_smokes/1.
+// mode: not_smokes(`Person).
+// mode: not_smokes(+Person).
+
+// mode: cancer(+Person).
+// mode: recursive_cancer(`Person).
+// okIfUnknown: recursive_cancer/1.
+// mode: not_cancer(`Person).
+// mode: not_cancer(+Person).
+
+bridger: friends/2.

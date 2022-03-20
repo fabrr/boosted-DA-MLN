@@ -1,0 +1,622 @@
+////// Learned from a dataset containing 25.460 positive (25.460,0 weighted sum) and 0 negative (0,0 wgt'ed) examples.
+////// The minimal (wgt'ed) coverage = 3,000, the maximal (wgt'ed) NEG coverage = 0,499, and the minimal (wgt'ed) precision = 0,001 (using m = 0,1)
+
+usePrologVariables: true.
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: allPossibleMarkers
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #0, (-Infinity, 0.05], from 'outerLoop #4, null' and covering 7,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,005, precision = 0,986, and F1 = 0,011 - learned after 49 total and 22 acceptable nodes.  Node score = -44.12228845762682
+
+ FOR movie(D, E) IF (workedunder(Anon8865, E), recursive_movie(D, Anon8865)) THEN output = 0,147867 ELSE output = -0,039284;
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #2, null' and covering 114,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,090, precision = 0,999, and F1 = 0,164 - learned after 3 total and 1 acceptable nodes.  Node score = -45.22336985326995
+
+ FOR movie(D, E) IF (director(E)) THEN output = -0,101341 ELSE output = -0,086813;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #4, null' and covering 304,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,239, precision = 1,000, and F1 = 0,385 - learned after 17 total and 10 acceptable nodes.  Node score = -45.738683747728174
+
+ FOR movie(D, E) IF (workedunder(E, Anon8863), genre(Anon8863, Anon8959)) THEN output = 0,000793 ELSE output = -0,069439;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #2, null' and covering 418,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,328, precision = 1,000, and F1 = 0,494 - learned after 2 total and 0 acceptable nodes.  Node score = -44.726223545590145
+
+ FOR movie(D, E) IF (female(E)) THEN output = -0,040631 ELSE output = -0,102444;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #2, null' and covering 1.159,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,910, precision = 1,000, and F1 = 0,953 - learned after 4 total and 2 acceptable nodes.  Node score = -45.22336985327096
+
+ FOR movie(D, E) IF (actor(E)) THEN output = -0,086813 ELSE output = -0,101341;
+      /* FALSE NEG: movie(apelicanbriefthe, apakulaalanj) Actual Bool=true Prob=0.47777381424854204 Output=0.522226185751458 */
+      /* FALSE NEG: movie(abadlands2005, amillergeorgei) Actual Bool=true Prob=0.5629747868594924 Output=0.4370252131405076 */
+      /* FALSE NEG: movie(asaramay, asciveresmarianna) Actual Bool=true Prob=0.24683107393070894 Output=0.7531689260692911 */
+      /* FALSE NEG: movie(arosenheimcopsdie, abraunbettinai) Actual Bool=true Prob=0.18880516210132126 Output=0.8111948378986787 */
+      /* FALSE NEG: movie(agrandpatronle, atonetticlaudio) Actual Bool=true Prob=0.3157488254952059 Output=0.6842511745047941 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #1, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #0, (-Infinity, 0.05], from 'outerLoop #1, null' and covering 21,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,016, precision = 0,995, and F1 = 0,032 - learned after 33 total and 15 acceptable nodes.  Node score = -45.079497225177
+
+ FOR movie(D, E) IF (workedunder(E, Anon9829), recursive_movie(D, Anon9829)) THEN output = 0,754326 ELSE output = -0,089592;
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #1, null' and covering 114,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,090, precision = 0,999, and F1 = 0,164 - learned after 3 total and 1 acceptable nodes.  Node score = -46.726191168256626
+
+ FOR movie(D, E) IF (director(E)) THEN output = -0,101341 ELSE output = -0,076518;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #1, null' and covering 304,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,239, precision = 1,000, and F1 = 0,385 - learned after 27 total and 12 acceptable nodes.  Node score = -47.411521567008606
+
+ FOR movie(D, E) IF (workedunder(E, Anon29205), genre(Anon29205, Anon29423)) THEN output = -0,045361 ELSE output = -0,071580;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #1, null' and covering 418,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,328, precision = 1,000, and F1 = 0,494 - learned after 2 total and 0 acceptable nodes.  Node score = -45.65188933513925
+
+ FOR movie(D, E) IF (female(E)) THEN output = -0,035975 ELSE output = -0,099649;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #1, null' and covering 1.159,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,910, precision = 1,000, and F1 = 0,953 - learned after 4 total and 2 acceptable nodes.  Node score = -46.72619116825685
+
+ FOR movie(D, E) IF (actor(E)) THEN output = -0,076518 ELSE output = -0,101341;
+      /* FALSE NEG: movie(apelicanbriefthe, apakulaalanj) Actual Bool=true Prob=0.47777381424854204 Output=0.522226185751458 */
+      /* FALSE NEG: movie(abadlands2005, amillergeorgei) Actual Bool=true Prob=0.5629747868594924 Output=0.4370252131405076 */
+      /* FALSE NEG: movie(asaramay, asciveresmarianna) Actual Bool=true Prob=0.24683107393070894 Output=0.7531689260692911 */
+      /* FALSE NEG: movie(arosenheimcopsdie, abraunbettinai) Actual Bool=true Prob=0.18880516210132126 Output=0.8111948378986787 */
+      /* FALSE NEG: movie(agrandpatronle, atonetticlaudio) Actual Bool=true Prob=0.3157488254952059 Output=0.6842511745047941 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #2, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #0, (-Infinity, 0.05], from 'outerLoop #2, null' and covering 21,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,016, precision = 0,995, and F1 = 0,032 - learned after 21 total and 11 acceptable nodes.  Node score = -45.07949722517699
+
+ FOR movie(D, E) IF (workedunder(E, Anon10773), recursive_movie(D, Anon10773)) THEN output = 3,17207e-17 ELSE output = -0,089592;
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #2, null' and covering 114,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,090, precision = 0,999, and F1 = 0,164 - learned after 3 total and 1 acceptable nodes.  Node score = -45.22336985326995
+
+ FOR movie(D, E) IF (director(E)) THEN output = -0,101341 ELSE output = -0,086813;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #2, null' and covering 304,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,239, precision = 1,000, and F1 = 0,385 - learned after 23 total and 12 acceptable nodes.  Node score = -46.01413870265568
+
+ FOR movie(D, E) IF (workedunder(E, Anon10773), genre(Anon10773, Anon10927)) THEN output = -0,050357 ELSE output = -0,080453;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #2, null' and covering 418,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,328, precision = 1,000, and F1 = 0,494 - learned after 2 total and 0 acceptable nodes.  Node score = -44.726223545590145
+
+ FOR movie(D, E) IF (female(E)) THEN output = -0,040631 ELSE output = -0,102444;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #2, null' and covering 1.159,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,910, precision = 1,000, and F1 = 0,953 - learned after 4 total and 2 acceptable nodes.  Node score = -45.22336985327096
+
+ FOR movie(D, E) IF (actor(E)) THEN output = -0,086813 ELSE output = -0,101341;
+      /* FALSE NEG: movie(apelicanbriefthe, apakulaalanj) Actual Bool=true Prob=0.47777381424854204 Output=0.522226185751458 */
+      /* FALSE NEG: movie(abadlands2005, amillergeorgei) Actual Bool=true Prob=0.5629747868594924 Output=0.4370252131405076 */
+      /* FALSE NEG: movie(asaramay, asciveresmarianna) Actual Bool=true Prob=0.24683107393070894 Output=0.7531689260692911 */
+      /* FALSE NEG: movie(arosenheimcopsdie, abraunbettinai) Actual Bool=true Prob=0.18880516210132126 Output=0.8111948378986787 */
+      /* FALSE NEG: movie(agrandpatronle, atonetticlaudio) Actual Bool=true Prob=0.3157488254952059 Output=0.6842511745047941 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #3, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #0, (-Infinity, 0.05], from 'outerLoop #3, null' and covering 7,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,005, precision = 0,986, and F1 = 0,011 - learned after 57 total and 26 acceptable nodes.  Node score = -45.54178444419573
+
+ FOR movie(D, E) IF (workedunder(Anon7921, E), recursive_movie(D, Anon7921)) THEN output = 0,147867 ELSE output = -0,057279;
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #3, null' and covering 114,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,090, precision = 0,999, and F1 = 0,164 - learned after 3 total and 1 acceptable nodes.  Node score = -45.81126145815516
+
+ FOR movie(D, E) IF (director(E)) THEN output = -0,101153 ELSE output = -0,091344;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #3, null' and covering 304,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,239, precision = 1,000, and F1 = 0,385 - learned after 17 total and 10 acceptable nodes.  Node score = -46.61240259147318
+
+ FOR movie(D, E) IF (workedunder(E, Anon7919), genre(Anon7919, Anon8007)) THEN output = -0,056419 ELSE output = -0,081696;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #3, null' and covering 418,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,328, precision = 1,000, and F1 = 0,494 - learned after 2 total and 0 acceptable nodes.  Node score = -44.727648444997904
+
+ FOR movie(D, E) IF (female(E)) THEN output = 6,89839e-16 ELSE output = -0,102213;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #3, null' and covering 1.159,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,910, precision = 1,000, and F1 = 0,953 - learned after 4 total and 2 acceptable nodes.  Node score = -45.81126145815563
+
+ FOR movie(D, E) IF (actor(E)) THEN output = -0,091344 ELSE output = -0,101153;
+      /* FALSE NEG: movie(apelicanbriefthe, apakulaalanj) Actual Bool=true Prob=0.14185106490048777 Output=0.515941609403073 */
+      /* FALSE NEG: movie(abadlands2005, amillergeorgei) Actual Bool=true Prob=0.14185106490048777 Output=0.515941609403073 */
+      /* FALSE NEG: movie(asaramay, asciveresmarianna) Actual Bool=true Prob=0.14185106490048777 Output=0.515941609403073 */
+      /* FALSE NEG: movie(arosenheimcopsdie, abraunbettinai) Actual Bool=true Prob=0.14185106490048777 Output=0.515941609403073 */
+      /* FALSE NEG: movie(agrandpatronle, atonetticlaudio) Actual Bool=true Prob=0.14185106490048777 Output=0.515941609403073 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #4, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #0, (-Infinity, 0.05], from 'outerLoop #4, null' and covering 7,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,005, precision = 0,986, and F1 = 0,011 - learned after 49 total and 22 acceptable nodes.  Node score = -44.12228845762682
+
+ FOR movie(D, E) IF (workedunder(Anon8865, E), recursive_movie(D, Anon8865)) THEN output = 0,147867 ELSE output = -0,039284;
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #4, null' and covering 95,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,075, precision = 0,999, and F1 = 0,139 - learned after 9 total and 6 acceptable nodes.  Node score = -46.10254993924123
+
+ FOR movie(D, E) IF (workedunder(E, Anon8863), female(E)) THEN output = 0,031190 ELSE output = -0,059829;
+
+// Best in (weighted) recall bin #4, (0.2, 0.25], from 'outerLoop #4, null' and covering 304,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,239, precision = 1,000, and F1 = 0,385 - learned after 17 total and 10 acceptable nodes.  Node score = -45.738683747728174
+
+ FOR movie(D, E) IF (workedunder(E, Anon8863), genre(Anon8863, Anon8959)) THEN output = 0,000793 ELSE output = -0,069439;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #4, null' and covering 399,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,313, precision = 1,000, and F1 = 0,477 - learned after 24 total and 12 acceptable nodes.  Node score = -45.19610544445123
+
+ FOR movie(D, E) IF (workedunder(E, Anon8863), workedunder(Anon8965, Anon8863)) THEN output = 0,000034 ELSE output = -0,077249;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #4, null' and covering 1.159,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,910, precision = 1,000, and F1 = 0,953 - learned after 4 total and 2 acceptable nodes.  Node score = -46.54094960695747
+
+ FOR movie(D, E) IF (actor(E)) THEN output = -0,048304 ELSE output = -0,101153;
+      /* FALSE NEG: movie(apelicanbriefthe, apakulaalanj) Actual Bool=true Prob=0.14185106490048777 Output=0.515941609403073 */
+      /* FALSE NEG: movie(abadlands2005, amillergeorgei) Actual Bool=true Prob=0.14185106490048777 Output=0.515941609403073 */
+      /* FALSE NEG: movie(asaramay, asciveresmarianna) Actual Bool=true Prob=0.14185106490048777 Output=0.515941609403073 */
+      /* FALSE NEG: movie(arosenheimcopsdie, abraunbettinai) Actual Bool=true Prob=0.14185106490048777 Output=0.515941609403073 */
+      /* FALSE NEG: movie(agrandpatronle, atonetticlaudio) Actual Bool=true Prob=0.14185106490048777 Output=0.515941609403073 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #5, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #5, null' and covering 114,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,090, precision = 0,999, and F1 = 0,164 - learned after 3 total and 1 acceptable nodes.  Node score = -68.26367331399165
+
+ FOR movie(D, E) IF (director(E)) THEN output = -0,089219 ELSE output = -0,057042;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #5, null' and covering 418,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,328, precision = 1,000, and F1 = 0,494 - learned after 2 total and 0 acceptable nodes.  Node score = -66.13636475636378
+
+ FOR movie(D, E) IF (female(E)) THEN output = -5,64142e-16 ELSE output = -0,089219;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #5, null' and covering 1.159,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,910, precision = 1,000, and F1 = 0,953 - learned after 4 total and 2 acceptable nodes.  Node score = -68.26367331399177
+
+ FOR movie(D, E) IF (actor(E)) THEN output = -0,057042 ELSE output = -0,089219;
+      /* FALSE NEG: movie(apelicanbriefthe, apakulaalanj) Actual Bool=true Prob=0.14185106490048777 Output=-91.22276795816363 */
+      /* FALSE NEG: movie(abadlands2005, amillergeorgei) Actual Bool=true Prob=0.14185106490048777 Output=-92.50078254732789 */
+      /* FALSE NEG: movie(asaramay, asciveresmarianna) Actual Bool=true Prob=0.14185106490048777 Output=15.588278566536928 */
+      /* FALSE NEG: movie(arosenheimcopsdie, abraunbettinai) Actual Bool=true Prob=0.14185106490048777 Output=-86.88823817595532 */
+      /* FALSE NEG: movie(agrandpatronle, atonetticlaudio) Actual Bool=true Prob=0.14185106490048777 Output=14.554512293069475 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #6, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #6, null' and covering 114,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,090, precision = 0,999, and F1 = 0,164 - learned after 3 total and 1 acceptable nodes.  Node score = -68.2636733139916
+
+ FOR movie(D, E) IF (director(E)) THEN output = -0,089219 ELSE output = -0,057042;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #6, null' and covering 418,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,328, precision = 1,000, and F1 = 0,494 - learned after 2 total and 0 acceptable nodes.  Node score = -66.13636475636376
+
+ FOR movie(D, E) IF (female(E)) THEN output = -7,16100e-16 ELSE output = -0,089219;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #6, null' and covering 1.159,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,910, precision = 1,000, and F1 = 0,953 - learned after 4 total and 2 acceptable nodes.  Node score = -68.26367331399173
+
+ FOR movie(D, E) IF (actor(E)) THEN output = -0,057042 ELSE output = -0,089219;
+      /* FALSE NEG: movie(apelicanbriefthe, apakulaalanj) Actual Bool=true Prob=0.14185106490048777 Output=0.8581489350995122 */
+      /* FALSE NEG: movie(abadlands2005, amillergeorgei) Actual Bool=true Prob=0.14185106490048777 Output=0.8581489350995122 */
+      /* FALSE NEG: movie(asaramay, asciveresmarianna) Actual Bool=true Prob=0.14185106490048777 Output=0.8581489350995122 */
+      /* FALSE NEG: movie(arosenheimcopsdie, abraunbettinai) Actual Bool=true Prob=0.14185106490048777 Output=0.8581489350995122 */
+      /* FALSE NEG: movie(agrandpatronle, atonetticlaudio) Actual Bool=true Prob=0.14185106490048777 Output=0.8581489350995122 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #7, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #7, null' and covering 114,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,090, precision = 0,999, and F1 = 0,164 - learned after 3 total and 1 acceptable nodes.  Node score = -68.2636733139916
+
+ FOR movie(D, E) IF (director(E)) THEN output = -0,089219 ELSE output = -0,057042;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #7, null' and covering 418,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,328, precision = 1,000, and F1 = 0,494 - learned after 2 total and 0 acceptable nodes.  Node score = -66.13636475636376
+
+ FOR movie(D, E) IF (female(E)) THEN output = -7,19421e-16 ELSE output = -0,089219;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #7, null' and covering 1.159,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,910, precision = 1,000, and F1 = 0,953 - learned after 4 total and 2 acceptable nodes.  Node score = -68.26367331399173
+
+ FOR movie(D, E) IF (actor(E)) THEN output = -0,057042 ELSE output = -0,089219;
+      /* FALSE NEG: movie(apelicanbriefthe, apakulaalanj) Actual Bool=true Prob=0.14185106490048777 Output=-91.22276795816363 */
+      /* FALSE NEG: movie(abadlands2005, amillergeorgei) Actual Bool=true Prob=0.14185106490048777 Output=-92.50078254732789 */
+      /* FALSE NEG: movie(asaramay, asciveresmarianna) Actual Bool=true Prob=0.14185106490048777 Output=15.588278566536928 */
+      /* FALSE NEG: movie(arosenheimcopsdie, abraunbettinai) Actual Bool=true Prob=0.14185106490048777 Output=-86.88823817595532 */
+      /* FALSE NEG: movie(agrandpatronle, atonetticlaudio) Actual Bool=true Prob=0.14185106490048777 Output=14.554512293069475 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #8, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #8, null' and covering 114,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,090, precision = 0,999, and F1 = 0,164 - learned after 3 total and 1 acceptable nodes.  Node score = -68.26367331399165
+
+ FOR movie(D, E) IF (director(E)) THEN output = -0,089219 ELSE output = -0,057042;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #8, null' and covering 418,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,328, precision = 1,000, and F1 = 0,494 - learned after 2 total and 0 acceptable nodes.  Node score = -66.13636475636378
+
+ FOR movie(D, E) IF (female(E)) THEN output = -7,06539e-16 ELSE output = -0,089219;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #8, null' and covering 1.159,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,910, precision = 1,000, and F1 = 0,953 - learned after 4 total and 2 acceptable nodes.  Node score = -68.26367331399176
+
+ FOR movie(D, E) IF (actor(E)) THEN output = -0,057042 ELSE output = -0,089219;
+      /* FALSE NEG: movie(apelicanbriefthe, apakulaalanj) Actual Bool=true Prob=0.14185106490048777 Output=0.8581489350995122 */
+      /* FALSE NEG: movie(abadlands2005, amillergeorgei) Actual Bool=true Prob=0.14185106490048777 Output=0.8581489350995122 */
+      /* FALSE NEG: movie(asaramay, asciveresmarianna) Actual Bool=true Prob=0.14185106490048777 Output=0.8581489350995122 */
+      /* FALSE NEG: movie(arosenheimcopsdie, abraunbettinai) Actual Bool=true Prob=0.14185106490048777 Output=0.8581489350995122 */
+      /* FALSE NEG: movie(agrandpatronle, atonetticlaudio) Actual Bool=true Prob=0.14185106490048777 Output=0.8581489350995122 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #9, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #9, null' and covering 114,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,090, precision = 0,999, and F1 = 0,164 - learned after 3 total and 1 acceptable nodes.  Node score = -68.2636733139916
+
+ FOR movie(D, E) IF (director(E)) THEN output = -0,089219 ELSE output = -0,057042;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #9, null' and covering 418,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,328, precision = 1,000, and F1 = 0,494 - learned after 2 total and 0 acceptable nodes.  Node score = -66.13636475636376
+
+ FOR movie(D, E) IF (female(E)) THEN output = -7,16100e-16 ELSE output = -0,089219;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #9, null' and covering 1.159,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,910, precision = 1,000, and F1 = 0,953 - learned after 4 total and 2 acceptable nodes.  Node score = -68.26367331399173
+
+ FOR movie(D, E) IF (actor(E)) THEN output = -0,057042 ELSE output = -0,089219;
+      /* FALSE NEG: movie(apelicanbriefthe, apakulaalanj) Actual Bool=true Prob=0.14185106490048777 Output=-91.22276795816363 */
+      /* FALSE NEG: movie(abadlands2005, amillergeorgei) Actual Bool=true Prob=0.14185106490048777 Output=-92.50078254732789 */
+      /* FALSE NEG: movie(asaramay, asciveresmarianna) Actual Bool=true Prob=0.14185106490048777 Output=15.588278566536928 */
+      /* FALSE NEG: movie(arosenheimcopsdie, abraunbettinai) Actual Bool=true Prob=0.14185106490048777 Output=-86.88823817595532 */
+      /* FALSE NEG: movie(agrandpatronle, atonetticlaudio) Actual Bool=true Prob=0.14185106490048777 Output=14.554512293069475 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #10, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #10, null' and covering 114,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,090, precision = 0,999, and F1 = 0,164 - learned after 3 total and 1 acceptable nodes.  Node score = -68.26367331399165
+
+ FOR movie(D, E) IF (director(E)) THEN output = -0,089219 ELSE output = -0,057042;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #10, null' and covering 418,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,328, precision = 1,000, and F1 = 0,494 - learned after 2 total and 0 acceptable nodes.  Node score = -66.13636475636378
+
+ FOR movie(D, E) IF (female(E)) THEN output = -5,64142e-16 ELSE output = -0,089219;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #10, null' and covering 1.159,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,910, precision = 1,000, and F1 = 0,953 - learned after 4 total and 2 acceptable nodes.  Node score = -68.26367331399177
+
+ FOR movie(D, E) IF (actor(E)) THEN output = -0,057042 ELSE output = -0,089219;
+      /* FALSE NEG: movie(apelicanbriefthe, apakulaalanj) Actual Bool=true Prob=0.14185106490048777 Output=0.8581489350995122 */
+      /* FALSE NEG: movie(abadlands2005, amillergeorgei) Actual Bool=true Prob=0.14185106490048777 Output=0.8581489350995122 */
+      /* FALSE NEG: movie(asaramay, asciveresmarianna) Actual Bool=true Prob=0.14185106490048777 Output=0.8581489350995122 */
+      /* FALSE NEG: movie(arosenheimcopsdie, abraunbettinai) Actual Bool=true Prob=0.14185106490048777 Output=0.8581489350995122 */
+      /* FALSE NEG: movie(agrandpatronle, atonetticlaudio) Actual Bool=true Prob=0.14185106490048777 Output=0.8581489350995122 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #11, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #11, null' and covering 114,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,090, precision = 0,999, and F1 = 0,164 - learned after 3 total and 1 acceptable nodes.  Node score = -68.2636733139916
+
+ FOR movie(D, E) IF (director(E)) THEN output = -0,089219 ELSE output = -0,057042;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #11, null' and covering 418,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,328, precision = 1,000, and F1 = 0,494 - learned after 2 total and 0 acceptable nodes.  Node score = -66.13636475636376
+
+ FOR movie(D, E) IF (female(E)) THEN output = -7,15337e-16 ELSE output = -0,089219;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #11, null' and covering 1.159,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,910, precision = 1,000, and F1 = 0,953 - learned after 4 total and 2 acceptable nodes.  Node score = -68.26367331399173
+
+ FOR movie(D, E) IF (actor(E)) THEN output = -0,057042 ELSE output = -0,089219;
+      /* FALSE NEG: movie(apelicanbriefthe, apakulaalanj) Actual Bool=true Prob=0.14185106490048777 Output=-91.22276795816363 */
+      /* FALSE NEG: movie(abadlands2005, amillergeorgei) Actual Bool=true Prob=0.14185106490048777 Output=-92.50078254732789 */
+      /* FALSE NEG: movie(asaramay, asciveresmarianna) Actual Bool=true Prob=0.14185106490048777 Output=15.588278566536928 */
+      /* FALSE NEG: movie(arosenheimcopsdie, abraunbettinai) Actual Bool=true Prob=0.14185106490048777 Output=-86.88823817595532 */
+      /* FALSE NEG: movie(agrandpatronle, atonetticlaudio) Actual Bool=true Prob=0.14185106490048777 Output=14.554512293069475 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #12, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #12, null' and covering 114,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,090, precision = 0,999, and F1 = 0,164 - learned after 3 total and 1 acceptable nodes.  Node score = -68.26367331399166
+
+ FOR movie(D, E) IF (director(E)) THEN output = -0,089219 ELSE output = -0,057042;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #12, null' and covering 418,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,328, precision = 1,000, and F1 = 0,494 - learned after 2 total and 0 acceptable nodes.  Node score = -66.13636475636379
+
+ FOR movie(D, E) IF (female(E)) THEN output = 6,99367e-16 ELSE output = -0,089219;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #12, null' and covering 1.159,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,910, precision = 1,000, and F1 = 0,953 - learned after 4 total and 2 acceptable nodes.  Node score = -68.26367331399186
+
+ FOR movie(D, E) IF (actor(E)) THEN output = -0,057042 ELSE output = -0,089219;
+      /* FALSE NEG: movie(apelicanbriefthe, apakulaalanj) Actual Bool=true Prob=0.14185106490048777 Output=-91.22276795816363 */
+      /* FALSE NEG: movie(abadlands2005, amillergeorgei) Actual Bool=true Prob=0.14185106490048777 Output=-92.50078254732789 */
+      /* FALSE NEG: movie(asaramay, asciveresmarianna) Actual Bool=true Prob=0.14185106490048777 Output=15.588278566536928 */
+      /* FALSE NEG: movie(arosenheimcopsdie, abraunbettinai) Actual Bool=true Prob=0.14185106490048777 Output=-86.88823817595532 */
+      /* FALSE NEG: movie(agrandpatronle, atonetticlaudio) Actual Bool=true Prob=0.14185106490048777 Output=14.554512293069475 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #13, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #13, null' and covering 114,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,090, precision = 0,999, and F1 = 0,164 - learned after 3 total and 1 acceptable nodes.  Node score = -68.2636733139916
+
+ FOR movie(D, E) IF (director(E)) THEN output = -0,089219 ELSE output = -0,057042;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #13, null' and covering 418,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,328, precision = 1,000, and F1 = 0,494 - learned after 2 total and 0 acceptable nodes.  Node score = -66.13636475636376
+
+ FOR movie(D, E) IF (female(E)) THEN output = -7,15104e-16 ELSE output = -0,089219;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #13, null' and covering 1.159,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,910, precision = 1,000, and F1 = 0,953 - learned after 4 total and 2 acceptable nodes.  Node score = -68.26367331399173
+
+ FOR movie(D, E) IF (actor(E)) THEN output = -0,057042 ELSE output = -0,089219;
+      /* FALSE NEG: movie(apelicanbriefthe, apakulaalanj) Actual Bool=true Prob=0.14185106490048777 Output=-91.22276795816363 */
+      /* FALSE NEG: movie(abadlands2005, amillergeorgei) Actual Bool=true Prob=0.14185106490048777 Output=-92.50078254732789 */
+      /* FALSE NEG: movie(asaramay, asciveresmarianna) Actual Bool=true Prob=0.14185106490048777 Output=15.588278566536928 */
+      /* FALSE NEG: movie(arosenheimcopsdie, abraunbettinai) Actual Bool=true Prob=0.14185106490048777 Output=-86.88823817595532 */
+      /* FALSE NEG: movie(agrandpatronle, atonetticlaudio) Actual Bool=true Prob=0.14185106490048777 Output=14.554512293069475 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #14, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #14, null' and covering 114,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,090, precision = 0,999, and F1 = 0,164 - learned after 3 total and 1 acceptable nodes.  Node score = -68.26367331399166
+
+ FOR movie(D, E) IF (director(E)) THEN output = -0,089219 ELSE output = -0,057042;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #14, null' and covering 418,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,328, precision = 1,000, and F1 = 0,494 - learned after 2 total and 0 acceptable nodes.  Node score = -66.13636475636379
+
+ FOR movie(D, E) IF (female(E)) THEN output = 6,99965e-16 ELSE output = -0,089219;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #14, null' and covering 1.159,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,910, precision = 1,000, and F1 = 0,953 - learned after 4 total and 2 acceptable nodes.  Node score = -68.26367331399186
+
+ FOR movie(D, E) IF (actor(E)) THEN output = -0,057042 ELSE output = -0,089219;
+      /* FALSE NEG: movie(apelicanbriefthe, apakulaalanj) Actual Bool=true Prob=0.14185106490048777 Output=-91.22276795816363 */
+      /* FALSE NEG: movie(abadlands2005, amillergeorgei) Actual Bool=true Prob=0.14185106490048777 Output=-92.50078254732789 */
+      /* FALSE NEG: movie(asaramay, asciveresmarianna) Actual Bool=true Prob=0.14185106490048777 Output=15.588278566536928 */
+      /* FALSE NEG: movie(arosenheimcopsdie, abraunbettinai) Actual Bool=true Prob=0.14185106490048777 Output=-86.88823817595532 */
+      /* FALSE NEG: movie(agrandpatronle, atonetticlaudio) Actual Bool=true Prob=0.14185106490048777 Output=14.554512293069475 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #15, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #15, null' and covering 114,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,090, precision = 0,999, and F1 = 0,164 - learned after 3 total and 1 acceptable nodes.  Node score = -68.2636733139916
+
+ FOR movie(D, E) IF (director(E)) THEN output = -0,089219 ELSE output = -0,057042;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #15, null' and covering 418,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,328, precision = 1,000, and F1 = 0,494 - learned after 2 total and 0 acceptable nodes.  Node score = -66.13636475636376
+
+ FOR movie(D, E) IF (female(E)) THEN output = -5,72641e-16 ELSE output = -0,089219;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #15, null' and covering 1.159,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,910, precision = 1,000, and F1 = 0,953 - learned after 4 total and 2 acceptable nodes.  Node score = -68.26367331399175
+
+ FOR movie(D, E) IF (actor(E)) THEN output = -0,057042 ELSE output = -0,089219;
+      /* FALSE NEG: movie(apelicanbriefthe, apakulaalanj) Actual Bool=true Prob=0.14185106490048777 Output=-91.22276795816363 */
+      /* FALSE NEG: movie(abadlands2005, amillergeorgei) Actual Bool=true Prob=0.14185106490048777 Output=-92.50078254732789 */
+      /* FALSE NEG: movie(asaramay, asciveresmarianna) Actual Bool=true Prob=0.14185106490048777 Output=15.588278566536928 */
+      /* FALSE NEG: movie(arosenheimcopsdie, abraunbettinai) Actual Bool=true Prob=0.14185106490048777 Output=-86.88823817595532 */
+      /* FALSE NEG: movie(agrandpatronle, atonetticlaudio) Actual Bool=true Prob=0.14185106490048777 Output=14.554512293069475 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #16, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #16, null' and covering 114,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,090, precision = 0,999, and F1 = 0,164 - learned after 3 total and 1 acceptable nodes.  Node score = -68.26367331399166
+
+ FOR movie(D, E) IF (director(E)) THEN output = -0,089219 ELSE output = -0,057042;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #16, null' and covering 418,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,328, precision = 1,000, and F1 = 0,494 - learned after 2 total and 0 acceptable nodes.  Node score = -66.13636475636379
+
+ FOR movie(D, E) IF (female(E)) THEN output = 6,00297e-16 ELSE output = -0,089219;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #16, null' and covering 1.159,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,910, precision = 1,000, and F1 = 0,953 - learned after 4 total and 2 acceptable nodes.  Node score = -68.26367331399184
+
+ FOR movie(D, E) IF (actor(E)) THEN output = -0,057042 ELSE output = -0,089219;
+      /* FALSE NEG: movie(apelicanbriefthe, apakulaalanj) Actual Bool=true Prob=0.14185106490048777 Output=-91.22276795816363 */
+      /* FALSE NEG: movie(abadlands2005, amillergeorgei) Actual Bool=true Prob=0.14185106490048777 Output=-92.50078254732789 */
+      /* FALSE NEG: movie(asaramay, asciveresmarianna) Actual Bool=true Prob=0.14185106490048777 Output=15.588278566536928 */
+      /* FALSE NEG: movie(arosenheimcopsdie, abraunbettinai) Actual Bool=true Prob=0.14185106490048777 Output=-86.88823817595532 */
+      /* FALSE NEG: movie(agrandpatronle, atonetticlaudio) Actual Bool=true Prob=0.14185106490048777 Output=14.554512293069475 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #17, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #17, null' and covering 114,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,090, precision = 0,999, and F1 = 0,164 - learned after 3 total and 1 acceptable nodes.  Node score = -68.2636733139916
+
+ FOR movie(D, E) IF (director(E)) THEN output = -0,089219 ELSE output = -0,057042;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #17, null' and covering 418,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,328, precision = 1,000, and F1 = 0,494 - learned after 2 total and 0 acceptable nodes.  Node score = -66.13636475636376
+
+ FOR movie(D, E) IF (female(E)) THEN output = -7,15337e-16 ELSE output = -0,089219;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #17, null' and covering 1.159,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,910, precision = 1,000, and F1 = 0,953 - learned after 4 total and 2 acceptable nodes.  Node score = -68.26367331399173
+
+ FOR movie(D, E) IF (actor(E)) THEN output = -0,057042 ELSE output = -0,089219;
+      /* FALSE NEG: movie(apelicanbriefthe, apakulaalanj) Actual Bool=true Prob=0.14185106490048777 Output=-91.22276795816363 */
+      /* FALSE NEG: movie(abadlands2005, amillergeorgei) Actual Bool=true Prob=0.14185106490048777 Output=-92.50078254732789 */
+      /* FALSE NEG: movie(asaramay, asciveresmarianna) Actual Bool=true Prob=0.14185106490048777 Output=15.588278566536928 */
+      /* FALSE NEG: movie(arosenheimcopsdie, abraunbettinai) Actual Bool=true Prob=0.14185106490048777 Output=-86.88823817595532 */
+      /* FALSE NEG: movie(agrandpatronle, atonetticlaudio) Actual Bool=true Prob=0.14185106490048777 Output=14.554512293069475 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #18, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #18, null' and covering 114,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,090, precision = 0,999, and F1 = 0,164 - learned after 3 total and 1 acceptable nodes.  Node score = -68.26367331399166
+
+ FOR movie(D, E) IF (director(E)) THEN output = -0,089219 ELSE output = -0,057042;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #18, null' and covering 418,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,328, precision = 1,000, and F1 = 0,494 - learned after 2 total and 0 acceptable nodes.  Node score = -66.13636475636379
+
+ FOR movie(D, E) IF (female(E)) THEN output = 6,99367e-16 ELSE output = -0,089219;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #18, null' and covering 1.159,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,910, precision = 1,000, and F1 = 0,953 - learned after 4 total and 2 acceptable nodes.  Node score = -68.26367331399186
+
+ FOR movie(D, E) IF (actor(E)) THEN output = -0,057042 ELSE output = -0,089219;
+      /* FALSE NEG: movie(apelicanbriefthe, apakulaalanj) Actual Bool=true Prob=0.14185106490048777 Output=-91.22276795816363 */
+      /* FALSE NEG: movie(abadlands2005, amillergeorgei) Actual Bool=true Prob=0.14185106490048777 Output=-92.50078254732789 */
+      /* FALSE NEG: movie(asaramay, asciveresmarianna) Actual Bool=true Prob=0.14185106490048777 Output=15.588278566536928 */
+      /* FALSE NEG: movie(arosenheimcopsdie, abraunbettinai) Actual Bool=true Prob=0.14185106490048777 Output=-86.88823817595532 */
+      /* FALSE NEG: movie(agrandpatronle, atonetticlaudio) Actual Bool=true Prob=0.14185106490048777 Output=14.554512293069475 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #19, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #19, null' and covering 114,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,090, precision = 0,999, and F1 = 0,164 - learned after 3 total and 1 acceptable nodes.  Node score = -68.2636733139916
+
+ FOR movie(D, E) IF (director(E)) THEN output = -0,089219 ELSE output = -0,057042;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #19, null' and covering 418,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,328, precision = 1,000, and F1 = 0,494 - learned after 2 total and 0 acceptable nodes.  Node score = -66.13636475636376
+
+ FOR movie(D, E) IF (female(E)) THEN output = -7,15104e-16 ELSE output = -0,089219;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #19, null' and covering 1.159,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,910, precision = 1,000, and F1 = 0,953 - learned after 4 total and 2 acceptable nodes.  Node score = -68.26367331399173
+
+ FOR movie(D, E) IF (actor(E)) THEN output = -0,057042 ELSE output = -0,089219;
+      /* FALSE NEG: movie(apelicanbriefthe, apakulaalanj) Actual Bool=true Prob=0.14185106490048777 Output=-91.22276795816363 */
+      /* FALSE NEG: movie(abadlands2005, amillergeorgei) Actual Bool=true Prob=0.14185106490048777 Output=-92.50078254732789 */
+      /* FALSE NEG: movie(asaramay, asciveresmarianna) Actual Bool=true Prob=0.14185106490048777 Output=15.588278566536928 */
+      /* FALSE NEG: movie(arosenheimcopsdie, abraunbettinai) Actual Bool=true Prob=0.14185106490048777 Output=-86.88823817595532 */
+      /* FALSE NEG: movie(agrandpatronle, atonetticlaudio) Actual Bool=true Prob=0.14185106490048777 Output=14.554512293069475 */
+
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////     Gleaner for: outerLoop #20, null
+////
+////////////////////////////////////////////////////////////////////////////////
+
+// Best in (weighted) recall bin #1, (0.05, 0.1], from 'outerLoop #20, null' and covering 114,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,090, precision = 0,999, and F1 = 0,164 - learned after 3 total and 1 acceptable nodes.  Node score = -68.26367331399166
+
+ FOR movie(D, E) IF (director(E)) THEN output = -0,089219 ELSE output = -0,057042;
+
+// Best in (weighted) recall bin #6, (0.3, 0.35], from 'outerLoop #20, null' and covering 418,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,328, precision = 1,000, and F1 = 0,494 - learned after 2 total and 0 acceptable nodes.  Node score = -66.13636475636379
+
+ FOR movie(D, E) IF (female(E)) THEN output = 6,99965e-16 ELSE output = -0,089219;
+
+// Best in (weighted) recall bin #18, (0.9, 0.95], from 'outerLoop #20, null' and covering 1.159,0 wgt'ed positive and 0,0 wgt'ed negative examples:
+//    Wgt'ed recall = 0,910, precision = 1,000, and F1 = 0,953 - learned after 4 total and 2 acceptable nodes.  Node score = -68.26367331399186
+
+ FOR movie(D, E) IF (actor(E)) THEN output = -0,057042 ELSE output = -0,089219;
+      /* FALSE NEG: movie(apelicanbriefthe, apakulaalanj) Actual Bool=true Prob=0.14185106490048777 Output=-91.22276795816363 */
+      /* FALSE NEG: movie(abadlands2005, amillergeorgei) Actual Bool=true Prob=0.14185106490048777 Output=-92.50078254732789 */
+      /* FALSE NEG: movie(asaramay, asciveresmarianna) Actual Bool=true Prob=0.14185106490048777 Output=15.588278566536928 */
+      /* FALSE NEG: movie(arosenheimcopsdie, abraunbettinai) Actual Bool=true Prob=0.14185106490048777 Output=-86.88823817595532 */
+      /* FALSE NEG: movie(agrandpatronle, atonetticlaudio) Actual Bool=true Prob=0.14185106490048777 Output=14.554512293069475 */
+

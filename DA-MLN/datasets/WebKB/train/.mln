@@ -1,0 +1,8 @@
+0,0369 faculty(a) v !project(_, a) v !project(_, a) /*  */
+-0,0118 faculty(a) v !project(b, a) v !project(b, _) v !project(b, _) /*  */
+0,3263 faculty(a) v !project(_, a) /*  */
+-0,6338 faculty(a) v !courseta(_, a) /*  */
+-0,0024 faculty(a) v !project(b, a) v !project(b, _) v !project(b, _) v !project(_, a) /*  */
+1,0056 faculty(a) v !courseprof(_, a) /*  */
+-0,0034 faculty(a) v !project(b, a) v !project(_, a) v !project(b, _) v !project(b, _) /*  */
+-0,0011 faculty(a) v !project(b, a) v !project(_, a) v !project(_, a) v !project(b, _) v !project(b, _) /*  */

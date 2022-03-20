@@ -1,0 +1,46 @@
+Log stream opened: C:\Users\MSI\Documents\code\DAMLNBoostJar\smokegen/smokegen_smokes//smokes_65_7///sample_log.txt
+
+SmokeSample main
+Current directory: C:\Users\MSI\Documents\code\DAMLNBoostJar\smokegen
+Dataset path: /smokegen_smokes//smokes_65_7//
+
+Create Full Dataset
+
+Reading Dataset... done!
+
+Dataset loaded!
+Person constants: 225
+Smokes ground atoms: 69
+NotSmokes ground atoms: 156
+Cancer ground atoms: 40
+NotCancer ground atoms: 185
+Friends ground atoms: 3996
+
+Write Dataset
+Data prefix: test
+Writing 'test_facts.txt' file... done!
+Writing 'test_pos.txt' file... done!
+Writing 'test_neg.txt' file... done!
+
+Sample Dataset
+Sample person: 0.65
+
+Sampling constants... done!
+Adding relevant constants and ground atoms... done!
+
+Sample Dataset created!
+Person constants: 147/225
+Smokes ground atoms: 46/69
+NotSmokes ground atoms: 101/156
+Cancer ground atoms: 23/40
+NotCancer ground atoms: 124/185
+Friends ground atoms: 1644/3996
+
+Write Dataset
+Data prefix: train
+Writing 'train_facts.txt' file... done!
+Writing 'train_pos.txt' file... done!
+Writing 'train_neg.txt' file... done!
+
+Exiting main...
+Log stream closing...

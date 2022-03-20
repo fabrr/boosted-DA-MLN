@@ -1,0 +1,24 @@
+setParam: stringsAreCaseSensitive = true.
+
+usePrologVariables: true.
+
+
+(smokes(A, 0.041534953642508754) :- friends(A, B), r_smokes(B)).
+(smokes(A, 0.011867129612145342) :- friends(A, B), r_smokes(B)).
+(smokes(A, 0.003390608460612943) :- friends(A, B), r_smokes(B)).
+(smokes(A, 9.687452744608786E-4) :- friends(A, B), r_smokes(B)).
+(smokes(A, 2.767843641316387E-4) :- friends(A, B), r_smokes(B)).
+(smokes(A, 7.908124689475235E-5) :- friends(A, B), r_smokes(B)).
+(smokes(A, 2.259464196997102E-5) :- friends(A, B), r_smokes(B)).
+(smokes(A, 6.4556119914212825E-6) :- friends(A, B), r_smokes(B)).
+(smokes(A, 1.8444605689479126E-6) :- friends(A, B), r_smokes(B)).
+(smokes(A, 5.269887340189627E-7) :- friends(A, B), r_smokes(B)).
+(smokes(A, 1.5056820972565127E-7) :- friends(A, B), r_smokes(B)).
+(smokes(A, 4.301948850522168E-8) :- friends(A, B), r_smokes(B)).
+(smokes(A, 1.2291282413494958E-8) :- friends(A, B), r_smokes(B)).
+(smokes(A, 3.511794954042762E-9) :- friends(A, B), r_smokes(B)).
+(smokes(A, 1.0033699902680026E-9) :- friends(A, B), r_smokes(B)).
+(smokes(A, 2.866771562201212E-10) :- friends(A, B), r_smokes(B)).
+(smokes(A, 8.19077375369126E-11) :- friends(A, B), r_smokes(B)).
+(smokes(A, 2.3402204777208826E-11) :- friends(A, B), r_smokes(B)).
+(smokes(A, 6.686358807897871E-12) :- friends(A, B), r_smokes(B)).

@@ -1,0 +1,179 @@
+% Running on host: DESKTOP-0S2LA4F
+
+% Creating string handler #1.
+
+
+% Switching to VarIndicator = uppercase.
+
+% Unset'ing VarIndicator.
+
+% Switching to VarIndicator = questionMarks.
+
+% getInputArgWithDefaultValue: args=[datasets\Toy-Cancer\test/test_pos.txt, datasets\Toy-Cancer\test/test_neg.txt, datasets\Toy-Cancer\test/test_bk.txt, datasets\Toy-Cancer\test/test_facts.txt, null]
+%  for N=0: args[N]=datasets\Toy-Cancer\test/test_pos.txt
+
+% getInputArgWithDefaultValue: args=[datasets\Toy-Cancer\test/test_pos.txt, datasets\Toy-Cancer\test/test_neg.txt, datasets\Toy-Cancer\test/test_bk.txt, datasets\Toy-Cancer\test/test_facts.txt, null]
+%  for N=1: args[N]=datasets\Toy-Cancer\test/test_neg.txt
+
+% getInputArgWithDefaultValue: args=[datasets\Toy-Cancer\test/test_pos.txt, datasets\Toy-Cancer\test/test_neg.txt, datasets\Toy-Cancer\test/test_bk.txt, datasets\Toy-Cancer\test/test_facts.txt, null]
+%  for N=2: args[N]=datasets\Toy-Cancer\test/test_bk.txt
+
+% getInputArgWithDefaultValue: args=[datasets\Toy-Cancer\test/test_pos.txt, datasets\Toy-Cancer\test/test_neg.txt, datasets\Toy-Cancer\test/test_bk.txt, datasets\Toy-Cancer\test/test_facts.txt, null]
+%  for N=3: args[N]=datasets\Toy-Cancer\test/test_facts.txt
+
+% Welcome to the WILL ILP/SRL systems.
+
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+% Reading background theory from dir: null
+% Load '../toy_cancer_bk.txt'.
+
+% Switching to standard-logic notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = lowercase.
+
+% Switching to VarIndicator = questionMarks.
+  loadThisFile: i=1 newName=precomputed1.txt sents=[(num_of_smoking_friends(?x, ?n) :- friends(?x, ?y), countUniqueBindings(friends(?x, ?z), smokes(?z), ?n))]
+% LoadAllModes() called.  Currently loaded modes: []
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+
+% Switching to Prolog notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = uppercase.
+
+% Switching to VarIndicator = questionMarks.
+% LoadAllLibraries() called.  Currently loaded libraries: [listsInLogic, differentInLogic, modes_arithmeticInLogic, inlines_comparisonInLogic, modes_listsInLogic, inlines_differentInLogic, modes_differentInLogic, arithmeticInLogic, inlines_listsInLogic, modes_comparisonInLogic, comparisonInLogic, inlines_arithmeticInLogic]
+
+%  Read the facts.
+
+% Switching to standard-logic notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = lowercase.
+
+% Switching to VarIndicator = questionMarks.
+%  Have read 13 facts.
+
+%  LearnOneClause initialized.
+% Have read 3 examples from 'datasets\Toy-Cancer\test' [datasets\Toy-Cancer\test/test*].
+% Have read 2 examples from 'datasets\Toy-Cancer\test' [datasets\Toy-Cancer\test/test*].
+
+% NEW target:                 cancer(?a)
+%  targetPred:                cancer/1
+%  targetArgTypes:            signature = [Const], types = [+Person]
+%  targets:                   [cancer(?a)]
+%  targetPredicates:          [cancer/1]
+%  targetArgSpecs:            [[?a[+Person]]]
+%  variablesInTargets:        [[?a]]
+
+% Precompute #1's requests: 'precomputed1.txt'
+%   num_of_smoking_friends(?x, ?n) :- friends(?x, ?y), countUniqueBindings(friends(?x, ?z), smokes(?z), ?n)
+% Processing precompute file: precomputed1.txt
+Writing to file: C:\Users\MSI\Documents\code\BoostSRL\precomputed1.txt
+% Loading: precomputed1.txt
+
+% Switching to standard-logic notation for variables; previous setting = questionMarks
+
+% Switching to VarIndicator = lowercase.
+
+% Switching to VarIndicator = questionMarks.
+% Read an additional 5 facts from edu.wisc.cs.will.Utils.condor.CondorFileReader@2fd6b6c7.
+
+% Started collecting constants
+
+% Collecting the types of constants.
+
+% Looking at the training examples to see if any types of new constants can be inferred.
+% Time to collect constants: 1 milliseconds
+% Time to collect examples: 0 seconds
+
+% Read 3 pos examples and 2 neg examples.
+% Time to init learnOneClause: 28 milliseconds
+
+% Domain sizes loaded.
+
+Train domain sizes:
+Person: 6
+
+Test domain sizes:
+Person: 5
+
+Domain size scales:
+Person: 0.8333333333333334
+
+Scaling weights...
+Tree #0
+Clause: (smokes(a) ^ friends(a, b) ^ friends(b, _) => cancer(a, 0.8581489350995121)), scaling factor: 0.6944444444444445, scaled weight: 1.2357344665432972
+Tree #1
+Clause: (friends(a, _) ^ smokes(a) => cancer(a, 0.23982447073698485)), scaling factor: 0.8333333333333334, scaled weight: 0.2877893648843818
+Tree #2
+Clause: (friends(a, _) ^ smokes(a) => cancer(a, 0.18486247615995163)), scaling factor: 0.8333333333333334, scaled weight: 0.22183497139194194
+Tree #3
+Clause: (friends(a, _) ^ smokes(a) => cancer(a, 0.14040387176866745)), scaling factor: 0.8333333333333334, scaled weight: 0.16848464612240094
+Tree #4
+Clause: (smokes(a) => cancer(a, 0.3723926613382808)), scaling factor: 1.0, scaled weight: 0.3723926613382808
+Tree #5
+Clause: (smokes(a) => cancer(a, 0.2941390485445486)), scaling factor: 1.0, scaled weight: 0.2941390485445486
+Tree #6
+Clause: (smokes(a) => cancer(a, 0.23920331215821025)), scaling factor: 1.0, scaled weight: 0.23920331215821025
+Tree #7
+Clause: (smokes(a) => cancer(a, 0.19976702016900758)), scaling factor: 1.0, scaled weight: 0.19976702016900758
+Tree #8
+Clause: (smokes(a) ^ friends(a, b) ^ friends(b, _) ^ friends(b, _) => cancer(a, 0.010468655048999272)), scaling factor: 0.6944444444444445, scaled weight: 0.01507486327055895
+Tree #9
+Clause: (smokes(a) ^ friends(a, b) ^ friends(b, _) ^ friends(b, _) => cancer(a, 0.008907355974205911)), scaling factor: 0.6944444444444445, scaled weight: 0.01282659260285651
+
+% for cancer |lookupPos| = 3
+% for cancer |lookupNeg| = 2
+% getJointExamples: |pos| = 3, |neg| = 2
+
+% Starting inference in bRDN.
+
+% Subsampling the negative examples.
+% Trees = 10
+ (Arithmetic) Mean Probability Assigned to Correct Output Class: 4,707/5,00 = 0,941498
+
+ The weighted count of positive examples = 3,000 and the weighted count of negative examples = 2,000
+
+printExamples: Writing out predictions (for Tuffy?) on 5 examples for 'cancer' to:
+  datasets\Toy-Cancer\test/results_cancer.db
+ and to:
+  datasets\Toy-Cancer\test/query_cancer.db
+%    No need to compress since small: datasets\Toy-Cancer\test/query_cancer.db
+
+% Computing Area Under Curves.
+%Pos=3
+%Neg=2
+%LL:-0.008820051233504494
+%LL:-0.31477527228565283
+
+% Running command: java -jar src/edu/wisc/cs/will/DataSetUtils/auc.jar datasets\Toy-Cancer\test/AUC/aucTemp.txt list 0.0
+% WAITING FOR command: java -jar src/edu/wisc/cs/will/DataSetUtils/auc.jar datasets\Toy-Cancer\test/AUC/aucTemp.txt list 0.0
+% DONE WAITING FOR command: java -jar src/edu/wisc/cs/will/DataSetUtils/auc.jar datasets\Toy-Cancer\test/AUC/aucTemp.txt list 0.0
+
+%   AUC ROC   = 1,000000
+%   AUC PR    = 1,000000
+%   CLL	      = -0,062955
+%   Precision = 1,000000 at threshold = 0,569
+%   Recall    = 1,000000
+%   F1        = 1,000000
+
+% Total inference time (10 trees): 2 minutes and 38,943 seconds.
